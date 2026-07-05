@@ -8,6 +8,11 @@ created: 2026-07-05
 
 # Chapter 13 — Progress through Revolutions
 
+<audio controls preload="none" style="width:100%" src="../../audio/ch-13-progress-through-revolutions.mp3"></audio>
+
+![ch-13-progress-through-revolutions overview infographic](../infographics/ch-13-progress-through-revolutions-start.jpg)
+
+
 ## Core Thesis
 
 Science progresses — but **from**, not **toward**. Kuhn's closing move is an evolutionary analogy: as Darwin removed the goal from biological evolution, Kuhn removes the goal from scientific development. Later science is better at puzzle-solving than earlier science — more problems solved, more precision — without needing to be closer to a final truth. Progress is real, directional, and goalless.
@@ -43,6 +48,8 @@ Measure progress as capability, not destiny. Teams chasing "the right architectu
 > "We may, to be more precise, have to relinquish the notion, explicit or implicit, that changes of paradigm carry scientists and those who learn from them closer and closer to the truth."
 
 > "The developmental process described in this essay has been a process of evolution from primitive beginnings... But nothing that has been or will be said makes it a process of evolution toward anything."
+
+![ch-13-progress-through-revolutions transformation infographic](../infographics/ch-13-progress-through-revolutions-end.jpg)
 
 ## Reflection Questions
 

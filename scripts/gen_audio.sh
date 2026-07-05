@@ -1,11 +1,11 @@
 #!/bin/bash
 # Stage 4: synthesize audio overviews. Idempotent — skips existing mp3s.
 set -u
-SCRIPTS=/home/sanjayg4/living-books/scripts/audio_scripts
-OUT=/home/sanjayg4/living-books/docs/books/laws-of-human-nature/audio
+SCRIPTS=${1:-/home/sanjayg4/living-books/scripts/audio_scripts}
+OUT=${2:-/home/sanjayg4/living-books/docs/books/laws-of-human-nature/audio}
 TMP=$(mktemp -d)
 cd /home/sanjayg4/chatterbox
-for f in "$SCRIPTS"/law-*.txt; do
+for f in "$SCRIPTS"/*.txt; do
   base=$(basename "$f" .txt)
   [ -f "$OUT/$base.mp3" ] && { echo "skip $base"; continue; }
   ./voice --text "$f" --out "$TMP/$base.wav" >/dev/null 2>&1

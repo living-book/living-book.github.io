@@ -8,6 +8,11 @@ created: 2026-07-05
 
 # Chapter 14 — Postscript: 1969
 
+<audio controls preload="none" style="width:100%" src="../../audio/ch-14-postscript.mp3"></audio>
+
+![ch-14-postscript overview infographic](../infographics/ch-14-postscript-start.jpg)
+
+
 ## Core Thesis
 
 Seven years of criticism, answered. Kuhn splits the overloaded word "paradigm" in two: the **disciplinary matrix** — the entire constellation a community shares (symbolic generalizations, metaphysical models, values, exemplars) — and the **exemplar** — the concrete problem-solutions that do the deepest work. He recenters the whole theory on community structure, refines incommensurability into partial communication breakdown (translatable with effort), and rebuts the irrationalism charge.
@@ -44,6 +49,8 @@ The disciplinary matrix is a diagnostic for any expert community: What formulas 
 > "The paradigm as shared example is the central element of what I now take to be the most novel and least understood aspect of this book."
 
 > "Individual variability in the application of shared values may serve functions essential to science."
+
+![ch-14-postscript transformation infographic](../infographics/ch-14-postscript-end.jpg)
 
 ## Reflection Questions
 

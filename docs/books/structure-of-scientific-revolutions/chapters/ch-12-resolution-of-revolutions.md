@@ -8,6 +8,11 @@ created: 2026-07-05
 
 # Chapter 12 — The Resolution of Revolutions
 
+<audio controls preload="none" style="width:100%" src="../../audio/ch-12-resolution-of-revolutions.mp3"></audio>
+
+![ch-12-resolution-of-revolutions overview infographic](../infographics/ch-12-resolution-of-revolutions-start.jpg)
+
+
 ## Core Thesis
 
 Paradigm debates end not by proof but by **conversion and community shift**. Because the contest is incommensurable, arguments are circular and no algorithm of theory choice exists. What decides: the new paradigm's ability to solve the crisis problems, displays of quantitative precision, aesthetic appeal ("neater," "simpler"), and — bluntly — generational turnover, as the old guard's resistance is outlived rather than out-argued.
@@ -43,6 +48,8 @@ Driving change: recruit early adopters on promise, arm them to produce visible w
 > "The transfer of allegiance from paradigm to paradigm is a conversion experience that cannot be forced."
 
 > "The man who embraces a new paradigm at an early stage must often do so in defiance of the evidence provided by problem-solving... a decision of that kind can only be made on faith."
+
+![ch-12-resolution-of-revolutions transformation infographic](../infographics/ch-12-resolution-of-revolutions-end.jpg)
 
 ## Reflection Questions
 

@@ -8,6 +8,11 @@ created: 2026-07-05
 
 # Chapter 11 — The Invisibility of Revolutions
 
+<audio controls preload="none" style="width:100%" src="../../audio/ch-11-invisibility-of-revolutions.mp3"></audio>
+
+![ch-11-invisibility-of-revolutions overview infographic](../infographics/ch-11-invisibility-of-revolutions-start.jpg)
+
+
 ## Core Thesis
 
 Revolutions become invisible almost as soon as they succeed. Textbooks — the medium through which each generation learns its science — are rewritten after every revolution, and they rewrite history backwards: past scientists appear to have been working on today's problems with today's standards, and science appears cumulative. The revolution's victors erase the war.
@@ -43,6 +48,8 @@ Every organization writes textbook history: the founding myth, the "inevitable" 
 > "Textbooks... have to be rewritten in whole or in part whenever the language, problem-structure, or standards of normal science change... and, once rewritten, they inevitably disguise not only the role but the very existence of the revolutions that produced them."
 
 > "The member of a mature scientific community is, like the typical character of Orwell's 1984, the victim of a history rewritten by the powers that be."
+
+![ch-11-invisibility-of-revolutions transformation infographic](../infographics/ch-11-invisibility-of-revolutions-end.jpg)
 
 ## Reflection Questions
 

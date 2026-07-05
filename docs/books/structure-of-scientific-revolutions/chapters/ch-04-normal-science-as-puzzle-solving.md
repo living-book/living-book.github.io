@@ -8,6 +8,11 @@ created: 2026-07-05
 
 # Chapter 4 — Normal Science as Puzzle-Solving
 
+<audio controls preload="none" style="width:100%" src="../../audio/ch-04-normal-science-as-puzzle-solving.mp3"></audio>
+
+![ch-04-normal-science-as-puzzle-solving overview infographic](../infographics/ch-04-normal-science-as-puzzle-solving-start.jpg)
+
+
 ## Core Thesis
 
 Normal research problems are **puzzles**: challenges where a solution is assured to exist, the rules constrain admissible moves, and failure discredits the scientist rather than the theory. Like a chess problem or crossword, the fascination isn't the outcome's importance — it's the test of ingenuity against known constraints.
@@ -43,6 +48,8 @@ Well-run engineering and operations teams work in puzzle mode: the architecture 
 > "Though intrinsic value is no criterion for a puzzle, the assured existence of a solution is."
 
 > "It is a poor carpenter who blames his tools... only the practitioner is blamed, not his tools."
+
+![ch-04-normal-science-as-puzzle-solving transformation infographic](../infographics/ch-04-normal-science-as-puzzle-solving-end.jpg)
 
 ## Reflection Questions
 

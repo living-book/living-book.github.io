@@ -8,6 +8,11 @@ created: 2026-07-05
 
 # Chapter 5 — The Priority of Paradigms
 
+<audio controls preload="none" style="width:100%" src="../../audio/ch-05-priority-of-paradigms.mp3"></audio>
+
+![ch-05-priority-of-paradigms overview infographic](../infographics/ch-05-priority-of-paradigms-start.jpg)
+
+
 ## Core Thesis
 
 Paradigms are prior to, and deeper than, any set of rules you could extract from them. Scientists agree on exemplary solutions — concrete model problems — without necessarily agreeing on, or even being able to state, the rules those solutions embody. Shared examples, not shared definitions, hold a research tradition together.
@@ -43,6 +48,8 @@ Onboarding, style guides, and playbooks fail when written as rules alone. What a
 > "Paradigms may be prior to, more binding, and more complete than any set of rules for research that could be unequivocally abstracted from them."
 
 > "Scientists work from models acquired through education... often without quite knowing or needing to know what characteristics have given these models the status of community paradigms."
+
+![ch-05-priority-of-paradigms transformation infographic](../infographics/ch-05-priority-of-paradigms-end.jpg)
 
 ## Reflection Questions
 

@@ -9,10 +9,12 @@ Each book here gets a full study companion — chapter summaries, study guides, 
 ## The Library
 
 <a href="books/laws-of-human-nature/"><img src="books/laws-of-human-nature/infographics/cover.jpg" alt="The Laws of Human Nature cover" width="220"></a>
+<a href="books/structure-of-scientific-revolutions/"><img src="books/structure-of-scientific-revolutions/infographics/cover.jpg" alt="The Structure of Scientific Revolutions cover" width="220"></a>
 
 | Book | Author | Companion |
 |------|--------|-----------|
-| The Laws of Human Nature | Robert Greene | [18 chapters, 18 study guides, infographics](books/laws-of-human-nature/index.md) |
+| The Laws of Human Nature | Robert Greene | [18 chapters · study guides · infographics · audio](books/laws-of-human-nature/index.md) |
+| The Structure of Scientific Revolutions | Thomas S. Kuhn | [14 chapters · study guides · infographics · audio](books/structure-of-scientific-revolutions/index.md) |
 
 *More books coming — [request one](#feedback).*
 

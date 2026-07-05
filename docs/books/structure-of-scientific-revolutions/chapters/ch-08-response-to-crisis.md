@@ -8,6 +8,11 @@ created: 2026-07-05
 
 # Chapter 8 — The Response to Crisis
 
+<audio controls preload="none" style="width:100%" src="../../audio/ch-08-response-to-crisis.mp3"></audio>
+
+![ch-08-response-to-crisis overview infographic](../infographics/ch-08-response-to-crisis-start.jpg)
+
+
 ## Core Thesis
 
 Even in deep crisis, scientists do not treat anomalies as Popperian refutations, and they do not abandon a paradigm until an alternative candidate is available. **To reject one paradigm without substituting another is to reject science itself.** Crisis loosens the rules, multiplies competing articulations, and drives some practitioners to philosophy — but the decision is always a comparison between paradigms, never between paradigm and nature alone.
@@ -43,6 +48,8 @@ Never kill a system, strategy, or process on failure alone; kill it on compariso
 > "To reject one paradigm without simultaneously substituting another is to reject science itself."
 
 > "Once it has achieved the status of paradigm, a scientific theory is declared invalid only if an alternate candidate is available to take its place."
+
+![ch-08-response-to-crisis transformation infographic](../infographics/ch-08-response-to-crisis-end.jpg)
 
 ## Reflection Questions
 

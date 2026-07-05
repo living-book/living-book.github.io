@@ -8,6 +8,11 @@ created: 2026-07-05
 
 # Chapter 6 — Anomaly and the Emergence of Scientific Discoveries
 
+<audio controls preload="none" style="width:100%" src="../../audio/ch-06-anomaly-and-discovery.mp3"></audio>
+
+![ch-06-anomaly-and-discovery overview infographic](../infographics/ch-06-anomaly-and-discovery-start.jpg)
+
+
 ## Core Thesis
 
 Discovery is not an event but a **structured process**: it begins with the awareness of anomaly — nature violating paradigm-induced expectations — and ends only when the paradigm has been adjusted so the anomalous becomes the expected. Paradoxically, the paradigm's rigidity is what makes anomalies visible: you can only be surprised if you had precise expectations.
@@ -43,6 +48,8 @@ Instrument your expectations. A team that predicts precisely (forecasts, error b
 > "Discovery commences with the awareness of anomaly, i.e., with the recognition that nature has somehow violated the paradigm-induced expectations that govern normal science."
 
 > "Novelty ordinarily emerges only for the man who, knowing with precision what he should expect, is able to recognize that something has gone wrong."
+
+![ch-06-anomaly-and-discovery transformation infographic](../infographics/ch-06-anomaly-and-discovery-end.jpg)
 
 ## Reflection Questions
 

@@ -8,6 +8,11 @@ created: 2026-07-05
 
 # Chapter 3 — The Nature of Normal Science
 
+<audio controls preload="none" style="width:100%" src="../../audio/ch-03-nature-of-normal-science.mp3"></audio>
+
+![ch-03-nature-of-normal-science overview infographic](../infographics/ch-03-nature-of-normal-science-start.jpg)
+
+
 ## Core Thesis
 
 Normal science is **mop-up work** — and Kuhn means that as high praise. Once a paradigm wins, scientists don't test it; they extend it. The paradigm is a promise, and normal science is the actualization of that promise: increasing the precision of facts the paradigm marks as important, improving the match between facts and theory, and articulating the theory itself.
@@ -43,6 +48,8 @@ Most valuable work in any mature practice is normal science: refactoring within 
 > "Mopping-up operations are what engage most scientists throughout their careers."
 
 > "Normal science does not aim at novelties of fact or theory and, when successful, finds none."
+
+![ch-03-nature-of-normal-science transformation infographic](../infographics/ch-03-nature-of-normal-science-end.jpg)
 
 ## Reflection Questions
 

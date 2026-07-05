@@ -8,6 +8,11 @@ created: 2026-07-05
 
 # Chapter 7 — Crisis and the Emergence of Scientific Theories
 
+<audio controls preload="none" style="width:100%" src="../../audio/ch-07-crisis-and-new-theories.mp3"></audio>
+
+![ch-07-crisis-and-new-theories overview infographic](../infographics/ch-07-crisis-and-new-theories-start.jpg)
+
+
 ## Core Thesis
 
 New theories are born from **crisis**: a period when a paradigm's core puzzles persistently refuse solution, confidence erodes, and the field's ailment becomes common knowledge. Crisis is the essential precondition of novel theory — no community abandons its way of seeing the world over a mere handful of anomalies.
@@ -43,6 +48,8 @@ Organizations rarely adopt genuinely new models while the old one still hits its
 > "Novel theory emerged only after a pronounced failure in the normal problem-solving activity."
 
 > "The significance of crises is the indication they provide that an occasion for retooling has arrived."
+
+![ch-07-crisis-and-new-theories transformation infographic](../infographics/ch-07-crisis-and-new-theories-end.jpg)
 
 ## Reflection Questions
 

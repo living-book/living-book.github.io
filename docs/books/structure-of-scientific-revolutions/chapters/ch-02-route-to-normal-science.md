@@ -8,6 +8,11 @@ created: 2026-07-05
 
 # Chapter 2 — The Route to Normal Science
 
+<audio controls preload="none" style="width:100%" src="../../audio/ch-02-route-to-normal-science.mp3"></audio>
+
+![ch-02-route-to-normal-science overview infographic](../infographics/ch-02-route-to-normal-science-start.jpg)
+
+
 ## Core Thesis
 
 A field becomes a science when it acquires its first **paradigm** — an achievement so compelling that it draws practitioners away from competing schools and so open-ended that it leaves plenty of problems to solve. Before the paradigm: chaos of competing schools, each rebuilding foundations. After: a community that agrees on fundamentals and gets to work on details.
@@ -43,6 +48,8 @@ Diagnose any field or organization: is it pre-paradigm (every meeting relitigate
 > "To be accepted as a paradigm, a theory must seem better than its competitors, but it need not, and in fact never does, explain all the facts with which it can be confronted."
 
 > "In the absence of a paradigm... all of the facts that could possibly pertain to the development of a given science are likely to seem equally relevant."
+
+![ch-02-route-to-normal-science transformation infographic](../infographics/ch-02-route-to-normal-science-end.jpg)
 
 ## Reflection Questions
 

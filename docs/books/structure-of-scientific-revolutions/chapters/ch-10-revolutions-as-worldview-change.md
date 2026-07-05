@@ -8,6 +8,11 @@ created: 2026-07-05
 
 # Chapter 10 — Revolutions as Changes of World View
 
+<audio controls preload="none" style="width:100%" src="../../audio/ch-10-revolutions-as-worldview-change.mp3"></audio>
+
+![ch-10-revolutions-as-worldview-change overview infographic](../infographics/ch-10-revolutions-as-worldview-change-start.jpg)
+
+
 ## Core Thesis
 
 After a revolution, scientists work in a **different world**. Paradigm change is like a gestalt switch — the duck becomes a rabbit — except there is no going back and, crucially, no neutral description underneath. Perception itself is paradigm-laden: what a scientist *sees* depends on what the paradigm has trained them to see.
@@ -43,6 +48,8 @@ Expertise is trained seeing — and so is expert blindness. A security engineer 
 > "What were ducks in the scientist's world before the revolution are rabbits afterwards."
 
 > "The scientist who embraces a new paradigm is like the man wearing inverting lenses... he must learn to see a new gestalt."
+
+![ch-10-revolutions-as-worldview-change transformation infographic](../infographics/ch-10-revolutions-as-worldview-change-end.jpg)
 
 ## Reflection Questions
 

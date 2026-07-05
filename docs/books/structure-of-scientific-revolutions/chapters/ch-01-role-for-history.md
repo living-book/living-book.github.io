@@ -8,6 +8,11 @@ created: 2026-07-05
 
 # Chapter 1 — Introduction: A Role for History
 
+<audio controls preload="none" style="width:100%" src="../../audio/ch-01-role-for-history.mp3"></audio>
+
+![ch-01-role-for-history overview infographic](../infographics/ch-01-role-for-history-start.jpg)
+
+
 ## Core Thesis
 
 History of science, taken seriously, destroys the image of science we inherit from textbooks. Science is not a steady accumulation of facts, methods, and theories, each generation adding bricks to a growing wall. Kuhn opens by proposing that history could produce "a decisive transformation in the image of science by which we are now possessed." The book is that transformation: science advances through long stretches of tradition-bound work punctuated by revolutionary breaks that change what counts as a fact, a problem, and a solution.
@@ -43,6 +48,8 @@ Any field's origin story deserves suspicion. Company histories, discipline textb
 > "History, if viewed as a repository for more than anecdote or chronology, could produce a decisive transformation in the image of science by which we are now possessed."
 
 > "Out-of-date theories are not in principle unscientific because they have been discarded."
+
+![ch-01-role-for-history transformation infographic](../infographics/ch-01-role-for-history-end.jpg)
 
 ## Reflection Questions
 

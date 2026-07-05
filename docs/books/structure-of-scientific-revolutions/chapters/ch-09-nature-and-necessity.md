@@ -8,6 +8,11 @@ created: 2026-07-05
 
 # Chapter 9 — The Nature and Necessity of Scientific Revolutions
 
+<audio controls preload="none" style="width:100%" src="../../audio/ch-09-nature-and-necessity.mp3"></audio>
+
+![ch-09-nature-and-necessity overview infographic](../infographics/ch-09-nature-and-necessity-start.jpg)
+
+
 ## Core Thesis
 
 Scientific revolutions parallel political ones. A revolution is a **noncumulative** episode in which an older paradigm is replaced in whole or in part by an incompatible new one — and, as in politics, the choice between competing paradigms cannot be settled by the normal rules, because those rules are themselves part of what's in dispute. Each paradigm argues in its own circle; persuasion, not proof, decides.
@@ -43,6 +48,8 @@ Platform migrations, org redesigns, strategy reversals: expect the debate to be 
 > "Like the choice between competing political institutions, that between competing paradigms proves to be a choice between incompatible modes of community life."
 
 > "Though each may hope to convert the other to his way of seeing his science and its problems, neither may hope to prove his case."
+
+![ch-09-nature-and-necessity transformation infographic](../infographics/ch-09-nature-and-necessity-end.jpg)
 
 ## Reflection Questions
 
