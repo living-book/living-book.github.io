@@ -1,0 +1,27 @@
+site_name: Living Books
+site_description: Book companions that improve with your feedback
+site_url: https://sanjaygupta-professional.github.io/living-books/
+repo_url: https://github.com/sanjaygupta-professional/living-books
+
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: deep orange
+    accent: deep orange
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - toc.follow
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+
+# ponytail: no explicit nav — MkDocs auto-nav from dirs; files numbered so order correct.
+# Add awesome-pages plugin when a second book needs custom section ordering.
