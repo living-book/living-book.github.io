@@ -24,7 +24,7 @@ Each book here gets a full study companion — chapter summaries, study guides, 
 
 ## Feedback
 
-Email **sanjaygupta.professional+living-books@gmail.com** with:
+Email **visual-book-feedback-action@agentmail.to** with:
 
 - `[book-name]` in the subject for feedback on a specific book
 - `[request]` in the subject to request a new book

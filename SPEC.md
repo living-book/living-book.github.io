@@ -2,8 +2,8 @@
 
 **Date**: 2026-07-05
 **Status**: Active — supersedes the May 25 "Learning From Books Phase 1" spec
-**Site**: https://sanjaygupta-professional.github.io/living-books/
-**Repo**: https://github.com/sanjaygupta-professional/living-books
+**Site**: https://living-book.github.io/
+**Repo**: https://github.com/living-book/living-book.github.io
 
 ---
 
@@ -20,7 +20,7 @@ The v1 spec (May 25) designed this around NotebookLM as the generation engine, w
 
 - Public repo + MkDocs Material site, live on GitHub Pages
 - Seed book: *The Laws of Human Nature* — 18 chapters, 18 study guides, Law 01 infographics
-- Feedback intake via plus-addressed email
+- Feedback intake via dedicated AgentMail inbox
 - Deploy: `mkdocs gh-deploy` from local clone (CI deferred — token lacks `workflow` scope)
 
 ## 3. The owned pipeline
@@ -53,11 +53,11 @@ Three signals, all human-readable, no analytics:
 
 | Signal | Channel | Route |
 |---|---|---|
-| Explicit feedback | `sanjaygupta.professional+living-books@gmail.com`, subject `[<book-slug>]` | Improve that book's artifact |
+| Explicit feedback | `visual-book-feedback-action@agentmail.to`, subject `[<book-slug>]` | Improve that book's artifact |
 | Questions | Same address, subject `[question] <book-slug>` | Answer by email; recurring questions become an FAQ section in the chapter |
 | Book requests | Same address, subject `[request]` | Queue for pipeline |
 
-Personal Gmail plus-addressing is deliberate while the audience is friend + self. A dedicated account (v1 spec's `learningfrombooks.feedback@`) returns to scope only if/when the site goes public-facing.
+Feedback runs on a dedicated AgentMail inbox (API-accessible), which Phase D automation will poll directly. API key lives in `~/.config/living-books/.env` (chmod 600, never committed).
 
 ### Feedback intents → pipeline stage
 
@@ -109,7 +109,7 @@ Audio lives in-repo as mp3 (~96kbps, ≤2 min/chapter ≈ ≤25 MB/book).
 | **A · Ship** | Repo, site, seed book, feedback email | ✅ Done 2026-07-05 |
 | **B · Pipeline + backfill** | Write `PIPELINE.md`; prove stages 3–4 by backfilling Laws: cover + infographics 02–18 (34 PNGs), audio 01–18; restore CI | Next |
 | **C · Second book** | Full pipeline run on a new book, end to end. Then (and only then) add book.yaml + index generator + scaffolder | Queued |
-| **D · Loop automation** | Poll inbox → classify intent (Gemini free tier) → dispatch pipeline stage → auto-commit → reply | Deferred until feedback volume justifies it |
+| **D · Loop automation** | Poll AgentMail API → classify intent (Gemini free tier) → dispatch pipeline stage → auto-commit → reply | Deferred until feedback volume justifies it |
 | **E · Q&A on site** | ask-tutor-style agent over book corpus (pattern proven on dba-kb) | Deferred |
 
 Phase D's economics from v1 still hold (Gemini 2.5 Flash free tier, GitHub Actions cron, $0/month) — only the dispatch targets changed from NotebookLM calls to owned-pipeline stages.
@@ -136,12 +136,12 @@ Phase D's economics from v1 still hold (Gemini 2.5 Flash free tier, GitHub Actio
 
 ## 9. Carried over from v1 unchanged
 
-Lean storage strategy · plus-addressing routing mechanics · feedback-log format · MkDocs Material choice · $0/month operating target · Phase D free-tier LLM choice (Gemini Flash).
+Lean storage strategy · subject-tag routing · feedback-log format · MkDocs Material choice · $0/month operating target · Phase D free-tier LLM choice (Gemini Flash).
 
 ## 10. Explicitly dropped from v1
 
 - NotebookLM as automated engine (all of: source upload, slide generation, flashcards, audio via automation)
 - Google Slides iframe embeds per chapter (owned infographics + audio replace them)
-- Dedicated feedback Gmail account (personal plus-address until public)
+- Gmail for feedback (v1: dedicated account; interim: personal plus-address) — replaced by AgentMail inbox
 - Separate migration script (migration already done by hand)
 - dba-site wiki stub replacement (wiki copy stays for now; revisit if dual-maintenance hurts)
