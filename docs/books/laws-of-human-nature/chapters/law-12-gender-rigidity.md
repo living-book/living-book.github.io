@@ -13,6 +13,11 @@ summary: "Cultural conditioning forces people into rigid masculine or feminine r
 ---
 
 # Law 12: The Law of Gender Rigidity
+
+<audio controls preload="none" style="width:100%" src="../../audio/law-12-gender-rigidity.mp3"></audio>
+
+![law-12-gender-rigidity overview infographic](../infographics/law-12-gender-rigidity-start.png)
+
 **Directive: "Reconnect to the Masculine or Feminine Within You"**
 
 ---
@@ -87,6 +92,8 @@ The practical path to this development is deliberate cultivation in low-stakes c
 - Queen Elizabeth I at Tilbury, 1588: "I know I have the body but of a weak and feeble woman; but I have the heart and stomach of a king, and of a king of England too." — Greene uses this as the definitive statement of conscious gender integration: claiming both poles explicitly and deploying each where it is most effective.
 - Greene on the integrated person: "They possess a quality of completeness that is immediately felt by anyone who encounters them. They do not give off the rigid, defended quality of someone performing a gender role. They are simply present — all of them — in a way that is unusual and magnetic."
 - "The masculine and feminine are not opposites but complements, and the person who has developed both does not experience conflict between them — they experience a richness of resource that the rigidly gendered person simply does not have access to." — paraphrased from Greene's synthesis in *The Laws of Human Nature*
+
+![law-12-gender-rigidity transformation infographic](../infographics/law-12-gender-rigidity-end.png)
 
 ## Reflection Questions
 

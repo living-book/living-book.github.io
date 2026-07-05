@@ -13,6 +13,11 @@ summary: "Humans are far less rational than they believe — emotions evolved fo
 ---
 
 # Law 1: The Law of Irrationality
+
+<audio controls preload="none" style="width:100%" src="../../audio/law-01-irrationality.mp3"></audio>
+
+![law-01-irrationality overview infographic](../infographics/law-01-irrationality-start.png)
+
 **Directive: "Master Your Emotional Self"**
 
 ---
@@ -89,6 +94,8 @@ The deeper transformation is the cultivation of a genuine love of truth over ego
 > "What you want in life, what you think you see in others, what you consider to be rational behavior — all of this is deeply influenced by emotions that you are barely conscious of."
 
 > "The goal is not to be free of emotions but to develop a higher relationship to them — to use them as information, as signals, to let them pass through you without having to act on them immediately."
+
+![law-01-irrationality transformation infographic](../infographics/law-01-irrationality-end.png)
 
 ## Reflection Questions
 

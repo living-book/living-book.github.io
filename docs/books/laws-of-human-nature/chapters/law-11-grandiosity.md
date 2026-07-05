@@ -13,6 +13,11 @@ summary: "Success breeds a natural inflation of self-assessment that progressive
 ---
 
 # Law 11: The Law of Grandiosity
+
+<audio controls preload="none" style="width:100%" src="../../audio/law-11-grandiosity.mp3"></audio>
+
+![law-11-grandiosity overview infographic](../infographics/law-11-grandiosity-start.png)
+
 **Directive: "Know Your Limits"**
 
 ---
@@ -87,6 +92,8 @@ The second transformation is learning to distinguish between pride in craft and 
 - Greene on Eisner: "He had convinced himself that his success was the product of exceptional personal qualities that applied broadly — to business strategy, to creative judgment, to personnel decisions. He had stopped distinguishing between the domains where this was true and the domains where it was not. By the time it mattered, there was no one around him who could tell him."
 - "Success is the most dangerous drug in human experience. It does not impair your ability to function — it impairs your ability to doubt, which is the faculty that keeps functioning possible." — paraphrased from Greene's synthesis
 - "The difference between confidence and grandiosity is that confidence is calibrated to evidence and domain. Grandiosity has escaped both constraints." — Robert Greene, *The Laws of Human Nature*
+
+![law-11-grandiosity transformation infographic](../infographics/law-11-grandiosity-end.png)
 
 ## Reflection Questions
 

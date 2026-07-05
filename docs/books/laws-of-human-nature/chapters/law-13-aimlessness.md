@@ -13,6 +13,11 @@ summary: "Without a coherent life's task rooted in your primal inclinations, you
 ---
 
 # Law 13: The Law of Aimlessness
+
+<audio controls preload="none" style="width:100%" src="../../audio/law-13-aimlessness.mp3"></audio>
+
+![law-13-aimlessness overview infographic](../infographics/law-13-aimlessness-start.png)
+
 **Directive: "Advance with a Sense of Purpose"**
 
 ---
@@ -89,6 +94,8 @@ Once you have a provisional sense of your life's task, the work is to progressiv
 > "The sense of purpose is not a feeling of comfort or security. It is more like a tension — the constant pull between where you are and where you know you need to go."
 
 > "Most people are wandering through life because they have never made the essential inward journey — back to their primal inclinations, back to what they were before the world told them what to want."
+
+![law-13-aimlessness transformation infographic](../infographics/law-13-aimlessness-end.png)
 
 ## Reflection Questions
 

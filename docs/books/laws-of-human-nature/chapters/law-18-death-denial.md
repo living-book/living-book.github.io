@@ -13,6 +13,11 @@ summary: "Humans are unique in their conscious knowledge of mortality, and the p
 ---
 
 # Law 18: The Law of Death Denial
+
+<audio controls preload="none" style="width:100%" src="../../audio/law-18-death-denial.mp3"></audio>
+
+![law-18-death-denial overview infographic](../infographics/law-18-death-denial-start.png)
+
 **Directive: "Know How to Make Use of Mortality"**
 
 ---
@@ -93,6 +98,8 @@ Third is the cultivation of present-moment intensity — what Greene describes a
 > "James did not overcome his terror of death. He did something harder and more useful: he learned to act in its full presence. His pragmatism was not a philosophical system built in spite of mortality but a practice of living built from its direct confrontation."
 
 > "We live as if we have infinite time, which means we spend our finite time very poorly. The paradox is that the person who has genuinely made peace with their finitude is the most fully alive person in the room — because they know what the room actually costs."
+
+![law-18-death-denial transformation infographic](../infographics/law-18-death-denial-end.png)
 
 ## Reflection Questions
 

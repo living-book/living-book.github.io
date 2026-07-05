@@ -13,6 +13,11 @@ summary: "Our emotional attitude is not a passive response to circumstances but 
 ---
 
 # Law 8: The Law of Self-Sabotage
+
+<audio controls preload="none" style="width:100%" src="../../audio/law-08-self-sabotage.mp3"></audio>
+
+![law-08-self-sabotage overview infographic](../infographics/law-08-self-sabotage-start.png)
+
 **Directive: "Change Your Circumstances by Changing Your Attitude"**
 
 ---
@@ -87,6 +92,8 @@ Critically, Greene is not describing positive thinking. The transformation is no
 - Chekhov in a letter to his publisher Suvorin, 1889: "What aristocratic writers take from nature gratis, the less privileged must pay for with their youth. Write a story... about a young man, the son of a serf... who squeezes the slave out of himself, drop by drop."
 - Greene on the life force: "The attitude with which we begin any endeavor will determine much of its outcome. We see this over and over in life — people who seem to have everything going for them but who fail to thrive because of a fundamentally contracted orientation."
 - "Your emotional life is not something that happens to you. It is something you do, something you practice, day after day, until it becomes the lens through which all experience is filtered." — paraphrased from Greene's synthesis
+
+![law-08-self-sabotage transformation infographic](../infographics/law-08-self-sabotage-end.png)
 
 ## Reflection Questions
 

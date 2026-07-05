@@ -55,7 +55,7 @@ LAWS = [
          warnings=["Serial failed deals", "Blames everyone", "Chaos follows them", "Charm over substance"]),
     dict(slug="law-05-covetousness", num=5, title="The Law of Covetousness",
          directive="Become an Elusive Object of Desire",
-         figure="Coco Chanel (1883-1971)",
+         figure="Coco Chanel (1883-1971)", portrait="an elegant flat illustration silhouette of a 1920s fashion designer with pearl necklace, no facial likeness",
          trap="a hand reaching for an object behind glass that glows brighter the further it recedes",
          trap_labels=["Grass is greener", "Wanting the absent"],
          stakes_labels=["Chronic dissatisfaction", "Chasing mirages"],
@@ -121,7 +121,7 @@ LAWS = [
          warnings=["Backhanded compliments", "Joy at your setbacks", "Sudden coldness", "Copying then competing"]),
     dict(slug="law-11-grandiosity", num=11, title="The Law of Grandiosity",
          directive="Know Your Limits",
-         figure="Michael Eisner (b. 1942)",
+         figure="Michael Eisner (b. 1942)", portrait="a symbolic flat illustration of a confident executive silhouette in a suit at a boardroom window, city skyline beyond, no facial likeness",
          trap="a man on a pedestal built of past trophies, leaning over a cliff edge to reach a crown",
          trap_labels=["Success high", "Inflated self"],
          stakes_labels=["Overreach", "Public fall"],
@@ -154,8 +154,8 @@ LAWS = [
          warnings=["Chronic restlessness", "Serial reinvention", "Others' dreams", "Purpose by committee"]),
     dict(slug="law-14-conformity", num=14, title="The Law of Conformity",
          directive="Resist the Downward Pull of the Group",
-         figure="Philip Zimbardo (b. 1933)",
-         trap="identical silhouettes marching downhill while one figure steps sideways out of line",
+         figure="Philip Zimbardo (b. 1933)", portrait="a symbolic flat illustration of a researcher silhouette observing figures behind glass, no facial likeness",
+         trap="rows of identical grey paper figures all leaning the same direction while one bright gold figure stands upright apart",
          trap_labels=["Group trance", "Borrowed opinions"],
          stakes_labels=["Moral collapse", "Lost judgment"],
          arc=("Group trance", "Social intelligence", "Independent mind"),
@@ -216,7 +216,7 @@ def start_prompt(l):
         f"\"LAW {l['num']}\" in a gold box and title \"{l['title'].upper()}\" in large cream serif capitals. "
         f"LEFT panel header \"THE TRAP\": flat illustration of {l['trap']}, with two small gold label boxes: "
         f"\"{l['trap_labels'][0]}\" and \"{l['trap_labels'][1]}\". "
-        f"CENTER panel header \"CASE STUDY\": classical editorial portrait of {l['figure']}, name beneath in gold serif. "
+        f"CENTER panel header \"CASE STUDY\": {l.get('portrait', 'classical editorial portrait of ' + l['figure'])}, caption \"{l['figure']}\" beneath in gold serif. "
         f"RIGHT panel header \"STAKES\": business-setting illustration of the cost, two dark label boxes: "
         f"\"{l['stakes_labels'][0]}\" and \"{l['stakes_labels'][1]}\". "
         f"Bottom: gold label \"FORWARD CALL\" then wide navy arrow containing \"{l['directive'].upper()}\" in cream capitals. "
@@ -232,7 +232,7 @@ def end_prompt(l):
         f"\"{l['title'].upper()} — TRANSFORMATION\" in cream serif capitals. "
         f"LEFT section \"TRANSFORMATION ARC\": three circles connected by curved arrows — navy circle \"BEFORE: {l['arc'][0]}\", "
         f"gold circle \"SHIFT: {l['arc'][1]}\", coral circle \"AFTER: {l['arc'][2]}\". "
-        f"CENTER section \"CASE STUDY\" in a gold-bordered card: small round portrait of {l['figure'].split(' (')[0]}, "
+        f"CENTER section \"CASE STUDY\" in a gold-bordered card: {l.get('portrait', 'small round portrait of ' + l['figure'].split(' (')[0])}, caption \"{l['figure'].split(' (')[0]}\", "
         f"gold tag \"LESSON\" with text \"{l['lesson']}\", gold tag \"OUTCOME\" with text \"{l['outcome']}\". "
         f"RIGHT section \"STRATEGY CARDS\": six white cards in a 2x3 grid, each a simple line icon and a short label: "
         + ", ".join(f"\"{x}\"" for x in s) + ". "

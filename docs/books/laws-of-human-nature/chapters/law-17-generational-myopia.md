@@ -13,6 +13,11 @@ summary: "Every generation mistakes its historically contingent experience for u
 ---
 
 # Law 17: The Law of Generational Myopia
+
+<audio controls preload="none" style="width:100%" src="../../audio/law-17-generational-myopia.mp3"></audio>
+
+![law-17-generational-myopia overview infographic](../infographics/law-17-generational-myopia-start.png)
+
 **Directive: "Seize the Historical Moment"**
 
 ---
@@ -89,6 +94,8 @@ Third is the cultivation of historical consciousness as an active intellectual p
 > "Franklin's genius was not superior intelligence but superior historical consciousness — the ability to step outside his moment and see it as one episode in a longer story, governed by forces that were recognizable to someone who had studied their predecessors."
 
 > "The greatest strategic advantage available to any individual is the ability to see the present moment clearly — not through the distorting lens of their generational formation, but in its actual historical specificity, with its actual emerging possibilities."
+
+![law-17-generational-myopia transformation infographic](../infographics/law-17-generational-myopia-end.png)
 
 ## Reflection Questions
 

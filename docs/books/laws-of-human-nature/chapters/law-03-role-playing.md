@@ -13,6 +13,11 @@ summary: "Every person wears a social mask designed to manage others' impression
 ---
 
 # Law 3: The Law of Role-Playing
+
+<audio controls preload="none" style="width:100%" src="../../audio/law-03-role-playing.mp3"></audio>
+
+![law-03-role-playing overview infographic](../infographics/law-03-role-playing-start.png)
+
 **Directive: "See Through People's Masks"**
 
 ---
@@ -89,6 +94,8 @@ The deeper shift is from reading individuals in isolated moments to reading patt
 > "Erickson understood that the real communication is always happening on multiple channels simultaneously, and that words — the channel people control most carefully — are usually the least revealing. Everything else is broadcasting the truth."
 
 > "People signal their character constantly. The difficulty is not that the signals are hidden — it is that reading them requires a form of attention that social norms discourage and that most people have never developed."
+
+![law-03-role-playing transformation infographic](../infographics/law-03-role-playing-end.png)
 
 ## Reflection Questions
 

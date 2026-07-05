@@ -13,6 +13,11 @@ summary: "The human brain evolved to prioritize immediate threats and rewards, c
 ---
 
 # Law 6: The Law of Shortsightedness
+
+<audio controls preload="none" style="width:100%" src="../../audio/law-06-shortsightedness.mp3"></audio>
+
+![law-06-shortsightedness overview infographic](../infographics/law-06-shortsightedness-start.png)
+
 **Directive: "Elevate Your Perspective"**
 
 ---
@@ -91,6 +96,8 @@ The deeper transformation Greene describes is developing what he calls "strategi
 > "The future is always less emotionally real than the present. The threat that might materialize in five years produces a fraction of the urgency of the threat in the room right now. This asymmetry is built into our architecture, and it requires deliberate, systematic effort to correct."
 
 > "The rarest strategic capacity is not intelligence, creativity, or even discipline. It is the ability to genuinely hold the long-term view while navigating the short-term pressures that are trying constantly to pull you off course. This capacity compounds dramatically over time."
+
+![law-06-shortsightedness transformation infographic](../infographics/law-06-shortsightedness-end.png)
 
 ## Reflection Questions
 

@@ -13,6 +13,11 @@ summary: "Human beings have an ambivalent, volatile relationship with authority 
 ---
 
 # Law 15: The Law of Fickleness
+
+<audio controls preload="none" style="width:100%" src="../../audio/law-15-fickleness.mp3"></audio>
+
+![law-15-fickleness overview infographic](../infographics/law-15-fickleness-start.png)
+
 **Directive: "Make Them Want to Follow You"**
 
 ---
@@ -89,6 +94,8 @@ Third, Greene prescribes a deliberate practice of delivering inconvenient truths
 > "Marshall's power was paradoxical: he had no interest in power for its own sake, and this indifference was the source of his authority. People trusted him precisely because they knew he was not managing their perceptions for his own advancement."
 
 > "The leader who builds on charisma builds on sand. The follower's admiration is partly a projection of their own needs, and when those needs are disappointed — as they inevitably will be — the admiration collapses into its opposite."
+
+![law-15-fickleness transformation infographic](../infographics/law-15-fickleness-end.png)
 
 ## Reflection Questions
 

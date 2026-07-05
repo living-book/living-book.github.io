@@ -13,6 +13,11 @@ summary: "Every person harbors a shadow of repressed dark impulses — denied ra
 ---
 
 # Law 9: The Law of Repression
+
+<audio controls preload="none" style="width:100%" src="../../audio/law-09-repression.mp3"></audio>
+
+![law-09-repression overview infographic](../infographics/law-09-repression-start.png)
+
 **Directive: "Confront Your Dark Side"**
 
 ---
@@ -89,6 +94,8 @@ The goal, as Greene makes explicit, is not to become a different person or to ac
 - Carl Jung, as paraphrased by Greene: "I would rather be whole than good." This encapsulates the entire law — the willingness to acknowledge complexity and darkness in oneself rather than maintaining a clean but false self-image.
 - Greene on Nixon: "He could not see the shadow that drove him, because seeing it would have required dismantling the persona that had sustained him for fifty years. The shadow did not care. It drove him anyway."
 - "The unconscious is not a basement where things are safely stored. It is a furnace where pressure accumulates. Repress long enough and hard enough and the release will not be chosen — it will simply happen." — paraphrased from Greene's synthesis of Jungian theory in *The Laws of Human Nature*
+
+![law-09-repression transformation infographic](../infographics/law-09-repression-end.png)
 
 ## Reflection Questions
 

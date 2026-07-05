@@ -13,6 +13,11 @@ summary: "Direct persuasion triggers defensive resistance; true influence comes 
 ---
 
 # Law 7: The Law of Defensiveness
+
+<audio controls preload="none" style="width:100%" src="../../audio/law-07-defensiveness.mp3"></audio>
+
+![law-07-defensiveness overview infographic](../infographics/law-07-defensiveness-start.png)
+
 **Directive: "Soften People's Resistance by Confirming Their Self-Opinion"**
 
 ---
@@ -87,6 +92,8 @@ The deeper transformation is in the quality of attention you bring to other peop
 - "The best way to convince people is to make them think they are convincing themselves." — paraphrased from Greene's synthesis of the law
 - Greene on Johnson: "He had an uncanny ability to sniff out each person's particular insecurities and dreams... He could sense what people needed to hear to feel validated, and he gave it to them, making them lower their usual resistance to his entreaties."
 - "The harder you push people, the more you will find their resistance stiffening. It is the nature of social dynamics." — Robert Greene, *The Laws of Human Nature*
+
+![law-07-defensiveness transformation infographic](../infographics/law-07-defensiveness-end.png)
 
 ## Reflection Questions
 
