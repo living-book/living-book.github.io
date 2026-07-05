@@ -16,7 +16,7 @@ summary: "Character is forged early through formative experience and expresses i
 
 <audio controls preload="none" style="width:100%" src="../../audio/law-04-compulsive-behavior.mp3"></audio>
 
-![law-04-compulsive-behavior overview infographic](../infographics/law-04-compulsive-behavior-start.png)
+![law-04-compulsive-behavior overview infographic](../infographics/law-04-compulsive-behavior-start.jpg)
 
 **Directive: "Determine the Strength of People's Character"**
 
@@ -95,7 +95,7 @@ The deepest aspect of the transformation is developing what Greene calls "flexib
 
 > "The most reliable test of character is not what people do when things are going well. It is what pattern of behavior persists across all the situations life puts them in — the situations they choose and the situations they cannot avoid."
 
-![law-04-compulsive-behavior transformation infographic](../infographics/law-04-compulsive-behavior-end.png)
+![law-04-compulsive-behavior transformation infographic](../infographics/law-04-compulsive-behavior-end.jpg)
 
 ## Reflection Questions
 

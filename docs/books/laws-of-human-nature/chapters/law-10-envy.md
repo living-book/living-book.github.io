@@ -16,7 +16,7 @@ summary: "Envy — the most concealed and dangerous of human emotions — is tri
 
 <audio controls preload="none" style="width:100%" src="../../audio/law-10-envy.mp3"></audio>
 
-![law-10-envy overview infographic](../infographics/law-10-envy-start.png)
+![law-10-envy overview infographic](../infographics/law-10-envy-start.jpg)
 
 **Directive: "Beware the Fragile Ego"**
 
@@ -93,7 +93,7 @@ For managing envy in others, the first step is early screening. Greene is direct
 - "We envy those nearest to us in age, profession, and status. The celebrity far above us does not trigger the same response as the colleague at the next desk." — Robert Greene, *The Laws of Human Nature*
 - "Envy is the one emotion that gives no pleasure — not even the pleasure of expression. It can only be transformed: either into competitive drive, or into resentment. The choice of which direction it goes is the real test of character." — paraphrased from Greene's synthesis
 
-![law-10-envy transformation infographic](../infographics/law-10-envy-end.png)
+![law-10-envy transformation infographic](../infographics/law-10-envy-end.jpg)
 
 ## Reflection Questions
 

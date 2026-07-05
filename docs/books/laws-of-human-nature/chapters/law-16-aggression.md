@@ -16,7 +16,7 @@ summary: "Aggression is a fundamental human drive that does not disappear in civ
 
 <audio controls preload="none" style="width:100%" src="../../audio/law-16-aggression.mp3"></audio>
 
-![law-16-aggression overview infographic](../infographics/law-16-aggression-start.png)
+![law-16-aggression overview infographic](../infographics/law-16-aggression-start.jpg)
 
 **Directive: "See the Hostility Behind the Friendly Facade"**
 
@@ -95,7 +95,7 @@ Third is the development of what Greene calls "strategic assertiveness" — the 
 
 > "You cannot accurately perceive aggression in others if you cannot acknowledge it in yourself. The suppression of your own competitive impulse creates a blind spot that makes you consistently vulnerable to the very drive you have refused to see."
 
-![law-16-aggression transformation infographic](../infographics/law-16-aggression-end.png)
+![law-16-aggression transformation infographic](../infographics/law-16-aggression-end.jpg)
 
 ## Reflection Questions
 

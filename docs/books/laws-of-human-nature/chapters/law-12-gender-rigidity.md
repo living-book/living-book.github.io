@@ -16,7 +16,7 @@ summary: "Cultural conditioning forces people into rigid masculine or feminine r
 
 <audio controls preload="none" style="width:100%" src="../../audio/law-12-gender-rigidity.mp3"></audio>
 
-![law-12-gender-rigidity overview infographic](../infographics/law-12-gender-rigidity-start.png)
+![law-12-gender-rigidity overview infographic](../infographics/law-12-gender-rigidity-start.jpg)
 
 **Directive: "Reconnect to the Masculine or Feminine Within You"**
 
@@ -93,7 +93,7 @@ The practical path to this development is deliberate cultivation in low-stakes c
 - Greene on the integrated person: "They possess a quality of completeness that is immediately felt by anyone who encounters them. They do not give off the rigid, defended quality of someone performing a gender role. They are simply present — all of them — in a way that is unusual and magnetic."
 - "The masculine and feminine are not opposites but complements, and the person who has developed both does not experience conflict between them — they experience a richness of resource that the rigidly gendered person simply does not have access to." — paraphrased from Greene's synthesis in *The Laws of Human Nature*
 
-![law-12-gender-rigidity transformation infographic](../infographics/law-12-gender-rigidity-end.png)
+![law-12-gender-rigidity transformation infographic](../infographics/law-12-gender-rigidity-end.jpg)
 
 ## Reflection Questions
 

@@ -8,7 +8,7 @@ Each book here gets a full study companion — chapter summaries, study guides, 
 
 ## The Library
 
-<a href="books/laws-of-human-nature/"><img src="books/laws-of-human-nature/infographics/cover.png" alt="The Laws of Human Nature cover" width="220"></a>
+<a href="books/laws-of-human-nature/"><img src="books/laws-of-human-nature/infographics/cover.jpg" alt="The Laws of Human Nature cover" width="220"></a>
 
 | Book | Author | Companion |
 |------|--------|-----------|

@@ -16,7 +16,7 @@ summary: "All humans exist on a narcissism spectrum, and the failure to develop 
 
 <audio controls preload="none" style="width:100%" src="../../audio/law-02-narcissism.mp3"></audio>
 
-![law-02-narcissism overview infographic](../infographics/law-02-narcissism-start.png)
+![law-02-narcissism overview infographic](../infographics/law-02-narcissism-start.jpg)
 
 **Directive: "Transform Self-Love into Empathy"**
 
@@ -95,7 +95,7 @@ Deeper still, Greene argues for what he calls developing a "reality lens" about 
 
 > "Lincoln had suffered so deeply and so personally that he had the capacity to feel others' suffering as his own. This is the paradox of great empathy: it is usually forged in pain that could just as easily have produced its opposite."
 
-![law-02-narcissism transformation infographic](../infographics/law-02-narcissism-end.png)
+![law-02-narcissism transformation infographic](../infographics/law-02-narcissism-end.jpg)
 
 ## Reflection Questions
 

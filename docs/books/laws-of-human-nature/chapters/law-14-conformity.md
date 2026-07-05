@@ -16,7 +16,7 @@ summary: "Groups systematically lower individual intelligence and morality throu
 
 <audio controls preload="none" style="width:100%" src="../../audio/law-14-conformity.mp3"></audio>
 
-![law-14-conformity overview infographic](../infographics/law-14-conformity-start.png)
+![law-14-conformity overview infographic](../infographics/law-14-conformity-start.jpg)
 
 **Directive: "Resist the Downward Pull of the Group"**
 
@@ -95,7 +95,7 @@ The third element is the development of what Greene calls "group awareness" — 
 
 > "Your first task is to recognize the phenomenon for what it is — not a sign of collective wisdom or moral clarity, but a predictable social-psychological process that operates on everyone, regardless of intelligence or virtue."
 
-![law-14-conformity transformation infographic](../infographics/law-14-conformity-end.png)
+![law-14-conformity transformation infographic](../infographics/law-14-conformity-end.jpg)
 
 ## Reflection Questions
 

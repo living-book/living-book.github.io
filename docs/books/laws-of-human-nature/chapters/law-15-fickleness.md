@@ -16,7 +16,7 @@ summary: "Human beings have an ambivalent, volatile relationship with authority 
 
 <audio controls preload="none" style="width:100%" src="../../audio/law-15-fickleness.mp3"></audio>
 
-![law-15-fickleness overview infographic](../infographics/law-15-fickleness-start.png)
+![law-15-fickleness overview infographic](../infographics/law-15-fickleness-start.jpg)
 
 **Directive: "Make Them Want to Follow You"**
 
@@ -95,7 +95,7 @@ Third, Greene prescribes a deliberate practice of delivering inconvenient truths
 
 > "The leader who builds on charisma builds on sand. The follower's admiration is partly a projection of their own needs, and when those needs are disappointed — as they inevitably will be — the admiration collapses into its opposite."
 
-![law-15-fickleness transformation infographic](../infographics/law-15-fickleness-end.png)
+![law-15-fickleness transformation infographic](../infographics/law-15-fickleness-end.jpg)
 
 ## Reflection Questions
 

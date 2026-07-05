@@ -16,7 +16,7 @@ summary: "Humans are unique in their conscious knowledge of mortality, and the p
 
 <audio controls preload="none" style="width:100%" src="../../audio/law-18-death-denial.mp3"></audio>
 
-![law-18-death-denial overview infographic](../infographics/law-18-death-denial-start.png)
+![law-18-death-denial overview infographic](../infographics/law-18-death-denial-start.jpg)
 
 **Directive: "Know How to Make Use of Mortality"**
 
@@ -99,7 +99,7 @@ Third is the cultivation of present-moment intensity — what Greene describes a
 
 > "We live as if we have infinite time, which means we spend our finite time very poorly. The paradox is that the person who has genuinely made peace with their finitude is the most fully alive person in the room — because they know what the room actually costs."
 
-![law-18-death-denial transformation infographic](../infographics/law-18-death-denial-end.png)
+![law-18-death-denial transformation infographic](../infographics/law-18-death-denial-end.jpg)
 
 ## Reflection Questions
 

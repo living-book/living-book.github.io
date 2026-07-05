@@ -16,7 +16,7 @@ summary: "Every generation mistakes its historically contingent experience for u
 
 <audio controls preload="none" style="width:100%" src="../../audio/law-17-generational-myopia.mp3"></audio>
 
-![law-17-generational-myopia overview infographic](../infographics/law-17-generational-myopia-start.png)
+![law-17-generational-myopia overview infographic](../infographics/law-17-generational-myopia-start.jpg)
 
 **Directive: "Seize the Historical Moment"**
 
@@ -95,7 +95,7 @@ Third is the cultivation of historical consciousness as an active intellectual p
 
 > "The greatest strategic advantage available to any individual is the ability to see the present moment clearly — not through the distorting lens of their generational formation, but in its actual historical specificity, with its actual emerging possibilities."
 
-![law-17-generational-myopia transformation infographic](../infographics/law-17-generational-myopia-end.png)
+![law-17-generational-myopia transformation infographic](../infographics/law-17-generational-myopia-end.jpg)
 
 ## Reflection Questions
 

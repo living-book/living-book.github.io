@@ -16,7 +16,7 @@ summary: "Every person wears a social mask designed to manage others' impression
 
 <audio controls preload="none" style="width:100%" src="../../audio/law-03-role-playing.mp3"></audio>
 
-![law-03-role-playing overview infographic](../infographics/law-03-role-playing-start.png)
+![law-03-role-playing overview infographic](../infographics/law-03-role-playing-start.jpg)
 
 **Directive: "See Through People's Masks"**
 
@@ -95,7 +95,7 @@ The deeper shift is from reading individuals in isolated moments to reading patt
 
 > "People signal their character constantly. The difficulty is not that the signals are hidden — it is that reading them requires a form of attention that social norms discourage and that most people have never developed."
 
-![law-03-role-playing transformation infographic](../infographics/law-03-role-playing-end.png)
+![law-03-role-playing transformation infographic](../infographics/law-03-role-playing-end.jpg)
 
 ## Reflection Questions
 

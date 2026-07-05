@@ -46,6 +46,7 @@ Output: `infographics/<chapter-id>-start.png`, `<chapter-id>-end.png`, `cover.pn
   and gold #c9a227 on cream #f2efe6, clean flat illustration, generous whitespace,
   sans-serif headers."
 - Review every image before commit; regenerate garbled ones individually.
+- After review: `python3 scripts/compress_images.py` — 1600w JPEG q85, rewrites md refs.
 
 ## Stage 4 — Audio (Chatterbox, cloned voice)
 

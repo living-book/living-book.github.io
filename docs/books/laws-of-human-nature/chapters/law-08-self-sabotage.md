@@ -16,7 +16,7 @@ summary: "Our emotional attitude is not a passive response to circumstances but 
 
 <audio controls preload="none" style="width:100%" src="../../audio/law-08-self-sabotage.mp3"></audio>
 
-![law-08-self-sabotage overview infographic](../infographics/law-08-self-sabotage-start.png)
+![law-08-self-sabotage overview infographic](../infographics/law-08-self-sabotage-start.jpg)
 
 **Directive: "Change Your Circumstances by Changing Your Attitude"**
 
@@ -93,7 +93,7 @@ Critically, Greene is not describing positive thinking. The transformation is no
 - Greene on the life force: "The attitude with which we begin any endeavor will determine much of its outcome. We see this over and over in life — people who seem to have everything going for them but who fail to thrive because of a fundamentally contracted orientation."
 - "Your emotional life is not something that happens to you. It is something you do, something you practice, day after day, until it becomes the lens through which all experience is filtered." — paraphrased from Greene's synthesis
 
-![law-08-self-sabotage transformation infographic](../infographics/law-08-self-sabotage-end.png)
+![law-08-self-sabotage transformation infographic](../infographics/law-08-self-sabotage-end.jpg)
 
 ## Reflection Questions
 

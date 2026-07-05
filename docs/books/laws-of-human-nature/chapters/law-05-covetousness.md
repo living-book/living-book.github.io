@@ -16,7 +16,7 @@ summary: "Human desire is fundamentally driven by absence and mystery — what w
 
 <audio controls preload="none" style="width:100%" src="../../audio/law-05-covetousness.mp3"></audio>
 
-![law-05-covetousness overview infographic](../infographics/law-05-covetousness-start.png)
+![law-05-covetousness overview infographic](../infographics/law-05-covetousness-start.jpg)
 
 **Directive: "Become an Elusive Object of Desire"**
 
@@ -95,7 +95,7 @@ The strategic dimension of the transformation is learning to create and sustain 
 
 > "The paradox of becoming coveted is that it requires genuine development, not performance. Sustainable mystery is always backed by real depth. What you are cultivating is not the appearance of substance but the substance itself, selectively revealed."
 
-![law-05-covetousness transformation infographic](../infographics/law-05-covetousness-end.png)
+![law-05-covetousness transformation infographic](../infographics/law-05-covetousness-end.jpg)
 
 ## Reflection Questions
 

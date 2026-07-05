@@ -16,7 +16,7 @@ summary: "Without a coherent life's task rooted in your primal inclinations, you
 
 <audio controls preload="none" style="width:100%" src="../../audio/law-13-aimlessness.mp3"></audio>
 
-![law-13-aimlessness overview infographic](../infographics/law-13-aimlessness-start.png)
+![law-13-aimlessness overview infographic](../infographics/law-13-aimlessness-start.jpg)
 
 **Directive: "Advance with a Sense of Purpose"**
 
@@ -95,7 +95,7 @@ Once you have a provisional sense of your life's task, the work is to progressiv
 
 > "Most people are wandering through life because they have never made the essential inward journey — back to their primal inclinations, back to what they were before the world told them what to want."
 
-![law-13-aimlessness transformation infographic](../infographics/law-13-aimlessness-end.png)
+![law-13-aimlessness transformation infographic](../infographics/law-13-aimlessness-end.jpg)
 
 ## Reflection Questions
 
