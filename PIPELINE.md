@@ -50,8 +50,9 @@ Output: `infographics/<chapter-id>-start.png`, `<chapter-id>-end.png`, `cover.pn
 
 ## Stage 4 — Audio (Chatterbox, cloned voice)
 
-Tool: `cd /home/sanjayg4/chatterbox && ./voice --text "..."` (locked config: English
-model, natural ref, cfg 0.5, exag 0.5 — see chatterbox/VOICE.md for output flags)
+Tool: `cd /home/sanjayg4/chatterbox && ./voice --text "..."`. **Living Books voice (locked
+2026-07-06): warm ref, exag 0.35, cfg 0.5** — calmer/scholarly, chosen by A/B test.
+Driven via `gen_audio.sh` (VOICE_ARGS default = this config; FORCE=1 to overwrite).
 Output: `audio/<chapter-id>.mp3`
 
 - Script per chapter: ~200–230 words ≈ 90s. Structure: hook (1 line) → core idea
