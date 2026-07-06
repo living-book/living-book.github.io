@@ -8,6 +8,11 @@ created: 2026-07-05
 
 # Concept 7 — Progressive vs Degenerating Programmes
 
+<audio controls preload="none" style="width:100%" src="../../audio/concept-07-progressive-vs-degenerating.mp3"></audio>
+
+![concept-07-progressive-vs-degenerating overview infographic](../infographics/concept-07-progressive-vs-degenerating-start.jpg)
+
+
 ## Core Thesis
 
 The heart of the methodology — the demarcation criterion itself. A programme is **theoretically progressive** if each new version predicts novel, unexpected facts; **empirically progressive** if some of those predictions are corroborated; **degenerating** if its adjustments only accommodate facts after the fact, explaining yesterday while predicting nothing. Science versus pseudoscience is not a property of content but of *trajectory*: is the programme running ahead of the facts, or panting behind them?
@@ -43,6 +48,8 @@ Audit your frameworks quarterly like a Lakatosian: list the last five adjustment
 > "A research programme is said to be progressing as long as its theoretical growth anticipates its empirical growth... it is stagnating if its theoretical growth lags behind its empirical growth."
 
 > "What really count are dramatic, unexpected, stunning predictions: a few of them are enough to tilt the balance."
+
+![concept-07-progressive-vs-degenerating transformation infographic](../infographics/concept-07-progressive-vs-degenerating-end.jpg)
 
 ## Reflection Questions
 

@@ -8,6 +8,11 @@ created: 2026-07-05
 
 # Chapter 13 — Choices
 
+<audio controls preload="none" style="width:100%" src="../../audio/ch-13-choices.mp3"></audio>
+
+![ch-13-choices overview infographic](../infographics/ch-13-choices-start.jpg)
+
+
 ## Core Thesis
 
 Social choice theory's famous impossibility results (Arrow, Condorcet) are real mathematics but **misapplied** — because they inherit the justificationist error. They ask how to aggregate fixed preferences into a decision, as if choosing meant weighing given options by a rule. Deutsch reframes: rational decision-making, individual or collective, is not preference-aggregation but **problem-solving** — creating new options and criticizing away the errors. The paradoxes dissolve because their premise (choice = selection among fixed alternatives) is false.
@@ -43,6 +48,8 @@ Redesign decisions around error-correction, not consensus-measurement. In teams:
 > "The essence of democratic decision-making is not the choice made by the system at elections, but the ideas created between elections."
 
 > "The best political institutions are those that make it easiest to detect and correct errors."
+
+![ch-13-choices transformation infographic](../infographics/ch-13-choices-end.jpg)
 
 ## Reflection Questions
 

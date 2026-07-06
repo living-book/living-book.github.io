@@ -8,6 +8,11 @@ created: 2026-07-05
 
 # Chapter 14 — Why Are Flowers Beautiful?
 
+<audio controls preload="none" style="width:100%" src="../../audio/ch-14-why-flowers-are-beautiful.mp3"></audio>
+
+![ch-14-why-flowers-are-beautiful overview infographic](../infographics/ch-14-why-flowers-are-beautiful-start.jpg)
+
+
 ## Core Thesis
 
 Some beauty is **objective** — not culturally arbitrary, not merely in the eye of the beholder. Deutsch's argument runs through flowers and their pollinators: a flower must signal reliably to insects across a species gap where no shared genes, and thus no shared code, can be assumed. To be recognized by a *different* species, the signal must embody criteria that neither party can cheaply fake — objective standards of attractiveness. Human attraction to flowers taps the same objective beauty, which is why it crosses cultures.
@@ -43,6 +48,8 @@ Distinguish parochial appeal from objective quality in design and communication.
 > "Flowers have to create objective beauty, and to recognize objective beauty, in order to bridge the gap between species."
 
 > "There is such a thing as objective beauty, and... it is a form of knowledge."
+
+![ch-14-why-flowers-are-beautiful transformation infographic](../infographics/ch-14-why-flowers-are-beautiful-end.jpg)
 
 ## Reflection Questions
 

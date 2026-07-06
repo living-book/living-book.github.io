@@ -8,6 +8,11 @@ created: 2026-07-05
 
 # Chapter 8 — A Window on Infinity
 
+<audio controls preload="none" style="width:100%" src="../../audio/ch-08-window-on-infinity.mp3"></audio>
+
+![ch-08-window-on-infinity overview infographic](../infographics/ch-08-window-on-infinity-start.jpg)
+
+
 ## Core Thesis
 
 Infinity is not exotic — it is the ordinary working environment of anyone who takes unbounded progress seriously. Deutsch tours Hilbert's **Infinity Hotel** to train the intuition: with infinitely many rooms, "full" never means "no vacancy"; whole infinities can be absorbed by shuffling. The moral: where knowledge-creation is concerned, we are always at the **beginning** of infinity — every achieved state is negligible beside what remains, and "running out" arguments quietly assume finitude they haven't earned.
@@ -43,6 +48,8 @@ Sort your constraints. Teams routinely treat idea-space as scarce (defending one
 > "In an infinite hotel, 'full' does not mean what it means elsewhere."
 
 > "We are always at the beginning of infinity."
+
+![ch-08-window-on-infinity transformation infographic](../infographics/ch-08-window-on-infinity-end.jpg)
 
 ## Reflection Questions
 

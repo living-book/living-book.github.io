@@ -8,6 +8,11 @@ created: 2026-07-05
 
 # Chapter 7 — Artificial Creativity
 
+<audio controls preload="none" style="width:100%" src="../../audio/ch-07-artificial-creativity.mp3"></audio>
+
+![ch-07-artificial-creativity overview infographic](../infographics/ch-07-artificial-creativity-start.jpg)
+
+
 ## Core Thesis
 
 An AGI — artificial *general* intelligence — would be a **person**: a universal explainer, with all the rights and moral status that entails. And it cannot be built by accumulating tricks, training on examples, or imitating outputs; it requires a working explanation of **creativity** — how new explanations are created — which (as of Deutsch's writing) nobody has. The Turing test is the wrong target: judging outputs can't distinguish genuine explanation-creation from an ever-larger lookup table of mimicry.
@@ -43,6 +48,8 @@ Two disciplines for the AI age. First, evaluation: for any system, ask what woul
 > "What distinguishes people from other information-processing systems is... creativity: the capacity to create new explanations."
 
 > "The field of artificial (general) intelligence has made no progress because there is an unsolved philosophical problem at its heart."
+
+![ch-07-artificial-creativity transformation infographic](../infographics/ch-07-artificial-creativity-end.jpg)
 
 ## Reflection Questions
 

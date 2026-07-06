@@ -8,6 +8,11 @@ created: 2026-07-05
 
 # Chapter 10 — A Dream of Socrates
 
+<audio controls preload="none" style="width:100%" src="../../audio/ch-10-dream-of-socrates.mp3"></audio>
+
+![ch-10-dream-of-socrates overview infographic](../infographics/ch-10-dream-of-socrates-start.jpg)
+
+
 ## Core Thesis
 
 A philosophical dialogue — Deutsch's homage to and correction of Plato. Hermes visits the sleeping Socrates and teaches, by relentless questioning, the book's epistemology: knowledge comes not from authority, revelation, or the senses, but from **conjecture corrected by criticism**; and all communication is itself conjectural — listeners *guess* speakers' meanings and err productively. Even a god cannot pour knowledge into a mind; Hermes can only help Socrates create it himself.
@@ -43,6 +48,8 @@ Treat every handoff as a conjecture-generator: specs, briefs, and lectures are n
 > "No one can teach anyone anything, except by helping them to work it out for themselves."
 
 > "Every mind creates its own version of what it hears."
+
+![ch-10-dream-of-socrates transformation infographic](../infographics/ch-10-dream-of-socrates-end.jpg)
 
 ## Reflection Questions
 

@@ -8,6 +8,11 @@ created: 2026-07-05
 
 # Chapter 4 — Creation
 
+<audio controls preload="none" style="width:100%" src="../../audio/ch-04-creation.mp3"></audio>
+
+![ch-04-creation overview infographic](../infographics/ch-04-creation-start.jpg)
+
+
 ## Core Thesis
 
 Knowledge is created by one process only: **variation and selection** — conjecture and criticism. Biological evolution and human thought are the two known instances. Neither copies knowledge from anywhere: evolution doesn't learn from the environment, and minds don't derive ideas from the senses; both *create* knowledge that wasn't there, by generating variants and killing the failures. Creationism — knowledge poured in from an authority — is false everywhere it's proposed, including its secular forms.
@@ -43,6 +48,8 @@ Run creation processes honestly: brainstorms, product bets, research agendas are
 > "Like biological adaptations, human ideas are created by variation and selection... neither is derived from the environment."
 
 > "The knowledge in genes is knowledge of how to cause their own replication."
+
+![ch-04-creation transformation infographic](../infographics/ch-04-creation-end.jpg)
 
 ## Reflection Questions
 

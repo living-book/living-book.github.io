@@ -8,6 +8,11 @@ created: 2026-07-05
 
 # Concept 3 — The Research Programme
 
+<audio controls preload="none" style="width:100%" src="../../audio/concept-03-research-programme.mp3"></audio>
+
+![concept-03-research-programme overview infographic](../infographics/concept-03-research-programme-start.jpg)
+
+
 ## Core Thesis
 
 The unit of scientific achievement is not the theory but the **research programme**: a developing sequence of theories bound together by a hard core of unrevisable commitments, a protective belt of adjustable auxiliaries, and heuristics — rules telling researchers what to avoid (negative heuristic) and what to pursue (positive heuristic). Newtonian mechanics, Marxism, Freudianism: each is a programme, and each is appraised as a whole, over time.
@@ -43,6 +48,8 @@ Model any serious endeavor as a programme. A startup: hard core = the founding b
 > "The basic unit of appraisal must be not an isolated theory or conjunction of theories but rather a 'research programme'."
 
 > "All scientific research programmes may be characterized by their 'hard core'."
+
+![concept-03-research-programme transformation infographic](../infographics/concept-03-research-programme-end.jpg)
 
 ## Reflection Questions
 

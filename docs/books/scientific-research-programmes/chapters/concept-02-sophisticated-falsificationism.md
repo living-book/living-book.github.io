@@ -8,6 +8,11 @@ created: 2026-07-05
 
 # Concept 2 — Sophisticated Falsificationism
 
+<audio controls preload="none" style="width:100%" src="../../audio/concept-02-sophisticated-falsificationism.mp3"></audio>
+
+![concept-02-sophisticated-falsificationism overview infographic](../infographics/concept-02-sophisticated-falsificationism-start.jpg)
+
+
 ## Core Thesis
 
 Lakatos's repair of Popper: a theory is never falsified by evidence alone — it is falsified only when a **better theory** arrives. "Better" has three parts: the rival predicts novel facts the old theory forbids, explains the old theory's successes, and some of the novel predictions get corroborated. Refutation without replacement is no refutation at all; science is a contest of theories, not a duel between theory and nature.
@@ -43,6 +48,8 @@ The operational rule from Kuhn's crisis chapter gets its logic here: never retir
 > "There is no falsification before the emergence of a better theory."
 
 > "The proponents of a research programme may even 'thrive on' anomalies: an ocean of anomalies is a challenge, not a refutation."
+
+![concept-02-sophisticated-falsificationism transformation infographic](../infographics/concept-02-sophisticated-falsificationism-end.jpg)
 
 ## Reflection Questions
 

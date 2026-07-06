@@ -8,6 +8,11 @@ created: 2026-07-05
 
 # Concept 6 — The Positive Heuristic
 
+<audio controls preload="none" style="width:100%" src="../../audio/concept-06-positive-heuristic.mp3"></audio>
+
+![concept-06-positive-heuristic overview infographic](../infographics/concept-06-positive-heuristic-start.jpg)
+
+
 ## Core Thesis
 
 The **positive heuristic** is the programme's battle plan: a partially articulated agenda that tells researchers which problems to tackle in which order, how to modify the belt, which idealizations to lift next. It lets scientists work in a planned sequence of increasingly realistic models — largely *ignoring* actual anomalies, because the plan already anticipates the refutations of each crude stage.
@@ -43,6 +48,8 @@ The difference between a roadmap and a backlog is the positive heuristic. A back
 > "The positive heuristic consists of a partially articulated set of suggestions or hints on how to change, develop the 'refutable variants' of the research programme."
 
 > "Which problems scientists working in powerful research programmes rationally choose, is determined by the positive heuristic of the programme rather than by psychologically worrying (or technologically urgent) anomalies."
+
+![concept-06-positive-heuristic transformation infographic](../infographics/concept-06-positive-heuristic-end.jpg)
 
 ## Reflection Questions
 

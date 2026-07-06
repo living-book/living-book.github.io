@@ -8,6 +8,11 @@ created: 2026-07-05
 
 # Chapter 16 — The Evolution of Creativity
 
+<audio controls preload="none" style="width:100%" src="../../audio/ch-16-evolution-of-creativity.mp3"></audio>
+
+![ch-16-evolution-of-creativity overview infographic](../infographics/ch-16-evolution-of-creativity-start.jpg)
+
+
 ## Core Thesis
 
 Deutsch poses an evolutionary puzzle and answers it with an inversion. Why did human creativity evolve at all, given that early human societies were **static** — hostile to new ideas, punishing deviation? His answer: creativity evolved not to *innovate* but to **transmit existing culture faithfully**. To acquire the complex, unspoken memes of one's tribe, a child must *creatively reconstruct* the hidden rules behind others' behavior — an act of conjecture and criticism. Creativity's original survival value was high-fidelity conformity.
@@ -43,6 +48,8 @@ Recognize that acquiring a rich practice is itself a creative act — which refr
 > "Our creativity evolved... in order to keep our behaviour the same as that of our fellow tribesmen."
 
 > "To imitate a behaviour, one must first understand it — and understanding is an act of creativity."
+
+![ch-16-evolution-of-creativity transformation infographic](../infographics/ch-16-evolution-of-creativity-end.jpg)
 
 ## Reflection Questions
 

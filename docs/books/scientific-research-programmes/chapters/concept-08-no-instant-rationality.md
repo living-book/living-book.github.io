@@ -8,6 +8,11 @@ created: 2026-07-05
 
 # Concept 8 — No Instant Rationality
 
+<audio controls preload="none" style="width:100%" src="../../audio/concept-08-no-instant-rationality.mp3"></audio>
+
+![concept-08-no-instant-rationality overview infographic](../infographics/concept-08-no-instant-rationality-start.jpg)
+
+
 ## Core Thesis
 
 The methodology's most disquieting honesty: **appraisal is not advice**. Lakatos can tell you a programme is degenerating; he cannot tell you the rational moment to leave it. Crucial experiments are crowned only in hindsight — sometimes decades later. It is not irrational to stick with a degenerating programme (it may recover), nor to gamble on a young one still behind its rivals. Rationality operates, but slowly; "instant rationality" — the dream of a rulebook verdict at each moment — is a myth.
@@ -43,6 +48,8 @@ Two disciplines follow. First, humility in judgment: the verdict on today's cont
 > "Rationality works much slower than most people tend to think, and, even then, fallibly."
 
 > "It is not irrational to defend a degenerating programme... what is irrational is to deny its poor public record."
+
+![concept-08-no-instant-rationality transformation infographic](../infographics/concept-08-no-instant-rationality-end.jpg)
 
 ## Reflection Questions
 

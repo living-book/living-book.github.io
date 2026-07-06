@@ -8,6 +8,11 @@ created: 2026-07-05
 
 # Chapter 18 — The Beginning
 
+<audio controls preload="none" style="width:100%" src="../../audio/ch-18-beginning.mp3"></audio>
+
+![ch-18-beginning overview infographic](../infographics/ch-18-beginning-start.jpg)
+
+
 ## Core Thesis
 
 The book's threads converge on one claim: we are **at the beginning of infinity**. The Enlightenment — barely a few centuries old — inaugurated the first sustained tradition of criticism, the first *dynamic* society, and thereby the open-ended growth of knowledge. This is not the culmination of history but its infancy. Everything achieved so far is negligible against what is possible, because there is no bound — save the laws of physics — on what knowledge can achieve, and the growth of knowledge has, in principle, no end.
@@ -43,6 +48,8 @@ Adopt the beginning-of-infinity stance operationally: treat your field, your pro
 > "We are at the beginning of infinity... The whole of history so far has been about the beginning."
 
 > "Everything that is not forbidden by laws of nature is achievable, given the right knowledge."
+
+![ch-18-beginning transformation infographic](../infographics/ch-18-beginning-end.jpg)
 
 ## Reflection Questions
 

@@ -8,6 +8,11 @@ created: 2026-07-05
 
 # Concept 5 — The Protective Belt
 
+<audio controls preload="none" style="width:100%" src="../../audio/concept-05-protective-belt.mp3"></audio>
+
+![concept-05-protective-belt overview infographic](../infographics/concept-05-protective-belt-start.jpg)
+
+
 ## Core Thesis
 
 Around the hard core sits the **protective belt**: auxiliary hypotheses, initial conditions, observational theories, instrument assumptions — everything adjustable. The belt takes the hits. When prediction fails, blame lands here by design: refine the auxiliary, remeasure, add a factor. Science's day-to-day work is belt engineering, and the quality of belt adjustments — ad hoc or content-increasing — decides whether the programme lives honorably.
@@ -43,6 +48,8 @@ Run incident postmortems with belt discipline: list the auxiliary assumptions be
 > "It is this protective belt of auxiliary hypotheses which has to bear the brunt of tests and get adjusted and re-adjusted, or even completely replaced."
 
 > "Any theory can be saved from refutation by suitable adjustments in the background knowledge in which it is embedded."
+
+![concept-05-protective-belt transformation infographic](../infographics/concept-05-protective-belt-end.jpg)
 
 ## Reflection Questions
 

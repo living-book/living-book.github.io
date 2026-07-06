@@ -8,6 +8,11 @@ created: 2026-07-05
 
 # Concept 4 — The Hard Core
 
+<audio controls preload="none" style="width:100%" src="../../audio/concept-04-hard-core.mp3"></audio>
+
+![concept-04-hard-core overview infographic](../infographics/concept-04-hard-core-start.jpg)
+
+
 ## Core Thesis
 
 Every research programme has a **hard core**: the central commitments its adherents decide, methodologically, to treat as irrefutable. The negative heuristic forbids directing refutations at it — anomalies must be deflected into the auxiliary belt. This "dogmatism" is not a vice; it is what gives a programme identity and staying power. Abandon the core and you haven't revised the programme; you've left it.
@@ -43,6 +48,8 @@ Name your hard core explicitly — the two or three commitments your team will n
 > "The negative heuristic of the programme forbids us to direct the modus tollens at this 'hard core'."
 
 > "We must use our ingenuity to articulate or even invent 'auxiliary hypotheses', which form a protective belt around this core."
+
+![concept-04-hard-core transformation infographic](../infographics/concept-04-hard-core-end.jpg)
 
 ## Reflection Questions
 

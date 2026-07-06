@@ -8,6 +8,11 @@ created: 2026-07-05
 
 # Chapter 9 — Optimism
 
+<audio controls preload="none" style="width:100%" src="../../audio/ch-09-optimism.mp3"></audio>
+
+![ch-09-optimism overview infographic](../infographics/ch-09-optimism-start.jpg)
+
+
 ## Core Thesis
 
 **All evils are caused by insufficient knowledge.** That is Deutsch's principle of optimism — not a mood but a factual claim paired with a methodological stance: problems are inevitable, and problems are soluble. Optimism, properly defined, is the proposition that all failures — all evils — are due to lack of knowledge, and that knowledge can be created by criticizable conjecture. Pessimism, in all its forms, is a **prophecy** — and prophecy (claiming to know the unknowable growth of future knowledge) is the underlying error.
@@ -43,6 +48,8 @@ Institutionalize the principle: for every persistent evil on your team's map (ou
 > "All evils are caused by insufficient knowledge."
 
 > "Problems are inevitable. Problems are soluble."
+
+![ch-09-optimism transformation infographic](../infographics/ch-09-optimism-end.jpg)
 
 ## Reflection Questions
 

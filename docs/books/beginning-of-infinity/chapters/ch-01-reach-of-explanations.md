@@ -8,6 +8,11 @@ created: 2026-07-05
 
 # Chapter 1 — The Reach of Explanations
 
+<audio controls preload="none" style="width:100%" src="../../audio/ch-01-reach-of-explanations.mp3"></audio>
+
+![ch-01-reach-of-explanations overview infographic](../infographics/ch-01-reach-of-explanations-start.jpg)
+
+
 ## Core Thesis
 
 Knowledge does not come from the senses. It comes from **conjecture criticized** — guesses about what is really out there, tested against reality and against each other. And the guesses that survive best share a property Deutsch makes the book's foundation: **good explanations are hard to vary** while still accounting for what they explain. Every detail plays a functional role; change any part and the explanation fails.
@@ -43,6 +48,8 @@ Audit any claim — a market thesis, a postmortem, a model — with the variabil
 > "That is what a good explanation will do for you: it makes it harder for you to fool yourself."
 
 > "The reach of an explanation is not a matter of anyone's choice: it is an objective fact about it."
+
+![ch-01-reach-of-explanations transformation infographic](../infographics/ch-01-reach-of-explanations-end.jpg)
 
 ## Reflection Questions
 

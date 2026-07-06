@@ -8,6 +8,11 @@ created: 2026-07-05
 
 # Chapter 5 — The Reality of Abstractions
 
+<audio controls preload="none" style="width:100%" src="../../audio/ch-05-reality-of-abstractions.mp3"></audio>
+
+![ch-05-reality-of-abstractions overview infographic](../infographics/ch-05-reality-of-abstractions-start.jpg)
+
+
 ## Core Thesis
 
 Abstractions — numbers, ideas, knowledge, moral principles — are **real**: they figure indispensably in causal explanations. Reductionism (only microphysics really causes anything) is false as methodology and as metaphysics. The criterion of reality is explanatory: if the best explanation of a phenomenon requires an entity, that entity is real — whatever level it lives on.
@@ -43,6 +48,8 @@ Respect the level where the explanation lives. Debugging culture: some incidents
 > "The behaviour of that domino is caused by the primality of 641... an abstraction can cause physical effects."
 
 > "There is no inconsistency in having multiple explanations of the same phenomenon, at different levels of emergence."
+
+![ch-05-reality-of-abstractions transformation infographic](../infographics/ch-05-reality-of-abstractions-end.jpg)
 
 ## Reflection Questions
 

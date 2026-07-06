@@ -8,6 +8,11 @@ created: 2026-07-05
 
 # Chapter 6 — The Jump to Universality
 
+<audio controls preload="none" style="width:100%" src="../../audio/ch-06-jump-to-universality.mp3"></audio>
+
+![ch-06-jump-to-universality overview infographic](../infographics/ch-06-jump-to-universality-start.jpg)
+
+
 ## Core Thesis
 
 Some systems, built incrementally for parochial purposes, cross a threshold and suddenly become **universal** — capable of *everything* in their domain. Alphabets (all words of the language, then all possible words), positional numerals (all numbers), movable type (all documents), the computer (all computations), DNA's code (all terrestrial biochemistry — and far beyond). The jump is discontinuous, usually unintended, and repeatedly unnoticed by its own makers.
@@ -43,6 +48,8 @@ Evaluate platforms and skills by jump-status. A tool that does *one more thing* 
 > "In every case the jump to universality happened as an unintended consequence of solving a parochial problem."
 
 > "Babbage and [Ada] had no way of knowing that they had already come across the last great step: universality."
+
+![ch-06-jump-to-universality transformation infographic](../infographics/ch-06-jump-to-universality-end.jpg)
 
 ## Reflection Questions
 

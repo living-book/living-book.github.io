@@ -8,6 +8,11 @@ created: 2026-07-05
 
 # Concept 9 — History and Methodology
 
+<audio controls preload="none" style="width:100%" src="../../audio/concept-09-history-and-methodology.mp3"></audio>
+
+![concept-09-history-and-methodology overview infographic](../infographics/concept-09-history-and-methodology-start.jpg)
+
+
 ## Core Thesis
 
 Methodologies of science are themselves research programmes, and history is their testing ground. Lakatos's meta-criterion: the best methodology is the one that reconstructs the largest part of great science as *rational* (internal history), leaving the smallest residue to be explained away by psychology and sociology (external history). Inductivism, conventionalism, and falsificationism each fail their historical test; the methodology of research programmes, he argues, turns more of science's actual record into reason than any rival.
@@ -43,6 +48,8 @@ Apply the meta-criterion to your organization's decision frameworks. A good fram
 > "Philosophy of science without history of science is empty; history of science without philosophy of science is blind."
 
 > "Each rational reconstruction produces some characteristic pattern of rational growth of scientific knowledge... all of them may be criticized... by criticizing the rational historiographical research programmes into which they can be developed."
+
+![concept-09-history-and-methodology transformation infographic](../infographics/concept-09-history-and-methodology-end.jpg)
 
 ## Reflection Questions
 

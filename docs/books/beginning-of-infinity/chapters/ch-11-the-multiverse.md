@@ -8,6 +8,11 @@ created: 2026-07-05
 
 # Chapter 11 — The Multiverse
 
+<audio controls preload="none" style="width:100%" src="../../audio/ch-11-the-multiverse.mp3"></audio>
+
+![ch-11-the-multiverse overview infographic](../infographics/ch-11-the-multiverse-start.jpg)
+
+
 ## Core Thesis
 
 Quantum theory, read as an explanation rather than a prediction-recipe, describes a **multiverse**: an infinity of parallel histories, differentiating as physical systems interact. Deutsch builds the picture from first principles — fungibility (identical, interchangeable instances), waves of differentiation, interference as the fleeting reunification of recently-split histories — arguing this is not an interpretation bolted onto the mathematics but what the unvarnished mathematics *says*.
@@ -43,6 +48,8 @@ The transferable skill is explanatory literalism: when your best model says some
 > "The quantum theory of parallel universes is not the problem, it is the solution... it is the explanation — the only one that is tenable — of a remarkable and counter-intuitive reality."
 
 > "Anything that can happen does happen — somewhere in the multiverse."
+
+![ch-11-the-multiverse transformation infographic](../infographics/ch-11-the-multiverse-end.jpg)
 
 ## Reflection Questions
 

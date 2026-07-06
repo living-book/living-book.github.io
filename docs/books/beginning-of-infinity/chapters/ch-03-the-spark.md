@@ -8,6 +8,11 @@ created: 2026-07-05
 
 # Chapter 3 — The Spark
 
+<audio controls preload="none" style="width:100%" src="../../audio/ch-03-the-spark.mp3"></audio>
+
+![ch-03-the-spark overview infographic](../infographics/ch-03-the-spark-start.jpg)
+
+
 ## Core Thesis
 
 Two reigning humilities are false. The **Principle of Mediocrity** ("we are nothing special — chemical scum on a typical planet") and **Spaceship Earth** ("the biosphere is our life-support system, uniquely suited to us"). Deutsch refutes both with one move: people are **universal explainers and constructors**. Anything not forbidden by the laws of physics is achievable by people with the right knowledge — which makes people the most significant entities in the cosmic scheme, and makes every place in the universe equally (in)hospitable pending knowledge.
@@ -43,6 +48,8 @@ Diagnose your organization's self-image. Mediocrity-culture ("we're a small play
 > "Every problem that is interesting is also soluble... anything that is not forbidden by the laws of nature is achievable, given the right knowledge."
 
 > "The Earth's biosphere is incapable of supporting human life... it is only knowledge that makes it possible."
+
+![ch-03-the-spark transformation infographic](../infographics/ch-03-the-spark-end.jpg)
 
 ## Reflection Questions
 

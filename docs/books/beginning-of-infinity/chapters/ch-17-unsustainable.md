@@ -8,6 +8,11 @@ created: 2026-07-05
 
 # Chapter 17 — Unsustainable
 
+<audio controls preload="none" style="width:100%" src="../../audio/ch-17-unsustainable.mp3"></audio>
+
+![ch-17-unsustainable overview infographic](../infographics/ch-17-unsustainable-start.jpg)
+
+
 ## Core Thesis
 
 **Sustainability**, as usually understood — reaching a stable state that endures unchanged — is not only unattainable but the wrong ideal. It is the aspiration of a *static* society, and static societies fail precisely because problems are inevitable and only knowledge-growth solves them. The right ideal is the opposite: not a fixed sustainable state but **continual problem-solving** — a dynamic society that expects to face unknown problems and keeps creating the knowledge to meet them.
@@ -43,6 +48,8 @@ Reframe "sustainable" goals as problem-solving-capacity goals. For a business or
 > "A sustainable lifestyle would necessarily be a static one, and a static society is... incompatible with the open-ended creation of knowledge."
 
 > "The maxim 'live within your means' is... a recipe for disaster in a world where problems are inevitable."
+
+![ch-17-unsustainable transformation infographic](../infographics/ch-17-unsustainable-end.jpg)
 
 ## Reflection Questions
 

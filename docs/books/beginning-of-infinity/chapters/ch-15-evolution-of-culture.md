@@ -8,6 +8,11 @@ created: 2026-07-05
 
 # Chapter 15 — The Evolution of Culture
 
+<audio controls preload="none" style="width:100%" src="../../audio/ch-15-evolution-of-culture.mp3"></audio>
+
+![ch-15-evolution-of-culture overview infographic](../infographics/ch-15-evolution-of-culture-start.jpg)
+
+
 ## Core Thesis
 
 Cultures evolve by the variation and selection of **memes** — ideas that are replicators. But Deutsch splits memes into two kinds with opposite survival strategies, producing two kinds of society. **Rational memes** survive because they are *useful and true* — they help their holders, and so are copied for their content. **Anti-rational memes** survive by *disabling the criticism* that would eliminate them — they propagate by suppressing the recipient's capacity to reject them. Which meme-type dominates determines whether a society is dynamic or static.
@@ -43,6 +48,8 @@ Diagnose your organization's meme-ecology. Do ideas survive here because they're
 > "A static society is one whose citizens' way of life... does not change noticeably over many generations... it is a society that has succeeded in suppressing the growth of knowledge."
 
 > "Anti-rational memes... survive by disabling the recipients' critical faculties."
+
+![ch-15-evolution-of-culture transformation infographic](../infographics/ch-15-evolution-of-culture-end.jpg)
 
 ## Reflection Questions
 

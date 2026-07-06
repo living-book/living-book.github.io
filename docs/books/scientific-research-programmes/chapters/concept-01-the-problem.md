@@ -8,6 +8,11 @@ created: 2026-07-05
 
 # Concept 1 — The Problem: Rescuing Rationality
 
+<audio controls preload="none" style="width:100%" src="../../audio/concept-01-the-problem.mp3"></audio>
+
+![concept-01-the-problem overview infographic](../infographics/concept-01-the-problem-start.jpg)
+
+
 ## Core Thesis
 
 Lakatos writes in the crossfire of the century's great demarcation battle. Popper says science is rational because it refutes; Kuhn says history shows scientists ignoring refutations for decades, making theory change look like conversion — "mob psychology," in Lakatos's barbed phrase. Both, Lakatos argues, are half right: Popper's logic can't survive history, and Kuhn's history seems to abandon logic. His project: a methodology that keeps science rational **while fitting what scientists actually did**.
@@ -43,6 +48,8 @@ Every "is X dying?" debate — a technology, a strategy, a field — is asked sn
 > "The history of science has been and should be a history of competing research programmes."
 
 > "If we look at history of science, we find that... some of the most important research programmes progressed on inconsistent foundations, in an ocean of anomalies."
+
+![concept-01-the-problem transformation infographic](../infographics/concept-01-the-problem-end.jpg)
 
 ## Reflection Questions
 

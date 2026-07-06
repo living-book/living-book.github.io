@@ -8,6 +8,11 @@ created: 2026-07-05
 
 # Chapter 12 — A Physicist's History of Bad Philosophy
 
+<audio controls preload="none" style="width:100%" src="../../audio/ch-12-bad-philosophy.mp3"></audio>
+
+![ch-12-bad-philosophy overview infographic](../infographics/ch-12-bad-philosophy-start.jpg)
+
+
 ## Core Thesis
 
 **Bad philosophy** is philosophy that actively closes off the growth of knowledge — and it can capture entire sciences. Exhibit A: the Copenhagen interpretation and its descendants, which taught two generations of physicists that seeking an account of quantum reality was naive, that the theory is a prediction-instrument only, and that foundational questions are career poison. Instrumentalism didn't stay modest; it became **doctrine enforcing its own immunity from criticism**.
@@ -43,6 +48,8 @@ Audit your field for question-forbidding doctrines: "that's not measurable, so d
 > "Bad philosophy is philosophy that is not merely false, but actively prevents the growth of other knowledge."
 
 > "Instrumentalism... is a project for preventing progress in understanding the entities beyond our direct experience."
+
+![ch-12-bad-philosophy transformation infographic](../infographics/ch-12-bad-philosophy-end.jpg)
 
 ## Reflection Questions
 
