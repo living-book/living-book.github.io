@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ask the Books — Living Books</title>
+<style>
+:root {
+  --bg: #f5f4ed;
+  --bg2: #faf9f5;
+  --bg3: #e8e6dc;
+  --border: #f0eee6;
+  --border-warm: #e8e6dc;
+  --accent: #c96442;
+  --accent2: #d97757;
+  --green: #2a6b42;
+  --yellow: #9a6520;
+  --red: #b53333;
+  --text: #141413;
+  --muted: #5e5d59;
+  --text3: #87867f;
+  --text-light: #b0aea5;
+  --dark: #141413;
+  --dark2: #30302e;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Nav */
+nav {
+  background: var(--dark);
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  height: 52px;
+  flex-shrink: 0;
+}
+nav a {
+  color: var(--text-light);
+  text-decoration: none;
+  font-size: 14px;
+  transition: color .15s;
+}
+nav a:hover { color: #fff; }
+nav .brand {
+  color: var(--accent2);
+  font-family: Georgia, serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Layout */
+.page {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: 780px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 32px 20px 24px;
+  gap: 20px;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  font-size: 26px;
+  font-weight: 500;
+  color: var(--text);
+  line-height: 1.2;
+}
+.subtitle {
+  color: var(--muted);
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+/* Books pill row */
+.books-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.book-pill {
+  background: var(--bg3);
+  color: var(--muted);
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+  border: 1px solid var(--border-warm);
+}
+
+/* API key section */
+.key-section {
+  background: var(--bg2);
+  border: 1px solid var(--border-warm);
+  border-radius: 10px;
+  padding: 18px 20px;
+}
+.key-section h2 {
+  font-family: Georgia, serif;
+  font-size: 16px;
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+.key-section p {
+  font-size: 13px;
+  color: var(--muted);
+  margin-bottom: 12px;
+}
+.key-section p a { color: var(--accent); }
+.key-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.key-input {
+  flex: 1;
+  min-width: 200px;
+  padding: 9px 12px;
+  border: 1px solid var(--border-warm);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 14px;
+  font-family: monospace;
+  outline: none;
+  transition: border-color .15s;
+}
+.key-input:focus { border-color: var(--accent); }
+.key-status {
+  font-size: 12px;
+  margin-top: 8px;
+  color: var(--muted);
+}
+.key-status.ok { color: var(--green); }
+.key-status.err { color: var(--red); }
+
+/* Chat messages */
+.messages {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-height: 200px;
+}
+
+.msg {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.msg-label {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--text3);
+}
+.msg.user .msg-label { color: var(--accent); }
+
+.bubble {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px 16px;
+  white-space: pre-wrap;
+  line-height: 1.65;
+}
+.msg.user .bubble {
+  background: var(--dark2);
+  color: #f0efe8;
+  border-color: transparent;
+}
+.bubble.streaming::after {
+  content: '▋';
+  animation: blink .8s steps(1) infinite;
+  color: var(--accent);
+  margin-left: 2px;
+}
+@keyframes blink { 50% { opacity: 0; } }
+
+.empty-state {
+  text-align: center;
+  padding: 48px 0;
+  color: var(--text3);
+}
+.empty-state .icon { font-size: 36px; margin-bottom: 12px; }
+.example-questions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 16px;
+}
+.example-btn {
+  background: var(--bg2);
+  border: 1px solid var(--border-warm);
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-size: 13px;
+  color: var(--muted);
+  cursor: pointer;
+  transition: background .15s, color .15s;
+  text-align: left;
+}
+.example-btn:hover { background: var(--bg3); color: var(--text); }
+
+/* Error bubble */
+.bubble.error {
+  background: #fdf2f0;
+  border-color: #f5c9be;
+  color: var(--red);
+}
+
+/* Input area */
+.input-area {
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
+  background: var(--bg2);
+  border: 1px solid var(--border-warm);
+  border-radius: 12px;
+  padding: 10px 12px;
+  transition: border-color .15s;
+}
+.input-area:focus-within { border-color: var(--accent); }
+
+#question {
+  flex: 1;
+  border: none;
+  background: transparent;
+  color: var(--text);
+  font-size: 15px;
+  font-family: inherit;
+  line-height: 1.5;
+  resize: none;
+  outline: none;
+  max-height: 160px;
+  overflow-y: auto;
+}
+#question::placeholder { color: var(--text3); }
+
+#send-btn {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 9px 18px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background .15s, opacity .15s;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+#send-btn:hover { background: var(--accent2); }
+#send-btn:disabled { opacity: .45; cursor: default; }
+
+.char-hint {
+  font-size: 11px;
+  color: var(--text3);
+  text-align: right;
+  padding: 2px 4px 0;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 12px;
+  color: var(--text3);
+  padding: 12px 0 8px;
+}
+footer a { color: var(--text3); }
+
+/* Loading state */
+.loading-corpus {
+  text-align: center;
+  padding: 32px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  h1 { font-size: 22px; }
+  .key-row { flex-direction: column; }
+  #send-btn { width: 100%; }
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="brand">Living Books</a>
+  <a href="/">← Library</a>
+</nav>
+
+<div class="page">
+
+  <div>
+    <h1>Ask the Books</h1>
+    <p class="subtitle">Chat with all four book companions at once</p>
+  </div>
+
+  <div class="books-row" id="books-row">
+    <span class="book-pill" style="opacity:.4">loading…</span>
+  </div>
+
+  <div class="key-section" id="key-section">
+    <h2>Gemini API Key</h2>
+    <p>
+      Your key is stored in your browser only — never sent anywhere except Google's API.
+      Get a free key at <a href="https://aistudio.google.com/apikey" target="_blank">aistudio.google.com/apikey</a>.
+    </p>
+    <div class="key-row">
+      <input type="password" id="key-input" class="key-input" placeholder="AIza…" autocomplete="off" spellcheck="false">
+      <button onclick="saveKey()" style="background:var(--accent);color:#fff;border:none;border-radius:6px;padding:9px 16px;font-size:14px;cursor:pointer;">Save</button>
+      <button onclick="clearKey()" style="background:var(--bg3);color:var(--muted);border:1px solid var(--border-warm);border-radius:6px;padding:9px 14px;font-size:14px;cursor:pointer;">Clear</button>
+    </div>
+    <div id="key-status" class="key-status"></div>
+  </div>
+
+  <div id="messages" class="messages">
+    <div class="empty-state" id="empty-state">
+      <div class="icon">📚</div>
+      <div>Ask anything about the four books</div>
+      <div class="example-questions" id="examples"></div>
+    </div>
+  </div>
+
+  <div class="loading-corpus" id="loading-corpus" style="display:none">Loading book content…</div>
+
+  <div>
+    <div class="input-area">
+      <textarea id="question" rows="1" placeholder="Ask a question about any of the books…" maxlength="2000"></textarea>
+      <button id="send-btn" onclick="send()">Ask</button>
+    </div>
+    <div class="char-hint" id="char-hint"></div>
+  </div>
+
+  <footer>
+    <a href="/">Living Books</a> · Questions answered by <a href="https://ai.google.dev" target="_blank">Gemini</a> using your API key · Key stored in your browser
+  </footer>
+
+</div>
+
+<script>
+const STORAGE_KEY = 'lb_gemini_key';
+const MODEL = 'gemini-2.0-flash';
+
+let corpus = null;
+let contextText = '';
+let isStreaming = false;
+
+const EXAMPLES = [
+  "What is the Law of Irrationality?",
+  "How do paradigm shifts happen according to Kuhn?",
+  "What's the difference between progressive and degenerating research programmes?",
+  "How does Deutsch define good explanations?",
+  "Which laws in Greene relate to workplace dynamics?",
+  "Compare how Kuhn and Lakatos view scientific progress",
+];
+
+// ── Init ──────────────────────────────────────────────────────────────────────
+
+window.addEventListener('DOMContentLoaded', () => {
+  renderExamples();
+  loadCorpus();
+  restoreKey();
+  autoGrow();
+});
+
+function renderExamples() {
+  const el = document.getElementById('examples');
+  EXAMPLES.forEach(q => {
+    const btn = document.createElement('button');
+    btn.className = 'example-btn';
+    btn.textContent = q;
+    btn.onclick = () => { setQuestion(q); send(); };
+    el.appendChild(btn);
+  });
+}
+
+function autoGrow() {
+  const ta = document.getElementById('question');
+  ta.addEventListener('input', () => {
+    ta.style.height = 'auto';
+    ta.style.height = Math.min(ta.scrollHeight, 160) + 'px';
+    const n = ta.value.length;
+    const hint = document.getElementById('char-hint');
+    hint.textContent = n > 1800 ? `${n}/2000` : '';
+  });
+  ta.addEventListener('keydown', e => {
+    if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); send(); }
+  });
+}
+
+// ── Corpus ────────────────────────────────────────────────────────────────────
+
+async function loadCorpus() {
+  document.getElementById('loading-corpus').style.display = 'block';
+  try {
+    const r = await fetch('corpus.json');
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    corpus = await r.json();
+    buildContext();
+    renderBookPills();
+    document.getElementById('loading-corpus').style.display = 'none';
+  } catch (e) {
+    document.getElementById('loading-corpus').textContent = `Failed to load corpus: ${e.message}`;
+  }
+}
+
+function buildContext() {
+  // Group by book, then format as readable text
+  const books = {};
+  for (const c of corpus) {
+    if (!books[c.book]) books[c.book] = { title: c.book_title, chapters: [], guides: [] };
+    if (c.type === 'chapter') books[c.book].chapters.push(c);
+    else books[c.book].guides.push(c);
+  }
+
+  const parts = [];
+  for (const [, b] of Object.entries(books)) {
+    parts.push(`\n${'='.repeat(60)}\n${b.title.toUpperCase()}\n${'='.repeat(60)}\n`);
+    for (const c of b.chapters) {
+      parts.push(`\n## ${c.title}\n${c.content}\n`);
+    }
+    if (b.guides.length) {
+      parts.push(`\n--- STUDY GUIDES ---\n`);
+      for (const g of b.guides) {
+        parts.push(`\n## ${g.title}\n${g.content}\n`);
+      }
+    }
+  }
+  contextText = parts.join('');
+}
+
+function renderBookPills() {
+  const seen = new Set();
+  const row = document.getElementById('books-row');
+  row.innerHTML = '';
+  for (const c of corpus) {
+    if (seen.has(c.book)) continue;
+    seen.add(c.book);
+    const pill = document.createElement('span');
+    pill.className = 'book-pill';
+    pill.textContent = c.book_title;
+    row.appendChild(pill);
+  }
+}
+
+// ── API Key ───────────────────────────────────────────────────────────────────
+
+function saveKey() {
+  const val = document.getElementById('key-input').value.trim();
+  if (!val) return setKeyStatus('Enter a key first', false);
+  if (!val.startsWith('AIza')) return setKeyStatus('Gemini keys start with "AIza"', false);
+  localStorage.setItem(STORAGE_KEY, val);
+  document.getElementById('key-input').value = '';
+  setKeyStatus('✓ Key saved', true);
+}
+
+function clearKey() {
+  localStorage.removeItem(STORAGE_KEY);
+  document.getElementById('key-input').value = '';
+  setKeyStatus('Key cleared', false);
+}
+
+function restoreKey() {
+  const k = localStorage.getItem(STORAGE_KEY);
+  if (k) setKeyStatus('✓ Key loaded from storage', true);
+}
+
+function setKeyStatus(msg, ok) {
+  const el = document.getElementById('key-status');
+  el.textContent = msg;
+  el.className = 'key-status' + (ok ? ' ok' : ' err');
+}
+
+function getKey() {
+  return localStorage.getItem(STORAGE_KEY) || '';
+}
+
+// ── Chat ──────────────────────────────────────────────────────────────────────
+
+function setQuestion(q) {
+  const ta = document.getElementById('question');
+  ta.value = q;
+  ta.dispatchEvent(new Event('input'));
+}
+
+async function send() {
+  if (isStreaming) return;
+
+  const ta = document.getElementById('question');
+  const question = ta.value.trim();
+  if (!question) return;
+
+  const key = getKey();
+  if (!key) {
+    setKeyStatus('Save your Gemini API key first ↑', false);
+    document.getElementById('key-input').focus();
+    return;
+  }
+
+  if (!corpus) {
+    alert('Still loading book content, please wait…');
+    return;
+  }
+
+  // Clear input
+  ta.value = '';
+  ta.style.height = 'auto';
+  document.getElementById('char-hint').textContent = '';
+
+  // Remove empty state
+  document.getElementById('empty-state')?.remove();
+
+  addMessage('user', question);
+  const assistantBubble = addMessage('assistant', '');
+  assistantBubble.classList.add('streaming');
+
+  isStreaming = true;
+  document.getElementById('send-btn').disabled = true;
+
+  try {
+    await streamGemini(key, question, assistantBubble);
+  } catch (e) {
+    assistantBubble.classList.remove('streaming');
+    assistantBubble.classList.add('error');
+    assistantBubble.textContent = `Error: ${e.message}`;
+  } finally {
+    assistantBubble.classList.remove('streaming');
+    isStreaming = false;
+    document.getElementById('send-btn').disabled = false;
+    ta.focus();
+  }
+}
+
+function addMessage(role, text) {
+  const messages = document.getElementById('messages');
+  const msg = document.createElement('div');
+  msg.className = `msg ${role}`;
+
+  const label = document.createElement('div');
+  label.className = 'msg-label';
+  label.textContent = role === 'user' ? 'You' : 'Books';
+
+  const bubble = document.createElement('div');
+  bubble.className = 'bubble';
+  bubble.textContent = text;
+
+  msg.appendChild(label);
+  msg.appendChild(bubble);
+  messages.appendChild(msg);
+  bubble.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  return bubble;
+}
+
+async function streamGemini(key, question, bubble) {
+  const systemPrompt = `You are a book companion assistant for Living Books (https://living-book.github.io).
+
+You have access to the full content of four book companions:
+1. The Laws of Human Nature — Robert Greene (18 laws about human psychology and behavior)
+2. The Structure of Scientific Revolutions — Thomas Kuhn (paradigm shifts in science)
+3. The Methodology of Scientific Research Programmes — Imre Lakatos (philosophy of science)
+4. The Beginning of Infinity — David Deutsch (knowledge, explanation, and progress)
+
+Answer questions based on the book content provided. Be specific. Cite the book title and chapter/law number in your answer. If a question isn't covered by these books, say so clearly. Keep answers focused and readable.`;
+
+  const userMessage = `BOOK CONTENT:\n${contextText}\n\n---\n\nUSER QUESTION: ${question}`;
+
+  const payload = {
+    system_instruction: { parts: [{ text: systemPrompt }] },
+    contents: [{ role: 'user', parts: [{ text: userMessage }] }],
+    generationConfig: { temperature: 0.3, maxOutputTokens: 2048 }
+  };
+
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:streamGenerateContent?key=${key}&alt=sse`;
+
+  const response = await fetch(url, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload)
+  });
+
+  if (!response.ok) {
+    const err = await response.json().catch(() => ({}));
+    const msg = err?.error?.message || `HTTP ${response.status}`;
+    if (response.status === 400 && msg.includes('API_KEY')) throw new Error('Invalid API key. Check your key and try again.');
+    if (response.status === 429) throw new Error('Rate limit hit. Wait a moment and try again.');
+    throw new Error(msg);
+  }
+
+  const reader = response.body.getReader();
+  const decoder = new TextDecoder();
+  let buffer = '';
+  let fullText = '';
+
+  while (true) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    buffer += decoder.decode(value, { stream: true });
+
+    const lines = buffer.split('\n');
+    buffer = lines.pop(); // keep incomplete line
+
+    for (const line of lines) {
+      if (!line.startsWith('data: ')) continue;
+      const raw = line.slice(6).trim();
+      if (!raw || raw === '[DONE]') continue;
+      try {
+        const data = JSON.parse(raw);
+        const chunk = data?.candidates?.[0]?.content?.parts?.[0]?.text || '';
+        if (chunk) {
+          fullText += chunk;
+          bubble.textContent = fullText;
+          bubble.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+      } catch (_) { /* partial JSON, skip */ }
+    }
+  }
+
+  if (!fullText) throw new Error('Empty response from Gemini. Try again.');
+}
+</script>
+</body>
+</html>

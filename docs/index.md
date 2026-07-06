@@ -26,6 +26,14 @@ Each book here gets a full study companion — chapter summaries, study guides, 
 
 ---
 
+## Ask the Books
+
+Have a question? Chat with all four books at once — answers cite the exact chapter.
+
+[:material-chat: Ask the Books →](/ask/){ .md-button .md-button--primary }
+
+---
+
 ## How the loop works
 
 1. **Read** a companion alongside (or instead of skimming) the book.
