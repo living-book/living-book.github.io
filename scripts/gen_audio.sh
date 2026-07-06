@@ -7,7 +7,9 @@ SCRIPTS=${1:-/home/sanjayg4/living-books/scripts/audio_scripts}
 OUT=${2:-/home/sanjayg4/living-books/docs/books/laws-of-human-nature/audio}
 VOICE_ARGS=${VOICE_ARGS:-"--style warm --exaggeration 0.35 --cfg-weight 0.5"}
 FORCE=${FORCE:-0}
-mkdir -p "$OUT"
+# resolve to absolute — the cd below breaks any relative path (bit us 2026-07-06)
+SCRIPTS=$(realpath "$SCRIPTS")
+mkdir -p "$OUT"; OUT=$(realpath "$OUT")
 TMP=$(mktemp -d)
 cd /home/sanjayg4/chatterbox
 for f in "$SCRIPTS"/*.txt; do
