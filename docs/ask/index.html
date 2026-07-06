@@ -358,7 +358,7 @@ footer a { color: var(--text3); }
 
 <script>
 const STORAGE_KEY = 'lb_gemini_key';
-const MODEL = 'gemini-2.0-flash';
+const MODELS = ['gemini-flash-latest', 'gemini-2.5-flash']; // try in order; first that exists wins
 
 let corpus = null;
 let contextText = '';
@@ -588,21 +588,25 @@ Answer questions based on the book content provided. Be specific. Cite the book 
     generationConfig: { temperature: 0.3, maxOutputTokens: 2048 }
   };
 
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:streamGenerateContent?key=${key}&alt=sse`;
-
-  const response = await fetch(url, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(payload)
-  });
-
-  if (!response.ok) {
+  let response = null;
+  let lastErr = '';
+  for (const model of MODELS) {
+    const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:streamGenerateContent?key=${key}&alt=sse`;
+    response = await fetch(url, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    });
+    if (response.ok) break;
     const err = await response.json().catch(() => ({}));
     const msg = err?.error?.message || `HTTP ${response.status}`;
     if (response.status === 400 && msg.includes('API_KEY')) throw new Error('Invalid API key. Check your key and try again.');
     if (response.status === 429) throw new Error('Rate limit hit. Wait a moment and try again.');
+    // model retired/unknown -> try next in list
+    if (response.status === 404 || /no longer available|not found/i.test(msg)) { lastErr = msg; response = null; continue; }
     throw new Error(msg);
   }
+  if (!response) throw new Error(lastErr || 'No available Gemini model found.');
 
   const reader = response.body.getReader();
   const decoder = new TextDecoder();
