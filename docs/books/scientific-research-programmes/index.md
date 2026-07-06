@@ -43,3 +43,10 @@ Each concept page includes an audio overview, a start infographic (read before),
 ## Study Guides
 
 Condensed [study guides](study-guides/index.md) per concept — key terms, checklists, self-tests.
+
+---
+
+!!! question "Improve this companion"
+    Spotted something weak, missing, or wrong? One click, prefilled:
+
+    [:material-email: Send feedback on *Scientific Research Programmes*](mailto:visual-book-feedback-action@agentmail.to?subject=%5Bscientific-research-programmes%5D%20Feedback&body=Chapter%3A%20%0AWhat%27s%20weak%2C%20missing%2C%20or%20wrong%3F%0A%0A){ .md-button .md-button--primary }

@@ -34,9 +34,11 @@ Each book here gets a full study companion — chapter summaries, study guides, 
 
 ## Feedback
 
-Email **visual-book-feedback-action@agentmail.to** with:
+One click opens your email app with everything filled in:
 
-- `[book-name]` in the subject for feedback on a specific book
-- `[request]` in the subject to request a new book
+[:material-email: Send feedback on a book](mailto:visual-book-feedback-action@agentmail.to?subject=%5Bbook-name%5D%20Feedback&body=Which%20book%20and%20chapter%3F%20What%27s%20weak%2C%20missing%2C%20or%20wrong%3F%0A%0A){ .md-button .md-button--primary }
+[:material-book-plus: Request a new book](mailto:visual-book-feedback-action@agentmail.to?subject=%5Brequest%5D%20New%20book&body=Book%20title%20and%20author%3A%0A%0AWhy%20you%27d%20like%20a%20companion%20for%20it%3A%0A%0A){ .md-button }
+
+Prefer to type it yourself? Email **visual-book-feedback-action@agentmail.to** — put `[book-name]` in the subject for feedback, or `[request]` to ask for a new book.
 
 Every message is read. The best feedback ships as visible improvements.

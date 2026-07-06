@@ -1,0 +1,119 @@
+/* Living Books — Anthropic / Claude warm design system.
+   Overrides Material for MkDocs defaults with the parchment palette. */
+
+:root {
+  --lb-bg: #f5f4ed;          /* Parchment — page background */
+  --lb-bg2: #faf9f5;         /* Ivory — card surface */
+  --lb-bg3: #e8e6dc;         /* Warm Sand — elevated / hover */
+  --lb-border: #e8e6dc;      /* Border Warm */
+  --lb-accent: #c96442;      /* Terracotta — primary/brand */
+  --lb-accent2: #d97757;     /* Coral — links / secondary */
+  --lb-green: #2a6b42;
+  --lb-yellow: #9a6520;
+  --lb-text: #141413;        /* Near Black */
+  --lb-muted: #5e5d59;       /* Olive Gray */
+  --lb-text3: #87867f;       /* Stone Gray */
+  --lb-dark: #141413;
+}
+
+/* Map onto Material's theme variables */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: var(--lb-accent);
+  --md-primary-fg-color--light: var(--lb-accent2);
+  --md-primary-fg-color--dark: #b0532f;
+  --md-accent-fg-color: var(--lb-accent2);
+  --md-default-bg-color: var(--lb-bg);
+  --md-default-fg-color: var(--lb-text);
+  --md-default-fg-color--light: var(--lb-muted);
+  --md-default-fg-color--lighter: var(--lb-text3);
+  --md-typeset-color: var(--lb-text);
+  --md-typeset-a-color: var(--lb-accent);
+  --md-footer-bg-color: var(--lb-dark);
+  --md-footer-bg-color--dark: #0e0e0d;
+}
+
+/* Header keeps the parchment feel, not a saturated bar */
+.md-header {
+  background-color: var(--lb-dark);
+  color: #f5f4ed;
+}
+.md-tabs {
+  background-color: var(--lb-dark);
+}
+
+/* Typography — Georgia serif headings, system-ui body */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4 {
+  font-family: Georgia, "Anthropic Serif", "Times New Roman", serif;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+.md-typeset h1 { color: var(--lb-text); line-height: 1.15; }
+.md-typeset h2 { color: var(--lb-accent); line-height: 1.2; }
+.md-typeset h3 { color: var(--lb-muted); }
+.md-typeset h4 { color: var(--lb-yellow); }
+.md-typeset {
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  line-height: 1.65;
+}
+
+/* Tables as ivory cards on parchment */
+.md-typeset table:not([class]) {
+  background: var(--lb-bg2);
+  border: 1px solid var(--lb-border);
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 24px;
+}
+.md-typeset table:not([class]) th {
+  background: var(--lb-bg3);
+  color: var(--lb-text);
+  font-family: Georgia, serif;
+  font-weight: 500;
+}
+
+/* Terracotta button (mailto CTAs) */
+.md-typeset .md-button {
+  background-color: var(--lb-accent);
+  border-color: var(--lb-accent);
+  color: #f5f4ed;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background-color .15s, box-shadow .15s;
+}
+.md-typeset .md-button:hover,
+.md-typeset .md-button:focus {
+  background-color: var(--lb-accent2);
+  border-color: var(--lb-accent2);
+  color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 20px;
+}
+
+/* Book cover thumbnails on the library page */
+.md-typeset a > img[src*="cover"] {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 12px;
+  transition: transform .15s, box-shadow .15s;
+  margin: 0.4rem 0.6rem 0.4rem 0;
+}
+.md-typeset a > img[src*="cover"]:hover {
+  transform: translateY(-3px);
+  box-shadow: rgba(0, 0, 0, 0.14) 0px 8px 24px;
+}
+
+/* Infographics: soft rounding, breathing room */
+.md-typeset a > img[src*="infographics"] {
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 12px;
+  margin: 1rem 0;
+}
+
+/* Audio player spacing */
+.md-typeset audio {
+  margin: 0.5rem 0 1rem;
+}
+
+/* Links a touch warmer */
+.md-typeset a { color: var(--lb-accent); }
+.md-typeset a:hover { color: var(--lb-accent2); }

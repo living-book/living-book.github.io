@@ -78,3 +78,10 @@ Laws 12, 14, 17 — gender rigidity, group conformity, generational blindness
 - **The shadow** — denied impulses (envy, aggression, desire) don't disappear; they become destructive
 - **Historical inevitability** — every psychological trap Greene describes has been playing out for millennia
 - **Positive and negative poles** — each law has a trap (the human weakness) and an escape (the transformation)
+
+---
+
+!!! question "Improve this companion"
+    Spotted something weak, missing, or wrong? One click, prefilled:
+
+    [:material-email: Send feedback on *Laws of Human Nature*](mailto:visual-book-feedback-action@agentmail.to?subject=%5Blaws-of-human-nature%5D%20Feedback&body=Chapter%3A%20%0AWhat%27s%20weak%2C%20missing%2C%20or%20wrong%3F%0A%0A){ .md-button .md-button--primary }
