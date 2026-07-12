@@ -132,11 +132,11 @@ def main():
             if base.is_dir():
                 ingest(base, slug)
 
-    woven = ROOT / "pipeline/atlas/edges.yml"
-    if woven.exists():
+    for woven in sorted((ROOT / "pipeline/atlas").glob("edges*.yml")) + \
+                 sorted((ROOT / "pipeline/atlas/edges").glob("*.yml") if (ROOT / "pipeline/atlas/edges").is_dir() else []):
         for e in yaml.safe_load(woven.read_text()) or []:
             if e["verb"] not in EDGE_VERBS:
-                print(f"  WARN unknown verb in edges.yml: {e}", file=sys.stderr)
+                print(f"  WARN unknown verb in {woven.name}: {e}", file=sys.stderr)
                 continue
             e.setdefault("source", "woven")
             edges.append(e)

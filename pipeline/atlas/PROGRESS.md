@@ -21,17 +21,17 @@ Wave = relaunch group after session-limit kill. Update as notifications arrive.
 - [x] W3 kanban (8 concepts)
 - [x] W3 project-to-product (7 concepts)
 - [x] W3 user-story-mapping (6 concepts)
-- [ ] W4 leaders-eat-last
-- [ ] W4 creativity-inc
-- [ ] W4 principles
-- [ ] W4 progress-principle
-- [ ] W4 thinking-fast-and-slow
-- [ ] W4 atomic-habits
-- [ ] W5 make-it-stick
-- [ ] W5 nudge
-- [ ] W5 laws-of-human-nature (→ docs/books/.../concepts/)
-- [ ] W5 structure-of-scientific-revolutions (→ docs/books/.../concepts/)
-- [ ] W5 scientific-research-programmes (→ docs/books/.../concepts/)
+- [x] W4 leaders-eat-last (7 concepts)
+- [x] W4 creativity-inc (6 concepts)
+- [x] W4 principles (7 concepts)
+- [x] W4 progress-principle (7 concepts)
+- [x] W4 thinking-fast-and-slow (8 concepts)
+- [x] W4 atomic-habits (8 concepts)
+- [x] W5 make-it-stick (7 concepts)
+- [x] W5 nudge (7 concepts)
+- [x] W5 laws-of-human-nature (8 concepts)
+- [x] W5 structure-of-scientific-revolutions (8 concepts)
+- [x] W5 scientific-research-programmes (8 concepts)
 
 ## After extraction
 - [ ] Edge weaving: 6 thematic agents over full catalog → pipeline/atlas/edges.yml
