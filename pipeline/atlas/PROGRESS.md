@@ -43,6 +43,17 @@ Wave = relaunch group after session-limit kill. Update as notifications arrive.
 - [ ] Commit, push concept-atlas branch, draft PR (base main; branch includes preview-pilot pilot work)
 - [ ] Artifact preview + final report (incl. OKF assessment answer)
 
+## Tranche 2 (user-approved: steps 1 PR ✓, 2 corpus ✓, 3 = this). 30 books, Sonnet, waves of 6.
+Sources root: $CLAUDE_JOB_DIR/tmp/sources. All output dirs: docs/atlas/concepts/<slug>/.
+After extraction: add 30 entries to BOOKS in scripts/build_atlas.py, regenerate CATALOG.md,
+weave (4 Sonnet agents, new-books × full catalog), verify (2 Sonnet agents), rebuild, commit, push, artifact.
+
+- [~] A deep-simplicity (Gribbin, Systems), simple-rules ✓7, art-of-problem-solving ✓8, on-the-shortness-of-life ✓5, ai-superpowers ✓6, the-inevitable ✓7 — others RUNNING
+- [ ] B fabric-of-reality (Deutsch, Tech: "The fabric of reality...WeLib.org .md" in Tech/AI), field-guide-to-lies-and-statistics (Levitin, Tech/Math), design-of-everyday-things (Norman, Business/BMI "The Design of Everyday Things ( PDFDrive.com ).md"), inspired (Cagan, Business/BMI), running-lean (Maurya, Business/BMI), four-steps-to-the-epiphany (Blank, Business/BMI)
+- [ ] C zone-to-win (Moore, Business/Strategy), jobs-to-be-done (Business/BMI), intelligent-investor (Graham, Business/Finance), the-advantage (Lencioni, Business/OrgDesign "The advantage _ why..."), product-development-flow (Reinertsen, Agile/Lean "Donald_G._Reinertsen__The_Principles_of_Product_D_Book.md"), toyota-production-system (Ohno, Agile/Lean)
+- [ ] D lean-software-development (Poppendieck, Agile/Lean "...An Agile Toolkit (The Agile Software Development Series)"), making-work-visible (DeGrandis, Agile/Scrum&Kanban), essential-drucker (Leadership/LeadDev "EssentialDrucker.md"), five-dysfunctions-of-a-team (Lencioni, Leadership/Coaching "The Five Dysfunctions of a Team.md"), act-like-a-leader (Ibarra, Leadership/LeadDev), why-great-leaders-dont-take-yes (Roberto, Leadership/LeadDev "Why Great Leaders Don't Take Yes for an Answer Managing for  ( PDFDrive.com ).md")
+- [ ] E power-of-habit (Duhigg, Psych/Habits), mastery (Greene, Psych/Habits), checklist-manifesto (Gawande, Psych/Habits), six-thinking-hats (De Bono, Psych/CogSci), art-of-learning (Waitzkin, Psych/Habits), digital-minimalism (Newport, Psych/Mindfulness)
+
 ## Key paths
 - Worktree: /home/sanjayg4/living-books/.claude/worktrees/concept-atlas
 - Sources clone: $CLAUDE_JOB_DIR/tmp/sources (= /home/sanjayg4/.claude/jobs/213b014c/tmp/sources)

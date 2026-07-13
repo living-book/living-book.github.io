@@ -63,11 +63,8 @@ separate pass by agents that can see the whole catalog.
 
 ## Existing namespace (avoid slug collisions; do not re-own these)
 
-Owned concepts already in the atlas:
-- superintelligence: intelligence-explosion, orthogonality-thesis, instrumental-convergence,
-  decisive-strategic-advantage, control-problem, treacherous-turn, value-loading
-- fifth-discipline: learning-organization, systems-thinking, feedback-loops,
-  system-archetypes, leverage, personal-mastery, mental-models, shared-vision, team-learning
+The full list of owned slugs is `pipeline/atlas/CATALOG.md` (one line per concept,
+grouped by book) — grep it for your candidate slugs before writing.
 
 If your book's core concept is already owned (e.g. another systems book and
 `feedback-loops`), extract the book's DISTINCT angle under a distinct slug
