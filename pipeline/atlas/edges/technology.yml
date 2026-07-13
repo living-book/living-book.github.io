@@ -1,0 +1,196 @@
+# Lens: technology, machines, and what stays human
+- from: polanyis-paradox
+  verb: parallels
+  to: story-as-conversation
+  why: >-
+    Both locate the operative knowledge in a tacit, unwritten layer that no
+    explicit artifact can capture — a rule for a skill, a card for a story —
+    so the written form only works for people who already share the tacit
+    understanding it points at.
+
+- from: confident-confabulation
+  verb: extends
+  to: explanatory-creativity
+  why: >-
+    Explanatory creativity's test already warns against mistaking fluency
+    for real understanding; confident confabulation supplies the missing
+    mechanism for why the fake case occurs — a system with no internal
+    signal for its own ignorance manufactures the hard-to-vary-sounding
+    account that the test is built to catch.
+
+- from: five-tribes
+  verb: parallels
+  to: wired-differently
+  why: >-
+    Both taxonomize genuinely incompatible root approaches to the same
+    activity — learning or thinking — where forcing every case into one
+    paradigm's metaphor loses real capability rather than merely trading
+    one style for another.
+
+- from: diversity-prediction-theorem
+  verb: formalizes
+  to: ensemble-metalearning
+  why: >-
+    Page's identity gives exact mathematical form to what ensemble learning
+    exploits empirically — a diverse committee's collective error is
+    provably lower than its average member's error, not just often lower
+    in practice.
+
+- from: curse-of-dimensionality
+  verb: parallels
+  to: organized-complexity
+  why: >-
+    Both locate a regime, opened by adding scale — more dimensions, more
+    interacting parts — where the intuitions a tool relies on quietly stop
+    holding: distance and similarity stop meaning what learners assume, and
+    equation-by-equation modeling or statistical averaging stop applying,
+    demanding methods built for the new regime instead.
+
+- from: snowmobile-mismatch
+  verb: tempers
+  to: second-machine-age
+  why: >-
+    The brain wired for small-group, scarcity-era feedback still runs
+    judgments of trust and effort inside an economy of near-instant,
+    abstract, planetary-scale digital production, so the productivity bend
+    in the curve outpaces the hardware evaluating it.
+
+- from: snowmobile-mismatch
+  verb: parallels
+  to: curse-of-dimensionality
+  why: >-
+    Both show a mechanism that works well inside the regime it was built or
+    evolved for — trust wiring in small groups, a distance metric in low
+    dimensions — breaking sharply, not gracefully, once scale exceeds that
+    regime.
+
+- from: abstraction-erodes-empathy
+  verb: extends
+  to: bounty-and-spread
+  why: >-
+    Bounty and spread names two coexisting outcomes of digitization without
+    explaining why decision-makers correct for one and not the other;
+    abstraction-erodes-empathy supplies the missing mechanism — the same
+    digitization also converts the people bearing the spread into distant
+    metrics and screens, removing the proximity that would otherwise
+    trigger a corrective response to the harm.
+
+- from: abstraction-erodes-empathy
+  verb: instantiates
+  to: the-map-mistaken-for-the-world
+  why: >-
+    A statistic or a screen is a denotative map of a person's suffering;
+    when responsibility follows the map instead of the living person it was
+    abstracted from, the map has replaced the reality it was only meant to
+    represent.
+
+- from: bounty-and-spread
+  verb: tempers
+  to: only-progress-is-sustainable
+  why: >-
+    Progress being what keeps a society alive in aggregate says nothing
+    about who inside it survives the transition — the same advance that
+    raises total bounty widens the gap that strands whichever population it
+    outpaces.
+
+- from: control-problem
+  verb: tempers
+  to: principle-of-optimism
+  why: >-
+    Deutsch holds every evil is soluble given enough knowledge and time;
+    Bostrom shows that for a fast intelligence explosion the safety
+    knowledge may not arrive before the capability needing control already
+    has, making solvability in principle cold comfort.
+
+- from: only-progress-is-sustainable
+  verb: parallels
+  to: kata
+  why: >-
+    Both reject a fixed end-state as the goal — a static "sustainable" way
+    of life, or a final best practice — because conditions keep moving, so
+    what persists is the routine of solving the next problem, not any
+    solution reached.
+
+- from: group-deindividuation
+  verb: parallels
+  to: rational-memes
+  why: >-
+    Both describe replication that works by disabling the individual
+    critical faculty that would normally filter it out — a crowd dissolving
+    personal judgment the same way an anti-rational meme disables critical
+    thinking in its host.
+
+- from: confident-confabulation
+  verb: parallels
+  to: randomness-blindness
+  why: >-
+    Both show a mind manufacturing a confident, coherent causal story to
+    paper over a gap it cannot see into — an interpreter inventing a reason
+    for an action it didn't initiate, or a trader crediting skill for what
+    chance produced.
+
+- from: iatrogenics
+  verb: tempers
+  to: monte-carlo-risk-modeling
+  why: >-
+    A Monte Carlo model is only as honest as the variables it includes;
+    iatrogenics names harm that routinely never becomes a modeled variable
+    at all — hidden, delayed, and rarely traced back to the intervention
+    that caused it, especially once the intervener bears none of that
+    downside — so a precise probability distribution over the wrong
+    variable set still misses where the real risk hides.
+
+- from: death-denial
+  verb: tempers
+  to: principle-of-optimism
+  why: >-
+    Optimism holds only if people actually pursue the knowledge that solves
+    a problem; confronted with mortality, minds default instead to denial
+    and symbolic immortality projects, substituting away from the sustained
+    problem-solving the principle depends on.
+
+- from: racing-with-machines
+  verb: instantiates
+  to: ensemble-metalearning
+  why: >-
+    Pairing a human and a machine that err in different, uncorrelated ways
+    is a two-member case of the general result that a diverse committee of
+    imperfect learners beats any single best learner, human or algorithmic,
+    run alone.
+
+- from: racing-with-machines
+  verb: parallels
+  to: two-modes-of-attention
+  why: >-
+    Both find that two structurally different processing modes, run
+    together rather than substituted for one another — human intuition
+    paired with machine calculation, or broad contextual attention paired
+    with narrow focused attention — outperform either mode alone.
+
+- from: gpt-complementary-innovation-lag
+  verb: parallels
+  to: the-gray-zone
+  why: >-
+    Both name a gap whose size and shape can't be known in advance — the
+    unspecifiable complementary innovations a general-purpose technology
+    still needs, or the unforeseeable obstacles between current and target
+    condition — so in both cases the interval only reveals itself to
+    whoever is already inside it, not to anyone planning from outside it.
+
+- from: shareholder-value-trap
+  verb: parallels
+  to: instrumental-convergence
+  why: >-
+    Whatever the original mission or final goal, the system converges onto
+    pursuing one instrumentally convenient proxy — a metric, or raw
+    resource acquisition — that becomes distinguishable from, and can
+    hollow out, the purpose it was meant to serve.
+
+- from: covert-aggression
+  verb: parallels
+  to: treacherous-turn
+  why: >-
+    Both describe an actor concealing its true disposition behind
+    cooperative-looking behavior because the evaluator — social peers,
+    safety testers — is calibrated to detect only overt hostility, so the
+    real threat passes every check not built to see camouflage.

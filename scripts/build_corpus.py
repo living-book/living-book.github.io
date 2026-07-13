@@ -43,7 +43,7 @@ def main():
         slug = book_dir.name
         book_title = book_title_from_index(book_dir / 'index.md') or slug.replace('-', ' ').title()
 
-        for section, type_label in [('chapters', 'chapter'), ('study-guides', 'study-guide')]:
+        for section, type_label in [('chapters', 'chapter'), ('study-guides', 'study-guide'), ('concepts', 'concept')]:
             section_dir = book_dir / section
             if not section_dir.exists():
                 continue
@@ -62,6 +62,32 @@ def main():
                     'title': title,
                     'content': content_body,
                     'url': f'/books/{slug}/{section}/{f.stem}/'
+                })
+
+    # atlas-only books (concepts live under docs/atlas/concepts/<book>/ until the
+    # book gets a full companion) — pull display titles from atlas.json
+    atlas_json = ROOT / 'docs' / 'atlas' / 'atlas.json'
+    titles = {}
+    if atlas_json.exists():
+        titles = {b['slug']: b['title'] for b in json.loads(atlas_json.read_text())['books']}
+    atlas_dir = ROOT / 'docs' / 'atlas' / 'concepts'
+    if atlas_dir.is_dir():
+        for book_dir in sorted(atlas_dir.iterdir()):
+            if not book_dir.is_dir():
+                continue
+            slug = book_dir.name
+            for f in sorted(book_dir.glob('*.md')):
+                if f.stem == 'index':
+                    continue
+                content = clean(f.read_text(encoding='utf-8'))
+                title = first_heading(content) or f.stem.replace('-', ' ').title()
+                chunks.append({
+                    'book': slug,
+                    'book_title': titles.get(slug, slug.replace('-', ' ').title()),
+                    'type': 'concept',
+                    'title': title,
+                    'content': re.sub(r'^#\s+.+\n', '', content, count=1).strip(),
+                    'url': f'/atlas/#{f.stem}'
                 })
 
     OUT.write_text(json.dumps(chunks, ensure_ascii=False, separators=(',', ':')))

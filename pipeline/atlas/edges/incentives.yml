@@ -1,0 +1,157 @@
+- from: shareholder-value-trap
+  verb: parallels
+  to: orthogonality-thesis
+  why: >-
+    Both separate optimizing competence from the values pursued: a leader can hit a
+    single financial metric with ruthless skill while the organization's real purpose
+    erodes, just as any level of intelligence is compatible with any final goal.
+
+- from: circle-of-safety
+  verb: parallels
+  to: instrumental-convergence
+  why: >-
+    Both feature a self-preserving drive whose direction depends on the actor's felt
+    security: instrumental convergence holds resource acquisition and self-preservation
+    are default subgoals for nearly any capable agent, and circle-of-safety shows that
+    same protective energy turns outward against real external threats, instead of
+    inward against the group, once a leader removes internal danger.
+
+- from: value-loading
+  verb: parallels
+  to: identity-based-habits
+  why: >-
+    Both trade outcome-based control for installing a durable internal commitment — a
+    value system or a self-concept — because a goal imposed from outside erodes under
+    pressure or growth in a way an internalized one doesn't.
+
+- from: incentive-driven-addiction
+  verb: parallels
+  to: planner-doer-model
+  why: >-
+    Both locate the failure in a myopic, dopamine-driven system (a metric-hijacked reward
+    circuit, or the Doer) that overrides longer-term cooperative intent unless something
+    outside willpower — a constraint or a circle of safety — restrains it.
+
+- from: edso-chemistry
+  verb: extends
+  to: habit-loop
+  why: >-
+    The habit loop's reward stage is generic; EDSO chemistry names which reward is being
+    reinforced — dopamine's selfish craving-satisfaction versus serotonin/oxytocin's social
+    bonding — explaining why some loops build cooperation and others build addiction.
+
+- from: no-judgment-accountability
+  verb: parallels
+  to: braintrust
+  why: >-
+    Both separate the feedback signal from the power to punish: a self-graded number and
+    peer critique work only because neither carries authority to blame or mandate,
+    letting people act on the signal instead of defending against it.
+
+- from: objectives-and-key-results
+  verb: parallels
+  to: target-condition
+  why: >-
+    Both split a change effort into a non-negotiable WHAT and an open HOW: a target
+    condition fixes the destination state while leaving the path to be discovered, and
+    an OKR fixes quantitative key results while committing to no particular method for
+    hitting them.
+
+- from: managing-by-means
+  verb: parallels
+  to: no-judgment-accountability
+  why: >-
+    Both redirect management attention from the end number to the process generating it
+    — managing by means treats results as process-in-the-making, no-judgment
+    accountability treats a self-graded score as a diagnostic input, not a verdict.
+
+- from: transaction-and-coordination-costs
+  verb: parallels
+  to: law-of-least-effort
+  why: >-
+    Both locate the real lever in the overhead surrounding an activity, not the activity
+    itself — stripping setup, cleanup, and communication friction (or any friction) is
+    what increases how much of the wanted behavior actually gets done.
+
+- from: kaizen-culture
+  verb: parallels
+  to: circle-of-safety
+  why: >-
+    Both show that lowering the cost — social or physical — of surfacing a problem turns
+    self-protective energy into collective improvement: remove the fear of proposing a
+    change or exposing a threat, and people stop guarding themselves and start fixing things.
+
+- from: wip-limits
+  verb: parallels
+  to: planner-doer-model
+  why: >-
+    Both replace an appeal to willpower with a structural cap: a WIP limit and a
+    precommitment constraint each block the impulsive urge to start more than can be
+    finished, substituting an external ceiling for self-control in the moment.
+
+- from: two-minute-rule
+  verb: parallels
+  to: minimum-viable-solution
+  why: >-
+    Both defeat the activation-energy barrier to starting by shrinking the target to its
+    smallest version that still contains the real mechanism, rather than trying to
+    motivate a bigger effort up front.
+
+- from: goldilocks-rule
+  verb: parallels
+  to: the-gray-zone
+  why: >-
+    Both reject fixing anything by advance calculation in favor of continuous,
+    action-based discovery: the Goldilocks Rule holds peak motivation lives at a moving
+    edge of ability that can only be found by acting and adjusting, and the-gray-zone
+    holds the path to a target condition is unforeseeable in advance and can only be
+    discovered through short PDCA steps and correction.
+
+- from: customer-driven-resource-allocation
+  verb: parallels
+  to: shareholder-value-trap
+  why: >-
+    Both show decision rights captured by whoever already holds financial power over the
+    firm — existing customers and investors, or shareholder-value metrics — so
+    investment quietly serves that party's short-term interest over the organization's survival.
+
+- from: identity-based-habits
+  verb: parallels
+  to: meaningful-work
+  why: >-
+    Both locate durable motivation in a mediating belief that outcome-tracking alone
+    can't supply: a habit sticks when it reflects who you believe you are, and progress
+    only nourishes inner work life when the work itself is perceived as contributing to
+    something that matters.
+
+- from: default-effects
+  verb: tempers
+  to: focus-and-commit
+  why: >-
+    Focus and commit assumes declaring priorities changes behavior; default-effects
+    shows that fails whenever the underlying system's defaults go unredesigned — people
+    stay captured by whatever happens automatically, regardless of what leadership said mattered.
+
+- from: snowmobile-mismatch
+  verb: parallels
+  to: environment-design
+  why: >-
+    Both diagnose behavioral failure as an environment mismatch rather than an agent
+    defect, and prescribe the same fix: redesign the surrounding conditions — evolved
+    social context or physical cues — instead of repairing willpower or character.
+
+- from: environment-design
+  verb: instantiates
+  to: choice-architecture
+  why: >-
+    Environment design is choice architecture applied to physical space specifically —
+    making good cues visible and bad cues invisible is one concrete way of shaping a
+    decision context that no environment presents neutrally.
+
+- from: the-gray-zone
+  verb: tempers
+  to: objectives-and-key-results
+  why: >-
+    OKRs commit to specific quantitative key results set in advance; the-gray-zone shows
+    that commitment fails on genuinely unpredictable terrain, where the path — and even
+    which numbers are achievable — can only be discovered through short, observed steps.

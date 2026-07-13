@@ -1,3 +1,5 @@
 site/
 .venv/
 docs/ask/corpus.json
+sources/
+pipeline/work/

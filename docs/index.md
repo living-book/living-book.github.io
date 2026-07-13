@@ -34,6 +34,14 @@ Have a question? Chat with all four books at once — answers cite the exact cha
 
 ---
 
+## Concept Atlas
+
+The ideas in the library, connected across domains. 224 concepts from 31 books — systems thinking, technology, business, agile delivery, leadership, psychology — woven together with typed connections (*extends, contradicts, parallels, tempers…*). Ask it what you're trying to understand; it answers from every shelf at once.
+
+[:material-map: Open the Concept Atlas →](/atlas/){ .md-button .md-button--primary }
+
+---
+
 ## How the loop works
 
 1. **Read** a companion alongside (or instead of skimming) the book.

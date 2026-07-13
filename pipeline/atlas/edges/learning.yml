@@ -1,0 +1,189 @@
+# Lens: learning, knowledge, and epistemology
+- from: sophisticated-falsificationism
+  verb: tempers
+  to: seeking-disconfirmation
+  why: >-
+    Hunting disconfirming evidence is not enough — a strategy, like a theory,
+    is only abandoned when a rival exists that explains past wins and predicts
+    new ones, so disconfirmation without a candidate successor changes nothing.
+- from: protective-belt
+  verb: parallels
+  to: self-image-defense
+  why: >-
+    Both insulate a protected core from ever meeting evidence directly:
+    Lakatos's belt absorbs the blow by adjusting a peripheral auxiliary
+    hypothesis, while the "No reflex" absorbs it by halting evaluation
+    altogether and defending autonomy instead — different buffering
+    mechanisms, same function of keeping the core untested by the case in
+    front of it.
+- from: healthy-disengagement
+  verb: instantiates
+  to: progressive-vs-degenerating
+  why: >-
+    Exit-by-leading-indicator is Lakatos's demarcation applied to strategy:
+    keep an advantage while it still generates novel wins, abandon it once its
+    defenders can only explain misses after the fact.
+- from: technological-turning-point
+  verb: parallels
+  to: paradigm-shift
+  why: >-
+    Both are noncumulative regime transitions where competence in the old
+    framework becomes a liability, and incumbents survive only by re-founding
+    their practice on the new one rather than extending the old.
+- from: paradigm-conversion
+  verb: instantiates
+  to: threshold-cascades
+  why: >-
+    Kuhn's conversion dynamic — early adopters commit on promise, each
+    demonstration lowers the evidence bar for the next cohort, holdouts are
+    outlived — is a threshold cascade over a scientific community.
+- from: value-networks
+  verb: parallels
+  to: incommensurability
+  why: >-
+    Firms in different value networks judge the same technology by the same
+    yardstick — expected margin — but calibrated to incompatible cost
+    structures, so a network's rational read of an opportunity is invisible
+    as an opportunity to any firm tuned to a different scale.
+- from: exemplar
+  verb: parallels
+  to: coaching-kata
+  why: >-
+    Both hold that judgment is transmitted by guided repetition on concrete
+    real cases — problem-solutions, catch dialogues — never by stating the
+    rules, because the operative knowledge is not rule-shaped.
+- from: exemplar
+  verb: instantiates
+  to: polanyis-paradox
+  why: >-
+    Scientific judgment trained through worked examples rather than explicit
+    criteria is a concrete case of knowing more than we can tell — the
+    community's standards resist articulation just as automation-resistant
+    skills do.
+- from: desirable-difficulties
+  verb: parallels
+  to: antifragility
+  why: >-
+    Both describe systems that overcompensate to imposed stress: effortful
+    retrieval and volatility each trigger adaptations that leave the system
+    stronger than one protected from the stressor.
+- from: desirable-difficulties
+  verb: tempers
+  to: law-of-least-effort
+  why: >-
+    Reducing friction wins for habit initiation but backfires for learning —
+    the effort friction removes is the very signal that drives durable
+    encoding, so the easiest practice produces the weakest memory.
+- from: proxy-metrics-trap
+  verb: parallels
+  to: illusion-of-fluency
+  why: >-
+    Both substitute a cheap self-generated signal — activity counts, processing
+    ease — for the costly outcome variable, so the system reports mastery
+    precisely while the underlying capability stagnates or declines.
+- from: five-questions
+  verb: instantiates
+  to: retrieval-practice
+  why: >-
+    The coach never explains; the fixed questions force the learner to
+    generate target, actual, and next step from memory on real work,
+    repeatedly, until the improvement pattern is retrievable without prompting.
+- from: structure-building
+  verb: parallels
+  to: system-archetypes
+  why: >-
+    Both extract a small set of recurring deep structures from varied surface
+    instances, and both claim transfer happens only through that abstraction —
+    raw accumulated cases do not generalize on their own.
+- from: team-learning
+  verb: parallels
+  to: incommensurability
+  why: >-
+    Both treat the gap between frameworks as bridgeable only by direct
+    engagement with the other side's meaning rather than more data — Bohm
+    dialogue's suspension of assumptions is a team-scale version of the
+    translation work Kuhn says is the only way across paradigms.
+- from: incommensurability
+  verb: tempers
+  to: bayesian-updating
+  why: >-
+    Updating presupposes rivals score evidence within one shared hypothesis
+    space; when frameworks disagree about what counts as data, no common
+    likelihood exists, so the update rule has nothing to operate on.
+- from: no-free-lunch-theorem
+  verb: formalizes
+  to: theory-laden-perception
+  why: >-
+    The theorem proves mathematically what Kuhn argued historically:
+    generalization from data is impossible without prior built-in assumptions,
+    so there is no framework-free learner just as there is no framework-free
+    observer.
+- from: overfitting
+  verb: parallels
+  to: progressive-vs-degenerating
+  why: >-
+    A degenerating programme is an overfit model: adjustments spend complexity
+    accommodating past anomalies, buying in-sample fit at the cost of the
+    out-of-sample test Lakatos calls novel prediction.
+- from: good-explanations
+  verb: tempers
+  to: protective-belt
+  why: >-
+    Deutsch adds a pre-empirical filter Lakatos lacks: if belt adjustments can
+    be freely varied to absorb any anomaly, the explanation is already bad —
+    easy variability condemns a repair before its prediction record arrives.
+- from: black-box-limits
+  verb: parallels
+  to: measurement-as-uncertainty-reduction
+  why: >-
+    Both replace verification with narrowing: observation can never certify a
+    model complete or unique, only shrink the set of models consistent with
+    the data — so measurement's honest product is reduced uncertainty, not
+    truth.
+- from: calibrated-estimation
+  verb: parallels
+  to: planning-fallacy
+  why: >-
+    Both name the same failure — confident estimates systematically
+    miscalibrated relative to what actually happens — but propose different
+    fixes: Kahneman corrects a specific forecast by substituting a
+    reference-class base rate, while Hubbard trains the general skill of
+    stating honest confidence intervals through scored feedback, debiasing
+    the estimator rather than any one estimate.
+- from: theory-laden-perception
+  verb: tempers
+  to: go-and-see
+  why: >-
+    Firsthand observation is still filtered by the observer's governing
+    framework, so going to see without surfacing your mental models tends to
+    return the facts the framework already expected.
+- from: the-gray-zone
+  verb: parallels
+  to: discovery-driven-planning
+  why: >-
+    Both replace forecast-then-execute with step-then-look in territory that
+    cannot be planned through: each cheap step is run to produce the
+    observation that determines the next, so the plan's output is learning.
+- from: validated-learning-discovery
+  verb: instantiates
+  to: discovery-driven-planning
+  why: >-
+    Prototype-testing the riskiest solution assumptions with real users before
+    building is the delivery-scale case of planning to convert assumptions
+    into knowledge before the big commitment.
+- from: rational-memes
+  verb: contradicts
+  to: normal-science
+  why: >-
+    Kuhn presents uncritical commitment to a framework as how productive
+    science normally works; Deutsch argues idea-systems that survive by
+    suppressing criticism are precisely the static, anti-rational kind that
+    cannot grow knowledge.
+- from: explanatory-creativity
+  verb: contradicts
+  to: master-algorithm
+  why: >-
+    Domingos claims a general inductive learner could derive all knowledge
+    from data; Deutsch denies induction creates explanatory theories at all —
+    new knowledge requires conjectured explanations no amount of data-fitting
+    can produce.

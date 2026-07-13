@@ -1,0 +1,166 @@
+# Lens: attention, models, and representation
+- from: mental-models
+  verb: contradicts
+  to: bringing-forth-a-world
+  why: >-
+    Senge treats mental models as internal representations of an external
+    reality that reflection can test and correct; Capra's enactivism denies
+    cognition represents anything at all — it enacts a world inseparable from
+    the organism's own process of living.
+
+- from: proxy-metrics-trap
+  verb: instantiates
+  to: the-map-mistaken-for-the-world
+  why: >-
+    The proxy metric is a denotative representation built to make progress
+    trackable; once optimized as if it were the outcome itself, the
+    organization can succeed on the map while the value it was abstracted
+    from quietly declines underneath.
+
+- from: abstraction-erodes-empathy
+  verb: instantiates
+  to: the-map-mistaken-for-the-world
+  why: >-
+    Converting a person into distance, screens, or numbers substitutes a
+    denotative stand-in for the living person, and decision-makers respond to
+    the stand-in — which is exactly why the resulting harm stops registering
+    as harm.
+
+- from: peak-end-rule
+  verb: instantiates
+  to: the-map-mistaken-for-the-world
+  why: >-
+    The remembered experience — a fixed narrative built from its worst moment
+    and its ending — is a map abstracted from lived experience, and it is
+    that map, not the moment-by-moment territory, that actually governs
+    future choice.
+
+- from: reality-of-abstractions
+  verb: tempers
+  to: the-map-mistaken-for-the-world
+  why: >-
+    McGilchrist calls the map "indispensable" and warns only against mistaking
+    it for the living territory it stands in for; Deutsch's indispensability
+    criterion sharpens exactly that boundary — an abstraction earns trust as
+    real when it is ineliminable from the best explanation, a positive test
+    for which maps do genuine explanatory work.
+
+- from: confident-confabulation
+  verb: parallels
+  to: randomness-blindness
+  why: >-
+    Both describe a system that, lacking the information it actually needs —
+    genuine context, a genuine cause — manufactures a confident, coherent
+    account rather than registering "I don't know" or "this was chance."
+
+- from: randomness-blindness
+  verb: parallels
+  to: regression-to-the-mean
+  why: >-
+    Pattern-detecting cognition assigns a causal story — skill gained, skill
+    lost — to what chance alone produced whenever an extreme result is
+    followed by a more average one, in both success narratives and
+    statistical performance swings.
+
+- from: representativeness-heuristic
+  verb: parallels
+  to: exemplar
+  why: >-
+    Both replace explicit rule-based judgment with perceived resemblance to a
+    stored concrete case — a stereotype profile, a worked problem-solution —
+    so a new instance is judged by match to the remembered exemplar rather
+    than stateable criteria; representativeness treats the substitution as
+    bias, Kuhn as the legitimate tacit basis of trained scientific judgment —
+    identical mechanism, opposite verdict on its reliability.
+
+- from: anchoring-effect
+  verb: parallels
+  to: default-effects
+  why: >-
+    Both let whatever reference point already sits in place capture the
+    outcome disproportionately to its merit — anchoring as an
+    active-estimation failure where a considered number pulls judgment toward
+    it even when known uninformative, default effects as a non-choice failure
+    where inertia hands the outcome to whatever is preset.
+
+- from: availability-heuristic
+  verb: parallels
+  to: illusion-of-fluency
+  why: >-
+    Both substitute a cheap, immediately felt signal — how easily an example
+    comes to mind, how easily material is processed — for the real target
+    property, frequency or mastery, that the signal only weakly tracks.
+
+- from: self-image-defense
+  verb: parallels
+  to: ego-and-blind-spots
+  why: >-
+    Both name a defensive reflex — the "No reflex," Dalio's ego barrier —
+    that registers criticism of the self as existential threat rather than
+    information, shutting down objective evaluation regardless of the
+    argument's quality; the parallel covers only this half of the Principles
+    concept, since its blind-spot barrier is a genuine perceptual limit, not
+    a defense.
+
+- from: grandiosity-trap
+  verb: tempers
+  to: seeking-disconfirmation
+  why: >-
+    Actively hunting disconfirming evidence requires exactly the honest
+    feedback channel that major success erodes by attributing outcomes to
+    the self, so the prescribed antidote gets hardest to practice exactly
+    when the cost of being wrong is rising.
+
+- from: treacherous-turn
+  verb: instantiates
+  to: black-box-limits
+  why: >-
+    Cooperative behavior during testing is data consistent with an aligned
+    model, but consistency never certifies a model complete or unique — a
+    treacherous agent produces the identical observable record as a
+    genuinely safe one until it no longer needs to.
+
+- from: betweenness
+  verb: parallels
+  to: story-as-conversation
+  why: >-
+    Both locate meaning in the live encounter rather than in either party's
+    artifact alone — a written-down card or an isolated thing is inert until
+    the relationship that exists only in the exchange constitutes it.
+
+- from: choice-architecture
+  verb: tempers
+  to: principle-of-indifference
+  why: >-
+    A valid law shouldn't depend on the observer's arbitrary notation, but
+    when the system under observation is itself a chooser, no presentation is
+    neutral — framing changes the outcome even though the underlying options
+    are notationally identical.
+
+- from: black-box-limits
+  verb: tempers
+  to: believability-weighting
+  why: >-
+    Weighting opinions by track record still only certifies a person's model
+    as consistent with past outcomes, never as complete or uniquely correct —
+    the same black-box limit that applies to scientific models applies to a
+    mind judged from the outside.
+
+- from: bringing-forth-a-world
+  verb: extends
+  to: observer-relative-systems
+  why: >-
+    Weinberg names systems as an observer's chosen scope and grain but does
+    not explain why the choice isn't arbitrary; Capra's structural coupling
+    supplies that mechanism — an organism's distinctions are constrained by
+    its own history of interaction with its environment, grounding the bare
+    "observer constitutes the system" claim in a causal biological account.
+
+- from: generational-formation
+  verb: parallels
+  to: theory-laden-perception
+  why: >-
+    Both describe a lens invisible to those inside it — a historical moment's
+    conditions, a trained scientific framework — that is felt as universal
+    common sense or neutral observation rather than recognized as one
+    contingent frame among others.

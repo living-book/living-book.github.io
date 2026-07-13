@@ -1,0 +1,70 @@
+# Connected Books — shared concept inventory (the cross-book namespace)
+# Each concept is OWNED by one book: docs/books/<book>/concepts/<slug>.md
+# Other books link to it with typed edges. Linking to a not-yet-written
+# concept is fine (OKF spec: broken links are legal) — slugs below are the
+# agreed namespace, so parallel sessions can cross-link safely.
+#
+# Edge vocabulary (use exactly these):
+#   extends       - builds on it, adds scope or mechanism
+#   contradicts   - argues against it
+#   instantiates  - is a concrete case of it
+#   formalizes    - gives it rigorous/measurable form
+#   parallels     - same deep structure in a different domain
+#   tempers       - limits it, names conditions where it fails
+#
+# status: firm = extracted with source in hand | provisional = pre-dossier guess
+
+superintelligence:
+  status: firm
+  concepts:
+    - intelligence-explosion      # recursive self-improvement dynamics (ch 4)
+    - orthogonality-thesis        # intelligence and goals vary independently (ch 7)
+    - instrumental-convergence    # generic subgoals emerge regardless of final goals (ch 7)
+    - decisive-strategic-advantage # first-mover lock-in, singleton (ch 5)
+    - control-problem             # capability control vs motivation selection (ch 9)
+    - treacherous-turn            # behaves well until strong enough not to (ch 8)
+    - value-loading               # getting values in before it's too late (ch 12)
+
+fifth-discipline:
+  status: firm
+  concepts:
+    - learning-organization       # org that continually expands its capacity (ch 1)
+    - systems-thinking            # the fifth discipline itself; structure drives behavior (ch 3-5)
+    - feedback-loops              # reinforcing, balancing, delays (ch 5)
+    - system-archetypes           # limits to growth, shifting the burden, etc (ch 6, appendix)
+    - leverage                    # small well-placed changes, big results (ch 7)
+    - personal-mastery            # creative tension, vision vs current reality (ch 9)
+    - mental-models               # internal pictures that drive behavior (ch 10)
+    - shared-vision               # commitment vs compliance (ch 11)
+    - team-learning               # dialogue vs discussion, defensive routines (ch 12)
+
+# Seed cross-edges — hypotheses for writers to VERIFY against the text.
+# Keep only what the text supports; add better ones you find.
+seed_edges:
+  - "intelligence-explosion instantiates feedback-loops (reinforcing loop w/ shrinking delay)"
+  - "treacherous-turn parallels system-archetypes (delayed feedback hides failure until unfixable)"
+  - "control-problem parallels leverage (where to intervene in a self-amplifying system)"
+  - "orthogonality-thesis tempers shared-vision (capability alignment does not follow from goal clarity)"
+  - "mental-models parallels value-loading (implicit internal models drive behavior more than stated goals)"
+
+# ---- provisional namespaces (no source yet; dossier stage refines) ----
+thinking-in-systems:
+  status: provisional
+  concepts: [stocks-and-flows, leverage-points, system-boundaries, paradigms]
+deep-utopia:
+  status: provisional
+  concepts: [solved-world, purpose-problem, post-instrumental-value]
+singularity-is-nearer:
+  status: provisional
+  concepts: [law-of-accelerating-returns, human-ai-merger, longevity-escape-velocity]
+platform-revolution:
+  status: provisional
+  concepts: [network-effects, platform-vs-pipeline, matchmaking, openness-governance]
+reshuffle:
+  status: provisional
+  concepts: [coordination-costs, task-unbundling, ai-reshuffled-work]
+
+# ---- Concept Atlas tranche (2026-07-12): 29 more books extracted, firm ----
+# Full namespaces generated in pipeline/atlas/inventory-additions.yml (one
+# entry per book, one slug per concept). Edges live in pipeline/atlas/edges/*.yml
+# and in each concept file's Connections section; compiled by scripts/build_atlas.py.

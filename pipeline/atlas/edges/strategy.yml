@@ -1,0 +1,190 @@
+- from: value-networks
+  verb: parallels
+  to: theory-laden-perception
+  why: >-
+    In both, the surrounding framework supplies the standard of worth before any
+    assessment happens — a firm's cost structure and customers, or a scientist's
+    paradigm — so there is no neutral vantage from which the anomalous option's
+    value is visible.
+
+- from: performance-oversupply
+  verb: tempers
+  to: decisive-competitive-edge
+  why: >-
+    An edge commands premium prices only while its dimension is undersupplied;
+    once improvement outruns what customers can absorb, the basis of competition
+    shifts to another attribute and the same capability stops converting into
+    pricing power.
+
+- from: transient-competitive-advantage
+  verb: contradicts
+  to: decisive-competitive-edge
+  why: >-
+    Goldratt prescribes building one capability so far ahead it durably dictates
+    terms; McGrath argues any peak advantage now attracts imitation fast enough
+    that defending a single edge is the failure mode — strategy must sequence
+    advantages instead.
+
+- from: transient-competitive-advantage
+  verb: tempers
+  to: lindy-effect
+  why: >-
+    Lindy's survival-extends-lifespan inference is scoped to nonperishable
+    things, but McGrath treats competitive advantage as inherently perishable —
+    advantages move through a predictable decay wave rather than accumulating
+    robustness with age, so persistence signals proximity to disengagement,
+    not extended remaining life.
+
+- from: transient-competitive-advantage
+  verb: instantiates
+  to: exploration-exploitation-tradeoff
+  why: >-
+    Surfing a wave sequence is the bandit problem in strategy form — extract
+    returns from the current arena while spending capacity probing uncertain
+    next arenas, because pure exploitation ends exactly when the current
+    payoff decays.
+
+- from: healthy-disengagement
+  verb: instantiates
+  to: via-negativa
+  why: >-
+    Both improve the system by removal rather than addition — exiting a decaying
+    advantage early subtracts a fragile exposure before it consumes resources,
+    which requires less predictive knowledge than forecasting which new bet
+    will win.
+
+- from: no-instant-rationality
+  verb: tempers
+  to: healthy-disengagement
+  why: >-
+    Lakatos shows a degenerating trajectory and a temporary dip are
+    indistinguishable in real time, so McGrath's leading-indicator exit triggers
+    can misfire — the rational moment to abandon is often knowable only in
+    hindsight.
+
+- from: asset-debt
+  verb: instantiates
+  to: loss-aversion
+  why: >-
+    Asset-debt's "resources as hostage" problem is loss aversion at the
+    org-incentive level — allocation systems peg a manager's status to the
+    scale of resources controlled, so redeploying an obsolete asset registers
+    as a loss to be resisted even when redeployment is a net gain, which is
+    why obsolete assets stay unretired past their usefulness.
+
+- from: resources-processes-values
+  verb: tempers
+  to: evolutionary-change
+  why: >-
+    Low-resistance incremental improvement works only within the current value
+    network, because the same processes and values doing the improving are the
+    filter that rejects work violating them — crossing networks needs a separate
+    organization, not evolution.
+
+- from: unbundling-business-models
+  verb: extends
+  to: resources-processes-values
+  why: >-
+    It takes the claim that one context's capabilities are another's disabilities
+    and adds the structural prescription — separate customer-relationship,
+    innovation, and infrastructure businesses so each runs the economics its
+    processes and values are tuned for.
+
+- from: customer-driven-resource-allocation
+  verb: instantiates
+  to: path-dependence
+  why: >-
+    Resources flow to whatever current customers reward, and each funded project
+    deepens dependence on those customers — a positive-feedback loop where the
+    installed customer base, not managerial preference, sets which trajectory
+    becomes locked in.
+
+- from: match-organization-size-to-market
+  verb: parallels
+  to: protecting-the-new
+  why: >-
+    Both diagnose a scale-mismatch failure — a large organization applies its
+    own institutional standard, growth targets sized to its revenue base or
+    production infrastructure sized to constant throughput, to something too
+    small or immature to pass it, killing it for fit rather than merit; each
+    prescribes a context sized to the new thing itself.
+
+- from: discovery-driven-planning
+  verb: tempers
+  to: planning-fallacy
+  why: >-
+    Kahneman's remedy for planning-fallacy optimism is anchoring on a reference
+    class of comparable past cases; discovery-driven planning names the case
+    where that remedy is unavailable — a market with no precedent has no
+    reference class — and substitutes a different discipline: invert the plan
+    into its load-bearing assumptions and fund only the next cheap test of them.
+
+- from: discovery-driven-planning
+  verb: parallels
+  to: the-gray-zone
+  why: >-
+    Both hold that unknowable territory cannot be planned through in advance and
+    must be crossed in short steps where each step's observed result — not the
+    original forecast — determines the next, turning the plan into a learning
+    instrument.
+
+- from: minimum-viable-solution
+  verb: instantiates
+  to: discovery-driven-planning
+  why: >-
+    Slicing the smallest release that could achieve the target outcome sizes the
+    commitment to the hypothesis rather than the vision — capital at risk stays
+    proportional to what the next market test can actually validate.
+
+- from: validated-learning-discovery
+  verb: instantiates
+  to: optionality
+  why: >-
+    A cheap prototype purchases the right, not the obligation, to build —
+    unfavorable results are abandoned at prototype cost while favorable ones are
+    scaled, converting an unpredictable market into an asymmetric payoff without
+    better forecasting.
+
+- from: strategic-arenas
+  verb: instantiates
+  to: observer-relative-systems
+  why: >-
+    "Industry" is one observer's boundary choice, not a fact of the world, and
+    McGrath shows the choice has teeth — threats assembling across
+    customer-solution-geography lines are literally unrepresentable on an
+    industry-defined map until too late.
+
+- from: rugged-landscape
+  verb: formalizes
+  to: design-attitude
+  why: >-
+    It supplies the mathematical reason prototyping many alternatives beats
+    analyzing toward one — when design attributes interact, single-trajectory
+    search converges on whichever local peak its starting point dictates, and
+    only multiple starts sample multiple peaks.
+
+- from: open-business-models
+  verb: instantiates
+  to: recombinant-innovation
+  why: >-
+    If progress comes from recombining existing blocks, a firm's innovation rate
+    scales with the blocks it can reach — opening the boundary to external ideas
+    and idle internal assets multiplies available combinations beyond what
+    internal R&D holds.
+
+- from: technological-turning-point
+  verb: parallels
+  to: gpt-complementary-innovation-lag
+  why: >-
+    Both locate the decisive window in the lag between a technology's arrival and
+    the organizational reinvention needed to use it — incumbents fail not by
+    missing the technology but by keeping the old ways of working around it.
+
+- from: continuous-reconfiguration
+  verb: instantiates
+  to: antifragility
+  why: >-
+    When moving people and assets between arenas is routine and cheap, each
+    market shock becomes a reallocation trigger — volatility surfaces better
+    arenas faster than it erodes current ones, so disorder improves the
+    portfolio that breaks rigid defenders.

@@ -1,0 +1,124 @@
+# Lens: flow, coordination, and organizational design
+- from: classes-of-service
+  verb: parallels
+  to: believability-weighting
+  why: >-
+    Both replace uniform treatment of every input with differentiated
+    weighting by an intrinsic property — cost-of-delay profile, or track
+    record — so priority and voice are earned by demonstrated stakes, not by
+    arrival order or rank.
+- from: throughput-accounting
+  verb: parallels
+  to: outcome-over-output
+  why: >-
+    Both reject a local, easy-to-count proxy — per-unit cost, or feature
+    volume — for a system-level test of real value delivered: money that
+    actually reaches the bottom line, or behavior that actually changes in
+    the world.
+- from: value-stream-network
+  verb: parallels
+  to: autopoiesis
+  why: >-
+    Both replace a linear, one-thing-causes-the-next model of the system
+    with a network whose parts continuously interact with and depend on
+    each other, so the system's function or survival is a property of the
+    whole web of connections, not any single line running through it.
+- from: autopoiesis
+  verb: contradicts
+  to: organization-as-machine
+  why: >-
+    Capra's criterion for a living system is self-production with no
+    external controller; Dalio models the organization as a machine an
+    operator designs and tunes from outside, denying the self-organizing
+    dynamic autopoiesis says defines living systems.
+- from: circle-of-safety
+  verb: parallels
+  to: kaizen-culture
+  why: >-
+    Both claim removing internal threat — status danger, blame for proposing
+    change — is what redirects people's energy outward, from defending
+    themselves against each other toward cooperating on the real problem in
+    front of them.
+- from: braintrust
+  verb: tempers
+  to: believability-weighting
+  why: >-
+    Names the condition where weighting feedback by track record backfires:
+    once opinion carries decision authority, reviewers defer or self-censor
+    instead of arguing freely — candor survives only when feedback, as in
+    the Braintrust, carries zero mandate to enforce it.
+- from: operations-review
+  verb: instantiates
+  to: radical-transparency
+  why: >-
+    A recurring public forum where process metrics become open
+    cross-functional discussion is Dalio's default-to-disclosure principle
+    made into a concrete ritual — data that could stay hidden in a private
+    report instead drives management action because it's exposed.
+- from: kaizen-culture
+  verb: tempers
+  to: culture-as-medium-for-goals
+  why: >-
+    Culture-as-medium-for-goals holds a tool like OKRs is inert without a
+    pre-existing cultural medium to carry it; kaizen-culture names the
+    condition where that fails — Corbis had no kaizen culture beforehand,
+    and the WIP-limited board grew one as a side effect, showing a
+    structural mechanism can sometimes produce its own carrying culture
+    rather than requiring it upfront.
+- from: story-as-conversation
+  verb: parallels
+  to: team-learning
+  why: >-
+    Both locate real shared understanding in live spoken exchange, not the
+    static artifact — a story card, a document — that merely prompts it,
+    because meaning is generated collaboratively in the conversation itself.
+- from: flow-efficiency
+  verb: extends
+  to: wip-limits
+  why: >-
+    Gives Anderson's empirically-tuned WIP cap a measurable mechanism: as
+    items-in-flight rise, queueing time crowds out active work time by
+    Little's Law, so the working-to-waiting ratio, not any single step's
+    speed, is what capping WIP actually protects.
+- from: dunbars-number
+  verb: instantiates
+  to: system-boundary
+  why: >-
+    Dunbar's roughly-150-person ceiling on direct trust relationships is a
+    concrete case of Weinberg's Strong Connection Law — the general
+    criterion that a real system's parts must be more tightly bound to
+    each other than to anything outside it; past that number, direct
+    personal binding alone can no longer supply the tightness, so
+    engineered structure has to carry it instead.
+- from: open-system-behavior
+  verb: parallels
+  to: classes-of-service
+  why: >-
+    Both deny a system has one fixed processing rule: Weinberg's open system
+    selects from a repertoire of behaviors based on whatever input arrives,
+    exactly as a Kanban board routes each work item through a different
+    policy depending on its class.
+- from: five-focusing-steps
+  verb: parallels
+  to: five-questions
+  why: >-
+    Both compress systemic improvement into a fixed, repeatable short
+    sequence that focuses effort serially on one changeable element — the
+    constraint, or the gap to target condition — instead of analyzing the
+    whole system at once.
+- from: critical-chain
+  verb: instantiates
+  to: skin-in-the-game
+  why: >-
+    Student syndrome and sandbagging are the asymmetry Taleb names: each
+    task owner keeps the upside of a padded estimate while transferring
+    schedule risk to the shared project — pooling the buffer makes that risk
+    jointly visible and repairs it.
+- from: shared-vision
+  verb: parallels
+  to: autopoiesis
+  why: >-
+    A shared vision isn't handed down but produced by the very people it
+    organizes, each person's commitment sustaining everyone else's — the
+    same self-producing pattern Maturana and Varela say defines a living
+    system.

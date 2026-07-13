@@ -1,0 +1,326 @@
+# Generated 2026-07-12 by the Concept Atlas build — firm namespaces for the 29
+# books extracted in the atlas tranche. Merge target: pipeline/concept-inventory.yml
+
+kanban:   # Kanban — Agile & Software Delivery
+  status: firm
+  concepts:
+    - cadence-decoupling
+    - classes-of-service
+    - evolutionary-change
+    - kaizen-culture
+    - kanban-pull-system
+    - operations-review
+    - transaction-and-coordination-costs
+    - wip-limits
+
+project-to-product:   # Project to Product — Agile & Software Delivery
+  status: firm
+  concepts:
+    - flow-distribution
+    - flow-efficiency
+    - flow-items
+    - product-oriented-management
+    - proxy-metrics-trap
+    - technological-turning-point
+    - value-stream-network
+
+toyota-kata:   # Toyota Kata — Agile & Software Delivery
+  status: firm
+  concepts:
+    - coaching-kata
+    - five-questions
+    - go-and-see
+    - kata
+    - managing-by-means
+    - target-condition
+    - the-gray-zone
+
+user-story-mapping:   # User Story Mapping — Agile & Software Delivery
+  status: firm
+  concepts:
+    - minimum-viable-solution
+    - outcome-over-output
+    - rock-breaking
+    - story-as-conversation
+    - story-mapping
+    - validated-learning-discovery
+
+business-model-generation:   # Business Model Generation — Business & Management
+  status: firm
+  concepts:
+    - business-model-canvas
+    - business-model-environment
+    - design-attitude
+    - free-as-a-business-model
+    - multi-sided-platforms
+    - open-business-models
+    - unbundling-business-models
+
+end-of-competitive-advantage:   # The End of Competitive Advantage — Business & Management
+  status: firm
+  concepts:
+    - asset-debt
+    - continuous-reconfiguration
+    - healthy-disengagement
+    - innovation-proficiency
+    - seeking-disconfirmation
+    - strategic-arenas
+    - transient-competitive-advantage
+
+innovators-dilemma:   # The Innovator's Dilemma — Business & Management
+  status: firm
+  concepts:
+    - customer-driven-resource-allocation
+    - discovery-driven-planning
+    - match-organization-size-to-market
+    - performance-oversupply
+    - resources-processes-values
+    - sustaining-vs-disruptive-innovation
+    - value-networks
+
+measure-what-matters:   # Measure What Matters — Business & Management
+  status: firm
+  concepts:
+    - continuous-performance-management
+    - culture-as-medium-for-goals
+    - focus-and-commit
+    - goal-transparency
+    - gospel-of-10x
+    - no-judgment-accountability
+    - objectives-and-key-results
+
+theory-of-constraints:   # Theory of Constraints — Business & Management
+  status: firm
+  concepts:
+    - buffer-management
+    - critical-chain
+    - decisive-competitive-edge
+    - drum-buffer-rope
+    - evaporating-cloud
+    - five-focusing-steps
+    - throughput-accounting
+
+creativity-inc:   # Creativity, Inc. — Leadership & Coaching
+  status: firm
+  concepts:
+    - braintrust
+    - fail-fast-safely
+    - postmortem-ritual
+    - protecting-the-new
+    - randomness-blindness
+    - the-hidden
+
+leaders-eat-last:   # Leaders Eat Last — Leadership & Coaching
+  status: firm
+  concepts:
+    - abstraction-erodes-empathy
+    - circle-of-safety
+    - dunbars-number
+    - edso-chemistry
+    - incentive-driven-addiction
+    - shareholder-value-trap
+    - snowmobile-mismatch
+
+principles:   # Principles: Life and Work — Leadership & Coaching
+  status: firm
+  concepts:
+    - believability-weighting
+    - ego-and-blind-spots
+    - five-step-process
+    - organization-as-machine
+    - pain-plus-reflection
+    - radical-transparency
+    - wired-differently
+
+progress-principle:   # The Progress Principle — Leadership & Coaching
+  status: firm
+  concepts:
+    - catalyst-factor
+    - inner-work-life-effect
+    - inner-work-life
+    - meaningful-work
+    - nourishment-factor
+    - progress-loop
+    - progress-principle
+
+atomic-habits:   # Atomic Habits — Psychology & Self-Development
+  status: firm
+  concepts:
+    - environment-design
+    - goldilocks-rule
+    - habit-loop
+    - habit-stacking
+    - identity-based-habits
+    - law-of-least-effort
+    - marginal-gains-compounding
+    - two-minute-rule
+
+laws-of-human-nature:   # The Laws of Human Nature — Psychology & Self-Development
+  status: firm
+  concepts:
+    - covert-aggression
+    - death-denial
+    - generational-formation
+    - grandiosity-trap
+    - group-deindividuation
+    - self-image-defense
+    - shadow-integration
+    - strategic-elusiveness
+
+make-it-stick:   # Make It Stick — Psychology & Self-Development
+  status: firm
+  concepts:
+    - desirable-difficulties
+    - elaboration
+    - illusion-of-fluency
+    - interleaving
+    - retrieval-practice
+    - spaced-practice
+    - structure-building
+
+nudge:   # Nudge — Psychology & Self-Development
+  status: firm
+  concepts:
+    - choice-architecture
+    - default-effects
+    - libertarian-paternalism
+    - planner-doer-model
+    - recap-disclosure
+    - save-more-tomorrow
+    - social-norm-nudges
+
+thinking-fast-and-slow:   # Thinking, Fast and Slow — Psychology & Self-Development
+  status: firm
+  concepts:
+    - anchoring-effect
+    - availability-heuristic
+    - loss-aversion
+    - peak-end-rule
+    - planning-fallacy
+    - regression-to-the-mean
+    - representativeness-heuristic
+    - system-1-system-2
+
+antifragile:   # Antifragile — Systems Thinking & Philosophy
+  status: firm
+  concepts:
+    - antifragility
+    - barbell-strategy
+    - iatrogenics
+    - lindy-effect
+    - optionality
+    - skin-in-the-game
+    - via-negativa
+
+general-systems-thinking:   # An Introduction to General Systems Thinking — Systems Thinking & Philosophy
+  status: firm
+  concepts:
+    - black-box-limits
+    - observer-relative-systems
+    - open-system-behavior
+    - organized-complexity
+    - principle-of-indifference
+    - stability-as-relationship
+    - system-boundary
+
+master-and-emissary:   # The Master and His Emissary — Systems Thinking & Philosophy
+  status: firm
+  concepts:
+    - betweenness
+    - confident-confabulation
+    - master-and-emissary
+    - runaway-narrowing
+    - the-map-mistaken-for-the-world
+    - two-modes-of-attention
+
+scientific-research-programmes:   # The Methodology of Scientific Research Programmes — Systems Thinking & Philosophy
+  status: firm
+  concepts:
+    - hard-core
+    - no-instant-rationality
+    - positive-heuristic
+    - progressive-vs-degenerating
+    - protective-belt
+    - rational-reconstruction
+    - research-programme
+    - sophisticated-falsificationism
+
+structure-of-scientific-revolutions:   # The Structure of Scientific Revolutions — Systems Thinking & Philosophy
+  status: firm
+  concepts:
+    - exemplar
+    - incommensurability
+    - normal-science
+    - paradigm-conversion
+    - paradigm-crisis
+    - paradigm-shift
+    - progress-without-truth
+    - theory-laden-perception
+
+web-of-life:   # The Web of Life — Systems Thinking & Philosophy
+  status: firm
+  concepts:
+    - autopoiesis
+    - bringing-forth-a-world
+    - deep-ecology
+    - dissipative-structures
+    - gaia-hypothesis
+    - pattern-structure-process
+    - structural-coupling
+
+beginning-of-infinity:   # The Beginning of Infinity — Technology & Data
+  status: firm
+  concepts:
+    - explanatory-creativity
+    - good-explanations
+    - jump-to-universality
+    - only-progress-is-sustainable
+    - principle-of-optimism
+    - rational-memes
+    - reality-of-abstractions
+
+how-to-measure-anything:   # How to Measure Anything — Technology & Data
+  status: firm
+  concepts:
+    - applied-information-economics
+    - calibrated-estimation
+    - clarifying-the-decision
+    - expected-value-of-information
+    - measurement-as-uncertainty-reduction
+    - monte-carlo-risk-modeling
+    - small-sample-inference
+
+master-algorithm:   # The Master Algorithm — Technology & Data
+  status: firm
+  concepts:
+    - bayesian-updating
+    - curse-of-dimensionality
+    - ensemble-metalearning
+    - five-tribes
+    - master-algorithm
+    - no-free-lunch-theorem
+    - overfitting
+    - representation-evaluation-optimization
+
+model-thinker:   # The Model Thinker — Technology & Data
+  status: firm
+  concepts:
+    - diversity-prediction-theorem
+    - exploration-exploitation-tradeoff
+    - many-model-thinking
+    - path-dependence
+    - power-law-distributions
+    - rugged-landscape
+    - threshold-cascades
+
+second-machine-age:   # The Second Machine Age — Technology & Data
+  status: firm
+  concepts:
+    - bounty-and-spread
+    - gpt-complementary-innovation-lag
+    - polanyis-paradox
+    - racing-with-machines
+    - recombinant-innovation
+    - second-half-of-the-chessboard
+    - second-machine-age
+    - winner-take-all-economics

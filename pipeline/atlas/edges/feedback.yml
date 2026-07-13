@@ -1,0 +1,176 @@
+# Lens: feedback, amplification, and control
+- from: runaway-narrowing
+  verb: parallels
+  to: intelligence-explosion
+  why: >-
+    Both are positive-feedback processes that outrun the force meant to
+    check them: runaway-narrowing loses the pendulum-swing correction back
+    to right-hemisphere balance, while past the crossover point capability
+    gains outpace recalcitrance fast enough that no external check can
+    arrive before the next gain compounds.
+- from: grandiosity-trap
+  verb: parallels
+  to: runaway-narrowing
+  why: >-
+    Same structure at individual scale: the amplifying process (success,
+    assertive mode) erodes the very feedback channel that would correct it,
+    so error grows fastest exactly when correction is least available.
+- from: progress-loop
+  verb: instantiates
+  to: feedback-loops
+  why: >-
+    The progress/inner-work-life cycle is a reinforcing loop in Senge's exact
+    sense — each gain in one variable amplifies the other — which is why it
+    runs virtuous or vicious but never neutral.
+- from: habit-loop
+  verb: instantiates
+  to: feedback-loops
+  why: >-
+    Cue-craving-response-reward is a reinforcing loop closed through the
+    brain: each reward strengthens the cue's pull, so a single pass through
+    the cycle raises the probability of the next pass.
+- from: incentive-driven-addiction
+  verb: instantiates
+  to: habit-loop
+  why: >-
+    Metric-based rewards run the same cue-craving-response-reward circuit on
+    dopamine: hitting the number reinforces the cue, escalating pursuit of
+    the reward while decoupling it from the cooperation it was meant to serve.
+- from: five-focusing-steps
+  verb: instantiates
+  to: leverage
+  why: >-
+    The constraint is the nonobvious high-leverage point made findable: a
+    small action at the bottleneck moves whole-system throughput, while
+    identical effort anywhere else is absorbed with no system-level effect.
+- from: buffer-management
+  verb: instantiates
+  to: feedback-loops
+  why: >-
+    A balancing loop engineered to beat its own delay: graded buffer
+    penetration converts slow outcome feedback (a missed deadline) into an
+    early corrective signal that arrives while intervention still works.
+- from: paradigm-conversion
+  verb: instantiates
+  to: threshold-cascades
+  why: >-
+    Framework change spreads because each conversion raises the visible count
+    of adopters, crossing the next scientists' higher thresholds — so the
+    distribution of individual stubbornness, not evidence strength, decides
+    whether the cascade ignites.
+- from: social-norm-nudges
+  verb: parallels
+  to: threshold-cascades
+  why: >-
+    Both show behavior responding to a perceived aggregate rather than to
+    the underlying facts — revealing how many others already misbehave
+    functions like raising a threshold-crossing count, legitimizing the
+    behavior for people on the fence, which is why descriptive-norm
+    messaging can backfire the same way an ill-placed instigator ignites a
+    cascade.
+- from: value-networks
+  verb: instantiates
+  to: path-dependence
+  why: >-
+    Past value-network membership shapes what a firm perceives a new
+    technology to be worth, which drives the next resource-allocation
+    choice — a case of outcome path dependence (history determines what
+    happens next), though the upmarket direction here is set by margin
+    economics, not an arbitrary lock-in that could as easily have gone the
+    other way.
+- from: multi-sided-platforms
+  verb: instantiates
+  to: path-dependence
+  why: >-
+    Each side's value grows with the other side's size, so an early, even
+    accidental, liquidity lead compounds into an equilibrium set by who got
+    to critical mass first rather than by product quality.
+- from: marginal-gains-compounding
+  verb: parallels
+  to: second-half-of-the-chessboard
+  why: >-
+    Both hinge on constant-rate multiplicative growth being invisible early
+    and overwhelming late — so the same misjudgment makes people quit habits
+    too soon and be blindsided by exponential technologies.
+- from: winner-take-all-economics
+  verb: parallels
+  to: power-law-distributions
+  why: >-
+    Both produce extreme, long-tailed concentration among near-equal
+    competitors, but via different mechanisms: winner-take-all markets tip
+    on a one-time relative-quality comparison once capacity constraints
+    vanish, not on the preferential-attachment feedback where size begets
+    more size over repeated rounds.
+- from: lindy-effect
+  verb: instantiates
+  to: power-law-distributions
+  why: >-
+    Survival that increases expected further survival is more-begets-more
+    feedback in time, which is exactly why nonperishable lifespans follow a
+    power law rather than the bell curve perishable lifetimes do.
+- from: decisive-strategic-advantage
+  verb: parallels
+  to: winner-take-all-economics
+  why: >-
+    In both, competition fails to reward second place proportionally to
+    skill: a decisive strategic advantage compounds through recursive
+    self-improvement over time, while winner-take-all markets are static —
+    a small quality edge plus zero-cost replication and no capacity ceiling
+    award nearly all output to the best option in a single allocation, not
+    through iterative feedback.
+- from: control-problem
+  verb: parallels
+  to: planner-doer-model
+  why: >-
+    Both are principal-agent problems where the principal cannot supervise
+    at decision time, so control must be installed beforehand as structure —
+    capability limits and shaped motivations, not real-time willpower or
+    oversight.
+- from: stability-as-relationship
+  verb: tempers
+  to: control-problem
+  why: >-
+    Any capability-control scheme is stability defined against an assumed
+    disturbance range; a self-improving agent expands the disturbance class
+    beyond that envelope, so containment verified under test conditions says
+    little about post-takeoff conditions.
+- from: iatrogenics
+  verb: tempers
+  to: leverage
+  why: >-
+    In complex systems the same nonlinearity that lets small actions produce
+    large effects also amplifies harm, and delayed, untraceable feedback means
+    the intervener can't tell which — so high leverage without visible error
+    signals is dangerous, not virtuous.
+- from: performance-oversupply
+  verb: tempers
+  to: marginal-gains-compounding
+  why: >-
+    Compounding improvement only compounds value while the environment can
+    absorb it; past the point where users can use more of the attribute,
+    the reinforcing gains keep accruing but stop converting into any
+    advantage.
+- from: paradigm-shift
+  verb: tempers
+  to: evolutionary-change
+  why: >-
+    Kuhn marks the boundary case incremental change cannot cover: when the
+    governing framework itself is what limits the system, low-resistance
+    incremental steps inside that framework can never sum to the replacement
+    the situation requires — evolutionary change works only where the
+    framework is not the constraint.
+- from: proxy-metrics-trap
+  verb: parallels
+  to: shareholder-value-trap
+  why: >-
+    Both show Goodhart dynamics as a broken control loop: optimizing a proxy
+    severs feedback between action and the real outcome, so the dashboard
+    reads success while the underlying system is hollowed out unobserved.
+- from: gaia-hypothesis
+  verb: extends
+  to: feedback-loops
+  why: >-
+    Extends the reinforcing/balancing vocabulary to planetary scale and
+    across the living/nonliving boundary — climate stability emerges from
+    balancing loops closed through organisms, not from any thermostat
+    located inside one subsystem.

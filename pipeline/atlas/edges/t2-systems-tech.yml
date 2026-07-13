@@ -1,0 +1,220 @@
+# Lens: complexity/chaos/self-organization, problem formulation, epistemology of
+# computation and statistics, technology forces, time/mortality.
+# Anchors: deep-simplicity, simple-rules, art-of-problem-solving,
+# on-the-shortness-of-life, fabric-of-reality, field-guide-to-lies,
+# ai-superpowers, the-inevitable.
+
+- from: self-organized-criticality
+  verb: instantiates
+  to: power-law-distributions
+  why: >-
+    Page names self-organized criticality as one of two generative
+    mechanisms behind long-tailed distributions, alongside preferential
+    attachment; the sandpile is the concrete case — its avalanche sizes are
+    exactly the scale-free power law Page's chapter describes, extreme
+    events produced by the identical process as the small, routine ones.
+
+- from: antifragility
+  verb: tempers
+  to: self-organized-criticality
+  why: >-
+    Taleb's antifragility test requires bounded downside with open upside; a
+    sandpile balanced at criticality has neither — its power-law tail reaches
+    uncapped catastrophic avalanches, so a long quiet stretch signals latent
+    fragility building, not gain from disorder.
+
+- from: surface-complexity-deep-simplicity
+  verb: extends
+  to: organized-complexity
+  why: >-
+    Gribbin supplies the generative mechanism — interaction among a handful
+    of simple rules — that explains why Weinberg's organized-complexity
+    systems resist both equation-by-equation reduction and statistical
+    averaging: the complexity is real but produced, not irreducible.
+
+- from: sensitive-dependence
+  verb: tempers
+  to: reference-projection
+  why: >-
+    Reference projection extrapolates current trends to expose a future
+    breakdown; sensitive dependence names the condition — nonlinear dynamics
+    amplifying immeasurably small differences — under which that
+    extrapolation's shape becomes unreliable regardless of data quality.
+
+- from: idealized-design
+  verb: parallels
+  to: evaporating-cloud
+  why: >-
+    Both refuse to accept a stuck trade-off as fixed — idealized design asks
+    what you'd build unconstrained by the past, evaporating cloud asks which
+    hidden assumption makes an either/or necessary, and dissolves it rather
+    than splitting the difference.
+
+- from: evaporating-cloud
+  verb: formalizes
+  to: solve-resolve-dissolve
+  why: >-
+    Ackoff names dissolving a problem by changing values so the choice stops
+    mattering; the evaporating cloud gives that move a concrete procedure —
+    surface the arrow's hidden assumption and invalidate it — into a
+    repeatable diagnostic.
+
+- from: turing-principle
+  verb: parallels
+  to: jump-to-universality
+  why: >-
+    Both refuse to treat "unlimited scope" as a fuzzy matter of degree — the
+    Turing principle grounds universal computation in a strict, testable
+    physical law, while jump-to-universality grounds historical leaps to
+    full generality in a strict, checkable criterion (digital,
+    error-correctable representation) — the same insistence on a hard
+    threshold, applied to computation-as-physics and to
+    generality-as-history respectively.
+
+- from: four-waves-of-ai
+  verb: instantiates
+  to: polanyis-paradox
+  why: >-
+    Lee's later waves — perception and autonomous AI — are concrete cases of
+    the exact tacit-knowledge tasks Polanyi's paradox declared rule-resistant,
+    unlocked only once learning from data replaced codifying an expert's
+    inarticulable know-how.
+
+- from: minimalist-tech-philosophy
+  verb: instantiates
+  to: filtering-abundance
+  why: >-
+    Once infinite content shifts scarcity from goods to attention, Newport's
+    answer — commit to a few tools chosen for their value and happily miss
+    the rest — is a concrete personal filtering strategy for exactly that
+    scarce resource.
+
+- from: solitude-deprivation
+  verb: extends
+  to: fleeing-oneself
+  why: >-
+    Seneca diagnoses restlessness as internal, uncurable by changing scenery;
+    solitude deprivation names the mechanism — near-zero time free of other
+    minds' input — that makes constant technological novelty a permanent way
+    of fleeing oneself, not an occasional indulgence.
+
+- from: digital-declutter
+  verb: instantiates
+  to: life-not-short-but-wasted
+  why: >-
+    Seneca's cure for felt time-scarcity is an audit of what actually
+    consumes your days, not more days; the thirty-day declutter and
+    deliberate one-by-one reintroduction is that exact audit-and-reclaim
+    method applied to technology.
+
+- from: peak-end-rule
+  verb: tempers
+  to: three-periods-of-time
+  why: >-
+    Seneca treats the recollected past as a fixed, fully-possessable asset a
+    tranquil mind retrieves intact; the peak-end rule shows retrieval instead
+    reconstructs experience from its worst moment and ending while ignoring
+    duration, undermining that certainty.
+
+- from: bottleneck-targeting
+  verb: parallels
+  to: five-focusing-steps
+  why: >-
+    Both refuse to spread rules or effort evenly across a system — first
+    locate the single recurring activity actually constraining the outcome,
+    then concentrate all design effort there, leaving everything else
+    deliberately unoptimized.
+
+- from: rip-and-replace-rules
+  verb: tempers
+  to: evolutionary-change
+  why: >-
+    Evolutionary change prescribes improving what you have in small steps;
+    rip-and-replace names the condition — a fundamental, not incremental,
+    regime shift — under which blending old and new rules serves neither and
+    fast wholesale replacement wins instead.
+
+- from: rules-as-reflection-triggers
+  verb: parallels
+  to: checklist-as-forcing-conversation
+  why: >-
+    Both locate a structured device's real power in what it makes people
+    do — pause, reassess, speak up — independent of whether its literal
+    content is even the relevant fix for the task at hand.
+
+- from: complexity-matching-fallacy
+  verb: parallels
+  to: complexity-beyond-memory
+  why: >-
+    Both show complexity overwhelming the very capacity meant to handle it
+    once it crosses a threshold — a complicated rule set overwhelms
+    compliance the same way accumulated task steps overwhelm any single
+    expert's working memory — even though their remedies diverge: fewer,
+    simpler rules that leave room for judgment versus an external checklist
+    that removes reliance on memory altogether.
+
+- from: prosecutors-fallacy
+  verb: tempers
+  to: bayesian-updating
+  why: >-
+    Bayesian updating requires weighting evidence by a prior; the
+    prosecutor's fallacy names the common failure of skipping that prior —
+    treating P(evidence given guilt) as P(guilt given evidence) — that makes
+    naive conditional-probability reasoning confidently wrong.
+
+- from: alternative-explanations
+  verb: parallels
+  to: divergent-thinking-toolkit
+  why: >-
+    Both insist a first plausible account must be deliberately challenged by
+    manufactured rivals before acceptance — generating competing explanations
+    or dissenting viewpoints as a structured discipline, not waiting for
+    disagreement to arise on its own.
+
+- from: plausibility-check
+  verb: parallels
+  to: go-and-see
+  why: >-
+    Both distrust secondhand or derived claims until checked against a cheap,
+    direct reality test — a back-of-envelope estimate or firsthand
+    observation — rather than accepting a reported number or account at face
+    value.
+
+- from: explanatory-creativity
+  verb: parallels
+  to: love-as-human-differentiator
+  why: >-
+    Both run the identical argument — as machines absorb some capacity X,
+    human distinctiveness must be relocated to some remaining Y — with
+    different Y: Deutsch locates the durable human/machine line in
+    explanatory knowledge-creation, Lee locates it in compassion and
+    connection, each treating their chosen Y as the thing automation
+    cannot touch.
+
+- from: gladiator-entrepreneurship
+  verb: instantiates
+  to: antifragility
+  why: >-
+    Thousand-competitor copycat markets are volatility and shock in economic
+    form; forcing entrepreneurs through that stress produces tenacity and
+    faster iteration that outlasts any stolen idea — a market gaining, not
+    merely surviving, from disorder.
+
+- from: coveillance
+  verb: parallels
+  to: radical-transparency
+  why: >-
+    Both bet that visibility costs less trust than concealment does — Kelly's
+    mutual watching and Dalio's default-to-open disclosure each choose to
+    surface what a one-way or closed-door alternative would have hidden, on
+    the theory that the rumor and suspicion concealment breeds costs more
+    than the discomfort of being seen.
+
+- from: axis-shenanigans
+  verb: parallels
+  to: choice-architecture
+  why: >-
+    Both show that presenting identical underlying facts or options is never
+    neutral — a truncated axis and a chosen default each covertly steer
+    perception or choice toward a conclusion without changing the data
+    itself.

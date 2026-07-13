@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Concept Atlas — Living Books</title>
+<style>
+:root {
+  /* Anthropic / Claude design system — warm parchment palette */
+  --bg: #f5f4ed;
+  --bg2: #faf9f5;
+  --bg3: #e8e6dc;
+  --border: #f0eee6;
+  --border-warm: #e8e6dc;
+  --accent: #c96442;
+  --accent2: #d97757;
+  --green: #2a6b42;
+  --yellow: #9a6520;
+  --red: #b53333;
+  --text: #141413;
+  --muted: #5e5d59;
+  --text3: #87867f;
+  --text-light: #b0aea5;
+  --dark: #141413;
+  --dark2: #30302e;
+
+  /* domain inks — warm-toned, one per shelf */
+  --d-systems: #2a6b42;
+  --d-tech: #b53333;
+  --d-business: #9a6520;
+  --d-agile: #c96442;
+  --d-leadership: #7a5230;
+  --d-psych: #8a4a62;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; }
+body {
+  font: 15px/1.6 system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  overflow: hidden;
+}
+h1, h2, h3 { font-family: Georgia, 'Anthropic Serif', serif; font-weight: 500; }
+
+/* ---------- frame ---------- */
+#app { display: grid; grid-template-columns: var(--panel-w, 320px) 6px 1fr; grid-template-rows: auto 1fr; height: 100vh; }
+#divider { grid-column: 2; grid-row: 2; cursor: col-resize; background: var(--border-warm); }
+#divider:hover, #divider.active { background: var(--accent2); }
+header {
+  grid-column: 1 / -1; grid-row: 1;
+  display: flex; align-items: baseline; gap: 14px;
+  padding: 14px 22px 12px;
+  border-bottom: 1px solid var(--border-warm);
+  background: var(--bg2);
+}
+header h1 { font-size: 21px; line-height: 1.1; }
+header .sub { color: var(--text3); font-size: 13px; }
+header a { color: var(--accent); text-decoration: none; margin-left: auto; font-size: 13px; }
+header a:hover { text-decoration: underline; }
+
+/* ---------- left: intent panel ---------- */
+#panel {
+  grid-column: 1; grid-row: 2;
+  border-right: 1px solid var(--border-warm);
+  background: var(--bg2);
+  display: flex; flex-direction: column;
+  min-height: 0;
+}
+#ask { padding: 16px 16px 10px; }
+#ask label { display: block; font-family: Georgia, serif; font-size: 15px; margin-bottom: 8px; color: var(--text); }
+#q {
+  width: 100%; padding: 10px 12px;
+  font: 15px/1.4 system-ui, sans-serif;
+  border: 1px solid var(--border-warm); border-radius: 8px;
+  background: var(--bg); color: var(--text);
+}
+#q:focus { outline: 2px solid var(--accent); outline-offset: 1px; border-color: transparent; }
+#domains { display: flex; flex-wrap: wrap; gap: 6px; padding: 4px 16px 12px; }
+.chip {
+  font-size: 11.5px; padding: 3px 10px; border-radius: 99px;
+  border: 1px solid var(--border-warm); background: var(--bg);
+  color: var(--muted); cursor: pointer; user-select: none;
+}
+.chip .dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; margin-right: 5px; }
+.chip.on { background: var(--dark); color: var(--bg2); border-color: var(--dark); }
+#results { flex: 1; overflow-y: auto; padding: 0 10px 16px; min-height: 0; }
+.rgroup { margin: 10px 6px 2px; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--text3); }
+.hit {
+  display: block; width: 100%; text-align: left; cursor: pointer;
+  border: 1px solid transparent; border-radius: 8px;
+  background: none; padding: 8px 10px; margin: 2px 0;
+  font: inherit; color: inherit;
+}
+.hit:hover { background: var(--bg3); }
+.hit.sel { background: var(--bg); border-color: var(--border-warm); box-shadow: 0 0 0 1px var(--border-warm); }
+.hit .t { font-family: Georgia, serif; font-size: 15px; }
+.hit .t .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 7px; }
+.hit .d { font-size: 12.5px; color: var(--muted); margin-top: 1px; }
+.hit .b { font-size: 11.5px; color: var(--text3); font-style: italic; }
+#stats { padding: 10px 16px; border-top: 1px solid var(--border); font-size: 12px; color: var(--text3); }
+
+/* ---------- map ---------- */
+#mapwrap { grid-column: 3; grid-row: 2; position: relative; min-width: 0; min-height: 0; }
+#map { width: 100%; height: 100%; display: block; cursor: grab; }
+#map.dragging { cursor: grabbing; }
+.node circle { stroke: var(--bg); stroke-width: 1.5; cursor: pointer; transition: opacity .25s; }
+.node text {
+  font: 11px Georgia, serif; fill: var(--text);
+  paint-order: stroke; stroke: var(--bg); stroke-width: 3px; stroke-linejoin: round;
+  pointer-events: none; transition: opacity .25s;
+}
+.edge { fill: none; stroke: var(--text-light); stroke-width: 1; opacity: .35; transition: opacity .25s; }
+.edge.lit { stroke-width: 1.8; opacity: .95; }
+.edge.contradicts.lit, .edge.tempers.lit { stroke-dasharray: 5 4; }
+@media (prefers-reduced-motion: no-preference) {
+  .edge.lit.draw { stroke-dasharray: 600; stroke-dashoffset: 600; animation: ink .7s ease forwards; }
+  .edge.lit.draw.contradicts, .edge.lit.draw.tempers { animation: inkdash .7s ease forwards; }
+  @keyframes ink { to { stroke-dashoffset: 0; } }
+  @keyframes inkdash { from { stroke-dasharray: 600; stroke-dashoffset: 600; } to { stroke-dasharray: 5 4; stroke-dashoffset: 0; } }
+}
+#map.focus .node circle { opacity: .18; }
+#map.focus .node text { opacity: 0; }
+#map.focus .node.lit circle { opacity: 1; }
+#map.focus .node.lit text { opacity: 1; }
+#map.focus .edge { opacity: .06; }
+#map.focus .edge.lit { opacity: .95; }
+#legend {
+  position: absolute; left: 14px; bottom: 12px;
+  font-size: 11px; color: var(--muted);
+  background: color-mix(in srgb, var(--bg2) 85%, transparent);
+  border: 1px solid var(--border-warm); border-radius: 8px; padding: 8px 12px;
+}
+#legend .row { display: flex; align-items: center; gap: 6px; margin: 1px 0; }
+#legend .sw { width: 16px; height: 0; border-top: 1.8px solid var(--text3); }
+#legend .sw.dash { border-top-style: dashed; }
+#hint {
+  position: absolute; top: 12px; left: 50%; transform: translateX(-50%);
+  font-size: 12px; color: var(--text3); font-style: italic; pointer-events: none;
+}
+
+/* ---------- concept card ---------- */
+#card {
+  position: absolute; top: 0; right: 0; height: 100%; width: min(var(--card-w, 420px), 92%);
+  background: var(--bg2); border-left: 1px solid var(--border-warm);
+  box-shadow: rgba(0,0,0,0.05) 0px 4px 24px;
+  overflow-y: auto; padding: 20px 22px 40px;
+  transform: translateX(105%); transition: transform .3s ease;
+}
+#card.float {
+  height: auto; max-height: min(82%, 100% - 24px); border: 1px solid var(--border-warm);
+  border-radius: 12px; right: auto; transition: none;
+}
+#cardgrip {
+  position: sticky; top: -20px; margin: -20px -22px 10px; padding: 7px 0;
+  cursor: grab; background: var(--bg3); text-align: center; z-index: 2;
+  font-size: 10px; letter-spacing: .12em; text-transform: uppercase; color: var(--text3);
+  user-select: none; touch-action: none;
+}
+#cardgrip:active { cursor: grabbing; }
+#cardresize {
+  position: absolute; left: 0; top: 0; bottom: 0; width: 7px;
+  cursor: ew-resize; touch-action: none;
+}
+#cardresize:hover { background: var(--accent2); opacity: .5; }
+@media (prefers-reduced-motion: reduce) { #card { transition: none; } }
+#card.open { transform: none; }
+#card .close {
+  position: absolute; top: 10px; right: 12px;
+  border: none; background: none; font-size: 20px; color: var(--text3); cursor: pointer;
+  width: 32px; height: 32px; border-radius: 6px;
+}
+#card .close:hover { background: var(--bg3); color: var(--text); }
+#card .eyebrow { font-size: 11px; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 4px; }
+#card h2 { font-size: 24px; color: var(--text); line-height: 1.15; margin-bottom: 2px; }
+#card .from { font-size: 13px; color: var(--muted); font-style: italic; margin-bottom: 14px; }
+#card h3 { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--text3); font-family: system-ui, sans-serif; font-weight: 600; margin: 16px 0 6px; }
+#card .body p { margin-bottom: 8px; font-size: 14px; }
+#card .conn { border: 1px solid var(--border-warm); border-radius: 8px; padding: 9px 11px; margin: 6px 0; background: var(--bg); }
+#card .conn .head { display: flex; align-items: center; gap: 8px; cursor: pointer; }
+#card .conn .verb {
+  font: 600 10px/1 ui-monospace, monospace; letter-spacing: .1em; text-transform: uppercase;
+  padding: 3px 7px; border-radius: 4px; background: var(--bg3); color: var(--muted); white-space: nowrap;
+}
+#card .conn.contradicts .verb, #card .conn.tempers .verb { color: var(--red); background: #f3e2e0; }
+#card .conn .to { font-family: Georgia, serif; font-size: 14.5px; color: var(--accent); }
+#card .conn .to:hover { text-decoration: underline; }
+#card .conn .why { font-size: 12.5px; color: var(--muted); margin-top: 5px; }
+#card .tagrow { margin-top: 14px; }
+#card .tag { display: inline-block; font-size: 11px; color: var(--text3); background: var(--bg3); border-radius: 99px; padding: 2px 9px; margin: 2px 3px 0 0; }
+#trailbtn {
+  margin-top: 18px; width: 100%;
+  font: 14px Georgia, serif; color: var(--bg2); background: var(--accent);
+  border: none; border-radius: 8px; padding: 10px; cursor: pointer;
+}
+#trailbtn:hover { background: var(--accent2); }
+#trail { margin-top: 12px; }
+#trail .hop { display: flex; gap: 10px; padding: 7px 0; border-bottom: 1px solid var(--border); }
+#trail .hop .n { font: 600 11px/1.9 ui-monospace, monospace; color: var(--text3); }
+#trail .hop .t { font-family: Georgia, serif; font-size: 14.5px; }
+#trail .hop .t .dm { font-size: 11px; color: var(--text3); font-family: system-ui, sans-serif; font-style: italic; margin-left: 6px; }
+#trail .hop .v { font-size: 11.5px; color: var(--muted); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* ---------- mobile ---------- */
+@media (max-width: 760px) {
+  #app { grid-template-columns: 1fr; grid-template-rows: auto auto 1fr; }
+  #panel { grid-column: 1; grid-row: 2; border-right: none; border-bottom: 1px solid var(--border-warm); max-height: 44vh; }
+  #mapwrap { grid-column: 1; grid-row: 3; }
+  #card { width: 100%; }
+  #divider, #cardgrip, #cardresize { display: none; }
+}
+</style>
+</head>
+<body>
+<div id="app">
+  <header>
+    <h1>Concept Atlas</h1>
+    <span class="sub" id="subtitle">the ideas in your library, connected across domains</span>
+    <a href="../index.html">← Living Books</a>
+  </header>
+
+  <div id="panel">
+    <div id="ask">
+      <label for="q">What are you trying to understand?</label>
+      <input id="q" type="search" placeholder="e.g. why good systems fail under pressure"
+             autocomplete="off" spellcheck="false">
+    </div>
+    <div id="domains" role="group" aria-label="Filter by domain"></div>
+    <div id="results" aria-live="polite"></div>
+    <div id="stats"></div>
+  </div>
+
+  <div id="divider" role="separator" aria-label="Resize panel" title="Drag to resize"></div>
+
+  <div id="mapwrap">
+    <svg id="map" aria-label="Concept map"></svg>
+    <div id="hint">drag to pan · scroll to zoom · click a concept</div>
+    <div id="legend"></div>
+    <aside id="card" aria-label="Concept detail">
+      <div id="cardgrip" title="drag to move · double-click to dock">⋮⋮ drag · dbl-click docks</div>
+      <div id="cardresize" title="drag to resize"></div>
+      <button class="close" aria-label="Close">×</button>
+      <div id="cardbody"></div>
+    </aside>
+  </div>
+</div>
+
+<script>
+'use strict';
+/* Concept Atlas — self-contained, reads ./atlas.json (or inlined data). */
+
+const DOMAIN_COLORS = {
+  'Systems Thinking & Philosophy': 'var(--d-systems)',
+  'Technology & Data': 'var(--d-tech)',
+  'Business & Management': 'var(--d-business)',
+  'Agile & Software Delivery': 'var(--d-agile)',
+  'Leadership & Coaching': 'var(--d-leadership)',
+  'Psychology & Self-Development': 'var(--d-psych)',
+};
+const DOMAIN_SHORT = {
+  'Systems Thinking & Philosophy': 'Systems & Philosophy',
+  'Technology & Data': 'Technology & Data',
+  'Business & Management': 'Business',
+  'Agile & Software Delivery': 'Agile & Delivery',
+  'Leadership & Coaching': 'Leadership',
+  'Psychology & Self-Development': 'Psychology',
+};
+const VERBS = ['extends', 'contradicts', 'instantiates', 'formalizes', 'parallels', 'tempers'];
+
+let DATA, byId = {}, bookBy = {}, neighbors = {};
+let sel = null, activeDomains = new Set(Object.keys(DOMAIN_COLORS));
+
+async function load() {
+  if (window.ATLAS_DATA) { DATA = window.ATLAS_DATA; return; }
+  DATA = await (await fetch('atlas.json')).json();
+}
+
+/* ---------- tiny markdown-ish renderer (bold, italics, strip links to text) ---------- */
+function esc(s) { return s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+function md(s) {
+  return esc(s)
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
+    .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*([^*]+)\*/g, '<em>$1</em>')
+    .split(/\n{2,}/).map(p => `<p>${p.replace(/\n/g, ' ')}</p>`).join('');
+}
+
+/* ---------- search ---------- */
+function tokens(s) { return s.toLowerCase().match(/[a-z][a-z-]+/g) || []; }
+const STOP = new Set(['the','and','for','with','that','this','are','how','why','what','when','can','not','you','your','from','into','about','does','under','over','their','them','they']);
+function score(c, qtok) {
+  let s = 0;
+  const title = c.title.toLowerCase(), desc = c.description.toLowerCase(),
+        tags = c.tags.join(' ').toLowerCase(),
+        body = (c.definition + ' ' + c.whyItMatters).toLowerCase();
+  for (const t of qtok) {
+    if (STOP.has(t)) continue;
+    if (title.includes(t)) s += 6;
+    if (tags.includes(t)) s += 4;
+    if (desc.includes(t)) s += 3;
+    if (body.includes(t)) s += 1;
+  }
+  return s;
+}
+function search(q) {
+  const qtok = tokens(q);
+  const scored = DATA.concepts
+    .filter(c => activeDomains.has(domainOf(c)))
+    .map(c => [qtok.length ? score(c, qtok) : 1, c])
+    .filter(([s]) => s > 0)
+    .sort((a, b) => b[0] - a[0]);
+  return qtok.length ? scored.slice(0, 24) : scored;
+}
+function domainOf(c) { return bookBy[c.book]?.domain || 'Systems Thinking & Philosophy'; }
+
+function renderResults() {
+  const q = document.getElementById('q').value.trim();
+  const hits = search(q);
+  const el = document.getElementById('results');
+  el.innerHTML = '';
+  // group by domain — cross-domain spread is the point
+  const groups = new Map();
+  for (const [, c] of hits) {
+    const d = domainOf(c);
+    if (!groups.has(d)) groups.set(d, []);
+    groups.get(d).push(c);
+  }
+  for (const [d, cs] of groups) {
+    const g = document.createElement('div');
+    g.className = 'rgroup'; g.textContent = DOMAIN_SHORT[d] || d;
+    el.appendChild(g);
+    for (const c of cs) {
+      const b = document.createElement('button');
+      b.className = 'hit' + (sel === c.id ? ' sel' : '');
+      b.innerHTML = `<span class="t"><span class="dot" style="background:${DOMAIN_COLORS[d]}"></span>${esc(c.title)}</span>
+        <span class="b">${esc(bookBy[c.book]?.title || c.book)}</span>
+        <div class="d">${esc(c.description)}</div>`;
+      b.onclick = () => select(c.id, true);
+      el.appendChild(b);
+    }
+  }
+  if (q && groups.size > 1) {
+    const note = document.createElement('div');
+    note.className = 'rgroup';
+    note.style.cssText = 'text-transform:none;letter-spacing:0;font-style:italic;margin-top:14px';
+    note.textContent = `this question spans ${groups.size} domains`;
+    el.prepend(note);
+  }
+}
+
+/* ---------- force layout (tiny custom sim, run once) ---------- */
+let nodes, links, W = 900, H = 600;
+function layout() {
+  nodes = DATA.concepts.map(c => ({ id: c.id, c }));
+  const idx = Object.fromEntries(nodes.map((n, i) => [n.id, i]));
+  links = DATA.edges.map(e => ({ s: idx[e.from], t: idx[e.to], e })).filter(l => l.s != null && l.t != null);
+
+  // seed positions clustered by domain around a ring
+  const domains = Object.keys(DOMAIN_COLORS);
+  const rng = mulberry(42);
+  nodes.forEach((n, i) => {
+    const d = domains.indexOf(domainOf(n.c));
+    const a = (d / domains.length) * 2 * Math.PI - Math.PI / 2;
+    n.x = W/2 + Math.cos(a) * W/4 + (rng() - .5) * W/6;
+    n.y = H/2 + Math.sin(a) * H/4 + (rng() - .5) * H/6;
+    n.vx = 0; n.vy = 0;
+  });
+  for (let it = 0; it < 260; it++) {
+    const k = it < 60 ? .9 : .35;
+    // repulsion (O(n^2) — fine for a few hundred nodes)
+    for (let i = 0; i < nodes.length; i++) for (let j = i + 1; j < nodes.length; j++) {
+      const a = nodes[i], b = nodes[j];
+      let dx = a.x - b.x, dy = a.y - b.y;
+      let d2 = dx*dx + dy*dy || 1;
+      if (d2 < 90000) {
+        const f = 1400 / d2 * k;
+        a.vx += dx * f; a.vy += dy * f; b.vx -= dx * f; b.vy -= dy * f;
+      }
+    }
+    // springs
+    for (const l of links) {
+      const a = nodes[l.s], b = nodes[l.t];
+      const dx = b.x - a.x, dy = b.y - a.y;
+      const d = Math.sqrt(dx*dx + dy*dy) || 1, f = (d - 90) * .012 * k;
+      a.vx += dx / d * f * d; a.vy += dy / d * f * d;
+      b.vx -= dx / d * f * d; b.vy -= dy / d * f * d;
+    }
+    // domain gravity + center
+    for (const n of nodes) {
+      n.vx += (W/2 - n.x) * .004; n.vy += (H/2 - n.y) * .004;
+      n.x += Math.max(-14, Math.min(14, n.vx)); n.y += Math.max(-14, Math.min(14, n.vy));
+      n.vx *= .5; n.vy *= .5;
+    }
+  }
+}
+function mulberry(a) { return () => { a |= 0; a = a + 0x6D2B79F5 | 0; let t = Math.imul(a ^ a >>> 15, 1 | a); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
+
+/* ---------- svg render + pan/zoom ---------- */
+let svg, gRoot, view = { x: 0, y: 0, k: 1 };
+function renderMap() {
+  svg = document.getElementById('map');
+  const NS = 'http://www.w3.org/2000/svg';
+  svg.innerHTML = '';
+  gRoot = document.createElementNS(NS, 'g');
+  svg.appendChild(gRoot);
+
+  for (const l of links) {
+    const p = document.createElementNS(NS, 'path');
+    const a = nodes[l.s], b = nodes[l.t];
+    const mx = (a.x + b.x) / 2 + (b.y - a.y) * .12, my = (a.y + b.y) / 2 - (b.x - a.x) * .12;
+    p.setAttribute('d', `M${a.x},${a.y} Q${mx},${my} ${b.x},${b.y}`);
+    p.setAttribute('class', `edge ${l.e.verb}`);
+    p.dataset.from = l.e.from; p.dataset.to = l.e.to;
+    gRoot.appendChild(p);
+  }
+  for (const n of nodes) {
+    const g = document.createElementNS(NS, 'g');
+    g.setAttribute('class', 'node'); g.dataset.id = n.id;
+    g.setAttribute('transform', `translate(${n.x},${n.y})`);
+    const deg = neighbors[n.id]?.length || 0;
+    const circ = document.createElementNS(NS, 'circle');
+    circ.setAttribute('r', 4 + Math.min(5, deg));
+    circ.setAttribute('fill', DOMAIN_COLORS[domainOf(n.c)]);
+    circ.addEventListener('click', ev => { ev.stopPropagation(); select(n.id, true); });
+    const label = document.createElementNS(NS, 'text');
+    label.setAttribute('y', -(9 + Math.min(5, deg)));
+    label.setAttribute('text-anchor', 'middle');
+    label.textContent = n.c.title;
+    g.appendChild(circ); g.appendChild(label);
+    gRoot.appendChild(g);
+  }
+  fitView();
+
+  // pan/zoom — capture only after real movement so node clicks still land
+  let drag = null, panned = false;
+  svg.addEventListener('pointerdown', e => { drag = { x: e.clientX, y: e.clientY, id: e.pointerId }; panned = false; });
+  svg.addEventListener('pointermove', e => {
+    if (!drag) return;
+    if (!panned) {
+      if (Math.hypot(e.clientX - drag.x, e.clientY - drag.y) < 4) return;
+      panned = true; svg.classList.add('dragging'); svg.setPointerCapture(drag.id);
+    }
+    view.x += e.clientX - drag.x; view.y += e.clientY - drag.y;
+    drag = { x: e.clientX, y: e.clientY }; applyView();
+  });
+  const endPan = () => { drag = null; svg.classList.remove('dragging'); };
+  svg.addEventListener('pointerup', endPan);
+  svg.addEventListener('pointercancel', endPan);
+  svg.addEventListener('wheel', e => {
+    e.preventDefault();
+    const r = svg.getBoundingClientRect();
+    const mx = e.clientX - r.left, my = e.clientY - r.top;
+    const k2 = Math.max(.25, Math.min(4, view.k * (e.deltaY < 0 ? 1.15 : .87)));
+    view.x = mx - (mx - view.x) * k2 / view.k;
+    view.y = my - (my - view.y) * k2 / view.k;
+    view.k = k2; applyView();
+  }, { passive: false });
+  svg.addEventListener('click', () => { if (panned) { panned = false; return; } deselect(); });
+}
+function fitView() {
+  const r = svg.getBoundingClientRect();
+  const xs = nodes.map(n => n.x), ys = nodes.map(n => n.y);
+  const minX = Math.min(...xs) - 40, maxX = Math.max(...xs) + 40;
+  const minY = Math.min(...ys) - 40, maxY = Math.max(...ys) + 40;
+  view.k = Math.min(r.width / (maxX - minX), r.height / (maxY - minY), 1.6);
+  view.x = (r.width - (maxX + minX) * view.k) / 2;
+  view.y = (r.height - (maxY + minY) * view.k) / 2;
+  applyView();
+}
+function applyView() { gRoot.setAttribute('transform', `translate(${view.x},${view.y}) scale(${view.k})`); }
+
+/* ---------- selection: light the routes ---------- */
+function select(id, scroll) {
+  sel = id;
+  const c = byId[id];
+  svg.classList.add('focus');
+  const lit = new Set([id]);
+  for (const e of neighbors[id] || []) { lit.add(e.from); lit.add(e.to); }
+  svg.querySelectorAll('.node').forEach(n => n.classList.toggle('lit', lit.has(n.dataset.id)));
+  svg.querySelectorAll('.edge').forEach(p => {
+    const on = p.dataset.from === id || p.dataset.to === id;
+    p.classList.remove('draw');
+    p.classList.toggle('lit', on);
+    if (on) { void p.getBoundingClientRect(); p.classList.add('draw'); }
+  });
+  renderCard(c);
+  renderResults();
+  history.replaceState(null, '', '#' + id);
+  if (scroll) document.getElementById('card').scrollTop = 0;
+}
+function deselect() {
+  sel = null;
+  svg.classList.remove('focus');
+  svg.querySelectorAll('.lit').forEach(x => x.classList.remove('lit', 'draw'));
+  document.getElementById('card').classList.remove('open');
+  history.replaceState(null, '', location.pathname);
+  renderResults();
+}
+
+/* ---------- concept card ---------- */
+function renderCard(c) {
+  const d = domainOf(c);
+  const book = bookBy[c.book];
+  const conns = (neighbors[c.id] || []).map(e => {
+    const otherId = e.from === c.id ? e.to : e.from;
+    const other = byId[otherId];
+    const verb = e.from === c.id ? e.verb : `is ${verbPassive(e.verb)} by`;
+    return { e, other, verb };
+  }).filter(x => x.other);
+  // cross-domain first — that is what the atlas is for
+  conns.sort((a, b) => (domainOf(a.other) === d) - (domainOf(b.other) === d));
+
+  const el = document.getElementById('cardbody');
+  el.innerHTML = `
+    <div class="eyebrow" style="color:${DOMAIN_COLORS[d]}">${esc(DOMAIN_SHORT[d] || d)}</div>
+    <h2>${esc(c.title)}</h2>
+    <div class="from">from <strong>${esc(book?.title || c.book)}</strong>${book?.author ? ' — ' + esc(book.author) : ''}${c.chapters?.length ? ' · ch. ' + c.chapters.join(', ') : ''}</div>
+    <div class="body">${md(c.definition)}</div>
+    ${c.inBook ? `<h3>In the book</h3><div class="body">${md(c.inBook)}</div>` : ''}
+    ${c.whyItMatters ? `<h3>Why it matters</h3><div class="body">${md(c.whyItMatters)}</div>` : ''}
+    <h3>Connections (${conns.length})</h3>
+    ${conns.map(({ e, other, verb }) => `
+      <div class="conn ${e.verb}">
+        <div class="head" data-go="${other.id}">
+          <span class="verb">${esc(verb)}</span>
+          <span class="to">${esc(other.title)}</span>
+        </div>
+        <div class="why">${esc(bookBy[other.book]?.title || '')}${domainOf(other) !== d ? ' · ' + esc(DOMAIN_SHORT[domainOf(other)]) : ''}${e.why ? ' — ' + esc(e.why) : ''}</div>
+      </div>`).join('') || '<div class="why" style="color:var(--text3)">No woven connections yet.</div>'}
+    <div class="tagrow">${(c.tags || []).map(t => `<span class="tag">${esc(t)}</span>`).join('')}</div>
+    <button id="trailbtn">Walk a trail from here →</button>
+    <div id="trail"></div>`;
+  el.querySelectorAll('[data-go]').forEach(h => h.addEventListener('click', () => select(h.dataset.go, true)));
+  el.querySelector('#trailbtn').addEventListener('click', () => renderTrail(c));
+  document.getElementById('card').classList.add('open');
+}
+function verbPassive(v) {
+  return { extends: 'extended', contradicts: 'contradicted', instantiates: 'instantiated',
+           formalizes: 'formalized', parallels: 'paralleled', tempers: 'tempered' }[v] || v;
+}
+
+/* ---------- trails: BFS that prefers changing domain each hop ---------- */
+function renderTrail(start) {
+  const path = [{ c: start }];
+  const used = new Set([start.id]);
+  let cur = start;
+  for (let hop = 0; hop < 4; hop++) {
+    const opts = (neighbors[cur.id] || [])
+      .map(e => ({ e, next: byId[e.from === cur.id ? e.to : e.from] }))
+      .filter(o => o.next && !used.has(o.next.id));
+    if (!opts.length) break;
+    opts.sort((a, b) => {
+      const ad = domainOf(a.next) !== domainOf(cur), bd = domainOf(b.next) !== domainOf(cur);
+      if (ad !== bd) return bd - ad;
+      return (neighbors[b.next.id]?.length || 0) - (neighbors[a.next.id]?.length || 0);
+    });
+    const pick = opts[0];
+    path.push({ c: pick.next, via: pick.e, from: cur });
+    used.add(pick.next.id);
+    cur = pick.next;
+  }
+  const el = document.getElementById('trail');
+  const domainsSeen = new Set(path.map(p => domainOf(p.c)));
+  el.innerHTML = `
+    <h3>A trail across ${domainsSeen.size} domain${domainsSeen.size > 1 ? 's' : ''}</h3>
+    ${path.map((p, i) => `
+      <div class="hop">
+        <span class="n">${String(i + 1).padStart(2, '0')}</span>
+        <div>
+          <div class="t"><span class="dot" style="display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;background:${DOMAIN_COLORS[domainOf(p.c)]}"></span>${esc(p.c.title)}<span class="dm">${esc(bookBy[p.c.book]?.title || '')}</span></div>
+          ${p.via ? `<div class="v">${esc(p.via.from === p.from.id ? p.via.verb : 'is ' + verbPassive(p.via.verb) + ' by')} the previous — ${esc(p.via.why || '')}</div>` : ''}
+        </div>
+      </div>`).join('')}`;
+  // light the whole trail on the map
+  const ids = new Set(path.map(p => p.c.id));
+  svg.classList.add('focus');
+  svg.querySelectorAll('.node').forEach(n => n.classList.toggle('lit', ids.has(n.dataset.id)));
+  svg.querySelectorAll('.edge').forEach(pth => {
+    const on = path.some(p => p.via && ((pth.dataset.from === p.via.from && pth.dataset.to === p.via.to)));
+    pth.classList.remove('draw');
+    pth.classList.toggle('lit', on);
+    if (on) { void pth.getBoundingClientRect(); pth.classList.add('draw'); }
+  });
+}
+
+/* ---------- chrome ---------- */
+function renderChrome() {
+  const dEl = document.getElementById('domains');
+  for (const d of Object.keys(DOMAIN_COLORS)) {
+    const b = document.createElement('button');
+    b.className = 'chip on';
+    b.innerHTML = `<span class="dot" style="background:${DOMAIN_COLORS[d]}"></span>${esc(DOMAIN_SHORT[d])}`;
+    b.onclick = () => {
+      if (activeDomains.has(d) && activeDomains.size > 1) activeDomains.delete(d);
+      else activeDomains.add(d);
+      b.classList.toggle('on', activeDomains.has(d));
+      renderResults();
+    };
+    dEl.appendChild(b);
+  }
+  document.getElementById('legend').innerHTML = `
+    <div class="row"><span class="sw"></span> extends · instantiates · formalizes · parallels</div>
+    <div class="row"><span class="sw dash"></span> contradicts · tempers</div>`;
+  const nBooks = DATA.books.length, nC = DATA.concepts.length, nE = DATA.edges.length;
+  document.getElementById('stats').textContent = `${nBooks} books · ${nC} concepts · ${nE} connections`;
+  document.getElementById('subtitle').textContent =
+    `${nC} ideas from ${nBooks} books, woven across ${new Set(DATA.books.map(b => b.domain)).size} domains`;
+  document.querySelector('#card .close').addEventListener('click', deselect);
+  document.getElementById('q').addEventListener('input', renderResults);
+  addEventListener('keydown', e => { if (e.key === 'Escape') deselect(); });
+  initPanels();
+}
+
+/* ---------- movable / adjustable panels (state in localStorage) ---------- */
+function initPanels() {
+  const root = document.documentElement, card = document.getElementById('card');
+  const saved = k => localStorage.getItem(k);
+  if (saved('atlas-panel-w')) root.style.setProperty('--panel-w', saved('atlas-panel-w') + 'px');
+  if (saved('atlas-card-w')) root.style.setProperty('--card-w', saved('atlas-card-w') + 'px');
+
+  // left divider — resize the intent panel
+  const div = document.getElementById('divider');
+  div.addEventListener('pointerdown', e => {
+    e.preventDefault(); div.classList.add('active'); div.setPointerCapture(e.pointerId);
+    const move = ev => {
+      const w = Math.max(230, Math.min(560, ev.clientX));
+      root.style.setProperty('--panel-w', w + 'px');
+      localStorage.setItem('atlas-panel-w', w);
+    };
+    const up = () => { div.classList.remove('active'); div.removeEventListener('pointermove', move); fitView(); };
+    div.addEventListener('pointermove', move);
+    div.addEventListener('pointerup', up, { once: true });
+  });
+
+  // card left edge — resize the card (keeps right edge put, docked or floating)
+  const rs = document.getElementById('cardresize');
+  rs.addEventListener('pointerdown', e => {
+    e.preventDefault(); e.stopPropagation(); rs.setPointerCapture(e.pointerId);
+    const right = card.getBoundingClientRect().right;
+    const move = ev => {
+      const w = Math.max(300, Math.min(760, right - ev.clientX));
+      root.style.setProperty('--card-w', w + 'px');
+      localStorage.setItem('atlas-card-w', w);
+      if (card.classList.contains('float')) card.style.left = (right - w - card.parentElement.getBoundingClientRect().left) + 'px';
+    };
+    const up = () => rs.removeEventListener('pointermove', move);
+    rs.addEventListener('pointermove', move);
+    rs.addEventListener('pointerup', up, { once: true });
+  });
+
+  // grip — drag the card anywhere; double-click docks it back to the right
+  const grip = document.getElementById('cardgrip');
+  grip.addEventListener('pointerdown', e => {
+    e.preventDefault(); grip.setPointerCapture(e.pointerId);
+    const wrap = card.parentElement.getBoundingClientRect();
+    const r = card.getBoundingClientRect();
+    const offX = e.clientX - r.left, offY = e.clientY - r.top;
+    card.classList.add('float');
+    const move = ev => {
+      card.style.left = Math.max(0, Math.min(wrap.width - r.width, ev.clientX - wrap.left - offX)) + 'px';
+      card.style.top = Math.max(0, Math.min(wrap.height - 60, ev.clientY - wrap.top - offY)) + 'px';
+    };
+    move(e);
+    const up = () => grip.removeEventListener('pointermove', move);
+    grip.addEventListener('pointermove', move);
+    grip.addEventListener('pointerup', up, { once: true });
+  });
+  grip.addEventListener('dblclick', () => {
+    card.classList.remove('float'); card.style.left = ''; card.style.top = '';
+  });
+}
+
+load().then(() => {
+  for (const c of DATA.concepts) byId[c.id] = c;
+  for (const b of DATA.books) bookBy[b.slug] = b;
+  for (const e of DATA.edges) {
+    (neighbors[e.from] = neighbors[e.from] || []).push(e);
+    (neighbors[e.to] = neighbors[e.to] || []).push(e);
+  }
+  renderChrome();
+  layout();
+  renderMap();
+  renderResults();
+  const want = location.hash.slice(1);
+  if (want && byId[want]) select(want, true);
+  addEventListener('resize', fitView);
+});
+</script>
+</body>
+</html>
