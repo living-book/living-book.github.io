@@ -34,7 +34,8 @@ Wave = relaunch group after session-limit kill. Update as notifications arrive.
 - [x] W5 scientific-research-programmes (8 concepts)
 
 ## After extraction
-- [~] Edge weaving: 7 lenses → pipeline/atlas/edges/*.yml (done: feedback 23, learning 25, strategy 24, attention 21, incentives 21, flow 19; running: technology)
+- [x] Edge weaving: 7 lenses, 155 edges woven
+- [~] Edge verification (Sonnet, adversarial): done incentives/flow/technology (61→55) + strategy/attention (45→39); running feedback/learning
 - [ ] Update pipeline/concept-inventory.yml (regenerate namespaces from files)
 - [ ] scripts/build_atlas.py run → docs/atlas/atlas.json (script already written)
 - [ ] docs/atlas/index.html — intent-driven interface (Anthropic design system per user CLAUDE.md)

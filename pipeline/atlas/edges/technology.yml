@@ -9,13 +9,14 @@
     understanding it points at.
 
 - from: confident-confabulation
-  verb: tempers
+  verb: extends
   to: explanatory-creativity
   why: >-
-    A system cut off from grounding context manufactures a fluent, confident
-    account that looks like a new explanation but lacks the hard-to-vary
-    constraint separating real explanatory knowledge from plausible-sounding
-    confabulation.
+    Explanatory creativity's test already warns against mistaking fluency
+    for real understanding; confident confabulation supplies the missing
+    mechanism for why the fake case occurs — a system with no internal
+    signal for its own ignorance manufactures the hard-to-vary-sounding
+    account that the test is built to catch.
 
 - from: five-tribes
   verb: parallels
@@ -39,10 +40,11 @@
   verb: parallels
   to: organized-complexity
   why: >-
-    Both mark a breakdown zone opened by scale — added dimensions or added
-    interacting parts — where the tools that work at either extreme, simple
-    equations or brute statistical averaging, stop applying and demand new
-    methods entirely.
+    Both locate a regime, opened by adding scale — more dimensions, more
+    interacting parts — where the intuitions a tool relies on quietly stop
+    holding: distance and similarity stop meaning what learners assume, and
+    equation-by-equation modeling or statistical averaging stop applying,
+    demanding methods built for the new regime instead.
 
 - from: snowmobile-mismatch
   verb: tempers
@@ -63,13 +65,15 @@
     regime.
 
 - from: abstraction-erodes-empathy
-  verb: tempers
+  verb: extends
   to: bounty-and-spread
   why: >-
-    The same digitization that multiplies bounty converts affected people
-    into distant metrics and screens, exactly the condition under which
-    otherwise decent actors stop registering the harm sitting inside the
-    spread they're causing.
+    Bounty and spread names two coexisting outcomes of digitization without
+    explaining why decision-makers correct for one and not the other;
+    abstraction-erodes-empathy supplies the missing mechanism — the same
+    digitization also converts the people bearing the spread into distant
+    metrics and screens, removing the proximity that would otherwise
+    trigger a corrective response to the harm.
 
 - from: abstraction-erodes-empathy
   verb: instantiates
@@ -79,15 +83,6 @@
     when responsibility follows the map instead of the living person it was
     abstracted from, the map has replaced the reality it was only meant to
     represent.
-
-- from: second-machine-age
-  verb: instantiates
-  to: jump-to-universality
-  why: >-
-    Digital computation, engineered narrowly for calculation, crossed a
-    threshold into universal symbol manipulation — that jump into
-    generality, not incremental improvement, is why it bends the curve of
-    progress the way steam power never could.
 
 - from: bounty-and-spread
   verb: tempers
@@ -138,10 +133,12 @@
   verb: tempers
   to: monte-carlo-risk-modeling
   why: >-
-    A simulation is only as honest as its input ranges, and the harm Taleb
-    calls iatrogenic occurs precisely outside any range the modeler thought
-    to sample, so a probability-of-loss number can create false confidence
-    exactly where the real risk hides.
+    A Monte Carlo model is only as honest as the variables it includes;
+    iatrogenics names harm that routinely never becomes a modeled variable
+    at all — hidden, delayed, and rarely traced back to the intervention
+    that caused it, especially once the intervener bears none of that
+    downside — so a precise probability distribution over the wrong
+    variable set still misses where the real risk hides.
 
 - from: death-denial
   verb: tempers
@@ -174,10 +171,11 @@
   verb: parallels
   to: the-gray-zone
   why: >-
-    Both describe unpredictable territory that cannot be planned through in
-    advance — the decades before a general-purpose technology pays off, or
-    the gap between current and target condition — crossed only by short,
-    observed experimental steps.
+    Both name a gap whose size and shape can't be known in advance — the
+    unspecifiable complementary innovations a general-purpose technology
+    still needs, or the unforeseeable obstacles between current and target
+    condition — so in both cases the interval only reveals itself to
+    whoever is already inside it, not to anyone planning from outside it.
 
 - from: shareholder-value-trap
   verb: parallels

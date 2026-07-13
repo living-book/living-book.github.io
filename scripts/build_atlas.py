@@ -150,7 +150,10 @@ def main():
         if e["from"] not in ids or e["to"] not in ids:
             dropped += 1
             continue
-        uniq.setdefault((e["from"], e["verb"], e["to"]), e)
+        # parallels is symmetric — collapse A->B / B->A into one edge
+        key = (frozenset((e["from"], e["to"])), e["verb"]) if e["verb"] == "parallels" \
+              else (e["from"], e["verb"], e["to"])
+        uniq.setdefault(key, e)
     edges = list(uniq.values())
 
     books = [

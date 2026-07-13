@@ -7,20 +7,14 @@
     erodes, just as any level of intelligence is compatible with any final goal.
 
 - from: circle-of-safety
-  verb: tempers
+  verb: parallels
   to: instrumental-convergence
   why: >-
-    Instrumental convergence predicts any capable agent defaults toward self-preservation
-    and resource competition; circle-of-safety shows that fails once a leader supplies
-    enough protection to redirect that drive outward instead of inward.
-
-- from: instrumental-convergence
-  verb: parallels
-  to: customer-driven-resource-allocation
-  why: >-
-    Both describe an optimization process converging on the same subgoal — securing
-    resources from whoever already controls them — regardless of its stated top-level
-    objective, so a firm's disruptive strategy and an AI's assigned goal both get crowded out.
+    Both feature a self-preserving drive whose direction depends on the actor's felt
+    security: instrumental convergence holds resource acquisition and self-preservation
+    are default subgoals for nearly any capable agent, and circle-of-safety shows that
+    same protective energy turns outward against real external threats, instead of
+    inward against the group, once a leader removes internal danger.
 
 - from: value-loading
   verb: parallels
@@ -55,20 +49,13 @@
     letting people act on the signal instead of defending against it.
 
 - from: objectives-and-key-results
-  verb: formalizes
+  verb: parallels
   to: target-condition
   why: >-
-    OKRs give the target condition's non-negotiable desired state a measurable checkpoint
-    — quantitative key results — while preserving its refusal to prescribe method, turning
-    "aim for this state" into "verify this number by this date."
-
-- from: gospel-of-10x
-  verb: contradicts
-  to: marginal-gains-compounding
-  why: >-
-    Marginal gains assumes steady, achievable 1% increments compound into the best
-    long-run outcome; the Gospel of 10x argues targets deliberately expected to fail 40%
-    of the time extract more from teams than uniformly safe, achievable goals.
+    Both split a change effort into a non-negotiable WHAT and an open HOW: a target
+    condition fixes the destination state while leaving the path to be discovered, and
+    an OKR fixes quantitative key results while committing to no particular method for
+    hitting them.
 
 - from: managing-by-means
   verb: parallels
@@ -114,9 +101,11 @@
   verb: parallels
   to: the-gray-zone
   why: >-
-    Both locate productive effort in the same narrow band — neither so easy it's already
-    mastered nor so hard it can't be attempted — and both require continually
-    re-locating that edge through action rather than planning it in advance.
+    Both reject fixing anything by advance calculation in favor of continuous,
+    action-based discovery: the Goldilocks Rule holds peak motivation lives at a moving
+    edge of ability that can only be found by acting and adjusting, and the-gray-zone
+    holds the path to a target condition is unforeseeable in advance and can only be
+    discovered through short PDCA steps and correction.
 
 - from: customer-driven-resource-allocation
   verb: parallels
@@ -130,9 +119,10 @@
   verb: parallels
   to: meaningful-work
   why: >-
-    Both locate durable motivation in self-concept rather than outcome tracking: a habit
-    sticks when it reflects who you believe you are, and progress only nourishes inner
-    work life when the work itself feels like an expression of purpose.
+    Both locate durable motivation in a mediating belief that outcome-tracking alone
+    can't supply: a habit sticks when it reflects who you believe you are, and progress
+    only nourishes inner work life when the work itself is perceived as contributing to
+    something that matters.
 
 - from: default-effects
   verb: tempers

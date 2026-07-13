@@ -1,13 +1,4 @@
 # Lens: attention, models, and representation
-- from: system-1-system-2
-  verb: parallels
-  to: two-modes-of-attention
-  why: >-
-    Both split cognition into a fast, holistic, context-sensitive mode and a
-    narrow, effortful, manipulative mode acting on the same material — which
-    mode is in control, not just its accuracy, determines what kind of world
-    gets perceived.
-
 - from: mental-models
   verb: contradicts
   to: bringing-forth-a-world
@@ -48,10 +39,11 @@
   verb: tempers
   to: the-map-mistaken-for-the-world
   why: >-
-    Not every representation is a false substitute for a living thing —
-    Deutsch's indispensability test gives a positive criterion for when an
-    abstraction is doing real explanatory work, checking blanket suspicion of
-    maps with a case where the map is real.
+    McGilchrist calls the map "indispensable" and warns only against mistaking
+    it for the living territory it stands in for; Deutsch's indispensability
+    criterion sharpens exactly that boundary — an abstraction earns trust as
+    real when it is ineliminable from the best explanation, a positive test
+    for which maps do genuine explanatory work.
 
 - from: confident-confabulation
   verb: parallels
@@ -74,19 +66,22 @@
   verb: parallels
   to: exemplar
   why: >-
-    Both substitute resemblance to a stored concrete case — a stereotype, a
-    worked problem-solution — for explicit rule-based reasoning, which is why
-    a detailed matching scenario can feel more certain than the broader
-    category logically requires.
+    Both replace explicit rule-based judgment with perceived resemblance to a
+    stored concrete case — a stereotype profile, a worked problem-solution —
+    so a new instance is judged by match to the remembered exemplar rather
+    than stateable criteria; representativeness treats the substitution as
+    bias, Kuhn as the legitimate tacit basis of trained scientific judgment —
+    identical mechanism, opposite verdict on its reliability.
 
 - from: anchoring-effect
   verb: parallels
   to: default-effects
   why: >-
-    Judgment and choice both fail to adjust fully away from whatever
-    reference point is already in place — a considered number, a preset
-    option — even when the person recognizes the starting point carries no
-    informational value.
+    Both let whatever reference point already sits in place capture the
+    outcome disproportionately to its merit — anchoring as an
+    active-estimation failure where a considered number pulls judgment toward
+    it even when known uninformative, default effects as a non-choice failure
+    where inertia hands the outcome to whatever is preset.
 
 - from: availability-heuristic
   verb: parallels
@@ -96,22 +91,16 @@
     comes to mind, how easily material is processed — for the real target
     property, frequency or mastery, that the signal only weakly tracks.
 
-- from: shadow-integration
-  verb: parallels
-  to: the-hidden
-  why: >-
-    What goes unexamined does not disappear — denied material accumulates
-    pressure at individual scale and structural blindness accumulates risk at
-    organizational scale, and both return distorted precisely because neither
-    was ever looked at directly.
-
 - from: self-image-defense
   verb: parallels
   to: ego-and-blind-spots
   why: >-
-    Both locate a defensive mechanism that treats incoming criticism of the
-    self as attack rather than information, blocking objective
-    self-assessment regardless of the argument's actual quality or evidence.
+    Both name a defensive reflex — the "No reflex," Dalio's ego barrier —
+    that registers criticism of the self as existential threat rather than
+    information, shutting down objective evaluation regardless of the
+    argument's quality; the parallel covers only this half of the Principles
+    concept, since its blind-spot barrier is a genuine perceptual limit, not
+    a defense.
 
 - from: grandiosity-trap
   verb: tempers
@@ -130,15 +119,6 @@
     model, but consistency never certifies a model complete or unique — a
     treacherous agent produces the identical observable record as a
     genuinely safe one until it no longer needs to.
-
-- from: master-and-emissary
-  verb: parallels
-  to: instrumental-convergence
-  why: >-
-    A delegate created to serve a grounding authority develops
-    self-preserving, autonomy-seeking drives that outrun the purpose it was
-    built for — the emissary displacing the master is instrumental
-    convergence's takeover dynamic in a psychological register.
 
 - from: betweenness
   verb: parallels
@@ -166,14 +146,15 @@
     the same black-box limit that applies to scientific models applies to a
     mind judged from the outside.
 
-- from: observer-relative-systems
+- from: bringing-forth-a-world
   verb: extends
-  to: bringing-forth-a-world
+  to: observer-relative-systems
   why: >-
-    Weinberg's claim that systems are constructed by an observer's chosen
-    distinctions gets a biological mechanism in Capra's enactivism —
-    structural coupling explains why the choosing isn't arbitrary preference
-    but the organism's own history of interaction with its environment.
+    Weinberg names systems as an observer's chosen scope and grain but does
+    not explain why the choice isn't arbitrary; Capra's structural coupling
+    supplies that mechanism — an organism's distinctions are constrained by
+    its own history of interaction with its environment, grounding the bare
+    "observer constitutes the system" claim in a causal biological account.
 
 - from: generational-formation
   verb: parallels

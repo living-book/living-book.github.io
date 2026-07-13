@@ -10,9 +10,12 @@
   verb: parallels
   to: self-image-defense
   why: >-
-    Both route incoming refutation into adjustable peripheral assumptions —
-    auxiliary hypotheses or rationalizations — so the core (theory or
-    self-image) never faces the evidence directly and survives any single test.
+    Both insulate a protected core from ever meeting evidence directly:
+    Lakatos's belt absorbs the blow by adjusting a peripheral auxiliary
+    hypothesis, while the "No reflex" absorbs it by halting evaluation
+    altogether and defending autonomy instead — different buffering
+    mechanisms, same function of keeping the core untested by the case in
+    front of it.
 - from: healthy-disengagement
   verb: instantiates
   to: progressive-vs-degenerating
@@ -35,12 +38,13 @@
     demonstration lowers the evidence bar for the next cohort, holdouts are
     outlived — is a threshold cascade over a scientific community.
 - from: value-networks
-  verb: instantiates
+  verb: parallels
   to: incommensurability
   why: >-
-    Firms in different value networks rank the same technology by incompatible
-    worth criteria, so the incumbent's evaluation is rational by its own
-    standard yet structurally unable to register the disruptor's merit.
+    Firms in different value networks judge the same technology by the same
+    yardstick — expected margin — but calibrated to incompatible cost
+    structures, so a network's rational read of an opportunity is invisible
+    as an opportunity to any firm tuned to a different scale.
 - from: exemplar
   verb: parallels
   to: coaching-kata
@@ -92,12 +96,13 @@
     instances, and both claim transfer happens only through that abstraction —
     raw accumulated cases do not generalize on their own.
 - from: team-learning
-  verb: tempers
+  verb: parallels
   to: incommensurability
   why: >-
-    Where Kuhn sees no neutral ground between frameworks, Bohm-style dialogue
-    that suspends assumptions can manufacture shared meaning at team scale —
-    incommensurability holds only while frames stay tacit and defended.
+    Both treat the gap between frameworks as bridgeable only by direct
+    engagement with the other side's meaning rather than more data — Bohm
+    dialogue's suspension of assumptions is a team-scale version of the
+    translation work Kuhn says is the only way across paradigms.
 - from: incommensurability
   verb: tempers
   to: bayesian-updating
@@ -136,12 +141,15 @@
     the data — so measurement's honest product is reduced uncertainty, not
     truth.
 - from: calibrated-estimation
-  verb: extends
+  verb: parallels
   to: planning-fallacy
   why: >-
-    Where Kahneman corrects optimistic forecasts case-by-case with outside-view
-    base rates, Hubbard shows the underlying overconfidence is itself trainable
-    — scored interval feedback debiases the estimator, not just the estimate.
+    Both name the same failure — confident estimates systematically
+    miscalibrated relative to what actually happens — but propose different
+    fixes: Kahneman corrects a specific forecast by substituting a
+    reference-class base rate, while Hubbard trains the general skill of
+    stating honest confidence intervals through scored feedback, debiasing
+    the estimator rather than any one estimate.
 - from: theory-laden-perception
   verb: tempers
   to: go-and-see

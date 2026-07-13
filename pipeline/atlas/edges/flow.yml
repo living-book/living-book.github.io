@@ -1,12 +1,4 @@
 # Lens: flow, coordination, and organizational design
-- from: dunbars-number
-  verb: parallels
-  to: transaction-and-coordination-costs
-  why: >-
-    Both locate a scaling ceiling where relationship or handoff cost outgrows
-    headcount combinatorially, forcing structure — hierarchy layers, or named
-    service classes — to substitute for the direct informal coordination that
-    worked fine below the ceiling.
 - from: classes-of-service
   verb: parallels
   to: believability-weighting
@@ -15,14 +7,6 @@
     weighting by an intrinsic property — cost-of-delay profile, or track
     record — so priority and voice are earned by demonstrated stakes, not by
     arrival order or rank.
-- from: cadence-decoupling
-  verb: tempers
-  to: drum-buffer-rope
-  why: >-
-    Names the condition where synchronizing everything to one drumbeat is
-    unnecessary: once activities are decoupled by queues, each can find its
-    own rhythm without the throughput loss Goldratt's shared-pace discipline
-    exists to prevent.
 - from: throughput-accounting
   verb: parallels
   to: outcome-over-output
@@ -35,18 +19,10 @@
   verb: parallels
   to: autopoiesis
   why: >-
-    Both replace a linear, mechanical model of the system with a network
-    whose parts continuously affect and reroute through each other, so
-    bottlenecks and viability propagate like traffic, not breakage along one
-    line.
-- from: product-oriented-management
-  verb: extends
-  to: match-organization-size-to-market
-  why: >-
-    Christensen shows a funding unit sized for the wrong market starves the
-    opportunity it should serve; Kersten operationalizes the fix — fund and
-    staff durable, right-sized value streams instead of time-boxed projects
-    scoped to the parent's scale.
+    Both replace a linear, one-thing-causes-the-next model of the system
+    with a network whose parts continuously interact with and depend on
+    each other, so the system's function or survival is a property of the
+    whole web of connections, not any single line running through it.
 - from: autopoiesis
   verb: contradicts
   to: organization-as-machine
@@ -80,13 +56,15 @@
     made into a concrete ritual — data that could stay hidden in a private
     report instead drives management action because it's exposed.
 - from: kaizen-culture
-  verb: parallels
+  verb: tempers
   to: culture-as-medium-for-goals
   why: >-
-    Both insist the mechanism — a WIP-limited board, or an OKR — is inert
-    without a specific cultural medium carrying it, whether freedom from
-    fear of proposing change or a culture that carries goals; identical
-    tools in different cultures produce different results.
+    Culture-as-medium-for-goals holds a tool like OKRs is inert without a
+    pre-existing cultural medium to carry it; kaizen-culture names the
+    condition where that fails — Corbis had no kaizen culture beforehand,
+    and the WIP-limited board grew one as a side effect, showing a
+    structural mechanism can sometimes produce its own carrying culture
+    rather than requiring it upfront.
 - from: story-as-conversation
   verb: parallels
   to: team-learning
@@ -102,22 +80,16 @@
     items-in-flight rise, queueing time crowds out active work time by
     Little's Law, so the working-to-waiting ratio, not any single step's
     speed, is what capping WIP actually protects.
-- from: kanban-pull-system
-  verb: parallels
-  to: structural-coupling
+- from: dunbars-number
+  verb: instantiates
+  to: system-boundary
   why: >-
-    In both, the environment — a freed downstream token, an external
-    perturbation — triggers the system's next internal action without
-    specifying its content: the signal opens the door, the system's own
-    state determines what happens next.
-- from: system-boundary
-  verb: parallels
-  to: dunbars-number
-  why: >-
-    Both define a boundary as where internal binding strength exceeds what
-    direct connection can sustain — parts tied more tightly to each other
-    than outside, or trust that holds below roughly 150 people — beyond
-    which cohesion needs engineered structure, not proximity.
+    Dunbar's roughly-150-person ceiling on direct trust relationships is a
+    concrete case of Weinberg's Strong Connection Law — the general
+    criterion that a real system's parts must be more tightly bound to
+    each other than to anything outside it; past that number, direct
+    personal binding alone can no longer supply the tightness, so
+    engineered structure has to carry it instead.
 - from: open-system-behavior
   verb: parallels
   to: classes-of-service

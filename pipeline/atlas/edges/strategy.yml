@@ -1,11 +1,3 @@
-- from: sustaining-vs-disruptive-innovation
-  verb: parallels
-  to: paradigm-shift
-  why: >-
-    Both describe change that swaps the evaluation criteria themselves — what counts
-    as "performance" or "a solution" — so competence refined under the old criteria
-    systematically misjudges the newcomer instead of merely lagging it.
-
 - from: value-networks
   verb: parallels
   to: theory-laden-perception
@@ -37,10 +29,11 @@
   verb: tempers
   to: lindy-effect
   why: >-
-    Lindy's survival-extends-lifespan inference assumes nonperishability, but a
-    visible competitive advantage perishes through its own success — survival
-    attracts imitators who shorten its remaining life — so longevity reverses
-    from a positive to a negative signal.
+    Lindy's survival-extends-lifespan inference is scoped to nonperishable
+    things, but McGrath treats competitive advantage as inherently perishable —
+    advantages move through a predictable decay wave rather than accumulating
+    robustness with age, so persistence signals proximity to disengagement,
+    not extended remaining life.
 
 - from: transient-competitive-advantage
   verb: instantiates
@@ -73,10 +66,11 @@
   verb: instantiates
   to: loss-aversion
   why: >-
-    Assets carried at accounting "terminal value" set a reference point, so
-    retiring them registers as a realized loss roughly twice as painful as the
-    equivalent redeployment gain — which is why obsolete assets stay unretired
-    past their usefulness.
+    Asset-debt's "resources as hostage" problem is loss aversion at the
+    org-incentive level — allocation systems peg a manager's status to the
+    scale of resources controlled, so redeploying an obsolete asset registers
+    as a loss to be resisted even when redeployment is a net gain, which is
+    why obsolete assets stay unretired past their usefulness.
 
 - from: resources-processes-values
   verb: tempers
@@ -109,18 +103,21 @@
   verb: parallels
   to: protecting-the-new
   why: >-
-    Both locate the killing mechanism in evaluation at mainstream scale — a small
-    market or fragile idea fails any test calibrated to the production engine's
-    size, so it must be judged inside a unit small enough to find it exciting.
+    Both diagnose a scale-mismatch failure — a large organization applies its
+    own institutional standard, growth targets sized to its revenue base or
+    production infrastructure sized to constant throughput, to something too
+    small or immature to pass it, killing it for fit rather than merit; each
+    prescribes a context sized to the new thing itself.
 
 - from: discovery-driven-planning
-  verb: extends
+  verb: tempers
   to: planning-fallacy
   why: >-
-    It accepts Kahneman's diagnosis that inside-view forecasts are structurally
-    optimistic, and adds the operating response for markets with no reference
-    class at all — invert the plan into assumptions and fund only the next test
-    of them.
+    Kahneman's remedy for planning-fallacy optimism is anchoring on a reference
+    class of comparable past cases; discovery-driven planning names the case
+    where that remedy is unavailable — a market with no precedent has no
+    reference class — and substitutes a different discipline: invert the plan
+    into its load-bearing assumptions and fund only the next cheap test of them.
 
 - from: discovery-driven-planning
   verb: parallels
@@ -148,15 +145,6 @@
     scaled, converting an unpredictable market into an asymmetric payoff without
     better forecasting.
 
-- from: gospel-of-10x
-  verb: instantiates
-  to: barbell-strategy
-  why: >-
-    Splitting goals into fully-committed and expected-to-fail aspirational
-    baskets is the barbell applied to goal-setting — a guaranteed safe floor
-    plus capped-downside moonshots, deliberately avoiding the uniform middle
-    of moderately stretched targets.
-
 - from: strategic-arenas
   verb: instantiates
   to: observer-relative-systems
@@ -174,15 +162,6 @@
     analyzing toward one — when design attributes interact, single-trajectory
     search converges on whichever local peak its starting point dictates, and
     only multiple starts sample multiple peaks.
-
-- from: jump-to-universality
-  verb: parallels
-  to: sustaining-vs-disruptive-innovation
-  why: >-
-    Both describe capability built for a narrow, dismissible niche crossing a
-    threshold and invading territory its builders never targeted — which is why
-    judging the entrant by its current local performance systematically misses
-    its reach.
 
 - from: open-business-models
   verb: instantiates
