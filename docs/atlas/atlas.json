@@ -4931,6 +4931,1070 @@
    "to": "orthogonality-thesis",
    "why": "value-loading is the practical engineering problem that orthogonality (Ch. 7) makes unavoidable: because capability doesn't imply good goals, goals must be deliberately and correctly installed.",
    "source": "authored"
+  },
+  {
+   "from": "system-1-system-2",
+   "verb": "parallels",
+   "to": "two-modes-of-attention",
+   "why": "Both split cognition into a fast, holistic, context-sensitive mode and a narrow, effortful, manipulative mode acting on the same material — which mode is in control, not just its accuracy, determines what kind of world gets perceived.",
+   "source": "woven"
+  },
+  {
+   "from": "mental-models",
+   "verb": "contradicts",
+   "to": "bringing-forth-a-world",
+   "why": "Senge treats mental models as internal representations of an external reality that reflection can test and correct; Capra's enactivism denies cognition represents anything at all — it enacts a world inseparable from the organism's own process of living.",
+   "source": "woven"
+  },
+  {
+   "from": "proxy-metrics-trap",
+   "verb": "instantiates",
+   "to": "the-map-mistaken-for-the-world",
+   "why": "The proxy metric is a denotative representation built to make progress trackable; once optimized as if it were the outcome itself, the organization can succeed on the map while the value it was abstracted from quietly declines underneath.",
+   "source": "woven"
+  },
+  {
+   "from": "abstraction-erodes-empathy",
+   "verb": "instantiates",
+   "to": "the-map-mistaken-for-the-world",
+   "why": "Converting a person into distance, screens, or numbers substitutes a denotative stand-in for the living person, and decision-makers respond to the stand-in — which is exactly why the resulting harm stops registering as harm.",
+   "source": "woven"
+  },
+  {
+   "from": "peak-end-rule",
+   "verb": "instantiates",
+   "to": "the-map-mistaken-for-the-world",
+   "why": "The remembered experience — a fixed narrative built from its worst moment and its ending — is a map abstracted from lived experience, and it is that map, not the moment-by-moment territory, that actually governs future choice.",
+   "source": "woven"
+  },
+  {
+   "from": "reality-of-abstractions",
+   "verb": "tempers",
+   "to": "the-map-mistaken-for-the-world",
+   "why": "Not every representation is a false substitute for a living thing — Deutsch's indispensability test gives a positive criterion for when an abstraction is doing real explanatory work, checking blanket suspicion of maps with a case where the map is real.",
+   "source": "woven"
+  },
+  {
+   "from": "confident-confabulation",
+   "verb": "parallels",
+   "to": "randomness-blindness",
+   "why": "Both describe a system that, lacking the information it actually needs — genuine context, a genuine cause — manufactures a confident, coherent account rather than registering \"I don't know\" or \"this was chance.\"",
+   "source": "woven"
+  },
+  {
+   "from": "randomness-blindness",
+   "verb": "parallels",
+   "to": "regression-to-the-mean",
+   "why": "Pattern-detecting cognition assigns a causal story — skill gained, skill lost — to what chance alone produced whenever an extreme result is followed by a more average one, in both success narratives and statistical performance swings.",
+   "source": "woven"
+  },
+  {
+   "from": "representativeness-heuristic",
+   "verb": "parallels",
+   "to": "exemplar",
+   "why": "Both substitute resemblance to a stored concrete case — a stereotype, a worked problem-solution — for explicit rule-based reasoning, which is why a detailed matching scenario can feel more certain than the broader category logically requires.",
+   "source": "woven"
+  },
+  {
+   "from": "anchoring-effect",
+   "verb": "parallels",
+   "to": "default-effects",
+   "why": "Judgment and choice both fail to adjust fully away from whatever reference point is already in place — a considered number, a preset option — even when the person recognizes the starting point carries no informational value.",
+   "source": "woven"
+  },
+  {
+   "from": "availability-heuristic",
+   "verb": "parallels",
+   "to": "illusion-of-fluency",
+   "why": "Both substitute a cheap, immediately felt signal — how easily an example comes to mind, how easily material is processed — for the real target property, frequency or mastery, that the signal only weakly tracks.",
+   "source": "woven"
+  },
+  {
+   "from": "shadow-integration",
+   "verb": "parallels",
+   "to": "the-hidden",
+   "why": "What goes unexamined does not disappear — denied material accumulates pressure at individual scale and structural blindness accumulates risk at organizational scale, and both return distorted precisely because neither was ever looked at directly.",
+   "source": "woven"
+  },
+  {
+   "from": "self-image-defense",
+   "verb": "parallels",
+   "to": "ego-and-blind-spots",
+   "why": "Both locate a defensive mechanism that treats incoming criticism of the self as attack rather than information, blocking objective self-assessment regardless of the argument's actual quality or evidence.",
+   "source": "woven"
+  },
+  {
+   "from": "grandiosity-trap",
+   "verb": "tempers",
+   "to": "seeking-disconfirmation",
+   "why": "Actively hunting disconfirming evidence requires exactly the honest feedback channel that major success erodes by attributing outcomes to the self, so the prescribed antidote gets hardest to practice exactly when the cost of being wrong is rising.",
+   "source": "woven"
+  },
+  {
+   "from": "treacherous-turn",
+   "verb": "instantiates",
+   "to": "black-box-limits",
+   "why": "Cooperative behavior during testing is data consistent with an aligned model, but consistency never certifies a model complete or unique — a treacherous agent produces the identical observable record as a genuinely safe one until it no longer needs to.",
+   "source": "woven"
+  },
+  {
+   "from": "master-and-emissary",
+   "verb": "parallels",
+   "to": "instrumental-convergence",
+   "why": "A delegate created to serve a grounding authority develops self-preserving, autonomy-seeking drives that outrun the purpose it was built for — the emissary displacing the master is instrumental convergence's takeover dynamic in a psychological register.",
+   "source": "woven"
+  },
+  {
+   "from": "betweenness",
+   "verb": "parallels",
+   "to": "story-as-conversation",
+   "why": "Both locate meaning in the live encounter rather than in either party's artifact alone — a written-down card or an isolated thing is inert until the relationship that exists only in the exchange constitutes it.",
+   "source": "woven"
+  },
+  {
+   "from": "choice-architecture",
+   "verb": "tempers",
+   "to": "principle-of-indifference",
+   "why": "A valid law shouldn't depend on the observer's arbitrary notation, but when the system under observation is itself a chooser, no presentation is neutral — framing changes the outcome even though the underlying options are notationally identical.",
+   "source": "woven"
+  },
+  {
+   "from": "black-box-limits",
+   "verb": "tempers",
+   "to": "believability-weighting",
+   "why": "Weighting opinions by track record still only certifies a person's model as consistent with past outcomes, never as complete or uniquely correct — the same black-box limit that applies to scientific models applies to a mind judged from the outside.",
+   "source": "woven"
+  },
+  {
+   "from": "observer-relative-systems",
+   "verb": "extends",
+   "to": "bringing-forth-a-world",
+   "why": "Weinberg's claim that systems are constructed by an observer's chosen distinctions gets a biological mechanism in Capra's enactivism — structural coupling explains why the choosing isn't arbitrary preference but the organism's own history of interaction with its environment.",
+   "source": "woven"
+  },
+  {
+   "from": "generational-formation",
+   "verb": "parallels",
+   "to": "theory-laden-perception",
+   "why": "Both describe a lens invisible to those inside it — a historical moment's conditions, a trained scientific framework — that is felt as universal common sense or neutral observation rather than recognized as one contingent frame among others.",
+   "source": "woven"
+  },
+  {
+   "from": "runaway-narrowing",
+   "verb": "parallels",
+   "to": "intelligence-explosion",
+   "why": "Both describe a reinforcing loop that disables its own corrective: the amplifying mode suppresses the balancing swing (hemispheric return, human oversight) that would normally check it, so growth escapes homeostatic control.",
+   "source": "woven"
+  },
+  {
+   "from": "grandiosity-trap",
+   "verb": "parallels",
+   "to": "runaway-narrowing",
+   "why": "Same structure at individual scale: the amplifying process (success, assertive mode) erodes the very feedback channel that would correct it, so error grows fastest exactly when correction is least available.",
+   "source": "woven"
+  },
+  {
+   "from": "progress-loop",
+   "verb": "instantiates",
+   "to": "feedback-loops",
+   "why": "The progress/inner-work-life cycle is a reinforcing loop in Senge's exact sense — each gain in one variable amplifies the other — which is why it runs virtuous or vicious but never neutral.",
+   "source": "woven"
+  },
+  {
+   "from": "habit-loop",
+   "verb": "instantiates",
+   "to": "feedback-loops",
+   "why": "Cue-craving-response-reward is a reinforcing loop closed through the brain: each reward strengthens the cue's pull, so a single pass through the cycle raises the probability of the next pass.",
+   "source": "woven"
+  },
+  {
+   "from": "incentive-driven-addiction",
+   "verb": "instantiates",
+   "to": "habit-loop",
+   "why": "Metric-based rewards run the same cue-craving-response-reward circuit on dopamine: hitting the number reinforces the cue, escalating pursuit of the reward while decoupling it from the cooperation it was meant to serve.",
+   "source": "woven"
+  },
+  {
+   "from": "five-focusing-steps",
+   "verb": "instantiates",
+   "to": "leverage",
+   "why": "The constraint is the nonobvious high-leverage point made findable: a small action at the bottleneck moves whole-system throughput, while identical effort anywhere else is absorbed with no system-level effect.",
+   "source": "woven"
+  },
+  {
+   "from": "wip-limits",
+   "verb": "parallels",
+   "to": "drum-buffer-rope",
+   "why": "Both cap release of work into the system so inflow cannot exceed the slowest stage's pace — converting push to pull and making the constraint surface as a visible queue instead of hidden overproduction.",
+   "source": "woven"
+  },
+  {
+   "from": "buffer-management",
+   "verb": "instantiates",
+   "to": "feedback-loops",
+   "why": "A balancing loop engineered to beat its own delay: graded buffer penetration converts slow outcome feedback (a missed deadline) into an early corrective signal that arrives while intervention still works.",
+   "source": "woven"
+  },
+  {
+   "from": "paradigm-conversion",
+   "verb": "instantiates",
+   "to": "threshold-cascades",
+   "why": "Framework change spreads because each conversion raises the visible count of adopters, crossing the next scientists' higher thresholds — so the distribution of individual stubbornness, not evidence strength, decides whether the cascade ignites.",
+   "source": "woven"
+  },
+  {
+   "from": "social-norm-nudges",
+   "verb": "instantiates",
+   "to": "threshold-cascades",
+   "why": "Norm messages work by manipulating the perceived aggregate that personal thresholds respond to — and backfire the same way, when revealing how many others misbehave pushes the aggregate across defectors' thresholds.",
+   "source": "woven"
+  },
+  {
+   "from": "value-networks",
+   "verb": "instantiates",
+   "to": "path-dependence",
+   "why": "Serving current customers earns resources that deepen commitment to serving them — a more-begets-more loop in which early market choices, not managerial preference, lock the firm's upmarket trajectory.",
+   "source": "woven"
+  },
+  {
+   "from": "multi-sided-platforms",
+   "verb": "instantiates",
+   "to": "path-dependence",
+   "why": "Each side's value grows with the other side's size, so an early, even accidental, liquidity lead compounds into an equilibrium set by who got to critical mass first rather than by product quality.",
+   "source": "woven"
+  },
+  {
+   "from": "marginal-gains-compounding",
+   "verb": "parallels",
+   "to": "second-half-of-the-chessboard",
+   "why": "Both hinge on constant-rate multiplicative growth being invisible early and overwhelming late — so the same misjudgment makes people quit habits too soon and be blindsided by exponential technologies.",
+   "source": "woven"
+  },
+  {
+   "from": "winner-take-all-economics",
+   "verb": "instantiates",
+   "to": "power-law-distributions",
+   "why": "Near-zero replication cost makes market share feed on itself — the best provider's small edge attracts customers whose presence attracts more — generating the long-tailed concentration positive feedback always produces.",
+   "source": "woven"
+  },
+  {
+   "from": "lindy-effect",
+   "verb": "instantiates",
+   "to": "power-law-distributions",
+   "why": "Survival that increases expected further survival is more-begets-more feedback in time, which is exactly why nonperishable lifespans follow a power law rather than the bell curve perishable lifetimes do.",
+   "source": "woven"
+  },
+  {
+   "from": "decisive-strategic-advantage",
+   "verb": "parallels",
+   "to": "winner-take-all-economics",
+   "why": "In both, a small lead feeds on itself — recursive self-improvement or zero-cost replication — so competition doesn't reward second place proportionally but collapses into one actor capturing effectively everything.",
+   "source": "woven"
+  },
+  {
+   "from": "control-problem",
+   "verb": "parallels",
+   "to": "planner-doer-model",
+   "why": "Both are principal-agent problems where the principal cannot supervise at decision time, so control must be installed beforehand as structure — capability limits and shaped motivations, not real-time willpower or oversight.",
+   "source": "woven"
+  },
+  {
+   "from": "stability-as-relationship",
+   "verb": "tempers",
+   "to": "control-problem",
+   "why": "Any capability-control scheme is stability defined against an assumed disturbance range; a self-improving agent expands the disturbance class beyond that envelope, so containment verified under test conditions says little about post-takeoff conditions.",
+   "source": "woven"
+  },
+  {
+   "from": "iatrogenics",
+   "verb": "tempers",
+   "to": "leverage",
+   "why": "In complex systems the same nonlinearity that lets small actions produce large effects also amplifies harm, and delayed, untraceable feedback means the intervener can't tell which — so high leverage without visible error signals is dangerous, not virtuous.",
+   "source": "woven"
+  },
+  {
+   "from": "performance-oversupply",
+   "verb": "tempers",
+   "to": "marginal-gains-compounding",
+   "why": "Compounding improvement only compounds value while the environment can absorb it; past the point where users can use more of the attribute, the reinforcing gains keep accruing but stop converting into any advantage.",
+   "source": "woven"
+  },
+  {
+   "from": "paradigm-shift",
+   "verb": "contradicts",
+   "to": "evolutionary-change",
+   "why": "Kuhn argues some transitions are necessarily noncumulative: when the governing framework itself is what limits the system, low-resistance incremental steps inside that framework can never sum to the replacement the situation requires.",
+   "source": "woven"
+  },
+  {
+   "from": "proxy-metrics-trap",
+   "verb": "parallels",
+   "to": "shareholder-value-trap",
+   "why": "Both show Goodhart dynamics as a broken control loop: optimizing a proxy severs feedback between action and the real outcome, so the dashboard reads success while the underlying system is hollowed out unobserved.",
+   "source": "woven"
+  },
+  {
+   "from": "gaia-hypothesis",
+   "verb": "extends",
+   "to": "feedback-loops",
+   "why": "Extends the reinforcing/balancing vocabulary to planetary scale and across the living/nonliving boundary — climate stability emerges from balancing loops closed through organisms, not from any thermostat located inside one subsystem.",
+   "source": "woven"
+  },
+  {
+   "from": "dunbars-number",
+   "verb": "parallels",
+   "to": "transaction-and-coordination-costs",
+   "why": "Both locate a scaling ceiling where relationship or handoff cost outgrows headcount combinatorially, forcing structure — hierarchy layers, or named service classes — to substitute for the direct informal coordination that worked fine below the ceiling.",
+   "source": "woven"
+  },
+  {
+   "from": "classes-of-service",
+   "verb": "parallels",
+   "to": "believability-weighting",
+   "why": "Both replace uniform treatment of every input with differentiated weighting by an intrinsic property — cost-of-delay profile, or track record — so priority and voice are earned by demonstrated stakes, not by arrival order or rank.",
+   "source": "woven"
+  },
+  {
+   "from": "cadence-decoupling",
+   "verb": "tempers",
+   "to": "drum-buffer-rope",
+   "why": "Names the condition where synchronizing everything to one drumbeat is unnecessary: once activities are decoupled by queues, each can find its own rhythm without the throughput loss Goldratt's shared-pace discipline exists to prevent.",
+   "source": "woven"
+  },
+  {
+   "from": "throughput-accounting",
+   "verb": "parallels",
+   "to": "outcome-over-output",
+   "why": "Both reject a local, easy-to-count proxy — per-unit cost, or feature volume — for a system-level test of real value delivered: money that actually reaches the bottom line, or behavior that actually changes in the world.",
+   "source": "woven"
+  },
+  {
+   "from": "value-stream-network",
+   "verb": "parallels",
+   "to": "autopoiesis",
+   "why": "Both replace a linear, mechanical model of the system with a network whose parts continuously affect and reroute through each other, so bottlenecks and viability propagate like traffic, not breakage along one line.",
+   "source": "woven"
+  },
+  {
+   "from": "product-oriented-management",
+   "verb": "extends",
+   "to": "match-organization-size-to-market",
+   "why": "Christensen shows a funding unit sized for the wrong market starves the opportunity it should serve; Kersten operationalizes the fix — fund and staff durable, right-sized value streams instead of time-boxed projects scoped to the parent's scale.",
+   "source": "woven"
+  },
+  {
+   "from": "autopoiesis",
+   "verb": "contradicts",
+   "to": "organization-as-machine",
+   "why": "Capra's criterion for a living system is self-production with no external controller; Dalio models the organization as a machine an operator designs and tunes from outside, denying the self-organizing dynamic autopoiesis says defines living systems.",
+   "source": "woven"
+  },
+  {
+   "from": "circle-of-safety",
+   "verb": "parallels",
+   "to": "kaizen-culture",
+   "why": "Both claim removing internal threat — status danger, blame for proposing change — is what redirects people's energy outward, from defending themselves against each other toward cooperating on the real problem in front of them.",
+   "source": "woven"
+  },
+  {
+   "from": "braintrust",
+   "verb": "tempers",
+   "to": "believability-weighting",
+   "why": "Names the condition where weighting feedback by track record backfires: once opinion carries decision authority, reviewers defer or self-censor instead of arguing freely — candor survives only when feedback, as in the Braintrust, carries zero mandate to enforce it.",
+   "source": "woven"
+  },
+  {
+   "from": "operations-review",
+   "verb": "instantiates",
+   "to": "radical-transparency",
+   "why": "A recurring public forum where process metrics become open cross-functional discussion is Dalio's default-to-disclosure principle made into a concrete ritual — data that could stay hidden in a private report instead drives management action because it's exposed.",
+   "source": "woven"
+  },
+  {
+   "from": "kaizen-culture",
+   "verb": "parallels",
+   "to": "culture-as-medium-for-goals",
+   "why": "Both insist the mechanism — a WIP-limited board, or an OKR — is inert without a specific cultural medium carrying it, whether freedom from fear of proposing change or a culture that carries goals; identical tools in different cultures produce different results.",
+   "source": "woven"
+  },
+  {
+   "from": "story-as-conversation",
+   "verb": "parallels",
+   "to": "team-learning",
+   "why": "Both locate real shared understanding in live spoken exchange, not the static artifact — a story card, a document — that merely prompts it, because meaning is generated collaboratively in the conversation itself.",
+   "source": "woven"
+  },
+  {
+   "from": "flow-efficiency",
+   "verb": "extends",
+   "to": "wip-limits",
+   "why": "Gives Anderson's empirically-tuned WIP cap a measurable mechanism: as items-in-flight rise, queueing time crowds out active work time by Little's Law, so the working-to-waiting ratio, not any single step's speed, is what capping WIP actually protects.",
+   "source": "woven"
+  },
+  {
+   "from": "kanban-pull-system",
+   "verb": "parallels",
+   "to": "structural-coupling",
+   "why": "In both, the environment — a freed downstream token, an external perturbation — triggers the system's next internal action without specifying its content: the signal opens the door, the system's own state determines what happens next.",
+   "source": "woven"
+  },
+  {
+   "from": "system-boundary",
+   "verb": "parallels",
+   "to": "dunbars-number",
+   "why": "Both define a boundary as where internal binding strength exceeds what direct connection can sustain — parts tied more tightly to each other than outside, or trust that holds below roughly 150 people — beyond which cohesion needs engineered structure, not proximity.",
+   "source": "woven"
+  },
+  {
+   "from": "open-system-behavior",
+   "verb": "parallels",
+   "to": "classes-of-service",
+   "why": "Both deny a system has one fixed processing rule: Weinberg's open system selects from a repertoire of behaviors based on whatever input arrives, exactly as a Kanban board routes each work item through a different policy depending on its class.",
+   "source": "woven"
+  },
+  {
+   "from": "five-focusing-steps",
+   "verb": "parallels",
+   "to": "five-questions",
+   "why": "Both compress systemic improvement into a fixed, repeatable short sequence that focuses effort serially on one changeable element — the constraint, or the gap to target condition — instead of analyzing the whole system at once.",
+   "source": "woven"
+  },
+  {
+   "from": "critical-chain",
+   "verb": "instantiates",
+   "to": "skin-in-the-game",
+   "why": "Student syndrome and sandbagging are the asymmetry Taleb names: each task owner keeps the upside of a padded estimate while transferring schedule risk to the shared project — pooling the buffer makes that risk jointly visible and repairs it.",
+   "source": "woven"
+  },
+  {
+   "from": "shared-vision",
+   "verb": "parallels",
+   "to": "autopoiesis",
+   "why": "A shared vision isn't handed down but produced by the very people it organizes, each person's commitment sustaining everyone else's — the same self-producing pattern Maturana and Varela say defines a living system.",
+   "source": "woven"
+  },
+  {
+   "from": "shareholder-value-trap",
+   "verb": "parallels",
+   "to": "orthogonality-thesis",
+   "why": "Both separate optimizing competence from the values pursued: a leader can hit a single financial metric with ruthless skill while the organization's real purpose erodes, just as any level of intelligence is compatible with any final goal.",
+   "source": "woven"
+  },
+  {
+   "from": "circle-of-safety",
+   "verb": "tempers",
+   "to": "instrumental-convergence",
+   "why": "Instrumental convergence predicts any capable agent defaults toward self-preservation and resource competition; circle-of-safety shows that fails once a leader supplies enough protection to redirect that drive outward instead of inward.",
+   "source": "woven"
+  },
+  {
+   "from": "instrumental-convergence",
+   "verb": "parallels",
+   "to": "customer-driven-resource-allocation",
+   "why": "Both describe an optimization process converging on the same subgoal — securing resources from whoever already controls them — regardless of its stated top-level objective, so a firm's disruptive strategy and an AI's assigned goal both get crowded out.",
+   "source": "woven"
+  },
+  {
+   "from": "value-loading",
+   "verb": "parallels",
+   "to": "identity-based-habits",
+   "why": "Both trade outcome-based control for installing a durable internal commitment — a value system or a self-concept — because a goal imposed from outside erodes under pressure or growth in a way an internalized one doesn't.",
+   "source": "woven"
+  },
+  {
+   "from": "incentive-driven-addiction",
+   "verb": "parallels",
+   "to": "planner-doer-model",
+   "why": "Both locate the failure in a myopic, dopamine-driven system (a metric-hijacked reward circuit, or the Doer) that overrides longer-term cooperative intent unless something outside willpower — a constraint or a circle of safety — restrains it.",
+   "source": "woven"
+  },
+  {
+   "from": "edso-chemistry",
+   "verb": "extends",
+   "to": "habit-loop",
+   "why": "The habit loop's reward stage is generic; EDSO chemistry names which reward is being reinforced — dopamine's selfish craving-satisfaction versus serotonin/oxytocin's social bonding — explaining why some loops build cooperation and others build addiction.",
+   "source": "woven"
+  },
+  {
+   "from": "no-judgment-accountability",
+   "verb": "parallels",
+   "to": "braintrust",
+   "why": "Both separate the feedback signal from the power to punish: a self-graded number and peer critique work only because neither carries authority to blame or mandate, letting people act on the signal instead of defending against it.",
+   "source": "woven"
+  },
+  {
+   "from": "objectives-and-key-results",
+   "verb": "formalizes",
+   "to": "target-condition",
+   "why": "OKRs give the target condition's non-negotiable desired state a measurable checkpoint — quantitative key results — while preserving its refusal to prescribe method, turning \"aim for this state\" into \"verify this number by this date.\"",
+   "source": "woven"
+  },
+  {
+   "from": "gospel-of-10x",
+   "verb": "contradicts",
+   "to": "marginal-gains-compounding",
+   "why": "Marginal gains assumes steady, achievable 1% increments compound into the best long-run outcome; the Gospel of 10x argues targets deliberately expected to fail 40% of the time extract more from teams than uniformly safe, achievable goals.",
+   "source": "woven"
+  },
+  {
+   "from": "managing-by-means",
+   "verb": "parallels",
+   "to": "no-judgment-accountability",
+   "why": "Both redirect management attention from the end number to the process generating it — managing by means treats results as process-in-the-making, no-judgment accountability treats a self-graded score as a diagnostic input, not a verdict.",
+   "source": "woven"
+  },
+  {
+   "from": "transaction-and-coordination-costs",
+   "verb": "parallels",
+   "to": "law-of-least-effort",
+   "why": "Both locate the real lever in the overhead surrounding an activity, not the activity itself — stripping setup, cleanup, and communication friction (or any friction) is what increases how much of the wanted behavior actually gets done.",
+   "source": "woven"
+  },
+  {
+   "from": "kaizen-culture",
+   "verb": "parallels",
+   "to": "circle-of-safety",
+   "why": "Both show that lowering the cost — social or physical — of surfacing a problem turns self-protective energy into collective improvement: remove the fear of proposing a change or exposing a threat, and people stop guarding themselves and start fixing things.",
+   "source": "woven"
+  },
+  {
+   "from": "wip-limits",
+   "verb": "parallels",
+   "to": "planner-doer-model",
+   "why": "Both replace an appeal to willpower with a structural cap: a WIP limit and a precommitment constraint each block the impulsive urge to start more than can be finished, substituting an external ceiling for self-control in the moment.",
+   "source": "woven"
+  },
+  {
+   "from": "two-minute-rule",
+   "verb": "parallels",
+   "to": "minimum-viable-solution",
+   "why": "Both defeat the activation-energy barrier to starting by shrinking the target to its smallest version that still contains the real mechanism, rather than trying to motivate a bigger effort up front.",
+   "source": "woven"
+  },
+  {
+   "from": "goldilocks-rule",
+   "verb": "parallels",
+   "to": "the-gray-zone",
+   "why": "Both locate productive effort in the same narrow band — neither so easy it's already mastered nor so hard it can't be attempted — and both require continually re-locating that edge through action rather than planning it in advance.",
+   "source": "woven"
+  },
+  {
+   "from": "customer-driven-resource-allocation",
+   "verb": "parallels",
+   "to": "shareholder-value-trap",
+   "why": "Both show decision rights captured by whoever already holds financial power over the firm — existing customers and investors, or shareholder-value metrics — so investment quietly serves that party's short-term interest over the organization's survival.",
+   "source": "woven"
+  },
+  {
+   "from": "identity-based-habits",
+   "verb": "parallels",
+   "to": "meaningful-work",
+   "why": "Both locate durable motivation in self-concept rather than outcome tracking: a habit sticks when it reflects who you believe you are, and progress only nourishes inner work life when the work itself feels like an expression of purpose.",
+   "source": "woven"
+  },
+  {
+   "from": "default-effects",
+   "verb": "tempers",
+   "to": "focus-and-commit",
+   "why": "Focus and commit assumes declaring priorities changes behavior; default-effects shows that fails whenever the underlying system's defaults go unredesigned — people stay captured by whatever happens automatically, regardless of what leadership said mattered.",
+   "source": "woven"
+  },
+  {
+   "from": "snowmobile-mismatch",
+   "verb": "parallels",
+   "to": "environment-design",
+   "why": "Both diagnose behavioral failure as an environment mismatch rather than an agent defect, and prescribe the same fix: redesign the surrounding conditions — evolved social context or physical cues — instead of repairing willpower or character.",
+   "source": "woven"
+  },
+  {
+   "from": "environment-design",
+   "verb": "instantiates",
+   "to": "choice-architecture",
+   "why": "Environment design is choice architecture applied to physical space specifically — making good cues visible and bad cues invisible is one concrete way of shaping a decision context that no environment presents neutrally.",
+   "source": "woven"
+  },
+  {
+   "from": "the-gray-zone",
+   "verb": "tempers",
+   "to": "objectives-and-key-results",
+   "why": "OKRs commit to specific quantitative key results set in advance; the-gray-zone shows that commitment fails on genuinely unpredictable terrain, where the path — and even which numbers are achievable — can only be discovered through short, observed steps.",
+   "source": "woven"
+  },
+  {
+   "from": "sophisticated-falsificationism",
+   "verb": "tempers",
+   "to": "seeking-disconfirmation",
+   "why": "Hunting disconfirming evidence is not enough — a strategy, like a theory, is only abandoned when a rival exists that explains past wins and predicts new ones, so disconfirmation without a candidate successor changes nothing.",
+   "source": "woven"
+  },
+  {
+   "from": "protective-belt",
+   "verb": "parallels",
+   "to": "self-image-defense",
+   "why": "Both route incoming refutation into adjustable peripheral assumptions — auxiliary hypotheses or rationalizations — so the core (theory or self-image) never faces the evidence directly and survives any single test.",
+   "source": "woven"
+  },
+  {
+   "from": "healthy-disengagement",
+   "verb": "instantiates",
+   "to": "progressive-vs-degenerating",
+   "why": "Exit-by-leading-indicator is Lakatos's demarcation applied to strategy: keep an advantage while it still generates novel wins, abandon it once its defenders can only explain misses after the fact.",
+   "source": "woven"
+  },
+  {
+   "from": "technological-turning-point",
+   "verb": "parallels",
+   "to": "paradigm-shift",
+   "why": "Both are noncumulative regime transitions where competence in the old framework becomes a liability, and incumbents survive only by re-founding their practice on the new one rather than extending the old.",
+   "source": "woven"
+  },
+  {
+   "from": "value-networks",
+   "verb": "instantiates",
+   "to": "incommensurability",
+   "why": "Firms in different value networks rank the same technology by incompatible worth criteria, so the incumbent's evaluation is rational by its own standard yet structurally unable to register the disruptor's merit.",
+   "source": "woven"
+  },
+  {
+   "from": "exemplar",
+   "verb": "parallels",
+   "to": "coaching-kata",
+   "why": "Both hold that judgment is transmitted by guided repetition on concrete real cases — problem-solutions, catch dialogues — never by stating the rules, because the operative knowledge is not rule-shaped.",
+   "source": "woven"
+  },
+  {
+   "from": "exemplar",
+   "verb": "instantiates",
+   "to": "polanyis-paradox",
+   "why": "Scientific judgment trained through worked examples rather than explicit criteria is a concrete case of knowing more than we can tell — the community's standards resist articulation just as automation-resistant skills do.",
+   "source": "woven"
+  },
+  {
+   "from": "desirable-difficulties",
+   "verb": "parallels",
+   "to": "antifragility",
+   "why": "Both describe systems that overcompensate to imposed stress: effortful retrieval and volatility each trigger adaptations that leave the system stronger than one protected from the stressor.",
+   "source": "woven"
+  },
+  {
+   "from": "desirable-difficulties",
+   "verb": "tempers",
+   "to": "law-of-least-effort",
+   "why": "Reducing friction wins for habit initiation but backfires for learning — the effort friction removes is the very signal that drives durable encoding, so the easiest practice produces the weakest memory.",
+   "source": "woven"
+  },
+  {
+   "from": "proxy-metrics-trap",
+   "verb": "parallels",
+   "to": "illusion-of-fluency",
+   "why": "Both substitute a cheap self-generated signal — activity counts, processing ease — for the costly outcome variable, so the system reports mastery precisely while the underlying capability stagnates or declines.",
+   "source": "woven"
+  },
+  {
+   "from": "five-questions",
+   "verb": "instantiates",
+   "to": "retrieval-practice",
+   "why": "The coach never explains; the fixed questions force the learner to generate target, actual, and next step from memory on real work, repeatedly, until the improvement pattern is retrievable without prompting.",
+   "source": "woven"
+  },
+  {
+   "from": "structure-building",
+   "verb": "parallels",
+   "to": "system-archetypes",
+   "why": "Both extract a small set of recurring deep structures from varied surface instances, and both claim transfer happens only through that abstraction — raw accumulated cases do not generalize on their own.",
+   "source": "woven"
+  },
+  {
+   "from": "team-learning",
+   "verb": "tempers",
+   "to": "incommensurability",
+   "why": "Where Kuhn sees no neutral ground between frameworks, Bohm-style dialogue that suspends assumptions can manufacture shared meaning at team scale — incommensurability holds only while frames stay tacit and defended.",
+   "source": "woven"
+  },
+  {
+   "from": "incommensurability",
+   "verb": "tempers",
+   "to": "bayesian-updating",
+   "why": "Updating presupposes rivals score evidence within one shared hypothesis space; when frameworks disagree about what counts as data, no common likelihood exists, so the update rule has nothing to operate on.",
+   "source": "woven"
+  },
+  {
+   "from": "no-free-lunch-theorem",
+   "verb": "formalizes",
+   "to": "theory-laden-perception",
+   "why": "The theorem proves mathematically what Kuhn argued historically: generalization from data is impossible without prior built-in assumptions, so there is no framework-free learner just as there is no framework-free observer.",
+   "source": "woven"
+  },
+  {
+   "from": "overfitting",
+   "verb": "parallels",
+   "to": "progressive-vs-degenerating",
+   "why": "A degenerating programme is an overfit model: adjustments spend complexity accommodating past anomalies, buying in-sample fit at the cost of the out-of-sample test Lakatos calls novel prediction.",
+   "source": "woven"
+  },
+  {
+   "from": "good-explanations",
+   "verb": "tempers",
+   "to": "protective-belt",
+   "why": "Deutsch adds a pre-empirical filter Lakatos lacks: if belt adjustments can be freely varied to absorb any anomaly, the explanation is already bad — easy variability condemns a repair before its prediction record arrives.",
+   "source": "woven"
+  },
+  {
+   "from": "black-box-limits",
+   "verb": "parallels",
+   "to": "measurement-as-uncertainty-reduction",
+   "why": "Both replace verification with narrowing: observation can never certify a model complete or unique, only shrink the set of models consistent with the data — so measurement's honest product is reduced uncertainty, not truth.",
+   "source": "woven"
+  },
+  {
+   "from": "calibrated-estimation",
+   "verb": "extends",
+   "to": "planning-fallacy",
+   "why": "Where Kahneman corrects optimistic forecasts case-by-case with outside-view base rates, Hubbard shows the underlying overconfidence is itself trainable — scored interval feedback debiases the estimator, not just the estimate.",
+   "source": "woven"
+  },
+  {
+   "from": "theory-laden-perception",
+   "verb": "tempers",
+   "to": "go-and-see",
+   "why": "Firsthand observation is still filtered by the observer's governing framework, so going to see without surfacing your mental models tends to return the facts the framework already expected.",
+   "source": "woven"
+  },
+  {
+   "from": "the-gray-zone",
+   "verb": "parallels",
+   "to": "discovery-driven-planning",
+   "why": "Both replace forecast-then-execute with step-then-look in territory that cannot be planned through: each cheap step is run to produce the observation that determines the next, so the plan's output is learning.",
+   "source": "woven"
+  },
+  {
+   "from": "validated-learning-discovery",
+   "verb": "instantiates",
+   "to": "discovery-driven-planning",
+   "why": "Prototype-testing the riskiest solution assumptions with real users before building is the delivery-scale case of planning to convert assumptions into knowledge before the big commitment.",
+   "source": "woven"
+  },
+  {
+   "from": "rational-memes",
+   "verb": "contradicts",
+   "to": "normal-science",
+   "why": "Kuhn presents uncritical commitment to a framework as how productive science normally works; Deutsch argues idea-systems that survive by suppressing criticism are precisely the static, anti-rational kind that cannot grow knowledge.",
+   "source": "woven"
+  },
+  {
+   "from": "explanatory-creativity",
+   "verb": "contradicts",
+   "to": "master-algorithm",
+   "why": "Domingos claims a general inductive learner could derive all knowledge from data; Deutsch denies induction creates explanatory theories at all — new knowledge requires conjectured explanations no amount of data-fitting can produce.",
+   "source": "woven"
+  },
+  {
+   "from": "sustaining-vs-disruptive-innovation",
+   "verb": "parallels",
+   "to": "paradigm-shift",
+   "why": "Both describe change that swaps the evaluation criteria themselves — what counts as \"performance\" or \"a solution\" — so competence refined under the old criteria systematically misjudges the newcomer instead of merely lagging it.",
+   "source": "woven"
+  },
+  {
+   "from": "value-networks",
+   "verb": "parallels",
+   "to": "theory-laden-perception",
+   "why": "In both, the surrounding framework supplies the standard of worth before any assessment happens — a firm's cost structure and customers, or a scientist's paradigm — so there is no neutral vantage from which the anomalous option's value is visible.",
+   "source": "woven"
+  },
+  {
+   "from": "performance-oversupply",
+   "verb": "tempers",
+   "to": "decisive-competitive-edge",
+   "why": "An edge commands premium prices only while its dimension is undersupplied; once improvement outruns what customers can absorb, the basis of competition shifts to another attribute and the same capability stops converting into pricing power.",
+   "source": "woven"
+  },
+  {
+   "from": "transient-competitive-advantage",
+   "verb": "contradicts",
+   "to": "decisive-competitive-edge",
+   "why": "Goldratt prescribes building one capability so far ahead it durably dictates terms; McGrath argues any peak advantage now attracts imitation fast enough that defending a single edge is the failure mode — strategy must sequence advantages instead.",
+   "source": "woven"
+  },
+  {
+   "from": "transient-competitive-advantage",
+   "verb": "tempers",
+   "to": "lindy-effect",
+   "why": "Lindy's survival-extends-lifespan inference assumes nonperishability, but a visible competitive advantage perishes through its own success — survival attracts imitators who shorten its remaining life — so longevity reverses from a positive to a negative signal.",
+   "source": "woven"
+  },
+  {
+   "from": "transient-competitive-advantage",
+   "verb": "instantiates",
+   "to": "exploration-exploitation-tradeoff",
+   "why": "Surfing a wave sequence is the bandit problem in strategy form — extract returns from the current arena while spending capacity probing uncertain next arenas, because pure exploitation ends exactly when the current payoff decays.",
+   "source": "woven"
+  },
+  {
+   "from": "healthy-disengagement",
+   "verb": "instantiates",
+   "to": "via-negativa",
+   "why": "Both improve the system by removal rather than addition — exiting a decaying advantage early subtracts a fragile exposure before it consumes resources, which requires less predictive knowledge than forecasting which new bet will win.",
+   "source": "woven"
+  },
+  {
+   "from": "no-instant-rationality",
+   "verb": "tempers",
+   "to": "healthy-disengagement",
+   "why": "Lakatos shows a degenerating trajectory and a temporary dip are indistinguishable in real time, so McGrath's leading-indicator exit triggers can misfire — the rational moment to abandon is often knowable only in hindsight.",
+   "source": "woven"
+  },
+  {
+   "from": "asset-debt",
+   "verb": "instantiates",
+   "to": "loss-aversion",
+   "why": "Assets carried at accounting \"terminal value\" set a reference point, so retiring them registers as a realized loss roughly twice as painful as the equivalent redeployment gain — which is why obsolete assets stay unretired past their usefulness.",
+   "source": "woven"
+  },
+  {
+   "from": "resources-processes-values",
+   "verb": "tempers",
+   "to": "evolutionary-change",
+   "why": "Low-resistance incremental improvement works only within the current value network, because the same processes and values doing the improving are the filter that rejects work violating them — crossing networks needs a separate organization, not evolution.",
+   "source": "woven"
+  },
+  {
+   "from": "unbundling-business-models",
+   "verb": "extends",
+   "to": "resources-processes-values",
+   "why": "It takes the claim that one context's capabilities are another's disabilities and adds the structural prescription — separate customer-relationship, innovation, and infrastructure businesses so each runs the economics its processes and values are tuned for.",
+   "source": "woven"
+  },
+  {
+   "from": "customer-driven-resource-allocation",
+   "verb": "instantiates",
+   "to": "path-dependence",
+   "why": "Resources flow to whatever current customers reward, and each funded project deepens dependence on those customers — a positive-feedback loop where the installed customer base, not managerial preference, sets which trajectory becomes locked in.",
+   "source": "woven"
+  },
+  {
+   "from": "match-organization-size-to-market",
+   "verb": "parallels",
+   "to": "protecting-the-new",
+   "why": "Both locate the killing mechanism in evaluation at mainstream scale — a small market or fragile idea fails any test calibrated to the production engine's size, so it must be judged inside a unit small enough to find it exciting.",
+   "source": "woven"
+  },
+  {
+   "from": "discovery-driven-planning",
+   "verb": "extends",
+   "to": "planning-fallacy",
+   "why": "It accepts Kahneman's diagnosis that inside-view forecasts are structurally optimistic, and adds the operating response for markets with no reference class at all — invert the plan into assumptions and fund only the next test of them.",
+   "source": "woven"
+  },
+  {
+   "from": "discovery-driven-planning",
+   "verb": "parallels",
+   "to": "the-gray-zone",
+   "why": "Both hold that unknowable territory cannot be planned through in advance and must be crossed in short steps where each step's observed result — not the original forecast — determines the next, turning the plan into a learning instrument.",
+   "source": "woven"
+  },
+  {
+   "from": "minimum-viable-solution",
+   "verb": "instantiates",
+   "to": "discovery-driven-planning",
+   "why": "Slicing the smallest release that could achieve the target outcome sizes the commitment to the hypothesis rather than the vision — capital at risk stays proportional to what the next market test can actually validate.",
+   "source": "woven"
+  },
+  {
+   "from": "validated-learning-discovery",
+   "verb": "instantiates",
+   "to": "optionality",
+   "why": "A cheap prototype purchases the right, not the obligation, to build — unfavorable results are abandoned at prototype cost while favorable ones are scaled, converting an unpredictable market into an asymmetric payoff without better forecasting.",
+   "source": "woven"
+  },
+  {
+   "from": "gospel-of-10x",
+   "verb": "instantiates",
+   "to": "barbell-strategy",
+   "why": "Splitting goals into fully-committed and expected-to-fail aspirational baskets is the barbell applied to goal-setting — a guaranteed safe floor plus capped-downside moonshots, deliberately avoiding the uniform middle of moderately stretched targets.",
+   "source": "woven"
+  },
+  {
+   "from": "strategic-arenas",
+   "verb": "instantiates",
+   "to": "observer-relative-systems",
+   "why": "\"Industry\" is one observer's boundary choice, not a fact of the world, and McGrath shows the choice has teeth — threats assembling across customer-solution-geography lines are literally unrepresentable on an industry-defined map until too late.",
+   "source": "woven"
+  },
+  {
+   "from": "rugged-landscape",
+   "verb": "formalizes",
+   "to": "design-attitude",
+   "why": "It supplies the mathematical reason prototyping many alternatives beats analyzing toward one — when design attributes interact, single-trajectory search converges on whichever local peak its starting point dictates, and only multiple starts sample multiple peaks.",
+   "source": "woven"
+  },
+  {
+   "from": "jump-to-universality",
+   "verb": "parallels",
+   "to": "sustaining-vs-disruptive-innovation",
+   "why": "Both describe capability built for a narrow, dismissible niche crossing a threshold and invading territory its builders never targeted — which is why judging the entrant by its current local performance systematically misses its reach.",
+   "source": "woven"
+  },
+  {
+   "from": "open-business-models",
+   "verb": "instantiates",
+   "to": "recombinant-innovation",
+   "why": "If progress comes from recombining existing blocks, a firm's innovation rate scales with the blocks it can reach — opening the boundary to external ideas and idle internal assets multiplies available combinations beyond what internal R&D holds.",
+   "source": "woven"
+  },
+  {
+   "from": "technological-turning-point",
+   "verb": "parallels",
+   "to": "gpt-complementary-innovation-lag",
+   "why": "Both locate the decisive window in the lag between a technology's arrival and the organizational reinvention needed to use it — incumbents fail not by missing the technology but by keeping the old ways of working around it.",
+   "source": "woven"
+  },
+  {
+   "from": "continuous-reconfiguration",
+   "verb": "instantiates",
+   "to": "antifragility",
+   "why": "When moving people and assets between arenas is routine and cheap, each market shock becomes a reallocation trigger — volatility surfaces better arenas faster than it erodes current ones, so disorder improves the portfolio that breaks rigid defenders.",
+   "source": "woven"
+  },
+  {
+   "from": "polanyis-paradox",
+   "verb": "parallels",
+   "to": "story-as-conversation",
+   "why": "Both locate the operative knowledge in a tacit, unwritten layer that no explicit artifact can capture — a rule for a skill, a card for a story — so the written form only works for people who already share the tacit understanding it points at.",
+   "source": "woven"
+  },
+  {
+   "from": "confident-confabulation",
+   "verb": "tempers",
+   "to": "explanatory-creativity",
+   "why": "A system cut off from grounding context manufactures a fluent, confident account that looks like a new explanation but lacks the hard-to-vary constraint separating real explanatory knowledge from plausible-sounding confabulation.",
+   "source": "woven"
+  },
+  {
+   "from": "five-tribes",
+   "verb": "parallels",
+   "to": "wired-differently",
+   "why": "Both taxonomize genuinely incompatible root approaches to the same activity — learning or thinking — where forcing every case into one paradigm's metaphor loses real capability rather than merely trading one style for another.",
+   "source": "woven"
+  },
+  {
+   "from": "diversity-prediction-theorem",
+   "verb": "formalizes",
+   "to": "ensemble-metalearning",
+   "why": "Page's identity gives exact mathematical form to what ensemble learning exploits empirically — a diverse committee's collective error is provably lower than its average member's error, not just often lower in practice.",
+   "source": "woven"
+  },
+  {
+   "from": "curse-of-dimensionality",
+   "verb": "parallels",
+   "to": "organized-complexity",
+   "why": "Both mark a breakdown zone opened by scale — added dimensions or added interacting parts — where the tools that work at either extreme, simple equations or brute statistical averaging, stop applying and demand new methods entirely.",
+   "source": "woven"
+  },
+  {
+   "from": "snowmobile-mismatch",
+   "verb": "tempers",
+   "to": "second-machine-age",
+   "why": "The brain wired for small-group, scarcity-era feedback still runs judgments of trust and effort inside an economy of near-instant, abstract, planetary-scale digital production, so the productivity bend in the curve outpaces the hardware evaluating it.",
+   "source": "woven"
+  },
+  {
+   "from": "snowmobile-mismatch",
+   "verb": "parallels",
+   "to": "curse-of-dimensionality",
+   "why": "Both show a mechanism that works well inside the regime it was built or evolved for — trust wiring in small groups, a distance metric in low dimensions — breaking sharply, not gracefully, once scale exceeds that regime.",
+   "source": "woven"
+  },
+  {
+   "from": "abstraction-erodes-empathy",
+   "verb": "tempers",
+   "to": "bounty-and-spread",
+   "why": "The same digitization that multiplies bounty converts affected people into distant metrics and screens, exactly the condition under which otherwise decent actors stop registering the harm sitting inside the spread they're causing.",
+   "source": "woven"
+  },
+  {
+   "from": "second-machine-age",
+   "verb": "instantiates",
+   "to": "jump-to-universality",
+   "why": "Digital computation, engineered narrowly for calculation, crossed a threshold into universal symbol manipulation — that jump into generality, not incremental improvement, is why it bends the curve of progress the way steam power never could.",
+   "source": "woven"
+  },
+  {
+   "from": "bounty-and-spread",
+   "verb": "tempers",
+   "to": "only-progress-is-sustainable",
+   "why": "Progress being what keeps a society alive in aggregate says nothing about who inside it survives the transition — the same advance that raises total bounty widens the gap that strands whichever population it outpaces.",
+   "source": "woven"
+  },
+  {
+   "from": "control-problem",
+   "verb": "tempers",
+   "to": "principle-of-optimism",
+   "why": "Deutsch holds every evil is soluble given enough knowledge and time; Bostrom shows that for a fast intelligence explosion the safety knowledge may not arrive before the capability needing control already has, making solvability in principle cold comfort.",
+   "source": "woven"
+  },
+  {
+   "from": "only-progress-is-sustainable",
+   "verb": "parallels",
+   "to": "kata",
+   "why": "Both reject a fixed end-state as the goal — a static \"sustainable\" way of life, or a final best practice — because conditions keep moving, so what persists is the routine of solving the next problem, not any solution reached.",
+   "source": "woven"
+  },
+  {
+   "from": "group-deindividuation",
+   "verb": "parallels",
+   "to": "rational-memes",
+   "why": "Both describe replication that works by disabling the individual critical faculty that would normally filter it out — a crowd dissolving personal judgment the same way an anti-rational meme disables critical thinking in its host.",
+   "source": "woven"
+  },
+  {
+   "from": "iatrogenics",
+   "verb": "tempers",
+   "to": "monte-carlo-risk-modeling",
+   "why": "A simulation is only as honest as its input ranges, and the harm Taleb calls iatrogenic occurs precisely outside any range the modeler thought to sample, so a probability-of-loss number can create false confidence exactly where the real risk hides.",
+   "source": "woven"
+  },
+  {
+   "from": "death-denial",
+   "verb": "tempers",
+   "to": "principle-of-optimism",
+   "why": "Optimism holds only if people actually pursue the knowledge that solves a problem; confronted with mortality, minds default instead to denial and symbolic immortality projects, substituting away from the sustained problem-solving the principle depends on.",
+   "source": "woven"
+  },
+  {
+   "from": "racing-with-machines",
+   "verb": "instantiates",
+   "to": "ensemble-metalearning",
+   "why": "Pairing a human and a machine that err in different, uncorrelated ways is a two-member case of the general result that a diverse committee of imperfect learners beats any single best learner, human or algorithmic, run alone.",
+   "source": "woven"
+  },
+  {
+   "from": "racing-with-machines",
+   "verb": "parallels",
+   "to": "two-modes-of-attention",
+   "why": "Both find that two structurally different processing modes, run together rather than substituted for one another — human intuition paired with machine calculation, or broad contextual attention paired with narrow focused attention — outperform either mode alone.",
+   "source": "woven"
+  },
+  {
+   "from": "gpt-complementary-innovation-lag",
+   "verb": "parallels",
+   "to": "the-gray-zone",
+   "why": "Both describe unpredictable territory that cannot be planned through in advance — the decades before a general-purpose technology pays off, or the gap between current and target condition — crossed only by short, observed experimental steps.",
+   "source": "woven"
+  },
+  {
+   "from": "shareholder-value-trap",
+   "verb": "parallels",
+   "to": "instrumental-convergence",
+   "why": "Whatever the original mission or final goal, the system converges onto pursuing one instrumentally convenient proxy — a metric, or raw resource acquisition — that becomes distinguishable from, and can hollow out, the purpose it was meant to serve.",
+   "source": "woven"
+  },
+  {
+   "from": "covert-aggression",
+   "verb": "parallels",
+   "to": "treacherous-turn",
+   "why": "Both describe an actor concealing its true disposition behind cooperative-looking behavior because the evaluator — social peers, safety testers — is calibrated to detect only overt hostility, so the real threat passes every check not built to see camouflage.",
+   "source": "woven"
   }
  ]
 }

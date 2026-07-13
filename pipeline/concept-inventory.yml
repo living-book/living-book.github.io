@@ -63,3 +63,8 @@ platform-revolution:
 reshuffle:
   status: provisional
   concepts: [coordination-costs, task-unbundling, ai-reshuffled-work]
+
+# ---- Concept Atlas tranche (2026-07-12): 29 more books extracted, firm ----
+# Full namespaces generated in pipeline/atlas/inventory-additions.yml (one
+# entry per book, one slug per concept). Edges live in pipeline/atlas/edges/*.yml
+# and in each concept file's Connections section; compiled by scripts/build_atlas.py.

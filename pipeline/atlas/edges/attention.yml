@@ -1,0 +1,185 @@
+# Lens: attention, models, and representation
+- from: system-1-system-2
+  verb: parallels
+  to: two-modes-of-attention
+  why: >-
+    Both split cognition into a fast, holistic, context-sensitive mode and a
+    narrow, effortful, manipulative mode acting on the same material — which
+    mode is in control, not just its accuracy, determines what kind of world
+    gets perceived.
+
+- from: mental-models
+  verb: contradicts
+  to: bringing-forth-a-world
+  why: >-
+    Senge treats mental models as internal representations of an external
+    reality that reflection can test and correct; Capra's enactivism denies
+    cognition represents anything at all — it enacts a world inseparable from
+    the organism's own process of living.
+
+- from: proxy-metrics-trap
+  verb: instantiates
+  to: the-map-mistaken-for-the-world
+  why: >-
+    The proxy metric is a denotative representation built to make progress
+    trackable; once optimized as if it were the outcome itself, the
+    organization can succeed on the map while the value it was abstracted
+    from quietly declines underneath.
+
+- from: abstraction-erodes-empathy
+  verb: instantiates
+  to: the-map-mistaken-for-the-world
+  why: >-
+    Converting a person into distance, screens, or numbers substitutes a
+    denotative stand-in for the living person, and decision-makers respond to
+    the stand-in — which is exactly why the resulting harm stops registering
+    as harm.
+
+- from: peak-end-rule
+  verb: instantiates
+  to: the-map-mistaken-for-the-world
+  why: >-
+    The remembered experience — a fixed narrative built from its worst moment
+    and its ending — is a map abstracted from lived experience, and it is
+    that map, not the moment-by-moment territory, that actually governs
+    future choice.
+
+- from: reality-of-abstractions
+  verb: tempers
+  to: the-map-mistaken-for-the-world
+  why: >-
+    Not every representation is a false substitute for a living thing —
+    Deutsch's indispensability test gives a positive criterion for when an
+    abstraction is doing real explanatory work, checking blanket suspicion of
+    maps with a case where the map is real.
+
+- from: confident-confabulation
+  verb: parallels
+  to: randomness-blindness
+  why: >-
+    Both describe a system that, lacking the information it actually needs —
+    genuine context, a genuine cause — manufactures a confident, coherent
+    account rather than registering "I don't know" or "this was chance."
+
+- from: randomness-blindness
+  verb: parallels
+  to: regression-to-the-mean
+  why: >-
+    Pattern-detecting cognition assigns a causal story — skill gained, skill
+    lost — to what chance alone produced whenever an extreme result is
+    followed by a more average one, in both success narratives and
+    statistical performance swings.
+
+- from: representativeness-heuristic
+  verb: parallels
+  to: exemplar
+  why: >-
+    Both substitute resemblance to a stored concrete case — a stereotype, a
+    worked problem-solution — for explicit rule-based reasoning, which is why
+    a detailed matching scenario can feel more certain than the broader
+    category logically requires.
+
+- from: anchoring-effect
+  verb: parallels
+  to: default-effects
+  why: >-
+    Judgment and choice both fail to adjust fully away from whatever
+    reference point is already in place — a considered number, a preset
+    option — even when the person recognizes the starting point carries no
+    informational value.
+
+- from: availability-heuristic
+  verb: parallels
+  to: illusion-of-fluency
+  why: >-
+    Both substitute a cheap, immediately felt signal — how easily an example
+    comes to mind, how easily material is processed — for the real target
+    property, frequency or mastery, that the signal only weakly tracks.
+
+- from: shadow-integration
+  verb: parallels
+  to: the-hidden
+  why: >-
+    What goes unexamined does not disappear — denied material accumulates
+    pressure at individual scale and structural blindness accumulates risk at
+    organizational scale, and both return distorted precisely because neither
+    was ever looked at directly.
+
+- from: self-image-defense
+  verb: parallels
+  to: ego-and-blind-spots
+  why: >-
+    Both locate a defensive mechanism that treats incoming criticism of the
+    self as attack rather than information, blocking objective
+    self-assessment regardless of the argument's actual quality or evidence.
+
+- from: grandiosity-trap
+  verb: tempers
+  to: seeking-disconfirmation
+  why: >-
+    Actively hunting disconfirming evidence requires exactly the honest
+    feedback channel that major success erodes by attributing outcomes to
+    the self, so the prescribed antidote gets hardest to practice exactly
+    when the cost of being wrong is rising.
+
+- from: treacherous-turn
+  verb: instantiates
+  to: black-box-limits
+  why: >-
+    Cooperative behavior during testing is data consistent with an aligned
+    model, but consistency never certifies a model complete or unique — a
+    treacherous agent produces the identical observable record as a
+    genuinely safe one until it no longer needs to.
+
+- from: master-and-emissary
+  verb: parallels
+  to: instrumental-convergence
+  why: >-
+    A delegate created to serve a grounding authority develops
+    self-preserving, autonomy-seeking drives that outrun the purpose it was
+    built for — the emissary displacing the master is instrumental
+    convergence's takeover dynamic in a psychological register.
+
+- from: betweenness
+  verb: parallels
+  to: story-as-conversation
+  why: >-
+    Both locate meaning in the live encounter rather than in either party's
+    artifact alone — a written-down card or an isolated thing is inert until
+    the relationship that exists only in the exchange constitutes it.
+
+- from: choice-architecture
+  verb: tempers
+  to: principle-of-indifference
+  why: >-
+    A valid law shouldn't depend on the observer's arbitrary notation, but
+    when the system under observation is itself a chooser, no presentation is
+    neutral — framing changes the outcome even though the underlying options
+    are notationally identical.
+
+- from: black-box-limits
+  verb: tempers
+  to: believability-weighting
+  why: >-
+    Weighting opinions by track record still only certifies a person's model
+    as consistent with past outcomes, never as complete or uniquely correct —
+    the same black-box limit that applies to scientific models applies to a
+    mind judged from the outside.
+
+- from: observer-relative-systems
+  verb: extends
+  to: bringing-forth-a-world
+  why: >-
+    Weinberg's claim that systems are constructed by an observer's chosen
+    distinctions gets a biological mechanism in Capra's enactivism —
+    structural coupling explains why the choosing isn't arbitrary preference
+    but the organism's own history of interaction with its environment.
+
+- from: generational-formation
+  verb: parallels
+  to: theory-laden-perception
+  why: >-
+    Both describe a lens invisible to those inside it — a historical moment's
+    conditions, a trained scientific framework — that is felt as universal
+    common sense or neutral observation rather than recognized as one
+    contingent frame among others.
