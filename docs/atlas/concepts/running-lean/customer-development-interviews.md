@@ -1,6 +1,6 @@
 ---
 type: Concept
-title: Get Out of the Building: Structured Customer Interviews
+title: 'Get Out of the Building: Structured Customer Interviews'
 description: Face-to-face Problem and Solution interviews with real prospects, not surveys or intuition, are how you learn whether a problem is real before writing any code.
 book: running-lean
 chapters: [5, 6, 7, 8]

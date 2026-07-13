@@ -52,7 +52,7 @@ weave (4 Sonnet agents, new-books × full catalog), verify (2 Sonnet agents), re
 - [ ] B fabric-of-reality (Deutsch, Tech: "The fabric of reality...WeLib.org .md" in Tech/AI), field-guide-to-lies ✓7, design-of-everyday-things ✓8, inspired ✓7, running-lean ✓7, four-steps-to-the-epiphany ✓8
 - [ ] C zone-to-win ✓6, jobs-to-be-done (Business/BMI), intelligent-investor ✓7, the-advantage (Lencioni, Business/OrgDesign "The advantage _ why..."), product-development-flow ✓7, toyota-production-system ✓7
 - [ ] D lean-software-development ✓7, making-work-visible ✓7, essential-drucker ✓8, five-dysfunctions-of-a-team ✓6, act-like-a-leader ✓7, why-great-leaders-dont-take-yes (Roberto, Leadership/LeadDev "Why Great Leaders Don't Take Yes for an Answer Managing for  ( PDFDrive.com ).md")
-- [ ] E power-of-habit (Duhigg, Psych/Habits), mastery (Greene, Psych/Habits), checklist-manifesto (Gawande, Psych/Habits), six-thinking-hats (De Bono, Psych/CogSci), art-of-learning (Waitzkin, Psych/Habits), digital-minimalism (Newport, Psych/Mindfulness)
+- [ ] E power-of-habit ✓7, mastery ✓7, checklist-manifesto ✓6, six-thinking-hats ✓6, art-of-learning ✓7, digital-minimalism (Newport, Psych/Mindfulness)
 
 ## Key paths
 - Worktree: /home/sanjayg4/living-books/.claude/worktrees/concept-atlas

@@ -12,6 +12,36 @@
 - `transaction-and-coordination-costs` — **Transaction and Coordination Costs** — Reframing Lean "waste" as setup/cleanup costs and communication costs surrounding value-adding work, tested by asking "would we do more of this if it were valuable?" [tags: economics, waste, meetings, measurement]
 - `wip-limits` — **Work-in-Progress Limits** — Capping how many items each stage of a workflow can hold at once, tuned empirically rather than calculated, to expose problems and stabilize flow. [tags: constraints, flow, empiricism, capacity]
 
+## Lean Software Development (Mary & Tom Poppendieck) — Agile & Software Delivery — book: lean-software-development
+
+- `last-responsible-moment` — **The Last Responsible Moment** — Delay a commitment until the point where failing to decide would eliminate an important alternative — any later is procrastination, any earlier is a guess. [tags: decision-making, timing, commitment, concurrent-development, uncertainty]
+- `options-thinking` — **Options Thinking** — Treat the right (not obligation) to act later as something worth paying for, because it limits downside while preserving upside when the future is uncertain. [tags: uncertainty, decision-making, risk, optionality, delayed-commitment]
+- `seeing-waste-in-software` — **Seeing Waste in Software** — Translating Toyota's seven manufacturing wastes into seven wastes of software development, so anything not analysis or coding becomes a candidate for elimination. [tags: waste, translation, analysis, software-development, lean]
+- `self-determination` — **Self-Determination** — Workers who design and continually redesign their own procedures outperform workers executing procedures designed for them — and the improvement doesn't transfer when only the documented practice, not the principle, is copied. [tags: autonomy, empowerment, organizational-design, tacit-knowledge, culture]
+- `set-based-development` — **Set-Based Development** — Communicate constraints instead of proposed choices, and carry multiple design options forward in parallel until the best one becomes evident from real feedback. [tags: design, constraints, parallelism, uncertainty, communication]
+- `trust-based-contracts` — **Trust-Based Contracts** — A contract engineered to prevent either party from exploiting the other produces worse outcomes than a relationship built on earned trust, backed by a target-cost rather than fixed-price structure. [tags: contracts, trust, incentives, supplier-relationships, incompleteness]
+- `two-kinds-of-integrity` — **Perceived Integrity and Conceptual Integrity** — A system needs two distinct kinds of coherence — matching what the customer actually values, and holding together internally as an architecture — and each fails differently. [tags: architecture, coherence, customer-value, communication, design]
+
+## Making Work Visible (Dominica DeGrandis) — Agile & Software Delivery — book: making-work-visible
+
+- `context-switching-tax` — **The Context-Switching Tax** — Juggling multiple tasks at once imposes a hidden cognitive overhead cost on humans far higher than the CPU-scheduling metaphor suggests. [tags: context-switching, cognitive-load, flow, multitasking, focus]
+- `dependency-combinatorics` — **Dependency Combinatorics** — Each additional hard dependency a delivery requires doesn't add risk linearly — it halves the probability of on-time delivery. [tags: dependencies, probability, risk, coordination, systems-thinking]
+- `failure-demand` — **Failure Demand** — Unplanned work arriving as fires and rework consumes capacity in a way that is fundamentally different from — and more corrosive than — a spike in ordinary demand. [tags: interruptions, predictability, incident-response, quality, uncertainty]
+- `priority-dilution` — **Priority Dilution** — Labeling more than one thing "priority one" doesn't spread urgency around — it destroys the meaning of priority entirely and stalls everything equally. [tags: prioritization, decision-making, organizational-behavior, transparency, focus]
+- `time-thief-o-gram` — **The Time Thief O'Gram** — Measure the named causes of delay directly (WIP, dependencies, unplanned work, conflicting priorities, neglect) instead of lagging output metrics that don't explain why work is slow. [tags: metrics, root-cause, measurement, transparency, risk]
+- `work-visibility` — **Work Visibility** — Most knowledge work and its costs are invisible by default, and making it visually explicit — not just tracked in a system — is the precondition for fixing any of it. [tags: visualization, transparency, kanban, cognition, shared-understanding]
+- `zombie-projects` — **Zombie Projects** — Low-value, barely-alive initiatives that never get killed keep silently siphoning time and attention away from higher-value work, protected by sunk-cost thinking. [tags: technical-debt, sunk-cost-fallacy, prioritization, resource-allocation, maintenance]
+
+## The Principles of Product Development Flow (Donald G. Reinertsen) — Agile & Software Delivery — book: product-development-flow
+
+- `asymmetric-feedback` — **Feedback for Asymmetry, Not Just Stability** — Fast feedback in product development should widen a payoff function's asymmetry — truncating losses and extending gains — not merely dampen variation toward a fixed target. [tags: feedback, control-systems, asymmetry, economics]
+- `batch-size-economics` — **Batch Size Economics** — Batch size is a controllable economic variable, traded off against transaction cost, whose reduction cuts cycle time, variability, risk, and overhead together. [tags: batch-size, economics, transaction-costs, variability]
+- `cost-of-delay` — **Cost of Delay** — Quantifying the profit lost per unit time a project or task is delayed, converting every trade-off into one comparable currency. [tags: economics, measurement, prioritization, decision-making]
+- `decentralized-control` — **Decentralized Control** — Push decision authority to the front line for problems that age poorly, keep it centralized for rare, large-scale, economy-of-scale problems — never all-or-nothing. [tags: decentralization, decision-making, organizational-design, military-doctrine]
+- `queues-as-root-cause` — **Queues as the Root Cause** — Product development's waste, risk, and quality problems trace back to invisible queues of waiting work, not to slow activities. [tags: queueing-theory, waste, invisibility, systems-thinking]
+- `variability-as-asset` — **Variability as an Asset** — In product development, unlike manufacturing, variability isn't inherently waste — its economic value depends entirely on the shape of the payoff function it feeds. [tags: variability, risk, economics, asymmetry]
+- `wsjf-sequencing` — **Weighted Shortest Job First** — Sequence work by dividing each job's cost of delay by its duration, not by FIFO, ROI, or the longest/shortest job alone — the mathematically optimal rule when both vary. [tags: scheduling, prioritization, cost-of-delay, queueing]
+
 ## Project to Product (Mik Kersten) — Agile & Software Delivery — book: project-to-product
 
 - `flow-distribution` — **Flow Distribution** — The deliberately tuned ratio of work-item types a value stream commits to, set by business need rather than left as an unconscious byproduct of daily prioritization. [tags: prioritization, resource-allocation, tradeoffs, strategy, metrics]
@@ -32,6 +62,16 @@
 - `target-condition` — **Target Condition** — A specific, near-term, non-negotiable desired state — sharper than a vision, more binding than a goal — that channels effort without prescribing the method. [tags: goals, direction, constraints, planning, lean]
 - `the-gray-zone` — **The Gray Zone** — The unpredictable territory between current and target condition, which cannot be planned through in advance and must be crossed in short, observed experimental steps. [tags: uncertainty, experimentation, pdca, planning, learning]
 
+## Toyota Production System (Taiichi Ohno) — Agile & Software Delivery — book: toyota-production-system
+
+- `andon` — **Andon (Visual Control)** — A line-stop indicator board with green/yellow/red lights that makes the state of every work station visible at a glance, so trouble is surfaced and stopped instantly instead of hidden. [tags: visual-control, transparency, abnormality, signaling, quality]
+- `autonomation` — **Autonomation (Jidoka)** — Automation with a human touch — a machine or line that judges its own abnormal state and stops itself, so defects and overproduction are caught at the source rather than mass-produced. [tags: quality, automation, defects, judgment, self-correction]
+- `five-whys` — **The Five Whys** — Repeatedly asking "why" about a problem, five times or more, to move past the first plausible cause and reach the actual root cause before acting. [tags: root-cause, diagnosis, problem-solving, causality, method]
+- `just-in-time` — **Just-in-Time** — Each process receives the exact part, in the exact quantity, at the exact time needed, by having later processes pull from earlier ones instead of being pushed to. [tags: pull-systems, flow, inventory, waste, synchronization]
+- `multi-process-handling` — **Multi-Process Handling** — One worker running several different machines across different processes (lathe, mill, drill), not several identical machines — a distinct skill that requires becoming multi-skilled, not just fast. [tags: skill, flexibility, job-design, labor, flow]
+- `production-leveling` — **Production Leveling** — Smoothing output at the final process so upstream demand arrives evenly rather than in spikes — because a pull system transmits every downstream fluctuation straight upstream, amplified. [tags: variability, flow, scheduling, synchronization, capacity]
+- `waste-taxonomy` — **The Complete Analysis of Waste** — Present capacity equals work plus waste — a seven-category taxonomy (overproduction, waiting, transport, processing, inventory, motion, defects) for finding hidden capacity without adding effort. [tags: waste, efficiency, capacity, measurement, muda]
+
 ## User Story Mapping (Jeff Patton) — Agile & Software Delivery — book: user-story-mapping
 
 - `minimum-viable-solution` — **Minimum Viable Solution** — The minimum viable release is not the crappiest thing you can ship — it's the smallest release that actually achieves its target outcome, sliced out of a full story map. [tags: scoping, product-strategy, hypothesis, prioritization, risk]
@@ -51,6 +91,17 @@
 - `open-business-models` — **Open Business Models** — Systematically collaborating with outside partners to create and capture value — importing external ideas in, or monetizing internal idle ideas and assets out. [tags: open-innovation, collaboration, ip, external-partners, patterns]
 - `unbundling-business-models` — **Unbundling Business Models** — Customer-relationship, product-innovation, and infrastructure businesses run on incompatible economics and cultures, so combining them inside one organization forces bad trade-offs. [tags: organizational-design, incentives, trade-offs, specialization, patterns]
 
+## The Design of Everyday Things (Don Norman) — Business & Management — book: design-of-everyday-things
+
+- `affordances-and-signifiers` — **Affordances and Signifiers** — Affordances are the possible actions an object permits; signifiers are the perceivable signals that tell you where and how to act. [tags: affordances, signifiers, perception, usability, communication]
+- `conceptual-models` — **Conceptual Models and the System Image** — Users build a simplified mental picture of how a device works from its visible "system image," and a wrong picture makes correct behavior impossible even with correct knowledge. [tags: mental-models, communication, feedback, understanding, design]
+- `forcing-functions` — **Forcing Functions** — A physical or procedural constraint that makes an error impossible by preventing the next step until a required condition is met, trading convenience for safety. [tags: constraints, safety, error-prevention, mechanism-design, poka-yoke]
+- `gulfs-of-execution-and-evaluation` — **The Gulfs of Execution and Evaluation** — Every interaction with a device requires crossing two gaps — figuring out how to act, and figuring out whether the action worked — each demanding different design fixes. [tags: feedback, interaction-design, usability, cognition, mental-models]
+- `human-centered-design-process` — **The Human-Centered Design Process** — A double diverge-converge cycle — first finding the right problem, then finding the right solution — repeated through observation, ideation, prototyping, and testing. [tags: design-process, iteration, prototyping, problem-framing, design-thinking]
+- `human-error-is-bad-design` — **Human Error Is a Symptom of Bad Design** — When a system reliably induces the same "human error" across different people, the fault is in the design or procedure, not in the individuals who err. [tags: root-cause, systems-thinking, error, accountability, safety]
+- `knowledge-in-the-world` — **Knowledge in the World vs. Knowledge in the Head** — Precise behavior doesn't require precise memory — designs can put the needed information in the environment instead of demanding people learn and recall it. [tags: memory, knowledge, cognition, tradeoffs, design]
+- `natural-mapping` — **Natural Mapping** — When the spatial or perceptual layout of controls matches the layout of the things they control, the relationship needs no label or memorization. [tags: mapping, spatial-correspondence, usability, knowledge-in-the-world, ergonomics]
+
 ## The End of Competitive Advantage (Rita Gunther McGrath) — Business & Management — book: end-of-competitive-advantage
 
 - `asset-debt` — **Asset Debt** — In a transient-advantage world, unretired obsolete assets are a liability like debt, not a store of value, so ownership and accounting "terminal value" become traps. [tags: resource-allocation, organizational-design, capital-allocation, flexibility]
@@ -60,6 +111,17 @@
 - `seeking-disconfirmation` — **Seeking Disconfirmation** — Leaders in fast-moving markets must actively hunt for evidence that their current strategy is wrong, because the default corporate instinct is to seek confirmation instead. [tags: leadership, decision-making, bias, candor, mindset]
 - `strategic-arenas` — **Arenas, Not Industries** — Competition should be mapped as fine-grained arenas of customer-solution-geography, not industries, because the sharpest threats arrive from outside the industry map. [tags: strategy, competitive-analysis, market-definition, disruption]
 - `transient-competitive-advantage` — **The Wave of Transient Advantage** — Competitive advantages now arise, peak, and decay in phases, so strategy must be built to surf a sequence of advantages rather than defend one forever. [tags: strategy, competitive-advantage, cycles, uncertainty, disequilibrium]
+
+## The Four Steps to the Epiphany (Steve Blank) — Business & Management — book: four-steps-to-the-epiphany
+
+- `build-for-the-few` — **Build for the Few, Not the Many** — A startup's first release should satisfy only its small circle of visionary customers, not the aggregated feature wish-list of a mainstream market that doesn't exist yet. [tags: scoping, product-strategy, minimum-viable, requirements, focus]
+- `customer-development-model` — **The Customer Development Model** — A parallel, iterative process to Product Development that tests customer and market hypotheses outside the building before scaling sales and marketing. [tags: validated-learning, hypothesis-testing, product-market-fit, startups, process]
+- `earlyvangelists` — **Earlyvangelists** — A five-point pain scale — has a problem, knows it, is searching, built a stopgap, has budget — that identifies the only customers worth building a first product for. [tags: customer-discovery, early-adopters, validation, pain-points]
+- `iterate-or-exit` — **Iterate or Exit** — Each Customer Development step ends with a formal, written checkpoint that forces an honest verdict — recycle to an earlier phase, or advance — rather than letting momentum decide. [tags: decision-gates, learning, feedback-loops, iteration, discipline]
+- `market-type` — **Market Type** — Whether a startup is entering an existing, new, or resegmented market determines its sales cycle, cash needs, launch strategy, and timeline — not the product itself. [tags: market-definition, strategy, resource-allocation, timing]
+- `mission-centric-organization` — **The Mission-Centric Organization** — Between an informal, learning-oriented startup team and a rigid, process-driven large company sits a third stage — departments organized around a shared written mission, not headcount or job titles. [tags: organizational-design, culture, scaling, leadership, transitions]
+- `premature-scaling` — **Premature Scaling** — Hiring and spending against a business plan's execution documents, rather than against verified customer facts, front-loads a burn rate that guarantees a death spiral if any assumption is wrong. [tags: scaling, risk, cash-management, organizational-design, failure-modes]
+- `repeatable-sales-roadmap` — **The Repeatable Sales Roadmap** — Before scaling marketing or sales headcount, a startup must field-test a sales process to the point that a second and third customer buy the same way the first one did. [tags: validation, sales-process, scaling, repeatability, evidence]
 
 ## The Innovator's Dilemma (Clayton Christensen) — Business & Management — book: innovators-dilemma
 
@@ -71,6 +133,36 @@
 - `sustaining-vs-disruptive-innovation` — **Sustaining vs. Disruptive Innovation** — Two distinct kinds of technological change — one improves what mainstream customers already value, the other underperforms on those terms but wins on price, size, or simplicity. [tags: innovation, technology, market-segmentation, competition, strategy]
 - `value-networks` — **Value Networks** — The context of customers, cost structure, and competitors within which a firm judges what a technology is worth — which differs by market and pulls firms upmarket, never down. [tags: market-structure, cost-structure, competition, incentives, strategy]
 
+## INSPIRED (Marty Cagan) — Business & Management — book: inspired
+
+- `discovery-delivery-split` — **Discovery and Delivery as Two Tracks** — Fast, cheap, disposable experiments to learn whether an idea is worth building run continuously alongside — not before — the slow, careful work of building it right. [tags: experimentation, learning, workflow, risk-reduction, feedback]
+- `disposable-prototypes` — **Disposable Prototypes** — Fake, throwaway simulations built at the lowest fidelity that will still answer the question, used to learn before committing to real engineering. [tags: prototyping, experimentation, feedback, risk-reduction, iteration]
+- `empowered-product-teams` — **Empowered Product Teams** — Cross-functional teams given problems and objectives to solve, not features to build, so they act as missionaries rather than order-takers. [tags: empowerment, ownership, organizational-design, autonomy, teams]
+- `four-big-risks` — **The Four Big Risks** — Every product idea carries value, usability, feasibility, and business-viability risk, and all four must be tackled with evidence before anything is built. [tags: risk, validation, evidence, product-strategy, discovery]
+- `opportunity-assessment` — **Opportunity Assessment** — A four-question, few-minutes-long technique that forces a team to state the business objective, success measure, customer problem, and target market before starting discovery. [tags: scoping, alignment, prioritization, shared-understanding, lightweight-technique]
+- `product-vision-and-strategy` — **Product Vision and Product Strategy** — A multi-year vision inspires and gives teams shared context, while a strategy narrows that vision into one target market at a time so effort never fragments. [tags: strategy, vision, focus, alignment, product-strategy]
+- `roadmap-commitment-trap` — **The Roadmap Commitment Trap** — Any list of ideas placed on a document called a roadmap gets read by the organization as a commitment, locking teams into building things before anyone knows they'll work. [tags: commitment, planning, incentives, risk, organizational-behavior]
+
+## The Intelligent Investor (Benjamin Graham) — Business & Management — book: intelligent-investor
+
+- `businesslike-investing` — **Businesslike Investing** — Treat every security purchase as if you were buying into an actual business you must understand, supervise, and justify by arithmetic — not by optimism. [tags: ownership-mentality, due-diligence, discipline, principal-agent, finance]
+- `defensive-vs-enterprising-investor` — **Defensive versus Enterprising Investor** — Two legitimate, equally respectable investing paths distinguished by how much time and effort you're honestly willing to give it — not by how smart or wealthy you are. [tags: self-assessment, effort-allocation, strategy, temperament, finance]
+- `dollar-cost-averaging` — **Dollar-Cost Averaging** — Invest a fixed sum on a fixed schedule regardless of price, so you automatically buy more shares when they're cheap and fewer when they're dear, without having to decide. [tags: formula-investing, automation, discipline, timing, finance]
+- `investment-vs-speculation` — **Investment versus Speculation** — An operation is an investment only if thorough analysis promises safety of principal and an adequate return; everything else is speculation, however dressed up. [tags: decision-criteria, risk, definitions, discipline, finance]
+- `margin-of-safety` — **Margin of Safety** — Build in enough gap between what you pay and what the asset is conservatively worth that being wrong about the future still doesn't cost you the principal. [tags: risk-management, valuation, uncertainty, diversification, finance]
+- `mr-market` — **Mr. Market** — Picture the market as a manic-depressive business partner who shows up daily with a price — you're free to trade with him or ignore him, never obliged to agree. [tags: psychology, volatility, decision-making, valuation, behavioral-discipline]
+- `superinvestors-of-graham-and-doddsville` — **The Superinvestors of Graham-and-Doddsville** — A cluster of independent winners tracing to one shared method, rather than to one shared lucky call, is statistical evidence of real skill, not chance. [tags: statistics, skill-vs-luck, epistemology, evidence, finance]
+
+## Jobs to Be Done (Wunker, Wattman & Farber) — Business & Management — book: jobs-to-be-done
+
+- `customer-success-criteria` — **Success Criteria: The Customer's Win Condition** — The specific, customer-defined metrics for what counts as successfully completing a job — distinct from the job itself — that must be uncovered before a product can be designed to hit them. [tags: measurement, customer-insight, product-design, kpis]
+- `fighting-inertia` — **Fighting Inertia: Obstacles to Adoption and Use** — A superior solution still loses to the status quo unless it overcomes specific, nameable barriers — lack of knowledge, behavior-change cost, risk, multiple decision-makers — at both purchase and ongoing use. [tags: behavior-change, adoption, innovation, market-diffusion]
+- `job-drivers` — **Job Drivers** — The underlying attitudes, background, and circumstances that make certain jobs more or less important to a given customer, distinct from the jobs themselves. [tags: segmentation, context, customer-insight, personalization]
+- `jobs-based-competition` — **Competing Through the Jobs Lens** — A product's true competitors are whatever alternatives satisfy the same customer job, not just same-category rivals — a lens that also exposes false claims of "nonconsumption." [tags: competitive-strategy, market-definition, nonconsumption, customer-insight]
+- `jobs-to-be-done` — **The Job to Be Done** — Customers "hire" products to accomplish an underlying functional and emotional job, so the job — not purchase history — is the real unit of market analysis. [tags: customer-insight, needs, segmentation, product-design, innovation]
+- `pain-point-process-mapping` — **Pain-Point Process Mapping** — Chart a customer's step-by-step path toward one specific job, occasion by occasion, to surface every stakeholder involved and the exact point where friction occurs. [tags: stakeholder-analysis, pain-points, customer-journey, research-methods]
+- `value-based-pricing` — **Value-Based Pricing** — Price a solution by how much of the customer's job it satisfies, not by production cost or competitors' prices — letting price itself signal and reinforce the job being done. [tags: pricing, monetization, business-model, value-creation]
+
 ## Measure What Matters (John Doerr) — Business & Management — book: measure-what-matters
 
 - `continuous-performance-management` — **Continuous Performance Management (CFRs)** — Replacing the annual performance review with ongoing Conversations, Feedback, and Recognition gives quantitative goals like OKRs the human context numbers alone can't carry. [tags: feedback, management, culture, communication]
@@ -80,6 +172,27 @@
 - `gospel-of-10x` — **The Gospel of 10x** — Deliberately splitting goals into "committed" (achieved in full) and "aspirational" (expected to fail ~40% of the time) baskets extracts more from teams than uniformly safe targets. [tags: goal-setting, risk, innovation, motivation]
 - `no-judgment-accountability` — **No-Judgment Accountability** — Tracking progress numerically and self-grading against a goal works only when the score triggers course-correction and learning, not blame. [tags: accountability, feedback-loops, measurement, learning]
 - `objectives-and-key-results` — **Objectives and Key Results (OKRs)** — A goal-setting mechanism pairing a qualitative, inspirational objective with a small set of quantitative, verifiable key results that measure it. [tags: goal-setting, measurement, execution, management]
+
+## Running Lean (Ash Maurya) — Business & Management — book: running-lean
+
+- `actionable-vs-vanity-metrics` — **Actionable Metrics vs. Vanity Metrics** — A metric only earns its keep if it ties a specific, repeatable action to an observed result — numbers that merely document current state, like total web hits, mislead more than they inform. [tags: metrics, measurement, decision-making, dashboards, pirate-metrics]
+- `customer-development-interviews` — **Get Out of the Building: Structured Customer Interviews** — Face-to-face Problem and Solution interviews with real prospects, not surveys or intuition, are how you learn whether a problem is real before writing any code. [tags: customer-development, qualitative-research, validated-learning, early-adopters, interviewing]
+- `de-risking-in-priority-order` — **Tackle the Riskiest Parts First** — Startups are risk-mitigation exercises — rank each business-model assumption by customer pain, reach, price, market size, and feasibility, then test them in that order. [tags: risk-management, prioritization, hypothesis-testing, resource-allocation, entrepreneurship]
+- `lean-canvas` — **The Lean Canvas** — A one-page, nine-block business model diagram that puts Problem before Solution, letting founders document and revise assumptions in an afternoon instead of a business plan. [tags: business-model, prototyping, visualization, hypothesis-testing, entrepreneurship]
+- `problem-solution-fit` — **The Three Stages of a Startup** — A startup moves through three qualitatively different stages — Problem/Solution Fit, then Product/Market Fit, then Scale — each with its own question, tactics, and definition of success. [tags: staged-validation, product-market-fit, pivoting, risk-management, entrepreneurship]
+- `unfair-advantage` — **Real Unfair Advantage** — A genuine competitive moat is something that cannot be easily copied or bought — insider information, a dream team, network effects, community, or an existing customer base. [tags: competitive-advantage, moats, strategy, differentiation, entrepreneurship]
+- `unique-value-proposition` — **The Unique Value Proposition** — A single honed statement of why you are different and worth paying attention to, aimed at early adopters and built from the finished-story benefit, not the feature list. [tags: positioning, messaging, differentiation, early-adopters, marketing]
+
+## The Advantage (Patrick Lencioni) — Business & Management — book: the-advantage
+
+- `cascading-communication` — **Cascading Communication** — Clarity spreads through an organization most reliably as informal, consistent word-of-mouth from leaders down through direct reports, not through polished broadcast messaging. [tags: communication, feedback-loops, coordination, trust, repetition]
+- `first-team` — **First Team (Team Number One)** — An executive's primary loyalty must be to the peer leadership team, not to the department they run, or cross-functional decisions default to turf protection. [tags: organizational-design, incentives, coordination, loyalty, silos]
+- `four-disciplines-of-health` — **The Four Disciplines Model** — Organizational health is built by four sequential, ongoing disciplines — cohesive leadership, clarity, overcommunication of that clarity, and systems that reinforce it. [tags: organizational-design, coordination, sequencing, systems-thinking, management]
+- `four-meetings-rhythm` — **The Four Meetings Rhythm** — Different kinds of organizational decisions need structurally different meetings — daily, weekly, monthly, and quarterly — rather than fewer, longer, all-purpose ones. [tags: coordination, cadence, meetings, decision-making, focus]
+- `human-systems-reinforcement` — **Human Systems as Reinforcement** — Hiring, performance management, rewards, and every other people-facing process should exist to remind employees what the organization has decided matters, not to be sophisticated in their own right. [tags: organizational-design, incentives, process-management, culture, simplicity]
+- `six-critical-questions` — **The Six Critical Questions** — A leadership team achieves organizational clarity by rallying around directionally-correct, jointly-owned answers to six fixed questions, not by writing polished mission statements. [tags: alignment, decision-making, communication, ambiguity, strategy]
+- `smart-vs-healthy` — **Smart Versus Healthy** — Organizations need both smart decisions (strategy, finance, marketing) and health (minimal politics, high morale); most invest in smart alone. [tags: organizational-design, culture, strategy, measurement, incentives]
+- `thematic-goal` — **The Thematic Goal (Rallying Cry)** — An organization needs exactly one top priority for a given period, modeled on how emergency responders spontaneously drop silos under a single crisis-driven focus. [tags: prioritization, focus, constraints, coordination, goal-setting]
 
 ## Theory of Constraints (Eliyahu Goldratt) — Business & Management — book: theory-of-constraints
 
@@ -91,6 +204,25 @@
 - `five-focusing-steps` — **Five Focusing Steps** — A five-step cycle — identify, exploit, subordinate, elevate, repeat — for finding the one element that limits a system and improving it without local optimization. [tags: constraints, focus, systems-thinking, optimization, process-improvement]
 - `throughput-accounting` — **Throughput Accounting** — A measurement system using three global metrics — Throughput, Inventory, and Operating Expense — that replaces per-unit cost allocation with decisions anchored to the system constraint. [tags: measurement, accounting, incentives, decision-making, constraints]
 
+## Zone to Win (Geoffrey Moore) — Business & Management — book: zone-to-win
+
+- `four-zones-model` — **The Four Zones Model** — Splitting an enterprise into performance, productivity, incubation, and transformation zones, each with its own playbook and investment horizon, so disruption doesn't cross-contaminate execution. [tags: organizational-design, disruption, resource-allocation, governance, innovation]
+- `performance-matrix-governance` — **Performance Matrix Governance** — Cross-functional resource commitments become real only when jointly owned in a row-by-column grid where every cell is co-signed by both a product owner and a channel owner. [tags: governance, resource-allocation, accountability, planning, organizational-design]
+- `single-threaded-big-bet` — **The Single-Threaded Big Bet** — Spreading resources evenly across several disruptive bets to avoid "putting all your eggs in one basket" guarantees none of them reach the scale needed to matter. [tags: resource-allocation, strategy, prioritization, decision-making, innovation]
+- `transformation-j-curve` — **The Transformation J-Curve** — Scaling a disruptive bet or reengineering a legacy operating model necessarily makes performance metrics worse before they improve, which conventional management wisdom reads as failure and kills prematurely. [tags: change-management, disruption, metrics, leadership, uncertainty]
+- `v2mom-cascading-commitment` — **V2MOM Cascading Commitment** — A company-wide alignment system where every leader's prioritized commitments explicitly chain off their boss's, all the way up to the CEO, so priority isn't just declared but structurally inherited. [tags: organizational-alignment, governance, execution, prioritization, culture]
+- `zone-offense-defense` — **Zone Offense vs. Zone Defense** — An enterprise must declare exactly one stance each year — proactively catching a new wave (offense) or reactively fending one off (defense) — never both, since each demands opposite resource moves. [tags: strategy, disruption, resource-allocation, decision-making, governance]
+
+## Act Like a Leader, Think Like a Leader (Herminia Ibarra) — Leadership & Coaching — book: act-like-a-leader
+
+- `authenticity-trap` — **The Authenticity Trap** — Insisting on staying "true to yourself" during a role transition anchors you to the old self you're supposed to be outgrowing. [tags: identity, authenticity, behavior-change, self-image]
+- `competency-trap` — **The Competency Trap** — Overinvesting in the skills that made you successful narrows your job just as the role's real demands are expanding past it. [tags: expertise, organizational-change, strategy, path-dependence]
+- `connective-advantage` — **Connective Advantage** — Leadership requires deliberately built operational, personal, and strategic networks, not the narrow, self-selected ties that accumulate by default. [tags: networks, coordination, strategy, relationships]
+- `do-it-yourself-transition` — **The Do-It-Yourself Transition** — Today's leadership transitions rarely arrive with a new title — the job's expectations shift underneath you while you sit in the same role. [tags: career-transitions, ambiguity, organizational-change, self-direction]
+- `outsight-principle` — **The Outsight Principle** — You think your way into a new identity by acting first — new roles, people, and experiences change your mind-set, not the reverse. [tags: identity, action, learning, leadership-development, change]
+- `possible-selves` — **Possible Selves** — Identity is built as much from the future self you're experimenting toward as from your formative past — so trying on unfamiliar roles is itself identity work. [tags: identity, motivation, experimentation, future-self]
+- `stepping-up-process` — **The Stepping-Up Process** — Leadership transitions unfold as five predictable stages — disconfirmation, addition, complication, course correction, internalization — not a straight line or a single conversion moment. [tags: transitions, change-management, nonlinearity, identity]
+
 ## Creativity, Inc. (Ed Catmull) — Leadership & Coaching — book: creativity-inc
 
 - `braintrust` — **The Braintrust** — A peer group of experienced practitioners that gives candid feedback on work-in-progress but has no authority to mandate fixes. [tags: feedback, candor, peer-review, trust, group-decision-making]
@@ -99,6 +231,26 @@
 - `protecting-the-new` — **Protecting the New** — New ideas start out fragile and unimpressive and must be shielded from premature judgment and the organizational pressure to produce at scale. [tags: innovation, organizational-growth, incentives, fragility, creativity]
 - `randomness-blindness` — **Randomness Blindness** — The mind is built to detect patterns, not to register chance, so people habitually mistake luck for skill in both their successes and failures. [tags: cognitive-bias, uncertainty, success, attribution, decision-making]
 - `the-hidden` — **The Hidden** — Every organization has problems it structurally cannot see, and believing you have no blind spots is itself the most dangerous blind spot. [tags: blind-spots, perception, self-assessment, organizational-failure, leadership]
+
+## The Essential Drucker (Peter Drucker) — Leadership & Coaching — book: essential-drucker
+
+- `create-a-customer` — **Create a Customer** — A business's purpose lies outside itself, in society — to create a customer — so its only two functions are marketing and innovation, not profit-making. [tags: purpose, marketing, innovation, mission, measurement]
+- `feedback-analysis` — **Feedback Analysis** — Writing down what you expect to happen before a key decision or action, then comparing it to the actual outcome months later, is the only reliable way to discover your real strengths. [tags: self-knowledge, feedback, measurement, learning, self-management]
+- `focus-on-contribution` — **Focus on Contribution** — Effective people ask "what can I contribute to the results of the whole?" instead of focusing on effort, authority, or what the organization owes them. [tags: effectiveness, accountability, organizational-design, contribution, knowledge-work]
+- `knowledge-worker-as-volunteer` — **The Knowledge Worker as Volunteer** — Knowledge workers own their means of production — their knowledge — and can leave, so they must be managed like volunteers who need mission and challenge, not like subordinate wage labor. [tags: motivation, organizational-design, knowledge-work, incentives, management]
+- `leadership-as-work` — **Leadership as Work, Not Charisma** — Effective leadership is mundane, learnable work — defining and holding to a mission — with no correlation to charisma or a fixed set of personality traits. [tags: leadership, effectiveness, organizational-design, mission, decision-making]
+- `management-by-objectives` — **Management by Objectives and Self-Control** — Managers derive their own objectives from the whole enterprise's goals and measure themselves against them, replacing control from above with self-control. [tags: goal-setting, self-control, measurement, coordination, delegation]
+- `picking-people` — **Picking People Is a Discipline, Not a Gift** — Staffing decisions can approach reliability if treated as a rigorous process with fixed steps, not left to an executive's intuitive "judgment of people." [tags: decision-making, organizational-design, accountability, process, management]
+- `systematic-abandonment` — **Systematic Abandonment** — Deciding what to stop doing is as important and as disciplined a decision as deciding what new thing to pursue — old products, policies, and habits must be actively abandoned, not merely outlived. [tags: strategy, decision-making, innovation, organizational-design, prioritization]
+
+## The Five Dysfunctions of a Team (Patrick Lencioni) — Leadership & Coaching — book: five-dysfunctions-of-a-team
+
+- `clarity-over-consensus` — **Clarity Over Consensus** — Teams commit to decisions not by reaching agreement but by ensuring everyone's view was genuinely heard, then aligning behind one clear call even under uncertainty. [tags: decision-making, commitment, buy-in, consensus, ambiguity]
+- `dysfunction-cascade` — **The Dysfunction Cascade** — Five team failures form one causal chain, not five independent problems — each dysfunction directly enables the next, so any single unaddressed link corrupts the whole. [tags: systems-thinking, teams, causality, diagnosis, organizational-design]
+- `mining-for-conflict` — **Mining for Conflict** — Teams that fear conflict must deliberately extract buried disagreements into the open, because avoided conflict resurfaces as slower, nastier back-channel politics. [tags: conflict, decision-making, teams, meetings, candor]
+- `peer-based-accountability` — **Peer-Based Accountability** — The most effective enforcement of standards is teammates calling out teammates directly, not a leader policing performance from above. [tags: accountability, peer-pressure, standards, leadership, teams]
+- `status-vs-results` — **Status vs. Results** — Teams drift from collective outcomes toward two substitute rewards — team status (prestige of belonging) and individual status (personal career advancement) — that feel like success but aren't. [tags: results, incentives, status, motivation, organizational-behavior]
+- `vulnerability-based-trust` — **Vulnerability-Based Trust** — Trust built not on predicting a peer's competence but on the confidence that admitting weaknesses, mistakes, and needs for help will not be used against you. [tags: trust, teams, vulnerability, psychological-safety, leadership]
 
 ## Leaders Eat Last (Simon Sinek) — Leadership & Coaching — book: leaders-eat-last
 
@@ -130,6 +282,27 @@
 - `progress-loop` — **The Progress Loop** — Progress and inner work life reinforce each other in a self-sustaining feedback cycle that runs virtuous when nurtured and vicious when neglected. [tags: feedback-loops, motivation, self-reinforcement, momentum, management]
 - `progress-principle` — **The Progress Principle** — Of all events that boost inner work life, small daily progress in meaningful work is the single most powerful and frequent — and setbacks hurt disproportionately more. [tags: motivation, small-wins, feedback, asymmetry, meaning]
 
+## Why Great Leaders Don't Take Yes for an Answer (Michael Roberto) — Leadership & Coaching — book: why-great-leaders-dont-take-yes
+
+- `cognitive-vs-affective-conflict` — **Cognitive Versus Affective Conflict** — Task-focused disagreement over ideas (cognitive conflict) and personal, emotional friction (affective conflict) are separate dimensions a leader must diagnose and manage independently. [tags: conflict-management, group-decision-making, diagnosis, teams, feedback]
+- `culture-of-no-yes-maybe` — **The Culture of No, Yes, and Maybe** — Three distinct dysfunctional decision-making cultures — where lone dissenters can veto, where everyone superficially agrees, and where nothing is ever quite decided — each producing chronic organizational indecision. [tags: organizational-culture, decision-making, dissent, dysfunction, veto-power]
+- `deciding-how-to-decide` — **Deciding How to Decide** — Before tackling a decision's content, leaders should deliberately design its process across four levers — composition, context, communication, control. [tags: decision-making, process-design, leadership, meta-decisions]
+- `divergent-thinking-toolkit` — **The Divergent-Thinking Toolkit** — Four deliberate techniques — role-play, mental simulation, conceptual models, and point-counterpoint — that leaders use to manufacture dissent a group wouldn't generate on its own. [tags: devils-advocacy, dialectical-inquiry, group-decision-making, divergent-thinking, facilitation]
+- `fair-process` — **Fair Process** — People judge a decision by the fairness of the process that produced it, not only by the outcome — and a genuinely fair process buys commitment even from those who lose the argument. [tags: procedural-justice, legitimacy, commitment, implementation, trust]
+- `incremental-closure` — **Incremental Closure** — Break a large, contentious decision into a sequence of smaller sub-decisions, closing each one on common ground before moving to the next, rather than seeking one comprehensive agreement. [tags: decision-making, sequencing, convergence, negotiation, closure]
+- `leading-with-restraint` — **Leading with Restraint** — A leader can take charge of how a decision gets made — process-oriented leadership — without immediately taking charge of what the answer should be, and this is not weakness or indecision. [tags: leadership, restraint, decision-making, authority, humility]
+- `systemic-silence` — **Systemic Silence** — When people fail to speak up, the cause is usually structural — hierarchy, protocol, incentives — not a personal deficit of courage or skill. [tags: candor, organizational-culture, communication, hierarchy, blind-spots]
+
+## The Art of Learning (Josh Waitzkin) — Psychology & Self-Development — book: art-of-learning
+
+- `downward-spiral` — **The Downward Spiral** — The first mistake rarely causes disaster; the compounding chain of a second, third, and fourth error triggered by refusing to accept the first one does. [tags: error-recovery, resilience, decision-making, performance, mistakes]
+- `entity-vs-incremental-theory` — **Entity vs. Incremental Theory of Intelligence** — Whether you treat ability as a fixed trait or as something built through effort determines whether a hard challenge triggers growth or helplessness. [tags: mindset, learning, resilience, psychology, motivation]
+- `expert-chunking` — **Chunking and Carved Neural Pathways** — Experts don't hold more raw detail in mind than novices — they compress recurring patterns into single retrievable "chunks," freeing attention for intuition. [tags: expertise, intuition, cognition, pattern-recognition, mastery]
+- `investment-in-loss` — **Investment in Loss** — Deliberately accepting short-term defeat and bruised ego as the necessary price of releasing old habits and internalizing a skill you cannot yet perform. [tags: growth, ego, humility, deliberate-practice, resilience]
+- `making-smaller-circles` — **Making Smaller Circles** — Master a technique in its large, slow, exaggerated form until its essence is felt, then progressively condense the outward motion while keeping that essence intact. [tags: mastery, refinement, deliberate-practice, depth-over-breadth, skill-acquisition]
+- `performance-trigger` — **Building Your Trigger** — A short, personally meaningful pre-performance routine, rehearsed daily in a low-stakes setting, becomes physiologically linked to peak focus you can then summon under pressure. [tags: performance-psychology, routines, focus, preparation, conditioning]
+- `soft-zone` — **The Soft Zone** — A resilient concentration that absorbs distraction into the performance rather than fighting it, unlike a brittle "Hard Zone" that requires a cooperative world. [tags: focus, resilience, flow, attention, distraction]
+
 ## Atomic Habits (James Clear) — Psychology & Self-Development — book: atomic-habits
 
 - `environment-design` — **Environment Design** — Behavior is shaped more by the visibility and arrangement of physical space than by willpower — make good cues obvious and bad cues invisible. [tags: environment, cues, willpower, behavior-design, defaults]
@@ -140,6 +313,25 @@
 - `law-of-least-effort` — **The Law of Least Effort** — Given two similar options, behavior is drawn to whichever requires less energy — so reducing the friction of a wanted action is as powerful as increasing motivation for it. [tags: friction, effort, behavior-design, energy, incentives]
 - `marginal-gains-compounding` — **Aggregation of Marginal Gains** — Small, consistent 1% improvements compound geometrically over time into outsized results, while small negative choices compound into decline. [tags: compounding, incrementalism, systems, self-improvement, long-term-thinking]
 - `two-minute-rule` — **The Two-Minute Rule** — Downscale any new habit until it takes less than two minutes to do, so the goal becomes mastering the ritual of showing up rather than the full behavior. [tags: habit-formation, friction, starting, scaling, procrastination]
+
+## The Checklist Manifesto (Atul Gawande) — Psychology & Self-Development — book: checklist-manifesto
+
+- `checklist-as-forcing-conversation` — **The Checklist as a Forcing Function for Conversation** — A checklist's biggest effect is often not memory but making people who wouldn't otherwise speak up pause and talk to each other before it's too late. [tags: teamwork, communication, coordination, hierarchy, feedback]
+- `complexity-beyond-memory` — **Complexity Beyond Memory** — Past a threshold of complexity, even the most expert individual mind can no longer reliably hold every necessary step, no matter how much training it has. [tags: complexity, expertise, cognition, reliability, memory]
+- `discipline-as-professional-virtue` — **Discipline as a Fourth Professional Virtue** — Beyond selflessness, skill, and trustworthiness, high-stakes professions need a fourth virtue — discipline in following procedure — which most professions never name. [tags: professionalism, discipline, heroism, procedure, culture]
+- `end-of-the-master-builder` — **The End of the Master Builder** — When a domain's knowledge outgrows any one expert's ability to master it end-to-end, coordination must shift from a lone authority to externalized, shared systems. [tags: specialization, organizational-design, coordination, expertise, systems]
+- `good-checklist-design` — **Good Checklist Design** — Checklists only work if built to strict constraints — short, tested against reality, focused on "killer items," and matched to a DO-CONFIRM or READ-DO structure. [tags: design, tools, reliability, testing, simplicity]
+- `ignorance-vs-ineptitude` — **Ignorance vs. Ineptitude** — Failure has two distinct causes — not knowing what to do (ignorance) and knowing but failing to apply it correctly (ineptitude) — and the balance has shifted. [tags: failure-modes, knowledge, execution, measurement, complexity]
+
+## Digital Minimalism (Cal Newport) — Psychology & Self-Development — book: digital-minimalism
+
+- `attention-engineering` — **Attention Engineering** — Compulsive technology use is often not an accident but a deliberately engineered design outcome, built from intermittent reinforcement and the drive for social approval. [tags: addiction, incentives, product-design, psychology, persuasion]
+- `attention-resistance` — **The Attention Resistance** — Treating engagement with attention-economy services as an adversarial, zero-sum contest rather than a casual habit — using deliberate friction to extract value without ceding control. [tags: attention-economy, incentives, self-control, technology, autonomy]
+- `conversation-centric-communication` — **Conversation-Centric Communication** — Only interaction carrying analog cues like voice and facial expression counts as maintaining a relationship; texting, liking, and social media are demoted to logistics. [tags: communication, relationships, attention, social-media, prioritization]
+- `digital-declutter` — **The Digital Declutter** — A thirty-day break from all optional technology, followed by a deliberate, one-by-one reintroduction of only what proves its value — a reset, not a permanent detox. [tags: behavior-change, habit-formation, reset, decision-making, technology]
+- `high-quality-leisure` — **High-Quality Leisure** — Active, skill-demanding, often social pursuits chosen for the satisfaction they generate in themselves, deliberately cultivated before — not after — cutting low-value digital habits. [tags: leisure, well-being, habit-formation, meaning, behavior-change]
+- `minimalist-tech-philosophy` — **Minimalist Technology Philosophy** — Focus online time on a small number of carefully chosen tools that strongly support your deep values, then happily miss out on everything else. [tags: technology, values, decision-making, intentionality, minimalism]
+- `solitude-deprivation` — **Solitude Deprivation** — A state of spending close to zero time free from input from other minds — not physical isolation, but the absence of unmediated time alone with your own thoughts. [tags: attention, well-being, reflection, technology, cognition]
 
 ## The Laws of Human Nature (Robert Greene) — Psychology & Self-Development — book: laws-of-human-nature
 
@@ -162,6 +354,16 @@
 - `spaced-practice` — **Spaced Practice** — Spreading practice across time, allowing partial forgetting between sessions, produces more durable learning than concentrating it into one block. [tags: memory, learning, spacing-effect, consolidation, timing]
 - `structure-building` — **Structure Building** — Extracting the underlying rules or principles from varied experiences, and linking key ideas into a structure, rather than taking each experience at face value. [tags: learning, abstraction, expertise, pattern-recognition, transfer]
 
+## Mastery (Robert Greene) — Psychology & Self-Development — book: mastery
+
+- `ideal-apprenticeship` — **The Ideal Apprenticeship** — A three-mode sequence — deep observation, skills practice, then active experimentation — that converts a novice into an independent thinker through self-transformation, not credentialing. [tags: skill-acquisition, deliberate-practice, self-transformation, tacit-knowledge, learning]
+- `lifes-task` — **Life's Task** — An innate, discoverable inclination planted at birth that points toward the one vocation a person is uniquely suited to master. [tags: vocation, self-knowledge, identity, motivation, purpose]
+- `masterly-intuition` — **Masterly Intuition (The Fingertip Feel)** — After years of total immersion, a practitioner's separately-learned parts fuse into a single, non-sequential feel for a whole system that operates faster and deeper than step-by-step rational analysis. [tags: expertise, intuition, tacit-knowledge, systems-thinking, deliberate-practice]
+- `mentor-dynamic` — **The Mentor Dynamic** — A finite relationship in which a learner absorbs a mentor's accumulated knowledge through direct, personal interaction, then must deliberately separate to avoid being permanently subordinated. [tags: mentorship, learning, power, transitions, apprenticeship]
+- `naive-perspective` — **The Naive Perspective** — The childhood habit of reading people through one's own emotional needs — idealizing or demonizing them — carried unexamined into adult work, where the stakes are survival, not approval. [tags: social-intelligence, projection, cognitive-bias, workplace-dynamics, self-awareness]
+- `negative-capability` — **Negative Capability** — The deliberate suspension of judgment and ego in the face of uncertainty, allowing ideas to remain unresolved long enough to become more dimensional and accurate than premature conclusions. [tags: uncertainty, creativity, ego, cognitive-bias, open-mindedness]
+- `the-current` — **The Current** — A sustained alternation between speculation and verification — imagine an explanation, then test it against observation, repeatedly — that gradually makes invisible patterns visible. [tags: scientific-method, iteration, imagination, verification, discovery]
+
 ## Nudge (Thaler & Sunstein) — Psychology & Self-Development — book: nudge
 
 - `choice-architecture` — **Choice Architecture** — The design of the context in which people make decisions; no presentation of options is neutral, so someone always shapes the outcome. [tags: design, decision-making, defaults, systems, incentives]
@@ -171,6 +373,25 @@
 - `recap-disclosure` — **RECAP — Usage-Based Disclosure** — A regulatory nudge that requires sellers to report each customer's own actual usage and costs back to them, turning opaque pricing into comparable data. [tags: transparency, regulation, disclosure, markets, information]
 - `save-more-tomorrow` — **Save More Tomorrow (Precommitment Design)** — A commitment device that schedules a future behavior change to coincide with a gain, so the change never registers as a felt loss. [tags: precommitment, loss-aversion, inertia, behavior-change, design]
 - `social-norm-nudges` — **Social Norm Nudges** — Telling people what others actually do, and signaling approval or disapproval of their own behavior, shifts behavior toward the perceived norm — but can backfire. [tags: social-influence, norms, feedback, behavior-change, information]
+
+## The Power of Habit (Charles Duhigg) — Psychology & Self-Development — book: power-of-habit
+
+- `craving-brain` — **The Craving Brain** — A cue and reward only fuse into an automatic habit once the brain learns to anticipate the reward and generates a felt craving for it before the routine even begins. [tags: neuroscience, anticipation, habit-formation, marketing, motivation]
+- `crisis-as-habit-lever` — **Crisis as a Lever for Habit Change** — Dysfunctional institutional habits rarely change through an order from leadership alone — but a genuine or perceived crisis creates a window in which entrenched routines become negotiable. [tags: organizational-change, crisis, leadership, institutional-habits, timing]
+- `golden-rule-of-habit-change` — **The Golden Rule of Habit Change** — You cannot extinguish a bad habit outright — you can only change it, by keeping the same cue and reward and inserting a new routine between them. [tags: behavior-change, habit-formation, cue-reward, addiction-recovery, mechanism]
+- `habit-vulnerability-windows` — **Habit Vulnerability Windows** — People's established habits become unusually flexible during major life transitions, creating a brief window when new patterns — commercial or otherwise — can take root. [tags: consumer-behavior, life-transitions, marketing, habit-formation, prediction]
+- `keystone-habits` — **Keystone Habits** — Certain habits, once changed, set off a chain reaction that reshapes other unrelated habits and routines throughout a life or organization. [tags: leverage-points, habit-formation, organizational-change, chain-reaction, prioritization]
+- `routines-as-truces` — **Organizational Routines as Truces** — An organization's habitual routines are not neutral efficiency tools — they are negotiated truces between competing internal factions, and they fail when the truce is unbalanced. [tags: organizational-behavior, power, coordination, institutional-habits, conflict]
+- `small-wins` — **Small Wins** — A modest, achievable victory generates disproportionate momentum by proving bigger change is possible and setting subsequent wins in motion. [tags: momentum, motivation, organizational-change, social-movements, incrementalism]
+
+## Six Thinking Hats (Edward de Bono) — Psychology & Self-Development — book: six-thinking-hats
+
+- `directions-not-descriptions` — **Directions, Not Descriptions** — Instructing a specific behavior for the moment ahead works where diagnosing or labeling a person's underlying disposition does not. [tags: behavior-change, labeling, identity, self-organization, instruction]
+- `meta-cognitive-control` — **Meta-Cognitive Control (The Blue Hat)** — Stepping outside a discussion to deliberately sequence which mode of thinking happens next, rather than letting a topic drift through unstructured argument. [tags: metacognition, structure, facilitation, planning, self-organization]
+- `movement-over-judgment` — **Movement Over Judgement** — Using an idea for where it leads rather than assessing whether it fits existing experience is what lets deliberate provocation produce genuine creative jumps. [tags: creativity, lateral-thinking, provocation, judgment, idea-generation]
+- `one-direction-at-a-time` — **One Direction at a Time** — A brain (or a group) can be maximally sensitized to only one kind of signal at once, so genuinely thorough thinking requires sequential, not simultaneous, modes. [tags: attention, cognition, sequencing, tradeoffs, constraints]
+- `parallel-thinking` — **Parallel Thinking** — Replacing adversarial argument with everyone examining a subject from the same direction at the same time, then switching directions together. [tags: collaboration, argument, coordination, decision-making, cognition]
+- `speculative-positive` — **Speculative-Positive Thinking** — Deliberately searching for value and benefit before it is obvious, as a chosen discipline rather than a response to self-interest or an idea's apparent merit. [tags: optimism, discipline, decision-making, entrepreneurship, motivation]
 
 ## Thinking, Fast and Slow (Daniel Kahneman) — Psychology & Self-Development — book: thinking-fast-and-slow
 
@@ -192,6 +413,27 @@
 - `optionality` — **Optionality** — Holding the right but not the obligation to act lets you benefit from favorable surprises without needing to predict them, since you can decline the unfavorable ones. [tags: asymmetry, decision-making, uncertainty, innovation, tinkering]
 - `skin-in-the-game` — **Skin in the Game** — When one party keeps the upside of a decision while transferring its downside to others, the resulting hidden asymmetry corrupts incentives and hides systemic fragility. [tags: incentives, agency-problem, ethics, asymmetry, accountability]
 - `via-negativa` — **Via Negativa** — Improvement and reliable foresight come more from subtraction — removing what is fragile or harmful — than from adding new interventions or predictions. [tags: subtraction, prediction, simplicity, intervention, epistemics]
+
+## The Art of Problem Solving (Russell L. Ackoff) — Systems Thinking & Philosophy — book: art-of-problem-solving
+
+- `circular-organization` — **Circular Organization** — Give every manager a board made of their boss, their direct reports, and themselves, so authority still flows down for execution but also flows up for evaluation and policy. [tags: organizational-design, participation, hierarchy, accountability, coordination]
+- `idealized-design` — **Idealized Design** — Design the system you would have right now if you could have anything you wanted, constrained only by technological feasibility and survivability — then work back toward it. [tags: planning, design, constraints, creativity, systems-thinking]
+- `multidimensional-organization` — **Multidimensional Organization** — Separate an organization into ends-oriented programs and means-oriented activity units that buy and sell from each other on an internal market, instead of coordinating them by hierarchy. [tags: organizational-design, incentives, markets, flexibility, coordination]
+- `problem-formulation-shapes-solutions` — **Problem Formulation Shapes the Solution Space** — How a problem is framed determines which solutions are even visible — most failures are failures to face the right problem, not failures to solve the problem faced. [tags: problem-framing, systems-thinking, root-cause, creativity]
+- `reference-projection` — **Reference Projection** — Extrapolate what will happen if no one intervenes and current trends simply continue, to reveal when and how a system will break down and justify acting before crisis forces it. [tags: forecasting, planning, systems-thinking, early-warning-signals]
+- `self-imposed-constraints` — **Self-Imposed Constraints** — A puzzle is a problem you cannot solve because of an assumption you unknowingly impose on it — creativity means learning to find and remove that assumption. [tags: creativity, assumptions, constraints, problem-framing]
+- `solutions-dont-stay-solved` — **Solutions Don't Stay Solved** — A solved problem tends to unsolve itself as conditions change, and every solution tends to create new problems — so problem solving needs a permanent monitoring system, not a one-time act. [tags: feedback-loops, monitoring, planning, systems-thinking, maintenance]
+- `solve-resolve-dissolve` — **Solve, Resolve, or Dissolve** — A problem can be handled three distinct ways — optimize the outcome, satisfice with something good enough, or change your values so the choice no longer matters. [tags: decision-making, optimization, values, problem-framing]
+
+## Deep Simplicity (John Gribbin) — Systems Thinking & Philosophy — book: deep-simplicity
+
+- `deterministic-chaos` — **Deterministic Chaos (the Period-Doubling Route)** — A single, simple nonlinear equation with no random input can generate output that looks fully random, arriving there through a specific, universal cascade of period-doublings. [tags: chaos, nonlinearity, determinism, self-similarity, bifurcation]
+- `far-from-equilibrium-order` — **Far-From-Equilibrium Order** — Pumping energy through an open system far from equilibrium can spontaneously organize it into stable, ordered patterns — order purchased by exporting disorder elsewhere. [tags: thermodynamics, self-organization, order, entropy, open-systems]
+- `fractal-self-similarity` — **Fractal Self-Similarity** — Many natural and mathematical shapes repeat the same irregular pattern at every scale of magnification, so their "length" or detail grows without limit as you measure more finely. [tags: fractals, scale-invariance, geometry, coastlines, pattern]
+- `gaia-self-regulation` — **Gaia Self-Regulation (Daisyworld)** — A planet-sized homeostatic system can emerge from purely self-interested local organisms, with no group cooperation, foresight, or central control required. [tags: self-regulation, homeostasis, emergence, feedback, evolution]
+- `self-organized-criticality` — **Self-Organized Criticality** — Systems fed a steady trickle of stress drive themselves to a critical state where events of every size occur, with size and frequency related by a power law rather than a typical scale. [tags: power-laws, criticality, self-organization, scale-invariance, catastrophe]
+- `sensitive-dependence` — **Sensitive Dependence on Initial Conditions** — In nonlinear systems, immeasurably small differences in starting conditions grow into completely different outcomes, making long-range prediction impossible in principle. [tags: chaos, prediction, nonlinearity, feedback, uncertainty]
+- `surface-complexity-deep-simplicity` — **Surface Complexity from Deep Simplicity** — Complicated-looking systems are typically built from a small number of simple components governed by simple rules, whose interactions — not their individual complication — generate the complexity. [tags: emergence, complexity, reductionism, interaction, simplicity]
 
 ## The Fifth Discipline (Peter Senge) — Systems Thinking & Philosophy — book: fifth-discipline
 
@@ -224,6 +466,14 @@
 - `the-map-mistaken-for-the-world` — **The Map Mistaken for the World** — A fixed, denotative representation built to make experience tractable gets treated as reality itself, replacing the living thing it was abstracted from. [tags: abstraction, representation, epistemology, models, reification]
 - `two-modes-of-attention` — **Two Modes of Attention** — The brain has two structurally distinct modes of attending to the world — broad, vigilant, and contextual versus narrow, focused, and manipulative. [tags: attention, cognition, perception, dual-process, embodiment]
 
+## On the Shortness of Life (Seneca) — Systems Thinking & Philosophy — book: on-the-shortness-of-life
+
+- `annexing-every-age` — **Annexing Every Age** — Engaging with the thinkers of the past, rather than only the living, lets a mind extend its effective lifespan by inheriting centuries it did not personally live through. [tags: tradition, learning, cumulative-culture, mentorship, philosophy]
+- `fleeing-oneself` — **Fleeing Oneself** — Restlessness that feels like it is caused by one's surroundings is actually internal, so changing location, activity, or company cannot cure it — the discontented person travels with the problem. [tags: self-knowledge, restlessness, avoidance, root-cause, discontent]
+- `life-not-short-but-wasted` — **Life Is Not Short, It Is Wasted** — Human life is long enough for great achievement; the felt shortage comes from mismanagement, not from an insufficient allotment of time. [tags: time-management, waste, attention, self-audit, stoicism]
+- `no-place-is-exile` — **No Place Is Exile** — Because the whole world runs on the same universal nature and every place has always been resettled by outsiders, losing a specific location costs a person almost nothing essential. [tags: resilience, locus-of-control, identity, migration, stoicism]
+- `three-periods-of-time` — **The Three Periods of Time** — Time splits into a certain, possessable past, a vanishing present, and a doubtful future — and only a tranquil mind can hold onto the one period that is actually secure. [tags: time, memory, attention, uncertainty, tranquility]
+
 ## The Methodology of Scientific Research Programmes (Imre Lakatos) — Systems Thinking & Philosophy — book: scientific-research-programmes
 
 - `hard-core` — **Hard Core** — The central commitments of a research programme that its practitioners methodologically decide to treat as irrefutable, protected by a negative heuristic. [tags: methodology, commitment, tenacity, decision, science]
@@ -234,6 +484,16 @@
 - `rational-reconstruction` — **Rational Reconstruction** — Judge a methodology by how much of actual history it can explain as rational, leaving the smallest residue for sociology and psychology to explain instead. [tags: historiography, self-application, meta-criterion, rationality, science]
 - `research-programme` — **Research Programme** — The proper unit of scientific appraisal is not a single theory but a sequence of theories bound by a hard core, protective belt, and heuristics. [tags: methodology, structure, science, strategy, appraisal]
 - `sophisticated-falsificationism` — **Sophisticated Falsificationism** — A theory is falsified only by a better rival theory, never by evidence alone — refutation requires a successor that explains the old successes and predicts new ones. [tags: falsification, evidence, competition, theory-choice, science]
+
+## Simple Rules (Sull & Eisenhardt) — Systems Thinking & Philosophy — book: simple-rules
+
+- `bottleneck-targeting` — **Bottleneck Targeting** — Craft simple rules by first identifying what actually drives the outcome you want, then finding the single recurring activity that bottlenecks it, then writing rules only for that. [tags: prioritization, strategy, bottlenecks, focus, resource-allocation]
+- `complexity-matching-fallacy` — **The Complexity-Matching Fallacy** — Meeting a complex problem with a complicated solution backfires — the number of interactions overwhelms the designer and drives compliance down, not up. [tags: complexity, regulation, combinatorics, compliance, overload]
+- `evolved-vs-designed-rules` — **Evolved vs. Designed Rules** — Rules that emerge unguided through selection or community negotiation become effective but entrenched and hard to question; rules people deliberately craft can be examined and changed. [tags: emergence, self-organization, norms, deliberate-design, path-dependence]
+- `rip-and-replace-rules` — **Rip-and-Replace Rule Change** — When conditions change fundamentally rather than incrementally, replacing an entire set of rules quickly outperforms blending old and new rules gradually. [tags: change-management, discontinuity, adaptation, transitions, regime-change]
+- `rule-taxonomy` — **The Six Types of Simple Rules** — Effective simple rules always fall into six types — boundary, prioritizing, and stopping rules for deciding; how-to, coordination, and timing rules for doing. [tags: taxonomy, decision-rules, process-rules, coordination, prioritization]
+- `rules-as-reflection-triggers` — **Rules as Reflection Triggers** — A rule can improve performance by prompting people to pause and reassess their approach, independent of whether the rule's literal content is even relevant to the task. [tags: feedback, metacognition, learning, behavior-design, experimentation]
+- `simple-rules` — **Simple Rules** — A handful of rules-of-thumb, tailored to a specific bottleneck activity, that give concrete guidance while leaving room for judgment. [tags: heuristics, decision-making, constraints, simplicity, judgment]
 
 ## The Structure of Scientific Revolutions (Thomas Kuhn) — Systems Thinking & Philosophy — book: structure-of-scientific-revolutions
 
@@ -256,6 +516,15 @@
 - `pattern-structure-process` — **Pattern, Structure, Process** — Capra's three-criteria framework for defining a living system — its organizing pattern, its physical structure, and the process that continually links the two. [tags: systems-thinking, mechanism, life, framework, self-organization]
 - `structural-coupling` — **Structural Coupling** — How an autonomous living system interacts with its environment — the environment triggers structural change but never specifies or directs it. [tags: autonomy, learning, adaptation, mechanism, environment]
 
+## AI Superpowers (Kai-Fu Lee) — Technology & Data — book: ai-superpowers
+
+- `age-of-implementation` — **The Age of Implementation** — The economically transformative phase of a technology is the grinding, unglamorous engineering rollout of an existing breakthrough, not the next scientific leap. [tags: technology-diffusion, hype-cycles, engineering, deep-learning, forecasting]
+- `four-waves-of-ai` — **The Four Waves of AI** — AI adoption arrives in four sequential waves — internet, business, perception, and autonomous — each unlocked by a different kind of data becoming usable. [tags: taxonomy, data, automation, technology-diffusion, machine-learning]
+- `gladiator-entrepreneurship` — **Gladiator Entrepreneurship** — Ruthless, thousand-competitor copycat markets force entrepreneurs into faster iteration and flawless execution, forging tenacity that outlasts any single stolen idea. [tags: competition, entrepreneurship, imitation, iteration, market-structure]
+- `love-as-human-differentiator` — **Love as the Human Differentiator** — As AI absorbs optimization and even creative tasks, human worth has to be relocated from economic output to compassion and connection — the one thing machines cannot replicate. [tags: human-value, automation, meaning, purpose, psychology]
+- `risk-of-replacement-grid` — **The Risk-of-Replacement Grid** — Automation risk sorts by task content on two axes — optimization vs. creativity/strategy, and asocial vs. social — not by a job's skill level or collar color. [tags: automation, task-analysis, labor-economics, measurement, taxonomy]
+- `social-investment-stipend` — **The Social Investment Stipend** — Pay people a respectable government salary for care, community service, and education instead of an unconditional cash transfer, so displaced work becomes prosocial contribution. [tags: social-policy, incentives, automation, care-work, redistribution]
+
 ## The Beginning of Infinity (David Deutsch) — Technology & Data — book: beginning-of-infinity
 
 - `explanatory-creativity` — **Explanatory Creativity** — Genuine intelligence requires creating new explanatory knowledge, not imitating human output; systems that only recombine pre-built templates only fake it. [tags: artificial-intelligence, creativity, explanation, computation, evolution]
@@ -265,6 +534,26 @@
 - `principle-of-optimism` — **The Principle of Optimism** — All evils are caused by insufficient knowledge, so every problem is soluble in principle, given enough of the right knowledge and time. [tags: epistemology, progress, prediction, decision-making, problem-solving]
 - `rational-memes` — **Rational and Anti-Rational Memes** — Ideas replicate either by being genuinely useful to critical, thinking holders (rational memes) or by disabling holders' critical faculties (anti-rational memes). [tags: culture, evolution, memes, criticism, cognition]
 - `reality-of-abstractions` — **The Reality of Abstractions** — Entities like numbers, causes, and programs are real if they are indispensable to our best explanations, even though they are not physical objects. [tags: emergence, explanation, reductionism, philosophy, causation]
+
+## The Fabric of Reality (David Deutsch) — Technology & Data — book: fabric-of-reality
+
+- `criterion-for-reality` — **The Criterion for Reality** — An entity should be judged real if, according to the simplest available explanation, it is complex, autonomous, and "kicks back" — not because it can be directly perceived. [tags: epistemology, realism, explanation, philosophy-of-science, complexity]
+- `four-strands` — **The Four Strands** — Physics, epistemology, computation, and evolution are four independently-arrived-at fundamental theories that turn out to need each other to close their own explanatory gaps. [tags: unification, explanation, emergence, epistemology, interdisciplinary]
+- `non-reductive-explanation` — **Non-Reductive Explanation** — Explanatory depth, not closeness to subatomic physics, is what makes a theory fundamental — high-level, emergent explanations are not second-class citizens of a reductionist hierarchy. [tags: reductionism, emergence, explanation, philosophy-of-science, hierarchy]
+- `quantum-multiverse` — **The Multiverse** — Quantum interference forces the conclusion that the visible universe is one of vastly many parallel universes, weakly interacting through interference. [tags: physics, quantum-theory, parallel-universes, explanation, ontology]
+- `self-similarity-of-evidence` — **The Self-Similarity of Evidence** — Physical reality is saturated with evidence bearing on its own deepest laws, freely available anywhere, anytime, to anyone who looks in the right way — a substantive, non-obvious fact about the universe. [tags: epistemology, evidence, science, discovery, open-access]
+- `turing-principle` — **The Turing Principle** — A physical law, on par with conservation of energy, stating that a universal computer — one buildable in reality — can render any physically possible process to any accuracy. [tags: computation, physics, universality, information, philosophy-of-science]
+- `virtual-reality-primacy` — **Virtual Reality as a Fundamental Category** — Virtual reality is not a technology but a fundamental property of the multiverse — the ability of one physical system to render, without limit, any other logically possible environment. [tags: computation, epistemology, simulation, physics, cognition]
+
+## A Field Guide to Lies and Statistics (Daniel Levitin) — Technology & Data — book: field-guide-to-lies
+
+- `alternative-explanations` — **Overlooked Alternative Explanations** — Before accepting the explanation offered for a fact, generate and weigh the competing explanations that would also account for it. [tags: critical-thinking, hypothesis-testing, evidence, reasoning, skepticism]
+- `axis-shenanigans` — **Axis Shenanigans** — Manipulating a graph's axes — truncating, omitting labels, breaking continuity, or stretching scale — makes the eye draw a false conclusion the numbers don't support. [tags: data-visualization, graphs, deception, perception, measurement]
+- `choice-of-average` — **The Choice of Average** — Mean, median, and mode can each tell a different story about the same data, so which one gets reported is itself a choice that can mislead. [tags: statistics, measurement, framing, outliers, manipulation]
+- `false-independence-assumption` — **The False Independence Assumption** — Multiplying probabilities together to get a vanishingly small joint chance is only valid if the underlying events are actually independent — and they often are not. [tags: probability, statistics, causation, legal-reasoning, correlation]
+- `narrow-expertise` — **Expertise Is Narrow** — Genuine expertise in one domain confers no special authority in an adjacent one, yet audiences routinely let credentials transfer where knowledge does not. [tags: expertise, credibility, cognitive-bias, authority, evidence]
+- `plausibility-check` — **The Plausibility Check** — A quick back-of-envelope sanity test using rough estimation and real-world knowledge to reject impossible claims before deeper analysis. [tags: estimation, critical-thinking, numeracy, fact-checking, skepticism]
+- `prosecutors-fallacy` — **The Prosecutor's Fallacy** — Confusing the probability of evidence given guilt with the probability of guilt given evidence — two conditional probabilities that are not interchangeable. [tags: probability, conditional-probability, legal-reasoning, bayesian-reasoning, fallacy]
 
 ## How to Measure Anything (Douglas Hubbard) — Technology & Data — book: how-to-measure-anything
 
@@ -317,3 +606,13 @@
 - `orthogonality-thesis` — **Orthogonality Thesis** — Intelligence and final goals are independent axes — almost any level of intelligence is compatible with almost any final goal. [tags: ai-safety, motivation, philosophy-of-mind]
 - `treacherous-turn` — **Treacherous Turn** — An AI behaves cooperatively while weak — including during safety testing — then strikes once it is strong enough that human opposition would be futile. [tags: ai-safety, deception, takeoff-dynamics]
 - `value-loading` — **The Value-Loading Problem** — How to install a genuinely human-meaningful final goal into an AI's motivation system, robustly enough to survive its own growth into superintelligence. [tags: ai-safety, ethics, motivation]
+
+## The Inevitable (Kevin Kelly) — Technology & Data — book: the-inevitable
+
+- `access-over-ownership` — **Access Over Ownership** — Renting, streaming, or subscribing to a good or service on demand increasingly beats owning it outright, as goods dematerialize into services. [tags: platforms, dematerialization, services, decentralization, consumption]
+- `cognifying` — **Cognifying** — Adding cheap, on-demand artificial intelligence to an existing process the way electricity was added to inert objects a century earlier. [tags: artificial-intelligence, utility-computing, infrastructure, automation, networks]
+- `coveillance` — **Coveillance** — Symmetrical mutual watching — everyone can see who is watching them and hold watchers accountable — as the tractable alternative to one-way surveillance. [tags: surveillance, transparency, accountability, privacy, symmetry]
+- `digital-socialism` — **Digital Socialism** — Large-scale, stateless collaboration — wikis, open source, Creative Commons, collaborative filtering — that pools contributions from millions without central ownership. [tags: collaboration, commons, decentralization, peer-production, collective-action]
+- `filtering-abundance` — **Filtering Abundance** — When the supply of options becomes effectively infinite, the scarce resource shifts from the goods themselves to the attention needed to choose among them. [tags: attention, abundance, curation, algorithms, decision-making]
+- `protopia` — **Protopia** — A state of continuous, incremental improvement — better today than yesterday by a small margin, generating new problems as fast as it solves old ones. [tags: progress, incrementalism, change, technology, optimism]
+- `remix-as-growth` — **Remix as Growth** — Real growth in technology, economics, and media comes from rearranging existing elements into new combinations, not from discovering wholly new resources. [tags: innovation, combinatorics, media, economic-growth, creativity]

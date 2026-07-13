@@ -1,6 +1,6 @@
 ---
 type: Concept
-title: Success Criteria: The Customer's Win Condition
+title: "Success Criteria: The Customer's Win Condition"
 description: The specific, customer-defined metrics for what counts as successfully completing a job — distinct from the job itself — that must be uncovered before a product can be designed to hit them.
 book: jobs-to-be-done
 chapters: [4]

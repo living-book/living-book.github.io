@@ -1,6 +1,6 @@
 ---
 type: Concept
-title: Fighting Inertia: Obstacles to Adoption and Use
+title: 'Fighting Inertia: Obstacles to Adoption and Use'
 description: A superior solution still loses to the status quo unless it overcomes specific, nameable barriers — lack of knowledge, behavior-change cost, risk, multiple decision-makers — at both purchase and ongoing use.
 book: jobs-to-be-done
 chapters: [5]
