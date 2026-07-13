@@ -58,3 +58,13 @@ Orphan pass: woven 162; verify batch2 done (psych-agile 48→43, systems-tech 44
 - Worktree: /home/sanjayg4/living-books/.claude/worktrees/concept-atlas
 - Sources clone: $CLAUDE_JOB_DIR/tmp/sources (= /home/sanjayg4/.claude/jobs/213b014c/tmp/sources)
 - Brief for extraction agents: pipeline/atlas/EXTRACTION-BRIEF.md (agent prompt = brief path + book/slug/source/outdir, model sonnet)
+
+## Tranche 3 (user: "merged, continue" 2026-07-13). Branch atlas-orphan-weave merged; now on atlas-tranche-3 off main.
+30 books, Sonnet, waves of 6. Sources: $CLAUDE_JOB_DIR/tmp/sources. Output: docs/atlas/concepts/<slug>/.
+After extraction: +30 BOOKS entries in scripts/build_atlas.py, regen CATALOG, weave (4 Sonnet anchored on new books), verify (2 Sonnet), rebuild atlas+corpus, strict build, smoke, PR #3.
+
+- [~] A thinking-for-a-change ✓7, simplexity (Kluger, Systems), whats-it-all-about ✓6, what-to-do-when-machines-do-everything ✓7, perfect-software ✓8, coders ✓8 — rest RUNNING
+- [ ] B reinventing-organizations (Laloux, Business/OrgDesign "Reinventingorganization.md"), reframing-organizations (Bolman&Deal, Business/OrgDesign), sprint (Knapp, Business/BMI "Sprint ( PDFDrive.com ).md"), lean-product-playbook (Olsen, Business/BMI), secrets-of-consulting (Weinberg, Business/Consulting), are-your-lights-on (Weinberg&Gause, Business/Consulting)
+- [ ] C tao-of-charlie-munger (Business/Finance), the-ultimate-question (Reichheld, Business/Strategy), strategy-beyond-the-hockey-stick (Bradley/Hirt/Smit, Business/Strategy), coaching-agile-teams (Adkins, Agile/Coaching), specification-by-example (Adzic, Agile/Lean), personal-kanban (Benson&Barry, Agile/Scrum&Kanban)
+- [ ] D value-stream-mapping (Martin&Osterling, Agile/Lean), learning-agile (Stellman&Greene, Agile/Scrum&Kanban), leadership-challenge (Kouzes&Posner, Leadership/LeadDev "The Leadership Challenge ( PDFDrive.com ).md"), simple-habits-for-complex-times (Berger&Johnston, Leadership/LeadDev), secret-language-of-leadership (Denning, Leadership/LeadDev), gamestorming (Gray/Brown/Macanufo, Leadership/Facilitation "gamestorming.md")
+- [ ] E clean-language (Sullivan&Rees, Leadership/Coaching "Clean Language_ ... ( PDFDrive ).md" non-.com copy), pragmatic-thinking-and-learning (Andy Hunt, Psych/CogSci "Pragmatic Thinking and Learning_ Refactor Your Wetware (Pragmatic Programmers) ( PDFDrive ).md"), when-perfect-timing (Daniel Pink, Psych/CogSci), decision-quality (Spetzler et al, Psych/CogSci), daring-greatly (Brené Brown, Psych/EI), the-antidote (Oliver Burkeman, Psych/Mindfulness)
