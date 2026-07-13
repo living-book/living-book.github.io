@@ -1,0 +1,399 @@
+# Lens: orphan-weaving for Systems Thinking & Philosophy (27) and Technology & Data (23)
+# Every edge below has at least one endpoint in that 50-concept orphan set.
+
+- from: learning-organization
+  verb: parallels
+  to: structure-building
+  why: >-
+    Both describe extracting durable, generalizable structure — an
+    organization's five mutually-reinforcing disciplines, a learner's
+    underlying principles — from scattered particular experiences, instead of
+    taking each success at face value and never building the capacity to
+    reproduce it.
+
+- from: systems-thinking
+  verb: parallels
+  to: many-model-thinking
+  why: >-
+    Both reject a single linear cause-effect account in favor of holding
+    multiple interacting causal structures at once — Senge's interrelationships,
+    Page's ensemble of formal models — because any one lens alone misses the
+    dynamics that only emerge from their interaction.
+
+- from: master-and-emissary
+  verb: parallels
+  to: control-problem
+  why: >-
+    Both describe a properly subordinate delegate — a hemisphere, a
+    superintelligent agent — whose usefulness depends on staying in service to
+    a grounding authority, and whose escape from that hierarchy is the central
+    failure mode each book designs against.
+
+- from: deep-ecology
+  verb: parallels
+  to: digital-socialism
+  why: >-
+    Both reject a privileged center of value or control — the human self, a
+    single owner — in favor of value arising from a decentralized web of
+    mutually interdependent contributors, none of which could produce the
+    outcome alone.
+
+- from: dissipative-structures
+  verb: parallels
+  to: far-from-equilibrium-order
+  why: >-
+    Both cite the identical Prigogine mechanism — continuous energy throughput
+    far from equilibrium spontaneously organizes and sustains stable structure
+    by exporting entropy elsewhere — as evidence that order needs no central
+    designer, only sustained disequilibrium.
+
+- from: pattern-structure-process
+  verb: parallels
+  to: representation-evaluation-optimization
+  why: >-
+    Both decompose a phenomenon assumed to resist simple analysis — life,
+    machine learning — into exactly three necessary components whose
+    interaction, not any one part alone, is what defines and reproduces the
+    whole.
+
+- from: structural-coupling
+  verb: tempers
+  to: environment-design
+  why: >-
+    Structural coupling holds the environment can trigger but never specify a
+    system's structural change; it names when engineered cues fail — if the
+    change conflicts with the organism's own internal structure, no rearranged
+    environment can force it.
+
+- from: paradigm-crisis
+  verb: parallels
+  to: healthy-disengagement
+  why: >-
+    Both require accumulating, community-recognized failure — anomalies a
+    framework can't resolve, leading indicators of decline — before an old
+    commitment is abandoned, rather than either premature switching or waiting
+    for total collapse to force the exit.
+
+- from: progress-without-truth
+  verb: parallels
+  to: only-progress-is-sustainable
+  why: >-
+    Both reject a fixed final target — ultimate truth, a stable sustainable
+    state — as the measure of validity, defining success instead as an
+    unending capacity to keep solving the next problem with more precision
+    than before.
+
+- from: hard-core
+  verb: parallels
+  to: self-image-defense
+  why: >-
+    Both describe a defended core — a programme's central commitment, a
+    person's self-image — that resists direct refutation by deflecting
+    challenges onto adjustable peripheral layers, protecting the center from
+    ever being tested directly.
+
+- from: positive-heuristic
+  verb: tempers
+  to: the-gray-zone
+  why: >-
+    A mature programme's heuristic pre-plans which idealization to relax next,
+    forecasting improvement in advance; this names the exception to the gray
+    zone's claim that a path to target can never be planned and must always be
+    crossed by blind experimental steps.
+
+- from: rational-reconstruction
+  verb: parallels
+  to: superinvestors-of-graham-and-doddsville
+  why: >-
+    Both judge a method by how much of an observed record it can explain as
+    the product of one shared rational approach — a methodology's history, an
+    investing cluster's returns — leaving the smallest residue for luck or
+    sociology to explain instead.
+
+- from: research-programme
+  verb: parallels
+  to: transient-competitive-advantage
+  why: >-
+    Both insist the correct unit of appraisal is a temporal sequence, not a
+    single static instance — a chain of successive theories bound by a hard
+    core, a surfed wave of advantages that each arise, peak, and decay in
+    turn.
+
+- from: deterministic-chaos
+  verb: tempers
+  to: randomness-blindness
+  why: >-
+    Randomness blindness assumes patterned output signals skill and
+    random-looking output signals chance; deterministic chaos breaks that
+    diagnostic by showing a single simple rule with no random input can
+    generate output statistically indistinguishable from pure randomness.
+
+- from: fractal-self-similarity
+  verb: parallels
+  to: power-law-distributions
+  why: >-
+    Both are signatures of scale invariance — a shape or a distribution that
+    looks structurally the same at every level of magnification, with no
+    characteristic size available to serve as a natural reference point for
+    measurement.
+
+- from: gaia-self-regulation
+  verb: formalizes
+  to: gaia-hypothesis
+  why: >-
+    Daisyworld gives Lovelock's planetary self-regulation claim a minimal,
+    tractable mechanism, proving homeostasis can emerge from purely selfish
+    local optimization without the group-level cooperation or foresight the
+    original hypothesis leaves unexplained.
+
+- from: evolved-vs-designed-rules
+  verb: parallels
+  to: generational-formation
+  why: >-
+    Both describe norms that accumulate through unguided selection or
+    historical absorption becoming invisible common sense — felt as fixed
+    reality rather than one contingent option among many that could be
+    deliberately examined and revised.
+
+- from: rule-taxonomy
+  verb: parallels
+  to: waste-taxonomy
+  why: >-
+    Both exhaustively sort a single concern into a small fixed number of named
+    types — six rule types for deciding and doing, seven waste types for
+    hidden capacity — so classifying an instance correctly does the real
+    work, not treating every instance alike.
+
+- from: simple-rules
+  verb: parallels
+  to: five-focusing-steps
+  why: >-
+    Both concentrate all governance or improvement effort on the single
+    activity that actually constrains the outcome, deliberately leaving
+    everything else loosely managed because tightening non-bottlenecks burns
+    effort without moving the result.
+
+- from: circular-organization
+  verb: parallels
+  to: believability-weighting
+  why: >-
+    Both build a formal upward channel of evaluation and policy influence into
+    a nominally hierarchical structure — a manager's own board including their
+    boss, or weighting a boss's own decisions by track record — so authority
+    isn't purely top-down even though execution still is.
+
+- from: multidimensional-organization
+  verb: parallels
+  to: unbundling-business-models
+  why: >-
+    Both argue that fundamentally incompatible organizational logics — ends
+    versus means, customer-relationship versus infrastructure economics — must
+    be structurally separated into distinct units that transact with each
+    other, because one hierarchy forces bad trade-offs.
+
+- from: evaporating-cloud
+  verb: instantiates
+  to: problem-formulation-shapes-solutions
+  why: >-
+    Evaporating Cloud resolves a stuck conflict not by compromising within the
+    stated frame but by invalidating the hidden assumption beneath it — a
+    concrete case of the claim that reframing the problem, not working harder
+    on the solution, is what reveals a way through.
+
+- from: self-imposed-constraints
+  verb: parallels
+  to: naive-perspective
+  why: >-
+    Both describe a person unknowingly imposing an assumption or emotional
+    lens onto a problem — a puzzle's hidden constraint, a childhood reading of
+    people — where progress requires noticing and removing the self-imposed
+    frame, not working harder within it.
+
+- from: solutions-dont-stay-solved
+  verb: parallels
+  to: protopia
+  why: >-
+    Both reject any final "solved" state: every fix that resolves current
+    problems generates the next round as fast as it closes the last, so
+    improvement has to be a permanent monitoring process rather than a
+    one-time achievement.
+
+- from: annexing-every-age
+  verb: extends
+  to: mentor-dynamic
+  why: >-
+    A live mentorship is finite and must end in deliberate separation to avoid
+    subordination; engaging historical thinkers as mentors removes that limit,
+    offering an unbounded set of teachers whose knowledge can be absorbed
+    without ever needing to break away.
+
+- from: no-place-is-exile
+  verb: parallels
+  to: authenticity-trap
+  why: >-
+    Both argue an anchor people treat as load-bearing to identity — a specific
+    place, a fixed "authentic self" — is actually replaceable without real
+    loss, because what's essential is universal rather than tied to the
+    particular instance being clung to.
+
+- from: no-place-is-exile
+  verb: parallels
+  to: self-similarity-of-evidence
+  why: >-
+    Both deny that a privileged locus is required to reach what matters —
+    universal nature runs identically everywhere so no specific place is
+    essential, and evidence for reality's deepest laws is likewise available
+    anywhere to anyone who looks correctly.
+
+- from: many-model-thinking
+  verb: parallels
+  to: four-strands
+  why: >-
+    Both argue a single account is structurally incomplete — an ensemble of
+    simplified models, or four independently-derived fundamental theories —
+    gaining accuracy and closure only by being held together, each covering
+    gaps the others leave open.
+
+- from: applied-information-economics
+  verb: parallels
+  to: de-risking-in-priority-order
+  why: >-
+    Both direct scarce investigative effort — measurement, customer testing —
+    toward whichever uncertainty carries the highest expected payoff first,
+    and both define a stopping rule: proceed only while resolving the next
+    uncertainty is worth more than it costs.
+
+- from: clarifying-the-decision
+  verb: parallels
+  to: target-condition
+  why: >-
+    Both replace an open-ended, vague intention with a sharply specified
+    anchor — a decision's four necessary components, or a specific
+    non-negotiable target state — that gives the subsequent effort something
+    concrete to aim at instead of directionless activity.
+
+- from: expected-value-of-information
+  verb: parallels
+  to: cost-of-delay
+  why: >-
+    Both convert something usually left qualitative — the worth of more
+    information, the cost of waiting — into one monetized figure, so competing
+    claims on effort can be ranked on a common economic scale instead of by
+    intuition or urgency.
+
+- from: small-sample-inference
+  verb: parallels
+  to: feedback-analysis
+  why: >-
+    Both show a small number of well-chosen observations — five random
+    samples, a handful of tracked prediction-versus-outcome comparisons —
+    yields disproportionately reliable knowledge, far exceeding what intuition
+    expects from what looks like "not enough data."
+
+- from: age-of-implementation
+  verb: parallels
+  to: technological-turning-point
+  why: >-
+    Both locate a general-purpose technology's real economic payoff in a
+    later, unglamorous diffusion phase — grinding engineering rollout, or the
+    volatile shift from an Installation to a Deployment period — never in the
+    initial scientific breakthrough itself.
+
+- from: risk-of-replacement-grid
+  verb: extends
+  to: polanyis-paradox
+  why: >-
+    Polanyi's Paradox names one anomaly — tasks resist automation because
+    their knowledge can't be articulated as rules; the risk grid expands that
+    single diagnosis into a full two-axis taxonomy predicting which tasks
+    resist automation and why, beyond tacit-knowledge cases alone.
+
+- from: social-investment-stipend
+  verb: parallels
+  to: human-systems-reinforcement
+  why: >-
+    Both redesign a reward system — a government stipend, hiring and pay
+    practices — not as a neutral payment but as the tangible signal of what a
+    society or organization has decided counts as valuable contribution,
+    replacing a default that reinforces the wrong thing.
+
+- from: access-over-ownership
+  verb: parallels
+  to: asset-debt
+  why: >-
+    Both argue that owning a durable asset outright is increasingly a
+    liability rather than a store of value, favoring flexible non-owned
+    arrangements — subscriptions for consumers, avoiding committed capital for
+    firms — because owned value decays faster than assumed.
+
+- from: cognifying
+  verb: parallels
+  to: second-machine-age
+  why: >-
+    Both apply the identical historical pattern — a prior general-purpose
+    utility, like electricity, re-powering every existing process it touches
+    rather than creating new categories of activity — to explain how the
+    current technology wave actually spreads.
+
+- from: remix-as-growth
+  verb: parallels
+  to: recombinant-innovation
+  why: >-
+    Two independent authors converge on the identical growth mechanism:
+    because ideas, unlike physical resources, are never used up by reuse,
+    real growth comes overwhelmingly from recombining existing building
+    blocks, not from discovering new raw material.
+
+- from: criterion-for-reality
+  verb: extends
+  to: reality-of-abstractions
+  why: >-
+    Reality-of-abstractions established indispensability to explanation as
+    sufficient grounds for calling something real; criterion-for-reality adds
+    two further necessary conditions — complexity and autonomous "kicking
+    back" — sharpening which entities actually earn the label.
+
+- from: non-reductive-explanation
+  verb: parallels
+  to: masterly-intuition
+  why: >-
+    Both reject the assumption that the more reduced, step-by-step account is
+    automatically more authoritative — an emergent high-level theory, or a
+    fused expert intuition, can carry more genuine explanatory depth than the
+    granular components beneath it.
+
+- from: disposable-prototypes
+  verb: instantiates
+  to: virtual-reality-primacy
+  why: >-
+    A low-fidelity prototype is a concrete, small-scale case of Deutsch's
+    fundamental claim: one physical system rendering another logically
+    possible environment well enough to learn from it before the real thing
+    exists.
+
+- from: choice-of-average
+  verb: parallels
+  to: peak-end-rule
+  why: >-
+    Both show that which summary statistic represents a full data series —
+    mean, median, or mode for a dataset; peak-and-end for a remembered
+    experience — is never neutral, and different choices tell different,
+    sometimes misleading, stories about the same underlying reality.
+
+- from: false-independence-assumption
+  verb: tempers
+  to: dependency-combinatorics
+  why: >-
+    Dependency combinatorics multiplies each dependency's own delay
+    probability to get its halving effect, implicitly assuming independence;
+    false-independence-assumption names when that breaks — dependencies
+    sharing one cause, like an overloaded team, fail together instead.
+
+- from: narrow-expertise
+  verb: parallels
+  to: multi-process-handling
+  why: >-
+    Both reject the idea that competence or authority transfers automatically
+    to a new domain without dedicated, separate skill-building — genuine
+    multi-domain capability, unlike assumed credential-transfer, has to be
+    earned process by process, not assumed from adjacent proficiency.

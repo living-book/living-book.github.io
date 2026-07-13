@@ -46,7 +46,7 @@ Wave = relaunch group after session-limit kill. Update as notifications arrive.
 ## Tranche 2 (user-approved: steps 1 PR ✓, 2 corpus ✓, 3 = this). 30 books, Sonnet, waves of 6.
 Sources root: $CLAUDE_JOB_DIR/tmp/sources. All output dirs: docs/atlas/concepts/<slug>/.
 After extraction: add 30 entries to BOOKS in scripts/build_atlas.py, regenerate CATALOG.md,
-weave done (96); verify: flow-lean 24→18, people-learning 25→21; batch1 (systems-tech, strategy-product) running. Then rebuild, corpus, commit, push, artifact.
+Orphan pass: business ✓45, psych-agile ✓48, leadership ✓25; running systems-tech. Then 2 verifiers, rebuild, PR #2.
 
 - [~] A deep-simplicity (Gribbin, Systems), simple-rules ✓7, art-of-problem-solving ✓8, on-the-shortness-of-life ✓5, ai-superpowers ✓6, the-inevitable ✓7 — others RUNNING
 - [ ] B fabric-of-reality (Deutsch, Tech: "The fabric of reality...WeLib.org .md" in Tech/AI), field-guide-to-lies ✓7, design-of-everyday-things ✓8, inspired ✓7, running-lean ✓7, four-steps-to-the-epiphany ✓8
