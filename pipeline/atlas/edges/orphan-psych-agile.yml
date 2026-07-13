@@ -1,0 +1,350 @@
+# Orphan-weaving pass: Psychology & Self-Development (35) + Agile & Software Delivery (12)
+# Every edge below has at least one endpoint in that 47-concept orphan set.
+
+# --- Agile & Software Delivery orphans ---
+
+- from: cadence-decoupling
+  verb: parallels
+  to: four-meetings-rhythm
+  why: >-
+    Both reject one shared periodicity in favor of matching each activity to its own natural
+    cycle time — delivery/prioritization/development here, daily/weekly/monthly/quarterly
+    decisions there — because forcing a single cadence starves whichever activity moves faster or slower.
+
+- from: flow-items
+  verb: parallels
+  to: rule-taxonomy
+  why: >-
+    Both are MECE taxonomies that carve a domain into a fixed, exhaustive set of types — four
+    flow items, six rule types — where the category a thing falls into determines who owns it
+    and how it must be handled, not a spectrum to eyeball.
+
+- from: product-oriented-management
+  verb: extends
+  to: empowered-product-teams
+  why: >-
+    Empowered teams need a funding mechanism that survives beyond one release to stay durable;
+    product-oriented management supplies exactly that — staffing and measuring against
+    outcomes instead of a fixed-scope project budget that expires.
+
+- from: rock-breaking
+  verb: parallels
+  to: fractal-self-similarity
+  why: >-
+    Both describe the same operation repeating at every scale of magnification — breaking, in
+    one case conversation, in the other geometry — so the pattern looks structurally identical
+    whether you zoom into an epic or a single task.
+
+- from: multi-process-handling
+  verb: tempers
+  to: context-switching-tax
+  why: >-
+    Multi-process handling shows switching between tasks can be nearly free when the rotation
+    is rehearsed, physical, and machine-paced — naming the condition under which the heavy
+    cognitive overhead the tax describes for knowledge work simply doesn't accrue.
+
+- from: last-responsible-moment
+  verb: instantiates
+  to: optionality
+  why: >-
+    Delaying a commitment until failing to decide would eliminate an alternative is exactly
+    optionality's structure in a scheduling frame — holding the right, not the obligation, to
+    choose, which only closes when waiting longer would forfeit it.
+
+- from: expected-value-of-information
+  verb: formalizes
+  to: last-responsible-moment
+  why: >-
+    "Any later is a guess, any earlier is procrastination" gets a measurable trigger once you
+    can compute it: the last responsible moment is precisely when further waiting's expected
+    value of information drops below its cost.
+
+- from: two-kinds-of-integrity
+  verb: parallels
+  to: smart-vs-healthy
+  why: >-
+    Both insist a system needs two structurally distinct kinds of coherence — one facing
+    outward (customer value / smart decisions), one facing inward (architecture / team health)
+    — and each fails independently, so excelling at one masks failure in the other.
+
+- from: context-switching-tax
+  verb: parallels
+  to: one-direction-at-a-time
+  why: >-
+    Both deny that a mind can be time-sliced like a CPU: it can be maximally sensitized to only
+    one task or signal at once, so switching isn't free multiplexing but a real, hidden
+    overhead the naive scheduling metaphor doesn't count.
+
+- from: failure-demand
+  verb: instantiates
+  to: system-archetypes
+  why: >-
+    Unplanned rework crowding out planned capacity is a concrete case of a reinforcing-loop
+    archetype — an unresolved root cause returns as fires that consume the very capacity that
+    would have prevented it, a structure that recurs across domains.
+
+- from: time-thief-o-gram
+  verb: parallels
+  to: buffer-management
+  why: >-
+    Both replace a lagging output metric with a leading, named-cause signal — buffer
+    penetration, or WIP/dependencies/unplanned-work/priority-conflict/neglect — so managers can
+    act on why work is slow before a deadline is already missed.
+
+# --- Psychology & Self-Development orphans ---
+
+- from: habit-stacking
+  verb: instantiates
+  to: leverage
+  why: >-
+    Anchoring a new habit to an already-automatic one exploits a precise, nonobvious leverage
+    point in a personal system — the completion of an existing routine — where a tiny addition
+    produces disproportionate, lasting change.
+
+- from: elaboration
+  verb: instantiates
+  to: betweenness
+  why: >-
+    Elaboration's meaning-making happens neither in the new material nor in prior knowledge
+    alone but in the relation actively built between them — restating and connecting — the
+    same claim betweenness makes about where reality and meaning actually reside.
+
+- from: interleaving
+  verb: parallels
+  to: overfitting
+  why: >-
+    Blocked practice lets a learner latch onto a superficial order cue (this is problem three,
+    so it's type C) rather than the true discriminating feature, the same failure overfitting
+    names — fitting noise in training conditions that doesn't generalize to new ones.
+
+- from: spaced-practice
+  verb: instantiates
+  to: antifragility
+  why: >-
+    Partial forgetting between sessions acts as an intermittent stressor with a recovery
+    interval that makes memory come back stronger than continuous, stressor-free exposure
+    would — the same gain-from-disorder-plus-recovery structure antifragility formalizes.
+
+- from: forcing-functions
+  verb: tempers
+  to: libertarian-paternalism
+  why: >-
+    Forcing functions make an error physically impossible with no opt-out at all, naming the
+    condition — irreversible, catastrophic mistakes — where libertarian paternalism's insistence
+    on keeping opting-out easy and cheap is no longer sufficient.
+
+- from: recap-disclosure
+  verb: parallels
+  to: coveillance
+  why: >-
+    Both convert a one-way, opaque information asymmetry into a mutual, legible channel —
+    sellers reporting your own usage back to you, or watchers being watched back — so the
+    disadvantaged party gains comparable data instead of just being monitored or billed.
+
+- from: shadow-integration
+  verb: parallels
+  to: the-hidden
+  why: >-
+    Both locate the most dangerous failure in a structurally unexamined region — the denied
+    unconscious, the organization's own blind spot — that returns distorted precisely because
+    it was never looked at, and believing you have none is the mechanism's own symptom.
+
+- from: strategic-elusiveness
+  verb: contradicts
+  to: radical-transparency
+  why: >-
+    Both make a general claim about full disclosure's effect on a relationship and reach
+    opposite verdicts — concealment always costs more trust than truth, versus complete
+    availability reliably extinguishing the fascination partial absence sustains.
+
+- from: incentive-driven-addiction
+  verb: extends
+  to: craving-brain
+  why: >-
+    The same anticipatory-dopamine circuitry that fuses a cue and reward into a felt craving
+    before the routine begins is what short-term metric-based reward systems hijack at
+    organizational scale, producing selfish behavior even from well-intentioned people.
+
+- from: crisis-as-habit-lever
+  verb: parallels
+  to: paradigm-crisis
+  why: >-
+    Entrenched habits and entrenched paradigms both resist mere argument or command — each
+    needs a recognized, persistent failure (a crisis, an unyielding anomaly) to license
+    wholesale replacement rather than incremental adjustment.
+
+- from: habit-vulnerability-windows
+  verb: parallels
+  to: stepping-up-process
+  why: >-
+    Both describe a bounded window of heightened plasticity opened by a life or career
+    transition, during which old patterns loosen and new ones can take root — a structured
+    passage, not an instant conversion.
+
+- from: routines-as-truces
+  verb: parallels
+  to: evolved-vs-designed-rules
+  why: >-
+    Both describe rules or routines that emerge from negotiation among competing interests
+    rather than deliberate top-down design, becoming entrenched precisely because they encode
+    a settlement, which is why they resist simple redesign and fail when the settlement tilts.
+
+- from: ideal-apprenticeship
+  verb: parallels
+  to: coaching-kata
+  why: >-
+    Both transmit tacit skill through staged, repeated practice guided by real-time correction
+    on real work — observation, practice, experimentation, or the coach/learner "catch" —
+    rather than through verbal explanation of principles.
+
+- from: lifes-task
+  verb: contradicts
+  to: possible-selves
+  why: >-
+    One claims your vocation is innate and planted at birth, waiting to be discovered; the
+    other claims identity is built by experimenting toward future selves you don't yet have —
+    fixed calling versus constructed direction are direct rivals.
+
+- from: masterly-intuition
+  verb: tempers
+  to: system-1-system-2
+  why: >-
+    Masterly intuition names the specific condition — years of immersion in a domain with
+    stable, fast feedback — under which fast, automatic System-1-style judgment becomes
+    genuinely reliable rather than the bias-prone shortcut it usually is.
+
+- from: naive-perspective
+  verb: parallels
+  to: theory-laden-perception
+  why: >-
+    Both deny neutral observation: what a person perceives in others, or what a scientist
+    perceives in data, is filtered through a pre-existing framework — a childhood emotional
+    template or a governing paradigm — invisibly, without the perceiver noticing the filter.
+
+- from: negative-capability
+  verb: parallels
+  to: no-instant-rationality
+  why: >-
+    Both argue that premature verdicts produce worse conclusions than sustained suspension of
+    judgment — an idea allowed to stay unresolved, a programme's status only judgeable in
+    hindsight — so tolerating unresolved uncertainty longer is itself the more accurate move.
+
+- from: the-current
+  verb: parallels
+  to: the-gray-zone
+  why: >-
+    Both make invisible territory visible through the same repeated cycle — speculate, then
+    verify against observation, then adjust — rather than by planning the whole path in
+    advance, since neither the pattern nor the route can be seen until you've crossed it.
+
+- from: discipline-as-professional-virtue
+  verb: tempers
+  to: forcing-functions
+  why: >-
+    Most professional judgment calls can't be reduced to a physical constraint that makes
+    error impossible; discipline-as-virtue names the condition — no forcing function is
+    available — where a cultivated, voluntary commitment to procedure has to do that work instead.
+
+- from: ignorance-vs-ineptitude
+  verb: extends
+  to: human-error-is-bad-design
+  why: >-
+    Human-error-is-bad-design accounts for one failure mode — knowing but failing to apply
+    correctly because the design induces the error; ignorance-vs-ineptitude adds the other,
+    distinct cause — simply not knowing — which needs a different fix than redesign.
+
+- from: directions-not-descriptions
+  verb: contradicts
+  to: identity-based-habits
+  why: >-
+    One claims lasting change comes from adopting an identity label ("I am a runner"); the
+    other claims labeling a disposition never works and only instructing a specific behavior
+    for the moment does — opposite bets on whether labeling drives behavior.
+
+- from: movement-over-judgment
+  verb: parallels
+  to: exploration-exploitation-tradeoff
+  why: >-
+    Both require deliberately deferring evaluation in favor of following an option further —
+    using an idea for where it leads instead of judging its fit, testing an alternative
+    instead of committing to the best-so-far — because premature judgment forecloses payoffs.
+
+- from: speculative-positive
+  verb: parallels
+  to: seeking-disconfirmation
+  why: >-
+    Both override the mind's default evaluative direction with a deliberately chosen, opposite
+    one — disciplined positive-scanning against instinctive caution, disciplined
+    negative-scanning against instinctive confirmation-seeking — because the default is structurally biased.
+
+- from: downward-spiral
+  verb: parallels
+  to: runaway-narrowing
+  why: >-
+    Both locate the real damage not in the first deviation but in the corrective mechanism's
+    failure to trigger — refusing to accept the first mistake, or a system's dominant mode
+    entrenching instead of swinging back to balance — which is what lets errors compound.
+
+- from: expert-chunking
+  verb: parallels
+  to: exemplar
+  why: >-
+    Both describe expertise as a repertoire of internalized concrete pattern-templates —
+    chunks, exemplars — that let rapid, unconscious recognition of a new instance as a known
+    type replace explicit, step-by-step derivation from rules.
+
+- from: making-smaller-circles
+  verb: instantiates
+  to: via-negativa
+  why: >-
+    Progressively condensing a technique's outward form while protecting its essence is a
+    concrete case of improvement through subtraction — removing what's inessential rather than
+    adding more — the general mechanism via-negativa names.
+
+- from: performance-trigger
+  verb: parallels
+  to: kata
+  why: >-
+    Both are fixed, content-neutral routines whose value lies purely in the repetition, not the
+    content — rehearsed daily until they reliably summon a target state (peak focus, synced
+    thought-and-action) on demand, even under pressure or unpredictable conditions.
+
+- from: soft-zone
+  verb: instantiates
+  to: antifragility
+  why: >-
+    A concentration that absorbs distraction into the performance itself, rather than merely
+    resisting it, is a concrete instance of gaining from disorder rather than just surviving
+    it — distinct from the brittle Hard Zone that only works absent disruption.
+
+- from: attention-engineering
+  verb: extends
+  to: free-as-a-business-model
+  why: >-
+    Free, ad-subsidized platforms need the segment that doesn't pay to stay maximally engaged;
+    attention-engineering supplies the actual mechanism — intermittent reinforcement, manufactured
+    social approval — that converts that segment's compulsive use into sellable attention.
+
+- from: attention-resistance
+  verb: parallels
+  to: wip-limits
+  why: >-
+    Both deliberately impose an artificial constraint against a natural, unconstrained pull —
+    friction against infinite notifications, a cap against unlimited work-in-progress — to
+    protect a system's health rather than letting it run unbounded.
+
+- from: conversation-centric-communication
+  verb: parallels
+  to: story-as-conversation
+  why: >-
+    Both insist a lightweight written artifact — a text message, a story card — is only a
+    pointer to the real event, not a substitute for it, and mistaking the token (texting,
+    the written card) for the substance (relationship, shared understanding) is the actual failure.
+
+- from: high-quality-leisure
+  verb: instantiates
+  to: goldilocks-rule
+  why: >-
+    Skill-demanding pursuits chosen for their own satisfaction work because they sit at the
+    edge of current ability, the exact challenge-skill calibration the Goldilocks Rule
+    describes — which passive, friction-free digital consumption structurally cannot offer.

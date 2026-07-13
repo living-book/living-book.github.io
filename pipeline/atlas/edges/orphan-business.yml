@@ -1,0 +1,320 @@
+- from: business-model-canvas
+  verb: parallels
+  to: story-mapping
+  why: >-
+    Both replace a sequential written document with one shared
+    two-dimensional visual artifact — nine blocks or a narrative backbone —
+    so a whole team can see, discuss, and revise the entire system together
+    instead of reading it in pieces.
+- from: lean-canvas
+  verb: extends
+  to: business-model-canvas
+  why: >-
+    Lean Canvas keeps the nine-block visual template but swaps stable-business
+    blocks like Key Partners for Problem and Unfair Advantage, adding a
+    problem-first sequencing and afternoon-speed revision the original
+    template was never built for.
+- from: drum-buffer-rope
+  verb: parallels
+  to: kanban-pull-system
+  why: >-
+    Both cap how much work can enter a system to match its slowest
+    constraint — a rope release or a WIP-limited token — so unconstrained
+    upstream stages stop overproducing work the bottleneck can't yet absorb.
+- from: innovation-proficiency
+  verb: parallels
+  to: learning-organization
+  why: >-
+    Both insist a capability treated everywhere else as episodic effort —
+    innovating, learning — only compounds when run as a permanent, funded
+    organizational discipline with its own structure, not squeezed onto
+    people's day jobs.
+- from: goal-transparency
+  verb: instantiates
+  to: radical-transparency
+  why: >-
+    Making every goal from the CEO down publicly visible is a concrete
+    application of the broader principle that concealing information costs
+    an organization more trust and alignment than the discomfort of exposing
+    it ever would.
+- from: gospel-of-10x
+  verb: parallels
+  to: barbell-strategy
+  why: >-
+    Both deliberately split a portfolio — of goals or of bets — into two
+    extremes, safe-and-certain plus stretch-and-likely-to-fail, refusing to
+    blend them into one moderate middle that would flatten both the safety
+    and the upside.
+- from: forcing-functions
+  verb: parallels
+  to: planner-doer-model
+  why: >-
+    Both refuse to rely on a person's momentary willpower or vigilance,
+    instead engineering the environment itself — a physical constraint or a
+    precommitment device — so the wrong action becomes structurally
+    unavailable rather than merely discouraged.
+- from: human-centered-design-process
+  verb: parallels
+  to: ideal-apprenticeship
+  why: >-
+    Both convert an ambiguous, high-stakes challenge into competence through
+    a fixed, ordered sequence of distinct modes — observe, then generate,
+    then test — that must run in that order and can't be skipped or blended.
+- from: discovery-delivery-split
+  verb: parallels
+  to: exploration-exploitation-tradeoff
+  why: >-
+    Both name the same tension between learning what works and committing to
+    build it, but Inspired resolves it architecturally — two permanent
+    parallel tracks — rather than by tuning a single explore-versus-exploit
+    knob over time.
+- from: disposable-prototypes
+  verb: parallels
+  to: set-based-development
+  why: >-
+    Both defer real engineering commitment by using cheap, deliberately
+    non-final artifacts — a throwaway simulation or a set of parallel design
+    options — to let real feedback pick the answer before resources are
+    spent building it.
+- from: opportunity-assessment
+  verb: parallels
+  to: clarifying-the-decision
+  why: >-
+    Both gate expensive exploratory work — product discovery or measurement —
+    behind a short, mandatory upfront statement of what's actually being
+    decided, so nobody spends weeks investigating a question nothing would
+    change.
+- from: roadmap-commitment-trap
+  verb: instantiates
+  to: the-map-mistaken-for-the-world
+  why: >-
+    A roadmap is a representation built to make future work tractable, and
+    the moment an organization reads it as a literal promise rather than a
+    provisional sketch, it has mistaken the map for the world it was
+    abstracted from.
+- from: customer-development-interviews
+  verb: parallels
+  to: go-and-see
+  why: >-
+    Both insist ground truth about a real problem or process can only come
+    from direct, firsthand engagement with the actual person or situation,
+    not from surveys, secondhand reports, or the comfortable substitute of
+    intuition.
+- from: problem-solution-fit
+  verb: parallels
+  to: stepping-up-process
+  why: >-
+    Both describe progress through qualitatively distinct, sequential
+    stages — each with its own tactics and definition of success — rather
+    than one continuous ramp, so skipping or blending stages produces a
+    startup or a leader that never arrives.
+- from: unique-value-proposition
+  verb: parallels
+  to: value-based-pricing
+  why: >-
+    Both anchor a company's core value claim — a positioning statement or a
+    price — in the customer's own realized benefit, refusing to derive it
+    from an internal reference point like a feature list or production cost.
+- from: build-for-the-few
+  verb: parallels
+  to: minimum-viable-solution
+  why: >-
+    Both scope a first release to whoever it must actually satisfy right
+    now — the visionary few, or the outcome that matters — rather than an
+    aggregated wish list built for a hypothetical mainstream that doesn't
+    exist yet.
+- from: customer-development-model
+  verb: extends
+  to: validated-learning-discovery
+  why: >-
+    Customer Development takes the single practice of testing a solution
+    with real users before building it and extends it into a company-wide
+    parallel process run continuously through the entire path from founding
+    to scale.
+- from: no-instant-rationality
+  verb: tempers
+  to: iterate-or-exit
+  why: >-
+    Forcing a definitive recycle-or-advance verdict at each checkpoint
+    oversells its own reliability — Lakatos's point that the rational moment
+    to abandon a struggling line of work is knowable only in hindsight limits
+    how much any in-the-moment checkpoint can settle.
+- from: market-type
+  verb: parallels
+  to: strategic-arenas
+  why: >-
+    Both replace a coarse default classification — an industry, a generic
+    startup — with a finer-grained one, arguing the standard unit obscures
+    exactly the variable that actually determines sales cycle, cash needs,
+    and strategy.
+- from: mission-centric-organization
+  verb: parallels
+  to: create-a-customer
+  why: >-
+    Both organize a company's structure and effort around an external,
+    purpose-defined mission rather than around internal proxies like
+    headcount, job titles, or profit, treating the mission as the
+    coordinating device.
+- from: premature-scaling
+  verb: instantiates
+  to: planning-fallacy
+  why: >-
+    Burning cash against a business plan's own execution documents rather
+    than verified customer facts is the planning fallacy's inside-view
+    optimism playing out as a startup's cash-burn decision.
+- from: repeatable-sales-roadmap
+  verb: parallels
+  to: small-sample-inference
+  why: >-
+    Both push back on the intuition that trusting a pattern requires
+    large-scale data — a second and third customer buying the same way, or
+    five random observations, already carry far more confirming evidence
+    than instinct credits.
+- from: four-zones-model
+  verb: parallels
+  to: multidimensional-organization
+  why: >-
+    Both partition an organization into structurally distinct units, each
+    running its own logic, playbook, and investment horizon, rather than
+    coordinating everything through one uniform hierarchy that would let one
+    zone's rules contaminate another's.
+- from: performance-matrix-governance
+  verb: parallels
+  to: circular-organization
+  why: >-
+    Both build a structural mechanism where authority runs in two directions
+    at once — a co-signed grid cell, or a board of boss and reports — so
+    cross-cutting accountability is formally shared, not left to one
+    function's goodwill.
+- from: zone-offense-defense
+  verb: parallels
+  to: one-direction-at-a-time
+  why: >-
+    Both argue a system — a mind, an enterprise — can be fully mobilized
+    toward only one mode at a time, since offense and defense, like two
+    thinking directions, demand opposite resource commitments that dilute
+    each other if pursued together.
+- from: customer-success-criteria
+  verb: parallels
+  to: outcome-over-output
+  why: >-
+    Both insist success must be defined by the customer's or user's own
+    criteria for a completed result — a win condition or a behavior change —
+    rather than by whatever list of features or deliverables gets shipped.
+- from: job-drivers
+  verb: parallels
+  to: habit-vulnerability-windows
+  why: >-
+    Both locate the real determinant of importance or receptivity in
+    surrounding circumstance rather than in the job or habit itself —
+    background makes a job matter more, just as a life transition makes a
+    habit newly changeable.
+- from: jobs-to-be-done
+  verb: instantiates
+  to: problem-formulation-shapes-solutions
+  why: >-
+    Redefining the market's unit of analysis from product category to
+    underlying job is a direct application of the principle that how a
+    problem is framed determines which competitors and solutions become
+    visible at all.
+- from: pain-point-process-mapping
+  verb: parallels
+  to: time-thief-o-gram
+  why: >-
+    Both refuse to infer friction from aggregate, lagging metrics and instead
+    chart the granular, step-by-step real process — occasion by occasion, or
+    cause by named cause — to locate exactly where and why delay occurs.
+- from: businesslike-investing
+  verb: parallels
+  to: picking-people
+  why: >-
+    Both replace a high-stakes decision usually made on gut feel, reputation,
+    or optimism — buying a stock, hiring a person — with a disciplined,
+    reproducible process built from arithmetic or fixed steps rather than
+    intuitive judgment.
+- from: defensive-vs-enterprising-investor
+  verb: parallels
+  to: match-organization-size-to-market
+  why: >-
+    Both fix the right vehicle to an honest capacity assessment of the
+    actor rather than to ambition — an investor's real time and effort, a
+    company's real size — since mismatching the two guarantees
+    underperformance either way.
+- from: dollar-cost-averaging
+  verb: parallels
+  to: save-more-tomorrow
+  why: >-
+    Both are precommitment devices that schedule a fixed automatic behavior
+    in advance so recurring psychological biases — market-timing temptation,
+    loss aversion — never get a fresh chance to interfere with each
+    individual decision.
+- from: investment-vs-speculation
+  verb: contradicts
+  to: barbell-strategy
+  why: >-
+    Graham's dichotomy treats any position lacking safety-of-principal
+    analysis as speculation dressed up, while Taleb's barbell deliberately
+    allocates a bounded slice to exactly such unanalyzable, high-risk bets as
+    sound strategy, not a lapse in discipline.
+- from: superinvestors-of-graham-and-doddsville
+  verb: tempers
+  to: randomness-blindness
+  why: >-
+    Randomness-blindness warns that success is usually misread as skill when
+    it's luck, but independent winners converging on one traceable, shared
+    method is the specific condition where that skepticism fails and real
+    skill is the better explanation.
+- from: cascading-communication
+  verb: parallels
+  to: story-as-conversation
+  why: >-
+    Both distrust the polished, one-time written or broadcast artifact and
+    locate real understanding in repeated, live, informal talk — word-of-mouth
+    down a hierarchy, or a card that only means anything once discussed.
+- from: first-team
+  verb: instantiates
+  to: system-boundary
+  why: >-
+    Lencioni's rule about where an executive's loyalty belongs is a concrete
+    case of the principle that a real system is whichever grouping is more
+    tightly bound internally — binding to the department instead of the peer
+    team draws the boundary wrong.
+- from: four-meetings-rhythm
+  verb: parallels
+  to: classes-of-service
+  why: >-
+    Both refuse to treat every instance of a category — a meeting, a work
+    item — the same way, instead sorting them by structural type so each
+    gets a cadence or policy actually matched to its own nature.
+- from: human-systems-reinforcement
+  verb: parallels
+  to: environment-design
+  why: >-
+    Both refuse to rely on people remembering or valuing the right thing on
+    their own, instead engineering the surrounding system — HR processes or
+    physical space — so the desired priority gets reinforced as a byproduct
+    of normal operation.
+- from: smart-vs-healthy
+  verb: parallels
+  to: master-and-emissary
+  why: >-
+    Both describe an analytical, measurable function — strategy and finance,
+    or the Emissary hemisphere — crowding out a harder-to-quantify one it
+    should be grounded by — organizational health, or the Master — until the
+    crowding-out itself becomes the failure.
+- from: thematic-goal
+  verb: instantiates
+  to: crisis-as-habit-lever
+  why: >-
+    Deliberately manufacturing one all-consuming rallying cry is a designed
+    way to reproduce, without an actual crisis, the same rare window that
+    genuine crises open for making entrenched silos and routines suddenly
+    negotiable.
+- from: business-model-environment
+  verb: instantiates
+  to: open-system-behavior
+  why: >-
+    Mapping market, industry, trend, and macro forces before redesigning a
+    business model is a direct application of the principle that an open
+    system's viable behavior is properly selected by real environmental
+    input, not fixed by internal design alone.
