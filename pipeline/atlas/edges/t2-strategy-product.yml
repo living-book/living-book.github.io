@@ -42,13 +42,14 @@
     elsewhere in the worker who responds to it.
 
 - from: work-visibility
-  verb: instantiates
+  verb: extends
   to: gulfs-of-execution-and-evaluation
   why: >-
-    A kanban board closing the gulf of evaluation for a whole team's work
-    state — replacing invisible queues and status with a glance-able signal —
-    is Norman's individual-device fix for "did my action work?" scaled up to
-    collective knowledge work.
+    Norman's gulf of evaluation is closed for one person acting on one
+    device; work visibility scales the identical closing move — replace
+    invisible state with a glance-able signal — from a single actor's
+    perceive-interpret-compare loop to a whole team's shared, ambient view of
+    collective work state.
 
 - from: good-checklist-design
   verb: instantiates
@@ -82,29 +83,35 @@
   verb: parallels
   to: four-big-risks
   why: >-
-    Both refuse to let "build it and see" stand in for evidence, insisting
-    risk be decomposed into named categories — pain, reach, price, market,
-    feasibility, or value, usability, feasibility, viability — and retired in
-    priority order before real resources commit.
+    Both refuse to let "build it and see" stand in for evidence, insisting a
+    single "will this work" judgment be decomposed into named, separately
+    testable risk categories — pain, reach, price, market, feasibility in
+    Running Lean's ranked order, or value, usability, feasibility, viability
+    in Cagan's four — each resolved with real evidence before resources
+    commit to building.
 
 - from: discovery-driven-planning
   verb: tempers
   to: de-risking-in-priority-order
   why: >-
-    Ranking assumptions by customer pain, price, and market size presumes a
-    market to measure them against; in a genuinely nonexistent market there is
-    no such reference data, so the ranking itself is a guess — the plan must
-    instead be inverted into load-bearing assumptions and tested one cheap
-    step at a time.
+    Running Lean's fixed ranking presumes you can already judge in advance
+    which assumption category — pain, reach, price, market size — is
+    riskiest; Christensen's genuinely disruptive markets defeat that judgment
+    before testing even starts, since the winning application isn't merely
+    unmeasured but unknowable in advance (Honda didn't plan for off-road
+    bikes), so no fixed generic priority order substitutes for agnostic,
+    iterative discovery.
 
 - from: mr-market
-  verb: instantiates
+  verb: parallels
   to: system-1-system-2
   why: >-
-    Graham's manic-depressive quoter is System 1 given a face and a daily
-    price — fast, emotional, mood-driven, untethered from fundamentals — and
-    his discipline of ignoring or trading against him is System 2's job of
-    overriding a noisy automatic read.
+    Graham's manic-depressive quoter personifies the same behavior Kahneman
+    locates inside a single mind — fast, emotional, mood-driven, untethered
+    from fundamentals — and the investor's discipline of ignoring or trading
+    against him is the same move as System 2 overriding a noisy automatic
+    read, just staged as two external characters instead of one internal
+    one.
 
 - from: antifragility
   verb: tempers
@@ -135,24 +142,17 @@
     job sets who else counts as a rival — so an outside assessor using a
     different frame misses the real threat or opportunity entirely.
 
-- from: smart-vs-healthy
-  verb: parallels
-  to: learning-organization
-  why: >-
-    Both split organizational effectiveness into a measurable output
-    dimension and a relational one — strategy versus health, or the four
-    hard disciplines versus team learning — and both find firms overinvest
-    in the easily quantified half while the other silently decides whether
-    it ever gets executed.
-
 - from: v2mom-cascading-commitment
   verb: parallels
   to: six-critical-questions
   why: >-
     Both replace a polished top-down mission statement with a fixed,
-    answerable structure — six questions or four V2MOM fields — that each
-    leader fills in directionally then cascades downward, so alignment is
-    structural inheritance rather than repeated wordsmithing.
+    answerable structure that forces genuine dialogue instead of
+    wordsmithing — six questions or five V2MOM fields; V2MOM then chains
+    each leader's answers to their boss's all the way up, while the six
+    questions do the equivalent work by demanding the whole team argue
+    through and jointly own a common answer rather than receive one from
+    above.
 
 - from: no-instant-rationality
   verb: tempers

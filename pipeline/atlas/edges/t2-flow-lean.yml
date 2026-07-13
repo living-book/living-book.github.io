@@ -16,9 +16,10 @@
   to: queues-as-root-cause
   why: >-
     Reinertsen traces product-development waste to invisible queues of
-    waiting work; each additional hard dependency DeGrandis names is exactly
-    another queue a delivery must wait behind, so her probability collapse is
-    queueing math compounding, not bad luck.
+    waiting work; each hard dependency DeGrandis names is another point
+    where a delivery must wait on someone else's queue before it can
+    proceed, so stacking N of them compounds those separate waits into her
+    1-in-2^N collapse — not bad luck, but invisible queues multiplying.
 
 - from: queues-as-root-cause
   verb: extends
@@ -46,15 +47,6 @@
     pull exactly what it needs from an upstream one, stripping out the
     manufacturing-specific card mechanics so the same signal-capped pull
     discipline works on any knowledge-work queue.
-
-- from: andon
-  verb: parallels
-  to: checklist-as-forcing-conversation
-  why: >-
-    Both are a fixed trigger — a cord pulled, a checklist item read aloud —
-    whose real power is forcing a conversation between people who wouldn't
-    otherwise stop and speak, not the informational content of the signal
-    itself.
 
 - from: autonomation
   verb: parallels
@@ -101,59 +93,24 @@
     asymmetric shape as combining extreme safety with extreme risk while
     avoiding the exposed middle.
 
-- from: last-responsible-moment
-  verb: parallels
-  to: optionality
-  why: >-
-    Both treat delay itself as a purchasable position: postponing an
-    irreversible commitment until information forces it, and holding a
-    right without obligation, both convert uncertainty into upside instead
-    of paying to resolve it early.
-
-- from: decentralized-control
-  verb: parallels
-  to: circle-of-safety
-  why: >-
-    Both locate authority with whoever has real-time local knowledge, not
-    rank: fast-aging front-line problems need pushed-down decision rights,
-    and Sinek's leaders extend that same trust downward by removing internal
-    danger so people act on what they see.
-
-- from: failure-demand
-  verb: instantiates
-  to: iatrogenics
-  why: >-
-    Failure demand — fires and rework consuming capacity — is often the
-    delayed harm of an earlier "helpful" shortcut coming due; iatrogenics
-    names exactly this pattern of net damage from an intervention whose harm
-    and helper are never traced together.
-
 - from: seeing-waste-in-software
   verb: instantiates
   to: waste-taxonomy
   why: >-
-    Poppendieck's seven wastes of software are a direct one-to-one
-    translation of Ohno's seven manufacturing wastes into a different
-    medium, proving the underlying capacity-equals-work-plus-waste
-    accounting transfers across domains unchanged.
+    The Poppendiecks explicitly map Shigeo Shingo's seven manufacturing
+    wastes onto software — the same seven-category taxonomy of waste Ohno
+    lays out in this book — proving the underlying capacity-equals-work-
+    plus-waste accounting transfers across domains unchanged.
 
 - from: production-leveling
-  verb: parallels
-  to: buffer-management
-  why: >-
-    Both manage variability's transmission through a chain rather than
-    eliminating it locally: leveling smooths demand before it enters the
-    line so downstream fluctuation can't compound, while buffer management
-    turns fluctuation already absorbed into a graduated warning signal.
-
-- from: production-leveling
-  verb: contradicts
+  verb: tempers
   to: variability-as-asset
   why: >-
-    Ohno treats all demand unevenness as waste to be smoothed away before it
-    amplifies backward through the chain; Reinertsen argues that import is
-    wrong for product development, where variability's value depends on
-    payoff shape, so some volatility should be preserved, not suppressed.
+    Ohno's smooth-all-unevenness rule isn't refuted by Reinertsen, it's
+    scoped: it holds where repeating an identical product is the source of
+    value, so any variability is pure waste, but not in product development,
+    where changing the design is the source of value and some volatility
+    should be preserved rather than smoothed away.
 
 - from: priority-dilution
   verb: tempers
@@ -172,16 +129,6 @@
     invested effort right now, while limping along defers that reckoning —
     the same asymmetric loss-versus-gain weighting Kahneman documents,
     applied to portfolio prioritization instead of money.
-
-- from: context-switching-tax
-  verb: parallels
-  to: two-modes-of-attention
-  why: >-
-    Both reject the CPU-scheduling metaphor for human attention: switching
-    between concurrent tasks means physically shifting between two
-    structurally distinct attentional modes — broad-contextual and
-    narrow-manipulative — a real reconfiguration, not a costless register
-    swap.
 
 - from: trust-based-contracts
   verb: parallels

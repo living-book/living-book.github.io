@@ -10214,6 +10214,594 @@
    "source": "woven"
   },
   {
+   "from": "classes-of-service",
+   "verb": "extends",
+   "to": "cost-of-delay",
+   "why": "Cost of delay quantifies profit-lost-per-time as a single number per item; classes-of-service turns that quantity into an operational policy — expedite, fixed-date, standard, intangible — so teams can act on its economics without computing it precisely for every item.",
+   "source": "woven"
+  },
+  {
+   "from": "dependency-combinatorics",
+   "verb": "instantiates",
+   "to": "queues-as-root-cause",
+   "why": "Reinertsen traces product-development waste to invisible queues of waiting work; each hard dependency DeGrandis names is another point where a delivery must wait on someone else's queue before it can proceed, so stacking N of them compounds those separate waits into her 1-in-2^N collapse — not bad luck, but invisible queues multiplying.",
+   "source": "woven"
+  },
+  {
+   "from": "queues-as-root-cause",
+   "verb": "extends",
+   "to": "wip-limits",
+   "why": "Kanban's WIP cap treats queue length as the thing to control; Reinertsen supplies the underlying reason it works — queues, not slow activities, are where development risk, waste, and delay actually originate, so capping WIP caps the root cause directly.",
+   "source": "woven"
+  },
+  {
+   "from": "batch-size-economics",
+   "verb": "parallels",
+   "to": "two-minute-rule",
+   "why": "Both find shrinking the unit of work below its \"natural\" size pays for itself: Reinertsen trades batch size against transaction cost and cycle time, and Clear's rule downscales a habit until start-up friction is negligible, preserving the ritual of beginning.",
+   "source": "woven"
+  },
+  {
+   "from": "kanban-pull-system",
+   "verb": "extends",
+   "to": "just-in-time",
+   "why": "Anderson generalizes Ohno's physical token that lets a downstream process pull exactly what it needs from an upstream one, stripping out the manufacturing-specific card mechanics so the same signal-capped pull discipline works on any knowledge-work queue.",
+   "source": "woven"
+  },
+  {
+   "from": "autonomation",
+   "verb": "parallels",
+   "to": "human-error-is-bad-design",
+   "why": "Both relocate responsibility for a defect from the individual to the system: jidoka builds a machine that halts itself at the first abnormality instead of trusting a worker to catch it, exactly as Norman treats reliably-repeated \"human error\" as evidence of bad design.",
+   "source": "woven"
+  },
+  {
+   "from": "andon",
+   "verb": "parallels",
+   "to": "buffer-management",
+   "why": "Both replace waiting for a hard failure with a graduated visual early-warning signal — a line light or a buffer-penetration color — that tells people when to act and on what, before the abnormality becomes an unrecoverable crisis.",
+   "source": "woven"
+  },
+  {
+   "from": "five-whys",
+   "verb": "parallels",
+   "to": "postmortem-ritual",
+   "why": "Both make root-cause discovery a structural habit instead of a personal intuition — a fixed drill of repeated \"why\" questions, or a mandatory retrospective after every project — guaranteeing the digging happens rather than depending on someone remembering to ask.",
+   "source": "woven"
+  },
+  {
+   "from": "variability-as-asset",
+   "verb": "instantiates",
+   "to": "antifragility",
+   "why": "Antifragility names systems that gain from volatility because their payoff is convex; Reinertsen's claim that variability's economic value depends on the shape of the payoff function is that exact convexity test, applied specifically to product-development bets.",
+   "source": "woven"
+  },
+  {
+   "from": "asymmetric-feedback",
+   "verb": "parallels",
+   "to": "barbell-strategy",
+   "why": "Both reshape a payoff distribution instead of reducing its variance: fast feedback that truncates losses while extending gains is the same asymmetric shape as combining extreme safety with extreme risk while avoiding the exposed middle.",
+   "source": "woven"
+  },
+  {
+   "from": "seeing-waste-in-software",
+   "verb": "instantiates",
+   "to": "waste-taxonomy",
+   "why": "The Poppendiecks explicitly map Shigeo Shingo's seven manufacturing wastes onto software — the same seven-category taxonomy of waste Ohno lays out in this book — proving the underlying capacity-equals-work- plus-waste accounting transfers across domains unchanged.",
+   "source": "woven"
+  },
+  {
+   "from": "production-leveling",
+   "verb": "tempers",
+   "to": "variability-as-asset",
+   "why": "Ohno's smooth-all-unevenness rule isn't refuted by Reinertsen, it's scoped: it holds where repeating an identical product is the source of value, so any variability is pure waste, but not in product development, where changing the design is the source of value and some volatility should be preserved rather than smoothed away.",
+   "source": "woven"
+  },
+  {
+   "from": "priority-dilution",
+   "verb": "tempers",
+   "to": "wsjf-sequencing",
+   "why": "Names the failure condition that swallows any sequencing formula: WSJF only produces a real rank order if items are actually compared — if everyone independently declares their own item \"priority one,\" the single ordinal ranking the math depends on never forms.",
+   "source": "woven"
+  },
+  {
+   "from": "zombie-projects",
+   "verb": "instantiates",
+   "to": "loss-aversion",
+   "why": "Zombie projects survive because killing them means realizing a loss on invested effort right now, while limping along defers that reckoning — the same asymmetric loss-versus-gain weighting Kahneman documents, applied to portfolio prioritization instead of money.",
+   "source": "woven"
+  },
+  {
+   "from": "trust-based-contracts",
+   "verb": "parallels",
+   "to": "skin-in-the-game",
+   "why": "Both trace bad outcomes to the same asymmetry: a contract engineered so each side protects itself lets one party pocket the upside while pushing risk onto the other — the Poppendiecks' fix replaces those terms with earned trust and shared cost exposure.",
+   "source": "woven"
+  },
+  {
+   "from": "options-thinking",
+   "verb": "parallels",
+   "to": "optionality",
+   "why": "Arrived at independently from opposite domains: software delivery's \"delay commitment, pay for the right not the obligation to act\" and Taleb's general theory of asymmetric payoffs are the same claim — a deferred, revocable choice beats an early, binding one under uncertainty.",
+   "source": "woven"
+  },
+  {
+   "from": "set-based-development",
+   "verb": "instantiates",
+   "to": "exploration-exploitation-tradeoff",
+   "why": "Carrying multiple design options forward in parallel until real feedback favors one is exploration-exploitation made concrete in engineering practice: the team pays to maintain unconverged alternatives rather than prematurely exploiting the first plausible design.",
+   "source": "woven"
+  },
+  {
+   "from": "self-determination",
+   "verb": "instantiates",
+   "to": "polanyis-paradox",
+   "why": "Copying a self-designed work procedure to another team while leaving behind the judgment that produced it is Polanyi's paradox in organizational design: the documented steps are explicit, but the \"knowing how\" that made them work was never something anyone could fully tell.",
+   "source": "woven"
+  },
+  {
+   "from": "objectives-and-key-results",
+   "verb": "formalizes",
+   "to": "management-by-objectives",
+   "why": "OKRs turn Drucker's discipline of managers deriving and self-measuring their own objectives into a specific, repeatable format — pairing every qualitative objective with quantitative, verifiable key results on a fixed cadence.",
+   "source": "woven"
+  },
+  {
+   "from": "feedback-analysis",
+   "verb": "parallels",
+   "to": "calibrated-estimation",
+   "why": "Both convert self-assessment into a checkable habit by recording a written expectation before the fact and scoring it against the actual outcome later, replacing intuitive confidence with a trainable track record.",
+   "source": "woven"
+  },
+  {
+   "from": "healthy-disengagement",
+   "verb": "extends",
+   "to": "systematic-abandonment",
+   "why": "Both insist stopping is a decision as disciplined as starting, but healthy-disengagement adds the mechanism Drucker leaves unspecified — named ownership and leading-indicator triggers that fire before decline becomes visible.",
+   "source": "woven"
+  },
+  {
+   "from": "systematic-abandonment",
+   "verb": "instantiates",
+   "to": "via-negativa",
+   "why": "Drucker's discipline of deliberately dropping obsolete products and policies is a concrete organizational case of the broader principle that removing what no longer fits is more reliable than adding new bets.",
+   "source": "woven"
+  },
+  {
+   "from": "vulnerability-based-trust",
+   "verb": "parallels",
+   "to": "circle-of-safety",
+   "why": "Both replace competition among teammates with felt safety — Lencioni via mutual admission of weakness, Sinek via a leader shielding the group from outside threat — freeing energy that self-protection would otherwise consume.",
+   "source": "woven"
+  },
+  {
+   "from": "braintrust",
+   "verb": "instantiates",
+   "to": "vulnerability-based-trust",
+   "why": "Pixar's peer-review room only produces honest critique because participants already trust that showing unfinished, embarrassing work will not be weaponized against them — exactly the trust Lencioni names as foundational.",
+   "source": "woven"
+  },
+  {
+   "from": "cognitive-vs-affective-conflict",
+   "verb": "tempers",
+   "to": "mining-for-conflict",
+   "why": "Lencioni prescribes deliberately extracting buried disagreement, but Roberto's distinction shows mining backfires unless facilitators keep the extracted conflict task-focused, since unmanaged mining just as easily surfaces personal friction.",
+   "source": "woven"
+  },
+  {
+   "from": "parallel-thinking",
+   "verb": "contradicts",
+   "to": "divergent-thinking-toolkit",
+   "why": "De Bono argues adversarial debate wastes energy defending positions and replaces it with everyone facing the same direction at once, directly opposing Roberto's toolkit of devil's advocacy and point-counterpoint built on manufactured adversarial argument.",
+   "source": "woven"
+  },
+  {
+   "from": "habit-loop",
+   "verb": "extends",
+   "to": "golden-rule-of-habit-change",
+   "why": "Duhigg's rule says change a habit by keeping the cue and reward and swapping the routine; Clear's four-stage loop adds craving as the actual driver between cue and response, explaining why the swap only works if craving is still satisfied.",
+   "source": "woven"
+  },
+  {
+   "from": "keystone-habits",
+   "verb": "instantiates",
+   "to": "leverage",
+   "why": "A keystone habit is a concrete case of Senge's leverage principle — a small, well-chosen change point in a system that cascades into disproportionate, system-wide change rather than one requiring proportional effort.",
+   "source": "woven"
+  },
+  {
+   "from": "small-wins",
+   "verb": "parallels",
+   "to": "progress-principle",
+   "why": "Both find that the psychological lift comes from the fact and visibility of forward movement itself, not the objective size of the win, and that this lift compounds through reinforcement into further momentum.",
+   "source": "woven"
+  },
+  {
+   "from": "investment-in-loss",
+   "verb": "parallels",
+   "to": "desirable-difficulties",
+   "why": "Both show that avoiding friction — comfortable repetition, refusing to accept a lost position — undermines learning, while deliberately accepting short-term difficulty is what makes the resulting skill durable.",
+   "source": "woven"
+  },
+  {
+   "from": "investment-in-loss",
+   "verb": "parallels",
+   "to": "fail-fast-safely",
+   "why": "Both treat early, cheap failure not as a risk to avoid but as necessary tuition for reaching a level of skill or originality that safe repetition of what already works cannot produce.",
+   "source": "woven"
+  },
+  {
+   "from": "entity-vs-incremental-theory",
+   "verb": "parallels",
+   "to": "identity-based-habits",
+   "why": "Both locate the driver of sustained behavior in self-concept rather than outcome — believing ability is malleable, and believing a behavior expresses who you are, each convert temporary effort into durable motivation.",
+   "source": "woven"
+  },
+  {
+   "from": "good-checklist-design",
+   "verb": "parallels",
+   "to": "environment-design",
+   "why": "Both replace reliance on willpower or memory with a designed external structure — a short, tested checklist and an arranged physical environment each make the correct action the path of least resistance rather than an act of discipline.",
+   "source": "woven"
+  },
+  {
+   "from": "complexity-beyond-memory",
+   "verb": "instantiates",
+   "to": "organized-complexity",
+   "why": "Modern surgery and construction sit in Weinberg's organized-complexity zone — too many interacting variables for any one mind to master by memory, yet too structured and consequential for statistical averaging alone.",
+   "source": "woven"
+  },
+  {
+   "from": "meta-cognitive-control",
+   "verb": "parallels",
+   "to": "deciding-how-to-decide",
+   "why": "Both separate the design of how a group should think from what it concludes — de Bono's blue-hat sequencing and Roberto's four-lever process design are each a deliberate, prior act of shaping the thinking process itself.",
+   "source": "woven"
+  },
+  {
+   "from": "checklist-as-forcing-conversation",
+   "verb": "instantiates",
+   "to": "systemic-silence",
+   "why": "Roberto's systemic view prescribes structural fixes for hierarchy-caused silence — new forums, altered ground rules; Gawande's checklist pause is exactly this kind of structural counter, giving a low-status team member a sanctioned, mandatory moment to speak that hierarchy would otherwise deny them.",
+   "source": "woven"
+  },
+  {
+   "from": "outsight-principle",
+   "verb": "contradicts",
+   "to": "identity-based-habits",
+   "why": "Clear frames change as inside-out — believe a new identity first, then the behavior follows — while Ibarra's research shows the reverse causal order in adults: acting into unfamiliar roles first, with identity forming afterward.",
+   "source": "woven"
+  },
+  {
+   "from": "possible-selves",
+   "verb": "parallels",
+   "to": "entity-vs-incremental-theory",
+   "why": "Both treat identity and ability as built through active experimentation rather than fixed or merely discovered — trying on an unfamiliar role and treating a hard challenge as growth material are the same bet that capacity expands through use.",
+   "source": "woven"
+  },
+  {
+   "from": "mentor-dynamic",
+   "verb": "parallels",
+   "to": "coaching-kata",
+   "why": "Both transmit tacit skill and judgment through a direct mentor-mentee relationship built on repeated guided practice on real work rather than classroom explanation — Greene's apprentice absorbs a master's internalized craft through years at his side, and Rother's mentor sharpens a mentee's judgment through a repeated vague-challenge-and- pushback dialogue, in both cases transferring what could not simply be told.",
+   "source": "woven"
+  },
+  {
+   "from": "conceptual-models",
+   "verb": "instantiates",
+   "to": "the-map-mistaken-for-the-world",
+   "why": "A user's system image is a denotative stand-in for a device's real mechanism; when it's wrong, the user acts on the map, not the machine, and no amount of correct background knowledge fixes behavior the false map is silently steering.",
+   "source": "woven"
+  },
+  {
+   "from": "conceptual-models",
+   "verb": "parallels",
+   "to": "mental-models",
+   "why": "Both locate the constraint not in the world but in an internal representation of it — a device's system image or a tacit mental model — where a distorted model blocks correct action even when the correct facts are available to reflection.",
+   "source": "woven"
+  },
+  {
+   "from": "choice-architecture",
+   "verb": "extends",
+   "to": "human-error-is-bad-design",
+   "why": "Norman relocates blame from the erring user to whatever design reliably induces the same error; Thaler generalizes this beyond error-prevention to every decision context — no way of presenting options is neutral, so a \"bad choice\" is still evidence of a badly built environment, not a flaw in the chooser.",
+   "source": "woven"
+  },
+  {
+   "from": "andon",
+   "verb": "instantiates",
+   "to": "affordances-and-signifiers",
+   "why": "A red/yellow/green andon light carries no possible action of its own — only a perceivable signal about system state — engineered exactly to be Norman's pure signifier, with the affordance for fixing the line living elsewhere in the worker who responds to it.",
+   "source": "woven"
+  },
+  {
+   "from": "work-visibility",
+   "verb": "extends",
+   "to": "gulfs-of-execution-and-evaluation",
+   "why": "Norman's gulf of evaluation is closed for one person acting on one device; work visibility scales the identical closing move — replace invisible state with a glance-able signal — from a single actor's perceive-interpret-compare loop to a whole team's shared, ambient view of collective work state.",
+   "source": "woven"
+  },
+  {
+   "from": "good-checklist-design",
+   "verb": "instantiates",
+   "to": "knowledge-in-the-world",
+   "why": "A short, tested checklist offloads the precise sequence of steps onto an external artifact so correct behavior no longer depends on a person recalling and retaining it under stress — Norman's principle turned into a survivable procedure.",
+   "source": "woven"
+  },
+  {
+   "from": "natural-mapping",
+   "verb": "parallels",
+   "to": "story-mapping",
+   "why": "Both replace a list that must be read and memorized with a spatial arrangement whose layout itself carries the meaning — a control's position matching what it operates, or a left-right narrative with top-bottom priority — so understanding needs no translation step.",
+   "source": "woven"
+  },
+  {
+   "from": "earlyvangelists",
+   "verb": "parallels",
+   "to": "sustaining-vs-disruptive-innovation",
+   "why": "Both reject \"does it satisfy mainstream requirements\" as the test for a new offering's first buyers — earlyvangelists forgive missing features because their pain is acute, and disruptive products win non-mainstream customers on price or simplicity, a metric incumbents' customers don't even use.",
+   "source": "woven"
+  },
+  {
+   "from": "de-risking-in-priority-order",
+   "verb": "parallels",
+   "to": "four-big-risks",
+   "why": "Both refuse to let \"build it and see\" stand in for evidence, insisting a single \"will this work\" judgment be decomposed into named, separately testable risk categories — pain, reach, price, market, feasibility in Running Lean's ranked order, or value, usability, feasibility, viability in Cagan's four — each resolved with real evidence before resources commit to building.",
+   "source": "woven"
+  },
+  {
+   "from": "discovery-driven-planning",
+   "verb": "tempers",
+   "to": "de-risking-in-priority-order",
+   "why": "Running Lean's fixed ranking presumes you can already judge in advance which assumption category — pain, reach, price, market size — is riskiest; Christensen's genuinely disruptive markets defeat that judgment before testing even starts, since the winning application isn't merely unmeasured but unknowable in advance (Honda didn't plan for off-road bikes), so no fixed generic priority order substitutes for agnostic, iterative discovery.",
+   "source": "woven"
+  },
+  {
+   "from": "mr-market",
+   "verb": "parallels",
+   "to": "system-1-system-2",
+   "why": "Graham's manic-depressive quoter personifies the same behavior Kahneman locates inside a single mind — fast, emotional, mood-driven, untethered from fundamentals — and the investor's discipline of ignoring or trading against him is the same move as System 2 overriding a noisy automatic read, just staged as two external characters instead of one internal one.",
+   "source": "woven"
+  },
+  {
+   "from": "antifragility",
+   "verb": "tempers",
+   "to": "margin-of-safety",
+   "why": "A price cushion protects principal against being wrong, which only buys robustness; Taleb's stronger claim is that safety alone leaves money on the table — real antifragility needs that protected base paired with a small, deliberately exposed stake that gains from the volatility margin-of-safety merely survives.",
+   "source": "woven"
+  },
+  {
+   "from": "single-threaded-big-bet",
+   "verb": "contradicts",
+   "to": "barbell-strategy",
+   "why": "Moore says spreading a disruptive bet across several efforts to avoid \"one basket\" guarantees none reach scale, so concentrate everything behind one bet; Taleb's barbell says never concentrate the risky portion at all — keep it small and diversified against a large safe base, since concentration is what makes one bad break unrecoverable.",
+   "source": "woven"
+  },
+  {
+   "from": "jobs-based-competition",
+   "verb": "parallels",
+   "to": "value-networks",
+   "why": "Both show \"competitor\" or \"value\" is only legible from inside a frame — a firm's value network sets what a technology is worth to it, a customer's job sets who else counts as a rival — so an outside assessor using a different frame misses the real threat or opportunity entirely.",
+   "source": "woven"
+  },
+  {
+   "from": "v2mom-cascading-commitment",
+   "verb": "parallels",
+   "to": "six-critical-questions",
+   "why": "Both replace a polished top-down mission statement with a fixed, answerable structure that forces genuine dialogue instead of wordsmithing — six questions or five V2MOM fields; V2MOM then chains each leader's answers to their boss's all the way up, while the six questions do the equivalent work by demanding the whole team argue through and jointly own a common answer rather than receive one from above.",
+   "source": "woven"
+  },
+  {
+   "from": "no-instant-rationality",
+   "verb": "tempers",
+   "to": "transformation-j-curve",
+   "why": "The J-curve licenses management to read worsening metrics as proof of progress, but Lakatos shows a genuine temporary dip and a real failure look identical from inside the trajectory — so \"this is progress, hold the course\" can't be told apart from denial until well after the fact.",
+   "source": "woven"
+  },
+  {
+   "from": "unfair-advantage",
+   "verb": "tempers",
+   "to": "decisive-competitive-edge",
+   "why": "A performance gap alone commands premium demand only until competitors close it; Maurya's condition that a real moat must be structurally hard to copy or buy is the missing ingredient for Goldratt's edge to stay decisive instead of eroding into the next round of catch-up.",
+   "source": "woven"
+  },
+  {
+   "from": "four-disciplines-of-health",
+   "verb": "parallels",
+   "to": "dysfunction-cascade",
+   "why": "Both model organizational outcomes as one sequential causal chain, not independent factors — health compounds forward through cohesion, then clarity, then reinforcement, while dysfunction compounds through absent trust into avoided conflict into fake commitment, so one broken link corrupts everything downstream.",
+   "source": "woven"
+  },
+  {
+   "from": "feedback-analysis",
+   "verb": "instantiates",
+   "to": "gulfs-of-execution-and-evaluation",
+   "why": "Writing down an expectation before acting and checking it against the outcome months later is Norman's evaluation gulf applied to self-knowledge — without that deliberate comparison step, a person has no reliable way to tell whether their actions actually worked.",
+   "source": "woven"
+  },
+  {
+   "from": "margin-of-safety",
+   "verb": "parallels",
+   "to": "calibrated-estimation",
+   "why": "Both refuse to trust a single point-estimate — Graham demands a price cushion wide enough to absorb being wrong about intrinsic value, while calibrated estimation demands an honest confidence interval instead of a falsely precise number, treating acknowledged uncertainty as the responsible output.",
+   "source": "woven"
+  },
+  {
+   "from": "fighting-inertia",
+   "verb": "formalizes",
+   "to": "law-of-least-effort",
+   "why": "Clear's friction principle says behavior follows the path of least effort; Fighting Inertia decomposes exactly what that effort consists of at the point of adoption — knowledge gaps, behavior-change cost, perceived risk, decision-maker count — turning a general friction claim into a checklist of specific barriers a solution must clear.",
+   "source": "woven"
+  },
+  {
+   "from": "actionable-vs-vanity-metrics",
+   "verb": "parallels",
+   "to": "proxy-metrics-trap",
+   "why": "Both distinguish a metric that drives a specific next action from one that merely documents activity or state — vanity and proxy metrics both let an organization feel informed or successful while the number has stopped connecting to any real decision or outcome.",
+   "source": "woven"
+  },
+  {
+   "from": "self-organized-criticality",
+   "verb": "instantiates",
+   "to": "power-law-distributions",
+   "why": "Page names self-organized criticality as one of two generative mechanisms behind long-tailed distributions, alongside preferential attachment; the sandpile is the concrete case — its avalanche sizes are exactly the scale-free power law Page's chapter describes, extreme events produced by the identical process as the small, routine ones.",
+   "source": "woven"
+  },
+  {
+   "from": "antifragility",
+   "verb": "tempers",
+   "to": "self-organized-criticality",
+   "why": "Taleb's antifragility test requires bounded downside with open upside; a sandpile balanced at criticality has neither — its power-law tail reaches uncapped catastrophic avalanches, so a long quiet stretch signals latent fragility building, not gain from disorder.",
+   "source": "woven"
+  },
+  {
+   "from": "surface-complexity-deep-simplicity",
+   "verb": "extends",
+   "to": "organized-complexity",
+   "why": "Gribbin supplies the generative mechanism — interaction among a handful of simple rules — that explains why Weinberg's organized-complexity systems resist both equation-by-equation reduction and statistical averaging: the complexity is real but produced, not irreducible.",
+   "source": "woven"
+  },
+  {
+   "from": "sensitive-dependence",
+   "verb": "tempers",
+   "to": "reference-projection",
+   "why": "Reference projection extrapolates current trends to expose a future breakdown; sensitive dependence names the condition — nonlinear dynamics amplifying immeasurably small differences — under which that extrapolation's shape becomes unreliable regardless of data quality.",
+   "source": "woven"
+  },
+  {
+   "from": "idealized-design",
+   "verb": "parallels",
+   "to": "evaporating-cloud",
+   "why": "Both refuse to accept a stuck trade-off as fixed — idealized design asks what you'd build unconstrained by the past, evaporating cloud asks which hidden assumption makes an either/or necessary, and dissolves it rather than splitting the difference.",
+   "source": "woven"
+  },
+  {
+   "from": "evaporating-cloud",
+   "verb": "formalizes",
+   "to": "solve-resolve-dissolve",
+   "why": "Ackoff names dissolving a problem by changing values so the choice stops mattering; the evaporating cloud gives that move a concrete procedure — surface the arrow's hidden assumption and invalidate it — into a repeatable diagnostic.",
+   "source": "woven"
+  },
+  {
+   "from": "turing-principle",
+   "verb": "parallels",
+   "to": "jump-to-universality",
+   "why": "Both refuse to treat \"unlimited scope\" as a fuzzy matter of degree — the Turing principle grounds universal computation in a strict, testable physical law, while jump-to-universality grounds historical leaps to full generality in a strict, checkable criterion (digital, error-correctable representation) — the same insistence on a hard threshold, applied to computation-as-physics and to generality-as-history respectively.",
+   "source": "woven"
+  },
+  {
+   "from": "four-waves-of-ai",
+   "verb": "instantiates",
+   "to": "polanyis-paradox",
+   "why": "Lee's later waves — perception and autonomous AI — are concrete cases of the exact tacit-knowledge tasks Polanyi's paradox declared rule-resistant, unlocked only once learning from data replaced codifying an expert's inarticulable know-how.",
+   "source": "woven"
+  },
+  {
+   "from": "minimalist-tech-philosophy",
+   "verb": "instantiates",
+   "to": "filtering-abundance",
+   "why": "Once infinite content shifts scarcity from goods to attention, Newport's answer — commit to a few tools chosen for their value and happily miss the rest — is a concrete personal filtering strategy for exactly that scarce resource.",
+   "source": "woven"
+  },
+  {
+   "from": "solitude-deprivation",
+   "verb": "extends",
+   "to": "fleeing-oneself",
+   "why": "Seneca diagnoses restlessness as internal, uncurable by changing scenery; solitude deprivation names the mechanism — near-zero time free of other minds' input — that makes constant technological novelty a permanent way of fleeing oneself, not an occasional indulgence.",
+   "source": "woven"
+  },
+  {
+   "from": "digital-declutter",
+   "verb": "instantiates",
+   "to": "life-not-short-but-wasted",
+   "why": "Seneca's cure for felt time-scarcity is an audit of what actually consumes your days, not more days; the thirty-day declutter and deliberate one-by-one reintroduction is that exact audit-and-reclaim method applied to technology.",
+   "source": "woven"
+  },
+  {
+   "from": "peak-end-rule",
+   "verb": "tempers",
+   "to": "three-periods-of-time",
+   "why": "Seneca treats the recollected past as a fixed, fully-possessable asset a tranquil mind retrieves intact; the peak-end rule shows retrieval instead reconstructs experience from its worst moment and ending while ignoring duration, undermining that certainty.",
+   "source": "woven"
+  },
+  {
+   "from": "bottleneck-targeting",
+   "verb": "parallels",
+   "to": "five-focusing-steps",
+   "why": "Both refuse to spread rules or effort evenly across a system — first locate the single recurring activity actually constraining the outcome, then concentrate all design effort there, leaving everything else deliberately unoptimized.",
+   "source": "woven"
+  },
+  {
+   "from": "rip-and-replace-rules",
+   "verb": "tempers",
+   "to": "evolutionary-change",
+   "why": "Evolutionary change prescribes improving what you have in small steps; rip-and-replace names the condition — a fundamental, not incremental, regime shift — under which blending old and new rules serves neither and fast wholesale replacement wins instead.",
+   "source": "woven"
+  },
+  {
+   "from": "rules-as-reflection-triggers",
+   "verb": "parallels",
+   "to": "checklist-as-forcing-conversation",
+   "why": "Both locate a structured device's real power in what it makes people do — pause, reassess, speak up — independent of whether its literal content is even the relevant fix for the task at hand.",
+   "source": "woven"
+  },
+  {
+   "from": "complexity-matching-fallacy",
+   "verb": "parallels",
+   "to": "complexity-beyond-memory",
+   "why": "Both show complexity overwhelming the very capacity meant to handle it once it crosses a threshold — a complicated rule set overwhelms compliance the same way accumulated task steps overwhelm any single expert's working memory — even though their remedies diverge: fewer, simpler rules that leave room for judgment versus an external checklist that removes reliance on memory altogether.",
+   "source": "woven"
+  },
+  {
+   "from": "prosecutors-fallacy",
+   "verb": "tempers",
+   "to": "bayesian-updating",
+   "why": "Bayesian updating requires weighting evidence by a prior; the prosecutor's fallacy names the common failure of skipping that prior — treating P(evidence given guilt) as P(guilt given evidence) — that makes naive conditional-probability reasoning confidently wrong.",
+   "source": "woven"
+  },
+  {
+   "from": "alternative-explanations",
+   "verb": "parallels",
+   "to": "divergent-thinking-toolkit",
+   "why": "Both insist a first plausible account must be deliberately challenged by manufactured rivals before acceptance — generating competing explanations or dissenting viewpoints as a structured discipline, not waiting for disagreement to arise on its own.",
+   "source": "woven"
+  },
+  {
+   "from": "plausibility-check",
+   "verb": "parallels",
+   "to": "go-and-see",
+   "why": "Both distrust secondhand or derived claims until checked against a cheap, direct reality test — a back-of-envelope estimate or firsthand observation — rather than accepting a reported number or account at face value.",
+   "source": "woven"
+  },
+  {
+   "from": "explanatory-creativity",
+   "verb": "parallels",
+   "to": "love-as-human-differentiator",
+   "why": "Both run the identical argument — as machines absorb some capacity X, human distinctiveness must be relocated to some remaining Y — with different Y: Deutsch locates the durable human/machine line in explanatory knowledge-creation, Lee locates it in compassion and connection, each treating their chosen Y as the thing automation cannot touch.",
+   "source": "woven"
+  },
+  {
+   "from": "gladiator-entrepreneurship",
+   "verb": "instantiates",
+   "to": "antifragility",
+   "why": "Thousand-competitor copycat markets are volatility and shock in economic form; forcing entrepreneurs through that stress produces tenacity and faster iteration that outlasts any stolen idea — a market gaining, not merely surviving, from disorder.",
+   "source": "woven"
+  },
+  {
+   "from": "coveillance",
+   "verb": "parallels",
+   "to": "radical-transparency",
+   "why": "Both bet that visibility costs less trust than concealment does — Kelly's mutual watching and Dalio's default-to-open disclosure each choose to surface what a one-way or closed-door alternative would have hidden, on the theory that the rumor and suspicion concealment breeds costs more than the discomfort of being seen.",
+   "source": "woven"
+  },
+  {
+   "from": "axis-shenanigans",
+   "verb": "parallels",
+   "to": "choice-architecture",
+   "why": "Both show that presenting identical underlying facts or options is never neutral — a truncated axis and a chosen default each covertly steer perception or choice toward a conclusion without changing the data itself.",
+   "source": "woven"
+  },
+  {
    "from": "polanyis-paradox",
    "verb": "parallels",
    "to": "story-as-conversation",

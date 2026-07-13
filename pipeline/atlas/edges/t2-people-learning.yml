@@ -16,14 +16,6 @@
     written expectation before the fact and scoring it against the actual
     outcome later, replacing intuitive confidence with a trainable track
     record.
-- from: feedback-analysis
-  verb: parallels
-  to: seeking-disconfirmation
-  why: >-
-    Both replace comfortable self-belief with a forced confrontation between
-    a prior expectation and the actual result, since neither a person's
-    self-knowledge nor a strategy's soundness self-corrects without a
-    deliberate external check.
 - from: healthy-disengagement
   verb: extends
   to: systematic-abandonment
@@ -71,14 +63,6 @@
     replaces it with everyone facing the same direction at once, directly
     opposing Roberto's toolkit of devil's advocacy and point-counterpoint
     built on manufactured adversarial argument.
-- from: parallel-thinking
-  verb: tempers
-  to: mining-for-conflict
-  why: >-
-    Mining for conflict assumes disagreement must be extracted through
-    adversarial confrontation to surface truth, but parallel thinking gets
-    the same range of perspectives through sequenced directions no one has
-    to defend against attack.
 - from: habit-loop
   verb: extends
   to: golden-rule-of-habit-change
@@ -118,20 +102,6 @@
     Both treat early, cheap failure not as a risk to avoid but as necessary
     tuition for reaching a level of skill or originality that safe
     repetition of what already works cannot produce.
-- from: making-smaller-circles
-  verb: parallels
-  to: kata
-  why: >-
-    Both build skill through a structured, repeated routine practiced at
-    full scale until its essence is felt, then progressively condensed —
-    privileging repetition-with-refinement over abstract instruction.
-- from: solitude-deprivation
-  verb: instantiates
-  to: two-modes-of-attention
-  why: >-
-    Constant input from other minds keeps the narrow, task-grasping mode of
-    attention perpetually engaged, crowding out the broad, contextual mode
-    that unmediated reflection needs to integrate experience into meaning.
 - from: entity-vs-incremental-theory
   verb: parallels
   to: identity-based-habits
@@ -165,13 +135,14 @@
     process design are each a deliberate, prior act of shaping the thinking
     process itself.
 - from: checklist-as-forcing-conversation
-  verb: tempers
+  verb: instantiates
   to: systemic-silence
   why: >-
-    Roberto argues structural conditions like hierarchy silence dissent, but
-    Gawande shows a simple structural counter — a checklist's mandatory
-    pause — overrides that same hierarchy by giving low-status team members
-    a sanctioned cue to speak.
+    Roberto's systemic view prescribes structural fixes for hierarchy-caused
+    silence — new forums, altered ground rules; Gawande's checklist pause is
+    exactly this kind of structural counter, giving a low-status team member
+    a sanctioned, mandatory moment to speak that hierarchy would otherwise
+    deny them.
 - from: outsight-principle
   verb: contradicts
   to: identity-based-habits
@@ -192,7 +163,10 @@
   verb: parallels
   to: coaching-kata
   why: >-
-    Both transmit tacit skill through a bounded, direct mentor-mentee
-    relationship built on repeated real practice rather than explanation,
-    with the mentor deliberately stepping back once the routine or judgment
-    has taken hold.
+    Both transmit tacit skill and judgment through a direct mentor-mentee
+    relationship built on repeated guided practice on real work rather than
+    classroom explanation — Greene's apprentice absorbs a master's
+    internalized craft through years at his side, and Rother's mentor
+    sharpens a mentee's judgment through a repeated vague-challenge-and-
+    pushback dialogue, in both cases transferring what could not simply be
+    told.
