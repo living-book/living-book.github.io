@@ -43,9 +43,11 @@ body {
 h1, h2, h3 { font-family: Georgia, 'Anthropic Serif', serif; font-weight: 500; }
 
 /* ---------- frame ---------- */
-#app { display: grid; grid-template-columns: 320px 1fr; grid-template-rows: auto 1fr; height: 100vh; }
+#app { display: grid; grid-template-columns: var(--panel-w, 320px) 6px 1fr; grid-template-rows: auto 1fr; height: 100vh; }
+#divider { grid-column: 2; grid-row: 2; cursor: col-resize; background: var(--border-warm); }
+#divider:hover, #divider.active { background: var(--accent2); }
 header {
-  grid-column: 1 / -1;
+  grid-column: 1 / -1; grid-row: 1;
   display: flex; align-items: baseline; gap: 14px;
   padding: 14px 22px 12px;
   border-bottom: 1px solid var(--border-warm);
@@ -58,6 +60,7 @@ header a:hover { text-decoration: underline; }
 
 /* ---------- left: intent panel ---------- */
 #panel {
+  grid-column: 1; grid-row: 2;
   border-right: 1px solid var(--border-warm);
   background: var(--bg2);
   display: flex; flex-direction: column;
@@ -97,7 +100,7 @@ header a:hover { text-decoration: underline; }
 #stats { padding: 10px 16px; border-top: 1px solid var(--border); font-size: 12px; color: var(--text3); }
 
 /* ---------- map ---------- */
-#mapwrap { position: relative; min-width: 0; min-height: 0; }
+#mapwrap { grid-column: 3; grid-row: 2; position: relative; min-width: 0; min-height: 0; }
 #map { width: 100%; height: 100%; display: block; cursor: grab; }
 #map.dragging { cursor: grabbing; }
 .node circle { stroke: var(--bg); stroke-width: 1.5; cursor: pointer; transition: opacity .25s; }
@@ -137,12 +140,28 @@ header a:hover { text-decoration: underline; }
 
 /* ---------- concept card ---------- */
 #card {
-  position: absolute; top: 0; right: 0; height: 100%; width: min(420px, 92%);
+  position: absolute; top: 0; right: 0; height: 100%; width: min(var(--card-w, 420px), 92%);
   background: var(--bg2); border-left: 1px solid var(--border-warm);
   box-shadow: rgba(0,0,0,0.05) 0px 4px 24px;
   overflow-y: auto; padding: 20px 22px 40px;
   transform: translateX(105%); transition: transform .3s ease;
 }
+#card.float {
+  height: auto; max-height: min(82%, 100% - 24px); border: 1px solid var(--border-warm);
+  border-radius: 12px; right: auto; transition: none;
+}
+#cardgrip {
+  position: sticky; top: -20px; margin: -20px -22px 10px; padding: 7px 0;
+  cursor: grab; background: var(--bg3); text-align: center; z-index: 2;
+  font-size: 10px; letter-spacing: .12em; text-transform: uppercase; color: var(--text3);
+  user-select: none; touch-action: none;
+}
+#cardgrip:active { cursor: grabbing; }
+#cardresize {
+  position: absolute; left: 0; top: 0; bottom: 0; width: 7px;
+  cursor: ew-resize; touch-action: none;
+}
+#cardresize:hover { background: var(--accent2); opacity: .5; }
 @media (prefers-reduced-motion: reduce) { #card { transition: none; } }
 #card.open { transform: none; }
 #card .close {
@@ -185,8 +204,10 @@ header a:hover { text-decoration: underline; }
 /* ---------- mobile ---------- */
 @media (max-width: 760px) {
   #app { grid-template-columns: 1fr; grid-template-rows: auto auto 1fr; }
-  #panel { border-right: none; border-bottom: 1px solid var(--border-warm); max-height: 44vh; }
+  #panel { grid-column: 1; grid-row: 2; border-right: none; border-bottom: 1px solid var(--border-warm); max-height: 44vh; }
+  #mapwrap { grid-column: 1; grid-row: 3; }
   #card { width: 100%; }
+  #divider, #cardgrip, #cardresize { display: none; }
 }
 </style>
 </head>
@@ -209,11 +230,15 @@ header a:hover { text-decoration: underline; }
     <div id="stats"></div>
   </div>
 
+  <div id="divider" role="separator" aria-label="Resize panel" title="Drag to resize"></div>
+
   <div id="mapwrap">
     <svg id="map" aria-label="Concept map"></svg>
     <div id="hint">drag to pan · scroll to zoom · click a concept</div>
     <div id="legend"></div>
     <aside id="card" aria-label="Concept detail">
+      <div id="cardgrip" title="drag to move · double-click to dock">⋮⋮ drag · dbl-click docks</div>
+      <div id="cardresize" title="drag to resize"></div>
       <button class="close" aria-label="Close">×</button>
       <div id="cardbody"></div>
     </aside>
@@ -406,15 +431,21 @@ function renderMap() {
   }
   fitView();
 
-  // pan/zoom
-  let drag = null;
-  svg.addEventListener('pointerdown', e => { drag = { x: e.clientX, y: e.clientY }; svg.classList.add('dragging'); svg.setPointerCapture(e.pointerId); });
+  // pan/zoom — capture only after real movement so node clicks still land
+  let drag = null, panned = false;
+  svg.addEventListener('pointerdown', e => { drag = { x: e.clientX, y: e.clientY, id: e.pointerId }; panned = false; });
   svg.addEventListener('pointermove', e => {
     if (!drag) return;
+    if (!panned) {
+      if (Math.hypot(e.clientX - drag.x, e.clientY - drag.y) < 4) return;
+      panned = true; svg.classList.add('dragging'); svg.setPointerCapture(drag.id);
+    }
     view.x += e.clientX - drag.x; view.y += e.clientY - drag.y;
     drag = { x: e.clientX, y: e.clientY }; applyView();
   });
-  svg.addEventListener('pointerup', () => { drag = null; svg.classList.remove('dragging'); });
+  const endPan = () => { drag = null; svg.classList.remove('dragging'); };
+  svg.addEventListener('pointerup', endPan);
+  svg.addEventListener('pointercancel', endPan);
   svg.addEventListener('wheel', e => {
     e.preventDefault();
     const r = svg.getBoundingClientRect();
@@ -424,7 +455,7 @@ function renderMap() {
     view.y = my - (my - view.y) * k2 / view.k;
     view.k = k2; applyView();
   }, { passive: false });
-  svg.addEventListener('click', () => deselect());
+  svg.addEventListener('click', () => { if (panned) { panned = false; return; } deselect(); });
 }
 function fitView() {
   const r = svg.getBoundingClientRect();
@@ -577,6 +608,66 @@ function renderChrome() {
   document.querySelector('#card .close').addEventListener('click', deselect);
   document.getElementById('q').addEventListener('input', renderResults);
   addEventListener('keydown', e => { if (e.key === 'Escape') deselect(); });
+  initPanels();
+}
+
+/* ---------- movable / adjustable panels (state in localStorage) ---------- */
+function initPanels() {
+  const root = document.documentElement, card = document.getElementById('card');
+  const saved = k => localStorage.getItem(k);
+  if (saved('atlas-panel-w')) root.style.setProperty('--panel-w', saved('atlas-panel-w') + 'px');
+  if (saved('atlas-card-w')) root.style.setProperty('--card-w', saved('atlas-card-w') + 'px');
+
+  // left divider — resize the intent panel
+  const div = document.getElementById('divider');
+  div.addEventListener('pointerdown', e => {
+    e.preventDefault(); div.classList.add('active'); div.setPointerCapture(e.pointerId);
+    const move = ev => {
+      const w = Math.max(230, Math.min(560, ev.clientX));
+      root.style.setProperty('--panel-w', w + 'px');
+      localStorage.setItem('atlas-panel-w', w);
+    };
+    const up = () => { div.classList.remove('active'); div.removeEventListener('pointermove', move); fitView(); };
+    div.addEventListener('pointermove', move);
+    div.addEventListener('pointerup', up, { once: true });
+  });
+
+  // card left edge — resize the card (keeps right edge put, docked or floating)
+  const rs = document.getElementById('cardresize');
+  rs.addEventListener('pointerdown', e => {
+    e.preventDefault(); e.stopPropagation(); rs.setPointerCapture(e.pointerId);
+    const right = card.getBoundingClientRect().right;
+    const move = ev => {
+      const w = Math.max(300, Math.min(760, right - ev.clientX));
+      root.style.setProperty('--card-w', w + 'px');
+      localStorage.setItem('atlas-card-w', w);
+      if (card.classList.contains('float')) card.style.left = (right - w - card.parentElement.getBoundingClientRect().left) + 'px';
+    };
+    const up = () => rs.removeEventListener('pointermove', move);
+    rs.addEventListener('pointermove', move);
+    rs.addEventListener('pointerup', up, { once: true });
+  });
+
+  // grip — drag the card anywhere; double-click docks it back to the right
+  const grip = document.getElementById('cardgrip');
+  grip.addEventListener('pointerdown', e => {
+    e.preventDefault(); grip.setPointerCapture(e.pointerId);
+    const wrap = card.parentElement.getBoundingClientRect();
+    const r = card.getBoundingClientRect();
+    const offX = e.clientX - r.left, offY = e.clientY - r.top;
+    card.classList.add('float');
+    const move = ev => {
+      card.style.left = Math.max(0, Math.min(wrap.width - r.width, ev.clientX - wrap.left - offX)) + 'px';
+      card.style.top = Math.max(0, Math.min(wrap.height - 60, ev.clientY - wrap.top - offY)) + 'px';
+    };
+    move(e);
+    const up = () => grip.removeEventListener('pointermove', move);
+    grip.addEventListener('pointermove', move);
+    grip.addEventListener('pointerup', up, { once: true });
+  });
+  grip.addEventListener('dblclick', () => {
+    card.classList.remove('float'); card.style.left = ''; card.style.top = '';
+  });
 }
 
 load().then(() => {
