@@ -1,16 +1,6 @@
 # Lens: orphan-weaving for Systems Thinking & Philosophy (27) and Technology & Data (23)
 # Every edge below has at least one endpoint in that 50-concept orphan set.
 
-- from: learning-organization
-  verb: parallels
-  to: structure-building
-  why: >-
-    Both describe extracting durable, generalizable structure — an
-    organization's five mutually-reinforcing disciplines, a learner's
-    underlying principles — from scattered particular experiences, instead of
-    taking each success at face value and never building the capacity to
-    reproduce it.
-
 - from: systems-thinking
   verb: parallels
   to: many-model-thinking
@@ -164,15 +154,6 @@
     hidden capacity — so classifying an instance correctly does the real
     work, not treating every instance alike.
 
-- from: simple-rules
-  verb: parallels
-  to: five-focusing-steps
-  why: >-
-    Both concentrate all governance or improvement effort on the single
-    activity that actually constrains the outcome, deliberately leaving
-    everything else loosely managed because tightening non-bottlenecks burns
-    effort without moving the result.
-
 - from: circular-organization
   verb: parallels
   to: believability-weighting
@@ -325,15 +306,6 @@
     liability rather than a store of value, favoring flexible non-owned
     arrangements — subscriptions for consumers, avoiding committed capital for
     firms — because owned value decays faster than assumed.
-
-- from: cognifying
-  verb: parallels
-  to: second-machine-age
-  why: >-
-    Both apply the identical historical pattern — a prior general-purpose
-    utility, like electricity, re-powering every existing process it touches
-    rather than creating new categories of activity — to explain how the
-    current technology wave actually spreads.
 
 - from: remix-as-growth
   verb: parallels

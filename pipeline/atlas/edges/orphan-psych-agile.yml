@@ -11,14 +11,6 @@
     cycle time — delivery/prioritization/development here, daily/weekly/monthly/quarterly
     decisions there — because forcing a single cadence starves whichever activity moves faster or slower.
 
-- from: flow-distribution
-  verb: parallels
-  to: objectives-and-key-results
-  why: >-
-    Both replace an emergent, unconsciously-set allocation (daily prioritization, ad hoc effort)
-    with an explicit ratio or target owned deliberately by business need, on the premise that
-    what isn't set on purpose gets set by default instead.
-
 - from: flow-items
   verb: parallels
   to: rule-taxonomy
@@ -42,22 +34,6 @@
     Both describe the same operation repeating at every scale of magnification — breaking, in
     one case conversation, in the other geometry — so the pattern looks structurally identical
     whether you zoom into an epic or a single task.
-
-- from: decentralized-control
-  verb: parallels
-  to: circular-organization
-  why: >-
-    Both reject all-or-nothing hierarchy for a hybrid: authority flows to the front line for
-    execution and problems that age poorly, while flowing back up for the rare, large-scale
-    decisions where economy of scale or policy actually matters.
-
-- from: multi-process-handling
-  verb: parallels
-  to: many-model-thinking
-  why: >-
-    Both find robustness in deliberate heterogeneity, not repetition of the same unit — a
-    worker skilled across dissimilar machines, or an ensemble of dissimilar models — because
-    diversity of component captures what redundancy of one component cannot.
 
 - from: multi-process-handling
   verb: tempers
@@ -165,14 +141,6 @@
     sellers reporting your own usage back to you, or watchers being watched back — so the
     disadvantaged party gains comparable data instead of just being monitored or billed.
 
-- from: save-more-tomorrow
-  verb: parallels
-  to: asymmetric-feedback
-  why: >-
-    Both deliberately re-engineer when a change lands so the loss side of the payoff is
-    truncated and the gain side extended — one scheduling the change to coincide with a raise,
-    the other widening a control loop's payoff asymmetry on purpose.
-
 - from: shadow-integration
   verb: parallels
   to: the-hidden
@@ -276,14 +244,6 @@
     Most professional judgment calls can't be reduced to a physical constraint that makes
     error impossible; discipline-as-virtue names the condition — no forcing function is
     available — where a cultivated, voluntary commitment to procedure has to do that work instead.
-
-- from: end-of-the-master-builder
-  verb: parallels
-  to: ensemble-metalearning
-  why: >-
-    Both replace reliance on one supremely capable unit with distributed combination once a
-    domain's complexity outgrows it — externalized shared systems instead of a lone master,
-    many imperfect learners instead of the single best one.
 
 - from: ignorance-vs-ineptitude
   verb: extends
