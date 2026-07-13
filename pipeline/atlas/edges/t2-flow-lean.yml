@@ -1,0 +1,222 @@
+# Lens: flow economics — queues, batches, pull, waste, decision timing
+# Anchor books: product-development-flow, toyota-production-system,
+# lean-software-development, making-work-visible
+
+- from: classes-of-service
+  verb: extends
+  to: cost-of-delay
+  why: >-
+    Cost of delay quantifies profit-lost-per-time as a single number per item;
+    classes-of-service turns that quantity into an operational policy —
+    expedite, fixed-date, standard, intangible — so teams can act on its
+    economics without computing it precisely for every item.
+
+- from: dependency-combinatorics
+  verb: instantiates
+  to: queues-as-root-cause
+  why: >-
+    Reinertsen traces product-development waste to invisible queues of
+    waiting work; each additional hard dependency DeGrandis names is exactly
+    another queue a delivery must wait behind, so her probability collapse is
+    queueing math compounding, not bad luck.
+
+- from: queues-as-root-cause
+  verb: extends
+  to: wip-limits
+  why: >-
+    Kanban's WIP cap treats queue length as the thing to control; Reinertsen
+    supplies the underlying reason it works — queues, not slow activities,
+    are where development risk, waste, and delay actually originate, so
+    capping WIP caps the root cause directly.
+
+- from: batch-size-economics
+  verb: parallels
+  to: two-minute-rule
+  why: >-
+    Both find shrinking the unit of work below its "natural" size pays for
+    itself: Reinertsen trades batch size against transaction cost and cycle
+    time, and Clear's rule downscales a habit until start-up friction is
+    negligible, preserving the ritual of beginning.
+
+- from: kanban-pull-system
+  verb: extends
+  to: just-in-time
+  why: >-
+    Anderson generalizes Ohno's physical token that lets a downstream process
+    pull exactly what it needs from an upstream one, stripping out the
+    manufacturing-specific card mechanics so the same signal-capped pull
+    discipline works on any knowledge-work queue.
+
+- from: andon
+  verb: parallels
+  to: checklist-as-forcing-conversation
+  why: >-
+    Both are a fixed trigger — a cord pulled, a checklist item read aloud —
+    whose real power is forcing a conversation between people who wouldn't
+    otherwise stop and speak, not the informational content of the signal
+    itself.
+
+- from: autonomation
+  verb: parallels
+  to: human-error-is-bad-design
+  why: >-
+    Both relocate responsibility for a defect from the individual to the
+    system: jidoka builds a machine that halts itself at the first
+    abnormality instead of trusting a worker to catch it, exactly as Norman
+    treats reliably-repeated "human error" as evidence of bad design.
+
+- from: andon
+  verb: parallels
+  to: buffer-management
+  why: >-
+    Both replace waiting for a hard failure with a graduated visual
+    early-warning signal — a line light or a buffer-penetration color — that
+    tells people when to act and on what, before the abnormality becomes an
+    unrecoverable crisis.
+
+- from: five-whys
+  verb: parallels
+  to: postmortem-ritual
+  why: >-
+    Both make root-cause discovery a structural habit instead of a personal
+    intuition — a fixed drill of repeated "why" questions, or a mandatory
+    retrospective after every project — guaranteeing the digging happens
+    rather than depending on someone remembering to ask.
+
+- from: variability-as-asset
+  verb: instantiates
+  to: antifragility
+  why: >-
+    Antifragility names systems that gain from volatility because their
+    payoff is convex; Reinertsen's claim that variability's economic value
+    depends on the shape of the payoff function is that exact convexity
+    test, applied specifically to product-development bets.
+
+- from: asymmetric-feedback
+  verb: parallels
+  to: barbell-strategy
+  why: >-
+    Both reshape a payoff distribution instead of reducing its variance:
+    fast feedback that truncates losses while extending gains is the same
+    asymmetric shape as combining extreme safety with extreme risk while
+    avoiding the exposed middle.
+
+- from: last-responsible-moment
+  verb: parallels
+  to: optionality
+  why: >-
+    Both treat delay itself as a purchasable position: postponing an
+    irreversible commitment until information forces it, and holding a
+    right without obligation, both convert uncertainty into upside instead
+    of paying to resolve it early.
+
+- from: decentralized-control
+  verb: parallels
+  to: circle-of-safety
+  why: >-
+    Both locate authority with whoever has real-time local knowledge, not
+    rank: fast-aging front-line problems need pushed-down decision rights,
+    and Sinek's leaders extend that same trust downward by removing internal
+    danger so people act on what they see.
+
+- from: failure-demand
+  verb: instantiates
+  to: iatrogenics
+  why: >-
+    Failure demand — fires and rework consuming capacity — is often the
+    delayed harm of an earlier "helpful" shortcut coming due; iatrogenics
+    names exactly this pattern of net damage from an intervention whose harm
+    and helper are never traced together.
+
+- from: seeing-waste-in-software
+  verb: instantiates
+  to: waste-taxonomy
+  why: >-
+    Poppendieck's seven wastes of software are a direct one-to-one
+    translation of Ohno's seven manufacturing wastes into a different
+    medium, proving the underlying capacity-equals-work-plus-waste
+    accounting transfers across domains unchanged.
+
+- from: production-leveling
+  verb: parallels
+  to: buffer-management
+  why: >-
+    Both manage variability's transmission through a chain rather than
+    eliminating it locally: leveling smooths demand before it enters the
+    line so downstream fluctuation can't compound, while buffer management
+    turns fluctuation already absorbed into a graduated warning signal.
+
+- from: production-leveling
+  verb: contradicts
+  to: variability-as-asset
+  why: >-
+    Ohno treats all demand unevenness as waste to be smoothed away before it
+    amplifies backward through the chain; Reinertsen argues that import is
+    wrong for product development, where variability's value depends on
+    payoff shape, so some volatility should be preserved, not suppressed.
+
+- from: priority-dilution
+  verb: tempers
+  to: wsjf-sequencing
+  why: >-
+    Names the failure condition that swallows any sequencing formula: WSJF
+    only produces a real rank order if items are actually compared — if
+    everyone independently declares their own item "priority one," the
+    single ordinal ranking the math depends on never forms.
+
+- from: zombie-projects
+  verb: instantiates
+  to: loss-aversion
+  why: >-
+    Zombie projects survive because killing them means realizing a loss on
+    invested effort right now, while limping along defers that reckoning —
+    the same asymmetric loss-versus-gain weighting Kahneman documents,
+    applied to portfolio prioritization instead of money.
+
+- from: context-switching-tax
+  verb: parallels
+  to: two-modes-of-attention
+  why: >-
+    Both reject the CPU-scheduling metaphor for human attention: switching
+    between concurrent tasks means physically shifting between two
+    structurally distinct attentional modes — broad-contextual and
+    narrow-manipulative — a real reconfiguration, not a costless register
+    swap.
+
+- from: trust-based-contracts
+  verb: parallels
+  to: skin-in-the-game
+  why: >-
+    Both trace bad outcomes to the same asymmetry: a contract engineered so
+    each side protects itself lets one party pocket the upside while
+    pushing risk onto the other — the Poppendiecks' fix replaces those
+    terms with earned trust and shared cost exposure.
+
+- from: options-thinking
+  verb: parallels
+  to: optionality
+  why: >-
+    Arrived at independently from opposite domains: software delivery's
+    "delay commitment, pay for the right not the obligation to act" and
+    Taleb's general theory of asymmetric payoffs are the same claim — a
+    deferred, revocable choice beats an early, binding one under
+    uncertainty.
+
+- from: set-based-development
+  verb: instantiates
+  to: exploration-exploitation-tradeoff
+  why: >-
+    Carrying multiple design options forward in parallel until real feedback
+    favors one is exploration-exploitation made concrete in engineering
+    practice: the team pays to maintain unconverged alternatives rather than
+    prematurely exploiting the first plausible design.
+
+- from: self-determination
+  verb: instantiates
+  to: polanyis-paradox
+  why: >-
+    Copying a self-designed work procedure to another team while leaving
+    behind the judgment that produced it is Polanyi's paradox in
+    organizational design: the documented steps are explicit, but the
+    "knowing how" that made them work was never something anyone could
+    fully tell.

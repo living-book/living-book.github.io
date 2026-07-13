@@ -1,0 +1,198 @@
+# Lens: management/decision process, team trust and conflict, habit mechanics,
+# skill acquisition, attention and focus
+- from: objectives-and-key-results
+  verb: formalizes
+  to: management-by-objectives
+  why: >-
+    OKRs turn Drucker's discipline of managers deriving and self-measuring
+    their own objectives into a specific, repeatable format — pairing every
+    qualitative objective with quantitative, verifiable key results on a
+    fixed cadence.
+- from: feedback-analysis
+  verb: parallels
+  to: calibrated-estimation
+  why: >-
+    Both convert self-assessment into a checkable habit by recording a
+    written expectation before the fact and scoring it against the actual
+    outcome later, replacing intuitive confidence with a trainable track
+    record.
+- from: feedback-analysis
+  verb: parallels
+  to: seeking-disconfirmation
+  why: >-
+    Both replace comfortable self-belief with a forced confrontation between
+    a prior expectation and the actual result, since neither a person's
+    self-knowledge nor a strategy's soundness self-corrects without a
+    deliberate external check.
+- from: healthy-disengagement
+  verb: extends
+  to: systematic-abandonment
+  why: >-
+    Both insist stopping is a decision as disciplined as starting, but
+    healthy-disengagement adds the mechanism Drucker leaves unspecified —
+    named ownership and leading-indicator triggers that fire before decline
+    becomes visible.
+- from: systematic-abandonment
+  verb: instantiates
+  to: via-negativa
+  why: >-
+    Drucker's discipline of deliberately dropping obsolete products and
+    policies is a concrete organizational case of the broader principle that
+    removing what no longer fits is more reliable than adding new bets.
+- from: vulnerability-based-trust
+  verb: parallels
+  to: circle-of-safety
+  why: >-
+    Both replace competition among teammates with felt safety — Lencioni via
+    mutual admission of weakness, Sinek via a leader shielding the group from
+    outside threat — freeing energy that self-protection would otherwise
+    consume.
+- from: braintrust
+  verb: instantiates
+  to: vulnerability-based-trust
+  why: >-
+    Pixar's peer-review room only produces honest critique because
+    participants already trust that showing unfinished, embarrassing work
+    will not be weaponized against them — exactly the trust Lencioni names
+    as foundational.
+- from: cognitive-vs-affective-conflict
+  verb: tempers
+  to: mining-for-conflict
+  why: >-
+    Lencioni prescribes deliberately extracting buried disagreement, but
+    Roberto's distinction shows mining backfires unless facilitators keep
+    the extracted conflict task-focused, since unmanaged mining just as
+    easily surfaces personal friction.
+- from: parallel-thinking
+  verb: contradicts
+  to: divergent-thinking-toolkit
+  why: >-
+    De Bono argues adversarial debate wastes energy defending positions and
+    replaces it with everyone facing the same direction at once, directly
+    opposing Roberto's toolkit of devil's advocacy and point-counterpoint
+    built on manufactured adversarial argument.
+- from: parallel-thinking
+  verb: tempers
+  to: mining-for-conflict
+  why: >-
+    Mining for conflict assumes disagreement must be extracted through
+    adversarial confrontation to surface truth, but parallel thinking gets
+    the same range of perspectives through sequenced directions no one has
+    to defend against attack.
+- from: habit-loop
+  verb: extends
+  to: golden-rule-of-habit-change
+  why: >-
+    Duhigg's rule says change a habit by keeping the cue and reward and
+    swapping the routine; Clear's four-stage loop adds craving as the actual
+    driver between cue and response, explaining why the swap only works if
+    craving is still satisfied.
+- from: keystone-habits
+  verb: instantiates
+  to: leverage
+  why: >-
+    A keystone habit is a concrete case of Senge's leverage principle — a
+    small, well-chosen change point in a system that cascades into
+    disproportionate, system-wide change rather than one requiring
+    proportional effort.
+- from: small-wins
+  verb: parallels
+  to: progress-principle
+  why: >-
+    Both find that the psychological lift comes from the fact and
+    visibility of forward movement itself, not the objective size of the
+    win, and that this lift compounds through reinforcement into further
+    momentum.
+- from: investment-in-loss
+  verb: parallels
+  to: desirable-difficulties
+  why: >-
+    Both show that avoiding friction — comfortable repetition, refusing to
+    accept a lost position — undermines learning, while deliberately
+    accepting short-term difficulty is what makes the resulting skill
+    durable.
+- from: investment-in-loss
+  verb: parallels
+  to: fail-fast-safely
+  why: >-
+    Both treat early, cheap failure not as a risk to avoid but as necessary
+    tuition for reaching a level of skill or originality that safe
+    repetition of what already works cannot produce.
+- from: making-smaller-circles
+  verb: parallels
+  to: kata
+  why: >-
+    Both build skill through a structured, repeated routine practiced at
+    full scale until its essence is felt, then progressively condensed —
+    privileging repetition-with-refinement over abstract instruction.
+- from: solitude-deprivation
+  verb: instantiates
+  to: two-modes-of-attention
+  why: >-
+    Constant input from other minds keeps the narrow, task-grasping mode of
+    attention perpetually engaged, crowding out the broad, contextual mode
+    that unmediated reflection needs to integrate experience into meaning.
+- from: entity-vs-incremental-theory
+  verb: parallels
+  to: identity-based-habits
+  why: >-
+    Both locate the driver of sustained behavior in self-concept rather than
+    outcome — believing ability is malleable, and believing a behavior
+    expresses who you are, each convert temporary effort into durable
+    motivation.
+- from: good-checklist-design
+  verb: parallels
+  to: environment-design
+  why: >-
+    Both replace reliance on willpower or memory with a designed external
+    structure — a short, tested checklist and an arranged physical
+    environment each make the correct action the path of least resistance
+    rather than an act of discipline.
+- from: complexity-beyond-memory
+  verb: instantiates
+  to: organized-complexity
+  why: >-
+    Modern surgery and construction sit in Weinberg's organized-complexity
+    zone — too many interacting variables for any one mind to master by
+    memory, yet too structured and consequential for statistical averaging
+    alone.
+- from: meta-cognitive-control
+  verb: parallels
+  to: deciding-how-to-decide
+  why: >-
+    Both separate the design of how a group should think from what it
+    concludes — de Bono's blue-hat sequencing and Roberto's four-lever
+    process design are each a deliberate, prior act of shaping the thinking
+    process itself.
+- from: checklist-as-forcing-conversation
+  verb: tempers
+  to: systemic-silence
+  why: >-
+    Roberto argues structural conditions like hierarchy silence dissent, but
+    Gawande shows a simple structural counter — a checklist's mandatory
+    pause — overrides that same hierarchy by giving low-status team members
+    a sanctioned cue to speak.
+- from: outsight-principle
+  verb: contradicts
+  to: identity-based-habits
+  why: >-
+    Clear frames change as inside-out — believe a new identity first, then
+    the behavior follows — while Ibarra's research shows the reverse causal
+    order in adults: acting into unfamiliar roles first, with identity
+    forming afterward.
+- from: possible-selves
+  verb: parallels
+  to: entity-vs-incremental-theory
+  why: >-
+    Both treat identity and ability as built through active experimentation
+    rather than fixed or merely discovered — trying on an unfamiliar role
+    and treating a hard challenge as growth material are the same bet that
+    capacity expands through use.
+- from: mentor-dynamic
+  verb: parallels
+  to: coaching-kata
+  why: >-
+    Both transmit tacit skill through a bounded, direct mentor-mentee
+    relationship built on repeated real practice rather than explanation,
+    with the mentor deliberately stepping back once the routine or judgment
+    has taken hold.

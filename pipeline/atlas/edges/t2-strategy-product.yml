@@ -1,0 +1,221 @@
+# Lens: product discovery under uncertainty, customer jobs, design cognition,
+# valuation / margin-of-safety thinking, org health vs strategy.
+# Anchors: design-of-everyday-things, inspired, running-lean,
+# four-steps-to-the-epiphany, zone-to-win, jobs-to-be-done, intelligent-investor,
+# the-advantage.
+
+- from: conceptual-models
+  verb: instantiates
+  to: the-map-mistaken-for-the-world
+  why: >-
+    A user's system image is a denotative stand-in for a device's real
+    mechanism; when it's wrong, the user acts on the map, not the machine, and
+    no amount of correct background knowledge fixes behavior the false map is
+    silently steering.
+
+- from: conceptual-models
+  verb: parallels
+  to: mental-models
+  why: >-
+    Both locate the constraint not in the world but in an internal
+    representation of it — a device's system image or a tacit mental model —
+    where a distorted model blocks correct action even when the correct facts
+    are available to reflection.
+
+- from: choice-architecture
+  verb: extends
+  to: human-error-is-bad-design
+  why: >-
+    Norman relocates blame from the erring user to whatever design reliably
+    induces the same error; Thaler generalizes this beyond error-prevention to
+    every decision context — no way of presenting options is neutral, so a
+    "bad choice" is still evidence of a badly built environment, not a flaw
+    in the chooser.
+
+- from: andon
+  verb: instantiates
+  to: affordances-and-signifiers
+  why: >-
+    A red/yellow/green andon light carries no possible action of its own —
+    only a perceivable signal about system state — engineered exactly to be
+    Norman's pure signifier, with the affordance for fixing the line living
+    elsewhere in the worker who responds to it.
+
+- from: work-visibility
+  verb: instantiates
+  to: gulfs-of-execution-and-evaluation
+  why: >-
+    A kanban board closing the gulf of evaluation for a whole team's work
+    state — replacing invisible queues and status with a glance-able signal —
+    is Norman's individual-device fix for "did my action work?" scaled up to
+    collective knowledge work.
+
+- from: good-checklist-design
+  verb: instantiates
+  to: knowledge-in-the-world
+  why: >-
+    A short, tested checklist offloads the precise sequence of steps onto an
+    external artifact so correct behavior no longer depends on a person
+    recalling and retaining it under stress — Norman's principle turned into
+    a survivable procedure.
+
+- from: natural-mapping
+  verb: parallels
+  to: story-mapping
+  why: >-
+    Both replace a list that must be read and memorized with a spatial
+    arrangement whose layout itself carries the meaning — a control's
+    position matching what it operates, or a left-right narrative with
+    top-bottom priority — so understanding needs no translation step.
+
+- from: earlyvangelists
+  verb: parallels
+  to: sustaining-vs-disruptive-innovation
+  why: >-
+    Both reject "does it satisfy mainstream requirements" as the test for a
+    new offering's first buyers — earlyvangelists forgive missing features
+    because their pain is acute, and disruptive products win non-mainstream
+    customers on price or simplicity, a metric incumbents' customers don't
+    even use.
+
+- from: de-risking-in-priority-order
+  verb: parallels
+  to: four-big-risks
+  why: >-
+    Both refuse to let "build it and see" stand in for evidence, insisting
+    risk be decomposed into named categories — pain, reach, price, market,
+    feasibility, or value, usability, feasibility, viability — and retired in
+    priority order before real resources commit.
+
+- from: discovery-driven-planning
+  verb: tempers
+  to: de-risking-in-priority-order
+  why: >-
+    Ranking assumptions by customer pain, price, and market size presumes a
+    market to measure them against; in a genuinely nonexistent market there is
+    no such reference data, so the ranking itself is a guess — the plan must
+    instead be inverted into load-bearing assumptions and tested one cheap
+    step at a time.
+
+- from: mr-market
+  verb: instantiates
+  to: system-1-system-2
+  why: >-
+    Graham's manic-depressive quoter is System 1 given a face and a daily
+    price — fast, emotional, mood-driven, untethered from fundamentals — and
+    his discipline of ignoring or trading against him is System 2's job of
+    overriding a noisy automatic read.
+
+- from: antifragility
+  verb: tempers
+  to: margin-of-safety
+  why: >-
+    A price cushion protects principal against being wrong, which only buys
+    robustness; Taleb's stronger claim is that safety alone leaves money on
+    the table — real antifragility needs that protected base paired with a
+    small, deliberately exposed stake that gains from the volatility
+    margin-of-safety merely survives.
+
+- from: single-threaded-big-bet
+  verb: contradicts
+  to: barbell-strategy
+  why: >-
+    Moore says spreading a disruptive bet across several efforts to avoid
+    "one basket" guarantees none reach scale, so concentrate everything
+    behind one bet; Taleb's barbell says never concentrate the risky portion
+    at all — keep it small and diversified against a large safe base, since
+    concentration is what makes one bad break unrecoverable.
+
+- from: jobs-based-competition
+  verb: parallels
+  to: value-networks
+  why: >-
+    Both show "competitor" or "value" is only legible from inside a frame — a
+    firm's value network sets what a technology is worth to it, a customer's
+    job sets who else counts as a rival — so an outside assessor using a
+    different frame misses the real threat or opportunity entirely.
+
+- from: smart-vs-healthy
+  verb: parallels
+  to: learning-organization
+  why: >-
+    Both split organizational effectiveness into a measurable output
+    dimension and a relational one — strategy versus health, or the four
+    hard disciplines versus team learning — and both find firms overinvest
+    in the easily quantified half while the other silently decides whether
+    it ever gets executed.
+
+- from: v2mom-cascading-commitment
+  verb: parallels
+  to: six-critical-questions
+  why: >-
+    Both replace a polished top-down mission statement with a fixed,
+    answerable structure — six questions or four V2MOM fields — that each
+    leader fills in directionally then cascades downward, so alignment is
+    structural inheritance rather than repeated wordsmithing.
+
+- from: no-instant-rationality
+  verb: tempers
+  to: transformation-j-curve
+  why: >-
+    The J-curve licenses management to read worsening metrics as proof of
+    progress, but Lakatos shows a genuine temporary dip and a real failure
+    look identical from inside the trajectory — so "this is progress, hold
+    the course" can't be told apart from denial until well after the fact.
+
+- from: unfair-advantage
+  verb: tempers
+  to: decisive-competitive-edge
+  why: >-
+    A performance gap alone commands premium demand only until competitors
+    close it; Maurya's condition that a real moat must be structurally hard
+    to copy or buy is the missing ingredient for Goldratt's edge to stay
+    decisive instead of eroding into the next round of catch-up.
+
+- from: four-disciplines-of-health
+  verb: parallels
+  to: dysfunction-cascade
+  why: >-
+    Both model organizational outcomes as one sequential causal chain, not
+    independent factors — health compounds forward through cohesion, then
+    clarity, then reinforcement, while dysfunction compounds through absent
+    trust into avoided conflict into fake commitment, so one broken link
+    corrupts everything downstream.
+
+- from: feedback-analysis
+  verb: instantiates
+  to: gulfs-of-execution-and-evaluation
+  why: >-
+    Writing down an expectation before acting and checking it against the
+    outcome months later is Norman's evaluation gulf applied to
+    self-knowledge — without that deliberate comparison step, a person has
+    no reliable way to tell whether their actions actually worked.
+
+- from: margin-of-safety
+  verb: parallels
+  to: calibrated-estimation
+  why: >-
+    Both refuse to trust a single point-estimate — Graham demands a price
+    cushion wide enough to absorb being wrong about intrinsic value, while
+    calibrated estimation demands an honest confidence interval instead of a
+    falsely precise number, treating acknowledged uncertainty as the
+    responsible output.
+
+- from: fighting-inertia
+  verb: formalizes
+  to: law-of-least-effort
+  why: >-
+    Clear's friction principle says behavior follows the path of least
+    effort; Fighting Inertia decomposes exactly what that effort consists of
+    at the point of adoption — knowledge gaps, behavior-change cost,
+    perceived risk, decision-maker count — turning a general friction claim
+    into a checklist of specific barriers a solution must clear.
+
+- from: actionable-vs-vanity-metrics
+  verb: parallels
+  to: proxy-metrics-trap
+  why: >-
+    Both distinguish a metric that drives a specific next action from one
+    that merely documents activity or state — vanity and proxy metrics both
+    let an organization feel informed or successful while the number has
+    stopped connecting to any real decision or outcome.
