@@ -58,3 +58,14 @@ Orphan pass: woven 162; verify batch2 done (psych-agile 48→43, systems-tech 44
 - Worktree: /home/sanjayg4/living-books/.claude/worktrees/concept-atlas
 - Sources clone: $CLAUDE_JOB_DIR/tmp/sources (= /home/sanjayg4/.claude/jobs/213b014c/tmp/sources)
 - Brief for extraction agents: pipeline/atlas/EXTRACTION-BRIEF.md (agent prompt = brief path + book/slug/source/outdir, model sonnet)
+
+## Tranche 3 (user: "merged, continue" 2026-07-13). Branch atlas-orphan-weave merged; now on atlas-tranche-3 off main.
+30 books, Sonnet, waves of 6. Sources: $CLAUDE_JOB_DIR/tmp/sources. Output: docs/atlas/concepts/<slug>/.
+After extraction: +30 BOOKS entries in scripts/build_atlas.py, regen CATALOG, weave (4 Sonnet anchored on new books), verify (2 Sonnet), rebuild atlas+corpus, strict build, smoke, PR #3.
+
+- [~] A thinking-for-a-change ✓7, simplexity (Kluger, Systems), whats-it-all-about ✓6, what-to-do-when-machines-do-everything ✓7, perfect-software ✓8, coders ✓8 — rest RUNNING
+- [ ] B reinventing-organizations ✓7, reframing-organizations ✓7, sprint (Knapp, Business/BMI "Sprint ( PDFDrive.com ).md"), lean-product-playbook ✓6, secrets-of-consulting ✓7, are-your-lights-on ✓8
+- [ ] C tao-of-charlie-munger ✓6, the-ultimate-question ✓7, strategy-beyond-the-hockey-stick ✓6, coaching-agile-teams ✓7, specification-by-example (Adzic, Agile/Lean), personal-kanban (Benson&Barry, Agile/Scrum&Kanban)
+- [ ] D value-stream-mapping ✓7, learning-agile (Stellman&Greene, Agile/Scrum&Kanban), leadership-challenge ✓7, simple-habits-for-complex-times ✓6, secret-language-of-leadership ✓8, gamestorming ✓7
+- [ ] E clean-language ✓7, pragmatic-thinking-and-learning ✓7, when-perfect-timing ✓7, decision-quality ✓8, daring-greatly ✓6, the-antidote (Oliver Burkeman, Psych/Mindfulness)
+t3 weave: systems-decisions ✓23, people-psyche ✓27; all 4 ✓ (98); verify: flow 23→22, psyche 27→24; batch1 running. Then 2 verifiers, rebuild, PR #3.

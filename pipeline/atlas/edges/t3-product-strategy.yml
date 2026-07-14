@@ -1,0 +1,229 @@
+# Lens: product discovery, strategy under social pressure, investing discipline,
+# organizational forms and frames. Anchors: sprint, lean-product-playbook,
+# the-ultimate-question, strategy-beyond-the-hockey-stick, tao-of-charlie-munger,
+# reinventing-organizations, reframing-organizations.
+
+- from: facade-prototype
+  verb: extends
+  to: mvp-test-matrix
+  why: >-
+    Olsen's matrix sorts MVP tests by channel and method; the facade prototype
+    is its highest-fidelity qualitative-product cell, adding the mechanism the
+    matrix omits — commitment rises with hours invested, so a one-day facade
+    keeps judgment uncorrupted where a longer build wouldn't.
+
+- from: small-sample-inference
+  verb: parallels
+  to: five-user-testing
+  why: >-
+    Hubbard's Rule of Five (a random five-observation sample already narrows
+    a population's median to 93.75% confidence) and Nielsen's five-user test
+    (roughly 85% of usability problems surface in the first five interviews)
+    run on different formulas — order-statistics coverage versus cumulative-
+    discovery probability — but both cash in the same shape: a steep,
+    front-loaded information curve where a tiny random sample already
+    captures most of the achievable certainty, and further sampling buys
+    sharply diminishing returns rather than proportional new insight.
+
+- from: sticky-decision
+  verb: parallels
+  to: node-generation
+  why: >-
+    Both insert silent, independent judgment — dot-stickers, one-idea-per-note
+    — before any spoken discussion, because voicing an opinion first anchors
+    or dominates the room and destroys the independence the later sorting or
+    voting step depends on.
+
+- from: social-side-of-strategy
+  verb: parallels
+  to: systemic-silence
+  why: >-
+    Both trace organizational dysfunction — inflated forecasts, withheld
+    safety concerns — to hierarchy, incentives, and career risk rather than to
+    individual dishonesty or cowardice, redirecting the fix from replacing
+    people toward redesigning the forums and rewards that produce the
+    behavior in anyone.
+
+- from: hockey-stick-and-hairy-back
+  verb: instantiates
+  to: planning-fallacy
+  why: >-
+    The hockey-stick ritual is inside-view forecasting under career pressure
+    at organizational scale — Kahneman's planning fallacy repeated yearly,
+    with "irrational perseverance" explaining why the pattern survives even
+    once everyone in the room can see the curve never actually arrives.
+
+- from: sit-on-your-ass-investing
+  verb: contradicts
+  to: margin-of-safety
+  why: >-
+    Graham's margin of safety requires selling once price reaches calculated
+    intrinsic value; Munger's sit-on-your-ass-investing shows that exact
+    discipline would have forced Buffett out of Berkshire decades early,
+    since the same inaction that discipline forbids is what let compounding
+    actually compound.
+
+- from: power-curve
+  verb: instantiates
+  to: power-law-distributions
+  why: >-
+    BHS's power curve — a flat middle and a steep, distant top capturing 90%
+    of economic profit — is Page's power-law distribution applied to firm
+    profit, produced by the same positive-feedback mechanism: capital chases
+    winners regardless of industry, the way preferential attachment builds
+    cities.
+
+- from: black-box-limits
+  verb: formalizes
+  to: circle-of-competence
+  why: >-
+    Weinberg proves no finite observation certifies a system's true internal
+    structure, only consistency. That grounds Munger's circle of competence:
+    since you can never verify you've captured a system's real structure, the
+    only safeguard is knowing exactly where your own access ends.
+
+- from: circle-of-competence
+  verb: extends
+  to: narrow-expertise
+  why: >-
+    Narrow-expertise shows credentialed authority doesn't transfer to
+    adjacent domains; circle of competence extends that diagnosis into a
+    first-person discipline — drawing your own boundary before anyone else
+    has to catch you trading on credibility a different question doesn't
+    actually cover.
+
+- from: incentive-caused-bias
+  verb: parallels
+  to: skin-in-the-game
+  why: >-
+    Both show misaligned reward corrupts judgment upstream of conscious
+    intent — Munger's salesman unconsciously steering customers toward the
+    higher-commission product, Taleb's risk-transferring executive, are the
+    same mechanism: reward decoupled from truth or downside, producing
+    distortion nobody involved would call dishonest.
+
+- from: incentive-driven-addiction
+  verb: extends
+  to: incentive-caused-bias
+  why: >-
+    Munger's incentive-caused-bias names distorted judgment in one misaligned
+    individual; Sinek's incentive-driven-addiction extends the mechanism to
+    neurochemistry and organizational scale, showing why the same
+    misalignment, repeated, produces whole teams that sabotage each other
+    without any single person acting dishonestly.
+
+- from: many-model-thinking
+  verb: formalizes
+  to: latticework-of-models
+  why: >-
+    Munger's "man with a hammer" warning gets mathematical teeth from Page's
+    diversity-prediction and Condorcet jury theorems: error shrinks with
+    genuinely independent models, not just more of them, formalizing exactly
+    why several disciplines beat mastering one when judging a complex
+    problem.
+
+- from: latticework-of-models
+  verb: parallels
+  to: multiframe-thinking
+  why: >-
+    Both diagnose the same failure — a single trained lens reaching for its
+    default answer regardless of fit — and prescribe the same fix:
+    deliberately hold several incompatible frames side by side, since one
+    discipline's hammer or one organizational lens alone always misses
+    something real.
+
+- from: advice-process
+  verb: contradicts
+  to: decentralized-control
+  why: >-
+    Reinertsen centralizes authority for decisions that are rare, large, or
+    benefit from economies of scale, reserving decentralization for problems
+    that age quickly; Laloux's advice process would let one consulted
+    individual make exactly that kind of call — AES's Shazad Qasim, a junior
+    analyst, committed $200 million toward a $700 million Pakistani power
+    plant, the rare, large, high-stakes decision Reinertsen's framework says
+    to centralize. Applied to the same decision, the two give opposite
+    answers: pool it under central control, or let one person decide after
+    consulting widely.
+
+- from: evolutionary-purpose
+  verb: parallels
+  to: autopoiesis
+  why: >-
+    Laloux's organization sensing its own emergent purpose is Maturana and
+    Varela's autopoiesis applied to strategy — both treat an entity's
+    direction and boundary as generated from within its own ongoing
+    self-producing activity, not designed or imposed by an outside
+    authority.
+
+- from: evolutionary-purpose
+  verb: parallels
+  to: shared-vision
+  why: >-
+    Both distinguish a genuinely emergent, freely-enrolled direction from one
+    imposed top-down — Laloux's purpose is listened to rather than
+    strategized, Senge's vision is real only when built from personal
+    visions people choose; either imposed instead produces mere compliance,
+    not commitment.
+
+- from: multiframe-thinking
+  verb: parallels
+  to: theory-laden-perception
+  why: >-
+    Both locate a diagnostic failure in the lens itself rather than in
+    intelligence or evidence — Bolman and Deal's "cluelessness" (misreading a
+    situation and not knowing it) and Kuhn's theory-ladenness both claim that
+    what an observer takes to be true is shaped by the framework currently
+    active, so changing the framework changes what's visible, not just what's
+    concluded.
+
+- from: good-profits-bad-profits
+  verb: parallels
+  to: shareholder-value-trap
+  why: >-
+    Both name a metric that hides two economically opposite realities behind
+    one number — profit or share price identical on paper whether earned by
+    delighting customers or by extracting from them — until the hidden kind
+    collapses the relationships the business actually depends on.
+
+- from: product-market-fit-pyramid
+  verb: tempers
+  to: four-big-risks
+  why: >-
+    Cagan's four risks are tackled as parallel, simultaneous checks; Olsen's
+    pyramid tempers that by insisting on order — target customer and
+    underserved need must be validated before value proposition, feasibility,
+    or UX matter, since no downstream risk-check compensates for a wrong
+    market.
+
+- from: product-market-fit-pyramid
+  verb: extends
+  to: problem-solution-fit
+  why: >-
+    Running Lean's Problem/Solution Fit stage bundles market and early
+    solution viability into one coarse test — is the problem real, will
+    customers pay, can it be built — without separating who the customer is
+    from what underserved need the solution addresses; Olsen's pyramid
+    extends that into five separately-testable layers, splitting the market
+    question into target customer and underserved need, then adding value
+    proposition, feature set, and UX as the dependent, later-tested solution
+    hypotheses.
+
+- from: evolutionary-purpose
+  verb: contradicts
+  to: power-curve
+  why: >-
+    BHS treats strategy as a deliberate climb up a competitive, power-law
+    profit ranking; Laloux argues organizations that drop the whole
+    competitive frame — sensing purpose instead of benchmarking rivals — grow
+    just as fast, making the ranking optional, not the real scoreboard.
+
+- from: circle-of-competence
+  verb: tempers
+  to: latticework-of-models
+  why: >-
+    Munger tells you to gather ideas from every discipline, yet also to bet
+    only inside a hard boundary of what you truly understand;
+    circle-of-competence tempers the latticework's breadth by drawing the
+    line between knowing-about, which should be wide, and betting-on, which
+    must stay narrow.

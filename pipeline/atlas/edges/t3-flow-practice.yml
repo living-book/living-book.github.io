@@ -1,0 +1,202 @@
+- from: percent-complete-and-accurate
+  verb: tempers
+  to: flow-efficiency
+  why: >-
+    Flow efficiency scores a stream purely by active-versus-waiting time,
+    blind to whether that active time produced correct work; a step can be
+    time-efficient yet still compound low-quality output, since rework loops
+    never register as waiting.
+
+- from: mapping-altitude
+  verb: parallels
+  to: leverage
+  why: >-
+    Both insist the obvious fix visible from inside one process step is
+    usually the wrong one — real leverage, like a value stream's macro view,
+    sits at a nonobvious structural point invisible until you deliberately
+    step back from local detail.
+
+- from: existential-overhead
+  verb: parallels
+  to: solitude-deprivation
+  why: >-
+    Both describe an invisible background cognitive load that compounds by
+    default and lifts only through deliberate action — externalizing
+    unfinished work onto a board, or deliberately unplugging from other
+    minds' input.
+
+- from: shuhari-learning-stages
+  verb: parallels
+  to: dreyfus-model-skill-acquisition
+  why: >-
+    Both hold that skill moves through a small number of qualitatively
+    distinct stages where the kind of guidance needed changes at each one,
+    so the same fixed instruction helps at one stage and cripples another.
+
+- from: mastery-stage-coaching-match
+  verb: extends
+  to: shuhari-learning-stages
+  why: >-
+    Shuhari names the three stages and warns that rules must be matched to
+    stage, but stops at the diagnosis; mastery-stage-coaching-match adds the
+    missing operational piece — three named coach styles, Teaching, Coaching,
+    and Advising, mapped one-to-one onto Shu, Ha, and Ri.
+
+- from: kata
+  verb: parallels
+  to: dreyfus-model-skill-acquisition
+  why: >-
+    Both hold that verbally explained content cannot by itself produce
+    skilled behavior: kata locates the transmissible part in a practiced,
+    content-neutral routine rather than a stated principle, and Dreyfus
+    shows expert performance is intuitive and cannot be reduced to the
+    explicit rules that work for novices.
+
+- from: testing-as-sampling
+  verb: parallels
+  to: black-box-limits
+  why: >-
+    Both hold that finite observation can never certify completeness — a
+    test suite samples an effectively infinite space of possible checks,
+    just as a black box's observed behavior is only ever consistent with a
+    model, never uniquely confirming it.
+
+- from: information-immunity
+  verb: parallels
+  to: self-image-defense
+  why: >-
+    Both describe an unconscious filter — repression, rationalization,
+    projection, or a defended self-story — that blocks threatening
+    information from ever being weighed on its merits, whenever it
+    threatens a self-image the person needs intact.
+
+- from: expected-value-of-information
+  verb: formalizes
+  to: information-value-of-testing
+  why: >-
+    Information-value-of-testing states the principle qualitatively —
+    testing that can't change a decision is worthless regardless of rigor —
+    and expected value of information turns it into a measurable quantity,
+    EOL(before) minus EOL(after), that prices exactly how much a given
+    uncertainty reduction is worth before you spend anything gathering it.
+
+- from: living-documentation
+  verb: instantiates
+  to: knowledge-in-the-world
+  why: >-
+    An executable specification that fails the moment reality drifts is a
+    concrete case of putting correctness-knowledge into the environment
+    instead of requiring people to remember and manually keep documentation
+    true.
+
+- from: key-examples
+  verb: parallels
+  to: exemplar
+  why: >-
+    Both hold that concrete, specific instances — a worked example, a
+    solved paradigm-defining problem — train shared judgment and expose
+    ambiguity that abstract rules or definitions leave hidden, and community
+    coherence rests on these instances, not stated rules.
+
+- from: done-done
+  verb: parallels
+  to: percent-complete-and-accurate
+  why: >-
+    Both refuse any relaxation of a completion or quality claim: "done done"
+    breaks if anything is left unfinished, and percent-complete-and-accurate
+    breaks if a defect is silently absorbed downstream instead of
+    attributed to its source.
+
+- from: hero-culture-magical-thinking
+  verb: parallels
+  to: premature-scaling
+  why: >-
+    Both describe an organization mistaking an unsustainable practice for
+    free capacity — heroics absorbing workload, or hiring against an
+    unverified plan — until the hidden, compounding cost surfaces as a
+    sudden collapse rather than a gradual one.
+
+- from: productivity-vs-effectiveness
+  verb: tempers
+  to: hero-culture-magical-thinking
+  why: >-
+    Separating doing-a-lot from doing-it-well from doing-the-right-thing
+    shows exactly why hero-culture's lesson is confused: heroics reward raw
+    output, the wrong axis, and mistaking it for effectiveness is what hides
+    the debt until velocity collapses.
+
+- from: risk-of-replacement-grid
+  verb: formalizes
+  to: jobs-vs-tasks
+  why: >-
+    Jobs-vs-tasks claims automation forecasts fail by treating a job as one
+    atomic unit; the risk-of-replacement grid turns that claim into a
+    measurable two-axis test — optimization versus creativity, asocial
+    versus social — for exactly which tasks survive.
+
+- from: syntactic-brittleness
+  verb: parallels
+  to: complexity-beyond-memory
+  why: >-
+    Both name a system with no graceful-degradation margin: a formal
+    rule-system fails completely from one misplaced symbol, and an expert
+    mind past a complexity threshold can no longer reliably hold every
+    necessary step, however well trained.
+
+- from: inner-game-awareness
+  verb: parallels
+  to: powerful-questions
+  why: >-
+    Both replace direct transmission with a channel that lets the other
+    person's own noticing do the work — nonjudgmental situational awareness
+    over verbal instruction, or an open question held without an answer in
+    mind over a directive one.
+
+- from: safe-to-fail-practice-environment
+  verb: parallels
+  to: set-based-development
+  why: >-
+    Both refuse to let a single answer get picked before enough is known,
+    using different tactics for the same refusal: a practice environment
+    engineers reversibility — freely backtracking and retrying — so
+    trial-and-error substitutes for getting it right the first time, while
+    set-based development keeps multiple design options alive in parallel
+    so real feedback, not upfront reasoning, narrows the field.
+
+- from: testing-as-sampling
+  verb: tempers
+  to: continuous-validation
+  why: >-
+    Continuous validation's every-change re-run catches drift fast, but
+    testing-as-sampling names its limit: an executable spec still samples a
+    finite slice of an infinite behavior space, so passing it certifies
+    consistency with chosen examples, never completeness.
+
+- from: pressure-kills-cognition
+  verb: parallels
+  to: context-switching-tax
+  why: >-
+    Both uncover a hidden cognitive cost larger than intuition assumes —
+    deadline pressure suppresses creativity for days after it lifts, and
+    task-juggling imposes overhead the CPU-scheduling metaphor undersells —
+    degrading the very capacity each practice presumes it protects.
+
+- from: coach-mentor-duality
+  verb: parallels
+  to: inner-game-awareness
+  why: >-
+    Both split developing someone else into the same two poles — drawing
+    out the other person's own noticing versus directly transferring the
+    helper's expertise. Coach-mentor-duality treats both poles as legitimate
+    and names which one you're in; inner-game-awareness shows why the
+    drawing-out pole is so often undervalued, since verbal instruction
+    overloads the very channel awareness leaves free.
+
+- from: pragmatic-investment-plan
+  verb: parallels
+  to: flow-distribution
+  why: >-
+    Both insist a scarce resource — personal learning time, or a team's
+    delivery capacity — must be allocated across categories by a
+    deliberate, reviewed policy, not left as the unconscious byproduct of
+    whatever feels urgent that day.
