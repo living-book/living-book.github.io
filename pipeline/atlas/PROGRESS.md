@@ -69,3 +69,9 @@ After extraction: +30 BOOKS entries in scripts/build_atlas.py, regen CATALOG, we
 - [ ] D value-stream-mapping ✓7, learning-agile (Stellman&Greene, Agile/Scrum&Kanban), leadership-challenge ✓7, simple-habits-for-complex-times ✓6, secret-language-of-leadership ✓8, gamestorming ✓7
 - [ ] E clean-language ✓7, pragmatic-thinking-and-learning ✓7, when-perfect-timing ✓7, decision-quality ✓8, daring-greatly ✓6, the-antidote (Oliver Burkeman, Psych/Mindfulness)
 t3 weave: systems-decisions ✓23, people-psyche ✓27; all 4 ✓ (98); verify: flow 23→22, psyche 27→24; batch1 running. Then 2 verifiers, rebuild, PR #3.
+
+## Orphan pass 2 (user: "next wave, optimize tokens" 2026-07-13). PR #3 merged; branch atlas-orphan-weave-2 off main.
+145 orphans → pipeline/atlas/orphans2/ORPHANS.md (Biz 43, Lead 24, Psych 21, Agile 21, Tech 20, Sys 16).
+- [x] 4 Sonnet weavers: 112 edges (biz 27, lead-sys 32, psych-agile 37, tech 16); 30 honest unlinks
+- [x] 2 Sonnet verifiers: kept 88 (24/27, 26/32, 26/37, 12/16); 24 dropped, 10 fixed
+- [x] rebuild: 550 edges (4 cross-file dups deduped), 54 orphans, 79% cross-domain; strict build + smoke clean → PR #4

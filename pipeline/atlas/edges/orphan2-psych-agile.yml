@@ -1,0 +1,215 @@
+# Edge-weaving pass 2: Psychology & Self-Development + Agile & Software Delivery orphans
+# Format: from / verb / to / why (shared mechanism, not vibe)
+
+- from: coach-failure-modes
+  verb: instantiates
+  to: ego-and-blind-spots
+  why: >-
+    The Hub, Admin, Opinionator, Expert, and Nag personas are the book's ego-driven
+    cluster — "I"-focused defensiveness curdling into overcontrol — a concrete case
+    of the ego barrier's claim that subconscious self-protection, not lack of skill,
+    blocks a coach's objective in-the-moment self-assessment.
+
+- from: five-levels-of-conflict
+  verb: tempers
+  to: mining-for-conflict
+  why: >-
+    Once conflict's language signature crosses from factual disagreement into contest
+    or crusade, deliberately extracting more buried disagreement stops surfacing
+    useful friction and starts escalating identity warfare instead.
+
+- from: commitments-not-plans
+  verb: instantiates
+  to: the-map-mistaken-for-the-world
+  why: >-
+    Treating the written plan-document as the source of obligation mistakes the map
+    (the record of a promise) for the territory (the actual human commitment it was
+    abstracted from), letting people disown what the document merely recorded.
+
+- from: fractured-perspective
+  verb: parallels
+  to: incommensurability
+  why: >-
+    Each role assigns the shared practice a different meaning the way rival paradigms
+    assign shared terms different meanings, and without deliberate reconciliation
+    there is no neutral ground, so the old disagreement silently reproduces itself.
+
+- from: methodology-vs-mindset
+  verb: parallels
+  to: dreyfus-model-skill-acquisition
+  why: >-
+    Both stage adoption as qualitatively distinct levels — isolated rule-following,
+    then a coherent system, then an internalized way of operating — where the final
+    stage cannot be reached by accumulating more of the earlier stage's kind of skill.
+
+- from: course-correction
+  verb: parallels
+  to: sense-and-respond-steering
+  why: >-
+    Both replace commitment to an original fixed plan with continuous, cheap,
+    real-time micro-adjustments, because upfront precision is impossible and the
+    cost of uncorrected drift compounds the longer it goes unaddressed.
+
+- from: future-in-progress-limit
+  verb: tempers
+  to: gospel-of-10x
+  why: >-
+    Splitting goals into committed and aspirational baskets encourages generating
+    more ambitious targets, but past a personal capacity threshold each additional
+    aspirational goal adds downstream overload no WIP limit can absorb, not ambition.
+
+- from: metacognitive-mapping
+  verb: parallels
+  to: meaningful-space
+  why: >-
+    Both convert an internal, abstract set of items into a spatial arrangement whose
+    structure — position, axis, grid — itself becomes legible information about the
+    underlying pattern, not merely a storage location for the items.
+
+- from: deriving-scope-from-goals
+  verb: parallels
+  to: solution-method-mistaken-for-problem
+  why: >-
+    Both insist that a stated requirement or proposed technique is not the actual
+    problem or goal, and that deriving the real underlying objective first often
+    reveals a cheaper answer than the one already assumed.
+
+- from: specification-in-domain-language
+  verb: parallels
+  to: attending-exquisitely
+  why: >-
+    Both refuse to substitute the speaker's or domain's own vocabulary with an
+    outsider's translation — technical jargon or paraphrase — because the
+    translation step is precisely where shared understanding quietly breaks.
+
+- from: countermeasures-as-hypotheses
+  verb: parallels
+  to: hypothesize-design-test-learn-loop
+  why: >-
+    Both frame an improvement as a testable, provisional hypothesis rather than a
+    solution to defend, so evidence can overturn it later without the ego cost of
+    having claimed it was already right.
+
+- from: freed-capacity
+  verb: tempers
+  to: circle-of-safety
+  why: >-
+    A leader's protective circle keeps people cooperating only while danger stays
+    outside it; the moment efficiency savings get converted into layoffs, the danger
+    moves inside the circle and the same workforce reverts to self-protection.
+
+- from: single-point-value-stream-ownership
+  verb: parallels
+  to: sprint-decider
+  why: >-
+    Both diagnose that spreading authority across a group produces no real
+    accountability at all, and the fix in each case is naming exactly one person
+    with unambiguous final responsibility before the work begins.
+
+- from: end-of-the-master-builder
+  verb: parallels
+  to: knowledge-in-the-world
+  why: >-
+    Both replace reliance on one mind's internalized end-to-end mastery or memory
+    with information deliberately externalized into shared systems or environment,
+    because human cognition alone cannot reliably hold everything required.
+
+- from: disengagement-divide
+  verb: parallels
+  to: dwysywd-credibility
+  why: >-
+    Both locate the effect — disengagement or credibility — not in the content of
+    stated values or promises but in the size of the gap between what's aspired to
+    or said and what's actually practiced or done.
+
+- from: scarcity-culture
+  verb: contradicts
+  to: gospel-of-10x
+  why: >-
+    Gospel-of-10x treats a deliberately engineered 40% failure rate on aspirational
+    goals as what extracts peak performance, while scarcity-culture identifies that
+    same chronic "never enough" condition as the shame-driven engine of disengagement.
+
+- from: vulnerability-armor
+  verb: parallels
+  to: information-immunity
+  why: >-
+    Both name a small set of specific defense mechanisms — foreboding joy,
+    perfectionism, numbing; or repression, rationalization, projection — that
+    activate whenever a core belief about the self ("I am not enough," "I must
+    always be perfect") is threatened, whether by anticipated pain or unwelcome
+    incoming information.
+
+- from: decision-hierarchy
+  verb: parallels
+  to: clarifying-the-decision
+  why: >-
+    Both insist a decision process is invalid until the decision itself is pinned
+    down first — decision-hierarchy by scoping what's given, in-scope, or deferred;
+    clarifying-the-decision by testing for genuine alternatives, uncertainty,
+    stakes, and an owner — since a wrongly framed question voids all analysis.
+
+- from: illusion-of-dq
+  verb: instantiates
+  to: ego-and-blind-spots
+  why: >-
+    Self-rated decision quality collapsing from 70-90% to a real ~25% weakest-link
+    score once measured requirement by requirement is a concrete demonstration of
+    the blind-spot barrier: the deficiency being misjudged is invisible to the judge.
+
+- from: organizational-dq
+  verb: parallels
+  to: learning-organization
+  why: >-
+    Both insist a capability becomes real at the organizational level only when it
+    is deliberately structured and continually developed — not when it depends on
+    one leader's personal style or a single switch flipped once.
+
+- from: solitude-deprivation
+  verb: tempers
+  to: mental-marinade-incubation
+  why: >-
+    Incubation requires disengaging conscious effort during unstructured, input-free
+    time for the unconscious to work; a state of near-zero time free from other
+    minds' input structurally forecloses that condition from ever occurring.
+
+- from: backwards-law
+  verb: parallels
+  to: via-negativa
+  why: >-
+    Both reject the instinct to fix a problem by adding a targeted countermeasure
+    — Taleb by showing removal of the fragile is more reliable than positive
+    intervention, Burkeman by showing direct pursuit of a positive state reliably
+    produces its opposite — and prescribe subtraction or acceptance over further effort.
+
+- from: security-as-trap
+  verb: instantiates
+  to: the-map-mistaken-for-the-world
+  why: >-
+    Chasing the feeling of security treats a felt representation of safety as if it
+    were safety itself, letting the proxy diverge from — and even actively degrade
+    — the underlying reality it was supposed to track.
+
+- from: chronotype
+  verb: parallels
+  to: wired-differently
+  why: >-
+    Both identify a stable, largely involuntary individual-difference axis —
+    circadian timing or cognitive wiring — that teams and institutions must
+    explicitly map and design around rather than assume everyone runs the same way.
+
+- from: socioemotional-selectivity
+  verb: parallels
+  to: memento-mori-practice
+  why: >-
+    Both find that making an ending or mortality salient does not produce despair
+    but instead sharpens focus onto what is emotionally essential, converting
+    awareness of limits into clarity rather than dread.
+
+- from: the-uh-oh-effect
+  verb: parallels
+  to: paradigm-crisis
+  why: >-
+    Both find that a specific noticed threshold moment — a midpoint recognized as a
+    warning, or accumulated anomalies recognized as crisis — not gradual pressure,
+    is what unlocks a burst of urgency or change that steady effort alone fails to.

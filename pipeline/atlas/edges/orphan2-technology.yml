@@ -1,0 +1,100 @@
+- from: explanatory-creativity
+  verb: contradicts
+  to: example-based-programming
+  why: >-
+    Deutsch argues genuine intelligence requires generating new explanatory
+    knowledge, while curating training examples for pattern-matching models
+    only recombines given data, which he explicitly names as faking creativity.
+
+- from: meritocracy-as-alibi
+  verb: instantiates
+  to: rational-memes
+  why: >-
+    Both describe a belief that spreads by disabling critical scrutiny rather
+    than surviving it: meritocracy-as-alibi survives contact with demographic
+    exclusion by reframing it as proof of the excluded group's deficiency.
+
+- from: optimization-mindset-spillover
+  verb: parallels
+  to: competency-trap
+  why: >-
+    Both describe a skill or mindset honed for success in one narrow domain
+    becoming a liability once carried, unexamined, into domains whose real
+    demands are different from the ones that built the skill.
+
+- from: prestige-driven-regendering
+  verb: parallels
+  to: status-complexity-mismatch
+  why: >-
+    Both show perceived status is decoupled from real competence or
+    complexity — Kluger's automatability test exposes low-status jobs as
+    genuinely complex, just as ENIAC's women were doing expert-level work
+    before status gatekeeping reclassified who could claim it.
+
+- from: prestige-driven-regendering
+  verb: tempers
+  to: picking-people
+  why: >-
+    Drucker claims staffing can become a rigorous, objective discipline, but
+    prestige-driven-regendering shows that as a role's status rises, gatekeepers
+    redefine who "really" belongs by status signaling, corrupting exactly the
+    objectivity that discipline assumes.
+
+- from: decomposition-composition-fallacy
+  verb: parallels
+  to: good-of-the-whole
+  why: >-
+    Both insist a system's properties at one level of aggregation cannot be
+    read off the other level: testing parts misses whole-system interaction
+    just as facts about a whole are not reducible to facts about its members.
+
+- from: demonstration-vs-test
+  verb: parallels
+  to: advocacy-approval-myth
+  why: >-
+    Both distinguish a process engineered to produce an audience's conviction
+    from a process engineered to discover what's actually true, and both warn
+    that conflating the two lets false or bad things pass as verified.
+
+- from: meta-testing
+  verb: instantiates
+  to: measurement-as-uncertainty-reduction
+  why: >-
+    Meta-testing's indirect, incidental signals are a concrete case of Hubbard's
+    claim that any observation reducing uncertainty counts as measurement, even
+    without executing the thing being assessed or producing a number.
+
+- from: perception-pipeline
+  verb: parallels
+  to: theory-laden-perception
+  why: >-
+    Both claim raw observation never reaches judgment unfiltered: a four-stage
+    perceptual pipeline and a governing theoretical framework each selectively
+    discard and reshape what's noticed before any "neutral" read is possible.
+
+- from: test-goodness-is-relational
+  verb: parallels
+  to: stability-as-relationship
+  why: >-
+    Both deny that the property in question (test goodness, system stability)
+    belongs to the thing in isolation, insisting it is instead a joint fact
+    about the thing's relationship to its context, implementation, or environment.
+
+- from: code-halo-instrumentation
+  verb: tempers
+  to: coveillance
+  why: >-
+    Coveillance depends on symmetrical, accountable mutual watching, but once
+    instrumentation data becomes competitive value to extract, the incentive
+    pushes toward exactly the one-way, asymmetric surveillance coveillance was
+    meant to replace.
+
+- from: organizational-melting-point
+  verb: tempers
+  to: default-outcome-is-no-change
+  why: >-
+    Continuation is usually the safest prediction, but organizational-melting-point
+    names the specific condition — data accumulation crossing an industry's own
+    threshold — under which that default stops holding and restructuring becomes
+    forced rather than optional.
+
