@@ -82,3 +82,9 @@ t3 weave: systems-decisions ✓23, people-psyche ✓27; all 4 ✓ (98); verify: 
 - [x] 4 weavers: 105 edges (org 26, product 29, decisions 29, mind 21) — one session-limit wipe, relaunched 3:21am
 - [x] 2 verifiers: kept 94 (24/26, 25/29, 27/29, 18/21); 11 dropped, 13 fixed
 - [x] rebuild: 121 books, 839 concepts, 644 edges (80% cross-domain, 103 tempers + 25 contradicts), 145 orphans; corpus 1031 chunks; strict build + smoke clean → PR #5
+
+## Orphan pass 3 (user: "execute next wave orphan pass" 2026-07-14). PR #5 merged; branch atlas-orphan-weave-3 off main.
+145 orphans → pipeline/atlas/orphans3/ORPHANS.md (Biz 44, Psych 24, Lead 23, Tech 21, Agile 20, Sys 13).
+- [x] 4 Sonnet weavers: 127 edges (biz 44 [100%!], lead-sys 26, psych-agile 38 [93%], tech 19); 14 honest unlinks; zero session-limit kills
+- [x] 2 Sonnet verifiers: kept 118 (biz 44→39, lead-sys 26→24, psych-agile 38→37, tech 19→18); 9 dropped, 7 fixed; biz 100% link-rate claim busted (5 forced)
+- [x] rebuild: 121 books, 839 concepts, 762 edges (78% cross-domain, 119 tempers + 26 contradicts), 21 orphans; corpus 1031 chunks; strict build + smoke (839 nodes, 0 errors) → PR #6

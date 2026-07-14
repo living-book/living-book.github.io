@@ -1,0 +1,154 @@
+- from: code-as-social-engineering
+  verb: parallels
+  to: iatrogenics
+  why: >-
+    Both name harm produced by a well-intentioned local intervention that goes untraced back to
+    its cause: Taleb's helper and harm are "rarely traced together," and Thompson's engineers
+    reason about system logic, not the crowd behavior their shipped code will trigger at scale.
+
+- from: coding-as-a-trade
+  verb: parallels
+  to: talent-hotbeds
+  why: >-
+    Both describe a resource-poor, non-pedigreed population producing outsized skill once a
+    structured, intensive local practice environment converges on it — Bit Source's laid-off
+    Kentucky miners mirror Coyle's KIPP classrooms, refuting the myth that only innate gift or
+    credential explains competence.
+
+- from: systemizing-mindset
+  verb: parallels
+  to: feedback-analysis
+  why: >-
+    Both treat the self as an instrument-model-test-iterate loop rather than a fixed identity —
+    Cohen debugs his own social behavior the way he debugs code, and Drucker's written
+    prediction-versus-outcome cycle is the same empirical self-correction applied to discovering
+    real strengths.
+
+- from: depth-as-composition
+  verb: parallels
+  to: expert-chunking
+  why: >-
+    Both show a system handling exponentially more without processing raw elements from scratch,
+    by reusing already-solved sub-structure — a network's layer built from the prior layer's
+    output, a chess "chunk" built from piece relationships already bound into one retrievable
+    unit.
+
+- from: local-generalization-limits
+  verb: extends
+  to: curse-of-dimensionality
+  why: >-
+    Domingos names the symptom — similarity and generalization degrade as attributes grow — while
+    Goodfellow supplies the mechanism (a purely local learner needs one example per distinguishable
+    region) and the escape (compositional, distributed representations covering O(n^d) regions
+    from O(n) parameters).
+
+- from: representation-learning
+  verb: parallels
+  to: problem-formulation-shapes-solutions
+  why: >-
+    Both relocate the hard part of a problem to its framing: Goodfellow's polar-versus-Cartesian
+    example makes a linearly inseparable problem trivial by changing only the representation,
+    exactly as Ackoff's fish-tank reframing dissolves a problem no direct fix could touch.
+
+- from: quantum-multiverse
+  verb: parallels
+  to: reality-of-abstractions
+  why: >-
+    Both apply the same Deutschian criterion across two of his books — admit an unobservable
+    entity into your ontology because the best explanation requires it, not because an instrument
+    registers it — to shadow photons in one case and to numbers, causes, and programs in the
+    other.
+
+- from: black-box-limits
+  verb: tempers
+  to: quantum-multiverse
+  why: >-
+    Weinberg's claim that any finite observation set is compatible with multiple equally valid,
+    non-adjudicable internal models directly names the condition under which Deutsch's confident
+    inference from interference to a literal multiverse fails: rival interpretations (Copenhagen
+    included) can stay data-consistent without being refuted.
+
+- from: actor-model-concurrency
+  verb: parallels
+  to: team-interaction-modes
+  why: >-
+    Both eliminate an entire bug class by removing shared internal state as an option — an actor
+    interacts with others only by sending messages, and Team Topologies' X-as-a-Service mode lets
+    one team consume another's output through a clean interface without needing its internals.
+
+- from: immutability-discipline
+  verb: parallels
+  to: via-negativa
+  why: >-
+    Both solve a risk by subtraction rather than by adding protective machinery around it — Tate's
+    Clojure removes the capacity for uncontrolled mutation instead of adding better locks, the same
+    move Taleb names as more robust than any additive intervention or prediction.
+
+- from: logic-programming-declarative-solving
+  verb: parallels
+  to: target-condition
+  why: >-
+    Both separate a fixed "what" from an open "how" — Tate's Prolog states facts and lets the
+    engine search ("you don't have to know how"), while Rother's target condition is "not
+    optional... how to achieve it is optional," discovered through unplanned experimental steps
+    instead of computation.
+
+- from: pattern-matching-as-control-flow
+  verb: parallels
+  to: forcing-functions
+  why: >-
+    Both convert a potential silent failure into a structurally guaranteed loud one — a pattern
+    match "fails loudly and immediately... rather than letting a mismatch propagate silently," the
+    same shift from human vigilance to built-in structure that defines a forcing function.
+
+- from: prototype-vs-class-objects
+  verb: parallels
+  to: exemplar
+  why: >-
+    Both collapse "abstract template you instantiate" into "concrete case you copy and adapt" —
+    Io's objects clone an existing object with no class beneath it, and Kuhn's practitioners solve
+    new problems by trained resemblance to a worked exemplar, not by applying a stated rule.
+
+
+- from: quality-attribute-primacy
+  verb: parallels
+  to: resources-processes-values
+  why: >-
+    Both locate capability in structure rather than content — a system's performance or security is
+    set mainly by its architecture, not its functionality, just as an organization's capability
+    lives in its processes and values, not in which people or projects are run through them.
+
+- from: gpt-complementary-innovation-lag
+  verb: tempers
+  to: cognifying
+  why: >-
+    Kelly's "just plug into the grid and get AI" implies transformation arrives as soon as cheap
+    intelligence is available; Brynjolfsson's complementary-innovation lag names the condition
+    under which that fails — payoff waits on organizational redesign that historically took a
+    generation, not a plug-in.
+
+- from: ahead-five-value-levers
+  verb: parallels
+  to: four-zones-model
+  why: >-
+    Both diagnose the same failure mode — applying one management logic across categories that need
+    different ones — and prescribe the same fix: name distinct buckets (Automate/Halo/Enhance/
+    Abundance/Discovery; Performance/Productivity/Incubation/Transformation), each with its own
+    goal, team, and metrics, so none contaminates another.
+
+- from: systems-of-intelligence
+  verb: parallels
+  to: sense-and-respond-steering
+  why: >-
+    Both replace a static, backward-looking loop with continuous live sensing driving action — a
+    system of intelligence "doesn't just record what happened, it decides what should happen next,"
+    the same predict-and-control-to-sense-and-respond shift Laloux names directly.
+
+- from: three-ms-framework
+  verb: parallels
+  to: four-strands
+  why: >-
+    Both name several independently-arrived-at elements that are individually necessary and jointly
+    sufficient, with none reducible to the others — materials, machines, and models must align for
+    a revolution to succeed, just as physics, epistemology, computation, and evolution each close a
+    gap only the others can close.

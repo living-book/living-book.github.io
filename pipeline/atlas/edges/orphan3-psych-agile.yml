@@ -1,0 +1,340 @@
+- from: money-illusion
+  verb: parallels
+  to: owner-earnings
+  why: >-
+    Both distinguish a nominal, stated figure from the real economic quantity underneath it:
+    money illusion shows people weight the printed dollar amount even knowing inflation
+    changes its value, and owner earnings shows GAAP's reported number diverges from the
+    cash a business could actually distribute, so the nominal figure misleads either way.
+
+- from: preference-reversals
+  verb: parallels
+  to: choice-of-average
+  why: >-
+    Both show that a "neutral" measurement procedure isn't neutral: pricing versus choosing
+    the same gamble yields opposite rankings, just as reporting the mean versus the median
+    of the same data tells a different story — the elicitation method constructs the answer
+    rather than reading off a single stable fact.
+
+- from: shame-resilience
+  verb: parallels
+  to: ironic-process-theory
+  why: >-
+    Shame resilience names "moving away" (withdrawal, hiding, secrecy) as a failed shame
+    defense; ironic process theory explains the mechanism why — suppressing or hiding an
+    unwanted internal state requires monitoring for it, which keeps surfacing it, so only
+    active engagement (reaching out, speaking it) breaks the cycle in either account.
+
+- from: dialogue-decision-process
+  verb: instantiates
+  to: deciding-how-to-decide
+  why: >-
+    The Dialogue Decision Process is a concrete design across exactly the levers Roberto
+    names — composition (project team vs. decision board), communication (staged dialogue
+    meetings), and control (board shapes each phase before the next begins) — turning the
+    general "design the process deliberately" principle into a named organizational routine.
+
+- from: dq-appraisal-cycle
+  verb: parallels
+  to: five-focusing-steps
+  why: >-
+    Both find the single weakest link in a multi-part system, fix only that link, then
+    re-score the whole system since the parts are interdependent, and repeat until nothing
+    is substandard — the DQ cycle applies TOC's identify-exploit-elevate-repeat logic to
+    decision quality's six requirements instead of a production constraint.
+
+- from: development-climate-interaction
+  verb: parallels
+  to: circle-of-safety
+  why: >-
+    Both argue that internal threat consumes the energy needed for a group's real work:
+    Battaglia's class stalls into racial confrontation and Guttman's students disengage
+    when climate turns hostile, exactly as circle-of-safety argues that only once internal
+    danger is removed does energy redirect from self-protection to the actual task at hand.
+
+- from: mastery-stages-blind-spot
+  verb: instantiates
+  to: polanyis-paradox
+  why: >-
+    The expert blind spot — instructors who say "sauté until done" because their own
+    competence has become unconscious — is a direct case of Polanyi's "we know more than
+    we can tell": automaticity from repetition makes the knowledge tacit and inarticulable,
+    which is exactly why the expert can no longer explain it in rules a novice can use.
+
+- from: practice-feedback-cycle
+  verb: parallels
+  to: closed-loop-feedback
+  why: >-
+    Both show that a raw signal — margin comments, an NPS score — is worthless unless it is
+    fast, specific to the same goal or the same customer, and reaches the person who can
+    still act on it; a GPS-style correction beats a delayed verdict, and a same-week call
+    beats a quarterly report, in either domain.
+
+- from: prior-knowledge-activation
+  verb: parallels
+  to: habit-stacking
+  why: >-
+    Both argue that a new element sticks only when deliberately anchored to something that
+    already reliably exists: prior knowledge doubles retention when a prompt connects new
+    material to it, and habit stacking supplies a free, reliable cue by chaining a new habit
+    onto one that already fires automatically — possession alone isn't activation.
+
+- from: accidental-nature
+  verb: parallels
+  to: default-effects
+  why: >-
+    Both show the no-effort, no-choice condition of an environment is not neutral: a window
+    view nobody sought out measurably changes recovery and behavior, just as the option that
+    obtains when someone does nothing captures a large share of outcomes regardless of
+    merit — inertia is itself a powerful, unchosen lever in both accounts.
+
+- from: awe-effect
+  verb: parallels
+  to: group-synchrony
+  why: >-
+    Both find that reduced self-focus is the mechanism, not a byproduct, that produces
+    bonding and wellbeing: awe's shrinking of self-interest lowers inflammation markers and
+    raises generosity, while synchronized movement's reduced self-consciousness raises pain
+    threshold and drives the urge to reunite — the state change itself does the work.
+
+- from: biophilia
+  verb: instantiates
+  to: snowmobile-mismatch
+  why: >-
+    Biophilia names one specific evolved-but-mismatched disposition — an affinity for
+    living systems selected for on the savanna, now largely starved in offices and
+    cities — a concrete case of the general pattern where a trait built for one
+    environment degrades in a modern environment it was never designed to run in.
+
+- from: prospect-refuge
+  verb: parallels
+  to: balance-of-opposites
+  why: >-
+    Both locate preference in the reconciliation of two qualities assumed to trade off:
+    prospect-refuge shows humans prefer concealment plus open sightlines at once, not
+    either alone, just as balance-of-opposites shows buildings read as beautiful when they
+    hold luxury and simplicity, or old and new, together rather than choosing a side.
+
+- from: l-mode-r-mode-cognition
+  verb: parallels
+  to: context-switching-tax
+  why: >-
+    Both use a shared-resource-contention model of cognition where a single channel can be
+    driven by only one process at a time: Hunt's dual-CPU model has L-mode and R-mode
+    sharing one memory bus so one locks the other out, and context-switching-tax explicitly
+    invokes and then exceeds the CPU-scheduling metaphor to explain why humans, unlike
+    processors, pay a heavy cost switching between exclusive channels.
+
+- from: six-senses
+  verb: parallels
+  to: l-mode-r-mode-cognition
+  why: >-
+    Both claim a training system over-develops one cognitive mode at the expense of a
+    complementary one that then needs deliberate rebuilding: Pink's six senses (Design,
+    Story, Symphony, Empathy, Play, Meaning) are the R-mode-style nonverbal, pattern-making
+    aptitudes Hunt says modern education starves in favor of verbal, linear L-mode training.
+
+- from: ignition
+  verb: instantiates
+  to: threshold-cascades
+  why: >-
+    Se Ri Pak's 1998 win and Bannister's four-minute mile are concrete threshold-cascade
+    events: one visible agent crossing a previously-uncrossed line resets what a whole
+    population perceives as achievable, pushing many others past their own personal
+    threshold in short order — exactly the mechanism threshold cascades formalize.
+
+- from: myelin-insulation
+  verb: parallels
+  to: expert-chunking
+  why: >-
+    Both locate expert automaticity in a physical/cognitive structure built by repeating the
+    same specific pattern, not general effort: myelin only wraps the neural circuit actually
+    fired, and chunking's advantage vanishes on random, incoherent positions outside the
+    trained pattern — repetition builds a domain-specific substrate, not general skill.
+
+- from: talent-hotbeds
+  verb: parallels
+  to: forced-collision-architecture
+  why: >-
+    Both insist their pattern of disproportionate output is engineerable, not luck, and
+    prove it with a deliberate build: KIPP schools manufactured a talent hotbed from
+    ordinary Houston students without a "magical breakthrough," just as Bell Labs' corridor
+    length and split lab assignments manufactured cross-disciplinary collision by design.
+
+- from: negative-visualization
+  verb: parallels
+  to: start-with-the-end
+  why: >-
+    Both rehearse an imagined failure in advance, but the same imaginative move splits into
+    two different functions depending on whether the loss is preventable: Start With the End
+    imagines failure to generate correctable, falsifiable questions before work begins, while
+    negative visualization imagines an unpreventable loss for emotional inoculation, not
+    correction — premeditation of failure either produces a checklist or produces acceptance.
+
+- from: restorative-breaks
+  verb: parallels
+  to: rhythm-and-slack
+  why: >-
+    Both treat a built-in gap as functionally necessary capacity, not waste: a brief,
+    detached break resets vigilance before it depletes, and slack between tasks absorbs
+    variation instead of clogging the workflow — removing either gap, running flat-out,
+    degrades performance in both accounts rather than merely costing idle time.
+
+- from: deep-product-backlog
+  verb: instantiates
+  to: last-responsible-moment
+  why: >-
+    The DEEP backlog's "Detailed Appropriately" rule — concentrate specification effort near
+    the top, keep low-priority items coarse — defers the cost of detail to the last
+    responsible moment, avoiding both premature freeze on items that may change and wasted
+    specification on things about to be built, the same commitment-deferral logic.
+
+- from: minimal-marketable-product
+  verb: tempers
+  to: false-positive-feasibility
+  why: >-
+    The book's own Newton-versus-iPhone contrast names the mechanism: Newton committed early
+    to doing everything and tested feasibility late, producing exactly the false confidence
+    false-positive-feasibility warns against, while shipping a minimal marketable product
+    lets real market use validate the design immediately instead of an internal pass/fail gate.
+
+- from: product-owner-failure-modes
+  verb: tempers
+  to: ignorance-vs-ineptitude
+  why: >-
+    Gawande's two-cause taxonomy (don't know, or know but fail to apply) doesn't cover the
+    catalog of Product Owner failure modes at all: underpowered, overworked, distant, proxy,
+    and bungee owners all trace to structural under-resourcing of the role itself — missing
+    authority, time, or proximity — a third cause neither ignorance nor ineptitude names.
+
+- from: product-owner-hierarchy
+  verb: parallels
+  to: dunbars-number
+  why: >-
+    Both find a single-point coordination mechanism breaks past a fixed scale and must be
+    replaced by nested layers rather than a leaderless group: one product owner supports at
+    most a couple of teams before needing a chief product owner, just as direct trust caps
+    around 150 people before an organization needs layered leadership to stay cohesive.
+
+- from: product-owner-role
+  verb: parallels
+  to: single-point-value-stream-ownership
+  why: >-
+    Both diagnose the same failure — accountability scattered across handoffs means no one
+    is actually responsible, illustrated by a health-care product that "bombed" after
+    passing through marketing, product manager, and project manager — and prescribe the
+    identical fix: concentrate end-to-end ownership in one continuously-present named person.
+
+- from: cooperation-vs-collaboration
+  verb: tempers
+  to: ensemble-metalearning
+  why: >-
+    Ensemble metalearning shows how far pure combination — voting, weighting, correcting
+    each learner's errors — can go statistically, but that combination stays functionally
+    cooperation, the sum of independently-produced parts; cooperation-vs-collaboration names
+    the ceiling on that approach: a qualitatively different regime where a genuinely emergent
+    idea appears that no aggregation mechanism, however sophisticated, could have voted into existence.
+
+- from: not-now-not-no
+  verb: tempers
+  to: priority-dilution
+  why: >-
+    The book names the exact risk directly: without the discipline of testing every new
+    request against one fixed objective, "every new idea gets declared critical enough to
+    change the objective," recreating priority dilution's failure where multiple "priority
+    ones" destroy the meaning of priority — not-now-not-no is the guardrail that prevents it.
+
+- from: story-best-before-date
+  verb: tempers
+  to: firefighting-tipping-point
+  why: >-
+    Firefighting becomes a self-reinforcing spiral once triggered by an unresolved surprise;
+    story-best-before-date removes one of its principal triggers by surfacing real deadlines
+    at backlog-intake time instead of letting them surface as sudden last-minute emergencies,
+    converting "a recurring trust-eroding firefight into ordinary scheduling" in the book's words.
+
+- from: zone-of-control-sphere-of-influence
+  verb: formalizes
+  to: solution-method-mistaken-for-problem
+  why: >-
+    Are Your Lights On? warns that a client's proposed technique is not the problem itself;
+    zone-of-control-sphere-of-influence gives that warning a testable structural criterion —
+    check whether the stated need sits in the team's sphere of influence and the stated
+    deliverable in its zone of control, and treat any mismatch as a symptom of exactly that
+    failure, as in the "run reports faster" story that hid the real need to resolve data discrepancies.
+
+- from: help-chains
+  verb: extends
+  to: andon
+  why: >-
+    Help chains explicitly port andon's escalation mechanism — a defined first responder,
+    a bounded response time, automatic escalation if unresolved — from a manufacturing line
+    where a stopped line is visible to knowledge work where "it is very difficult to see
+    that the process has stopped flowing," so the protocol must be designed rather than seen.
+
+- from: product-development-cadence
+  verb: tempers
+  to: cadence-decoupling
+  why: >-
+    Cadence decoupling argues delivery, prioritization, and development should each run on
+    their own natural rhythm rather than lockstep; product-development-cadence names the
+    condition where that backfires — a shared, capacity-constrained resource pool serving
+    many competing projects — where the Beavertail crisis shows one project's decoupled,
+    privileged schedule starves every other project, and one disciplined portfolio cadence outperforms.
+
+- from: better-than-not-doing-it
+  verb: parallels
+  to: dysfunction-cascade
+  why: >-
+    Both diagnose why fixing several parts separately fails to produce the qualitatively
+    different whole: each jukebox-team member improves the area that flatters their own
+    role while blind spots stay untouched, exactly as dysfunction-cascade argues that
+    addressing dysfunctions independently misses that each one directly enables the next.
+
+- from: task-shape-patterns
+  verb: parallels
+  to: flow-items
+  why: >-
+    Both propose an exhaustive taxonomy of distinct work categories — recurring, project,
+    emergency, backlog-clutter versus features, defects, risks, debts — that must each be
+    tracked and handled differently because forcing them through one uniform lane
+    misrepresents at least one category's true nature rather than merely inconveniencing it.
+
+- from: automating-below-the-ui
+  verb: tempers
+  to: go-and-see
+  why: >-
+    Go and see insists on direct, repeated firsthand observation of the actual situation
+    over reports or calculated data; automating-below-the-ui deliberately trades that
+    fidelity away for speed and reliability, reserving true UI-level observation only for
+    the handful of session or workflow rules that genuinely can't be checked any other way.
+
+- from: specifying-collaboratively
+  verb: parallels
+  to: tacit-explicit-knowledge-blend
+  why: >-
+    Both show a written artifact produced by one isolated party fails: specifications
+    written by business or testers alone go unautomatable or unmaintainable, just as
+    documentation captured by an IT project alone decays into a "digital junkyard" —
+    in each case the artifact only becomes usable when built and owned by the group that
+    shares the underlying tacit understanding.
+
+- from: team-interaction-modes
+  verb: parallels
+  to: consultant-stance-choice
+  why: >-
+    Both insist the stance governing a working relationship must be deliberately chosen,
+    not drifted into by default, because each available mode trades away something
+    different: Collaboration costs attention but enables discovery just as the collaborator
+    stance shares risk, while X-as-a-Service and the pair-of-hands stance are cheap but
+    depend on a boundary or plan already being right.
+
+- from: execution-method-triage
+  verb: parallels
+  to: classes-of-service
+  why: >-
+    Both sort heterogeneous work into a small number of named tracks by an objective cost
+    profile — complexity-and-risk for just-do-its, kaizen events, and projects; cost-of-delay
+    for expedite, fixed-date, standard, and intangible — rather than routing everything
+    through one uniform process, which either over-processes the trivial or under-resources the complex.
+
