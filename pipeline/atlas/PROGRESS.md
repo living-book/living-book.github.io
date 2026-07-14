@@ -74,4 +74,11 @@ t3 weave: systems-decisions ✓23, people-psyche ✓27; all 4 ✓ (98); verify: 
 145 orphans → pipeline/atlas/orphans2/ORPHANS.md (Biz 43, Lead 24, Psych 21, Agile 21, Tech 20, Sys 16).
 - [x] 4 Sonnet weavers: 112 edges (biz 27, lead-sys 32, psych-agile 37, tech 16); 30 honest unlinks
 - [x] 2 Sonnet verifiers: kept 88 (24/27, 26/32, 26/37, 12/16); 24 dropped, 10 fixed
-- [x] rebuild: 550 edges (4 cross-file dups deduped), 54 orphans, 79% cross-domain; strict build + smoke clean → PR #4
+- [x] rebuild: 550 edges (4 cross-file dups deduped), 54 orphans, 79% cross-domain; strict build + smoke clean → PR #4 (merged)
+
+## Tranche 4 (user: "execute next wave" 2026-07-14). Branch atlas-tranche-4 off main. 30 books, Sonnet, waves of 6.
+- [x] All 5 waves done: 197 concepts / 30 books. Collision fixed: mind-design-ii distributed-representation → distributed-representation-pdp. YAML all clean.
+- [x] +30 BOOKS entries; CATALOG + EDGES-EXISTING regenerated (121 books, 839 concepts, 550 edges).
+- [x] 4 weavers: 105 edges (org 26, product 29, decisions 29, mind 21) — one session-limit wipe, relaunched 3:21am
+- [x] 2 verifiers: kept 94 (24/26, 25/29, 27/29, 18/21); 11 dropped, 13 fixed
+- [x] rebuild: 121 books, 839 concepts, 644 edges (80% cross-domain, 103 tempers + 25 contradicts), 145 orphans; corpus 1031 chunks; strict build + smoke clean → PR #5

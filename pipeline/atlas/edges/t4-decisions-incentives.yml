@@ -1,0 +1,225 @@
+- from: big-pond-relative-rank
+  verb: parallels
+  to: relative-improvement-contract
+  why: >-
+    Both reject a fixed, pre-set absolute standard in favor of an after-the-fact
+    comparison to a local peer group or prior performance, because the fixed
+    standard produces worse real behavior — misjudged confidence, or engineered
+    gaming — than the relative one.
+
+- from: capitalization-vs-compensation-learning
+  verb: parallels
+  to: antifragility
+  why: >-
+    Compensation learning forces a system to rebuild capability after losing a natural
+    advantage, producing a deeper, more robust skill than one that merely extended an
+    existing strength — the same gain-from-disorder mechanism antifragility names generally.
+
+- from: giants-hidden-weakness
+  verb: tempers
+  to: economic-moat
+  why: >-
+    A moat's structural strength — scale, brand dominance — creates the exact blind
+    spot a challenger exploits by refusing to compete on the moat's own terms.
+
+- from: inverted-u-curve
+  verb: tempers
+  to: marginal-gains-compounding
+  why: >-
+    Aggregation of marginal gains assumes each added unit of effort keeps compounding
+    positively, but the inverted-U shows returns flatten and then reverse past a
+    threshold, so relentless accumulation eventually destroys the outcome it built.
+
+- from: principle-of-legitimacy
+  verb: parallels
+  to: fair-process
+  why: >-
+    Both find that voice, consistency, and procedural fairness — not the favorability
+    of the outcome — is what earns compliance and commitment from people subject to
+    a decision.
+
+- from: remote-miss-effect
+  verb: parallels
+  to: antifragility
+  why: >-
+    A survivable dose of danger at the right distance builds durable strength while
+    an overwhelming direct hit breaks the same system — the dose-response curve at
+    the core of gaining from disorder.
+
+- from: institutional-imperative
+  verb: parallels
+  to: group-deindividuation
+  why: >-
+    Both describe individual rational judgment dissolving inside a group or
+    institutional context into imitation and diffused responsibility that feels
+    like clarity from inside but is actually capture.
+
+- from: retained-earnings-dollar-test
+  verb: parallels
+  to: expected-value-of-information
+  why: >-
+    Both force a hard economic hurdle before committing further resources — retain
+    a dollar only if it creates at least a dollar of value; measure only if the
+    expected value of the information exceeds its cost.
+
+- from: counter-cyclical-capital-deployment
+  verb: instantiates
+  to: antifragility
+  why: >-
+    Deliberately holding reserve capacity through calm periods so that market panic
+    becomes a source of gain is a direct case of a system built to benefit from
+    stress rather than merely survive it.
+
+- from: cutting-the-interest-rate
+  verb: tempers
+  to: habit-loop
+  why: >-
+    The habit loop treats an external reward as the engine that cements a
+    cue-response cycle, but for a behavior that already carries its own intrinsic
+    reward, layering on an explicit extrinsic one corrodes that same craving
+    instead of reinforcing it.
+
+- from: pay-for-performance-failure
+  verb: parallels
+  to: fixed-performance-contract
+  why: >-
+    Both find that binding a fixed reward to a negotiated target produces gaming
+    and dysfunction instead of the sustained performance improvement the incentive
+    was designed to buy.
+
+- from: rewards-punish
+  verb: contradicts
+  to: no-judgment-accountability
+  why: >-
+    No-judgment-accountability assumes a tracked score can trigger learning without
+    functioning as judgment, but rewards-punish shows a withheld or missed reward
+    is felt as punishment regardless of framing, so blame-free scoring can't
+    actually be built once stakes attach.
+
+- from: rewards-discourage-risk-taking
+  verb: tempers
+  to: gospel-of-10x
+  why: >-
+    Gospel-of-10x expects roughly 40% of aspirational goals to fail as the price
+    of genuine stretch, but attaching any reward consequence to those goals
+    narrows attention to the safest achievable path — exactly the risk-taking
+    the aspirational basket is meant to protect.
+
+- from: rewards-rupture-relationships
+  verb: tempers
+  to: circle-of-safety
+  why: >-
+    Circle-of-safety works by removing internal threat so people compete outward
+    instead of against each other, but a scarce or ranked reward system
+    reintroduces the internal rivalry it is meant to dissolve.
+
+- from: three-cs-of-motivation
+  verb: parallels
+  to: self-determination
+  why: >-
+    Both find that people sustain genuine effort only when they retain real
+    choice and ownership over how the work gets done, not when a procedure or
+    reward is imposed on them from outside.
+
+- from: praise-problem
+  verb: tempers
+  to: celebration-reinforces-values
+  why: >-
+    Public celebration is meant to unambiguously reinforce good behavior, but
+    the praise problem shows the same act can signal low ability, add pressure,
+    or invite failure-avoidance — undermining the reinforcement celebration is
+    designed to produce.
+
+- from: rewards-ignore-reasons
+  verb: parallels
+  to: solution-method-mistaken-for-problem
+  why: >-
+    Both warn against treating what's handed to you — a proposed technique or a
+    visible behavior — as the problem itself; skipping the diagnosis of what is
+    actually driving the situation forecloses the better solution a real
+    diagnosis would have found.
+
+- from: framing-effects
+  verb: instantiates
+  to: choice-architecture
+  why: >-
+    Identical options described in gain versus loss language are a concrete case
+    of no decision context ever being neutral — someone's description always
+    shapes the outcome, which is exactly what choice architecture generalizes.
+
+- from: endowment-effect
+  verb: instantiates
+  to: loss-aversion
+  why: >-
+    The gap between a seller's minimum price and a buyer's maximum price for the
+    same object is a direct case of losses looming larger than equivalent gains
+    once ownership shifts the reference point.
+
+- from: certainty-effect
+  verb: tempers
+  to: expected-value-of-information
+  why: >-
+    Expected-value math assumes a probability-weighted shift in likelihood is
+    valued proportionally, but the certainty effect shows a move from probable
+    to certain is weighted far beyond its mathematical size, so the calculated
+    value of information undercounts what people actually pay for certainty.
+
+- from: fourfold-pattern-risk-attitudes
+  verb: parallels
+  to: barbell-strategy
+  why: >-
+    Both converge on the same asymmetric shape — extreme safety on the likely
+    side paired with a small extreme-risk bet on the unlikely side — one
+    describing an innate human preference, the other prescribing it deliberately.
+
+- from: mental-accounting
+  verb: tempers
+  to: businesslike-investing
+  why: >-
+    Businesslike investing treats every dollar as fungible and subject to the
+    same rigorous arithmetic, but mental accounting shows people actually track
+    money in separate, non-fungible psychological buckets, breaking the
+    fungibility that arithmetic-based judgment assumes.
+
+- from: abundance-asia-automation-test
+  verb: parallels
+  to: risk-of-replacement-grid
+  why: >-
+    Both sort which tasks or aptitudes survive automation by naming the specific
+    axes that determine displacement risk, rather than treating a whole job or
+    skill level as the unit of analysis.
+
+- from: context-beats-facts
+  verb: parallels
+  to: narrative-intelligence
+  why: >-
+    Both draw on the same cognitive-science finding that decontextualized facts
+    and logic are processed and remembered far more weakly than a story-shaped
+    account, so narrative — not raw information — is what actually persuades
+    and sticks.
+
+- from: high-concept-high-touch
+  verb: tempers
+  to: love-as-human-differentiator
+  why: >-
+    High-concept-high-touch treats pattern-making and creative synthesis as a
+    durable safe harbor from automation, but love-as-human-differentiator shows
+    AI absorbing even creative tasks, narrowing the true differentiator further
+    down to compassion and connection alone.
+
+- from: symphony-synthesis
+  verb: parallels
+  to: latticework-of-models
+  why: >-
+    Both locate creative advantage in deliberately picking up ideas across
+    unrelated disciplines and combining them, rather than mastering or forcing
+    everything through one familiar frame.
+
+- from: utility-plus-significance
+  verb: tempers
+  to: affordances-and-signifiers
+  why: >-
+    Affordances and signifiers optimize a design's functional usability, but
+    utility-plus-significance shows that once utility becomes cheap and
+    universal, functional correctness alone stops differentiating — meaning is
+    what design must add.
