@@ -1,0 +1,197 @@
+- from: problem-displacement
+  verb: parallels
+  to: iatrogenics
+  why: >-
+    Both show an intervention meant to help creates real cost that lands on an
+    untraced party elsewhere, invisible because the fix and its consequence
+    are never connected back to each other.
+
+- from: solution-method-mistaken-for-problem
+  verb: instantiates
+  to: problem-formulation-shapes-solutions
+  why: >-
+    Treating a client's proposed technique as the problem itself is a concrete
+    case of how a chosen frame determines which solutions become visible,
+    foreclosing the real question before it is asked.
+
+- from: whose-problem-is-it
+  verb: parallels
+  to: skin-in-the-game
+  why: >-
+    Both diagnose that separating who bears a problem's cost from who holds
+    power to fix it produces bad outcomes, and both prescribe deliberately
+    realigning ownership and consequence onto the same party.
+
+- from: hypothesize-design-test-learn-loop
+  verb: parallels
+  to: the-current
+  why: >-
+    Both describe progress as a sustained alternation between proposing a
+    candidate explanation and testing it against reality, repeated until an
+    invisible pattern becomes visible enough to act on.
+
+- from: problem-space-vs-solution-space
+  verb: parallels
+  to: deriving-scope-from-goals
+  why: >-
+    Both insist a stated solution or requirement is not the real need, and
+    only tracing back to the underlying goal, kept analytically separate from
+    any implementation, preserves access to better answers.
+
+- from: human-resource-frame
+  verb: parallels
+  to: knowledge-worker-as-volunteer
+  why: >-
+    Both reject treating people as interchangeable inputs to be directed,
+    arguing success instead depends on genuinely fitting work to individual
+    needs the way a volunteer, not a subordinate, must be engaged.
+
+- from: organization-as-theater
+  verb: parallels
+  to: advocacy-approval-myth
+  why: >-
+    Both show that when true quality cannot be directly measured, what
+    actually earns belief is the persuasiveness of the performance or pitch,
+    not the substance behind it.
+
+- from: structural-frame
+  verb: parallels
+  to: polarity-mapping
+  why: >-
+    Both insist certain organizational tensions are irreducible trade-offs to
+    be continuously rebalanced, not one-time design errors a correct fix
+    permanently resolves.
+
+- from: celebration-reinforces-values
+  verb: instantiates
+  to: symbolic-frame
+  why: >-
+    A public, personally-involved celebration is a concrete symbolic-frame
+    act — its ritual bonding effect and the values it broadcasts matter more
+    than the practical task of celebrating itself accomplishes.
+
+- from: peer-accountability-process
+  verb: instantiates
+  to: peer-based-accountability
+  why: >-
+    The escalation ladder of direct request, then mediator, then panel is a
+    concrete procedure for the general claim that peers, not a boss, are the
+    most effective enforcers of commitments.
+
+- from: sense-and-respond-steering
+  verb: parallels
+  to: course-correction
+  why: >-
+    Both replace committing to a fixed upfront plan with continuous small
+    real-time adjustments as reality unfolds, since precision degrades too
+    fast for any single forecast to hold.
+
+- from: always-a-people-problem
+  verb: parallels
+  to: human-error-is-bad-design
+  why: >-
+    Both treat a problem's given label as a convenient misattribution that
+    lets the real cause go unexamined, each pushing blame across the same
+    technical-human boundary in the opposite direction from where
+    responsibility actually lies.
+
+- from: hockey-stick-and-hairy-back
+  verb: instantiates
+  to: default-outcome-is-no-change
+  why: >-
+    The repeatedly redrawn hockey-stick forecast is a concrete organizational
+    case of the rule that the default outcome is simple continuation, no
+    matter how often or confidently an inflection is announced.
+
+- from: winner-take-all-economics
+  verb: tempers
+  to: law-of-raspberry-jam
+  why: >-
+    Raspberry jam assumes a fixed dose of influence thins as it spreads to
+    more people, but near-zero-cost digital replication breaks that
+    constraint, letting reach scale without diluting depth.
+
+- from: orange-juice-test
+  verb: parallels
+  to: demonstration-vs-test
+  why: >-
+    Both distinguish an honest engagement with real difficulty from a
+    performance engineered to reassure: a provider who names cost and
+    constraint passes the same test that separates genuine verification from
+    a demonstration staged to avoid surprises.
+
+- from: rudys-rutabaga-rule
+  verb: parallels
+  to: five-focusing-steps
+  why: >-
+    Both recognize that removing the current limiting problem or constraint
+    doesn't empty the system of problems, it only promotes whatever was next
+    in line, forcing the cycle to repeat indefinitely.
+
+- from: rival-prototypes
+  verb: instantiates
+  to: set-based-development
+  why: >-
+    Building and branding both rival solutions as real products for customers
+    to choose between is a concrete case of carrying multiple design options
+    forward until real feedback, not internal argument, picks the winner.
+
+- from: sprint-decider
+  verb: parallels
+  to: single-point-value-stream-ownership
+  why: >-
+    Both insist diffuse or implicit authority guarantees failure, a single
+    named person must hold explicit accountability before the work happens or
+    the effort produces no real decision or ownership.
+
+- from: endowment-trends-moves
+  verb: instantiates
+  to: planning-fallacy
+  why: >-
+    Predicting a company's decade-later position from variables drawn from
+    many companies' track records is a concrete outside-view forecast, the
+    kind planning-fallacy shows beats forecasts built from one plan's own
+    details.
+
+- from: five-big-moves
+  verb: tempers
+  to: marginal-gains-compounding
+  why: >-
+    Marginal-gains-compounding claims small improvements compound into
+    outsized results, but strategy data shows only moves clearing an external
+    size threshold shift outcomes; sub-threshold increments never compound
+    into a rank jump.
+
+- from: avoiding-stupidity
+  verb: instantiates
+  to: via-negativa
+  why: >-
+    Consistently avoiding bad decisions is a concrete case of the general
+    principle that subtracting what is fragile or harmful reliably
+    outperforms trying to add cleverness or brilliance.
+
+- from: actionable-metric-requirements
+  verb: parallels
+  to: actionable-vs-vanity-metrics
+  why: >-
+    Both define a metric's worth by whether it is granular and timely enough
+    to tie a specific owned action to an observed result, rejecting any
+    number that cannot drive a decision.
+
+- from: idea-destruction
+  verb: tempers
+  to: ego-and-blind-spots
+  why: >-
+    Ego-and-blind-spots names a defensive reflex that treats contradicting
+    evidence as attack and blocks self-assessment, but idea-destruction shows
+    that reflex can be trained away by killing a belief the moment evidence
+    turns against it.
+
+- from: first-team
+  verb: tempers
+  to: political-frame
+  why: >-
+    Political-frame treats coalition competition for power as a permanent
+    condition to manage, but first-team shows that transferring executives'
+    primary loyalty to the peer team can suppress the turf-protection dynamic
+    in cross-functional decisions.

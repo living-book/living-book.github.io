@@ -15600,6 +15600,594 @@
    "source": "woven"
   },
   {
+   "from": "problem-displacement",
+   "verb": "parallels",
+   "to": "iatrogenics",
+   "why": "Both show an intervention meant to help creates real cost that lands on an untraced party elsewhere, invisible because the fix and its consequence are never connected back to each other.",
+   "source": "woven"
+  },
+  {
+   "from": "solution-method-mistaken-for-problem",
+   "verb": "instantiates",
+   "to": "problem-formulation-shapes-solutions",
+   "why": "Treating a client's proposed technique as the problem itself is a concrete case of how a chosen frame determines which solutions become visible, foreclosing the real question before it is asked.",
+   "source": "woven"
+  },
+  {
+   "from": "whose-problem-is-it",
+   "verb": "parallels",
+   "to": "skin-in-the-game",
+   "why": "Both diagnose that separating who bears a problem's cost from who holds power to fix it produces bad outcomes, and both prescribe deliberately realigning ownership and consequence onto the same party.",
+   "source": "woven"
+  },
+  {
+   "from": "hypothesize-design-test-learn-loop",
+   "verb": "parallels",
+   "to": "the-current",
+   "why": "Both describe progress as a sustained alternation between proposing a candidate explanation and testing it against reality, repeated until an invisible pattern becomes visible enough to act on.",
+   "source": "woven"
+  },
+  {
+   "from": "problem-space-vs-solution-space",
+   "verb": "parallels",
+   "to": "deriving-scope-from-goals",
+   "why": "Both insist a stated solution or requirement is not the real need, and only tracing back to the underlying goal, kept analytically separate from any implementation, preserves access to better answers.",
+   "source": "woven"
+  },
+  {
+   "from": "human-resource-frame",
+   "verb": "parallels",
+   "to": "knowledge-worker-as-volunteer",
+   "why": "Both reject treating people as interchangeable inputs to be directed, arguing success instead depends on genuinely fitting work to individual needs the way a volunteer, not a subordinate, must be engaged.",
+   "source": "woven"
+  },
+  {
+   "from": "organization-as-theater",
+   "verb": "parallels",
+   "to": "advocacy-approval-myth",
+   "why": "Both show that when true quality cannot be directly measured, what actually earns belief is the persuasiveness of the performance or pitch, not the substance behind it.",
+   "source": "woven"
+  },
+  {
+   "from": "structural-frame",
+   "verb": "parallels",
+   "to": "polarity-mapping",
+   "why": "Both insist certain organizational tensions are irreducible trade-offs to be continuously rebalanced, not one-time design errors a correct fix permanently resolves.",
+   "source": "woven"
+  },
+  {
+   "from": "celebration-reinforces-values",
+   "verb": "instantiates",
+   "to": "symbolic-frame",
+   "why": "A public, personally-involved celebration is a concrete symbolic-frame act — its ritual bonding effect and the values it broadcasts matter more than the practical task of celebrating itself accomplishes.",
+   "source": "woven"
+  },
+  {
+   "from": "peer-accountability-process",
+   "verb": "instantiates",
+   "to": "peer-based-accountability",
+   "why": "The escalation ladder of direct request, then mediator, then panel is a concrete procedure for the general claim that peers, not a boss, are the most effective enforcers of commitments.",
+   "source": "woven"
+  },
+  {
+   "from": "sense-and-respond-steering",
+   "verb": "parallels",
+   "to": "course-correction",
+   "why": "Both replace committing to a fixed upfront plan with continuous small real-time adjustments as reality unfolds, since precision degrades too fast for any single forecast to hold.",
+   "source": "woven"
+  },
+  {
+   "from": "always-a-people-problem",
+   "verb": "parallels",
+   "to": "human-error-is-bad-design",
+   "why": "Both treat a problem's given label as a convenient misattribution that lets the real cause go unexamined, each pushing blame across the same technical-human boundary in the opposite direction from where responsibility actually lies.",
+   "source": "woven"
+  },
+  {
+   "from": "hockey-stick-and-hairy-back",
+   "verb": "instantiates",
+   "to": "default-outcome-is-no-change",
+   "why": "The repeatedly redrawn hockey-stick forecast is a concrete organizational case of the rule that the default outcome is simple continuation, no matter how often or confidently an inflection is announced.",
+   "source": "woven"
+  },
+  {
+   "from": "winner-take-all-economics",
+   "verb": "tempers",
+   "to": "law-of-raspberry-jam",
+   "why": "Raspberry jam assumes a fixed dose of influence thins as it spreads to more people, but near-zero-cost digital replication breaks that constraint, letting reach scale without diluting depth.",
+   "source": "woven"
+  },
+  {
+   "from": "orange-juice-test",
+   "verb": "parallels",
+   "to": "demonstration-vs-test",
+   "why": "Both distinguish an honest engagement with real difficulty from a performance engineered to reassure: a provider who names cost and constraint passes the same test that separates genuine verification from a demonstration staged to avoid surprises.",
+   "source": "woven"
+  },
+  {
+   "from": "rudys-rutabaga-rule",
+   "verb": "parallels",
+   "to": "five-focusing-steps",
+   "why": "Both recognize that removing the current limiting problem or constraint doesn't empty the system of problems, it only promotes whatever was next in line, forcing the cycle to repeat indefinitely.",
+   "source": "woven"
+  },
+  {
+   "from": "rival-prototypes",
+   "verb": "instantiates",
+   "to": "set-based-development",
+   "why": "Building and branding both rival solutions as real products for customers to choose between is a concrete case of carrying multiple design options forward until real feedback, not internal argument, picks the winner.",
+   "source": "woven"
+  },
+  {
+   "from": "sprint-decider",
+   "verb": "parallels",
+   "to": "single-point-value-stream-ownership",
+   "why": "Both insist diffuse or implicit authority guarantees failure, a single named person must hold explicit accountability before the work happens or the effort produces no real decision or ownership.",
+   "source": "woven"
+  },
+  {
+   "from": "endowment-trends-moves",
+   "verb": "instantiates",
+   "to": "planning-fallacy",
+   "why": "Predicting a company's decade-later position from variables drawn from many companies' track records is a concrete outside-view forecast, the kind planning-fallacy shows beats forecasts built from one plan's own details.",
+   "source": "woven"
+  },
+  {
+   "from": "five-big-moves",
+   "verb": "tempers",
+   "to": "marginal-gains-compounding",
+   "why": "Marginal-gains-compounding claims small improvements compound into outsized results, but strategy data shows only moves clearing an external size threshold shift outcomes; sub-threshold increments never compound into a rank jump.",
+   "source": "woven"
+  },
+  {
+   "from": "avoiding-stupidity",
+   "verb": "instantiates",
+   "to": "via-negativa",
+   "why": "Consistently avoiding bad decisions is a concrete case of the general principle that subtracting what is fragile or harmful reliably outperforms trying to add cleverness or brilliance.",
+   "source": "woven"
+  },
+  {
+   "from": "actionable-metric-requirements",
+   "verb": "parallels",
+   "to": "actionable-vs-vanity-metrics",
+   "why": "Both define a metric's worth by whether it is granular and timely enough to tie a specific owned action to an observed result, rejecting any number that cannot drive a decision.",
+   "source": "woven"
+  },
+  {
+   "from": "idea-destruction",
+   "verb": "tempers",
+   "to": "ego-and-blind-spots",
+   "why": "Ego-and-blind-spots names a defensive reflex that treats contradicting evidence as attack and blocks self-assessment, but idea-destruction shows that reflex can be trained away by killing a belief the moment evidence turns against it.",
+   "source": "woven"
+  },
+  {
+   "from": "first-team",
+   "verb": "tempers",
+   "to": "political-frame",
+   "why": "Political-frame treats coalition competition for power as a permanent condition to manage, but first-team shows that transferring executives' primary loyalty to the peer team can suppress the turf-protection dynamic in cross-functional decisions.",
+   "source": "woven"
+  },
+  {
+   "from": "law-of-raspberry-jam",
+   "verb": "tempers",
+   "to": "connective-advantage",
+   "why": "Connective-advantage rates networks partly by breadth (the B in BCD), but raspberry jam's reach-thins-depth tradeoff shows that maximizing that breadth necessarily dilutes the connectivity and depth of any single relationship in it.",
+   "source": "woven"
+  },
+  {
+   "from": "attending-exquisitely",
+   "verb": "tempers",
+   "to": "theory-laden-perception",
+   "why": "Repeating a speaker's exact words back, instead of paraphrasing, is a disciplined technique that narrows how far the listener's own governing framework can silently overwrite the speaker's meaning.",
+   "source": "woven"
+  },
+  {
+   "from": "maturing-changes",
+   "verb": "parallels",
+   "to": "protecting-the-new",
+   "why": "Both describe a newly formed thing — a shift in thinking, a new idea — as inherently fragile at inception, requiring deliberate protected development before it can survive real-world or organizational pressure.",
+   "source": "woven"
+  },
+  {
+   "from": "artifacts-as-external-memory",
+   "verb": "instantiates",
+   "to": "knowledge-in-the-world",
+   "why": "A sticky note is a concrete case of putting knowledge in the environment rather than demanding precise recall in the head, freeing working memory to reason about arrangement instead of holding content.",
+   "source": "woven"
+  },
+  {
+   "from": "game-space",
+   "verb": "parallels",
+   "to": "safe-to-fail-practice-environment",
+   "why": "Both create a bounded space where real-world consequences are suspended by mutual agreement or design, and it is precisely that suspension that lets participants act and experiment freely inside it.",
+   "source": "woven"
+  },
+  {
+   "from": "opening-exploring-closing",
+   "verb": "parallels",
+   "to": "one-direction-at-a-time",
+   "why": "Both claim a mind or group can only be well-tuned to one mode of thinking — divergent, exploratory, convergent — at a time, so running modes simultaneously degrades each one instead of combining them.",
+   "source": "woven"
+  },
+  {
+   "from": "randomness-reversal-reframing",
+   "verb": "parallels",
+   "to": "movement-over-judgment",
+   "why": "Both use deliberate provocation — scrambling order, inverting a convention, following an idea for where it leads rather than assessing fit — to break a mind's tendency to lock onto the first pattern found.",
+   "source": "woven"
+  },
+  {
+   "from": "attention-precedes-persuasion",
+   "verb": "parallels",
+   "to": "abstraction-erodes-empathy",
+   "why": "Both trace the same mechanism in opposite directions — vivid, personal, emotionally specific information captures attention and moral response, while distant, abstracted, numeric information fails to register at all.",
+   "source": "woven"
+  },
+  {
+   "from": "externalizing-the-obstacle",
+   "verb": "parallels",
+   "to": "circle-of-safety",
+   "why": "Both redirect a group's competitive or blaming energy from internal targets to an external one — a felt outside threat or antagonist — which is what stops people fighting each other and unifies effort.",
+   "source": "woven"
+  },
+  {
+   "from": "leaders-own-story",
+   "verb": "instantiates",
+   "to": "personal-mastery",
+   "why": "A leader's total, undiluted personal commitment to a goal before it can inspire others is a concrete case of personal mastery's claim that clarified personal vision is the root a shared, visible one grows from.",
+   "source": "woven"
+  },
+  {
+   "from": "asking-different-questions",
+   "verb": "parallels",
+   "to": "seeking-disconfirmation",
+   "why": "Both name the same default failure — cognition drifts toward confirming what it already believes — and prescribe the same corrective: a deliberate practice (reframe the question, hunt disproof) to escape it.",
+   "source": "woven"
+  },
+  {
+   "from": "seeing-systems",
+   "verb": "parallels",
+   "to": "self-perpetuating-problem",
+   "why": "Both reject \"no pattern, just bad luck\" as the explanation for a run of failures and insist a persistent structure is generating them — though self-perpetuating-problem locates that structure specifically in who benefits from the problem surviving, not a blame-free design flaw.",
+   "source": "woven"
+  },
+  {
+   "from": "taking-multiple-perspectives",
+   "verb": "tempers",
+   "to": "naive-perspective",
+   "why": "Deliberately constructing the heroic story an opposing person would tell about themselves checks naive-perspective's default habit of demonizing people who frustrate us through unexamined projection.",
+   "source": "woven"
+  },
+  {
+   "from": "incremental-closure",
+   "verb": "parallels",
+   "to": "prerequisite-tree",
+   "why": "Both convert an intractable, large whole — a contentious decision, an impossible goal — into an ordered sequence of smaller closable units, where resolving each one is what makes the next one reachable.",
+   "source": "woven"
+  },
+  {
+   "from": "classes-of-service",
+   "verb": "instantiates",
+   "to": "simple-rules",
+   "why": "A handful of named priority policies tuned to cost-of-delay is a concrete case of simple-rules' claim that a small set of rules-of-thumb for one bottleneck activity beats a comprehensive procedure.",
+   "source": "woven"
+  },
+  {
+   "from": "authority-override-in-emergencies",
+   "verb": "instantiates",
+   "to": "threshold-cascades",
+   "why": "People abandoning direct danger perception for official reassurance and others' visible inaction is the aggregate-crossing-personal-threshold mechanism threshold-cascades formalizes, applied to emergency evacuation.",
+   "source": "woven"
+  },
+  {
+   "from": "precision-targeting-not-broad-effort",
+   "verb": "parallels",
+   "to": "leverage",
+   "why": "Both claim a system's outcome is governed disproportionately by one specific, often nonobvious point, so concentrated action there vastly outperforms spreading the same total effort evenly across the problem.",
+   "source": "woven"
+  },
+  {
+   "from": "status-complexity-mismatch",
+   "verb": "parallels",
+   "to": "prestige-driven-regendering",
+   "why": "Both show a job's socially perceived status is governed by visible, symbolic factors decoupled from its actual complexity or who does it well, so status becomes an unreliable, sometimes misleading, signal.",
+   "source": "woven"
+  },
+  {
+   "from": "future-reality-tree",
+   "verb": "tempers",
+   "to": "iatrogenics",
+   "why": "Iatrogenic harm hides because helper and harm are rarely traced together, but diagramming an intervention's full predicted consequence chain, including the bad branches, surfaces that harm before acting.",
+   "source": "woven"
+  },
+  {
+   "from": "necessary-condition-thinking",
+   "verb": "parallels",
+   "to": "self-imposed-constraints",
+   "why": "Both claim a felt necessity or impossibility is usually an unexamined belief rather than an actual fact of the situation, and that explicitly surfacing the assumption for testing is what dissolves the barrier.",
+   "source": "woven"
+  },
+  {
+   "from": "sufficient-cause-thinking",
+   "verb": "parallels",
+   "to": "good-explanations",
+   "why": "Both demand a causal or explanatory claim be tightly constrained by what it purports to produce or explain before being accepted, rather than passing on plausibility alone — hunting the arrow you can't vary.",
+   "source": "woven"
+  },
+  {
+   "from": "bundle-self",
+   "verb": "parallels",
+   "to": "witnessing-thought",
+   "why": "Both dissolve the felt solidity of a unified self by decomposing it into transient thoughts, perceptions, and sensations that can be observed or inventoried rather than a fixed entity, stripping any one part of power.",
+   "source": "woven"
+  },
+  {
+   "from": "deflationary-meaning",
+   "verb": "parallels",
+   "to": "mind-your-meaning",
+   "why": "Both diagnose a claim as smuggling in one hidden, unexamined sense of an ambiguous word, and show that making the equivocation explicit dissolves a crisis or disagreement that was never about the substance.",
+   "source": "woven"
+  },
+  {
+   "from": "shareholder-value-trap",
+   "verb": "instantiates",
+   "to": "good-of-the-whole",
+   "why": "An organization hitting its aggregate financial metric while the people composing it are hollowed out is a concrete case of whole-level and part-level flourishing being logically separable, not the same measure.",
+   "source": "woven"
+  },
+  {
+   "from": "lifes-task",
+   "verb": "contradicts",
+   "to": "invented-purpose",
+   "why": "Life's-task claims one true, innate vocation is planted at birth and must be discovered, directly opposing invented-purpose's claim that a self-assigned purpose is no lesser grade than a \"built-in\" one.",
+   "source": "woven"
+  },
+  {
+   "from": "coach-failure-modes",
+   "verb": "instantiates",
+   "to": "ego-and-blind-spots",
+   "why": "The Hub, Admin, Opinionator, Expert, and Nag personas are the book's ego-driven cluster — \"I\"-focused defensiveness curdling into overcontrol — a concrete case of the ego barrier's claim that subconscious self-protection, not lack of skill, blocks a coach's objective in-the-moment self-assessment.",
+   "source": "woven"
+  },
+  {
+   "from": "five-levels-of-conflict",
+   "verb": "tempers",
+   "to": "mining-for-conflict",
+   "why": "Once conflict's language signature crosses from factual disagreement into contest or crusade, deliberately extracting more buried disagreement stops surfacing useful friction and starts escalating identity warfare instead.",
+   "source": "woven"
+  },
+  {
+   "from": "commitments-not-plans",
+   "verb": "instantiates",
+   "to": "the-map-mistaken-for-the-world",
+   "why": "Treating the written plan-document as the source of obligation mistakes the map (the record of a promise) for the territory (the actual human commitment it was abstracted from), letting people disown what the document merely recorded.",
+   "source": "woven"
+  },
+  {
+   "from": "fractured-perspective",
+   "verb": "parallels",
+   "to": "incommensurability",
+   "why": "Each role assigns the shared practice a different meaning the way rival paradigms assign shared terms different meanings, and without deliberate reconciliation there is no neutral ground, so the old disagreement silently reproduces itself.",
+   "source": "woven"
+  },
+  {
+   "from": "methodology-vs-mindset",
+   "verb": "parallels",
+   "to": "dreyfus-model-skill-acquisition",
+   "why": "Both stage adoption as qualitatively distinct levels — isolated rule-following, then a coherent system, then an internalized way of operating — where the final stage cannot be reached by accumulating more of the earlier stage's kind of skill.",
+   "source": "woven"
+  },
+  {
+   "from": "future-in-progress-limit",
+   "verb": "tempers",
+   "to": "gospel-of-10x",
+   "why": "Splitting goals into committed and aspirational baskets encourages generating more ambitious targets, but past a personal capacity threshold each additional aspirational goal adds downstream overload no WIP limit can absorb, not ambition.",
+   "source": "woven"
+  },
+  {
+   "from": "metacognitive-mapping",
+   "verb": "parallels",
+   "to": "meaningful-space",
+   "why": "Both convert an internal, abstract set of items into a spatial arrangement whose structure — position, axis, grid — itself becomes legible information about the underlying pattern, not merely a storage location for the items.",
+   "source": "woven"
+  },
+  {
+   "from": "deriving-scope-from-goals",
+   "verb": "parallels",
+   "to": "solution-method-mistaken-for-problem",
+   "why": "Both insist that a stated requirement or proposed technique is not the actual problem or goal, and that deriving the real underlying objective first often reveals a cheaper answer than the one already assumed.",
+   "source": "woven"
+  },
+  {
+   "from": "specification-in-domain-language",
+   "verb": "parallels",
+   "to": "attending-exquisitely",
+   "why": "Both refuse to substitute the speaker's or domain's own vocabulary with an outsider's translation — technical jargon or paraphrase — because the translation step is precisely where shared understanding quietly breaks.",
+   "source": "woven"
+  },
+  {
+   "from": "countermeasures-as-hypotheses",
+   "verb": "parallels",
+   "to": "hypothesize-design-test-learn-loop",
+   "why": "Both frame an improvement as a testable, provisional hypothesis rather than a solution to defend, so evidence can overturn it later without the ego cost of having claimed it was already right.",
+   "source": "woven"
+  },
+  {
+   "from": "freed-capacity",
+   "verb": "tempers",
+   "to": "circle-of-safety",
+   "why": "A leader's protective circle keeps people cooperating only while danger stays outside it; the moment efficiency savings get converted into layoffs, the danger moves inside the circle and the same workforce reverts to self-protection.",
+   "source": "woven"
+  },
+  {
+   "from": "end-of-the-master-builder",
+   "verb": "parallels",
+   "to": "knowledge-in-the-world",
+   "why": "Both replace reliance on one mind's internalized end-to-end mastery or memory with information deliberately externalized into shared systems or environment, because human cognition alone cannot reliably hold everything required.",
+   "source": "woven"
+  },
+  {
+   "from": "disengagement-divide",
+   "verb": "parallels",
+   "to": "dwysywd-credibility",
+   "why": "Both locate the effect — disengagement or credibility — not in the content of stated values or promises but in the size of the gap between what's aspired to or said and what's actually practiced or done.",
+   "source": "woven"
+  },
+  {
+   "from": "scarcity-culture",
+   "verb": "contradicts",
+   "to": "gospel-of-10x",
+   "why": "Gospel-of-10x treats a deliberately engineered 40% failure rate on aspirational goals as what extracts peak performance, while scarcity-culture identifies that same chronic \"never enough\" condition as the shame-driven engine of disengagement.",
+   "source": "woven"
+  },
+  {
+   "from": "vulnerability-armor",
+   "verb": "parallels",
+   "to": "information-immunity",
+   "why": "Both name a small set of specific defense mechanisms — foreboding joy, perfectionism, numbing; or repression, rationalization, projection — that activate whenever a core belief about the self (\"I am not enough,\" \"I must always be perfect\") is threatened, whether by anticipated pain or unwelcome incoming information.",
+   "source": "woven"
+  },
+  {
+   "from": "decision-hierarchy",
+   "verb": "parallels",
+   "to": "clarifying-the-decision",
+   "why": "Both insist a decision process is invalid until the decision itself is pinned down first — decision-hierarchy by scoping what's given, in-scope, or deferred; clarifying-the-decision by testing for genuine alternatives, uncertainty, stakes, and an owner — since a wrongly framed question voids all analysis.",
+   "source": "woven"
+  },
+  {
+   "from": "illusion-of-dq",
+   "verb": "instantiates",
+   "to": "ego-and-blind-spots",
+   "why": "Self-rated decision quality collapsing from 70-90% to a real ~25% weakest-link score once measured requirement by requirement is a concrete demonstration of the blind-spot barrier: the deficiency being misjudged is invisible to the judge.",
+   "source": "woven"
+  },
+  {
+   "from": "organizational-dq",
+   "verb": "parallels",
+   "to": "learning-organization",
+   "why": "Both insist a capability becomes real at the organizational level only when it is deliberately structured and continually developed — not when it depends on one leader's personal style or a single switch flipped once.",
+   "source": "woven"
+  },
+  {
+   "from": "solitude-deprivation",
+   "verb": "tempers",
+   "to": "mental-marinade-incubation",
+   "why": "Incubation requires disengaging conscious effort during unstructured, input-free time for the unconscious to work; a state of near-zero time free from other minds' input structurally forecloses that condition from ever occurring.",
+   "source": "woven"
+  },
+  {
+   "from": "backwards-law",
+   "verb": "parallels",
+   "to": "via-negativa",
+   "why": "Both reject the instinct to fix a problem by adding a targeted countermeasure — Taleb by showing removal of the fragile is more reliable than positive intervention, Burkeman by showing direct pursuit of a positive state reliably produces its opposite — and prescribe subtraction or acceptance over further effort.",
+   "source": "woven"
+  },
+  {
+   "from": "security-as-trap",
+   "verb": "instantiates",
+   "to": "the-map-mistaken-for-the-world",
+   "why": "Chasing the feeling of security treats a felt representation of safety as if it were safety itself, letting the proxy diverge from — and even actively degrade — the underlying reality it was supposed to track.",
+   "source": "woven"
+  },
+  {
+   "from": "chronotype",
+   "verb": "parallels",
+   "to": "wired-differently",
+   "why": "Both identify a stable, largely involuntary individual-difference axis — circadian timing or cognitive wiring — that teams and institutions must explicitly map and design around rather than assume everyone runs the same way.",
+   "source": "woven"
+  },
+  {
+   "from": "socioemotional-selectivity",
+   "verb": "parallels",
+   "to": "memento-mori-practice",
+   "why": "Both find that making an ending or mortality salient does not produce despair but instead sharpens focus onto what is emotionally essential, converting awareness of limits into clarity rather than dread.",
+   "source": "woven"
+  },
+  {
+   "from": "the-uh-oh-effect",
+   "verb": "parallels",
+   "to": "paradigm-crisis",
+   "why": "Both find that a specific noticed threshold moment — a midpoint recognized as a warning, or accumulated anomalies recognized as crisis — not gradual pressure, is what unlocks a burst of urgency or change that steady effort alone fails to.",
+   "source": "woven"
+  },
+  {
+   "from": "explanatory-creativity",
+   "verb": "contradicts",
+   "to": "example-based-programming",
+   "why": "Deutsch argues genuine intelligence requires generating new explanatory knowledge, while curating training examples for pattern-matching models only recombines given data, which he explicitly names as faking creativity.",
+   "source": "woven"
+  },
+  {
+   "from": "meritocracy-as-alibi",
+   "verb": "instantiates",
+   "to": "rational-memes",
+   "why": "Both describe a belief that spreads by disabling critical scrutiny rather than surviving it: meritocracy-as-alibi survives contact with demographic exclusion by reframing it as proof of the excluded group's deficiency.",
+   "source": "woven"
+  },
+  {
+   "from": "optimization-mindset-spillover",
+   "verb": "parallels",
+   "to": "competency-trap",
+   "why": "Both describe a skill or mindset honed for success in one narrow domain becoming a liability once carried, unexamined, into domains whose real demands are different from the ones that built the skill.",
+   "source": "woven"
+  },
+  {
+   "from": "prestige-driven-regendering",
+   "verb": "tempers",
+   "to": "picking-people",
+   "why": "Drucker claims staffing can become a rigorous, objective discipline, but prestige-driven-regendering shows that as a role's status rises, gatekeepers redefine who \"really\" belongs by status signaling, corrupting exactly the objectivity that discipline assumes.",
+   "source": "woven"
+  },
+  {
+   "from": "decomposition-composition-fallacy",
+   "verb": "parallels",
+   "to": "good-of-the-whole",
+   "why": "Both insist a system's properties at one level of aggregation cannot be read off the other level: testing parts misses whole-system interaction just as facts about a whole are not reducible to facts about its members.",
+   "source": "woven"
+  },
+  {
+   "from": "demonstration-vs-test",
+   "verb": "parallels",
+   "to": "advocacy-approval-myth",
+   "why": "Both distinguish a process engineered to produce an audience's conviction from a process engineered to discover what's actually true, and both warn that conflating the two lets false or bad things pass as verified.",
+   "source": "woven"
+  },
+  {
+   "from": "meta-testing",
+   "verb": "instantiates",
+   "to": "measurement-as-uncertainty-reduction",
+   "why": "Meta-testing's indirect, incidental signals are a concrete case of Hubbard's claim that any observation reducing uncertainty counts as measurement, even without executing the thing being assessed or producing a number.",
+   "source": "woven"
+  },
+  {
+   "from": "perception-pipeline",
+   "verb": "parallels",
+   "to": "theory-laden-perception",
+   "why": "Both claim raw observation never reaches judgment unfiltered: a four-stage perceptual pipeline and a governing theoretical framework each selectively discard and reshape what's noticed before any \"neutral\" read is possible.",
+   "source": "woven"
+  },
+  {
+   "from": "test-goodness-is-relational",
+   "verb": "parallels",
+   "to": "stability-as-relationship",
+   "why": "Both deny that the property in question (test goodness, system stability) belongs to the thing in isolation, insisting it is instead a joint fact about the thing's relationship to its context, implementation, or environment.",
+   "source": "woven"
+  },
+  {
+   "from": "code-halo-instrumentation",
+   "verb": "tempers",
+   "to": "coveillance",
+   "why": "Coveillance depends on symmetrical, accountable mutual watching, but once instrumentation data becomes competitive value to extract, the incentive pushes toward exactly the one-way, asymmetric surveillance coveillance was meant to replace.",
+   "source": "woven"
+  },
+  {
+   "from": "organizational-melting-point",
+   "verb": "tempers",
+   "to": "default-outcome-is-no-change",
+   "why": "Continuation is usually the safest prediction, but organizational-melting-point names the specific condition — data accumulation crossing an industry's own threshold — under which that default stops holding and restructuring becomes forced rather than optional.",
+   "source": "woven"
+  },
+  {
    "from": "value-networks",
    "verb": "parallels",
    "to": "theory-laden-perception",
