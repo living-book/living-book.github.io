@@ -1,0 +1,183 @@
+- from: current-reality-tree
+  verb: extends
+  to: five-whys
+  why: >-
+    Both trace symptoms backward through cause-and-effect links to a root, but
+    current-reality-tree extends the single interrogation chain of five-whys
+    into a branching diagram that must explain many named symptoms at once.
+
+- from: current-reality-tree
+  verb: parallels
+  to: evaporating-cloud
+  why: >-
+    Both are Goldratt thinking-process diagrams that resolve a stuck situation
+    by locating and invalidating a hidden assumption in a cause-effect arrow,
+    one across many symptoms, the other inside a single two-sided conflict.
+
+- from: current-reality-tree
+  verb: parallels
+  to: system-archetypes
+  why: >-
+    Both diagram cause-and-effect links until a small structure explains a wide
+    surface of symptoms, but current-reality-tree builds that structure bespoke
+    per situation while system-archetypes offers a fixed library of recurring loops.
+
+- from: sophisticated-falsificationism
+  verb: tempers
+  to: categories-of-legitimate-reservation
+  why: >-
+    The checklist finds where a cause-effect claim's arrow is flawed, but
+    sophisticated-falsificationism limits that victory — naming a reservation
+    only refutes the claim once a rival explanation exists that predicts more.
+
+- from: categories-of-legitimate-reservation
+  verb: formalizes
+  to: alternative-explanations
+  why: >-
+    Alternative-explanations urges weighing competing accounts before accepting
+    the one offered; the reservation checklist turns that habit into a fixed,
+    checkable category — insufficient cause — inside a systematic diagnostic.
+
+- from: problem-formulation-shapes-solutions
+  verb: extends
+  to: perceived-desired-gap
+  why: >-
+    Both treat a problem as a relationship between mental states rather than a
+    fixed fact, but problem-formulation-shapes-solutions adds that changing the
+    description, not just closing the perceived-desired gap, reveals new solutions.
+
+- from: perceived-desired-gap
+  verb: parallels
+  to: clarifying-the-decision
+  why: >-
+    Neither treats vague framing as license to act — a problem isn't real until
+    its desired and perceived states are pinned down, just as a decision isn't
+    real until its alternatives, stakes, and owner are named.
+
+- from: problem-displacement
+  verb: parallels
+  to: iatrogenics
+  why: >-
+    Both name a hidden cost of "solving" — displacement relocates a problem onto
+    someone unconsulted, iatrogenesis buries harm inside the helping act itself,
+    and in each case the cost stays invisible because helper and harmed never meet.
+
+- from: rudys-rutabaga-rule
+  verb: parallels
+  to: problem-displacement
+  why: >-
+    Neither admits that solving reduces total problem-having — rudy's rule shows
+    a solved problem is just replaced by whatever ranked second, while displacement
+    shows solving just relocates it to someone who never agreed to take it on.
+
+- from: decisions-vs-outcomes
+  verb: tempers
+  to: randomness-blindness
+  why: >-
+    Randomness-blindness makes people credit good outcomes to skill and blame bad
+    ones on luck; judging quality by the decision process at the time, never the
+    result, is precisely the discipline that catches this confusion instead of reinforcing it.
+
+- from: luck-skill-sample-size
+  verb: formalizes
+  to: decisions-vs-outcomes
+  why: >-
+    Decisions-vs-outcomes says never judge quality by the result; luck-skill-sample-size
+    supplies the reason — with too few independent scoring events, randomness alone
+    can produce the outcome, so it carries almost no information about decision quality.
+
+- from: advocacy-approval-myth
+  verb: parallels
+  to: social-side-of-strategy
+  why: >-
+    Both show a persuasive pitch that survives tough questions is a social ritual
+    for winning approval, not an epistemic test of merit — the room felt scrutinized
+    while the decision's actual quality was never independently measured.
+
+- from: advocacy-approval-myth
+  verb: parallels
+  to: systemic-silence
+  why: >-
+    Both locate a false certification of quality in structure, not individuals —
+    advocacy-approval-myth shows persuasion gets mistaken for scrutiny, and
+    systemic-silence shows unspoken dissent gets mistaken for absent concern.
+
+- from: deciding-how-to-decide
+  verb: extends
+  to: decision-quality-chain
+  why: >-
+    Decision-quality-chain says quality equals the weakest of six requirements
+    including frame and commitment; deciding-how-to-decide adds a prior design
+    layer — who's involved, what context, how, who controls — that fills those links.
+
+- from: complexity-matching-fallacy
+  verb: tempers
+  to: complexity-behind-the-interface
+  why: >-
+    Hidden complexity is free only while a real interface absorbs it;
+    complexity-matching-fallacy shows that when the "interface" is a rulebook
+    people must interact with directly, matching complexity collapses compliance.
+
+- from: complexity-behind-the-interface
+  verb: parallels
+  to: knowledge-in-the-world
+  why: >-
+    Both relocate burden outside the user's head — knowledge-in-the-world puts
+    needed information in the environment instead of memory, complexity-behind-the-interface
+    puts the system's real complexity behind a front end, so the mind's load stays small.
+
+- from: believability-weighting
+  verb: tempers
+  to: cyclic-collective-preference
+  why: >-
+    Equally-weighted voting can produce a group preference that contradicts itself
+    even when every individual is consistent; believability-weighting limits this by
+    replacing one-vote-per-person tallying with track-record-weighted influence.
+
+- from: authority-override-in-emergencies
+  verb: tempers
+  to: circle-of-safety
+  why: >-
+    Circle-of-safety assumes trusted leadership frees people to detect and act on
+    real threats; authority-override-in-emergencies shows that same trust can misfire
+    — people abandon direct evidence of danger for an official's false reassurance.
+
+- from: worthwhile-vs-instrumental-goal
+  verb: instantiates
+  to: why-because-regress
+  why: >-
+    Why-because-regress says a justification chain must end in something valued for
+    its own sake or run forever; worthwhile-vs-instrumental-goal shows the organizational
+    case — instrumental goals justified by further ends produce only fragile compliance.
+
+- from: self-perpetuating-problem
+  verb: instantiates
+  to: system-archetypes
+  why: >-
+    An institution whose members benefit from a problem's continued existence is a
+    concrete case of a reinforcing-loop archetype — the structure meant to close a
+    gap instead feeds back into sustaining it, delayed and hidden by its own design.
+
+- from: mind-your-meaning
+  verb: parallels
+  to: categories-of-legitimate-reservation
+  why: >-
+    Both attack ambiguity in a stated claim directly — mind-your-meaning stress-tests
+    a problem statement's words through negation and substitution, and the reservation
+    checklist's clarity category does the same to a cause-effect arrow.
+
+- from: do-they-really-want-it-solved
+  verb: parallels
+  to: worthwhile-vs-instrumental-goal
+  why: >-
+    Both show a stated goal can mask what actually motivates behavior — a request may
+    hide a political need no technical fix satisfies, just as an instrumental goal masks
+    the absence of an intrinsically held one, producing only compliance.
+
+- from: law-of-the-jiggle
+  verb: parallels
+  to: complexity-matching-fallacy
+  why: >-
+    Both show scaling an intervention to match a problem's apparent size backfires —
+    a resistant system can only absorb a small, well-placed nudge, and a complex problem
+    met with an equally complicated solution overwhelms compliance instead of earning it.
