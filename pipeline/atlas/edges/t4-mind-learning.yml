@@ -1,0 +1,152 @@
+- from: deep-practice
+  verb: parallels
+  to: desirable-difficulties
+  why: >-
+    Both show skill or memory strengthens most when practice deliberately
+    courts error at the edge of current ability, rather than smooth,
+    fluent repetition that feels productive but isn't.
+
+- from: mi-spirit
+  verb: tempers
+  to: master-coaching
+  why: >-
+    Directive, expert-delivered correction accelerates motor and technical
+    skill acquisition, but the same expert-directive stance undermines the
+    autonomy that sustained behavior change depends on, so each approach
+    only holds inside its own skill category.
+
+- from: self-persuasion
+  verb: formalizes
+  to: the-righting-reflex
+  why: >-
+    Self-persuasion supplies the specific mechanism — people commit harder
+    to arguments they voice themselves — that explains why the righting
+    reflex's imposed fix reliably backfires.
+
+- from: solution-oriented-question
+  verb: instantiates
+  to: the-righting-reflex
+  why: >-
+    A question with the asker's own answer smuggled into its grammar is
+    the concrete linguistic form the righting reflex takes when it
+    disguises itself as inquiry instead of advice.
+
+- from: change-talk
+  verb: formalizes
+  to: commitments-not-plans
+  why: >-
+    Both locate real commitment in a person's own spoken words rather
+    than in an external document; change-talk specifies exactly which
+    self-generated language actually predicts follow-through.
+
+- from: mi-spirit
+  verb: parallels
+  to: consultant-stance-choice
+  why: >-
+    Both identify the helper's underlying relational stance, not their
+    technique or skill level, as what determines whether an intervention
+    helps a client change or backfires into resistance.
+
+- from: grow-model
+  verb: parallels
+  to: five-questions
+  why: >-
+    Both compress an entire improvement conversation into a fixed
+    sequence — current state, obstacles or options, then a committed next
+    step — that must run in that order to reach concrete action.
+
+- from: distributed-representation
+  verb: contradicts
+  to: physical-symbol-system-hypothesis
+  why: >-
+    The symbolist thesis holds that discrete, manipulable symbol
+    structures are necessary and sufficient for intelligence, while
+    distributed representation shows a concept can be intelligently
+    encoded as a pattern spread across many units with no symbol standing
+    for it at all — connectionism's founding rebuttal to symbolic AI.
+
+- from: physical-symbol-system-hypothesis
+  verb: instantiates
+  to: five-tribes
+  why: >-
+    The physical symbol system hypothesis is the founding axiom of
+    exactly one of the five schools — the symbolists — that the book's
+    taxonomy of machine learning names.
+
+- from: linguistic-relativity-of-code
+  verb: parallels
+  to: mental-models
+  why: >-
+    Both claim the representational system available to a mind — a
+    language paradigm or an internal mental image — doesn't just
+    describe solutions but bounds which ones can be conceived at all.
+
+- from: linguistic-relativity-of-code
+  verb: tempers
+  to: master-algorithm
+  why: >-
+    If the representation on hand shapes which solutions are reachable,
+    no single universal algorithm or representation can be neutral
+    enough to reach every solution equally, limiting the master-algorithm
+    hypothesis's claimed universality.
+
+- from: let-it-crash-fault-tolerance
+  verb: parallels
+  to: autonomation
+  why: >-
+    Both let a failing unit stop or die immediately rather than being
+    defensively caught and patched inline, trusting a separate
+    supervising process to detect the failure and restart or fix it
+    cleanly.
+
+- from: regularization-as-preference
+  verb: parallels
+  to: governance-by-boundaries
+  why: >-
+    Both replace fully specifying the exact answer in advance — an excluded
+    solution, a detailed plan — with bounding the space an answer must fall
+    within and trusting the system to find a good point inside it, rather
+    than dictating that point directly.
+
+- from: attention-restoration-theory
+  verb: formalizes
+  to: context-switching-tax
+  why: >-
+    Attention restoration theory supplies the underlying mechanism —
+    directed attention as a finite, fatiguing resource — that explains
+    why juggling tasks imposes a real cognitive cost beyond a simple
+    CPU-scheduling accounting.
+
+- from: order-and-complexity
+  verb: parallels
+  to: attention-restoration-theory
+  why: >-
+    Both identify one middle zone — patterned variety, neither chaos nor
+    monotony — that engages perception effortlessly and lets directed,
+    effortful attention rest instead of deplete further.
+
+- from: home-as-psychological-anchor
+  verb: extends
+  to: environment-design
+  why: >-
+    Both locate behavioral and identity consistency in the surrounding
+    physical environment rather than in willpower, but home-as-anchor
+    widens the claim from cueing individual habits to anchoring an
+    entire self one cannot reliably summon unaided.
+
+- from: contingency-of-bad-architecture
+  verb: contradicts
+  to: institutional-imperative
+  why: >-
+    One argues bad outcomes trace to the reversible decisions of
+    specific, identifiable people; the other argues an impersonal
+    organizational force makes rationality wilt almost independent of
+    who is deciding.
+
+- from: elements-of-mastery
+  verb: parallels
+  to: right-thing-right-way
+  why: >-
+    Both decompose overall success into multiple independent required
+    components, each with its own distinct failure mode, so excelling at
+    one never compensates for missing another.

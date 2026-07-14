@@ -1,0 +1,211 @@
+- from: four-fundamental-team-types
+  verb: parallels
+  to: four-zones-model
+  why: >-
+    Both split an organization into a small named taxonomy of purpose-shaped
+    units — team types or zones — each carrying its own playbook and
+    responsibilities, instead of one uniform structure applied everywhere.
+
+- from: reverse-conway-maneuver
+  verb: parallels
+  to: environment-design
+  why: >-
+    Both treat the surrounding structure as the real lever — team boundaries
+    or physical space — deliberately arranged so the desired downstream
+    behavior emerges indirectly instead of being commanded directly.
+
+- from: team-cognitive-load-limits
+  verb: parallels
+  to: complexity-beyond-memory
+  why: >-
+    Both name a hard ceiling on how much one bounded unit — a team's scope
+    or an expert's working memory — can reliably hold regardless of skill,
+    and both reject more training as the fix, prescribing instead a
+    structural aid: bounding the team's scope, or an external checklist.
+
+- from: team-interactions-as-organizational-sensing
+  verb: parallels
+  to: sense-and-respond-steering
+  why: >-
+    Both replace centralized predict-and-plan control with continuous,
+    distributed sensing at the point of contact with reality, feeding fast
+    local correction back before problems grow large.
+
+- from: false-positive-feasibility
+  verb: parallels
+  to: planning-fallacy
+  why: >-
+    Both show a forecast or design built entirely from its own inside
+    details systematically overstates confidence, and only an outside
+    check reveals the true risk before commitment locks it in.
+
+- from: integration-points
+  verb: parallels
+  to: critical-chain
+  why: >-
+    Both locate a project's real risk not evenly across all tasks but at
+    specific convergence points where independent work streams must meet,
+    concentrating protection there instead of at generic milestones.
+
+- from: product-development-limit-curve
+  verb: tempers
+  to: iterate-or-exit
+  why: >-
+    Plotting the continuous trend of test-and-fix loops catches a
+    degrading trajectory as it happens, while a verdict forced only at
+    fixed checkpoints can miss that same decline until it's too late to fix.
+
+- from: oobeya
+  verb: instantiates
+  to: artifacts-as-external-memory
+  why: >-
+    Oobeya externalizes an entire development portfolio's state onto
+    tangible, movable Post-it notes, the same memory-offloading mechanism
+    used at team-meeting scale to free minds from holding everything
+    internally.
+
+- from: kano-model
+  verb: parallels
+  to: performance-oversupply
+  why: >-
+    Both describe a ceiling continued excellence on one attribute
+    eventually hits — delighters decay into basics, and outpacing what
+    customers can use stops earning a premium — shifting where value
+    competition actually happens.
+
+- from: right-thing-right-way
+  verb: parallels
+  to: smart-vs-healthy
+  why: >-
+    Both insist an effort needs two independent kinds of correctness that
+    fail differently when missing — right product and right process, or
+    smart decisions and organizational health — and most invest in only one.
+
+- from: create-behaviour-funnel
+  verb: parallels
+  to: habit-loop
+  why: >-
+    Both decompose an action into a fixed sequence of discrete
+    preconditions — cue, reaction, evaluation or cue, craving, response —
+    treating each stage as an independent point where behavior can be
+    targeted or lost.
+
+- from: behaviour-change-as-value
+  verb: parallels
+  to: actionable-vs-vanity-metrics
+  why: >-
+    Both insist the unit of value must be a specific, observable behavior
+    tied to a result, rejecting any measure that merely documents state
+    without proving anyone acted differently.
+
+- from: learning-stories-vs-earning-stories
+  verb: parallels
+  to: discovery-delivery-split
+  why: >-
+    Both explicitly separate the work of finding out whether an idea is
+    worth building from the work of building it, tracking each as its own
+    unit instead of letting research masquerade as delivery.
+
+- from: stories-as-survivable-experiments
+  verb: instantiates
+  to: safe-to-fail-experiments
+  why: >-
+    Sizing a story by how much a business can safely lose is a concrete
+    case of the deliberately reversible, small-loss probe used to learn
+    what a system does before committing to a predicted answer.
+
+- from: job-spec
+  verb: parallels
+  to: quality-attribute-scenario
+  why: >-
+    Both are structured templates that convert a vague goal — a customer's
+    job, a quality attribute — into a rigorously specified, testable brief
+    naming context, tradeoffs, and what counts as satisfying it.
+
+- from: forces-of-progress
+  verb: parallels
+  to: fighting-inertia
+  why: >-
+    Both decompose a switch or adoption decision into named opposing
+    forces — push and pull toward change versus habit and anxiety
+    anchoring the status quo — instead of treating adoption as one simple
+    preference.
+
+- from: mission-drift-from-the-job
+  verb: tempers
+  to: create-a-customer
+  why: >-
+    Names the growth-stage condition under which businesses stop
+    practicing Drucker's outward, job-focused purpose and redefine
+    themselves inward around the products they already sell.
+
+- from: planning-is-guessing
+  verb: contradicts
+  to: endowment-trends-moves
+  why: >-
+    Rework insists any long-range forecast is a guess made with the least
+    information available and deserves no false authority, directly
+    against the claim that ten measurable variables predict a decade-out
+    competitive position with 86% accuracy.
+
+- from: workaholism-trap
+  verb: parallels
+  to: hero-culture-magical-thinking
+  why: >-
+    Both show that rewarding brute-force hours instead of an efficient
+    solution trains an organization to believe any workload is absorbed
+    for free, until the hidden debt from that substitution collapses
+    capacity.
+
+- from: architecturally-significant-requirements
+  verb: parallels
+  to: bottleneck-targeting
+  why: >-
+    Both insist you first identify the small subset that actually drives
+    the outcome — requirements that shape structure, the one bottleneck
+    activity — and deliberately leave everything else to competent
+    judgment.
+
+- from: architecture-tradeoff-analysis-method
+  verb: parallels
+  to: start-with-the-end
+  why: >-
+    Both construct a structured failure scenario in advance and
+    interrogate the design against it before committing resources,
+    surfacing risk-causing decisions while they're still cheap to change.
+
+- from: work-breakdown-structure-lock-in
+  verb: tempers
+  to: reverse-conway-maneuver
+  why: >-
+    Names the trap the maneuver is meant to escape: once teams and
+    contracts crystallize around an architecture-driven work breakdown,
+    redesigning team boundaries to fix a bad architecture becomes exactly
+    as expensive as the maneuver exists to avoid.
+
+- from: prove-it-for-twenty-years
+  verb: parallels
+  to: lindy-effect
+  why: >-
+    Both treat an unbroken track record itself as the best available
+    evidence of future reliability, valuing proven age over novelty
+    regardless of how impressive a newer, untested alternative looks.
+
+- from: prove-it-for-twenty-years
+  verb: tempers
+  to: fail-fast-safely
+  why: >-
+    Names the domain — infrastructure that must not fail — where
+    surfacing failure early and cheaply is not an acceptable learning
+    cost, and a component's decades-long record beats the newest,
+    most exciting option.
+
+- from: tyranny-of-numbers
+  verb: parallels
+  to: the-hidden
+  why: >-
+    Both locate an organization's blind spot inside its own success —
+    Bell Labs' earned engineering conviction, or the structural
+    invisibility Catmull says accompanies any leader's position —
+    arguing that competence and standing are exactly what block seeing
+    a simpler truth already in view.
