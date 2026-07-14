@@ -13,22 +13,17 @@
     keeps judgment uncorrupted where a longer build wouldn't.
 
 - from: small-sample-inference
-  verb: formalizes
+  verb: parallels
   to: five-user-testing
   why: >-
-    Hubbard's Rule of Five proves a random five-observation sample already
-    narrows a population's median to 93.75% confidence; that's the statistical
-    reason Nielsen's five-user test empirically catches 85% of usability
-    problems — both cash in the same steep early-return curve.
-
-- from: sticky-decision
-  verb: parallels
-  to: parallel-thinking
-  why: >-
-    Both replace open, position-defending argument with a structured process
-    — silent dot-voting then a supervote; hat-by-hat direction-switching — so
-    the room's full judgment surfaces before charisma, rank, or a strong pitch
-    can bias which idea wins.
+    Hubbard's Rule of Five (a random five-observation sample already narrows
+    a population's median to 93.75% confidence) and Nielsen's five-user test
+    (roughly 85% of usability problems surface in the first five interviews)
+    run on different formulas — order-statistics coverage versus cumulative-
+    discovery probability — but both cash in the same shape: a steep,
+    front-loaded information curve where a tiny random sample already
+    captures most of the achievable certainty, and further sampling buys
+    sharply diminishing returns rather than proportional new insight.
 
 - from: sticky-decision
   verb: parallels
@@ -77,16 +72,6 @@
     profit, produced by the same positive-feedback mechanism: capital chases
     winners regardless of industry, the way preferential attachment builds
     cities.
-
-- from: power-curve
-  verb: parallels
-  to: winner-take-all-economics
-  why: >-
-    Both show capital or customers concentrating on winners once a scale
-    constraint disappears — BHS's finding that capital increasingly chases
-    winners "regardless of industry" is the same digitization-driven,
-    superstar-market mechanism Brynjolfsson names for individuals and
-    products once distribution costs hit zero.
 
 - from: black-box-limits
   verb: formalizes
@@ -148,23 +133,18 @@
     something real.
 
 - from: advice-process
-  verb: parallels
-  to: believability-weighting
-  why: >-
-    Both dissolve the false choice between one boss deciding and everyone
-    voting equally — advice-process separates the right to decide from the
-    duty to consult everyone affected; believability-weighting keeps a vote
-    but weights it by track record — different fixes for the same dilemma.
-
-- from: advice-process
-  verb: extends
+  verb: contradicts
   to: decentralized-control
   why: >-
-    Reinertsen decentralizes authority only for problems that age quickly,
-    keeping rare or large ones central; Laloux's advice-process extends this
-    into a universal rule for every decision regardless of urgency,
-    substituting mandatory consultation of the affected for Reinertsen's
-    binary perishability test.
+    Reinertsen centralizes authority for decisions that are rare, large, or
+    benefit from economies of scale, reserving decentralization for problems
+    that age quickly; Laloux's advice process would let one consulted
+    individual make exactly that kind of call — AES's Shazad Qasim, a junior
+    analyst, committed $200 million toward a $700 million Pakistani power
+    plant, the rare, large, high-stakes decision Reinertsen's framework says
+    to centralize. Applied to the same decision, the two give opposite
+    answers: pool it under central control, or let one person decide after
+    consulting widely.
 
 - from: evolutionary-purpose
   verb: parallels
@@ -187,13 +167,15 @@
     not commitment.
 
 - from: multiframe-thinking
-  verb: instantiates
+  verb: parallels
   to: theory-laden-perception
   why: >-
-    Bolman and Deal's "cluelessness" — misreading a situation and not knowing
-    it — is Kuhn's theory-laden perception applied to management: what a
-    leader can see is shaped by the frame they're using, so switching frames
-    restructures what's visible, not just what's concluded.
+    Both locate a diagnostic failure in the lens itself rather than in
+    intelligence or evidence — Bolman and Deal's "cluelessness" (misreading a
+    situation and not knowing it) and Kuhn's theory-ladenness both claim that
+    what an observer takes to be true is shaped by the framework currently
+    active, so changing the framework changes what's visible, not just what's
+    concluded.
 
 - from: good-profits-bad-profits
   verb: parallels
@@ -218,10 +200,14 @@
   verb: extends
   to: problem-solution-fit
   why: >-
-    Running Lean's Problem/Solution Fit stage is exactly the pyramid's bottom
-    two layers — target customer, underserved need; the pyramid extends that
-    coarse two-stage model into five testable layers, adding value
-    proposition, feature set, and UX as the later dependent hypotheses.
+    Running Lean's Problem/Solution Fit stage bundles market and early
+    solution viability into one coarse test — is the problem real, will
+    customers pay, can it be built — without separating who the customer is
+    from what underserved need the solution addresses; Olsen's pyramid
+    extends that into five separately-testable layers, splitting the market
+    question into target customer and underserved need, then adding value
+    proposition, feature set, and UX as the dependent, later-tested solution
+    hypotheses.
 
 - from: evolutionary-purpose
   verb: contradicts

@@ -16328,6 +16328,580 @@
    "source": "woven"
   },
   {
+   "from": "percent-complete-and-accurate",
+   "verb": "tempers",
+   "to": "flow-efficiency",
+   "why": "Flow efficiency scores a stream purely by active-versus-waiting time, blind to whether that active time produced correct work; a step can be time-efficient yet still compound low-quality output, since rework loops never register as waiting.",
+   "source": "woven"
+  },
+  {
+   "from": "mapping-altitude",
+   "verb": "parallels",
+   "to": "leverage",
+   "why": "Both insist the obvious fix visible from inside one process step is usually the wrong one — real leverage, like a value stream's macro view, sits at a nonobvious structural point invisible until you deliberately step back from local detail.",
+   "source": "woven"
+  },
+  {
+   "from": "existential-overhead",
+   "verb": "parallels",
+   "to": "solitude-deprivation",
+   "why": "Both describe an invisible background cognitive load that compounds by default and lifts only through deliberate action — externalizing unfinished work onto a board, or deliberately unplugging from other minds' input.",
+   "source": "woven"
+  },
+  {
+   "from": "shuhari-learning-stages",
+   "verb": "parallels",
+   "to": "dreyfus-model-skill-acquisition",
+   "why": "Both hold that skill moves through a small number of qualitatively distinct stages where the kind of guidance needed changes at each one, so the same fixed instruction helps at one stage and cripples another.",
+   "source": "woven"
+  },
+  {
+   "from": "mastery-stage-coaching-match",
+   "verb": "extends",
+   "to": "shuhari-learning-stages",
+   "why": "Shuhari names the three stages and warns that rules must be matched to stage, but stops at the diagnosis; mastery-stage-coaching-match adds the missing operational piece — three named coach styles, Teaching, Coaching, and Advising, mapped one-to-one onto Shu, Ha, and Ri.",
+   "source": "woven"
+  },
+  {
+   "from": "kata",
+   "verb": "parallels",
+   "to": "dreyfus-model-skill-acquisition",
+   "why": "Both hold that verbally explained content cannot by itself produce skilled behavior: kata locates the transmissible part in a practiced, content-neutral routine rather than a stated principle, and Dreyfus shows expert performance is intuitive and cannot be reduced to the explicit rules that work for novices.",
+   "source": "woven"
+  },
+  {
+   "from": "testing-as-sampling",
+   "verb": "parallels",
+   "to": "black-box-limits",
+   "why": "Both hold that finite observation can never certify completeness — a test suite samples an effectively infinite space of possible checks, just as a black box's observed behavior is only ever consistent with a model, never uniquely confirming it.",
+   "source": "woven"
+  },
+  {
+   "from": "information-immunity",
+   "verb": "parallels",
+   "to": "self-image-defense",
+   "why": "Both describe an unconscious filter — repression, rationalization, projection, or a defended self-story — that blocks threatening information from ever being weighed on its merits, whenever it threatens a self-image the person needs intact.",
+   "source": "woven"
+  },
+  {
+   "from": "expected-value-of-information",
+   "verb": "formalizes",
+   "to": "information-value-of-testing",
+   "why": "Information-value-of-testing states the principle qualitatively — testing that can't change a decision is worthless regardless of rigor — and expected value of information turns it into a measurable quantity, EOL(before) minus EOL(after), that prices exactly how much a given uncertainty reduction is worth before you spend anything gathering it.",
+   "source": "woven"
+  },
+  {
+   "from": "living-documentation",
+   "verb": "instantiates",
+   "to": "knowledge-in-the-world",
+   "why": "An executable specification that fails the moment reality drifts is a concrete case of putting correctness-knowledge into the environment instead of requiring people to remember and manually keep documentation true.",
+   "source": "woven"
+  },
+  {
+   "from": "key-examples",
+   "verb": "parallels",
+   "to": "exemplar",
+   "why": "Both hold that concrete, specific instances — a worked example, a solved paradigm-defining problem — train shared judgment and expose ambiguity that abstract rules or definitions leave hidden, and community coherence rests on these instances, not stated rules.",
+   "source": "woven"
+  },
+  {
+   "from": "done-done",
+   "verb": "parallels",
+   "to": "percent-complete-and-accurate",
+   "why": "Both refuse any relaxation of a completion or quality claim: \"done done\" breaks if anything is left unfinished, and percent-complete-and-accurate breaks if a defect is silently absorbed downstream instead of attributed to its source.",
+   "source": "woven"
+  },
+  {
+   "from": "hero-culture-magical-thinking",
+   "verb": "parallels",
+   "to": "premature-scaling",
+   "why": "Both describe an organization mistaking an unsustainable practice for free capacity — heroics absorbing workload, or hiring against an unverified plan — until the hidden, compounding cost surfaces as a sudden collapse rather than a gradual one.",
+   "source": "woven"
+  },
+  {
+   "from": "productivity-vs-effectiveness",
+   "verb": "tempers",
+   "to": "hero-culture-magical-thinking",
+   "why": "Separating doing-a-lot from doing-it-well from doing-the-right-thing shows exactly why hero-culture's lesson is confused: heroics reward raw output, the wrong axis, and mistaking it for effectiveness is what hides the debt until velocity collapses.",
+   "source": "woven"
+  },
+  {
+   "from": "risk-of-replacement-grid",
+   "verb": "formalizes",
+   "to": "jobs-vs-tasks",
+   "why": "Jobs-vs-tasks claims automation forecasts fail by treating a job as one atomic unit; the risk-of-replacement grid turns that claim into a measurable two-axis test — optimization versus creativity, asocial versus social — for exactly which tasks survive.",
+   "source": "woven"
+  },
+  {
+   "from": "syntactic-brittleness",
+   "verb": "parallels",
+   "to": "complexity-beyond-memory",
+   "why": "Both name a system with no graceful-degradation margin: a formal rule-system fails completely from one misplaced symbol, and an expert mind past a complexity threshold can no longer reliably hold every necessary step, however well trained.",
+   "source": "woven"
+  },
+  {
+   "from": "inner-game-awareness",
+   "verb": "parallels",
+   "to": "powerful-questions",
+   "why": "Both replace direct transmission with a channel that lets the other person's own noticing do the work — nonjudgmental situational awareness over verbal instruction, or an open question held without an answer in mind over a directive one.",
+   "source": "woven"
+  },
+  {
+   "from": "safe-to-fail-practice-environment",
+   "verb": "parallels",
+   "to": "set-based-development",
+   "why": "Both refuse to let a single answer get picked before enough is known, using different tactics for the same refusal: a practice environment engineers reversibility — freely backtracking and retrying — so trial-and-error substitutes for getting it right the first time, while set-based development keeps multiple design options alive in parallel so real feedback, not upfront reasoning, narrows the field.",
+   "source": "woven"
+  },
+  {
+   "from": "testing-as-sampling",
+   "verb": "tempers",
+   "to": "continuous-validation",
+   "why": "Continuous validation's every-change re-run catches drift fast, but testing-as-sampling names its limit: an executable spec still samples a finite slice of an infinite behavior space, so passing it certifies consistency with chosen examples, never completeness.",
+   "source": "woven"
+  },
+  {
+   "from": "pressure-kills-cognition",
+   "verb": "parallels",
+   "to": "context-switching-tax",
+   "why": "Both uncover a hidden cognitive cost larger than intuition assumes — deadline pressure suppresses creativity for days after it lifts, and task-juggling imposes overhead the CPU-scheduling metaphor undersells — degrading the very capacity each practice presumes it protects.",
+   "source": "woven"
+  },
+  {
+   "from": "coach-mentor-duality",
+   "verb": "parallels",
+   "to": "inner-game-awareness",
+   "why": "Both split developing someone else into the same two poles — drawing out the other person's own noticing versus directly transferring the helper's expertise. Coach-mentor-duality treats both poles as legitimate and names which one you're in; inner-game-awareness shows why the drawing-out pole is so often undervalued, since verbal instruction overloads the very channel awareness leaves free.",
+   "source": "woven"
+  },
+  {
+   "from": "pragmatic-investment-plan",
+   "verb": "parallels",
+   "to": "flow-distribution",
+   "why": "Both insist a scarce resource — personal learning time, or a team's delivery capacity — must be allocated across categories by a deliberate, reviewed policy, not left as the unconscious byproduct of whatever feels urgent that day.",
+   "source": "woven"
+  },
+  {
+   "from": "springboard-story",
+   "verb": "instantiates",
+   "to": "self-image-defense",
+   "why": "Self-image-defense's own prescription for effective influence is letting people arrive at the conclusion themselves rather than attacking it head-on; the springboard story is the concrete narrative technique that does exactly this, withholding detail so the listener's own imagination reaches the conclusion instead of being argued into it.",
+   "source": "woven"
+  },
+  {
+   "from": "audience-story-primacy",
+   "verb": "parallels",
+   "to": "self-image-defense",
+   "why": "Both locate persuasion's failure point before content is even weighed — a message is rejected or accepted by whether it fits an already-defended self-story, not by its soundness.",
+   "source": "woven"
+  },
+  {
+   "from": "power-sharing-paradox",
+   "verb": "parallels",
+   "to": "empowered-product-teams",
+   "why": "Both claim authority multiplies by being given away — a leader or company gets more effective output by transferring real discretion to others than by retaining control at the center.",
+   "source": "woven"
+  },
+  {
+   "from": "advice-process",
+   "verb": "instantiates",
+   "to": "power-sharing-paradox",
+   "why": "Letting anyone decide alone after seeking advice is a concrete mechanism for the paradox that giving away formal decision authority increases, rather than dilutes, an organization's real power.",
+   "source": "woven"
+  },
+  {
+   "from": "first-move-trust-reciprocity",
+   "verb": "extends",
+   "to": "vulnerability-based-trust",
+   "why": "Vulnerability-based-trust names the state teams need; first-move-trust-reciprocity supplies the missing engine — someone must risk exposure first, unearned, to invoke the reciprocity norm that produces it.",
+   "source": "woven"
+  },
+  {
+   "from": "vulnerability-based-trust",
+   "verb": "instantiates",
+   "to": "vulnerability-as-courage",
+   "why": "A team's trust in teammates admitting weakness without punishment is the organizational-scale case of vulnerability functioning as the origin of connection rather than as exposure to be avoided.",
+   "source": "woven"
+  },
+  {
+   "from": "pygmalion-leadership-expectations",
+   "verb": "extends",
+   "to": "inner-work-life-effect",
+   "why": "Inner-work-life-effect measures that a positive internal state lifts performance; pygmalion expectations supplies the upstream cause — a leader's genuine belief shapes the treatment that produces that state.",
+   "source": "woven"
+  },
+  {
+   "from": "safe-to-fail-practice-environment",
+   "verb": "tempers",
+   "to": "safe-to-fail-experiments",
+   "why": "Practice-environment's requirement of true backtrack-to-any-past-state reveals that most organizational safe-to-fail probes are only partly reversible — their safety is probabilistic, not the guaranteed undo this names.",
+   "source": "woven"
+  },
+  {
+   "from": "disposable-prototypes",
+   "verb": "instantiates",
+   "to": "safe-to-fail-experiments",
+   "why": "A throwaway facade built only to answer one question, at the lowest fidelity that will do it, is the product-design case of a small, reversible probe sized so failure costs almost nothing.",
+   "source": "woven"
+  },
+  {
+   "from": "fail-fast-safely",
+   "verb": "parallels",
+   "to": "safe-to-fail-experiments",
+   "why": "Both reframe failure from accident to instrument — surfaced early and made cheap on purpose — as the actual mechanism by which an organization learns what a novel or complex system will do.",
+   "source": "woven"
+  },
+  {
+   "from": "polarity-mapping",
+   "verb": "contradicts",
+   "to": "evaporating-cloud",
+   "why": "Evaporating-cloud dissolves a stuck conflict by finding and invalidating a hidden assumption; polarity-mapping insists some tensions have no such assumption to remove and must be managed as permanent oscillation instead.",
+   "source": "woven"
+  },
+  {
+   "from": "polarity-mapping",
+   "verb": "extends",
+   "to": "solve-resolve-dissolve",
+   "why": "Solve, resolve, or dissolve exhausts the ways to end a problem once; polarity-mapping adds a fourth mode for tensions that are not one-time problems at all — manage the oscillation, since it cannot be closed.",
+   "source": "woven"
+  },
+  {
+   "from": "powerful-questions",
+   "verb": "parallels",
+   "to": "clean-language-questions",
+   "why": "Both derive their power from the asker suppressing their own agenda — powerful-questions by holding no answer in mind, clean-language by using almost none of their own words — so the other person does the thinking.",
+   "source": "woven"
+  },
+  {
+   "from": "the-righting-reflex",
+   "verb": "tempers",
+   "to": "coach-mentor-duality",
+   "why": "The righting-reflex names exactly the failure mode lurking in the duality's mentoring half — reaching for your own experience-built fix solves the wrong problem, because it was never built from theirs.",
+   "source": "woven"
+  },
+  {
+   "from": "the-righting-reflex",
+   "verb": "tempers",
+   "to": "advice-process",
+   "why": "Advice-process treats seeking others' input as due diligence for a decision; the-righting-reflex warns that advice built from the advisor's own experience routinely answers a question the receiver never asked.",
+   "source": "woven"
+  },
+  {
+   "from": "metaphor-landscape",
+   "verb": "parallels",
+   "to": "mental-models",
+   "why": "Both claim a mostly-unconscious internal representational system — metaphor or mental model — silently determines what a person can perceive and do, and both treat surfacing it as the lever for change.",
+   "source": "woven"
+  },
+  {
+   "from": "ironic-process-theory",
+   "verb": "parallels",
+   "to": "shadow-integration",
+   "why": "Both describe the same trap — actively denying or pushing away unwanted mental content doesn't erase it but guarantees its return in a more distorted, harder-to-control form; ironic-process-theory locates this in conscious suppression's own monitoring loop, shadow-integration in the unconscious's accumulating pressure, but both conclude that the act of denial is what manufactures the eventual, involuntary resurfacing.",
+   "source": "woven"
+  },
+  {
+   "from": "goalodicy",
+   "verb": "parallels",
+   "to": "asset-debt",
+   "why": "Both show a past commitment — an identity-fused goal, an unretired asset — quietly flipping from investment to trap, defended past the point of value because abandoning it feels like losing rather than saving.",
+   "source": "woven"
+  },
+  {
+   "from": "iterate-or-exit",
+   "verb": "tempers",
+   "to": "goalodicy",
+   "why": "Goalodicy survives contradicting evidence by reinterpreting it as reason to invest harder; iterate-or-exit's forced written recycle-or-advance checkpoint is the structural mechanism built to block exactly that move.",
+   "source": "woven"
+  },
+  {
+   "from": "memento-mori-practice",
+   "verb": "contradicts",
+   "to": "death-denial",
+   "why": "Death-denial holds that mortality is managed by exhausting substitute pursuits of permanence; memento-mori-practice argues the opposite — ritually keeping death visible converts dread into vitality, not despair.",
+   "source": "woven"
+  },
+  {
+   "from": "shame-vs-guilt",
+   "verb": "parallels",
+   "to": "no-judgment-accountability",
+   "why": "Both show the identical lapse producing repair or collapse depending purely on self-talk framing — \"I did a bad thing\" that triggers correction, versus \"I am bad\" or \"I am blamed\" that triggers hiding.",
+   "source": "woven"
+  },
+  {
+   "from": "temporal-landmarks",
+   "verb": "parallels",
+   "to": "habit-vulnerability-windows",
+   "why": "Both locate a psychologically distinct window — a calendar date, a life transition — where old patterns loosen their grip and a new commitment can take root far more easily than at any ordinary moment.",
+   "source": "woven"
+  },
+  {
+   "from": "daily-oscillation",
+   "verb": "parallels",
+   "to": "coaching-intervention-rhythm",
+   "why": "Both claim the same action lands differently depending on where in a natural cycle it falls — matching effort to the system's own peak, trough, or cycle-boundary multiplies its effect over applying it evenly.",
+   "source": "woven"
+  },
+  {
+   "from": "target-condition",
+   "verb": "tempers",
+   "to": "fuzzy-goals",
+   "why": "Target-condition's demand for a sharp, non-negotiable state names the known-process, incremental-step context where fuzzy-goals' deliberate vagueness would leave effort undirected instead of creatively open.",
+   "source": "woven"
+  },
+  {
+   "from": "facade-prototype",
+   "verb": "extends",
+   "to": "mvp-test-matrix",
+   "why": "Olsen's matrix sorts MVP tests by channel and method; the facade prototype is its highest-fidelity qualitative-product cell, adding the mechanism the matrix omits — commitment rises with hours invested, so a one-day facade keeps judgment uncorrupted where a longer build wouldn't.",
+   "source": "woven"
+  },
+  {
+   "from": "small-sample-inference",
+   "verb": "parallels",
+   "to": "five-user-testing",
+   "why": "Hubbard's Rule of Five (a random five-observation sample already narrows a population's median to 93.75% confidence) and Nielsen's five-user test (roughly 85% of usability problems surface in the first five interviews) run on different formulas — order-statistics coverage versus cumulative- discovery probability — but both cash in the same shape: a steep, front-loaded information curve where a tiny random sample already captures most of the achievable certainty, and further sampling buys sharply diminishing returns rather than proportional new insight.",
+   "source": "woven"
+  },
+  {
+   "from": "sticky-decision",
+   "verb": "parallels",
+   "to": "node-generation",
+   "why": "Both insert silent, independent judgment — dot-stickers, one-idea-per-note — before any spoken discussion, because voicing an opinion first anchors or dominates the room and destroys the independence the later sorting or voting step depends on.",
+   "source": "woven"
+  },
+  {
+   "from": "social-side-of-strategy",
+   "verb": "parallels",
+   "to": "systemic-silence",
+   "why": "Both trace organizational dysfunction — inflated forecasts, withheld safety concerns — to hierarchy, incentives, and career risk rather than to individual dishonesty or cowardice, redirecting the fix from replacing people toward redesigning the forums and rewards that produce the behavior in anyone.",
+   "source": "woven"
+  },
+  {
+   "from": "hockey-stick-and-hairy-back",
+   "verb": "instantiates",
+   "to": "planning-fallacy",
+   "why": "The hockey-stick ritual is inside-view forecasting under career pressure at organizational scale — Kahneman's planning fallacy repeated yearly, with \"irrational perseverance\" explaining why the pattern survives even once everyone in the room can see the curve never actually arrives.",
+   "source": "woven"
+  },
+  {
+   "from": "sit-on-your-ass-investing",
+   "verb": "contradicts",
+   "to": "margin-of-safety",
+   "why": "Graham's margin of safety requires selling once price reaches calculated intrinsic value; Munger's sit-on-your-ass-investing shows that exact discipline would have forced Buffett out of Berkshire decades early, since the same inaction that discipline forbids is what let compounding actually compound.",
+   "source": "woven"
+  },
+  {
+   "from": "power-curve",
+   "verb": "instantiates",
+   "to": "power-law-distributions",
+   "why": "BHS's power curve — a flat middle and a steep, distant top capturing 90% of economic profit — is Page's power-law distribution applied to firm profit, produced by the same positive-feedback mechanism: capital chases winners regardless of industry, the way preferential attachment builds cities.",
+   "source": "woven"
+  },
+  {
+   "from": "black-box-limits",
+   "verb": "formalizes",
+   "to": "circle-of-competence",
+   "why": "Weinberg proves no finite observation certifies a system's true internal structure, only consistency. That grounds Munger's circle of competence: since you can never verify you've captured a system's real structure, the only safeguard is knowing exactly where your own access ends.",
+   "source": "woven"
+  },
+  {
+   "from": "circle-of-competence",
+   "verb": "extends",
+   "to": "narrow-expertise",
+   "why": "Narrow-expertise shows credentialed authority doesn't transfer to adjacent domains; circle of competence extends that diagnosis into a first-person discipline — drawing your own boundary before anyone else has to catch you trading on credibility a different question doesn't actually cover.",
+   "source": "woven"
+  },
+  {
+   "from": "incentive-caused-bias",
+   "verb": "parallels",
+   "to": "skin-in-the-game",
+   "why": "Both show misaligned reward corrupts judgment upstream of conscious intent — Munger's salesman unconsciously steering customers toward the higher-commission product, Taleb's risk-transferring executive, are the same mechanism: reward decoupled from truth or downside, producing distortion nobody involved would call dishonest.",
+   "source": "woven"
+  },
+  {
+   "from": "incentive-driven-addiction",
+   "verb": "extends",
+   "to": "incentive-caused-bias",
+   "why": "Munger's incentive-caused-bias names distorted judgment in one misaligned individual; Sinek's incentive-driven-addiction extends the mechanism to neurochemistry and organizational scale, showing why the same misalignment, repeated, produces whole teams that sabotage each other without any single person acting dishonestly.",
+   "source": "woven"
+  },
+  {
+   "from": "many-model-thinking",
+   "verb": "formalizes",
+   "to": "latticework-of-models",
+   "why": "Munger's \"man with a hammer\" warning gets mathematical teeth from Page's diversity-prediction and Condorcet jury theorems: error shrinks with genuinely independent models, not just more of them, formalizing exactly why several disciplines beat mastering one when judging a complex problem.",
+   "source": "woven"
+  },
+  {
+   "from": "latticework-of-models",
+   "verb": "parallels",
+   "to": "multiframe-thinking",
+   "why": "Both diagnose the same failure — a single trained lens reaching for its default answer regardless of fit — and prescribe the same fix: deliberately hold several incompatible frames side by side, since one discipline's hammer or one organizational lens alone always misses something real.",
+   "source": "woven"
+  },
+  {
+   "from": "advice-process",
+   "verb": "contradicts",
+   "to": "decentralized-control",
+   "why": "Reinertsen centralizes authority for decisions that are rare, large, or benefit from economies of scale, reserving decentralization for problems that age quickly; Laloux's advice process would let one consulted individual make exactly that kind of call — AES's Shazad Qasim, a junior analyst, committed $200 million toward a $700 million Pakistani power plant, the rare, large, high-stakes decision Reinertsen's framework says to centralize. Applied to the same decision, the two give opposite answers: pool it under central control, or let one person decide after consulting widely.",
+   "source": "woven"
+  },
+  {
+   "from": "evolutionary-purpose",
+   "verb": "parallels",
+   "to": "autopoiesis",
+   "why": "Laloux's organization sensing its own emergent purpose is Maturana and Varela's autopoiesis applied to strategy — both treat an entity's direction and boundary as generated from within its own ongoing self-producing activity, not designed or imposed by an outside authority.",
+   "source": "woven"
+  },
+  {
+   "from": "evolutionary-purpose",
+   "verb": "parallels",
+   "to": "shared-vision",
+   "why": "Both distinguish a genuinely emergent, freely-enrolled direction from one imposed top-down — Laloux's purpose is listened to rather than strategized, Senge's vision is real only when built from personal visions people choose; either imposed instead produces mere compliance, not commitment.",
+   "source": "woven"
+  },
+  {
+   "from": "multiframe-thinking",
+   "verb": "parallels",
+   "to": "theory-laden-perception",
+   "why": "Both locate a diagnostic failure in the lens itself rather than in intelligence or evidence — Bolman and Deal's \"cluelessness\" (misreading a situation and not knowing it) and Kuhn's theory-ladenness both claim that what an observer takes to be true is shaped by the framework currently active, so changing the framework changes what's visible, not just what's concluded.",
+   "source": "woven"
+  },
+  {
+   "from": "good-profits-bad-profits",
+   "verb": "parallels",
+   "to": "shareholder-value-trap",
+   "why": "Both name a metric that hides two economically opposite realities behind one number — profit or share price identical on paper whether earned by delighting customers or by extracting from them — until the hidden kind collapses the relationships the business actually depends on.",
+   "source": "woven"
+  },
+  {
+   "from": "product-market-fit-pyramid",
+   "verb": "tempers",
+   "to": "four-big-risks",
+   "why": "Cagan's four risks are tackled as parallel, simultaneous checks; Olsen's pyramid tempers that by insisting on order — target customer and underserved need must be validated before value proposition, feasibility, or UX matter, since no downstream risk-check compensates for a wrong market.",
+   "source": "woven"
+  },
+  {
+   "from": "product-market-fit-pyramid",
+   "verb": "extends",
+   "to": "problem-solution-fit",
+   "why": "Running Lean's Problem/Solution Fit stage bundles market and early solution viability into one coarse test — is the problem real, will customers pay, can it be built — without separating who the customer is from what underserved need the solution addresses; Olsen's pyramid extends that into five separately-testable layers, splitting the market question into target customer and underserved need, then adding value proposition, feature set, and UX as the dependent, later-tested solution hypotheses.",
+   "source": "woven"
+  },
+  {
+   "from": "evolutionary-purpose",
+   "verb": "contradicts",
+   "to": "power-curve",
+   "why": "BHS treats strategy as a deliberate climb up a competitive, power-law profit ranking; Laloux argues organizations that drop the whole competitive frame — sensing purpose instead of benchmarking rivals — grow just as fast, making the ranking optional, not the real scoreboard.",
+   "source": "woven"
+  },
+  {
+   "from": "circle-of-competence",
+   "verb": "tempers",
+   "to": "latticework-of-models",
+   "why": "Munger tells you to gather ideas from every discipline, yet also to bet only inside a hard boundary of what you truly understand; circle-of-competence tempers the latticework's breadth by drawing the line between knowing-about, which should be wide, and betting-on, which must stay narrow.",
+   "source": "woven"
+  },
+  {
+   "from": "current-reality-tree",
+   "verb": "extends",
+   "to": "five-whys",
+   "why": "Both trace symptoms backward through cause-and-effect links to a root, but current-reality-tree extends the single interrogation chain of five-whys into a branching diagram that must explain many named symptoms at once.",
+   "source": "woven"
+  },
+  {
+   "from": "current-reality-tree",
+   "verb": "parallels",
+   "to": "system-archetypes",
+   "why": "Both diagram cause-and-effect links until a small structure explains a wide surface of symptoms, but current-reality-tree builds that structure bespoke per situation while system-archetypes offers a fixed library of recurring loops.",
+   "source": "woven"
+  },
+  {
+   "from": "categories-of-legitimate-reservation",
+   "verb": "formalizes",
+   "to": "alternative-explanations",
+   "why": "Alternative-explanations urges weighing competing accounts before accepting the one offered; the reservation checklist turns that habit into a fixed, checkable test — Causality Existence, does the named cause actually produce the effect, or could something else — inside a systematic diagnostic.",
+   "source": "woven"
+  },
+  {
+   "from": "problem-formulation-shapes-solutions",
+   "verb": "extends",
+   "to": "perceived-desired-gap",
+   "why": "Both treat a problem as a relationship between mental states rather than a fixed fact, but problem-formulation-shapes-solutions adds that changing the description, not just closing the perceived-desired gap, reveals new solutions.",
+   "source": "woven"
+  },
+  {
+   "from": "luck-skill-sample-size",
+   "verb": "formalizes",
+   "to": "decisions-vs-outcomes",
+   "why": "Decisions-vs-outcomes says never judge quality by the result; luck-skill-sample-size supplies the reason — with too few independent scoring events, randomness alone can produce the outcome, so it carries almost no information about decision quality.",
+   "source": "woven"
+  },
+  {
+   "from": "advocacy-approval-myth",
+   "verb": "parallels",
+   "to": "social-side-of-strategy",
+   "why": "Both show organizational approval substituting for real verification — advocacy-approval-myth shows a review board mistaking survival of interrogation for proof of merit, and social-side-of-strategy shows a board approving inflated plans because a full independent audit is infeasible and career risk rewards a good story over an honest one.",
+   "source": "woven"
+  },
+  {
+   "from": "advocacy-approval-myth",
+   "verb": "parallels",
+   "to": "systemic-silence",
+   "why": "Both locate a false certification of quality in structure, not individuals — advocacy-approval-myth shows persuasion gets mistaken for scrutiny, and systemic-silence shows unspoken dissent gets mistaken for absent concern.",
+   "source": "woven"
+  },
+  {
+   "from": "deciding-how-to-decide",
+   "verb": "extends",
+   "to": "decision-quality-chain",
+   "why": "Decision-quality-chain says quality equals the weakest of six requirements including frame and commitment; deciding-how-to-decide adds a prior design layer — who's involved, what context, how, who controls — that fills those links.",
+   "source": "woven"
+  },
+  {
+   "from": "complexity-matching-fallacy",
+   "verb": "tempers",
+   "to": "complexity-behind-the-interface",
+   "why": "Hidden complexity is free only while a real interface absorbs it; complexity-matching-fallacy shows that when the \"interface\" is a rulebook people must interact with directly, matching complexity collapses compliance.",
+   "source": "woven"
+  },
+  {
+   "from": "complexity-behind-the-interface",
+   "verb": "parallels",
+   "to": "knowledge-in-the-world",
+   "why": "Both relocate burden outside the user's head — knowledge-in-the-world puts needed information in the environment instead of memory, complexity-behind-the-interface puts the system's real complexity behind a front end, so the mind's load stays small.",
+   "source": "woven"
+  },
+  {
+   "from": "worthwhile-vs-instrumental-goal",
+   "verb": "instantiates",
+   "to": "why-because-regress",
+   "why": "Why-because-regress says a justification chain must end in something valued for its own sake or run forever; worthwhile-vs-instrumental-goal shows the organizational case — instrumental goals justified by further ends produce only fragile compliance.",
+   "source": "woven"
+  },
+  {
+   "from": "self-perpetuating-problem",
+   "verb": "instantiates",
+   "to": "system-archetypes",
+   "why": "An institution whose members benefit from a problem's continued existence is a concrete case of a reinforcing-loop archetype — the structure meant to close a gap instead feeds back into sustaining it, delayed and hidden by its own design.",
+   "source": "woven"
+  },
+  {
+   "from": "mind-your-meaning",
+   "verb": "parallels",
+   "to": "categories-of-legitimate-reservation",
+   "why": "Both attack ambiguity in a stated claim directly — mind-your-meaning stress-tests a problem statement's words through negation and substitution, and the reservation checklist's clarity category does the same to a cause-effect arrow.",
+   "source": "woven"
+  },
+  {
+   "from": "law-of-the-jiggle",
+   "verb": "parallels",
+   "to": "complexity-matching-fallacy",
+   "why": "Both show scaling an intervention to match a problem's apparent size backfires — a resistant system can only absorb a small, well-placed nudge, and a complex problem met with an equally complicated solution overwhelms compliance instead of earning it.",
+   "source": "woven"
+  },
+  {
    "from": "polanyis-paradox",
    "verb": "parallels",
    "to": "story-as-conversation",

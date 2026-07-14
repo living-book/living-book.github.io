@@ -68,4 +68,4 @@ After extraction: +30 BOOKS entries in scripts/build_atlas.py, regen CATALOG, we
 - [ ] C tao-of-charlie-munger ✓6, the-ultimate-question ✓7, strategy-beyond-the-hockey-stick ✓6, coaching-agile-teams ✓7, specification-by-example (Adzic, Agile/Lean), personal-kanban (Benson&Barry, Agile/Scrum&Kanban)
 - [ ] D value-stream-mapping ✓7, learning-agile (Stellman&Greene, Agile/Scrum&Kanban), leadership-challenge ✓7, simple-habits-for-complex-times ✓6, secret-language-of-leadership ✓8, gamestorming ✓7
 - [ ] E clean-language ✓7, pragmatic-thinking-and-learning ✓7, when-perfect-timing ✓7, decision-quality ✓8, daring-greatly ✓6, the-antidote (Oliver Burkeman, Psych/Mindfulness)
-t3 weave: systems-decisions ✓23, people-psyche ✓27; product-strategy ✓25; running flow-practice. Then 2 verifiers, rebuild, PR #3.
+t3 weave: systems-decisions ✓23, people-psyche ✓27; all 4 ✓ (98); verify: flow 23→22, psyche 27→24; batch1 running. Then 2 verifiers, rebuild, PR #3.

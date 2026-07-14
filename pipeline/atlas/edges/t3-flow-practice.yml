@@ -18,14 +18,6 @@
 
 - from: existential-overhead
   verb: parallels
-  to: inner-work-life
-  why: >-
-    Both name a continuous, mostly hidden internal stream — unfinished-work
-    anxiety, or moment-to-moment emotion — that silently drives effectiveness
-    independent of, and often more than, the visible task itself.
-
-- from: existential-overhead
-  verb: parallels
   to: solitude-deprivation
   why: >-
     Both describe an invisible background cognitive load that compounds by
@@ -42,21 +34,23 @@
     so the same fixed instruction helps at one stage and cripples another.
 
 - from: mastery-stage-coaching-match
-  verb: parallels
+  verb: extends
   to: shuhari-learning-stages
   why: >-
-    Both apply the identical Shu-Ha-Ri progression to coaching, insisting the
-    coach diagnose which stage a practice is at before choosing how to
-    intervene, since a style fit for Shu actively harms a team at Ri.
+    Shuhari names the three stages and warns that rules must be matched to
+    stage, but stops at the diagnosis; mastery-stage-coaching-match adds the
+    missing operational piece — three named coach styles, Teaching, Coaching,
+    and Advising, mapped one-to-one onto Shu, Ha, and Ri.
 
 - from: kata
   verb: parallels
   to: dreyfus-model-skill-acquisition
   why: >-
-    Both reject explained content as sufficient for changing behavior: kata
-    locates the transmissible part in a practiced, content-neutral routine,
-    and Dreyfus shows a uniform rule imposed regardless of skill stage
-    actively degrades an expert's performance.
+    Both hold that verbally explained content cannot by itself produce
+    skilled behavior: kata locates the transmissible part in a practiced,
+    content-neutral routine rather than a stated principle, and Dreyfus
+    shows expert performance is intuitive and cannot be reduced to the
+    explicit rules that work for novices.
 
 - from: testing-as-sampling
   verb: parallels
@@ -76,14 +70,15 @@
     information from ever being weighed on its merits, whenever it
     threatens a self-image the person needs intact.
 
-- from: information-value-of-testing
-  verb: parallels
-  to: expected-value-of-information
+- from: expected-value-of-information
+  verb: formalizes
+  to: information-value-of-testing
   why: >-
-    Both reduce information's worth to one question: would it change a
-    decision? Testing that can't alter what anyone does is worthless, and
-    information's economic value equals only the expected opportunity-loss
-    its uncertainty reduction would avoid.
+    Information-value-of-testing states the principle qualitatively —
+    testing that can't change a decision is worthless regardless of rigor —
+    and expected value of information turns it into a measurable quantity,
+    EOL(before) minus EOL(after), that prices exactly how much a given
+    uncertainty reduction is worth before you spend anything gathering it.
 
 - from: living-documentation
   verb: instantiates
@@ -161,10 +156,12 @@
   verb: parallels
   to: set-based-development
   why: >-
-    Both defer commitment by engineering reversibility into the process
-    itself — backtracking to any past state during practice, or carrying
-    multiple design options forward — so real feedback, not upfront
-    reasoning, decides what to keep.
+    Both refuse to let a single answer get picked before enough is known,
+    using different tactics for the same refusal: a practice environment
+    engineers reversibility — freely backtracking and retrying — so
+    trial-and-error substitutes for getting it right the first time, while
+    set-based development keeps multiple design options alive in parallel
+    so real feedback, not upfront reasoning, narrows the field.
 
 - from: testing-as-sampling
   verb: tempers
@@ -188,10 +185,12 @@
   verb: parallels
   to: inner-game-awareness
   why: >-
-    Both name the same tension in developing someone else — drawing out
-    their own answer through awareness versus transferring your own
-    expertise directly — and effective development requires deliberately
-    choosing between the two, not defaulting to instruction.
+    Both split developing someone else into the same two poles — drawing
+    out the other person's own noticing versus directly transferring the
+    helper's expertise. Coach-mentor-duality treats both poles as legitimate
+    and names which one you're in; inner-game-awareness shows why the
+    drawing-out pole is so often undervalued, since verbal instruction
+    overloads the very channel awareness leaves free.
 
 - from: pragmatic-investment-plan
   verb: parallels

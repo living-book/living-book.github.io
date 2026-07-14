@@ -1,10 +1,12 @@
 - from: springboard-story
-  verb: tempers
+  verb: instantiates
   to: self-image-defense
   why: >-
-    Self-image-defense blocks direct argument as an attack on identity; the
-    springboard story routes around that trigger by inviting the listener to
-    reach the conclusion themselves, the one channel defense doesn't guard.
+    Self-image-defense's own prescription for effective influence is letting
+    people arrive at the conclusion themselves rather than attacking it head-on;
+    the springboard story is the concrete narrative technique that does exactly
+    this, withholding detail so the listener's own imagination reaches the
+    conclusion instead of being argued into it.
 
 - from: audience-story-primacy
   verb: parallels
@@ -102,14 +104,6 @@
     powerful-questions by holding no answer in mind, clean-language by using
     almost none of their own words — so the other person does the thinking.
 
-- from: asking-different-questions
-  verb: extends
-  to: powerful-questions
-  why: >-
-    Powerful-questions are asked of someone else to open their thinking;
-    asking-different-questions applies the identical lever reflexively — a
-    leader changes their own default question to open their own options.
-
 - from: the-righting-reflex
   verb: tempers
   to: coach-mentor-duality
@@ -134,29 +128,16 @@
     metaphor or mental model — silently determines what a person can
     perceive and do, and both treat surfacing it as the lever for change.
 
-- from: backwards-law
-  verb: parallels
-  to: via-negativa
-  why: >-
-    Both find the valued outcome reached better by not directly pursuing it
-    — backwards-law by turning toward the negative instead of chasing relief,
-    via-negativa by subtracting harm instead of adding intervention.
-
 - from: ironic-process-theory
   verb: parallels
   to: shadow-integration
   why: >-
-    Both describe the same trap — suppressing or denying an unwanted mental
-    content requires a monitoring process that keeps resurfacing exactly
-    that content, now distorted and harder to control than before.
-
-- from: negative-visualization
-  verb: parallels
-  to: start-with-the-end
-  why: >-
-    Both convert an unbounded dread of failure into something smaller and
-    workable by imagining it concretely in advance — a bounded, survivable
-    picture in one case, a set of falsifiable questions in the other.
+    Both describe the same trap — actively denying or pushing away unwanted
+    mental content doesn't erase it but guarantees its return in a more
+    distorted, harder-to-control form; ironic-process-theory locates this in
+    conscious suppression's own monitoring loop, shadow-integration in the
+    unconscious's accumulating pressure, but both conclude that the act of
+    denial is what manufactures the eventual, involuntary resurfacing.
 
 - from: goalodicy
   verb: parallels

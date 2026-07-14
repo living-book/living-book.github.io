@@ -8,27 +8,11 @@
 
 - from: current-reality-tree
   verb: parallels
-  to: evaporating-cloud
-  why: >-
-    Both are Goldratt thinking-process diagrams that resolve a stuck situation
-    by locating and invalidating a hidden assumption in a cause-effect arrow,
-    one across many symptoms, the other inside a single two-sided conflict.
-
-- from: current-reality-tree
-  verb: parallels
   to: system-archetypes
   why: >-
     Both diagram cause-and-effect links until a small structure explains a wide
     surface of symptoms, but current-reality-tree builds that structure bespoke
     per situation while system-archetypes offers a fixed library of recurring loops.
-
-- from: sophisticated-falsificationism
-  verb: tempers
-  to: categories-of-legitimate-reservation
-  why: >-
-    The checklist finds where a cause-effect claim's arrow is flawed, but
-    sophisticated-falsificationism limits that victory — naming a reservation
-    only refutes the claim once a rival explanation exists that predicts more.
 
 - from: categories-of-legitimate-reservation
   verb: formalizes
@@ -36,7 +20,8 @@
   why: >-
     Alternative-explanations urges weighing competing accounts before accepting
     the one offered; the reservation checklist turns that habit into a fixed,
-    checkable category — insufficient cause — inside a systematic diagnostic.
+    checkable test — Causality Existence, does the named cause actually produce
+    the effect, or could something else — inside a systematic diagnostic.
 
 - from: problem-formulation-shapes-solutions
   verb: extends
@@ -45,38 +30,6 @@
     Both treat a problem as a relationship between mental states rather than a
     fixed fact, but problem-formulation-shapes-solutions adds that changing the
     description, not just closing the perceived-desired gap, reveals new solutions.
-
-- from: perceived-desired-gap
-  verb: parallels
-  to: clarifying-the-decision
-  why: >-
-    Neither treats vague framing as license to act — a problem isn't real until
-    its desired and perceived states are pinned down, just as a decision isn't
-    real until its alternatives, stakes, and owner are named.
-
-- from: problem-displacement
-  verb: parallels
-  to: iatrogenics
-  why: >-
-    Both name a hidden cost of "solving" — displacement relocates a problem onto
-    someone unconsulted, iatrogenesis buries harm inside the helping act itself,
-    and in each case the cost stays invisible because helper and harmed never meet.
-
-- from: rudys-rutabaga-rule
-  verb: parallels
-  to: problem-displacement
-  why: >-
-    Neither admits that solving reduces total problem-having — rudy's rule shows
-    a solved problem is just replaced by whatever ranked second, while displacement
-    shows solving just relocates it to someone who never agreed to take it on.
-
-- from: decisions-vs-outcomes
-  verb: tempers
-  to: randomness-blindness
-  why: >-
-    Randomness-blindness makes people credit good outcomes to skill and blame bad
-    ones on luck; judging quality by the decision process at the time, never the
-    result, is precisely the discipline that catches this confusion instead of reinforcing it.
 
 - from: luck-skill-sample-size
   verb: formalizes
@@ -90,9 +43,11 @@
   verb: parallels
   to: social-side-of-strategy
   why: >-
-    Both show a persuasive pitch that survives tough questions is a social ritual
-    for winning approval, not an epistemic test of merit — the room felt scrutinized
-    while the decision's actual quality was never independently measured.
+    Both show organizational approval substituting for real verification —
+    advocacy-approval-myth shows a review board mistaking survival of
+    interrogation for proof of merit, and social-side-of-strategy shows a board
+    approving inflated plans because a full independent audit is infeasible and
+    career risk rewards a good story over an honest one.
 
 - from: advocacy-approval-myth
   verb: parallels
@@ -126,22 +81,6 @@
     needed information in the environment instead of memory, complexity-behind-the-interface
     puts the system's real complexity behind a front end, so the mind's load stays small.
 
-- from: believability-weighting
-  verb: tempers
-  to: cyclic-collective-preference
-  why: >-
-    Equally-weighted voting can produce a group preference that contradicts itself
-    even when every individual is consistent; believability-weighting limits this by
-    replacing one-vote-per-person tallying with track-record-weighted influence.
-
-- from: authority-override-in-emergencies
-  verb: tempers
-  to: circle-of-safety
-  why: >-
-    Circle-of-safety assumes trusted leadership frees people to detect and act on
-    real threats; authority-override-in-emergencies shows that same trust can misfire
-    — people abandon direct evidence of danger for an official's false reassurance.
-
 - from: worthwhile-vs-instrumental-goal
   verb: instantiates
   to: why-because-regress
@@ -165,14 +104,6 @@
     Both attack ambiguity in a stated claim directly — mind-your-meaning stress-tests
     a problem statement's words through negation and substitution, and the reservation
     checklist's clarity category does the same to a cause-effect arrow.
-
-- from: do-they-really-want-it-solved
-  verb: parallels
-  to: worthwhile-vs-instrumental-goal
-  why: >-
-    Both show a stated goal can mask what actually motivates behavior — a request may
-    hide a political need no technical fix satisfies, just as an instrumental goal masks
-    the absence of an intrinsically held one, producing only compliance.
 
 - from: law-of-the-jiggle
   verb: parallels
