@@ -1,6 +1,6 @@
 ---
 type: Concept
-title: Battle: Testing Rival Prototypes Instead of Merging Them
+title: "Battle: Testing Rival Prototypes Instead of Merging Them"
 description: When two good, incompatible solutions both win supervotes, build and brand both as separate fake products and let real customers decide between them, instead of forcing a single choice.
 book: sprint
 chapters: [11]

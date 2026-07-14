@@ -1,7 +1,7 @@
 ---
 type: Concept
 title: The Deflationary Account of Meaning
-description: "Life is meaningless" almost always smuggles in one narrow sense of meaning (externally sourced) and doesn't follow in the many other senses the word carries.
+description: "\"Life is meaningless\" almost always smuggles in one narrow sense of meaning (externally sourced) and doesn't follow in the many other senses the word carries."
 book: whats-it-all-about
 chapters: [1, 10]
 tags: [meaning, equivocation, nihilism, definition, philosophy-of-language]
