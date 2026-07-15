@@ -1,0 +1,201 @@
+- from: metrics-feedback-loop
+  verb: parallels
+  to: feedback-loops
+  why: >-
+    The collect-analyze-adjust-track cycle is a goal-seeking loop in the same
+    structural sense Senge names — an observed gap against a desired state driving
+    corrective action, which then changes future observations — though it is a
+    human team deliberately closing the loop at retrospective cadence, not an
+    automatic reinforcing/balancing dynamic in the system itself.
+
+- from: production-metrics-over-process-metrics
+  verb: parallels
+  to: actionable-vs-vanity-metrics
+  why: >-
+    Both warn that a metric which merely documents scale or ongoing activity —
+    deployment frequency, total downloads — can look healthy while revealing
+    nothing about whether real value was created, urging teams toward metrics
+    that expose whether an action actually changed a real outcome rather than
+    metrics that only track motion.
+
+- from: role-based-metrics-hierarchy
+  verb: parallels
+  to: four-meetings-rhythm
+  why: >-
+    Both match information granularity and cadence to organizational altitude —
+    teams need daily tactical detail, executives need infrequent strategic signal —
+    rejecting one-size-fits-all reporting or meetings as a structural error.
+
+- from: physical-kanban-board
+  verb: parallels
+  to: knowledge-in-the-world
+  why: >-
+    Both replace demand on individual memory with information embedded in the
+    shared physical environment, so correct behavior — pulling work, acting
+    correctly — requires no one to recall or reconstruct state from memory.
+
+- from: done-rules-enforcing-upstream-quality
+  verb: parallels
+  to: forcing-functions
+  why: >-
+    Both put a hard checkpoint before advancement, but where Norman's forcing
+    functions rely on a physical or mechanical constraint that makes an error
+    strictly impossible, the done rule's checkpoint is enforced by team
+    visibility and peer accountability — the same block-until-condition-met
+    architecture, with a social rather than physical guarantee.
+
+- from: explicit-policies
+  verb: parallels
+  to: behavioral-ground-rules
+  why: >-
+    Both convert abstract, implicit norms about how people should work together
+    into a small set of visible, specific, collectively-owned rules that make
+    coordination inspectable and changeable rather than assumed and unstated.
+
+- from: statik-system-design
+  verb: parallels
+  to: human-centered-design-process
+  why: >-
+    Both refuse to design a solution before diagnosing the actual current
+    situation — demand, capability, workflow, or users — running an
+    observe-then-design cycle instead of jumping straight to a board or a fix.
+
+- from: dmaic-roadmap
+  verb: parallels
+  to: five-step-process
+  why: >-
+    Both decompose a change effort into a fixed sequence of five phases —
+    Define/Measure/Analyze/Improve/Control, or goals/problems/diagnosis/design/
+    execution — insisting each phase be completed on its own terms, without
+    blending its thinking into the next, before the process advances toward
+    results.
+
+- from: kaizen-continuous-improvement
+  verb: parallels
+  to: marginal-gains-compounding
+  why: >-
+    Both reject waiting for a big, centralized push in favor of continuous small
+    improvement by whoever is closest to the problem: Kaizen distributes
+    improvement to any employee, resolved in days not quarters; Brailsford's
+    aggregation of marginal gains abandoned dramatic overhauls for many small 1%
+    daily improvements — each betting that continuous small effort by everyone
+    beats rare large leaps by a few.
+
+- from: muda-eight-wastes
+  verb: parallels
+  to: via-negativa
+  why: >-
+    Both treat systematic subtraction — naming and removing the non-value-adding
+    or fragile — as the primary lever for improvement, more reliable than adding
+    new interventions or capability.
+
+- from: pdsa-cycle
+  verb: parallels
+  to: safe-to-fail-experiments
+  why: >-
+    Both run small, deliberately bounded, reversible probes sized so failure
+    costs little, treating the loop of testing and studying results — not the
+    initial hypothesis — as the actual improvement engine.
+
+- from: standard-work
+  verb: parallels
+  to: good-checklist-design
+  why: >-
+    Both replace reliance on an individual's memory and judgment with an
+    externalized, precisely specified, tested procedure — steps, sequence,
+    timing — that anyone can follow to get a consistent result.
+
+- from: continuous-system-test
+  verb: parallels
+  to: fail-fast-safely
+  why: >-
+    Both deliberately front-load exposure to failure through repeated, cheap,
+    small trials throughout the process, instead of deferring discovery of
+    what's broken to one late, expensive integration moment.
+
+- from: lead-time-and-mttr
+  verb: formalizes
+  to: the-three-ways
+  why: >-
+    Lead Time and MTTR give the Three Ways' abstract flow-and-feedback
+    principles a concrete, trackable numeric form, converting "go faster,
+    learn faster" from philosophy into two measurable metrics teams can act on.
+
+- from: measurable-maintainability
+  verb: parallels
+  to: technical-debt-operability
+  why: >-
+    Both name the same failure mode — a system that looks done because it ships
+    features while quietly generating expensive downstream work — though
+    Measurable Maintainability operationalizes only the "ease of change" slice
+    of what Technical Debt and Operability means by operability, which also
+    spans security, scalability, and continuity: coverage, CLOC, and
+    regression-cycle-length are trackable proxies for how expensive undesigned
+    code is to touch, not for the full non-functional bundle Erik describes.
+
+- from: constraint-exploitation-operations
+  verb: instantiates
+  to: five-focusing-steps
+  why: >-
+    Finding IT operations' bottleneck and ruthlessly protecting it from
+    time-wasting work is a direct application of identify-exploit-subordinate,
+    the same constraint logic applied to a service organization instead of a factory.
+
+- from: black-box-limits
+  verb: tempers
+  to: y-equals-f-of-x
+  why: >-
+    No amount of Six Sigma data collection can certify that a "critical X's"
+    model is the complete or unique explanation of Y — observation is only ever
+    consistent with data, never proof of one true causal model.
+
+- from: rip-and-replace-rules
+  verb: tempers
+  to: evolutionary-process-improvement
+  why: >-
+    When conditions have changed fundamentally rather than incrementally,
+    blending old and new process rules gradually — evolutionary improvement's
+    core method — actively underperforms a fast, complete rule replacement.
+
+- from: layering-kanban-method-with-scrum
+  verb: parallels
+  to: hybrid-intelligent-systems
+  why: >-
+    Both combine two structurally different techniques in layers rather than
+    picking one dominant approach, because no single method — Scrum's cadence
+    or Kanban's flow control, a rule engine or a trained network — covers every gap alone.
+
+- from: psychological-barriers-to-agile-adoption
+  verb: parallels
+  to: resistance-blows-itself-out
+  why: >-
+    Both diagnose resistance to change as an emotional, identity-protective
+    reaction rather than a rational objection, prescribing respect for the
+    threatened role and incremental evidence over arguing or forcing it through.
+
+- from: scrumban-evolutionary-framework
+  verb: parallels
+  to: dreyfus-model-skill-acquisition
+  why: >-
+    Both insist a single practice must be delivered differently depending on the
+    practitioner's current mastery stage — Shu-Ha-Ri or novice-to-expert — since
+    guidance that helps a beginner actively constrains or bores someone further along.
+
+- from: service-orientation-lens
+  verb: parallels
+  to: jobs-to-be-done
+  why: >-
+    Both insist the correct unit of organizational analysis is the outside
+    party's need being served — a job to be done, a service consumed — not the
+    internal function or specialization that happens to produce it.
+
+- from: task-size-consistency-in-breakdown
+  verb: instantiates
+  to: batch-size-economics
+  why: >-
+    Breaking large work into similarly-sized 1-5-day tasks is a concrete case of
+    treating batch size as a controllable variable that governs cycle-time
+    predictability: consistent, small units are what make a completion rate
+    meaningful and let WIP limits be tuned to real capacity, the same
+    predictability payoff Reinertsen's batch-size economics derives from
+    shrinking and regularizing batch size.
