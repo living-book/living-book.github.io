@@ -1,0 +1,324 @@
+- from: do-they-really-want-it-solved
+  verb: parallels
+  to: how-the-problem-is-managed
+  why: >-
+    Both insist the stated request is not the real object of inquiry: the technical
+    ask hides a political/emotional motive that a correct answer will collide with,
+    while the presenting problem hides how it's being managed (defensively, evasively)
+    — in each, the second, unstated layer is the more decisive diagnostic target.
+
+- from: semantic-level-of-a-problem
+  verb: parallels
+  to: theory-laden-perception
+  why: >-
+    Both claim there is no neutral reading of an ambiguous stimulus: a solver
+    unconsciously lands on whatever semantic level matches their existing competence,
+    just as a trained observer's governing framework supplies the categories of what
+    is perceived — the interpretation is not chosen, it is supplied by prior training.
+
+- from: insurance-float
+  verb: parallels
+  to: asset-debt
+  why: >-
+    Both discard the accounting label on a balance-sheet item in favor of its real
+    cash-flow behavior over time: float turns a liability (unpaid claims) into
+    investable capital because of the delay before payout, while asset debt turns
+    an asset into a liability because of the ongoing cost to keep it competitive.
+
+- from: owner-earnings
+  verb: parallels
+  to: proxy-metrics-trap
+  why: >-
+    Both name the same failure of a reported number: GAAP earnings and activity-based
+    transformation metrics can both show clean "success" while the causal link to real
+    economic capacity or business outcome has quietly broken, so the reported figure
+    must be interrogated against what it was supposed to track, not accepted at face value.
+
+- from: wonderful-business-fair-price
+  verb: parallels
+  to: marginal-gains-compounding
+  why: >-
+    Both treat time as a multiplier whose sign, not magnitude, decides the outcome:
+    Buffett argues a wonderful business compounds in value the longer it's held while
+    a mediocre one's bargain price erodes, the same directional logic Clear applies to
+    habits, where a small positive daily rate compounds toward outsized gain and a
+    negative one toward collapse.
+
+- from: communities-of-practice
+  verb: parallels
+  to: exemplar
+  why: >-
+    Kuhn's exemplar names the specific mechanism — shared concrete problem-solutions,
+    not stated rules, train a scientific community's judgment; communities of practice
+    independently lands on the same practice-not-rules learning mechanism in any
+    domain (guilds, engineers, hobbyists), adding the organizational task of
+    deliberately cultivating it.
+
+- from: pragmatic-investment-plan
+  verb: tempers
+  to: knowledge-half-life-paradox
+  why: >-
+    The paradox claims no individual, however specialized, can resolve shrinking
+    knowledge half-life alone — only collective community structures can. The
+    pragmatic investment plan names the condition where that's false: a deliberately
+    diversified, actively reviewed personal knowledge portfolio is an individual-level
+    countermeasure to exactly this obsolescence.
+
+- from: big-hire-little-hire
+  verb: parallels
+  to: actionable-vs-vanity-metrics
+  why: >-
+    Both separate a clean, easy-to-collect snapshot signal from the harder signal that
+    actually proves ongoing value: the Big Hire (like a vanity metric) documents a
+    single transaction, while the Little Hire (like an actionable metric) is the
+    repeated, causally-tied behavior that alone confirms the job is really being done.
+
+- from: fallacies-of-innovation-data
+  verb: parallels
+  to: seeking-disconfirmation
+  why: >-
+    The Fallacy of Conforming Data names the same organizational default that seeking
+    disconfirmation fights: managers unconsciously favor data that confirms the
+    existing model over data that would challenge it, so surfacing the job a company
+    is drifting from requires the same deliberate hunt for disconfirming evidence.
+
+- from: purpose-brand
+  verb: parallels
+  to: dwysywd-credibility
+  why: >-
+    Both show trust as an earned behavioral pattern, not a messaging claim: a purpose
+    brand forms only after repeatedly delivering the job, just as leadership credibility
+    is built by doing what you say you will do — and once earned, both function as a
+    decision rule others (customers, followers) apply without re-evaluating.
+
+- from: engagement-over-installation
+  verb: parallels
+  to: self-determination
+  why: >-
+    Both locate the actual mechanism of change in ownership of the how, not the plan: Block says implementation "does not begin until" people choose to make it real, and lean software's NUMMI case shows workers who design their own procedures outperform those executing a handed-down one — and that copying only the documented procedure, without the underlying participation, fails.
+
+- from: positive-deviance
+  verb: parallels
+  to: exemplar
+  why: >-
+    Positive deviance finds people who already solved the problem and spreads the solution by observation and practice, not instruction — the Sternins found teaching and telling don't convert into doing. Kuhn's exemplars claim a community's judgment is trained the same way, by worked concrete cases, not stated rules.
+
+- from: forced-collision-architecture
+  verb: parallels
+  to: environment-design
+  why: >-
+    Bell Labs made cross-disciplinary contact statistically unavoidable by engineering corridor length and lab/office placement rather than mandating collaboration; environment-design shows behavior change works the same way — arranging physical space to make the desired outcome the default, more reliable than willpower or goodwill.
+
+- from: institute-of-creative-technology
+  verb: parallels
+  to: innovation-proficiency
+  why: >-
+    Both insist repeatable innovation requires a dedicated organizational pipeline, not an episodic side effort — Kelly's research-to-systems-engineering-to-development structure backed by patient AT&T capital and talent density, McGrath's continuous governed process with protected budget and career paths.
+
+- from: measurement-as-uncertainty-reduction
+  verb: extends
+  to: noisy-channel-capacity
+  why: >-
+    Hubbard explicitly borrows Shannon's definition of information as uncertainty removed by an observation, then extends it past communication channels to any decision-relevant quantity — a yes/no answer or probability estimate counts as a "measurement" the same way a bit counts as information, provided it narrows uncertainty.
+
+- from: regulatory-forced-diffusion
+  verb: tempers
+  to: economic-moat
+  why: >-
+    Buffett's moat theory assumes assaults on a high-return business come from market competitors a structural barrier can repel; Bell Labs shows a moat can instead be dissolved by antitrust regulation itself, compelling the monopoly to license its breakthrough industry-wide regardless of how enduring the underlying structural advantage was.
+
+- from: theorist-experimentalist-loop
+  verb: parallels
+  to: the-current
+  why: >-
+    Both name the same discovery mechanism — speculate, then verify against observation, feed the result into the next speculation — but idea-factory splits the two poles across paired specialists (theorist/experimentalist) cycling fast, where Greene's Current runs the identical oscillation inside one mind over years.
+
+- from: product-vision-and-strategy
+  verb: parallels
+  to: single-threaded-big-bet
+  why: >-
+    Cagan's product strategy discipline is committing to one target market at a time rather than serving everyone simultaneously; Moore's single-threaded bet names the same mechanism at the portfolio level — scarce execution capacity divided across concurrent efforts guarantees none reaches scale, so sequential focus beats parallel hedging.
+
+- from: opportunity-scoring
+  verb: parallels
+  to: wsjf-sequencing
+  why: >-
+    Both replace a prioritization debate with a formula combining two independent measured factors into one comparable score and ranking by it — importance minus satisfaction for opportunity-scoring, cost of delay divided by duration for WSJF — turning "which first" from opinion into arithmetic.
+
+- from: pyramid-based-pivot-diagnosis
+  verb: parallels
+  to: mapping-altitude
+  why: >-
+    Both insist a stalled effort must be diagnosed at the correct structural level before acting — trace failure down to the lowest untested pyramid layer rather than polishing UX, or analyze the macro value stream before micro process fixes — because fixing the wrong altitude can't repair a problem seated deeper.
+
+- from: continuous-performance-management
+  verb: parallels
+  to: operations-review
+  why: >-
+    Both insist a quantitative tracking system is inert without a recurring structured conversation built around it — CFRs pair OKRs with ongoing check-ins so a stalled effort surfaces while there's time to act, and operations review pairs kanban metrics with a public recurring forum for the same reason.
+
+- from: self-sealing-traps
+  verb: instantiates
+  to: system-archetypes
+  why: >-
+    Self-sealing traps run Senge's "shifting the burden" archetype exactly: denying
+    responsibility is the symptomatic fix that relieves discomfort now but crowds out
+    the fundamental fix (naming and correcting the actual behavior), and each layer of
+    denial-about-denial deepens dependency on the symptomatic patch instead of resolving it.
+
+- from: anchoring-change-in-culture
+  verb: parallels
+  to: identity-based-habits
+  why: >-
+    Both locate durability in identity, not repetition: Clear's habits stick once they
+    reflect "who you believe you are," and Kotter's change survives only once it is
+    rebuilt into selection criteria, status, curriculum, and shared story — i.e. into
+    what the group believes itself to be, not merely what it keeps doing.
+
+- from: sense-of-urgency
+  verb: instantiates
+  to: availability-heuristic
+  why: >-
+    The bottle demonstration is a deliberate application of Kahneman's mechanism —
+    statistics are abstract and unavailable in memory, so Fred manufactures one vivid,
+    physically witnessed instance specifically to make the risk maximally easy to recall,
+    which is exactly why it moves the council when the data dump did not.
+
+- from: short-term-wins
+  verb: parallels
+  to: small-wins
+  why: >-
+    Both claim a modest, concrete, visible victory generates momentum disproportionate
+    to its size by proving bigger change is possible: Kotter's staged, celebrated
+    Heroes' Day event reverses the colony's eroding morale the same way Duhigg's small
+    wins recalibrate what a group believes is achievable and cascade into further wins.
+
+- from: self-set-compensation
+  verb: parallels
+  to: peer-based-accountability
+  why: >-
+    Both substitute a hierarchical control function with peer accountability on the bet
+    that colleagues have better local information and will use it responsibly — Lencioni's
+    teams enforce standards laterally instead of through a boss, and Morning Star's
+    colleagues price their own raises against peer-reviewed feedback instead of a manager's ruling.
+
+- from: embrace-constraints
+  verb: parallels
+  to: desirable-difficulties
+  why: >-
+    Both claim the friction itself, not despite it, is what produces the stronger result —
+    37signals' scarcity forces creative solutions abundance would have skipped, the same
+    way Bjork's spacing and retrieval friction produces durable learning that the easier,
+    frictionless review path never would have consolidated.
+
+- from: illusions-of-agreement
+  verb: parallels
+  to: key-examples
+  why: >-
+    Both diagnose the same failure of abstraction: a shared document or requirement
+    statement lets a room privately imagine different things, and only forcing the claim
+    down to something concrete — a cardboard mock-up, a specific worked example — surfaces
+    the disagreement or ambiguity the abstract version was hiding.
+
+- from: kick-ass-half
+  verb: parallels
+  to: law-of-raspberry-jam
+  why: >-
+    Both name the same conservation trade-off — fixed effort spread across more surface
+    area gets thinner per unit — and draw the same conclusion: 37signals cuts whole
+    features rather than diluting quality across all of them, deliberately trading reach
+    for depth exactly as Weinberg's law predicts you must.
+
+- from: out-teach-your-competition
+  verb: instantiates
+  to: resources-processes-values
+  why: >-
+    Rework's claim that big companies "structurally cannot" teach openly because
+    everything gets "filtered through a lawyer" is a concrete case of Christensen's
+    RPV mechanism: the values that make an incumbent capable of protecting brand and
+    liability are the exact values that make it incapable of transparent teaching.
+
+- from: scratch-your-own-itch
+  verb: contradicts
+  to: customer-development-interviews
+  why: >-
+    Rework treats being your own user as sufficient first-hand validation that
+    replaces outside research; Running Lean explicitly names and rebuts "I am my
+    own customer so I don't need to talk to anyone else" as a founder excuse,
+    insisting interviews are required even when you are the target user.
+
+- from: rule-of-three
+  verb: parallels
+  to: five-options-technique
+  why: >-
+    Both impose a hard minimum-count quota — three risks, five solutions — because
+    the first one or two answers a mind produces are the easy, obvious ones; hitting
+    the quota is what forces search past that premature stopping point into
+    territory that was never actually searched.
+
+- from: concrete-sketches-over-pitches
+  verb: parallels
+  to: advocacy-approval-myth
+  why: >-
+    Both diagnose that judging a spoken pitch (or an advocate defending one)
+    measures persuasiveness and confidence, not the merit of the idea itself; each
+    book's fix is structural — force multiple independently-generated, concrete
+    alternatives into direct comparison instead of evaluating one polished sales
+    pitch.
+
+- from: strategic-arenas
+  verb: tempers
+  to: industries-as-escalators
+  why: >-
+    Industries as Escalators treats industry/geography choice as the dominant,
+    quantifiable lever of competitive position; Arenas, Not Industries names the
+    condition under which that industry-level map fails — a competitor sharing no
+    industry classification but the same customer job is invisible to it until too
+    late.
+
+- from: closed-loop-feedback
+  verb: parallels
+  to: andon
+  why: >-
+    Both convert a signal into value only through immediate, source-level action —
+    closing the loop routes a customer's score to the specific person who caused it
+    within a day, while andon makes trouble visible the instant it appears so the
+    line stops at that station — because a delayed aggregate report arrives too late
+    for the responsible person to still remember or fix it.
+
+- from: cross-functional-incentive-alignment
+  verb: instantiates
+  to: incentive-caused-bias
+  why: >-
+    The bank's fraud-control team's own analysis showed their policy was profitable,
+    so they genuinely believed they were right, not being obstinate — a concrete
+    case of Munger's claim that a compensation structure distorts judgment itself,
+    fixed only by redesigning what people are paid on, not by arguing harder.
+
+- from: dual-imperatives-of-loyalty
+  verb: parallels
+  to: smart-vs-healthy
+  why: >-
+    Both name two independent, simultaneously-necessary supports for an initiative —
+    a rigorous quantifiable pillar (CFO economics / "smart" strategy-finance) and a
+    soft human pillar (inspiring mission / organizational "health") — and both
+    diagnose the same failure: leaders over-invest in the measurable half and let
+    the effort collapse from starving the other.
+
+- from: net-promoter-score
+  verb: instantiates
+  to: actionable-vs-vanity-metrics
+  why: >-
+    NPS was chosen over satisfaction indices and retention rate specifically because
+    "increase promoters, reduce detractors" gives frontline employees a directive
+    they can act on this week, while a satisfaction index only documents current
+    sentiment without prescribing what to do next.
+
+- from: relative-nps-benchmarking
+  verb: parallels
+  to: relative-improvement-contract
+  why: >-
+    Both reject an absolute, universally-fixed number as meaningful on its own —
+    Philips's NPS only predicts share gain compared against named local competitors
+    facing the same cultural scoring baseline, just as Handelsbanken's targets are
+    only ever judged against peers' results under the same unpredictable conditions.
