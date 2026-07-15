@@ -1,5 +1,54 @@
 # Concept catalog — all owned slugs, grouped by book
 
+## Scaling Agile Through Adaptive Governance (adaptive-governance) — Agile & Software Delivery
+- `adaptive-governance` — Adaptive Governance: Collaborative, flexible, learning-based management of programs and portfolios that empowers teams through principles and boundaries rather than controlling through detailed plans.
+- `portfolio-prioritization-by-value` — Portfolio Prioritization by Business Value: Using Little's Law and business metrics to rightsize project portfolio, limit work-in-process, and re-prioritize regularly by value for optimal flow.
+- `stable-teams` — Stable Teams: Dedicating core teams to single projects reduces context-switching costs and task-switching overhead compared to fragmenting resources across multiple concurrent projects.
+
+## The Agile Leadership Kata (agile-leadership-kata) — Agile & Software Delivery
+- `deliberate-practice-for-leadership` — Deliberate Practice for Leadership: Designing repeatable, mentally demanding practice with continuous feedback to systematically improve leadership capability, not assuming leadership ability is innate.
+- `gemba-direct-observation` — Gemba and Direct Observation: Leaders strengthen judgment by directly observing where work happens, valuing firsthand experience over filtered reports as the foundation for informed decision-making.
+- `leadership-kata` — Leadership Kata: Using kata—choreographed practice patterns—as a discipline for developing leadership skills across four domains: problem-solving, process management, envisioning, and coaching.
+
+## Agile and Lean Program Management (agile-lean-program-management) — Agile & Software Delivery
+- `autonomous-feature-teams` — Autonomous Feature Teams: Organizing Around Customer Value, Not Components: Structuring teams around complete, customer-facing features so each team can deliver end-to-end without depending on other teams for completion, using Conway's Law intentionally.
+- `feature-based-program-metrics` — Feature-Based Program Metrics: Measuring Progress by Completeness, Not Team Capacity: Measuring program progress by counting completed, releasable features rather than by team-level metrics like velocity or utilization, providing a true picture of value delivery.
+- `internal-release-cadence` — Internal Release Cadence: Monthly Feedback Loops Before Customer Release: Delivering a working product to the internal organization at least monthly for feedback and learning, distinct from external releases that are business-timed decisions.
+- `program-charter` — The Program Charter: Vision and Strategy for Organizational Alignment: A collaboratively created document that defines a program's strategic vision, release criteria, and what done means, aligning the core team before execution begins.
+- `program-core-team` — The Program Core Team: Cross-Functional Coordination at Scale: The cross-functional business leadership team responsible for solving problems no single team can solve and coordinating effort across the entire organization.
+- `rolling-wave-planning` — Rolling-Wave Planning: Continuous Roadmap Updates Instead of Big Upfront Planning: Updating the product roadmap and backlog in regular cycles throughout the program rather than planning the entire effort at the beginning, keeping near-term details precise and far-term vision directional.
+- `small-world-networks` — Small-World Networks: Decentralized Information Flow Across Program Teams: Organizing program communication through viral, decentralized networks of connected teams rather than hierarchical structures, enabling information to spread and problems to be solved without formal coordination meetings.
+
+## Agile Metrics in Action (agile-metrics-in-action) — Agile & Software Delivery
+- `data-driven-definition-of-good` — Data-Driven Definition of Good: Using historical patterns in team data to establish objective baselines for "good" performance, rather than relying on opinions or external benchmarks.
+- `lead-time-and-mttr` — Lead Time and MTTR as Core Quality Metrics: Two complementary metrics measuring how fast new features and production fixes reach customers; together they reveal code maintainability and system stability.
+- `measurable-maintainability` — Measurable Maintainability: Code quality operationalized through concrete metrics—code coverage, changed lines per fix, regression cycle length—that reveal how easy or hard code is to change.
+- `metrics-feedback-loop` — Metrics Feedback Loop: A continuous cycle of collecting team data, analyzing it for trends, making adjustments, and tracking results to improve team performance.
+- `production-metrics-over-process-metrics` — Production Metrics Over Process Metrics: The true measure of team success is not how much code is written or how many tasks are completed, but what customers actually do with the software in production.
+- `recidivism-rate` — Recidivism Rate: The percentage of workflow steps where a task moves backward (reopened, sent back for rework), revealing process friction and hidden rework.
+- `role-based-metrics-hierarchy` — Role-Based Metrics Hierarchy: Different organizational roles need different data granularity and time horizons: teams track daily tactical metrics, managers track weekly trends, executives track strategic outcomes.
+- `unified-sdlc-data-collection` — Unified Software Development Lifecycle Data Collection: Aggregating data from separate systems (project tracking, source control, CI/CD, production monitoring) into a single view to answer complex organizational questions.
+
+## Agile Project Management with Kanban (agile-pm-with-kanban) — Agile & Software Delivery
+- `done-rules-enforcing-upstream-quality` — Done Rules: Enforcing Quality Upstream: Step-specific done rules that define completion criteria and prevent incomplete work from advancing, driving quality checks into earlier stages.
+- `just-in-time-task-assignment` — Just-in-Time Task Assignment: Assigning work items to team members at the moment they become ready to pull them, rather than assigning them in advance, to avoid blocking and adapt to changing conditions.
+- `staged-release-audiences` — Staged Release Audiences: Releasing completed work through multiple tiers—internal team, early adopters, preview audience, public—to gather feedback and catch issues at increasing scale before full release.
+- `sustained-engineering-kanban` — Sustained Engineering with Kanban: Applying Kanban to post-release bug fixing and maintenance using separate swim lanes for escalations and bugs, with triage, quick-solve meetings, and clear support tier definitions.
+- `task-completion-rate-forecasting` — Task Completion Rate Forecasting: Using measured task completion rate, task add rate, and current task estimate to forecast project completion dates via Little's Law, updating estimates as conditions change.
+- `task-size-consistency-in-breakdown` — Task Size Consistency in Breakdown: Breaking down large work items into similarly-sized small tasks (ideally 1-5 days each) so that cycle time becomes predictable and WIP limits can be tuned to actual capacity.
+- `track-column-for-blocked-items` — Track Column for Blocked Items: A special column within a workflow step that holds items waiting on external dependencies or approvals, visible to the team but not counting toward WIP limits, enabling continuous progress on other work.
+- `wip-calculation-by-throughput-ratio` — WIP Calculation by Throughput Ratio: A formula-based method for setting initial WIP limits by measuring how many items each step completes per unit time, then balancing limits so all steps match the slowest step's throughput.
+
+## Agile Project Management with Scrum (agile-pm-with-scrum) — Agile & Software Delivery
+- `collective-commitment` — Collective Commitment: A team makes one shared commitment to deliver selected work within a sprint, not individuals committing to isolated tasks.
+- `complexity-dimensions` — Software Complexity Dimensions: Software projects fail because of three interacting sources of complexity: requirements are ambiguous and changing, technology is unreliable, and people are variable.
+- `empirical-process-control` — Empirical Process Control: Managing complex work by making process aspects visible, inspecting frequently, and adapting quickly when outcomes diverge from acceptable ranges.
+- `pigs-and-chickens` — Pigs and Chickens: A distinction between those committed to the project outcome (pigs) who have authority, and those merely interested (chickens) who have influence but no control.
+- `potentially-shippable-increment` — Potentially Shippable Product Increment: Each sprint must produce complete, tested, integrated, documented code that could be released to production immediately—a strict definition of 'done'.
+- `self-organizing-teams` — Self-Organizing Teams: Teams that figure out how to accomplish their sprint goal without top-down task assignment, using collective decision-making and adaptation.
+- `servant-leader-scrummaster` — Servant-Leader ScrumMaster: A coach and impediment-remover accountable for the team's success, not a traditional manager directing work or assigning tasks.
+- `sprint-timebox` — Sprint Time-Box: A fixed 30-day iteration that forces focus, makes planning empirical, and creates a predictable rhythm of delivery and feedback.
+
 ## Agile Product Management with Scrum (agile-product-management-scrum) — Agile & Software Delivery
 - `deep-product-backlog` — The DEEP Product Backlog: A living backlog stays usable only if it is Detailed appropriately, Estimated, Emergent, and Prioritized, with detail concentrated at the top.
 - `kano-model` — The Kano Model: Product attributes split into basics, performance factors, and delighters with different satisfaction curves — and delighters decay into basics over time.
@@ -9,6 +58,35 @@
 - `product-owner-role` — The Product Owner Role: One accountable person unifies customer, product-manager, and project-manager authority inside the delivery team, replacing handoffs with continuous ownership.
 - `right-thing-right-way` — Doing the Right Thing the Right Way: Product success requires two independent kinds of correctness — the right product and the right process — and each fails differently when missing.
 
+## Agility Across Time and Space (agility-across-time-and-space) — Agile & Software Delivery
+- `architecture-centric-coordination` — Architecture-Centric Coordination: A strategy for reducing inter-team dependencies in distributed projects by designing software architecture first, then aligning team boundaries and task division to that architecture, enabling independent parallel work.
+- `cultural-assimilation-via-mentoring` — Cultural Assimilation Via Mentoring: A strategy for adopting agile practices in offshore organizations where experienced mentors from headquarters embed themselves in remote sites to model agile behaviors, not just teach practices, creating shared cultural foundation for distributed teams.
+- `distributed-agility-dimensions` — Distributed Agility Dimensions: A taxonomy of eight interrelated agility sub-types required for distributed software teams to succeed, ranked by criticality: people-based, communication-based, methodology, temporal, technology, work-transition, environmental, and cultural.
+- `distributed-feature-teams` — Distributed Feature Teams: Cross-functional teams organized around user-facing features or capabilities—rather than technical layers or components—and intentionally dispersed across locations while maintaining end-to-end ownership of their features.
+- `management-by-timeshifting-around` — Management By Timeshifting Around: A distributed management approach where leaders intentionally adjust work hours to overlap with geographically dispersed teams across time zones, using designated liaisons to bridge asynchronous gaps.
+- `promiscuous-pair-story-authoring` — Promiscuous Pair Story Authoring: A technique for collaborative story estimation in distributed teams where story-writing pairs rotate across sites and skill levels, combining on-site pairing sessions with alternating off-site activities to create shared understanding of work items.
+- `task-driven-knowledge-transfer` — Task-Driven Knowledge Transfer: A structured approach to knowledge transfer in distributed teams where learning occurs through hands-on task participation rather than classroom instruction, using question-driven scheduling and meticulous task sign-off to embed competence.
+- `temporal-distance-collaboration` — Temporal Distance Collaboration: The capability of distributed teams to work effectively despite asynchronous time zones by establishing shared work practices, appointing temporal coordinators, and designing work that tolerates async handoffs without sacrificing agile responsiveness.
+
+## The Agility Mindset (agility-mindset) — Agile & Software Delivery
+- `agile-career-paths` — Agile Career Paths: Non-Linear Development Scaffolding: Structured but flexible career models that accommodate changing life circumstances while preserving advancement opportunities to senior levels.
+- `agile-workforce-value-drivers` — Six Value Drivers of Agile Workforces: Demand Matching, Productivity, Quality, Talent, Cost, Innovation: A framework quantifying the business benefits of agile working across six distinct mechanisms of value creation.
+- `agility-not-flexibility` — Agility, Not Flexibility: Strategic Business Capability vs. Employee Benefit: Reframing workforce flexibility from a one-way employee benefit into a mutual business capability that competes in volatile markets.
+- `cultural-barriers-to-agility` — Cultural Barriers to Agility: Risk Aversion, Presenteeism, Self-Limiting Beliefs: Organizational mindsets and deeply-held assumptions that block agile working, even when the business case is clear.
+- `demand-driven-workforce-matching` — Demand-Driven Workforce Matching: Aligning Labor Supply to Customer Rhythms: Scheduling and staffing work based on actual customer demand patterns rather than fixed, uniform working hours.
+- `four-dimensions-workforce-agility` — Four Dimensions of Workforce Agility: Time, Location, Role, Source: A framework decomposing workforce agility into four orthogonal design dimensions that create flexibility in different ways.
+- `sweet-spot-mutual-benefit` — The Sweet Spot: Overlapping Value for Employer and Employee: Agile working arrangements designed to simultaneously benefit both the organization and employees, rather than zero-sum tradeoffs.
+- `trust-psychological-contract` — The Psychological Contract: Trust as Foundation for Agile Relationships: The implicit agreements and mutual trust between employer and employee that enable agile working to function, distinct from formal contracts.
+
+## BDD in Action (bdd-in-action) — Agile & Software Delivery
+- `deliberate-discovery` — Deliberate Discovery: Proactively uncovering unknowns through concrete examples and conversations rather than planning around them or discovering them in production.
+- `executable-specifications` — Executable Specifications: Automated tests expressed in business language that serve as both acceptance criteria and living documentation.
+- `feature-injection` — Feature Injection: A technique for identifying and prioritizing features by first discovering business value, then injecting features that can deliver it.
+- `given-when-then` — Given-When-Then: Scenario Structure: A standard template for expressing examples and acceptance criteria using three clauses that describe precondition, action, and expected outcome.
+- `impact-mapping` — Impact Mapping: A visual mind-map connecting business goals to actors, impacts they need, and features that deliver those impacts.
+- `knowledge-constraint` — The Knowledge Constraint: Uncertainty as Fundamental: The recognition that incomplete understanding of requirements is not a planning failure but an inherent constraint every software project must manage.
+- `outside-in-development` — Outside-In Development: An implementation approach starting from acceptance criteria and working inward, writing acceptance tests before unit tests, and unit tests before code.
+
 ## Beyond Budgeting (beyond-budgeting) — Agile & Software Delivery
 - `decoupling-goals-from-rewards` — Decoupling Goals from Rewards: Letting a team set its own maximal aspirational target, then deliberately not measuring their bonus against it, to get ambition without gaming.
 - `fixed-performance-contract` — The Fixed Performance Contract: A negotiated bundle of fixed target, incentive, plan, and resource allocation that seduces executives with a sense of control while breeding gaming and dysfunction.
@@ -16,6 +94,15 @@
 - `management-model-coherence` — Management Model Coherence: A management model's practices form one interlocking, matched set — replacing a single piece while leaving the rest intact reintroduces the very failure it was meant to fix.
 - `one-truth-information` — One Truth, Open to Everyone: Giving every level of an organization the same real information at the same time, on the theory that restricting or filtering it only enables bad decisions and gaming.
 - `relative-improvement-contract` — The Relative Improvement Contract: Evaluating and rewarding teams after the fact against peers, competitors, and prior performance, instead of against a number fixed and agreed in advance.
+
+## Building the Agile Enterprise (building-the-agile-enterprise) — Agile & Software Delivery
+- `business-collaboration-modeling` — Business Collaboration Modeling: A modeling discipline that represents the full network of formal and informal collaborations through which enterprises actually work, expanding beyond prescribed business processes.
+- `capability-based-architecture` — Capability-Based Architecture: An enterprise design approach where distinct business capabilities are offered as shared services across organizational silos, enabling reuse, consistency, and economies of scale.
+- `enterprise-agility-threshold` — Enterprise Agility Threshold: The recognition that competitive agility is not a static goal but a constantly rising bar, as technological advances and competitor innovations shift what counts as responsive enough to compete.
+- `knowledge-worker-empowerment` — Knowledge Worker Empowerment: An organizational stance where workers whose activities rely on knowledge and expertise are empowered to take adaptive action rather than constrained by prescriptive processes designed for typical situations.
+- `sense-and-respond` — Sense and Respond: An organizational capability and cultural orientation where employees at all levels actively monitor for threats and opportunities in the ecosystem and business operations, with designated responders prepared to act.
+- `value-delivery-management` — Value Delivery Management: An integrated approach to enterprise design that combines capability-based architecture and business collaboration modeling with explicit creation, aggregation, and exchange of customer and stakeholder value.
+- `value-stream-configuration` — Value Stream Configuration: The ability to assemble and optimize different combinations of shared capabilities to serve distinct product-market combinations, recognizing that the same capability may contribute differently to different value propositions.
 
 ## Coaching Agile Teams (coaching-agile-teams) — Agile & Software Delivery
 - `coach-failure-modes` — Coach Failure Modes: Eight named, caricatured personas a well-intentioned coach falls into — the Hub, the Expert, the Nag and others — all traceable to unchecked ego or divided attention.
@@ -26,6 +113,25 @@
 - `mastery-stage-coaching-match` — Matching Coaching Style to the Team's Mastery Stage: A team moves through Shu-Ha-Ri stages of mastery — follow the rule, break the rule, be the rule — and the coach's style must shift from Teaching to Coaching to Advising in lockstep.
 - `powerful-questions` — Powerful Questions: Genuinely open questions asked without a correct answer in mind, which invite introspection and silence rather than an immediate response, unlike ordinary directive questions.
 
+## Collaboration at Scale (collaboration-at-scale) — Agile & Software Delivery
+- `definition-of-done-at-scale` — Definition of Done at Scale: A shared standard defining what "done" means, with policies and checklists, that ensures transparency across distributed teams and evolves with maturity.
+- `definition-of-ready` — Definition of Ready: An agreement on prerequisites work must satisfy before the team starts, ensuring requirements are clear, risks identified, and impediments resolved.
+- `shippable-quality-standards` — Shippable Quality Standards: A framework using severity and impact dimensions to prioritize production bugs into fix-immediately, negotiate-release, or backlog categories based on customer risk.
+
+## Disciplined Agile Delivery (disciplined-agile-delivery) — Agile & Software Delivery
+- `context-driven-agile-tailoring` — Context-Driven Agile Tailoring: Agile practices must be tailored to fit eight distinct scaling factors: team size, geographic distribution, regulatory compliance, domain complexity, technical complexity, organizational distribution, organizational complexity, and enterprise discipline.
+- `cross-functional-generalizing-specialists` — Cross-Functional Generalizing Specialists: Teams should consist of people with deep expertise in one or more disciplines but broad knowledge across disciplines, willing to collaborate and pick up skills from others.
+- `enterprise-aware-agility` — Enterprise-Aware Agility: Teams work within and deliberately leverage the organizational ecosystem: enterprise architecture, shared assets, governance, operations, and portfolio vision—not in isolation.
+- `full-lifecycle-delivery` — Full-Lifecycle Delivery: Agile must span from project inception through production transition, not just construction. Inception defines vision and architecture; transition handles deployment, training, and stakeholder handoff.
+- `hybrid-process-framework` — Hybrid Process Framework: Pragmatically combine practices from Scrum, XP, Agile Modeling, Unified Process, Agile Data, and Kanban rather than rigidly adhering to a single methodology.
+- `potentially-consumable-solution` — Potentially Consumable Solution: Every iteration delivers not just working software, but a solution ready for use: tested, documented, operationally prepared, addressing real user concerns.
+- `risk-value-driven-lifecycle` — Risk-Value Driven Lifecycle: Prioritize work not just by stakeholder value but by risk exposure, using explicit milestone gates to surface and kill doomed projects early, reducing wasted investment.
+
+## The Evidence-Based Management Guide (evidence-based-management-guide) — Agile & Software Delivery
+- `ebm-learning-loop` — EBM Learning Loop: Continuous Improvement Through Measurement and Experimentation: A five-step cycle (quantify, measure, select, experiment, evaluate) that translates value measurement into organizational improvement.
+- `four-key-value-areas` — Four Key Value Areas: Holistic Measurement of Organizational Capability: Four dimensions (Current Value, Time-to-Market, Ability to Innovate, Unrealized Value) that together measure both what a product delivers and the organization's ability to sustain delivery.
+- `leading-and-lagging-indicators` — Leading and Lagging Indicators: Different Types of Measurement for Different Decisions: Leading indicators detect changes rapidly, enabling fast response; lagging indicators show impact after delay. Mixing them causes decisions to trail reality.
+
 ## Fifty Quick Ideas to Improve Your User Stories (fifty-quick-ideas-user-stories) — Agile & Software Delivery
 - `behaviour-change-as-value` — Describe a Behaviour Change, Not a Feature: Define a story's value as a measurable change in what someone does differently afterward, not as the feature or capability being built.
 - `create-behaviour-funnel` — The CREATE Behaviour Funnel: Human action requires five sequential preconditions — cue, reaction, evaluation, ability, timing — and each is a separate place a story can target or a user can drop off.
@@ -34,6 +140,16 @@
 - `stories-as-survivable-experiments` — Stories as Survivable Experiments: Size a story by how much a business can safely lose if its underlying assumption turns out wrong, not by whether it fits in an iteration.
 - `story-best-before-date` — Put a Best-Before Date on Stories: Surface a work item's real deadline the moment it enters the backlog, so it can be scheduled at a sustainable pace instead of becoming a last-minute emergency.
 - `zone-of-control-sphere-of-influence` — Zone of Control and Sphere of Influence: Sort a request into what you can directly change, what you can only influence, and what lies outside both — and flag any story that doesn't fit the expected pattern.
+
+## Great Big Agile: An OS for Agile Leaders (great-big-agile) — Agile & Software Delivery
+- `agile-performance-holarchy` — Agile Performance Holarchy: An operating system for sustainable agility at scale, composed of six performance circles and eighteen holons that enable self-organization through values traceability.
+- `api-is-broken` — The API Is Broken: Rules of Men vs. Rules of Nature: The fundamental organizational mismatch where leaders adopt agile ceremonies while maintaining command-and-control culture, creating low-trust environments that prevent true self-organization.
+- `craftsmanship-before-innovation` — Craftsmanship as Foundation: Rigor Before Innovation: The principle that mastery of disciplined techniques, practices, and fundamentals must precede innovation and improvisation.
+- `high-trust-servant-leadership` — High-Trust Servant Leadership: Leadership that enables self-organization through visibility, impediment removal, and trust rather than control, with leaders as enablers of team capability.
+- `holons-self-reliant-units` — Holons: Self-Reliant Organizational Units: Self-organizing entities that function as autonomous wholes while serving as dependent parts in larger structures, enabling both independence and coordination.
+- `performance-progression-three-levels` — Performance Progression: Adopting, Transforming, Mastering: A three-level progression within each holon—Adopting (initial practices), Transforming (deepening and scaling), Mastering (optimization and culture)—that guides phased organizational improvement.
+- `six-performance-circles` — Six Performance Circles: Six interdependent behavioral domains—Leading, Providing, Envisioning, Crafting, Affirming, Teaming—that together enable large-scale agile adoption.
+- `values-traceability` — Values Traceability: The explicit mapping from organizational agile values through frameworks and ceremonies to observable team behaviors, enabling recognition and verification of genuine agility.
 
 ## Kanban (kanban) — Agile & Software Delivery
 - `cadence-decoupling` — Cadence Decoupling: Letting delivery, prioritization, and development each run on their own natural rhythm instead of forcing all activities into one shared iteration.
@@ -45,6 +161,42 @@
 - `transaction-and-coordination-costs` — Transaction and Coordination Costs: Reframing Lean "waste" as setup/cleanup costs and communication costs surrounding value-adding work, tested by asking "would we do more of this if it were valuable?"
 - `wip-limits` — Work-in-Progress Limits: Capping how many items each stage of a workflow can hold at once, tuned empirically rather than calculated, to expose problems and stabilize flow.
 
+## Kanban Change Leadership (kanban-change-leadership) — Agile & Software Delivery
+- `change-curve` — The Change Curve: Individuals pass through five predictable emotional and competence stages during change, each requiring different leadership responses.
+- `dialog-based-change` — Dialog-Based Change: Real organizational change emerges through dialog—a discipline built on listening, respecting, suspending judgment, and voicing authentically—not through persuasion or directive.
+- `embedding-kaizen-culture` — Embedding a Kaizen Culture: A culture of continuous improvement requires shared belief in incremental change, psychological safety, and distributed leadership where all levels contribute ideas and implement them.
+- `mindfulness-in-leadership` — Mindfulness in Leadership: Leaders create conditions for organizational agility by systematically observing and understanding the system at multiple levels—market, process, structure, collaboration, and personal—before acting.
+- `organizational-autonomy-and-change` — Organizational Autonomy and Change Resistance: Organizations are self-regulating systems that resist external change; real change happens when leaders respect organizational autonomy and work with its internal logic rather than imposing solutions from outside.
+- `survival-anxiety-vs-learning-anxiety` — Survival Anxiety vs. Learning Anxiety: Change resistance stems from two distinct anxieties—threat to identity and status (survival) and fear of incompetence (learning)—each requiring different leadership responses.
+- `systemic-reflection-loop` — Systemic Reflection Loop: Continuous improvement emerges through a structured cycle of individual perception, shared consolidation, pattern recognition, and action—repeated as an organizational reflex.
+- `the-iceberg-of-change` — The Iceberg of Change: Change has visible technical and process layers, but the hidden emotional and psychological depths determine success or failure.
+
+## The Official Kanban Guide (kanban-guide) — Agile & Software Delivery
+- `explicit-policies` — Explicit Policies: Making Work Rules Visible and Collectively Owned: Policies about work organization, pull criteria, WIP limits, and service classes are made explicit, visible, and changeable by consensus.
+- `kanban-as-method` — Kanban as Method, Not Methodology: Management Approach Without Prescription: Kanban is a management method applied on top of existing processes, distinct from a methodology or framework that prescribes workflows.
+- `kanban-principles` — Kanban Principles: Change Management and Service Delivery Philosophy: Two foundational principle sets—Change Management (evolutionary approach) and Service Delivery (customer and workflow focus)—that guide how Kanban is applied.
+- `statik-system-design` — STATIK: Systems Thinking Approach To Introducing Kanban: A six-step, iterative method for designing a Kanban system by understanding current state, demand, capability, and workflow before building the board.
+
+## Lean Architecture for Agile Software Development (lean-architecture) — Agile & Software Delivery
+- `commonality-variation` — Commonality and Variation: Identifying What Stays and What Changes: A design technique that explicitly separates stable domain elements from those that vary, using this distinction to structure architecture that resists brittleness.
+- `dci-architecture` — DCI Architecture: Data, Context, Interaction: An architectural pattern that maps user mental models and use case algorithms directly into code through data objects, context classes, and role methods that bridge domain structure and behavior.
+- `domain-driven-form` — Domain-Driven Form: Architecture Grounded in Domain Knowledge: Architecture that reflects end-user mental models and domain expertise, expressed as abstract base classes and domain structure rather than speculative frameworks.
+- `everybody-all-together` — Everybody All Together: The Lean Secret: Cross-functional engagement from early on, with all stakeholders working in parallel rather than sequential handoffs, is the cornerstone of Lean software development.
+- `form-over-implementation` — Form Over Implementation: Deferring Premature Structure: Distinguish between architectural form (essential relationships and entities) and implementation (how they're coded), deciding form early but deferring implementation details until they matter.
+- `lean-agile-balance` — Lean and Agile as Complementary: Deliberation Enabling Adaptation: Lean's careful up-front planning and Agile's inspect-and-adapt are not in tension but complementary: solid architecture reduces the cost of adaptation.
+- `value-stream-architecture` — Value Stream: Organizing Architecture Around End-to-End Delivery: Lean architecture organizes around the complete flow from end user through to delivery, rather than functional silos, making architecture visible to the entire value stream.
+- `what-vs-how` — What vs. How: Form and Functionality: The architecture of a system (what it is) differs fundamentally from its functionality (what it does), requiring separate design considerations.
+
+## Lean from the Trenches (lean-from-the-trenches) — Agile & Software Delivery
+- `continuous-system-test` — Continuous System Test: Testing the integrated system repeatedly throughout development rather than once at the end, reducing the critical path spent on bug-fixing after major integration.
+- `definition-of-ready-and-done` — Definition of Ready and Done: Explicit state gates at column boundaries that clarify when work moves forward, enabling cross-functional collaboration and breaking down specialty silos.
+- `embedded-specialist-teams` — Embedded Specialist Teams: Keep specialists (analysts, testers) embedded in feature teams for daily collaboration while maintaining a virtual team focused on big-picture concerns, balancing local velocity with system coherence.
+- `evolutionary-process-improvement` — Evolutionary Process Improvement: Treat process changes as small experiments guided by real problems, not theories; use consensus voting to build buy-in; actively throttle the rate of change to let people absorb it.
+- `face-to-face-bug-fixing` — Face-to-Face Bug Fixing: When testers find bugs, they immediately locate and talk to the developer who wrote the code, fix it together or watch the fix, instead of logging it in a system.
+- `multi-tier-daily-synchronization` — Multi-Tier Daily Synchronization: Structure daily communication in concentric tiers—team standup, specialty sync, cross-team sync—so information flows up from local concerns to cross-team coordination without creating a single ceremony that's too large.
+- `physical-kanban-board` — Physical Kanban Board as System of Record: Use a tangible wall-mounted board with sticky notes as the single authoritative view of work state, not a shadow of an electronic system, to maximize pull behavior and visibility.
+- `stable-trunk-multi-team-development` — Stable Trunk for Multi-Team Development: Keep the main code branch always ready for system test through disciplined team branches, daily merge-downs, and feature-level validation before integration.
+
 ## The Lean Machine (lean-machine) — Agile & Software Delivery
 - `false-positive-feasibility` — False Positive Feasibility: Committing early to a single design and only later testing whether it truly works produces a false sense of confidence that is the leading cause of project failure.
 - `firefighting-tipping-point` — Firefighting and the Tipping Point: Firefighting is a self-reinforcing organizational pathology, not a response to bad luck — past a resource-utilization threshold it becomes the de facto process.
@@ -53,6 +205,16 @@
 - `oobeya` — Oobeya (The Wall): A single physical big-room space, built from nothing but paper and Post-it Notes, that makes the state of an entire development portfolio visible at a glance to anyone regardless of role.
 - `product-development-cadence` — Product Development Cadence: A deliberately chosen, portfolio-wide rhythm of project introductions — derived from Little's Law rather than any single project's schedule — that synchronizes an entire development organization.
 - `product-development-limit-curve` — The Product Development Limit Curve: Plotting a project's test-and-fix redesign loops over time reveals a predictable curve that forecasts success or failure far better than phase-gate milestones do.
+
+## Lean Six Sigma A3 Thinking Workbook (lean-six-sigma-a3) — Agile & Software Delivery
+- `a3-problem-solving` — A3 Problem Solving: A structured nine-step problem-solving format on 11x17 paper for identifying root causes and implementing sustainable countermeasures.
+- `dmaic-roadmap` — DMAIC Roadmap: Data-driven five-phase methodology (Define, Measure, Analyze, Improve, Control) for structured process improvement with defined tools and deliverables.
+- `kaizen-continuous-improvement` — Kaizen (Continuous Improvement Culture): Japanese philosophy and practice of incremental, continuous improvement by all employees at all organizational levels, embedded in daily work.
+- `muda-eight-wastes` — Muda (Eight Types of Waste): Taxonomy of eight non-value-adding activities (defects, overproduction, waiting, potential, transportation, inventory, motion, excess processing) that consume resources without customer value.
+- `pdsa-cycle` — PDSA Cycle: Iterative four-step cycle (Plan, Do, Study, Act) for testing small changes and driving continuous improvement through rapid feedback loops.
+- `standard-work` — Standard Work: Documented best-known way to perform a process, specifying steps, sequence, timing, task ownership, methods, materials, and expected outcomes for consistency.
+- `value-stream-mapping` — Value Stream Mapping: Visual diagram showing process steps colored by value type (added, non-added, business requirement) to expose waste and design future-state improvements.
+- `y-equals-f-of-x` — Y = f(x): Function-Based Process Thinking: Framework treating process outputs (Y) as a function of controllable inputs (x), guiding root-cause analysis and critical-input prioritization.
 
 ## Lean Software Development (lean-software-development) — Agile & Software Delivery
 - `last-responsible-moment` — The Last Responsible Moment: Delay a commitment until the point where failing to decide would eliminate an important alternative — any later is procrastination, any earlier is a guess.
@@ -72,6 +234,35 @@
 - `methodology-vs-mindset` — Practices, Methodology, and Mindset: Adopting a way of working has three levels — isolated practices, a coherent methodology, an internalized mindset — and each level unlocks a larger payoff than the one below it.
 - `shuhari-learning-stages` — Shuhari: Rules, Detachment, Fluency: Learners pass through three stages — following fixed rules, internalizing the principles behind them, then fluency that discards the rules — and a coach must diagnose the stage first.
 
+## Org Design & Large-Scale Scrum (LeSS) [slides] (less-org-design) — Agile & Software Delivery
+- `culture-follows-structure` — Culture Follows Structure: Organizational culture—how people actually behave and make decisions—is shaped by the structure and incentives in place, not by stated values or exhortation.
+- `feature-teams` — Feature Teams: Cross-functional teams organized around customer value and features, not around specialized functions or components, breaking the local-optimization cycle of handoffs.
+- `larman-laws-of-organizational-behavior` — Larman's Laws of Organizational Behavior: Four immutable laws describing how organizations resist change by protecting status quo structures and co-opting new initiatives.
+- `lean-thinking-and-respect-for-people` — Lean Thinking: Respect for People and Continuous Improvement: Lean management rests on two pillars—respecting people by developing them rather than treating them as interchangeable, and continuous improvement through direct observation and kaizen, not centralized directives.
+- `local-vs-system-optimization` — Local Optimization vs. System Optimization: Organizations structured around specialties each optimize their own efficiency, creating delays and waste elsewhere; true optimization requires viewing the whole system.
+
+## Liftoff: Start and Sustain Successful Agile Teams (liftoff) — Agile & Software Delivery
+- `agile-chartering` — Agile Chartering: A lightweight, collaborative process that creates initial shared agreements about team purpose, alignment, and context through high-bandwidth conversation rather than formal documentation.
+- `five-rules-learning` — Five Rules of Learning: A framework for creating conditions that maximize human learning in groups: keep it alive, do it for real, start obvious stay obvious, focus on flow, and put setting first.
+- `liftoff` — Liftoff: An intentional initial event that provides the force needed to overcome team inertia and establish shared purpose and alignment before work begins.
+- `living-charter` — Living Charter: A team charter that is continuously amended and kept visible, updated whenever it no longer reflects reality or team learning, rather than treated as a static founding document.
+- `mission-tests` — Mission Tests: Quantitative and qualitative indicators that measure progress toward mission achievement and help teams examine assumptions about their work on predetermined dates.
+- `team-alignment-agreements` — Team Alignment Through Working Agreements: Explicit, negotiated rules for how team members will work together—covering interaction norms, decision rights, and role clarity—that enable coherence without requiring constant coordination.
+- `team-context-understanding` — Team Context Understanding: Making explicit how a team fits into the larger organization—its boundaries, stakeholder roles, resource commitments, and assumed constraints—so it can navigate organizational realities.
+- `team-purpose-craft` — Team Purpose Craft: The deliberate composition of three elements—product vision, team mission, and mission tests—that together provide inspiration and concrete measures for team achievement.
+- `teams-as-complex-adaptive-systems` — Teams as Complex Adaptive Systems: Viewing teams through the lens of Human Systems Dynamics—understanding containers, differences, and exchanges—to recognize how team conditions create emerging patterns rather than predictable outputs.
+
+## Making Sense of Agile Project Management (making-sense-of-agile) — Agile & Software Delivery
+- `agile-principles-require-interpretation` — Agile Principles Require Interpretation, Not Mechanical Implementation: Agile methodologies are intentionally non-prescriptive, defining principles that require interpretation and contextual judgment rather than step-by-step procedures to follow by the book.
+- `all-or-nothing-thinking` — All-or-Nothing Thinking Trap in Methodology Adoption: The misconception that agility is binary—either adopt pure agile methodologies like Scrum or remain stuck in traditional Waterfall—when reality offers a spectrum of approaches with varying degrees of control and flexibility.
+- `be-quick-dont-hurry` — Be Quick, But Don't Hurry: Agility vs. Rushed Speed: Agility is rapid, disciplined response to change and uncertainty, not the same as simply pressuring teams to work faster without changing methodology or process.
+- `control-agility-balance` — Balancing Control and Agility: Achieving equilibrium between predictability and flexibility rather than maximizing either alone, the core strategic choice in choosing development approaches.
+- `hybrid-lifecycle-models` — Hybrid Lifecycle Models: Explicitly designed combinations of traditional plan-driven and iterative/adaptive practices to provide a suitable balance of control and flexibility for a specific business context.
+- `lean-customer-value-primary` — Lean Value Focus: Customer Value as the Primary Goal: Focus business strategy and development processes on maximizing customer value rather than financial results alone, because customer value is the cause that drives financial effects.
+- `learning-organization-culture` — Learning Organization Culture: Organizations that thrive with agile methodologies share a culture of continuous improvement, tailored processes, respect for people, and learning from failure—not a culture of control and standardization.
+- `methodology-as-tool-not-dogma` — Methodology as Tool, Not Dogma: A methodology should be tailored to fit the business environment and project needs, never treated as a rigid template that projects must conform to.
+- `organizational-commitment-required` — Organizational-Wide Commitment Required for Agile: Agility is not only a development methodology—it requires business-side commitment, organizational transformation, and alignment across multiple functions to succeed.
+
 ## Making Work Visible (making-work-visible) — Agile & Software Delivery
 - `context-switching-tax` — The Context-Switching Tax: Juggling multiple tasks at once imposes a hidden cognitive overhead cost on humans far higher than the CPU-scheduling metaphor suggests.
 - `dependency-combinatorics` — Dependency Combinatorics: Each additional hard dependency a delivery requires doesn't add risk linearly — it halves the probability of on-time delivery.
@@ -81,6 +272,16 @@
 - `work-visibility` — Work Visibility: Most knowledge work and its costs are invisible by default, and making it visually explicit — not just tracked in a system — is the precondition for fixing any of it.
 - `zombie-projects` — Zombie Projects: Low-value, barely-alive initiatives that never get killed keep silently siphoning time and attention away from higher-value work, protected by sunk-cost thinking.
 
+## Performance Management for Agile Organizations (performance-management-agile-orgs) — Agile & Software Delivery
+- `commitment-over-loyalty` — Commitment Over Loyalty: Agile organizations require committed employees (focused on organizational goals while employed) rather than loyal employees (bound to the status quo and long-term retention), because loyalty and openness to change are fundamentally incompatible.
+- `flexible-deployment` — Flexible Deployment of Skills: Accumulating and applying a broader range of competencies beyond one's job specification, enabling employees to understand and adapt to operational demands across the organization rather than remaining locked in narrow specialties.
+- `goal-setting-as-agility-barrier` — Goal-Setting as an Agility Barrier: Fixed performance goals, even stretch goals, constrain thinking and innovation by anchoring teams to predetermined outcomes; measurement and tracking without limiting goals produces superior adaptive performance.
+- `intrinsic-motivation-framework` — The Autonomy-Mastery-Purpose Framework for Intrinsic Motivation: High performance comes from intrinsic motivation — autonomy, mastery, purpose — not extrinsic rewards; the Taylorist carrot-and-stick model fails for knowledge workers.
+- `non-job-performance-roles` — Non-Job Performance Roles: Employee performance spans five roles: the job role plus four non-job roles (positive attitude/enthusiasm, teamwork, career development, innovation/continuous improvement), all of which are essential to organizational success but rarely measured in job descriptions.
+- `psychological-contract-collaboration` — The New Psychological Contract: From "Them and Us" to Collaboration: Shifting from the traditional manager-think/worker-do contract to a collaborative relationship where all employees are expected to bring judgment, initiative, and strategic thinking, not just follow procedures.
+- `seven-dimensions-of-agility` — The Seven Dimensions of Agile Performance: A framework for evaluating organizational agility across seven measurable dimensions: innovation speed, processing speed, recovery speed, continuous improvement, customer responsiveness, problem-solving, and changing direction.
+- `taylorism-and-modern-management` — Taylorism's Hidden Grip: Why Modern Performance Management is Ultra-Conservative: Scientific management principles from early 20th-century factories (Taylorism) remain embedded in contemporary performance practices, actively blocking agility despite radical transformation in the nature of work.
+
 ## Personal Kanban (personal-kanban) — Agile & Software Delivery
 - `course-correction` — Course Correction: Plans are never precise, so continually making small, cheap adjustments as reality unfolds beats treating an original plan as fixed and paying a catastrophic price for drift.
 - `existential-overhead` — Existential Overhead: The background psychological weight of unfinished, unclear, or merely-remembered work, distinct from the work itself, that silently drains effectiveness until it is made visible.
@@ -89,6 +290,13 @@
 - `productivity-vs-effectiveness` — Productivity, Efficiency, and Effectiveness: Three distinct measures of work — doing a lot, doing it with little waste, and doing the right thing at the right time — that must be told apart to avoid optimizing the wrong one.
 - `rhythm-and-slack` — Cadence and Slack: Work has a natural, detectable beat, and the open gaps between tasks — slack — are what let that beat absorb variation instead of clogging.
 - `task-shape-patterns` — Matching Structure to Task Type: Repetitive tasks, long projects, emergencies, and small backlog clutter each break a one-size-fits-all workflow differently, so each needs its own visualization shape rather than one uniform column set.
+
+## The Phoenix Project (excerpt) (phoenix-project-devops) — Agile & Software Delivery
+- `constraint-exploitation-operations` — Constraint Exploitation: Finding and Protecting Your Bottleneck: Identifying the person or system stage that constrains IT delivery, then ruthlessly protecting them from time-wasting work so they operate at full capacity on the highest-priority work.
+- `four-types-of-work` — Four Types of Work: Business, Internal, Changes, Unplanned: The complete taxonomy of IT Operations work—business projects, IT infrastructure projects, changes, and firefighting—each competing for capacity and requiring different governance.
+- `technical-debt-operability` — Technical Debt and Operability: Design for Operations: Systems accumulate technical debt when built for features only, generating unplanned work in operations; operability must be designed in from the start—not retrofitted.
+- `the-three-ways` — The Three Ways: Flow, Feedback, Learning: The foundational DevOps framework uniting fast flow, feedback loops, and experimentation culture into a coherent system improvement discipline.
+- `work-in-progress-control` — Work-in-Progress Control: Visual Management for IT Operations: Controlling how much work starts before previous work finishes, using visual kanban boards and WIP limits to expose bottlenecks and stabilize flow in IT operations.
 
 ## The Principles of Product Development Flow (product-development-flow) — Agile & Software Delivery
 - `asymmetric-feedback` — Feedback for Asymmetry, Not Just Stability: Fast feedback in product development should widen a payoff function's asymmetry — truncating losses and extending gains — not merely dampen variation toward a fixed target.
@@ -108,6 +316,32 @@
 - `technological-turning-point` — The Turning Point: The volatile midpoint between a technology's speculative Installation Period and its stable Deployment Period, when incumbents either master the new means of production or decline.
 - `value-stream-network` — Value Stream Network: Software delivery is a rerouteable network of collaborating tools and people, not a linear production line — so its bottlenecks behave like traffic, not like a stalled conveyor belt.
 
+## The 2020 Scrum Guide (scrum-guide) — Agile & Software Delivery
+- `definition-of-done` — Definition of Done: Quality Commitment that Enables Transparency: A shared, explicit standard defining what "complete" means, ensuring Increments are truly usable and inspection is meaningful.
+- `scrum-pillars` — Scrum Pillars: Transparency, Inspection, and Adaptation: Empirical foundation for Scrum built on three pillars that enable rapid learning in complex work.
+- `scrum-values` — Scrum Values: Commitment, Focus, Openness, Respect, Courage: Five cultural values that enable a Scrum Team to embody empiricism and sustain the three pillars.
+- `sprint-container` — The Sprint as Container: Fixed-Length Iteration as the Empirical Heartbeat: A one-month-or-less fixed timebox containing all Scrum work, creating consistent rhythm for inspection and learning cycles.
+
+## Scrum Mastery: From Good to Great Servant-Leadership (scrum-mastery) — Agile & Software Delivery
+- `adaptive-retrospectives` — ADAPTIVE Retrospectives: A framework for making retrospectives more effective by transforming a team's habits of reflection into concrete, improving action through eight practices: Act, Diverge, Account, Probe, Try, Involve, Visualize, Expose.
+- `alternative-progress-visualization` — Alternative Progress Visualization: The sprint burndown is a tool for team self-management, not a reporting artifact for outsiders. When teams own the visualization, they invent alternatives—burnup, weather forecast, story points as pints—that better suit their needs.
+- `power-of-silence` — The Power of Silence: Strategic use of silence by a coach or leader to force a team to reflect, self-solve, and develop autonomy rather than immediately offering answers or direction.
+- `product-owner-availability` — Product Owner Availability as a Critical Impediment: Unavailable product owners are not solved by proxy product owners; the true cost of unreachable decision-makers must be quantified to justify freeing their time, not creating handoffs.
+- `servant-leadership-qualities` — Eight Qualities of Servant-Leadership in Scrum Masters: Great ScrumMasters embody eight interconnected qualities—Resourceful, Enabling, Tactful, Respected, Alternative, Inspiring, Nurturing, Empathic, Disruptive—that guide them toward servant-leadership rather than command-and-control.
+- `shared-definition-of-done` — Shared Definition of Done: Done means potentially releasable every sprint — a whole-team responsibility, not a stage gate; great ScrumMasters push teams toward complete, testable increments.
+- `sprint-goal-as-motivation` — Sprint Goal as Purpose and Creativity Driver: A sprint goal is more than an optional label; it's a motivational lever that allows teams to find synergies across the backlog, increase delivered value, and unlock creativity by framing work with shared purpose.
+- `t-shaped-shared-responsibility` — T-Shaped People and Shared Responsibility: Teams move from I-shaped specialists (deep in one skill, narrow in others) to T-shaped members who have depth in a chosen discipline but breadth enough to collaborate cross-functionally and share responsibility for whole-product delivery.
+
+## The Scrumban [R]Evolution (scrumban-revolution) — Agile & Software Delivery
+- `demand-capacity-balance` — Demand-Capacity Balance: The practice of explicitly visualizing and matching incoming demand against available team capacity, enabling sustainable pace and intentional demand shaping rather than reactive work acceptance.
+- `explicit-policies-and-visualization` — Explicit Policies and Visualization: Making all work-handling policies, constraints, decisions, and work-in-progress visible—both on the board and in written team agreements—so that nothing is implicit, ambiguous, or left to individual interpretation.
+- `kata-as-disciplined-improvement` — Kata as Disciplined Improvement: Establishing repeated, habitual practices of small-scale experimentation and problem-solving (like A3 Thinking) so that continuous improvement becomes automatic and embedded in organizational DNA rather than episodic or dependent on heroic effort.
+- `layering-kanban-method-with-scrum` — Layering the Kanban Method with Scrum: A technique for applying the Kanban Method's four principles and six practices—visualization, WIP limits, flow management, explicit policies, feedback mechanisms, and collaborative experiments—alongside Scrum's ceremonies and artifacts to unlock capabilities neither framework provides alone.
+- `pragmatic-cadence-choice` — Pragmatic Cadence Choice: The decision to use either time-boxed iterations (sprints) or continuous flow—or a hybrid—based on team maturity, context, and business needs, rather than committing to one mode as doctrinally correct.
+- `psychological-barriers-to-agile-adoption` — Psychological Barriers to Agile Adoption: Emotional and social resistance to change—fear, loss of status, disrupted identity—that Scrumban lowers by respecting current roles and building incremental evidence.
+- `scrumban-evolutionary-framework` — Scrumban as an Evolutionary Framework: A pragmatic approach to combining Scrum and Kanban that scales across all mastery levels (Shu-Ha-Ri), starting with what you do now and evolving incrementally rather than through disruptive big-bang adoption.
+- `service-orientation-lens` — Service Orientation Lens: Viewing delivery and organizational structure through the lens of services delivered to customers and stakeholders, rather than as collections of functions and specializations, enabling systems thinking and cross-boundary optimization.
+
 ## Specification by Example (specification-by-example) — Agile & Software Delivery
 - `automating-below-the-ui` — Automating Below the UI: Drive automated checks through an API, HTTP layer, or controller instead of a browser wherever possible — the interface is usually the slowest, flakiest place to verify business logic.
 - `continuous-validation` — Continuous Validation: Running executable specifications on every change, the way continuous integration runs builds, catches drift from the right product while it is still small and cheap to fix.
@@ -116,6 +350,16 @@
 - `living-documentation` — Living Documentation: Documentation built from executable specifications that stays automatically in sync with the system, because a failing test reveals drift immediately.
 - `specification-in-domain-language` — Specification in Domain Language: Specifications written in the business's own vocabulary, not invented testing or implementation jargon, stay readable to everyone and need no translation layer.
 - `specifying-collaboratively` — Specifying Collaboratively: Requirements written by one role in isolation end up either unreadable or unmaintainable — specifications must be built jointly by business, testing, and development perspectives together.
+
+## Tamed Agility: Pragmatic Contracting and Collaboration (tamed-agility) — Agile & Software Delivery
+- `advantage-contract-model` — adVANTAGE: A Contract Model for Agile Client-Contractor Partnerships: A commercial framework that enables fair agile delivery by distributing risk and reward equally, using two daily rates and feature-based budgeting instead of fixed-price or time-and-materials.
+- `commitment-to-agility` — Commitment to Agility: A deliberate organizational choice to acknowledge and manage uncertainty as inherent to a project, rather than attempting to eliminate it through exhaustive upfront planning.
+- `interaction-room` — Interaction Room: Collaborative Scoping Through Shared Modeling: A physical or virtual room where stakeholders jointly model business processes, data, and systems on walls to develop a common understanding without extensive documentation.
+- `mutual-trust-partnership` — Mutual Trust as an Organizational Capability: Trust between legally independent organizations in software contracts, built on the assumption that both parties will act fairly and work toward shared goals rather than optimizing their individual risk at the other's expense.
+- `shared-pain-shared-gain` — Shared Pain and Shared Gain: A mechanism where client and contractor split cost overruns and cost savings equally, aligning incentives so both parties focus on lean delivery rather than protecting their own risk.
+- `systems-of-engagement` — Systems of Engagement vs Systems of Records: Two distinct system archetypes requiring different development paradigms: stable, transactional records systems versus mobile, user-facing engagement systems that change frequently.
+- `tamed-agility` — Tamed Agility: Pragmatic middle ground between rigid plan-driven and pure agile approaches, combining flexibility with essential planning for complex enterprise projects.
+- `value-effort-drivers` — Value and Effort Drivers: A system of visual annotations on model elements (features, processes, data) that explicitly identify which ones create business value, user value, complexity, or risk, making prioritization decisions transparent and traceable.
 
 ## Team Topologies (team-topologies) — Agile & Software Delivery
 - `four-fundamental-team-types` — The Four Fundamental Team Types: Every technology team can be mapped to one of four purpose-shaped types — stream-aligned, enabling, complicated-subsystem, or platform.
@@ -1191,4 +1435,3 @@
 - `systems-of-intelligence` — Systems of Intelligence: A software architecture layered on top of traditional systems of record that learns from data at massive scale to drive real-time decisions and actions.
 - `tenx-abundance-pricing` — 10x Abundance Pricing: Using automation to cut a product or service's price by 90%+ rather than a few percent can open a market 100 times larger than the original one.
 - `three-ms-framework` — The Three M's (Materials, Machines, Models): Every major industrial and technological revolution has required aligning new raw materials, new machines, and new business models together; none succeeds alone.
-

@@ -98,3 +98,14 @@ User triaged all 271 remaining books via artifact (161 next / 109 skip / 1 later
 - [x] 2 verifiers: tech 46→40 (6 dropped, 2 fixed — 98% link claim busted again), systems 30→29 (1 dropped, 2 extends→parallels)
 - [x] rebuild: 135 books, 922 concepts, 831 edges (76% cross-domain; tempers 129, contradicts 31, instantiates 126, formalizes 22, extends 58, parallels 465), 37 orphans; corpus 1114 chunks; strict build clean; smoke 922 nodes / 0 errors → PR #7
 Known issues to fix post-wave: (1) linear-programming slug collision — written by BOTH intro-to-management-science and mathematics-for-economics-and-business; rename econ one to linear-programming-corner-points. (2) strategic-thinking-for-leaders source content is actually "50 One-Minute Tips for Leaders" (same Haines/systems framework) — title kept, noted. (3) math-hacker author = Paul Carson (fixed in BOOKS).
+
+## Tranche 6 (user: "merged, next tranche more efficient, low-cost model, no quality loss" 2026-07-15). PR #7 merged; branch atlas-tranche-6 off main.
+Agile & Software Delivery: 29 "next" picks − 1 duplicate (Reinertsen Product Development Flow = tranche-2 product-development-flow) = 28 books.
+COST MODEL: extraction on Haiku 4.5 (pilot wave A of 6 → QA gate: yaml/section script + grounding spot-read → scale or fall back to Sonnet). Weave + adversarial verify stay Sonnet (quality gates unchanged). Tiny docs (<60KB: scrum-guide, kanban-guide, collaboration-at-scale, adaptive-governance, agile-leadership-kata, evidence-based-management-guide) batched 3-per-agent.
+In-tranche slug-collision risk HIGH (28 overlapping agile books) — post-wave collision scan mandatory.
+- [x] Wave A (Haiku pilot): 6 books — first launch killed by weekly limit @23:xx PT 7/14 (2 survived complete); relaunched 4 after 12am reset. All 6 done.
+- [x] QA gate: HAIKU PASSES (grounded, case-study specifics, Sonnet-standard). scripts/qa_concepts.py added (yaml/keys/sections/desc-length/collisions). Haiku failure modes seen: unquoted colons in yaml (2), collision despite CATALOG grep (kaizen-culture→embedding-kaizen-culture, living-documentation deleted as already-owned dup), 1 long description.
+- [x] Wave B: great-big-agile 8, making-sense-of-agile 9, agile-pm-with-scrum 8, agile-pm-with-kanban 8, bdd-in-action 7, disciplined-agile-delivery 7. A+B = 12 books / 93 concepts, gate PASS.
+- [~] Wave C (final, 12 Haiku agents): 10 solo (agile-lean-program-management, agility-across-time-and-space, building-the-agile-enterprise, lean-architecture, lean-six-sigma-a3, performance-management-agile-orgs, tamed-agility, agility-mindset, scrumban-revolution, less-org-design) + batch1 (scrum-guide, kanban-guide, evidence-based-management-guide) + batch2 (collaboration-at-scale, adaptive-governance, agile-leadership-kata) — RUNNING
+- [ ] +28 BOOKS entries, CATALOG regen, collision scan
+- [ ] Weave (Sonnet, anchored) → verify (Sonnet adversarial) → rebuild → strict build + smoke → PR #8
