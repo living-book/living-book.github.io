@@ -3,10 +3,10 @@
   to: feedback-loops
   why: >-
     The collect-analyze-adjust-track cycle is a goal-seeking loop in the same
-    structural sense Senge names — an observed gap against a desired state driving
-    corrective action, which then changes future observations — though it is a
-    human team deliberately closing the loop at retrospective cadence, not an
-    automatic reinforcing/balancing dynamic in the system itself.
+    structural sense Senge names — an observed gap against a desired state
+    driving corrective action, which then changes future observations — though
+    it is a human team deliberately closing the loop at retrospective cadence,
+    not an automatic reinforcing/balancing dynamic in the system itself.
 
 - from: production-metrics-over-process-metrics
   verb: parallels
@@ -23,8 +23,9 @@
   to: four-meetings-rhythm
   why: >-
     Both match information granularity and cadence to organizational altitude —
-    teams need daily tactical detail, executives need infrequent strategic signal —
-    rejecting one-size-fits-all reporting or meetings as a structural error.
+    teams need daily tactical detail, executives need infrequent strategic
+    signal — rejecting one-size-fits-all reporting or meetings as a structural
+    error.
 
 - from: physical-kanban-board
   verb: parallels
@@ -57,8 +58,8 @@
   to: human-centered-design-process
   why: >-
     Both refuse to design a solution before diagnosing the actual current
-    situation — demand, capability, workflow, or users — running an
-    observe-then-design cycle instead of jumping straight to a board or a fix.
+    situation — demand, capability, workflow, or users — running an observe-
+    then-design cycle instead of jumping straight to a board or a fix.
 
 - from: dmaic-roadmap
   verb: parallels
@@ -118,8 +119,8 @@
   to: the-three-ways
   why: >-
     Lead Time and MTTR give the Three Ways' abstract flow-and-feedback
-    principles a concrete, trackable numeric form, converting "go faster,
-    learn faster" from philosophy into two measurable metrics teams can act on.
+    principles a concrete, trackable numeric form, converting "go faster, learn
+    faster" from philosophy into two measurable metrics teams can act on.
 
 - from: measurable-maintainability
   verb: parallels
@@ -129,17 +130,18 @@
     features while quietly generating expensive downstream work — though
     Measurable Maintainability operationalizes only the "ease of change" slice
     of what Technical Debt and Operability means by operability, which also
-    spans security, scalability, and continuity: coverage, CLOC, and
-    regression-cycle-length are trackable proxies for how expensive undesigned
-    code is to touch, not for the full non-functional bundle Erik describes.
+    spans security, scalability, and continuity: coverage, CLOC, and regression-
+    cycle-length are trackable proxies for how expensive undesigned code is to
+    touch, not for the full non-functional bundle Erik describes.
 
 - from: constraint-exploitation-operations
   verb: instantiates
   to: five-focusing-steps
   why: >-
-    Finding IT operations' bottleneck and ruthlessly protecting it from
-    time-wasting work is a direct application of identify-exploit-subordinate,
-    the same constraint logic applied to a service organization instead of a factory.
+    Finding IT operations' bottleneck and ruthlessly protecting it from time-
+    wasting work is a direct application of identify-exploit-subordinate, the
+    same constraint logic applied to a service organization instead of a
+    factory.
 
 - from: black-box-limits
   verb: tempers
@@ -149,29 +151,14 @@
     model is the complete or unique explanation of Y — observation is only ever
     consistent with data, never proof of one true causal model.
 
-- from: rip-and-replace-rules
-  verb: tempers
-  to: evolutionary-process-improvement
-  why: >-
-    When conditions have changed fundamentally rather than incrementally,
-    blending old and new process rules gradually — evolutionary improvement's
-    core method — actively underperforms a fast, complete rule replacement.
-
 - from: layering-kanban-method-with-scrum
   verb: parallels
   to: hybrid-intelligent-systems
   why: >-
     Both combine two structurally different techniques in layers rather than
-    picking one dominant approach, because no single method — Scrum's cadence
-    or Kanban's flow control, a rule engine or a trained network — covers every gap alone.
-
-- from: psychological-barriers-to-agile-adoption
-  verb: parallels
-  to: resistance-blows-itself-out
-  why: >-
-    Both diagnose resistance to change as an emotional, identity-protective
-    reaction rather than a rational objection, prescribing respect for the
-    threatened role and incremental evidence over arguing or forcing it through.
+    picking one dominant approach, because no single method — Scrum's cadence or
+    Kanban's flow control, a rule engine or a trained network — covers every gap
+    alone.
 
 - from: scrumban-evolutionary-framework
   verb: parallels
@@ -179,7 +166,8 @@
   why: >-
     Both insist a single practice must be delivered differently depending on the
     practitioner's current mastery stage — Shu-Ha-Ri or novice-to-expert — since
-    guidance that helps a beginner actively constrains or bores someone further along.
+    guidance that helps a beginner actively constrains or bores someone further
+    along.
 
 - from: service-orientation-lens
   verb: parallels

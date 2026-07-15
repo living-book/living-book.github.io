@@ -29712,6 +29712,587 @@
    "to": "no-instant-rationality",
    "why": "Both name the same fact about appraisal from different angles — a research programme's status, like a scientific truth claim, is only ever knowable in hindsight, with no forced moment when the evidence is complete — exactly why a court's fixed deadline is structurally incompatible with how science actually settles things.",
    "source": "woven"
+  },
+  {
+   "from": "knowledge-constraint",
+   "verb": "parallels",
+   "to": "principle-of-optimism",
+   "why": "Both reject the idea that adequate upfront analysis can substitute for actually doing the work: Deutsch's rejection of \"prophecy\" — claiming to know knowledge not yet created — and BDD's Knowledge Constraint — knowledge of what to build increases only as the project unfolds — both insist the needed knowledge must be created through engagement and iteration, not gathered in advance by better planning.",
+   "source": "woven"
+  },
+  {
+   "from": "pigs-and-chickens",
+   "verb": "parallels",
+   "to": "skin-in-the-game",
+   "why": "Both grant decision authority strictly to whoever bears the downside of the outcome — Scrum's committed \"pigs\" versus merely interested \"chickens\" — because unaccountable influence without exposure corrupts judgment the same way Taleb's asymmetric risk-bearing does.",
+   "source": "woven"
+  },
+  {
+   "from": "organized-complexity",
+   "verb": "parallels",
+   "to": "complexity-dimensions",
+   "why": "Both name a middle zone where a single deterministic method fails: Weinberg's organized complexity sits between equation-based mechanics and statistical averaging, yielding to neither; Schwaber's three multiplying complexity dimensions — requirements, technology, people — similarly put software beyond the reach of fully-specified upfront planning. Both conclude that only continuous, adaptive engagement, not a bigger one-shot model, can manage a system in this zone.",
+   "source": "woven"
+  },
+  {
+   "from": "rewards-discourage-risk-taking",
+   "verb": "tempers",
+   "to": "advantage-contract-model",
+   "why": "adVantage claims splitting risk and reward via shared daily rates aligns incentives fairly; Kohn's finding that working toward any extrinsic reward narrows effort to exactly what's measured names a condition under which even a \"fair\" incentive contract can still shrink risk-taking.",
+   "source": "woven"
+  },
+  {
+   "from": "shared-pain-shared-gain",
+   "verb": "instantiates",
+   "to": "skin-in-the-game",
+   "why": "Splitting cost overruns and savings equally between client and contractor is a concrete contractual mechanism that forces both parties to carry the downside of their own decisions, the exact structural fix Taleb prescribes against transferred-risk asymmetry.",
+   "source": "woven"
+  },
+  {
+   "from": "mutual-trust-partnership",
+   "verb": "parallels",
+   "to": "trust-dividend-and-tax",
+   "why": "Both treat trust as an economic variable, not a soft value: Tamed Agility's inter-organizational trust and Covey's trust dividend each claim low trust taxes every transaction with friction and protective overhead that high trust simply removes.",
+   "source": "woven"
+  },
+  {
+   "from": "work-breakdown-structure-lock-in",
+   "verb": "tempers",
+   "to": "value-stream-architecture",
+   "why": "Value-stream architecture prescribes organizing around end-to-end flow instead of functional silos; WBS lock-in names the condition where that fails — once teams and contracts crystallize around an existing decomposition, redrawing it becomes legally and organizationally expensive.",
+   "source": "woven"
+  },
+  {
+   "from": "quality-attribute-primacy",
+   "verb": "parallels",
+   "to": "what-vs-how",
+   "why": "Both split a system's design into architecture/form (the stable structure) and functionality (what it does) — though for different purposes: Lean Architecture uses the split to justify different design cadences and stakeholders for each side, while Software Architecture in Practice uses the same architecture/functionality vocabulary to argue which side actually governs quality attributes like performance and security. The two claims share vocabulary and are compatible, but the second doesn't derive from or formalize the first.",
+   "source": "woven"
+  },
+  {
+   "from": "four-key-value-areas",
+   "verb": "parallels",
+   "to": "decision-quality-chain",
+   "why": "Both refuse a single number as a verdict on a complex capability: EBM's four value areas and Decision Quality's six requirements each insist strength on one dimension cannot mask weakness on another — the weak dimension governs the whole.",
+   "source": "woven"
+  },
+  {
+   "from": "feature-injection",
+   "verb": "parallels",
+   "to": "jobs-to-be-done",
+   "why": "Both refuse to start from a feature or product list: BDD's feature injection works backward from discovered business value to the features that deliver it, exactly as Christensen's job-to-be-done treats the underlying job, not the product, as the real unit of design.",
+   "source": "woven"
+  },
+  {
+   "from": "given-when-then",
+   "verb": "parallels",
+   "to": "quality-attribute-scenario",
+   "why": "Both convert a vague requirement into a fixed, testable template: Given- When-Then's precondition/action/outcome clauses and the Quality Attribute Scenario's source/stimulus/response fields each force ambiguous intent into a structure specific enough to verify pass or fail.",
+   "source": "woven"
+  },
+  {
+   "from": "organizational-commitment-required",
+   "verb": "parallels",
+   "to": "management-model-coherence",
+   "why": "Both reject piecemeal adoption: Making Sense of Agile insists agility only works with full business-side commitment across functions, and Beyond Budgeting shows why — a management model's practices interlock, so replacing one piece while leaving the rest intact reintroduces the failure.",
+   "source": "woven"
+  },
+  {
+   "from": "lean-agile-balance",
+   "verb": "parallels",
+   "to": "architecturally-significant-requirements",
+   "why": "Both argue upfront deliberation pays for later speed: Lean Architecture's solid design reduces the cost of Agile's inspect-and-adapt cycles the same way nailing the small set of architecturally significant requirements early is what lets everything else be safely improvised later.",
+   "source": "woven"
+  },
+  {
+   "from": "metrics-feedback-loop",
+   "verb": "parallels",
+   "to": "feedback-loops",
+   "why": "The collect-analyze-adjust-track cycle is a goal-seeking loop in the same structural sense Senge names — an observed gap against a desired state driving corrective action, which then changes future observations — though it is a human team deliberately closing the loop at retrospective cadence, not an automatic reinforcing/balancing dynamic in the system itself.",
+   "source": "woven"
+  },
+  {
+   "from": "production-metrics-over-process-metrics",
+   "verb": "parallels",
+   "to": "actionable-vs-vanity-metrics",
+   "why": "Both warn that a metric which merely documents scale or ongoing activity — deployment frequency, total downloads — can look healthy while revealing nothing about whether real value was created, urging teams toward metrics that expose whether an action actually changed a real outcome rather than metrics that only track motion.",
+   "source": "woven"
+  },
+  {
+   "from": "role-based-metrics-hierarchy",
+   "verb": "parallels",
+   "to": "four-meetings-rhythm",
+   "why": "Both match information granularity and cadence to organizational altitude — teams need daily tactical detail, executives need infrequent strategic signal — rejecting one-size-fits-all reporting or meetings as a structural error.",
+   "source": "woven"
+  },
+  {
+   "from": "physical-kanban-board",
+   "verb": "parallels",
+   "to": "knowledge-in-the-world",
+   "why": "Both replace demand on individual memory with information embedded in the shared physical environment, so correct behavior — pulling work, acting correctly — requires no one to recall or reconstruct state from memory.",
+   "source": "woven"
+  },
+  {
+   "from": "done-rules-enforcing-upstream-quality",
+   "verb": "parallels",
+   "to": "forcing-functions",
+   "why": "Both put a hard checkpoint before advancement, but where Norman's forcing functions rely on a physical or mechanical constraint that makes an error strictly impossible, the done rule's checkpoint is enforced by team visibility and peer accountability — the same block-until-condition-met architecture, with a social rather than physical guarantee.",
+   "source": "woven"
+  },
+  {
+   "from": "explicit-policies",
+   "verb": "parallels",
+   "to": "behavioral-ground-rules",
+   "why": "Both convert abstract, implicit norms about how people should work together into a small set of visible, specific, collectively-owned rules that make coordination inspectable and changeable rather than assumed and unstated.",
+   "source": "woven"
+  },
+  {
+   "from": "statik-system-design",
+   "verb": "parallels",
+   "to": "human-centered-design-process",
+   "why": "Both refuse to design a solution before diagnosing the actual current situation — demand, capability, workflow, or users — running an observe- then-design cycle instead of jumping straight to a board or a fix.",
+   "source": "woven"
+  },
+  {
+   "from": "dmaic-roadmap",
+   "verb": "parallels",
+   "to": "five-step-process",
+   "why": "Both decompose a change effort into a fixed sequence of five phases — Define/Measure/Analyze/Improve/Control, or goals/problems/diagnosis/design/ execution — insisting each phase be completed on its own terms, without blending its thinking into the next, before the process advances toward results.",
+   "source": "woven"
+  },
+  {
+   "from": "kaizen-continuous-improvement",
+   "verb": "parallels",
+   "to": "marginal-gains-compounding",
+   "why": "Both reject waiting for a big, centralized push in favor of continuous small improvement by whoever is closest to the problem: Kaizen distributes improvement to any employee, resolved in days not quarters; Brailsford's aggregation of marginal gains abandoned dramatic overhauls for many small 1% daily improvements — each betting that continuous small effort by everyone beats rare large leaps by a few.",
+   "source": "woven"
+  },
+  {
+   "from": "muda-eight-wastes",
+   "verb": "parallels",
+   "to": "via-negativa",
+   "why": "Both treat systematic subtraction — naming and removing the non-value-adding or fragile — as the primary lever for improvement, more reliable than adding new interventions or capability.",
+   "source": "woven"
+  },
+  {
+   "from": "pdsa-cycle",
+   "verb": "parallels",
+   "to": "safe-to-fail-experiments",
+   "why": "Both run small, deliberately bounded, reversible probes sized so failure costs little, treating the loop of testing and studying results — not the initial hypothesis — as the actual improvement engine.",
+   "source": "woven"
+  },
+  {
+   "from": "standard-work",
+   "verb": "parallels",
+   "to": "good-checklist-design",
+   "why": "Both replace reliance on an individual's memory and judgment with an externalized, precisely specified, tested procedure — steps, sequence, timing — that anyone can follow to get a consistent result.",
+   "source": "woven"
+  },
+  {
+   "from": "continuous-system-test",
+   "verb": "parallels",
+   "to": "fail-fast-safely",
+   "why": "Both deliberately front-load exposure to failure through repeated, cheap, small trials throughout the process, instead of deferring discovery of what's broken to one late, expensive integration moment.",
+   "source": "woven"
+  },
+  {
+   "from": "lead-time-and-mttr",
+   "verb": "formalizes",
+   "to": "the-three-ways",
+   "why": "Lead Time and MTTR give the Three Ways' abstract flow-and-feedback principles a concrete, trackable numeric form, converting \"go faster, learn faster\" from philosophy into two measurable metrics teams can act on.",
+   "source": "woven"
+  },
+  {
+   "from": "measurable-maintainability",
+   "verb": "parallels",
+   "to": "technical-debt-operability",
+   "why": "Both name the same failure mode — a system that looks done because it ships features while quietly generating expensive downstream work — though Measurable Maintainability operationalizes only the \"ease of change\" slice of what Technical Debt and Operability means by operability, which also spans security, scalability, and continuity: coverage, CLOC, and regression- cycle-length are trackable proxies for how expensive undesigned code is to touch, not for the full non-functional bundle Erik describes.",
+   "source": "woven"
+  },
+  {
+   "from": "constraint-exploitation-operations",
+   "verb": "instantiates",
+   "to": "five-focusing-steps",
+   "why": "Finding IT operations' bottleneck and ruthlessly protecting it from time- wasting work is a direct application of identify-exploit-subordinate, the same constraint logic applied to a service organization instead of a factory.",
+   "source": "woven"
+  },
+  {
+   "from": "black-box-limits",
+   "verb": "tempers",
+   "to": "y-equals-f-of-x",
+   "why": "No amount of Six Sigma data collection can certify that a \"critical X's\" model is the complete or unique explanation of Y — observation is only ever consistent with data, never proof of one true causal model.",
+   "source": "woven"
+  },
+  {
+   "from": "layering-kanban-method-with-scrum",
+   "verb": "parallels",
+   "to": "hybrid-intelligent-systems",
+   "why": "Both combine two structurally different techniques in layers rather than picking one dominant approach, because no single method — Scrum's cadence or Kanban's flow control, a rule engine or a trained network — covers every gap alone.",
+   "source": "woven"
+  },
+  {
+   "from": "scrumban-evolutionary-framework",
+   "verb": "parallels",
+   "to": "dreyfus-model-skill-acquisition",
+   "why": "Both insist a single practice must be delivered differently depending on the practitioner's current mastery stage — Shu-Ha-Ri or novice-to-expert — since guidance that helps a beginner actively constrains or bores someone further along.",
+   "source": "woven"
+  },
+  {
+   "from": "service-orientation-lens",
+   "verb": "parallels",
+   "to": "jobs-to-be-done",
+   "why": "Both insist the correct unit of organizational analysis is the outside party's need being served — a job to be done, a service consumed — not the internal function or specialization that happens to produce it.",
+   "source": "woven"
+  },
+  {
+   "from": "task-size-consistency-in-breakdown",
+   "verb": "instantiates",
+   "to": "batch-size-economics",
+   "why": "Breaking large work into similarly-sized 1-5-day tasks is a concrete case of treating batch size as a controllable variable that governs cycle-time predictability: consistent, small units are what make a completion rate meaningful and let WIP limits be tuned to real capacity, the same predictability payoff Reinertsen's batch-size economics derives from shrinking and regularizing batch size.",
+   "source": "woven"
+  },
+  {
+   "from": "adaptive-retrospectives",
+   "verb": "parallels",
+   "to": "postmortem-ritual",
+   "why": "Both convert reflection into a structured, mandatory, action-forcing ritual rather than a stated ideal — ADAPTIVE's eight practices turn habits of reflection into concrete action, and Creativity Inc.'s postmortem forces an organization to consolidate lessons it would otherwise let evaporate.",
+   "source": "woven"
+  },
+  {
+   "from": "sprint-goal-as-motivation",
+   "verb": "parallels",
+   "to": "worthwhile-vs-instrumental-goal",
+   "why": "A sprint goal reframes backlog items as work in service of shared purpose rather than an instrumental checklist, and Maxwell's distinction explains why: goals valued in themselves generate lasting enthusiasm and creativity, while instrumental goals generate only compliance.",
+   "source": "woven"
+  },
+  {
+   "from": "product-owner-availability",
+   "verb": "parallels",
+   "to": "bottleneck-targeting",
+   "why": "Both insist on locating the one real constraint precisely and addressing it directly — a proxy product owner papers over an unavailable PO instead of quantifying and fixing the true bottleneck, exactly the workaround Sull and Eisenhardt's bottleneck-targeting method is built to rule out.",
+   "source": "woven"
+  },
+  {
+   "from": "dialog-based-change",
+   "verb": "parallels",
+   "to": "mutual-learning-core-values",
+   "why": "Both replace persuasion with a non-manipulative communicative discipline as the actual mechanism of change: Kanban's dialog demands listening, suspending judgment, and voicing authentically, and Schwarz's core values demand valid information, free choice, commitment, and compassion — two disciplines built on the same refusal to win by rhetoric.",
+   "source": "woven"
+  },
+  {
+   "from": "embedding-kaizen-culture",
+   "verb": "parallels",
+   "to": "vulnerability-based-trust",
+   "why": "Both hold that people only surface problems and admit weakness when doing so cannot be used against them: a kaizen culture makes psychological safety a precondition for anyone proposing improvements, and Lencioni makes vulnerability-based trust the precondition for a team functioning at all — safety before candor, in both books.",
+   "source": "woven"
+  },
+  {
+   "from": "mindfulness-in-leadership",
+   "verb": "parallels",
+   "to": "two-modes-of-attention",
+   "why": "Kanban leaders systematically observe the whole system — market, process, structure, collaboration, self — before acting, which is McGilchrist's broad, contextual attention mode; acting first without that scan collapses into the narrow, manipulative mode both authors warn corrupts judgment.",
+   "source": "woven"
+  },
+  {
+   "from": "organizational-autonomy-and-change",
+   "verb": "instantiates",
+   "to": "structural-coupling",
+   "why": "Both describe the same systems-biology mechanism applied to institutions: an organization, like Maturana and Varela's autonomous living system, cannot be redesigned from outside — an intervention can only trigger internal restructuring, never specify or direct what it becomes.",
+   "source": "woven"
+  },
+  {
+   "from": "survival-anxiety-vs-learning-anxiety",
+   "verb": "tempers",
+   "to": "crisis-as-habit-lever",
+   "why": "Crisis-as-habit-lever claims a shared shock opens a window for change, but Schein's distinction tempers that: the shock only produces survival anxiety — engagement, urgency, even anger — while real change stalls unless learning anxiety, the fear of incompetence at the new way, is separately addressed with protected time and role clarity.",
+   "source": "woven"
+  },
+  {
+   "from": "the-iceberg-of-change",
+   "verb": "parallels",
+   "to": "iceberg-theory-of-change",
+   "why": "Both use the iceberg for the same claim — the visible layer of change is a small fraction of what determines success — though they put different material below the waterline: Kanban Change Leadership submerges the emotional depths of fear and relationship, Strategic Thinking submerges the routines, meetings, and structures that decide whether change sticks.",
+   "source": "woven"
+  },
+  {
+   "from": "teams-as-complex-adaptive-systems",
+   "verb": "parallels",
+   "to": "type-ii-emergent-properties",
+   "why": "Two independent systems frameworks converge on the same claim: team or organizational performance is emergent — it lives in the running interactions among parts, cannot be decomposed to individual members, and can only be shaped indirectly by adjusting the conditions that generate it.",
+   "source": "woven"
+  },
+  {
+   "from": "goalodicy",
+   "verb": "tempers",
+   "to": "mission-tests",
+   "why": "Mission tests assume a scheduled checkpoint will trigger course-correction, but goalodicy names the condition under which that fails: once a goal is fused with identity, disconfirming results at the checkpoint — like the Everest climbers' own pre-agreed turnaround times — get reinterpreted as reasons to push harder, not stop.",
+   "source": "woven"
+  },
+  {
+   "from": "team-alignment-agreements",
+   "verb": "parallels",
+   "to": "behavioral-ground-rules",
+   "why": "Both convert assumed, unstated norms of cooperation into explicit, negotiated behaviors — working agreements on interaction and decision rights, ground rules like testing assumptions and separating advocacy from inquiry — because the unstated version silently produces conflict.",
+   "source": "woven"
+  },
+  {
+   "from": "api-is-broken",
+   "verb": "parallels",
+   "to": "espoused-theory-vs-theory-in-use",
+   "why": "The same gap, named twice: leaders who adopt agile ceremonies while running command-and-control is Kim's diagnosis of \"the API is broken,\" and it is precisely Argyris's espoused theory (what leaders claim to believe) diverging from their theory-in-use (what their behavior reveals).",
+   "source": "woven"
+  },
+  {
+   "from": "false-trust-vs-fake-trust",
+   "verb": "tempers",
+   "to": "high-trust-servant-leadership",
+   "why": "Covey names the exact conditions under which claimed high-trust servant-leadership isn't real: granting responsibility without the authority or resources to use it, or performing trust while secretly micromanaging — both indistinguishable in effect from the control it claims to replace.",
+   "source": "woven"
+  },
+  {
+   "from": "performance-progression-three-levels",
+   "verb": "parallels",
+   "to": "dreyfus-model-skill-acquisition",
+   "why": "Both insist capability moves through qualitatively distinct stages needing different support at each: Great Big Agile's Adopting- Transforming-Mastering progression mirrors Dreyfus's five stages from novice to expert, and both warn against stage mismatch — premature escalation on one side, uniform guidance that fits no stage on the other.",
+   "source": "woven"
+  },
+  {
+   "from": "skilled-incompetence",
+   "verb": "tempers",
+   "to": "values-traceability",
+   "why": "Argyris's skilled incompetence names the failure mode values-traceability can't detect: people become genuinely skilled at satisfying the mapping from values through ceremonies to observable behavior while their actual theory-in-use stays completely untouched underneath.",
+   "source": "woven"
+  },
+  {
+   "from": "goal-setting-as-agility-barrier",
+   "verb": "contradicts",
+   "to": "objectives-and-key-results",
+   "why": "Baker argues fixed goals, even OKRs' quantified key results, anchor thinking to a predetermined outcome and suppress the wider search that finds better options; Doerr argues the same quantified goal-setting mechanism is what drives high performance — opposite predictions.",
+   "source": "woven"
+  },
+  {
+   "from": "taylorism-and-modern-management",
+   "verb": "parallels",
+   "to": "snowmobile-mismatch",
+   "why": "Both diagnose the same structural mismatch: a system built for one environment — factory-floor scientific management, small tribal groups — degrades when run unchanged inside today's, and both insist the fix must target the design, not the people operating inside it.",
+   "source": "woven"
+  },
+  {
+   "from": "psychological-contract-collaboration",
+   "verb": "parallels",
+   "to": "advice-process",
+   "why": "Both push decision-relevant judgment outward from hierarchical command toward whoever has standing to act: Baker's new psychological contract expects employees to exercise judgment and surface problems within their roles rather than just execute, and Laloux's advice process makes an extreme, formal version concrete — anyone may decide, contingent on consultation rather than rank.",
+   "source": "woven"
+  },
+  {
+   "from": "agility-not-flexibility",
+   "verb": "parallels",
+   "to": "transient-competitive-advantage",
+   "why": "Both reject treating a capability as a one-time perk to be granted or defended, insisting it be operated continuously as a core competitive capability that responds to volatility — workforce agility as mutual business capability, McGrath's advantage as a wave to be surfed, not held.",
+   "source": "woven"
+  },
+  {
+   "from": "cultural-barriers-to-agility",
+   "verb": "parallels",
+   "to": "scarcity-culture",
+   "why": "Both argue that naming the rational case — clear business logic, stated values — is not enough to produce change, because the actual driver is an unexamined emotional operating logic: risk aversion and self-limiting belief, or Brown's chronic \"never enough\" running on shame and comparison.",
+   "source": "woven"
+  },
+  {
+   "from": "sweet-spot-mutual-benefit",
+   "verb": "parallels",
+   "to": "dichotomy-to-complementarity",
+   "why": "Both reject framing two stakeholders' interests as a zero-sum trade-off: treating employer and employee benefit, or opposing tendencies generally, as separate dimensions rather than one axis opens a design space where both sides gain together instead of one being sacrificed.",
+   "source": "woven"
+  },
+  {
+   "from": "deliberate-practice-for-leadership",
+   "verb": "parallels",
+   "to": "deep-practice",
+   "why": "Both reject the innate-talent framing of skill, insisting it's built through structured practice operating right at the edge of current ability with continuous, immediate feedback and error-correction — not passive experience, repetition, or assumed traits.",
+   "source": "woven"
+  },
+  {
+   "from": "gemba-direct-observation",
+   "verb": "parallels",
+   "to": "knowledge-as-knowing",
+   "why": "Both argue real judgment is inseparable from direct, situated engagement with the actual context: gemba values firsthand observation over filtered reports, and Wenger's knowledge-as-knowing treats expertise as active judgment in the moment, exactly what is lost once it's extracted and reported secondhand.",
+   "source": "woven"
+  },
+  {
+   "from": "adaptive-governance",
+   "verb": "contradicts",
+   "to": "critical-chain",
+   "why": "Critical Chain pools safety time into centrally-scheduled buffers to control delivery from a detailed plan, while adaptive governance replaces upfront scheduling with principles and boundaries that let teams sense and self-steer.",
+   "source": "woven"
+  },
+  {
+   "from": "adaptive-governance",
+   "verb": "parallels",
+   "to": "sense-and-respond-steering",
+   "why": "Both replace upfront forecasts and fixed plans with continuous, in-the-moment sensing and adjustment — adaptive governance for portfolio steering via principles, sense-and-respond-steering for whole-org budgeting — the same swap.",
+   "source": "woven"
+  },
+  {
+   "from": "portfolio-prioritization-by-value",
+   "verb": "parallels",
+   "to": "five-focusing-steps",
+   "why": "Both reject optimizing each project or resource locally in favor of a global flow view of the whole system — aggregate WIP limits under Little's Law on one side, TOC's subordinate-everything-to-the-constraint cycle on the other.",
+   "source": "woven"
+  },
+  {
+   "from": "autonomous-feature-teams",
+   "verb": "parallels",
+   "to": "multidimensional-organization",
+   "why": "Both restructure around outward-facing outcomes instead of internal specialization — feature teams organized around complete customer-facing features via Conway's Law, Ackoff's ends-oriented programs set against means-oriented input units — so that delivery no longer waits on functional silos.",
+   "source": "woven"
+  },
+  {
+   "from": "feature-based-program-metrics",
+   "verb": "parallels",
+   "to": "throughput-accounting",
+   "why": "Both discard local efficiency proxies — team velocity or utilization, per-unit cost — for one global measure tied to what actually reaches the customer, refusing to let busyness substitute for delivered value.",
+   "source": "woven"
+  },
+  {
+   "from": "rolling-wave-planning",
+   "verb": "parallels",
+   "to": "successive-approximation-design",
+   "why": "Both replace a single comprehensive upfront plan with iterative approximation — the plan is deliberately provisional and re-cut in cycles as reality and constraints clarify, rather than committed once and executed blind.",
+   "source": "woven"
+  },
+  {
+   "from": "small-world-networks",
+   "verb": "parallels",
+   "to": "informal-structure-complements-formal",
+   "why": "Both solve cross-team coordination through decentralized peer links rather than formal hierarchy — information hops through a few well-connected bridges faster than it could move up and down a chain of command.",
+   "source": "woven"
+  },
+  {
+   "from": "cultural-assimilation-via-mentoring",
+   "verb": "parallels",
+   "to": "mentor-dynamic",
+   "why": "Both transmit tacit culture and craft through sustained direct personal modeling rather than instruction or documentation — an embedded mentor demonstrating agile behavior day to day, a master transmitting a discipline's feel — because the tacit part never survives being written down.",
+   "source": "woven"
+  },
+  {
+   "from": "task-driven-knowledge-transfer",
+   "verb": "parallels",
+   "to": "ideal-apprenticeship",
+   "why": "Both reject classroom transmission for competence built inside real task performance — hands-on participation with sign-off, or observation-practice- experimentation — because doing, not being told, is what embeds skill.",
+   "source": "woven"
+  },
+  {
+   "from": "knowledge-worker-empowerment",
+   "verb": "parallels",
+   "to": "knowledge-worker-as-volunteer",
+   "why": "Both argue knowledge workers can't be directed by prescriptive control because expertise is inseparable from them — Drucker manages them like volunteers who choose to contribute, the agile enterprise empowers adaptive action instead.",
+   "source": "woven"
+  },
+  {
+   "from": "enterprise-agility-threshold",
+   "verb": "contradicts",
+   "to": "economic-moat",
+   "why": "Buffett claims some businesses can be chosen precisely because their moat structurally insulates them from the pace of change; enterprise-agility- threshold claims no such insulated position exists once the baseline for \"responsive enough\" keeps rising — opposing bets on whether insulation from change is achievable.",
+   "source": "woven"
+  },
+  {
+   "from": "sense-and-respond",
+   "verb": "parallels",
+   "to": "continuous-environmental-scan",
+   "why": "Both treat monitoring the environment for threats and opportunities as a permanent, always-on capability rather than a periodic planning event, with designated people prepared to act on what's sensed.",
+   "source": "woven"
+  },
+  {
+   "from": "value-stream-configuration",
+   "verb": "parallels",
+   "to": "value-networks",
+   "why": "Both show the same capability or technology is worth something different depending on which value stream or value network it's plugged into — value is relational to context, never intrinsic to the capability itself.",
+   "source": "woven"
+  },
+  {
+   "from": "definition-of-done-at-scale",
+   "verb": "parallels",
+   "to": "good-checklist-design",
+   "why": "Both convert an implicit, individually-held sense of \"finished\" into an explicit, shared, evolvable standard, because relying on memory or one team's judgment doesn't hold once many hands and sites are involved.",
+   "source": "woven"
+  },
+  {
+   "from": "shippable-quality-standards",
+   "verb": "parallels",
+   "to": "decision-hierarchy",
+   "why": "Both resolve overload by sorting every incoming item into one of a fixed set of action buckets by rule — severity times impact, or already-decided versus decide-now — so triage stops being re-litigated case by case.",
+   "source": "woven"
+  },
+  {
+   "from": "cross-functional-generalizing-specialists",
+   "verb": "parallels",
+   "to": "latticework-of-models",
+   "why": "Both argue real capability comes from combining deep expertise in one discipline with working breadth across others, since a single specialty, like a single mental model, reliably fails once a problem falls outside it.",
+   "source": "woven"
+  },
+  {
+   "from": "enterprise-aware-agility",
+   "verb": "parallels",
+   "to": "control-influence-appreciate",
+   "why": "Both insist a team's effectiveness depends on actively engaging the parts of its environment it cannot command — DAD treats enterprise architecture, governance, and operations as collaborators rather than obstacles, echoing Gharajedaghi's point that most of what shapes outcomes can only be influenced or appreciated, never controlled.",
+   "source": "woven"
+  },
+  {
+   "from": "risk-value-driven-lifecycle",
+   "verb": "parallels",
+   "to": "de-risking-in-priority-order",
+   "why": "Both sequence work by risk exposure first, not value alone, testing or gating the riskiest assumption earliest so a doomed effort gets killed cheaply instead of discovered late.",
+   "source": "woven"
+  },
+  {
+   "from": "structural-fixes-dont-reach-behavior",
+   "verb": "tempers",
+   "to": "culture-follows-structure",
+   "why": "Larman claims restructuring incentives reliably reshapes behavior; Argyris names the condition where this fails — when defensive theory-in-use goes untouched, people re-enact the same reasoning inside whatever new structure was built.",
+   "source": "woven"
+  },
+  {
+   "from": "culture-follows-structure",
+   "verb": "contradicts",
+   "to": "organizational-paradigms",
+   "why": "Larman argues structure and incentives shape culture, not stated values; Laloux argues a shift in organizational consciousness must come first and structure follows from it — inverse causal arrows for the same problem.",
+   "source": "woven"
+  },
+  {
+   "from": "larman-laws-of-organizational-behavior",
+   "verb": "tempers",
+   "to": "eight-step-change-process",
+   "why": "Kotter's eight steps assume faithful execution produces real change; Larman's laws predict existing groups reinterpret any new role or structure to preserve their own status, undermining the empowerment and win steps regardless.",
+   "source": "woven"
+  },
+  {
+   "from": "lean-thinking-and-respect-for-people",
+   "verb": "parallels",
+   "to": "positive-deviance",
+   "why": "Both locate the source of improvement in direct observation of people already doing the work, not directives from above — respect means developing what's already there, not overwriting it with an outside prescription.",
+   "source": "woven"
+  },
+  {
+   "from": "local-vs-system-optimization",
+   "verb": "parallels",
+   "to": "drum-buffer-rope",
+   "why": "Both show letting each part run at its own local efficiency maximum degrades the whole — TOC paces every resource to the system's one constraint, Lean insists specialty groups optimize the shared value stream, not their own output.",
+   "source": "woven"
+  },
+  {
+   "from": "work-breakdown-structure-lock-in",
+   "verb": "tempers",
+   "to": "architecture-centric-coordination",
+   "why": "Architecture-centric-coordination recommends permanently aligning team boundaries to an upfront architecture to enable parallel work; WBS lock-in names the cost — once teams and contracts form around it, revising it later gets organizationally and legally expensive.",
+   "source": "woven"
+  },
+  {
+   "from": "unbundling-business-models",
+   "verb": "tempers",
+   "to": "capability-based-architecture",
+   "why": "Capability-based-architecture assumes shared services reused across silos capture economies of scale; unbundling-business-models names when this fails — customer-relationship, product-innovation, and infrastructure capabilities run on incompatible economics, so one shared service degrades all three.",
+   "source": "woven"
   }
  ]
 }
