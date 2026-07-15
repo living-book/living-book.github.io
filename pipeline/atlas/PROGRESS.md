@@ -87,4 +87,14 @@ t3 weave: systems-decisions ✓23, people-psyche ✓27; all 4 ✓ (98); verify: 
 145 orphans → pipeline/atlas/orphans3/ORPHANS.md (Biz 44, Psych 24, Lead 23, Tech 21, Agile 20, Sys 13).
 - [x] 4 Sonnet weavers: 127 edges (biz 44 [100%!], lead-sys 26, psych-agile 38 [93%], tech 19); 14 honest unlinks; zero session-limit kills
 - [x] 2 Sonnet verifiers: kept 118 (biz 44→39, lead-sys 26→24, psych-agile 38→37, tech 19→18); 9 dropped, 7 fixed; biz 100% link-rate claim busted (5 forced)
-- [x] rebuild: 121 books, 839 concepts, 762 edges (78% cross-domain, 119 tempers + 26 contradicts), 21 orphans; corpus 1031 chunks; strict build + smoke (839 nodes, 0 errors) → PR #6
+- [x] rebuild: 121 books, 839 concepts, 762 edges (78% cross-domain, 119 tempers + 26 contradicts), 21 orphans; corpus 1031 chunks; strict build + smoke (839 nodes, 0 errors) → PR #6 (merged)
+
+## Tranche 5 (user triage 2026-07-14: Tech + Systems first). PR #6 merged; branch atlas-tranche-5 off main.
+User triaged all 271 remaining books via artifact (161 next / 109 skip / 1 later) — decisions in pipeline/atlas/triage/{TRIAGE.md,triage_state.json}.
+14 books = all "next" picks in Technology & Data (7) + Systems Thinking & Philosophy (7). +14 BOOKS entries added to build_atlas.py.
+- [x] Tech 7 books → 44 concepts (ai-guide 7, mgmt-sci 6, logic-discrete 7, math-econ 7, sci-evidence 6, math-hacker 5, math-sci-2025 6); zero session kills
+- [x] Sys 7 books → 39 concepts (conscious-language 6, direct-truth 7, ethics-of-precaution 3 [hand-reconstructed garbled tables], yoga-of-time-travel 4, ultimate-why 6, strategic-thinking 6, gharajedaghi 7)
+- [x] 2 weavers: tech 46 (43/44 linked — flagged), systems 30 (77% honest rate, 9 unlinks)
+- [x] 2 verifiers: tech 46→40 (6 dropped, 2 fixed — 98% link claim busted again), systems 30→29 (1 dropped, 2 extends→parallels)
+- [x] rebuild: 135 books, 922 concepts, 831 edges (76% cross-domain; tempers 129, contradicts 31, instantiates 126, formalizes 22, extends 58, parallels 465), 37 orphans; corpus 1114 chunks; strict build clean; smoke 922 nodes / 0 errors → PR #7
+Known issues to fix post-wave: (1) linear-programming slug collision — written by BOTH intro-to-management-science and mathematics-for-economics-and-business; rename econ one to linear-programming-corner-points. (2) strategic-thinking-for-leaders source content is actually "50 One-Minute Tips for Leaders" (same Haines/systems framework) — title kept, noted. (3) math-hacker author = Paul Carson (fixed in BOOKS).

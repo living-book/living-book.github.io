@@ -1,0 +1,337 @@
+- from: certainty-factors
+  verb: tempers
+  to: bayesian-updating
+  why: >-
+    MYCIN's designers abandoned Bayesian updating because domain experts could not
+    supply coherent priors or joint distributions and no reliable statistical data
+    existed, so certainty factors substitute a cheaper, locally-consistent scoring
+    rule that trades theoretical grounding for practical elicitability.
+- from: frame-based-knowledge-representation
+  verb: instantiates
+  to: physical-symbol-system-hypothesis
+  why: >-
+    A frame is exactly a physical structure of symbols (slots, values, defaults)
+    combined and manipulated by defined procedures to produce intelligent behavior
+    — a concrete engineering instance of the hypothesis that symbol systems suffice
+    for general intelligent action.
+- from: fuzzy-sets-and-linguistic-variables
+  verb: parallels
+  to: relative-risk-doubling
+  why: >-
+    Both name the same structural failure — an inherently continuous, graded
+    quantity (vehicle range, relative risk) gets collapsed into a sharp yes/no
+    threshold that produces an arbitrary jump in classification or verdict right
+    at the boundary, discarding the real gradation the number encoded.
+- from: hybrid-intelligent-systems
+  verb: parallels
+  to: racing-with-machines
+  why: >-
+    Both reject picking one best performer in favor of deliberately pairing two
+    kinds whose weaknesses don't overlap — expert systems plus neural networks,
+    or humans plus machines — so the combination covers gaps neither component
+    can cover alone.
+- from: knowledge-acquisition-bottleneck
+  verb: parallels
+  to: polanyis-paradox
+  why: >-
+    The cheese tester who could not name what he actually judged by (smell, not
+    surface tension) is the same phenomenon Polanyi names directly — skilled
+    performance routinely outruns the performer's ability to state the rules
+    behind it, so introspection cannot be trusted as a readout of expertise.
+- from: rule-based-inference
+  verb: parallels
+  to: differential-etiology
+  why: >-
+    Backward chaining starts from a hypothesis and recursively tests candidate
+    sub-goals until they bottom out in known facts; differential etiology starts
+    from a diagnosis and eliminates candidate causes one by one until only one
+    survives — both are goal-directed elimination search run backward from a claim.
+- from: schema-theorem
+  verb: parallels
+  to: recombinant-innovation
+  why: >-
+    Holland's building-block hypothesis and recombinant innovation make the same
+    claim in different domains — progress comes from short, reusable partial
+    patterns being propagated and recombined across generations, not from
+    exhaustively searching or inventing whole solutions from scratch.
+- from: critical-chain
+  verb: extends
+  to: critical-path-method
+  why: >-
+    Critical chain keeps CPM's network of dependent activities but adds resource
+    contention and pools individual tasks' hidden safety margins into shared
+    project buffers, fixing the padding and student-syndrome behavior that a
+    pure activity-dependency network leaves unaddressed.
+- from: fourfold-pattern-risk-attitudes
+  verb: tempers
+  to: decision-analysis-under-uncertainty
+  why: >-
+    Decision analysis prescribes ranking alternatives by expected value at each
+    chance node, but the fourfold pattern shows people systematically flip risk
+    preference across the same payoff table depending on whether outcomes are
+    framed as likely or unlikely gains or losses, so the expected-value ranking
+    is often not the one people would actually choose.
+- from: decision-analysis-under-uncertainty
+  verb: formalizes
+  to: clarifying-the-decision
+  why: >-
+    Clarifying the decision demands that a real decision have alternatives,
+    uncertainty, stakes, and an owner before measurement starts; the payoff
+    table and decision tree turn exactly those elements into an explicit,
+    solvable mathematical structure.
+- from: linear-programming-corner-points
+  verb: formalizes
+  to: linear-programming
+  why: >-
+    The applied management-science method solves LP problems by graphing the
+    feasible region and checking its corners; the corner-point theorem is the
+    rigorous proof of why that shortcut is valid — the optimum of a linear
+    objective over a linear feasible region always sits at a vertex.
+- from: five-focusing-steps
+  verb: tempers
+  to: linear-programming
+  why: >-
+    Linear programming solves for one global optimum treating every constraint
+    symmetrically, but five focusing steps argues a real system has exactly one
+    binding constraint at a time, and "optimizing" non-constraint resources
+    wastes effort or even lowers total throughput.
+- from: queueing-theory
+  verb: formalizes
+  to: queues-as-root-cause
+  why: >-
+    Queues as the root cause claims qualitatively that invisible waiting lines,
+    not slow activities, drive a system's waste and risk; queueing theory gives
+    that claim rigorous form — Poisson arrival and service distributions that
+    predict wait time and let it be traded against service cost.
+- from: queueing-theory
+  verb: tempers
+  to: just-in-time
+  why: >-
+    Queueing theory shows a waiting line forms whenever arrivals are random,
+    even when average capacity is sufficient, which is exactly the condition
+    under which a zero-buffer just-in-time pull system breaks down — mean-based
+    capacity planning fails under real variability.
+- from: sensitivity-analysis
+  verb: parallels
+  to: lagrange-multipliers
+  why: >-
+    LP's dual value and the Lagrange multiplier λ do the same job through
+    different machinery — each equals the marginal change in the optimum's
+    value per unit change in a binding constraint's limit, converting a
+    constraint from a fixed wall into a priced object.
+- from: simulation-as-experimentation
+  verb: parallels
+  to: monte-carlo-risk-modeling
+  why: >-
+    Both explicitly reject collapsing uncertain inputs into a handful of point
+    estimates — three what-if scenarios, or a high/medium/low label — in favor
+    of repeatedly sampling full probability distributions to reveal the entire
+    range and likelihood of outcomes, especially the probability of loss.
+- from: flow-items
+  verb: instantiates
+  to: equivalence-relations-and-partitions
+  why: >-
+    A MECE taxonomy — features, defects, risks, and debts, mutually exclusive
+    and collectively exhaustive — is exactly a partition: the classification
+    guarantees every unit of work lands in exactly one class, with no overlap
+    or gap, the same guarantee an equivalence relation provides automatically.
+- from: multiplicative-counting-principle
+  verb: parallels
+  to: false-independence-assumption
+  why: >-
+    Both center on the same requirement for correct multi-step multiplication —
+    each step's count or probability must be assessed conditional on what
+    already happened, not assumed independent — one teaching it as the
+    principle's defining feature, the other naming its violation as the most
+    common way multiplied probabilities mislead.
+- from: validity-vs-truth
+  verb: parallels
+  to: decisions-vs-outcomes
+  why: >-
+    Both decouple two axes people habitually fuse — the logical correctness of
+    a reasoning process versus the truth or goodness of what it produced. A
+    valid inference can reach a false conclusion from a false premise, just as
+    a well-made decision can turn out badly by bad luck.
+- from: reverse-conway-maneuver
+  verb: parallels
+  to: every-operation-has-a-reverse
+  why: >-
+    Both treat reversal as a standing, reusable move rather than a one-off
+    trick: the math-hacker rule says any forward operation has an invokable
+    inverse, and the maneuver applies the same habit to a causal chain — if
+    org structure normally produces architecture, deliberately running that
+    relationship backward (design the org to imply the architecture you want)
+    is the organizational-design version of asking "what's the reverse move
+    here?"
+- from: key-change-effect
+  verb: parallels
+  to: money-illusion
+  why: >-
+    Both turn on separating an invariant "shape" from a scale layered on top —
+    key-change-effect strips decimal points and zeroes to reveal the same core
+    digits, while money illusion names the mistake of treating a changed
+    nominal scale as if it changed the real value dressed up in it.
+- from: mechanism-eliminates-external-verification
+  verb: parallels
+  to: confident-confabulation
+  why: >-
+    Both describe the same failure signature — someone or something holding
+    only the surface procedure, not the mechanism, produces a confident answer
+    indistinguishable from a correct one and has no internal way to register
+    it might be wrong, so only an outside check can catch it.
+- from: the-algebra-trick
+  verb: parallels
+  to: rule-based-inference
+  why: >-
+    Both convert a hard forward search into an easy backward one by starting
+    from the target and asking what would produce it — backward chaining sets
+    a goal and searches for rules that prove it, the algebra trick rewrites a
+    division as "unknown times known equals target" and solves for the gap.
+- from: computation-data-twin-drivers
+  verb: tempers
+  to: four-waves-of-ai
+  why: >-
+    Four Waves of AI credits the availability of a new data type as the single
+    unlocking mechanism behind each wave; Twin Drivers complicates that
+    single-factor story by showing data is only one of two independent forces
+    (the other being cheap computation) that push a field toward needing
+    formal methods — a wave's timing could equally be gated by compute, not
+    just by which data became available.
+- from: curiosity-driven-payoff
+  verb: tempers
+  to: objectives-and-key-results
+  why: >-
+    OKRs demand a small set of quantitative, verifiable key results measuring
+    progress toward a goal within a cycle, but curiosity-driven research's
+    payoff is real only over decades and is fundamentally unpredictable in
+    direction and timing — exactly the profile a near-term key result cannot
+    capture or reward.
+- from: curiosity-driven-payoff
+  verb: parallels
+  to: options-thinking
+  why: >-
+    Funding abstract research for no application in view is a real option —
+    a small ongoing cost paid for the uncertain right to have a framework
+    ready when some future problem happens to need exactly it, the same
+    asymmetric bet options thinking names in product and project decisions.
+- from: disciplinary-boundary-erosion
+  verb: instantiates
+  to: system-boundary
+  why: >-
+    A field's boundary is a relative binding pattern, not a fixed line — as
+    "dual citizens" at mathematics's edges become as tightly coupled to
+    neighboring fields' problems as to the discipline's center, the
+    institutional boundary stops matching the actual pattern of connection.
+- from: invisible-infrastructure
+  verb: tempers
+  to: cognifying
+  why: >-
+    Cognifying treats a capability disappearing into the background of every
+    process, the way electricity did, as the mark of successful diffusion;
+    invisible infrastructure shows that same invisibility is exactly the
+    condition under which the enabling capability stops attracting recognition
+    or investment even as dependence on it deepens.
+- from: t-shaped-mathematical-scientist
+  verb: parallels
+  to: symphony-synthesis
+  why: >-
+    Both name the same emerging high-value profile — someone who can move
+    across disciplinary boundaries and synthesize what specialists on either
+    side cannot see together — as the skill a field increasingly rewards once
+    isolated depth alone stops being sufficient at the frontier.
+- from: reverse-brain-drain
+  verb: parallels
+  to: economic-moat
+  why: >-
+    Both distinguish a genuinely durable advantage from one that only looks
+    durable because a favorable external condition hasn't changed yet — a
+    moat must survive without depending on any one factor outside the
+    institution's control, and a pipeline riding a closing opportunity gap
+    fails exactly that test.
+- from: marginal-gains-compounding
+  verb: instantiates
+  to: compounding-and-discounting
+  why: >-
+    1% daily improvement compounding into outsized long-run results is the
+    same geometric-growth formula, S = P(1+r)^n, applied to habits instead of
+    money — proportional gains multiplying on the prior total, not adding to
+    a fixed base.
+- from: second-half-of-the-chessboard
+  verb: instantiates
+  to: compounding-and-discounting
+  why: >-
+    Doubling grains on each successive chessboard square runs the same
+    geometric-growth formula at r=100% — the chessboard's late-stage explosion
+    is exactly what compounding predicts once the exponent grows large enough
+    to leave the region where the curve still looks linear.
+- from: value-based-pricing
+  verb: tempers
+  to: consumer-producer-surplus
+  why: >-
+    Consumer's surplus measures the value buyers keep because a market
+    charges one uniform price below what many would have paid; value-based
+    pricing is explicitly the strategy of pricing near what the job is worth
+    to each customer instead of at cost, deliberately shrinking that gap
+    rather than leaving it as a byproduct of uniform pricing.
+- from: throughput-accounting
+  verb: tempers
+  to: marginal-analysis
+  why: >-
+    Marginal analysis optimizes each product's own MR=MC in isolation, but
+    throughput accounting argues that once a system has one binding
+    constraint, a product's true marginal contribution depends on how much of
+    the constrained resource it consumes, not its standalone marginal revenue
+    and cost.
+- from: market-equilibrium
+  verb: instantiates
+  to: feedback-loops
+  why: >-
+    Supply and demand settling at their intersection, with any displacement
+    triggering a self-correcting price move, is a concrete economic case of a
+    balancing feedback loop — the same structure as a thermostat, stated in
+    the book's own terms.
+- from: price-elasticity
+  verb: parallels
+  to: quarter-power-scaling
+  why: >-
+    Both replace a raw derivative, which mixes incompatible units, with a
+    percentage-change ratio that stays comparable across different scales —
+    elasticity's %ΔQ/%ΔP and the three-quarter-power metabolic scaling
+    exponent are the same construction: a stable, unit-free sensitivity number
+    pulled out of curves living in different units entirely.
+- from: daubert-gatekeeping
+  verb: extends
+  to: narrow-expertise
+  why: >-
+    Narrow expertise warns that credentials don't transfer across domains and
+    audiences let them anyway; Daubert gatekeeping builds the missing
+    mechanism — a judge with no domain expertise screens testimony using
+    structural proxies (tested, peer-reviewed, error-rated, accepted) instead
+    of the credential itself.
+- from: daubert-gatekeeping
+  verb: parallels
+  to: believability-weighting
+  why: >-
+    Both replace raw authority or title with structured proxies for track
+    record and demonstrated reasoning quality — Daubert's testability,
+    peer-review, and error-rate factors and believability-weighting's
+    demonstrated ability to explain reasoning both judge trustworthiness by
+    evidence of reliability, not by credential or headcount.
+- from: general-vs-specific-causation
+  verb: parallels
+  to: good-of-the-whole
+  why: >-
+    Both refuse to let a claim about the aggregate transfer automatically to
+    any individual member — an agent capable of causing a disease across a
+    population need not have caused one plaintiff's disease, just as a whole
+    can be thriving while no single part is, because what's true of the
+    collective isn't reducible to what's true of its parts.
+- from: justice-vs-truth-deadline
+  verb: parallels
+  to: no-instant-rationality
+  why: >-
+    Both name the same fact about appraisal from different angles — a
+    research programme's status, like a scientific truth claim, is only ever
+    knowable in hindsight, with no forced moment when the evidence is
+    complete — exactly why a court's fixed deadline is structurally
+    incompatible with how science actually settles things.
