@@ -119,3 +119,6 @@ COST RESULT: 28/28 extractions on Haiku (~90-120k tok/book vs Sonnet) — qualit
 - [ ] Wave B (15 Haiku): psych books
 - [ ] QA gate, +30 BOOKS, CATALOG regen
 - [ ] 4 Sonnet weavers → 2 Sonnet verifiers → rebuild → strict+smoke → PR #9
+Tranche 7 result: waves A+B all 30 done (leadership 113 + psych 118 = 231 concepts; QA fails: 9 yaml colons/descriptions, 3 collisions renamed [powerful-questions→powerful-questions-in-coaching, thematic-goal→thematic-goal-workshop, skilled-incompetence→organizational-defensive-routines], 0 CATALOG edits by agents — new prompt rules worked).
+4 Sonnet weavers: 103 edges (coaching 24, leadership 29, behavior 27, emotion 23), honest unlink 45-62%. Verify: session-limit killed both verifiers mid-run (10:30am PT reset); relaunched → coaching 19, leadership 23, behavior 22, emotion 18 = 82 kept, 7 fixed, 21 dropped.
+Rebuild: 193 books, 1341 concepts, 996 edges (79% cross-domain; tempers 154, contradicts 41), 277 orphans (two-tranche residue — orphan pass overdue); corpus 1533 chunks; strict clean; smoke 1341 nodes/0 real errors → PR #9.
