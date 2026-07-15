@@ -1,0 +1,125 @@
+- from: knowledge-constraint
+  verb: parallels
+  to: principle-of-optimism
+  why: >-
+    Both reject the idea that adequate upfront analysis can substitute for
+    actually doing the work: Deutsch's rejection of "prophecy" — claiming to
+    know knowledge not yet created — and BDD's Knowledge Constraint — knowledge
+    of what to build increases only as the project unfolds — both insist the
+    needed knowledge must be created through engagement and iteration, not
+    gathered in advance by better planning.
+
+- from: pigs-and-chickens
+  verb: parallels
+  to: skin-in-the-game
+  why: >-
+    Both grant decision authority strictly to whoever bears the downside of the
+    outcome — Scrum's committed "pigs" versus merely interested "chickens" —
+    because unaccountable influence without exposure corrupts judgment the same
+    way Taleb's asymmetric risk-bearing does.
+
+- from: organized-complexity
+  verb: parallels
+  to: complexity-dimensions
+  why: >-
+    Both name a middle zone where a single deterministic method fails:
+    Weinberg's organized complexity sits between equation-based mechanics and
+    statistical averaging, yielding to neither; Schwaber's three multiplying
+    complexity dimensions — requirements, technology, people — similarly put
+    software beyond the reach of fully-specified upfront planning. Both conclude
+    that only continuous, adaptive engagement, not a bigger one-shot model, can
+    manage a system in this zone.
+
+- from: rewards-discourage-risk-taking
+  verb: tempers
+  to: advantage-contract-model
+  why: >-
+    adVantage claims splitting risk and reward via shared daily rates aligns
+    incentives fairly; Kohn's finding that working toward any extrinsic reward
+    narrows effort to exactly what's measured names a condition under which even
+    a "fair" incentive contract can still shrink risk-taking.
+
+- from: shared-pain-shared-gain
+  verb: instantiates
+  to: skin-in-the-game
+  why: >-
+    Splitting cost overruns and savings equally between client and contractor is
+    a concrete contractual mechanism that forces both parties to carry the
+    downside of their own decisions, the exact structural fix Taleb prescribes
+    against transferred-risk asymmetry.
+
+- from: mutual-trust-partnership
+  verb: parallels
+  to: trust-dividend-and-tax
+  why: >-
+    Both treat trust as an economic variable, not a soft value: Tamed Agility's
+    inter-organizational trust and Covey's trust dividend each claim low trust
+    taxes every transaction with friction and protective overhead that high
+    trust simply removes.
+
+- from: work-breakdown-structure-lock-in
+  verb: tempers
+  to: value-stream-architecture
+  why: >-
+    Value-stream architecture prescribes organizing around end-to-end flow
+    instead of functional silos; WBS lock-in names the condition where that
+    fails — once teams and contracts crystallize around an existing
+    decomposition, redrawing it becomes legally and organizationally expensive.
+
+- from: quality-attribute-primacy
+  verb: parallels
+  to: what-vs-how
+  why: >-
+    Both split a system's design into architecture/form (the stable structure)
+    and functionality (what it does) — though for different purposes: Lean
+    Architecture uses the split to justify different design cadences and
+    stakeholders for each side, while Software Architecture in Practice uses the
+    same architecture/functionality vocabulary to argue which side actually
+    governs quality attributes like performance and security. The two claims
+    share vocabulary and are compatible, but the second doesn't derive from or
+    formalize the first.
+
+- from: four-key-value-areas
+  verb: parallels
+  to: decision-quality-chain
+  why: >-
+    Both refuse a single number as a verdict on a complex capability: EBM's four
+    value areas and Decision Quality's six requirements each insist strength on
+    one dimension cannot mask weakness on another — the weak dimension governs
+    the whole.
+
+- from: feature-injection
+  verb: parallels
+  to: jobs-to-be-done
+  why: >-
+    Both refuse to start from a feature or product list: BDD's feature injection
+    works backward from discovered business value to the features that deliver
+    it, exactly as Christensen's job-to-be-done treats the underlying job, not
+    the product, as the real unit of design.
+
+- from: given-when-then
+  verb: parallels
+  to: quality-attribute-scenario
+  why: >-
+    Both convert a vague requirement into a fixed, testable template: Given-
+    When-Then's precondition/action/outcome clauses and the Quality Attribute
+    Scenario's source/stimulus/response fields each force ambiguous intent into
+    a structure specific enough to verify pass or fail.
+
+- from: organizational-commitment-required
+  verb: parallels
+  to: management-model-coherence
+  why: >-
+    Both reject piecemeal adoption: Making Sense of Agile insists agility only
+    works with full business-side commitment across functions, and Beyond
+    Budgeting shows why — a management model's practices interlock, so replacing
+    one piece while leaving the rest intact reintroduces the failure.
+
+- from: lean-agile-balance
+  verb: parallels
+  to: architecturally-significant-requirements
+  why: >-
+    Both argue upfront deliberation pays for later speed: Lean Architecture's
+    solid design reduces the cost of Agile's inspect-and-adapt cycles the same
+    way nailing the small set of architecturally significant requirements early
+    is what lets everything else be safely improvised later.

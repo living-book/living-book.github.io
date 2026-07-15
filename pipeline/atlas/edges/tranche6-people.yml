@@ -1,0 +1,230 @@
+# Lens: PEOPLE, CHANGE & LEADERSHIP
+# Anchor books: scrum-mastery, kanban-change-leadership, liftoff, great-big-agile,
+# performance-management-agile-orgs, agility-mindset, agile-leadership-kata
+
+- from: adaptive-retrospectives
+  verb: parallels
+  to: postmortem-ritual
+  why: >-
+    Both convert reflection into a structured, mandatory, action-forcing ritual
+    rather than a stated ideal — ADAPTIVE's eight practices turn habits of
+    reflection into concrete action, and Creativity Inc.'s postmortem forces an
+    organization to consolidate lessons it would otherwise let evaporate.
+
+- from: sprint-goal-as-motivation
+  verb: parallels
+  to: worthwhile-vs-instrumental-goal
+  why: >-
+    A sprint goal reframes backlog items as work in service of shared purpose
+    rather than an instrumental checklist, and Maxwell's distinction explains
+    why: goals valued in themselves generate lasting enthusiasm and creativity,
+    while instrumental goals generate only compliance.
+
+- from: product-owner-availability
+  verb: parallels
+  to: bottleneck-targeting
+  why: >-
+    Both insist on locating the one real constraint precisely and addressing
+    it directly — a proxy product owner papers over an unavailable PO instead
+    of quantifying and fixing the true bottleneck, exactly the workaround
+    Sull and Eisenhardt's bottleneck-targeting method is built to rule out.
+
+- from: dialog-based-change
+  verb: parallels
+  to: mutual-learning-core-values
+  why: >-
+    Both replace persuasion with a non-manipulative communicative discipline
+    as the actual mechanism of change: Kanban's dialog demands listening,
+    suspending judgment, and voicing authentically, and Schwarz's core values
+    demand valid information, free choice, commitment, and compassion — two
+    disciplines built on the same refusal to win by rhetoric.
+
+- from: embedding-kaizen-culture
+  verb: parallels
+  to: vulnerability-based-trust
+  why: >-
+    Both hold that people only surface problems and admit weakness when doing
+    so cannot be used against them: a kaizen culture makes psychological
+    safety a precondition for anyone proposing improvements, and Lencioni
+    makes vulnerability-based trust the precondition for a team functioning
+    at all — safety before candor, in both books.
+
+- from: mindfulness-in-leadership
+  verb: parallels
+  to: two-modes-of-attention
+  why: >-
+    Kanban leaders systematically observe the whole system — market, process,
+    structure, collaboration, self — before acting, which is McGilchrist's
+    broad, contextual attention mode; acting first without that scan collapses
+    into the narrow, manipulative mode both authors warn corrupts judgment.
+
+- from: organizational-autonomy-and-change
+  verb: instantiates
+  to: structural-coupling
+  why: >-
+    Both describe the same systems-biology mechanism applied to institutions:
+    an organization, like Maturana and Varela's autonomous living system,
+    cannot be redesigned from outside — an intervention can only trigger
+    internal restructuring, never specify or direct what it becomes.
+
+- from: survival-anxiety-vs-learning-anxiety
+  verb: tempers
+  to: crisis-as-habit-lever
+  why: >-
+    Crisis-as-habit-lever claims a shared shock opens a window for change,
+    but Schein's distinction tempers that: the shock only produces survival
+    anxiety — engagement, urgency, even anger — while real change stalls
+    unless learning anxiety, the fear of incompetence at the new way, is
+    separately addressed with protected time and role clarity.
+
+- from: the-iceberg-of-change
+  verb: parallels
+  to: iceberg-theory-of-change
+  why: >-
+    Both use the iceberg for the same claim — the visible layer of change is
+    a small fraction of what determines success — though they put different
+    material below the waterline: Kanban Change Leadership submerges the
+    emotional depths of fear and relationship, Strategic Thinking submerges
+    the routines, meetings, and structures that decide whether change sticks.
+
+- from: teams-as-complex-adaptive-systems
+  verb: parallels
+  to: type-ii-emergent-properties
+  why: >-
+    Two independent systems frameworks converge on the same claim: team or
+    organizational performance is emergent — it lives in the running
+    interactions among parts, cannot be decomposed to individual members,
+    and can only be shaped indirectly by adjusting the conditions that
+    generate it.
+
+- from: goalodicy
+  verb: tempers
+  to: mission-tests
+  why: >-
+    Mission tests assume a scheduled checkpoint will trigger course-correction,
+    but goalodicy names the condition under which that fails: once a goal is
+    fused with identity, disconfirming results at the checkpoint — like the
+    Everest climbers' own pre-agreed turnaround times — get reinterpreted as
+    reasons to push harder, not stop.
+
+- from: team-alignment-agreements
+  verb: parallels
+  to: behavioral-ground-rules
+  why: >-
+    Both convert assumed, unstated norms of cooperation into explicit,
+    negotiated behaviors — working agreements on interaction and decision
+    rights, ground rules like testing assumptions and separating advocacy
+    from inquiry — because the unstated version silently produces conflict.
+
+- from: api-is-broken
+  verb: parallels
+  to: espoused-theory-vs-theory-in-use
+  why: >-
+    The same gap, named twice: leaders who adopt agile ceremonies while
+    running command-and-control is Kim's diagnosis of "the API is broken,"
+    and it is precisely Argyris's espoused theory (what leaders claim to
+    believe) diverging from their theory-in-use (what their behavior reveals).
+
+- from: false-trust-vs-fake-trust
+  verb: tempers
+  to: high-trust-servant-leadership
+  why: >-
+    Covey names the exact conditions under which claimed high-trust
+    servant-leadership isn't real: granting responsibility without the
+    authority or resources to use it, or performing trust while secretly
+    micromanaging — both indistinguishable in effect from the control it
+    claims to replace.
+
+- from: performance-progression-three-levels
+  verb: parallels
+  to: dreyfus-model-skill-acquisition
+  why: >-
+    Both insist capability moves through qualitatively distinct stages
+    needing different support at each: Great Big Agile's Adopting-
+    Transforming-Mastering progression mirrors Dreyfus's five stages from
+    novice to expert, and both warn against stage mismatch — premature
+    escalation on one side, uniform guidance that fits no stage on the other.
+
+- from: skilled-incompetence
+  verb: tempers
+  to: values-traceability
+  why: >-
+    Argyris's skilled incompetence names the failure mode values-traceability
+    can't detect: people become genuinely skilled at satisfying the mapping
+    from values through ceremonies to observable behavior while their actual
+    theory-in-use stays completely untouched underneath.
+
+- from: goal-setting-as-agility-barrier
+  verb: contradicts
+  to: objectives-and-key-results
+  why: >-
+    Baker argues fixed goals, even OKRs' quantified key results, anchor
+    thinking to a predetermined outcome and suppress the wider search that
+    finds better options; Doerr argues the same quantified goal-setting
+    mechanism is what drives high performance — opposite predictions.
+
+- from: taylorism-and-modern-management
+  verb: parallels
+  to: snowmobile-mismatch
+  why: >-
+    Both diagnose the same structural mismatch: a system built for one
+    environment — factory-floor scientific management, small tribal groups —
+    degrades when run unchanged inside today's, and both insist the fix must
+    target the design, not the people operating inside it.
+
+- from: psychological-contract-collaboration
+  verb: parallels
+  to: advice-process
+  why: >-
+    Both push decision-relevant judgment outward from hierarchical command
+    toward whoever has standing to act: Baker's new psychological contract
+    expects employees to exercise judgment and surface problems within their
+    roles rather than just execute, and Laloux's advice process makes an
+    extreme, formal version concrete — anyone may decide, contingent on
+    consultation rather than rank.
+
+- from: agility-not-flexibility
+  verb: parallels
+  to: transient-competitive-advantage
+  why: >-
+    Both reject treating a capability as a one-time perk to be granted or
+    defended, insisting it be operated continuously as a core competitive
+    capability that responds to volatility — workforce agility as mutual
+    business capability, McGrath's advantage as a wave to be surfed, not held.
+
+- from: cultural-barriers-to-agility
+  verb: parallels
+  to: scarcity-culture
+  why: >-
+    Both argue that naming the rational case — clear business logic, stated
+    values — is not enough to produce change, because the actual driver is an
+    unexamined emotional operating logic: risk aversion and self-limiting
+    belief, or Brown's chronic "never enough" running on shame and comparison.
+
+- from: sweet-spot-mutual-benefit
+  verb: parallels
+  to: dichotomy-to-complementarity
+  why: >-
+    Both reject framing two stakeholders' interests as a zero-sum trade-off:
+    treating employer and employee benefit, or opposing tendencies generally,
+    as separate dimensions rather than one axis opens a design space where
+    both sides gain together instead of one being sacrificed.
+
+- from: deliberate-practice-for-leadership
+  verb: parallels
+  to: deep-practice
+  why: >-
+    Both reject the innate-talent framing of skill, insisting it's built
+    through structured practice operating right at the edge of current
+    ability with continuous, immediate feedback and error-correction — not
+    passive experience, repetition, or assumed traits.
+
+- from: gemba-direct-observation
+  verb: parallels
+  to: knowledge-as-knowing
+  why: >-
+    Both argue real judgment is inseparable from direct, situated engagement
+    with the actual context: gemba values firsthand observation over filtered
+    reports, and Wenger's knowledge-as-knowing treats expertise as active
+    judgment in the moment, exactly what is lost once it's extracted and
+    reported secondhand.

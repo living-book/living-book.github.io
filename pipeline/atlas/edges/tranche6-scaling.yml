@@ -1,0 +1,210 @@
+- from: adaptive-governance
+  verb: contradicts
+  to: critical-chain
+  why: >-
+    Critical Chain pools safety time into centrally-scheduled buffers to control
+    delivery from a detailed plan, while adaptive governance replaces upfront
+    scheduling with principles and boundaries that let teams sense and self-steer.
+
+- from: adaptive-governance
+  verb: parallels
+  to: sense-and-respond-steering
+  why: >-
+    Both replace upfront forecasts and fixed plans with continuous, in-the-moment
+    sensing and adjustment — adaptive governance for portfolio steering via
+    principles, sense-and-respond-steering for whole-org budgeting — the same swap.
+
+- from: portfolio-prioritization-by-value
+  verb: parallels
+  to: five-focusing-steps
+  why: >-
+    Both reject optimizing each project or resource locally in favor of a
+    global flow view of the whole system — aggregate WIP limits under
+    Little's Law on one side, TOC's subordinate-everything-to-the-constraint
+    cycle on the other.
+
+- from: autonomous-feature-teams
+  verb: parallels
+  to: multidimensional-organization
+  why: >-
+    Both restructure around outward-facing outcomes instead of internal
+    specialization — feature teams organized around complete customer-facing
+    features via Conway's Law, Ackoff's ends-oriented programs set against
+    means-oriented input units — so that delivery no longer waits on
+    functional silos.
+
+- from: feature-based-program-metrics
+  verb: parallels
+  to: throughput-accounting
+  why: >-
+    Both discard local efficiency proxies — team velocity or utilization, per-unit
+    cost — for one global measure tied to what actually reaches the customer,
+    refusing to let busyness substitute for delivered value.
+
+- from: rolling-wave-planning
+  verb: parallels
+  to: successive-approximation-design
+  why: >-
+    Both replace a single comprehensive upfront plan with iterative
+    approximation — the plan is deliberately provisional and re-cut in cycles
+    as reality and constraints clarify, rather than committed once and
+    executed blind.
+
+- from: small-world-networks
+  verb: parallels
+  to: informal-structure-complements-formal
+  why: >-
+    Both solve cross-team coordination through decentralized peer links rather
+    than formal hierarchy — information hops through a few well-connected bridges
+    faster than it could move up and down a chain of command.
+
+- from: cultural-assimilation-via-mentoring
+  verb: parallels
+  to: mentor-dynamic
+  why: >-
+    Both transmit tacit culture and craft through sustained direct personal
+    modeling rather than instruction or documentation — an embedded mentor
+    demonstrating agile behavior day to day, a master transmitting a
+    discipline's feel — because the tacit part never survives being written down.
+
+- from: task-driven-knowledge-transfer
+  verb: parallels
+  to: ideal-apprenticeship
+  why: >-
+    Both reject classroom transmission for competence built inside real task
+    performance — hands-on participation with sign-off, or observation-practice-
+    experimentation — because doing, not being told, is what embeds skill.
+
+- from: knowledge-worker-empowerment
+  verb: parallels
+  to: knowledge-worker-as-volunteer
+  why: >-
+    Both argue knowledge workers can't be directed by prescriptive control because
+    expertise is inseparable from them — Drucker manages them like volunteers who
+    choose to contribute, the agile enterprise empowers adaptive action instead.
+
+- from: enterprise-agility-threshold
+  verb: contradicts
+  to: economic-moat
+  why: >-
+    Buffett claims some businesses can be chosen precisely because their moat
+    structurally insulates them from the pace of change; enterprise-agility-
+    threshold claims no such insulated position exists once the baseline for
+    "responsive enough" keeps rising — opposing bets on whether insulation
+    from change is achievable.
+
+- from: sense-and-respond
+  verb: parallels
+  to: continuous-environmental-scan
+  why: >-
+    Both treat monitoring the environment for threats and opportunities as a
+    permanent, always-on capability rather than a periodic planning event, with
+    designated people prepared to act on what's sensed.
+
+- from: value-stream-configuration
+  verb: parallels
+  to: value-networks
+  why: >-
+    Both show the same capability or technology is worth something different
+    depending on which value stream or value network it's plugged into — value is
+    relational to context, never intrinsic to the capability itself.
+
+- from: definition-of-done-at-scale
+  verb: parallels
+  to: good-checklist-design
+  why: >-
+    Both convert an implicit, individually-held sense of "finished" into an
+    explicit, shared, evolvable standard, because relying on memory or one team's
+    judgment doesn't hold once many hands and sites are involved.
+
+- from: shippable-quality-standards
+  verb: parallels
+  to: decision-hierarchy
+  why: >-
+    Both resolve overload by sorting every incoming item into one of a fixed set
+    of action buckets by rule — severity times impact, or already-decided versus
+    decide-now — so triage stops being re-litigated case by case.
+
+- from: cross-functional-generalizing-specialists
+  verb: parallels
+  to: latticework-of-models
+  why: >-
+    Both argue real capability comes from combining deep expertise in one
+    discipline with working breadth across others, since a single specialty, like
+    a single mental model, reliably fails once a problem falls outside it.
+
+- from: enterprise-aware-agility
+  verb: parallels
+  to: control-influence-appreciate
+  why: >-
+    Both insist a team's effectiveness depends on actively engaging the parts
+    of its environment it cannot command — DAD treats enterprise architecture,
+    governance, and operations as collaborators rather than obstacles, echoing
+    Gharajedaghi's point that most of what shapes outcomes can only be
+    influenced or appreciated, never controlled.
+
+- from: risk-value-driven-lifecycle
+  verb: parallels
+  to: de-risking-in-priority-order
+  why: >-
+    Both sequence work by risk exposure first, not value alone, testing or gating
+    the riskiest assumption earliest so a doomed effort gets killed cheaply
+    instead of discovered late.
+
+- from: structural-fixes-dont-reach-behavior
+  verb: tempers
+  to: culture-follows-structure
+  why: >-
+    Larman claims restructuring incentives reliably reshapes behavior; Argyris
+    names the condition where this fails — when defensive theory-in-use goes
+    untouched, people re-enact the same reasoning inside whatever new structure was built.
+
+- from: culture-follows-structure
+  verb: contradicts
+  to: organizational-paradigms
+  why: >-
+    Larman argues structure and incentives shape culture, not stated values;
+    Laloux argues a shift in organizational consciousness must come first and
+    structure follows from it — inverse causal arrows for the same problem.
+
+- from: larman-laws-of-organizational-behavior
+  verb: tempers
+  to: eight-step-change-process
+  why: >-
+    Kotter's eight steps assume faithful execution produces real change; Larman's
+    laws predict existing groups reinterpret any new role or structure to
+    preserve their own status, undermining the empowerment and win steps regardless.
+
+- from: lean-thinking-and-respect-for-people
+  verb: parallels
+  to: positive-deviance
+  why: >-
+    Both locate the source of improvement in direct observation of people already
+    doing the work, not directives from above — respect means developing what's
+    already there, not overwriting it with an outside prescription.
+
+- from: local-vs-system-optimization
+  verb: parallels
+  to: drum-buffer-rope
+  why: >-
+    Both show letting each part run at its own local efficiency maximum degrades
+    the whole — TOC paces every resource to the system's one constraint, Lean
+    insists specialty groups optimize the shared value stream, not their own output.
+
+- from: work-breakdown-structure-lock-in
+  verb: tempers
+  to: architecture-centric-coordination
+  why: >-
+    Architecture-centric-coordination recommends permanently aligning team
+    boundaries to an upfront architecture to enable parallel work; WBS lock-in
+    names the cost — once teams and contracts form around it, revising it later
+    gets organizationally and legally expensive.
+
+- from: unbundling-business-models
+  verb: tempers
+  to: capability-based-architecture
+  why: >-
+    Capability-based-architecture assumes shared services reused across silos
+    capture economies of scale; unbundling-business-models names when this fails
+    — customer-relationship, product-innovation, and infrastructure capabilities
+    run on incompatible economics, so one shared service degrades all three.
