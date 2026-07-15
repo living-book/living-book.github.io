@@ -1,0 +1,275 @@
+- from: cancel-clear-correction
+  verb: parallels
+  to: help-chains
+  why: >-
+    Stevens's Cancel Clear runs a fixed three-step interrupt the instant a limiting
+    statement is caught, before it can further "execute"; Oosterwal's help chain
+    runs a predefined escalation the instant a blocker is signaled, before it stalls
+    the line. Both trade improvisation for a pre-scripted, low-latency response
+    triggered at the moment of detection, not after-the-fact review.
+- from: language-as-operating-system
+  verb: parallels
+  to: mental-models
+  why: >-
+    Stevens claims habitual vocabulary functions as an installed "operating system"
+    that bounds what a person can perceive, choose, and create; Senge's mental
+    models are equally tacit internal images that shape both action and perception
+    while going unexamined. Both treat an unexamined representational substrate,
+    not effort or intent, as the real lever, and both prescribe surfacing it.
+- from: language-domains-ladder
+  verb: parallels
+  to: categories-of-legitimate-reservation
+  why: >-
+    Stevens's twelve-rung ladder converts "negative self-talk" from one
+    undifferentiated blob into a finite, checkable inventory of named surface
+    patterns, each paired with its own diagnostic and fix; Scheinkopf's CLR does
+    the identical move for cause-effect claims, replacing "I disagree" with a
+    named category of failure that can actually be tested.
+- from: negation-blindness
+  verb: parallels
+  to: ironic-process-theory
+  why: >-
+    Stevens claims "don't think about pink elephants" instructions still fixate
+    the mind on the negated content because it has to be represented before it can
+    be negated; Wegner's white-bear experiments show empirically that suppressing
+    a thought requires a monitoring process that keeps surfacing the very thought
+    it's tracking. Both name the same rebound mechanism, one asserted, one tested.
+- from: subconscious-literalism
+  verb: parallels
+  to: rule-based-inference
+  why: >-
+    Stevens claims the subconscious executes speech's literal semantic content
+    regardless of intended meaning; a rule-based inference engine fires any rule
+    whose IF-condition literally matches the fact base regardless of relevance to
+    the actual goal (its own forward-chaining example fires a rule unconnected to
+    the target). Both describe a system that reads content literally, not for intent.
+- from: cocoon-of-the-moment
+  verb: parallels
+  to: backwards-law
+  why: >-
+    Gupta claims presence cannot be reached by trying — mindfulness is "an attempt
+    to force oneself into the present," and forcing produces at most a fraction of
+    a second; Burkeman's backwards law generalizes the identical reversal across
+    happiness, security, and control: direct pursuit of a positive state reliably
+    produces its opposite. Both locate the failure in the effort itself.
+- from: discipline-as-diagnostic
+  verb: parallels
+  to: three-cs-of-motivation
+  why: >-
+    Gupta reframes chronic lack of discipline as a signal that the underlying
+    desire isn't pure, not a willpower deficit to force past; Kohn locates
+    authentic motivation in collaboration, content, and choice — the conditions
+    force and reward displace — rather than in reward or discipline machinery
+    itself. Both reject "add more force" and redirect to what force stands in for.
+- from: entertaining-the-verity
+  verb: contradicts
+  to: self-image-defense
+  why: >-
+    Gupta claims an accusation only provokes anger if some part of the person
+    already entertains it as possibly true — an implausible insult ("you're a
+    bird") produces no reaction, making the response diagnostic of a live,
+    unresolved belief. Greene's self-image defense claims direct persuasion
+    triggers defensive rejection "regardless of an argument's quality," treating
+    the reaction as content-blind ego protection, not belief-selective.
+- from: journey-toward-the-ultimate
+  verb: contradicts
+  to: lifes-task
+  why: >-
+    Gupta claims the object of total devotion is "near-arbitrary" — unrelated
+    pursuits reach the same freedom because it's the totality of commitment that
+    ends striving, not the object. Greene's Life's Task claims the opposite
+    mechanism: a specific, innate vocation already exists in a person's biography,
+    and mastery requires excavating that particular calling, not just any pursuit.
+- from: training-vs-practice
+  verb: contradicts
+  to: deep-practice
+  why: >-
+    Gupta's book explicitly attacks the "10,000 hours" model, arguing repetition —
+    even effortful repetition — only maintains ability and caps a person at
+    "practitioner," while real mastery requires a vision and an individualized
+    truth-based shortcut instead of more repetition. Coyle's deep practice claims
+    the opposite mechanism: repetition at the edge of ability, immediately
+    error-corrected, is precisely what builds new capability.
+- from: precaution-as-ethical-obligation
+  verb: extends
+  to: skin-in-the-game
+  why: >-
+    Taleb's skin-in-the-game names the asymmetry where one party keeps the upside
+    of risk while transferring the downside to others as corrupting incentives;
+    the ethics-of-precaution paper (also Taleb) extends this same asymmetry to
+    systemic risk-taking — under-caution keeps a person's private convenience
+    while transferring downside to the collective, converting the incentive
+    critique into a moral duty owed to others.
+- from: scale-separation-breakdown
+  verb: parallels
+  to: self-organized-criticality
+  why: >-
+    Taleb and Norman claim multiplicative contagion collapses the normal
+    separation between individual-scale and systemic-scale risk, so a locally
+    negligible action becomes a systemic input. Bak's self-organized criticality
+    shows the identical structure physically: a system fed a steady trickle of
+    local stress drives itself to a state where events of every size, including
+    catastrophic ones, are generated by the same underlying process.
+- from: feedback-as-steering
+  verb: parallels
+  to: course-correction
+  why: >-
+    Haines's Phase B treats feedback as continuous steering — frequent,
+    multi-dimensional checks that turn failure into a small correction instead of
+    a crash — rather than a final score. Personal Kanban's course correction makes
+    the identical claim about plans generally: small, cheap, continuous
+    adjustments as reality unfolds beat treating a fixed plan as correct and
+    paying a catastrophic price for accumulated drift.
+- from: iceberg-theory-of-change
+  verb: parallels
+  to: work-visibility
+  why: >-
+    Haines claims 87% of what determines whether a change sticks — process and
+    structure — sits invisible below the surface while only content is seen.
+    DeGrandis's work visibility makes the identical claim about software delivery
+    generally: the costs that actually block work are invisible by default, and
+    surfacing them explicitly is the precondition for fixing anything.
+- from: outcome-first-planning
+  verb: contradicts
+  to: current-reality-tree
+  why: >-
+    Haines defines his ABC sequence explicitly against "analytic thinking," which
+    starts from today's problems — vision must be locked in before the current
+    state is even assessed. Scheinkopf's Current Reality Tree is exactly that
+    rejected method: a diagnostic that starts from a list of present symptoms and
+    works laterally to a core driver, never from a vision defined first.
+- from: parallel-process-inclusion
+  verb: instantiates
+  to: principle-of-legitimacy
+  why: >-
+    Gladwell's principle of legitimacy claims obedience requires people to feel
+    they have a voice, not just to be commanded — force applied without it
+    produces defiance. Haines's "draft then consult" practice is a concrete case
+    of manufacturing exactly that voice: circulating a plan in draft and genuinely
+    incorporating feedback before finalizing it, on the stated logic that "people
+    support what they help create."
+- from: control-influence-appreciate
+  verb: parallels
+  to: zone-of-control-sphere-of-influence
+  why: >-
+    Gharajedaghi splits environmental variables into controlled, influenced, and
+    merely-predictable categories, arguing most planning failures come from
+    misclassifying which one a variable is in. Dettmer's zone-of-control /
+    sphere-of-influence split, applied to user stories, is the identical
+    three-way structure used to diagnose exactly the same misclassification.
+- from: dichotomy-to-complementarity
+  verb: parallels
+  to: balance-of-opposites
+  why: >-
+    Gharajedaghi claims most organizational deadlock is a dichotomy in disguise —
+    opposing tendencies forced onto one axis that are actually separate
+    dimensions, so a win-win quadrant becomes available once the axis is split.
+    De Botton's balance of opposites shows the identical move in architecture:
+    buildings read as beautiful precisely when they reconcile qualities assumed
+    to be a trade-off rather than choosing a side.
+- from: information-bonded-systems
+  verb: parallels
+  to: mental-models
+  why: >-
+    Senge's mental models are tacit, individual internal images that shape
+    perception and action more than any stated belief. Gharajedaghi's shared
+    image — culture as the social equivalent of DNA, holding a sociocultural
+    system together as a lifetime project of alignment — names the identical
+    tacit-representation-drives-behavior structure at the collective level, drawn
+    independently from Boulding and Maturana/Varela rather than built on Senge.
+- from: second-order-obstructions
+  verb: tempers
+  to: current-reality-tree
+  why: >-
+    Scheinkopf's Current Reality Tree is built to converge on one core driver that
+    explains most of a system's problems at once. Gharajedaghi's second-order
+    obstructions name the condition under which that convergence fails: alienation,
+    polarization, and corruption are emergent products of several primary
+    breakdowns interacting across different functions, not one traceable cause.
+- from: successive-approximation-design
+  verb: extends
+  to: idealized-design
+  why: >-
+    Ackoff's idealized design asks planners to specify the system they'd build
+    from scratch today, constrained only by feasibility, then work back toward it.
+    Gharajedaghi's successive approximation directly operationalizes this by
+    adding the missing machinery — sorting what blocks the ideal into three
+    constraint types with different removal strategies — for closing the gap in
+    tracked stages.
+- from: type-ii-emergent-properties
+  verb: parallels
+  to: proxy-metrics-trap
+  why: >-
+    Gharajedaghi claims emergent properties like organizational success belong
+    only to the whole, can't be measured directly or summed from parts, and get
+    faked (not reproduced) when someone chases a single manifestation metric.
+    Kersten's proxy-metrics trap shows the identical failure concretely: Nokia's
+    Agile transformation "succeeded" on activity metrics that were never causally
+    tied to the real, whole-system business outcome, which quietly failed anyway.
+- from: asymmetrical-grounding
+  verb: parallels
+  to: master-and-emissary
+  why: >-
+    Neville's asymmetrical grounding claims a source can ground everything else's
+    existence while depending on nothing it grounds — a strictly one-way relation
+    that cannot run in reverse. McGilchrist's master-and-emissary names the
+    identical dependency shape in a different register: the emissary owes its
+    very existence to the master, while the master's standing never depends on
+    the emissary.
+- from: axiological-explanation
+  verb: parallels
+  to: schema-theorem
+  why: >-
+    Rescher claims things exist as they do because they are the best of competing
+    alternatives, with value "eliminating" rivals from contention without anyone
+    choosing or producing the outcome by force. Holland's schema theorem shows the
+    same structure mechanically: above-average building-block patterns simply
+    propagate faster across generations, with no designer selecting them.
+- from: brute-fact-vs-sufficient-reason
+  verb: parallels
+  to: hard-core
+  why: >-
+    Wippel's fork asks whether existence itself needs a reason, or is a brute fact
+    accepted without further explanation. Lakatos's hard core is the same move
+    inside science: a programme's central commitments are decided, by convention
+    rather than proof, to be placed outside the demand for further justification
+    and protected from refutation.
+- from: explanation-by-comprehensiveness
+  verb: parallels
+  to: autopoiesis
+  why: >-
+    Halper's Hegel explains a whole by showing every part interlinked and
+    derivable within a single closed system, with no need for an external
+    transcendent source. Maturana and Varela's autopoiesis names the identical
+    structure biologically: a living system is a self-producing network whose
+    product is its own organization and its own boundary, closed and
+    self-referential rather than externally made.
+- from: ego-as-focusing-anchor
+  verb: parallels
+  to: cocoon-of-the-moment
+  why: >-
+    Wolf claims the ego is a functional mirror that actively pins a mind to one
+    timeline, and that "dropping" it — not overriding it by effort — opens access
+    to what it was blocking. Gupta's cocoon of the moment makes the structurally
+    identical claim about presence: the mind actively blocks the moment, and only
+    seeing through it, never forcing past it, gets a person there.
+- from: possibility-wave-squaring
+  verb: parallels
+  to: myelin-insulation
+  why: >-
+    Wolf claims, speculatively, that consciousness repeatedly "squaring" the same
+    possibility-wave narrows a probability curve into automatic behavior, which is
+    how habits and skills form. Coyle's myelin insulation shows empirically the
+    same narrowing-through-repetition structure: firing a neural circuit
+    repeatedly grows insulation that makes that specific circuit faster and more
+    automatic, and only that circuit.
+- from: subjective-time-primacy
+  verb: contradicts
+  to: daily-oscillation
+  why: >-
+    Wolf claims felt, subjective time is the primary reality and linear clock time
+    is a secondary mental construction built by comparing rhythms. Pink's daily
+    oscillation shows the reverse causal arrow empirically: an objective circadian
+    clock, independent of workload or willpower, drives the felt swings in mood
+    and vigilance across the day — the objective rhythm produces the subjective
+    one, not the other way round.

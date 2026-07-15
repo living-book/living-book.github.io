@@ -144,6 +144,21 @@ BOOKS = {
     "deep-learning": ("Deep Learning", "Goodfellow, Bengio & Courville", "Technology & Data", "atlas"),
     "software-architecture-in-practice": ("Software Architecture in Practice", "Bass, Clements & Kazman", "Technology & Data", "atlas"),
     "seven-languages-seven-weeks": ("Seven Languages in Seven Weeks", "Bruce Tate", "Technology & Data", "atlas"),
+    # Tranche 5 (user triage: Tech + Systems first)
+    "ai-guide-to-intelligent-systems": ("Artificial Intelligence: A Guide to Intelligent Systems", "Michael Negnevitsky", "Technology & Data", "atlas"),
+    "intro-to-management-science": ("An Introduction to Management Science", "Anderson, Sweeney & Williams", "Technology & Data", "atlas"),
+    "logic-and-discrete-mathematics": ("Logic and Discrete Mathematics", "Conradie & Goranko", "Technology & Data", "atlas"),
+    "mathematics-for-economics-and-business": ("Mathematics for Economics and Business", "Ian Jacques", "Technology & Data", "atlas"),
+    "reference-manual-scientific-evidence": ("Reference Manual on Scientific Evidence", "Federal Judicial Center", "Technology & Data", "atlas"),
+    "math-hacker": ("The Math-Hacker Book", "Paul Carson", "Technology & Data", "atlas"),
+    "mathematical-sciences-2025": ("The Mathematical Sciences in 2025", "National Research Council", "Technology & Data", "atlas"),
+    "conscious-language": ("Conscious Language: The Logos of Now", "Robert Tennyson Stevens", "Systems Thinking & Philosophy", "atlas"),
+    "direct-truth": ("Direct Truth", "Kapil Gupta", "Systems Thinking & Philosophy", "atlas"),
+    "ethics-of-precaution": ("Ethics of Precaution: Individual and Systemic Risk", "Joseph Norman & Nassim Taleb", "Systems Thinking & Philosophy", "atlas"),
+    "yoga-of-time-travel": ("The Yoga of Time Travel", "Fred Alan Wolf", "Systems Thinking & Philosophy", "atlas"),
+    "ultimate-why-question": ("The Ultimate Why Question", "John F. Wippel (ed.)", "Systems Thinking & Philosophy", "atlas"),
+    "strategic-thinking-for-leaders": ("Strategic Thinking for Leaders", "Stephen Haines", "Systems Thinking & Philosophy", "atlas"),
+    "systems-thinking-managing-chaos": ("Systems Thinking: Managing Chaos and Complexity", "Jamshid Gharajedaghi", "Systems Thinking & Philosophy", "atlas"),
 }
 
 EDGE_VERBS = {"extends", "contradicts", "instantiates", "formalizes", "parallels", "tempers"}
