@@ -170,3 +170,12 @@ docs/index.md (Material-themed) replaced by docs/index.html — standalone parch
 ## Cross-nav audit + fix (user 2026-07-16). Branch crossnav off main (post PR #14).
 Audit found gaps: 2D atlas lacked Ask; 3D lacked Ask; Ask lacked both atlases; Material book pages lacked all three apps.
 Fixes: Ask link in 2D header + 3D titlebar; Atlas + 3D links in Ask nav; docs/js/applinks.js (extra_javascript) injects Ask/Atlas/◈3D into .md-header__inner on every Material page + .app-links styles in extra.css (hidden <600px). Smoke verified all 5 surfaces' hrefs headlessly; strict build clean.
+
+## WebMCP agent tools (user: use cases 1+2, striking demo — 2026-07-16). Branch webmcp off main (post PR #15).
+docs/atlas/webmcp.js — the atlas as callable tools for in-browser AI agents (Chrome WebMCP origin trial 149–156, document.modelContext.registerTool; navigator.modelContext fallback pre-150). Pages call window.AtlasMCP(hooks) after data load (3D: focus/reset/lens; 2D: focus/reset). No-op without API unless ?demo.
+- 7 tools: find_concepts, get_concept, connect_concepts (BFS shortest path w/ verb+why per hop), list_tensions (domain/concept filters) — readOnlyHint; focus_concept (3D spin-to-front + ego depth 1-3), tension_lens (3D only), reset_view — actuation.
+- Tool results = readable text w/ [slug] ids; fuzzy resolve (id → title → token score) returns "closest:" suggestions on miss.
+- Toast overlay (bottom-center warm pill) shows every agent call live + registration banner — the demo audience sees the agent think.
+- ?demo query param replays a scripted agent session through the same tool defs (tensions → lens on/off → connect feedback-loops→identity-based-habits → hop-by-hop focus walk w/ why-toasts → reset). Works with zero WebMCP support — actuation demo needs no Gemini.
+- Origin-trial token placeholder comment in both pages' head; local testing via chrome://flags/#enable-webmcp-testing.
+- Smoke: stubbed document.modelContext via addInitScript — 6 tools register on 2D, 7 on 3D; all executes verified incl. 7-hop path, domain-filtered tensions, miss handling; ?demo run error-free both pages. mkdocs --strict clean. Gotcha: stale http.server from old session held port 8931 serving old tree — always fresh port.
