@@ -139,7 +139,11 @@
 <div id="tip"></div>
 <div id="card"></div>
 
+<!-- WebMCP origin trial (Chrome 149–156): once registered for
+     https://living-book.github.io, paste the token here:
+     <meta http-equiv="origin-trial" content="TOKEN"> -->
 <script src="vendor/atlas3d.bundle.min.js"></script>
+<script src="../webmcp.js"></script>
 <script>
 const REDUCED = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -498,6 +502,18 @@ function init(atlas) {
 
   function esc(s) { return String(s).replace(/[&<>"']/g,
     c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
+
+  /* ---------- WebMCP: expose atlas + view control to in-browser AI agents ---------- */
+  if (window.AtlasMCP) window.AtlasMCP({
+    data: atlas,
+    page: '3d',
+    focus: (id, depth) => {
+      if (depth) egoDepth = Math.max(1, Math.min(3, Math.round(depth)));
+      select(id);
+    },
+    reset: deselect,
+    lens: on => toggleLens(!!on),
+  });
 }
 </script>
 </body>

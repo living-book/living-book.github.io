@@ -210,6 +210,10 @@ header a:hover { text-decoration: underline; }
   #divider, #cardgrip, #cardresize { display: none; }
 }
 </style>
+<!-- WebMCP origin trial (Chrome 149–156): once registered for
+     https://living-book.github.io, paste the token here:
+     <meta http-equiv="origin-trial" content="TOKEN"> -->
+<script src="webmcp.js"></script>
 </head>
 <body>
 <div id="app">
@@ -686,6 +690,14 @@ load().then(() => {
   const want = location.hash.slice(1);
   if (want && byId[want]) select(want, true);
   addEventListener('resize', fitView);
+
+  /* WebMCP: expose atlas + view control to in-browser AI agents */
+  if (window.AtlasMCP) window.AtlasMCP({
+    data: DATA,
+    page: '2d',
+    focus: id => select(id, true),
+    reset: deselect,
+  });
 });
 </script>
 </body>
