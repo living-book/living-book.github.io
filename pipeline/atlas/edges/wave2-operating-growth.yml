@@ -1,0 +1,171 @@
+# Lens: operating systems & growth — traction-eos, traction-channels,
+# remote-office-not-required, digital-transformation-playbook, hbr-smart-decisions
+
+- from: level-10-meeting
+  verb: parallels
+  to: sprint-container
+  why: >-
+    Both impose a rigid, non-negotiable temporal container — a 90-minute
+    weekly agenda, a month-or-less sprint — whose fixed structure is what
+    actually forces inspection and adaptation to happen, rather than
+    something teams perpetually mean to get around to.
+
+- from: decisive-dialogue
+  verb: parallels
+  to: vulnerability-based-trust
+  why: >-
+    Both locate organizational speed in whether people feel safe voicing the
+    unspeakable rather than in formal structure — Charan's candor that names
+    dialogue killers, Lencioni's trust that admitted weakness won't be used
+    against you — the same mechanism converts silent, festering disagreement
+    into resolvable conflict.
+
+- from: ids-issues-solving-track
+  verb: parallels
+  to: checklist-as-forcing-conversation
+  why: >-
+    Neither tool works by adding information; both work by mechanically
+    forcing people who'd otherwise stay quiet to pause and talk before a
+    small problem calcifies — IDS's mandatory Discuss step and a checklist's
+    built-in pause are the same conversation-forcing device.
+
+- from: rapid-decision-roles
+  verb: parallels
+  to: disagree-and-commit
+  why: >-
+    Both dissolve the requirement for consensus by assigning an explicit
+    resolution mechanism — RAPID's single named Decider, Amazon's genuine
+    commitment ritual for the dissenter — turning what would otherwise be
+    gridlock directly into forward motion without everyone agreeing first.
+
+- from: red-flag-conditions
+  verb: extends
+  to: system-1-system-2
+  why: >-
+    Kahneman names two competing systems; Campbell, Whitehead, and
+    Finkelstein add the mechanism of failure — three specific structural
+    conditions (conflicted interest, distorting attachment, misleading
+    memory) under which System 1's pattern-recognition and emotional tagging
+    reliably misfire in experienced people.
+
+- from: decision-process-review
+  verb: extends
+  to: premortem-analysis
+  why: >-
+    Question 11 of the bias-review checklist embeds the premortem technique
+    directly, then extends it by wrapping it inside eleven further checks on
+    self-interest, recommender bias, and framing — turning one imaginative
+    exercise into a single check within a systematic organizational audit.
+
+- from: asynchronous-work-as-default
+  verb: contradicts
+  to: face-to-face-bug-fixing
+  why: >-
+    Remote claims written, asynchronous handoffs match or beat real-time
+    coordination while buying flexibility; Lean from the Trenches makes the
+    opposite claim specifically for problem resolution — synchronous
+    face-to-face fixing resolves issues faster than any tracked, async
+    channel because context stays hot.
+
+- from: multi-tier-daily-synchronization
+  verb: tempers
+  to: office-as-interruption-factory
+  why: >-
+    Remote argues offices shred the day into unusable fragments through
+    constant meetings; the tiered-standup pattern names the exact condition
+    that avoids this — concentric small-group tiers under a hard 30-minute
+    cap — under which frequent in-person sync coordinates 60 people without
+    destroying anyone's focus.
+
+- from: work-visibility-as-trust-engine
+  verb: parallels
+  to: peer-based-accountability
+  why: >-
+    Both replace a manager policing performance with visibility among peers
+    as the enforcement mechanism — a weekly progress thread, a teammate
+    calling out a teammate — because it's harder to bullshit someone with
+    the expertise to spot fake progress than a boss who can't.
+
+- from: minimal-overlap-coordination
+  verb: parallels
+  to: temporal-inconvenience-rotation
+  why: >-
+    Both treat synchronous time across zones as an explicitly engineered
+    scarce resource rather than a default to maximize — one calculates and
+    minimizes the required overlap window, the other rotates who absorbs the
+    remaining pain — instead of leaving togetherness unconsciously biased
+    toward one location.
+
+- from: scorecard-leading-indicators
+  verb: parallels
+  to: team-scoreboard
+  why: >-
+    Both replace subjective argument with a small, weekly-reviewed set of
+    numbers that get flagged "off track" and routed to deeper discussion only
+    when they miss — data absorbs the disagreement that would otherwise
+    burn through a meeting on feelings and politics.
+
+- from: bullseye-framework
+  verb: parallels
+  to: customer-development-interviews
+  why: >-
+    Both replace founder intuition with staged, cheap empirical tests before
+    committing resources — Bullseye's $250-1,000 channel trials, Get Out of
+    the Building's face-to-face interviews — treating market assumptions as
+    hypotheses to falsify fast, not convictions to defend.
+
+- from: channel-saturation
+  verb: instantiates
+  to: transient-competitive-advantage
+  why: >-
+    The Law of Shitty Click-Throughs is a specific case of the general wave
+    pattern: any advantage arises, peaks, and decays as competitors discover
+    and copy it, so a channel's fading response rate is the same phase
+    transition McGrath describes for strategy broadly.
+
+- from: rapid-experimentation
+  verb: parallels
+  to: the-gray-zone
+  why: >-
+    Both reject confident upfront planning for short, observed steps toward
+    an uncertain target — Intuit's 1,300 rapid experiments, Toyota Kata's
+    flashlight-lit staircase — because the territory between current and
+    target state is structurally unplannable, only discoverable one step at
+    a time.
+
+- from: customer-networks
+  verb: parallels
+  to: small-world-networks
+  why: >-
+    Both describe value and information traveling through organic,
+    decentralized peer connections rather than a broadcast or hierarchical
+    channel — customers influencing customers, developers informally
+    reaching developers across teams — outperforming any centrally routed
+    alternative.
+
+- from: accountability-chart
+  verb: parallels
+  to: four-fundamental-team-types
+  why: >-
+    Both replace an open-ended "how should we organize?" question with a
+    small, closed taxonomy — three functions plus an Integrator, or four
+    purpose-shaped team types — so ambiguous responsibility gets resolved by
+    classification against a fixed list, not ad hoc negotiation.
+
+- from: vision-traction-organizer
+  verb: parallels
+  to: program-charter
+  why: >-
+    Both are single canonical documents that force a leadership team to
+    write down abstract vision as explicit, agreed terms — core values and
+    targets, or release criteria and definition of done — before execution
+    starts, so alignment is documented rather than assumed.
+
+- from: self-service-platforms-remove-gatekeepers
+  verb: instantiates
+  to: platform-business-models
+  why: >-
+    AWS, FBA, and KDP are concrete cases of Rogers' platform pattern —
+    facilitating interaction between distinct parties instead of owning the
+    value created — adding the mechanism that removing a gatekeeper's
+    approval step is what multiplies improbable experiments tried.

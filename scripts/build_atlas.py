@@ -231,6 +231,20 @@ BOOKS = {
     "willpower-instinct": ("The Willpower Instinct", "Kelly McGonigal", "Psychology & Self-Development", "atlas"),
     "applied-critical-thinking": ("The Applied Critical Thinking Handbook", "UFMCS (US Army)", "Psychology & Self-Development", "atlas"),
     "power-of-full-engagement": ("The Power of Full Engagement", "Loehr & Schwartz", "Psychology & Self-Development", "atlas"),
+    "mckinsey-mind": ("The McKinsey Mind", "Ethan Rasiel & Paul Friga", "Business & Management", "atlas"),
+    "valuation-mckinsey": ("Valuation: Measuring and Managing the Value of Companies", "Koller, Goedhart & Wessels (McKinsey)", "Business & Management", "atlas"),
+    "lean-cfo": ("The Lean CFO", "Nicholas Katko", "Business & Management", "atlas"),
+    "digital-transformation-playbook": ("The Digital Transformation Playbook", "David Rogers", "Business & Management", "atlas"),
+    "remote-office-not-required": ("Remote: Office Not Required", "Jason Fried & DHH", "Business & Management", "atlas"),
+    "traction-eos": ("Traction: Get a Grip on Your Business", "Gino Wickman", "Business & Management", "atlas"),
+    "traction-channels": ("Traction: How Any Startup Can Achieve Explosive Customer Growth", "Gabriel Weinberg & Justin Mares", "Business & Management", "atlas"),
+    "design-thinking-cross": ("Design Thinking: Understanding How Designers Think and Work", "Nigel Cross", "Business & Management", "atlas"),
+    "theory-of-incentives": ("The Theory of Incentives", "Laffont & Martimort", "Psychology & Self-Development", "atlas"),
+    "how-we-decide": ("How We Decide", "Jonah Lehrer", "Psychology & Self-Development", "atlas"),
+    "how-we-learn-carey": ("How We Learn", "Benedict Carey", "Psychology & Self-Development", "atlas"),
+    "smarter-than-you-think": ("Smarter Than You Think", "Clive Thompson", "Psychology & Self-Development", "atlas"),
+    "simplicity-de-bono": ("Simplicity", "Edward de Bono", "Psychology & Self-Development", "atlas"),
+    "hbr-smart-decisions": ("HBR's 10 Must Reads on Making Smart Decisions", "Harvard Business Review (anthology)", "Psychology & Self-Development", "atlas"),
 }
 
 EDGE_VERBS = {"extends", "contradicts", "instantiates", "formalizes", "parallels", "tempers"}

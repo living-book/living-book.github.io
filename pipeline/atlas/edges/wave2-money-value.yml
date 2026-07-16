@@ -1,0 +1,167 @@
+- from: free-cash-flow-over-earnings
+  verb: instantiates
+  to: conservation-of-value-principle
+  why: >-
+    Amazon's discipline of running the company for cash rather than reported
+    earnings is a concrete corporate practice of the general finance principle
+    that only cash flow, not accounting income, changes what a business is worth.
+
+- from: expectations-treadmill
+  verb: tempers
+  to: gospel-of-10x
+  why: >-
+    Once a team's aspirational 10x goals are met, the market or organization
+    embeds that new level into its baseline expectation, so the same stretch
+    performance that once looked exceptional becomes merely adequate next cycle.
+
+- from: standard-costing-antipattern
+  verb: contradicts
+  to: freed-capacity
+  why: >-
+    Standard costing's overhead-absorption variance punishes idle machines and
+    labor, incentivizing overproduction to keep utilization high — directly
+    undermining the premise that time freed by eliminating waste should be
+    redeployed, not refilled to avoid an unfavorable variance.
+
+- from: incentive-compatibility
+  verb: formalizes
+  to: decoupling-goals-from-rewards
+  why: >-
+    Severing bonus pay from the aspirational number a team sets removes the
+    payoff from sandbagging that number, which is exactly the condition
+    incentive compatibility requires: truth-telling must be the agent's
+    best-paying strategy, not an act of goodwill.
+
+- from: fixed-performance-contract
+  verb: instantiates
+  to: adverse-selection
+  why: >-
+    A manager privately knows their unit's true achievable performance before
+    the budget is negotiated and is rewarded for talking that number down, the
+    textbook case of a hidden-type agent misrepresenting private information
+    to extract easier terms.
+
+- from: relative-improvement-contract
+  verb: instantiates
+  to: performance-informativeness
+  why: >-
+    Scoring a team against peers and prior trend nets out common shocks like
+    industry cycles that a fixed absolute target cannot, raising the signal's
+    informativeness about true effort and reducing what the principal must pay
+    to distinguish skill from luck.
+
+- from: information-rent
+  verb: tempers
+  to: one-truth-information
+  why: >-
+    Publishing the same numbers to every level closes the gap in what people
+    see, not what they privately know about their own effort or true capacity,
+    so agents still capture rent by shading commitments even under full
+    data transparency.
+
+- from: moral-hazard
+  verb: tempers
+  to: radical-transparency
+  why: >-
+    Sharing outcomes, mistakes, and decisions openly exposes information that
+    exists only after an action is taken, so it cannot make a hidden effort or
+    hidden shortcut observable in real time — the exposed record is downstream
+    of the action, not the action itself.
+
+- from: rewards-discourage-risk-taking
+  verb: instantiates
+  to: moral-hazard
+  why: >-
+    Narrowing effort to exactly what a measured reward pays for, at the
+    expense of unmeasured but valuable creative or risky work, is the
+    real-world case of the multitask hidden-action problem: incentive pay on
+    observed dimensions causes neglect of the ones the contract can't see.
+
+- from: rent-extraction-efficiency-tradeoff
+  verb: parallels
+  to: trust-dividend-and-tax
+  why: >-
+    Both quantify the same structural trade-off: reducing an agent's
+    informational advantage, or extending less trust, costs real value —
+    distorted output in one model, slower and costlier transactions in the
+    other — while accepting that cost buys back efficiency or speed.
+
+- from: retained-earnings-dollar-test
+  verb: instantiates
+  to: cost-of-capital-opportunity-cost
+  why: >-
+    Buffett's rule — retain a dollar only if it is likely to create at least a
+    dollar of market value — is the operational form of demanding that a
+    reinvestment's return clear its opportunity cost, the same hurdle that
+    defines the cost of capital.
+
+- from: economic-moat
+  verb: extends
+  to: roic-and-growth-primacy
+  why: >-
+    A moat supplies the structural precondition the value driver formula
+    otherwise takes as given: without an enduring cost or brand barrier,
+    competition drives ROIC back down toward the cost of capital, collapsing
+    the very quantity the formula treats as a primitive input.
+
+- from: value-stream-box-score
+  verb: parallels
+  to: mapping-altitude
+  why: >-
+    Both insist a decision be judged at the level of the whole flow, not a
+    single product's margin or a single process step, because optimizing a
+    part in isolation can make the entire value stream worse off.
+
+- from: throughput-accounting
+  verb: parallels
+  to: value-stream-costing
+  why: >-
+    Both replace per-unit cost allocation, which hides root cause behind
+    absorbed overhead, with a small set of system-level measures tied directly
+    to what actually drives spending or constrains flow.
+
+- from: lean-performance-measurements
+  verb: parallels
+  to: production-metrics-over-process-metrics
+  why: >-
+    Both discard metrics that reward local activity — profit variance, tasks
+    completed — in favor of measures anchored to what actually reaches and is
+    used by the customer, preventing a locally-optimized number from masking
+    real value delivered.
+
+- from: moral-hazard
+  verb: tempers
+  to: work-visibility-as-trust-engine
+  why: >-
+    A visible deliverable is a noisy output signal correlated with hidden
+    effort, not the effort itself, so forcing work into shared view narrows
+    but does not eliminate the room for an agent to inflate appearance without
+    matching real diligence.
+
+- from: value-driver-formula
+  verb: instantiates
+  to: leverage
+  why: >-
+    ROIC and growth are the two points in a company's structure where a small
+    improvement compounds into a disproportionately large change in total
+    value, the same leverage-point dynamic systems thinking identifies at the
+    level of any system.
+
+- from: performance-informativeness
+  verb: parallels
+  to: expected-value-of-information
+  why: >-
+    Both formalize the same logic independently: the worth of a signal equals
+    how much it reduces a costly uncertainty, which is exactly what tells a
+    principal how much monitoring or measurement to buy before its cost
+    exceeds the loss it prevents.
+
+- from: moral-hazard
+  verb: formalizes
+  to: skin-in-the-game
+  why: >-
+    Both name an agent who captures upside while a principal bears the
+    downside taking hidden actions that harm the principal; incentive theory's
+    model gives this a precise account of how much performance-contingent pay
+    is needed to correct it, where the heuristic stays a qualitative warning.
+

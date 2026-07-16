@@ -1,0 +1,179 @@
+# Lens: PROBLEM-SOLVING COGNITION
+# Anchor books: mckinsey-mind, design-thinking-cross, simplicity-de-bono
+# Core clash hunted: analysis-first (hypothesis + MECE) vs design cognition
+# (co-evolution of problem and solution); decomposition-assumes-separability
+# vs Ackoff's mess; de Bono's provocation across his two books and Ackoff's
+# idealized design; simplification vs where it merely relocates complexity.
+
+# --- Tensions (contradicts / tempers) ---
+
+- from: hypothesis-driven-analysis
+  verb: contradicts
+  to: co-evolution-of-problem-and-solution
+  why: >-
+    McKinsey commits early to a single leading hypothesis and designs analysis
+    to prove or disprove it, while Cross shows the goal itself is created
+    during solving—locking the target before exploring forecloses exactly the
+    reframing design cognition depends on.
+
+- from: co-evolution-of-problem-and-solution
+  verb: contradicts
+  to: problem-space-vs-solution-space
+  why: >-
+    Cross shows a solution concept (a single-opening canopy) redefining the
+    problem as it's built, while the Lean Product Playbook treats naming a
+    solution before validating the problem space as an error—one treats the
+    coupling as generative, the other as contamination.
+
+- from: mess-vs-problem
+  verb: tempers
+  to: mece-structuring
+  why: >-
+    MECE assumes a problem can be partitioned into non-overlapping,
+    independently analyzable buckets, but Ackoff's mess names exactly the case
+    where behavior depends on interaction between parts—any clean partition
+    discards the cross-terms that actually drive the outcome.
+
+- from: mess-vs-problem
+  verb: tempers
+  to: issue-trees
+  why: >-
+    An issue tree resolves a hypothesis by answering each branch's
+    sub-question independently, but a mess's components interact so strongly
+    that clearing every branch in isolation can leave the actual system-level
+    dynamic untouched.
+
+- from: red-teaming
+  verb: tempers
+  to: mece-structuring
+  why: >-
+    A MECE partition looks complete to the team that built it precisely
+    because they can't see past their own categorization; red teaming's
+    outside structured challenge is what reliably catches the missing bucket
+    or the mis-drawn boundary line, not more internal analysis.
+
+- from: premortem-analysis
+  verb: tempers
+  to: hypothesis-driven-analysis
+  why: >-
+    Hypothesis-driven analysis structurally rewards evidence that confirms
+    the first guess (the Quick and Dirty Test discards, but rarely
+    interrogates, a survivor); premortem forces the team to imagine that
+    exact hypothesis has already failed, surfacing disconfirmation the
+    process is otherwise built to skip.
+
+- from: shifted-burden-of-complexity
+  verb: tempers
+  to: underdo-your-competition
+  why: >-
+    Rework treats cutting scope in half as pure gain, but shifted-burden
+    names the condition where this backfires: complexity removed from the
+    builder's side doesn't vanish, it relocates to the user who now
+    improvises around the missing functionality.
+
+# --- Parallels / extensions ---
+
+- from: first-principles-design
+  verb: parallels
+  to: idealized-design
+  why: >-
+    Both discard the current system's precedent entirely rather than
+    incrementally improve it—first-principles-design starts from fundamental
+    physical and functional truths, idealized-design starts from an
+    unconstrained ideal state, and both use the blank-slate reset to escape
+    local optima that incremental thinking can't reach.
+
+- from: provocative-disruption
+  verb: parallels
+  to: idealized-design
+  why: >-
+    De Bono's provocation (amputating a taken-for-granted element, imagining
+    an ideal state) and Ackoff's idealized design both suspend current
+    constraints first and only then work backward to what's achievable—the
+    mechanism is a deliberate constraint-suspension, not a search within
+    existing limits.
+
+- from: provocative-disruption
+  verb: extends
+  to: movement-over-judgment
+  why: >-
+    Six Thinking Hats establishes that evaluating an idea by where it leads,
+    not whether it fits current experience, is what makes provocation
+    generative rather than merely wrong; provocative-disruption applies that
+    same move specifically to system design, via amputation and ideal-state
+    imagining as the provocative operation.
+
+- from: problem-dissolution
+  verb: extends
+  to: solve-resolve-dissolve
+  why: >-
+    Solve-resolve-dissolve names dissolving a problem as one of three general
+    responses; problem-dissolution adds the mechanism for how—redesigning the
+    system or its environment so the problem's preconditions no longer exist,
+    rather than just choosing "dissolve" as a stance.
+
+- from: problem-framing-in-design
+  verb: parallels
+  to: problem-formulation-shapes-solutions
+  why: >-
+    Both claim the frame determines the visible solution set before any
+    solving begins—Cross shows designers reframe from a distinctive personal
+    perspective, Ackoff shows most failures are failures to face the right
+    problem, not failures to solve the problem as given.
+
+- from: hypothesis-driven-analysis
+  verb: parallels
+  to: key-assumptions-check
+  why: >-
+    Both convert a claim into its checkable dependencies before spending
+    further effort—McKinsey's Quick and Dirty Test lists the assumptions a
+    hypothesis requires and drops it the moment one fails, key-assumptions-
+    check performs the same surface-and-challenge move on any plan's hidden
+    premises.
+
+- from: designerly-ways-of-knowing
+  verb: parallels
+  to: emotional-brain-pattern-recognition
+  why: >-
+    Both argue expert problem-solving runs on a non-verbal, non-sequential
+    cognitive mode that outperforms step-by-step deliberation in its
+    domain—designerly knowing operates through sketches and multi-level
+    abstraction, the emotional brain through fast unconscious pattern-
+    matching, neither reducible to formal logical steps.
+
+- from: sketching-as-design-cognition
+  verb: parallels
+  to: extended-mind
+  why: >-
+    Both reject the idea that thinking finishes internally before being
+    externalized—a sketch "talks back" and reshapes the idea being drawn, and
+    the extended-mind thesis holds that tools and external scaffolding are
+    constitutive of cognition, not just a record of it.
+
+- from: complexity-accumulation
+  verb: parallels
+  to: complexity-matching-fallacy
+  why: >-
+    Both reject the intuition that complexity self-corrects—de Bono shows
+    systems drift toward more features and rules by default unless actively
+    resisted, and Sull shows meeting a complex problem with a matching amount
+    of complicated machinery compounds the overload rather than resolving it.
+
+- from: bottleneck-targeting
+  verb: parallels
+  to: expertise-through-simplification
+  why: >-
+    Both locate simplification's leverage in ruthless selection rather than
+    addition—bottleneck-targeting writes rules only for the single activity
+    that actually drives the outcome, expertise-through-simplification
+    defines expertise itself as learning to filter out everything except
+    what matters.
+
+- from: shedding-obsolete-elements
+  verb: parallels
+  to: rip-and-replace-rules
+  why: >-
+    Both name the same failure mode—outdated elements or rules persist past
+    their usefulness because nothing forces their removal—and prescribe
+    deliberately discarding what no longer fits rather than letting inertia
+    or half-measures like blending old and new rules persist.
