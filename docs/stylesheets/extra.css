@@ -117,3 +117,9 @@
 /* Links a touch warmer */
 .md-typeset a { color: var(--lb-accent); }
 .md-typeset a:hover { color: var(--lb-accent2); }
+
+/* Cross-app links injected into the Material header (js/applinks.js) */
+.app-links { display: flex; align-items: center; gap: 14px; margin-left: auto; padding: 0 8px; }
+.app-links a { color: var(--md-primary-bg-color, #fff); font-size: .72rem; opacity: .85; white-space: nowrap; }
+.app-links a:hover { opacity: 1; text-decoration: underline; }
+@media (max-width: 600px) { .app-links { display: none; } }
