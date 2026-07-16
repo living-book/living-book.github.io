@@ -157,3 +157,12 @@ docs/atlas/3d/index.html — WebGL galaxy view of the full atlas (1551 nodes / 1
 - Vendor: single esbuild IIFE bundle (3d-force-graph 1.80.0 + three, ONE instance) — first attempt with separate three.min.js r160 UMD + graph UMD failed (THREE.Timer missing + dual-instance clash). Bloom = additive halo sprites, not UnrealBloomPass (dep-chain not worth it).
 - 2D atlas untouched, linked both ways (header "◈ 3D Atlas").
 - Smoke: playwright-core + cached chromium + swiftshader — canvas renders, search→select→card→depth→lens all pass, 0 real console errors; screenshots verified. mkdocs --strict clean.
+
+## Library landing refresh (user: match 2D-atlas look, interactive/dynamic — 2026-07-16). Branch library-refresh off main (post PR #13).
+docs/index.md (Material-themed) replaced by docs/index.html — standalone parchment page, same chrome/design language as the 2D atlas:
+- Live stats band (books/concepts/edges/tensions) count-up from atlas/atlas.json.
+- Companions shelf built from atlas.json status=published (6 cards; cover.jpg with onerror → domain-ink "spine" fallback for the 2 coverless).
+- Whole-library browser: search + 6 domain chips (2D-atlas chip pattern), grouped by domain, expandable rows → concept chips deep-linking atlas/#slug + "view in 3D"; companion badge on published.
+- 3D page gained #slug deep links (select-on-load after warmup + hashchange + history.replaceState on select/deselect).
+- Scroll-reveal via IntersectionObserver; prefers-reduced-motion honored everywhere.
+- Smoke (playwright): stats 221/1,551/1,283/254, search "drucker"→3, expand→8 concept chips, chip toggle→198/221, 3D #feedback-loops deep link opens card; 0 errors. mkdocs --strict exit 0 (index.md removal safe — raw index.html copied verbatim).

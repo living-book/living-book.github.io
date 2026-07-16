@@ -364,6 +364,7 @@ function init(atlas) {
     restyleNodes();
     renderCard(n);
     flyTo(n);
+    if (location.hash.slice(1) !== id) history.replaceState(null, '', '#' + id);
   }
 
   function flyTo(n) {
@@ -384,8 +385,17 @@ function init(atlas) {
     Graph.nodeVisibility(Graph.nodeVisibility());
     Graph.linkVisibility(Graph.linkVisibility());
     restyleNodes();
+    history.replaceState(null, '', location.pathname + location.search);
   }
   addEventListener('keydown', e => { if (e.key === 'Escape') { deselect(); hideHits(); } });
+
+  // deep links: /atlas/3d/#concept-slug (wait for layout warmup so flyTo has positions)
+  const wanted = () => decodeURIComponent(location.hash.slice(1));
+  if (wanted() && byId[wanted()]) setTimeout(() => select(wanted()), 1900);
+  addEventListener('hashchange', () => {
+    const id = wanted();
+    if (id && byId[id] && id !== selected) select(id);
+  });
 
   /* ---------- concept card ---------- */
   const card = document.getElementById('card');
