@@ -1,0 +1,280 @@
+# Orphan pass 4 — Technology & Data (10 orphans) + Agile & Software Delivery
+# orphans whose book slug is in [agile-*, adaptive-governance, bdd-in-action,
+# building-*, collaboration-at-scale, disciplined-*, evidence-*, great-big-agile, kanban-*]
+#
+# Left unlinked (no genuine mechanism-level match found):
+#   Technology & Data: graph-colouring-as-constraint-model, mathematical-induction,
+#     attribute-driven-design
+#   Agile & Software Delivery: distributed-feature-teams, agile-career-paths,
+#     agile-workforce-value-drivers, full-lifecycle-delivery, kanban-as-method,
+#     kanban-principles, stable-teams, data-driven-definition-of-good,
+#     staged-release-audiences, track-column-for-blocked-items, collective-commitment,
+#     empirical-process-control, distributed-agility-dimensions, four-dimensions-workforce-agility,
+#     temporal-distance-collaboration, value-delivery-management, ebm-learning-loop,
+#     leading-and-lagging-indicators, change-curve, systemic-reflection-loop
+
+- from: wip-limits
+  verb: instantiates
+  to: pigeonhole-principle
+  why: >-
+    Capping items per workflow stage below its handling capacity is a
+    concrete case of pigeonhole logic: once items exceed available slots,
+    some collision — blocked work, context-switching — becomes mathematically
+    forced, not just likely.
+
+- from: sophisticated-falsificationism
+  verb: tempers
+  to: proof-by-refutation
+  why: >-
+    Mathematics can retire a claim by deriving pure contradiction from its
+    negation, but empirical theories are never refuted by contradicting
+    evidence alone — only by a rival theory explaining prior successes — so
+    refutation-by-contradiction fails outside formal systems.
+
+- from: compounding-and-discounting
+  verb: extends
+  to: operations-as-compressed-repetition
+  why: >-
+    Compound interest is repeated multiplication — each period scales the
+    total by the same growth factor — rather than repeated addition; it
+    extends the book's compressed-repetition move one level further,
+    from addition/subtraction to the case where the repeated operation is
+    itself multiplication, collapsing into the closed-form exponential
+    growth formula.
+
+- from: p-value-court-fallacy
+  verb: parallels
+  to: prosecutors-fallacy
+  why: >-
+    Both are the identical Bayesian-inversion error wearing different
+    clothes: confusing the probability of evidence given a hypothesis with
+    the probability of the hypothesis given evidence, in statistical
+    testimony and in courtroom argument alike.
+
+- from: tenx-abundance-pricing
+  verb: extends
+  to: sustaining-vs-disruptive-innovation
+  why: >-
+    Names the specific modern mechanism — automation-driven 90%+ price cuts
+    — through which low-end disruptive entrants access markets 100 times
+    larger than incumbents serve, sharpening the general price/simplicity
+    disruption pattern with a quantified lever.
+
+- from: internal-release-cadence
+  verb: instantiates
+  to: cadence-decoupling
+  why: >-
+    Delivering internally every month while reserving external releases for
+    business-timed decisions is a concrete case of cadence decoupling:
+    internal learning rhythm and external release rhythm run independently
+    instead of sharing one forced iteration.
+
+- from: program-charter
+  verb: parallels
+  to: six-critical-questions
+  why: >-
+    Both replace a polished mission statement with a jointly-produced,
+    directionally-correct answer set that a leadership team owns and returns
+    to, aligning execution before work starts rather than papering over
+    disagreement afterward.
+
+- from: program-core-team
+  verb: parallels
+  to: first-team
+  why: >-
+    Both replace fragmented, function-by-function decision-making with a
+    designated cross-functional forum — a program core team, an executive
+    peer team — deliberately empowered to solve problems that fall between
+    or across functions, on the premise that only a shared body assembled
+    for that purpose, not any single team, can resolve them.
+
+- from: recidivism-rate
+  verb: instantiates
+  to: iatrogenics
+  why: >-
+    Recidivism rate operationalizes iatrogenics for software workflows: it
+    traces reopened, sent-back work to the very step that claimed to
+    complete it, surfacing hidden harm from a "fix" normally never connected
+    back to its source.
+
+- from: just-in-time-task-assignment
+  verb: instantiates
+  to: just-in-time
+  why: >-
+    Assigning tasks only at the moment a team member is ready to pull them
+    is the kanban-software analog of Toyota's Just-in-Time: later processes
+    pulling from earlier ones instead of push-scheduling work in advance.
+
+- from: sustained-engineering-kanban
+  verb: instantiates
+  to: four-types-of-work
+  why: >-
+    Dedicated escalation and bug swim lanes with triage and support tiers is
+    a concrete operational answer to Unplanned work: giving firefighting-
+    type work its own governed swim lane so it stops silently consuming
+    capacity earmarked for Business and Internal projects.
+
+- from: task-completion-rate-forecasting
+  verb: instantiates
+  to: planning-fallacy
+  why: >-
+    Forecasting completion dates from a team's own measured completion and
+    add rates, not from re-estimating remaining work, is the outside-view
+    cure for the planning fallacy — track record beats plan-based
+    projection, updated as conditions change.
+
+- from: wip-calculation-by-throughput-ratio
+  verb: parallels
+  to: drum-buffer-rope
+  why: >-
+    Both pace every stage of a system to match its slowest step's
+    throughput, capping upstream release so work-in-process never outpaces
+    the constraint — one names it WIP limits by throughput ratio, the other
+    Drum-Buffer-Rope.
+
+- from: conditions-for-self-organization
+  verb: tempers
+  to: self-organizing-teams
+  why: >-
+    Scrum assumes a team can self-organize to its sprint goal by default;
+    Open Space names the actual preconditions — a real issue, genuine
+    diversity, passion, urgency — self-organization needs, exposing why it
+    fails without them.
+
+- from: sprint-timebox
+  verb: instantiates
+  to: embrace-constraints
+  why: >-
+    A fixed thirty-day box is a deliberate constraint used exactly as
+    Embrace Constraints prescribes: not a limitation to route around, but
+    the forcing function producing focus, empirical planning, and a
+    predictable delivery rhythm.
+
+- from: temporal-inconvenience-rotation
+  verb: tempers
+  to: management-by-timeshifting-around
+  why: >-
+    Both bridge timezone gaps in distributed teams, but rotating
+    inconvenient meeting times fairly across everyone tempers the
+    leader-absorbs-the-pain model, showing timezone cost concentrated onto
+    one liaison or leader is not sustainable indefinitely.
+
+- from: promiscuous-pair-story-authoring
+  verb: instantiates
+  to: tacit-explicit-knowledge-blend
+  why: >-
+    Rotating story-writing pairs across sites and skill levels builds the
+    shared tacit understanding a written story alone can never transmit — a
+    concrete case of tacit knowledge needing a community of shared
+    practice, not a document.
+
+- from: production-leveling
+  verb: contradicts
+  to: demand-driven-workforce-matching
+  why: >-
+    Toyota's leveling deliberately smooths output against real demand swings
+    to avoid amplifying variability upstream; demand-driven workforce
+    matching does the opposite, staffing directly to demand's actual peaks
+    and troughs — absorbing variability versus chasing it.
+
+- from: trust-psychological-contract
+  verb: instantiates
+  to: first-move-trust-reciprocity
+  why: >-
+    The implicit trust making agile working function is a case of the
+    reciprocity mechanism: an employer extends trust and flexibility without
+    a formal guarantee, banking on the norm of reciprocity to return
+    commitment in kind.
+
+- from: deliberate-discovery
+  verb: parallels
+  to: seeking-disconfirmation
+  why: >-
+    Both replace the default instinct — assume you know, wait for reality to
+    correct you — with an active, deliberate hunt for the unknowns or
+    contradicting evidence that could break the current plan, found cheaply
+    now.
+
+- from: executable-specifications
+  verb: instantiates
+  to: illusions-of-agreement
+  why: >-
+    Executable specifications are the concrete artifact Illusions of
+    Agreement prescribes in place of prose: instead of an abstract spec
+    people nod along to while privately imagining different things, a
+    Gherkin scenario with concrete values is both readable and runnable
+    code, so any misunderstanding fails loudly the moment the suite runs
+    rather than staying invisible.
+
+- from: impact-mapping
+  verb: parallels
+  to: future-reality-tree
+  why: >-
+    Both diagram the causal chain from a planned intervention to its
+    intended distal outcome — feature to business impact, action to
+    consequence — so a team can test whether the plan delivers before
+    committing resources.
+
+- from: outside-in-development
+  verb: parallels
+  to: outcome-first-planning
+  why: >-
+    Both deliberately invert the natural build order — starting from the
+    desired end state, acceptance criteria or vision, and working backward
+    toward implementation or diagnosis — rather than building up from what
+    already exists.
+
+- from: business-collaboration-modeling
+  verb: parallels
+  to: informal-structure-complements-formal
+  why: >-
+    Both insist the real work of an enterprise runs through informal
+    collaboration networks that prescribed processes and formal org charts
+    never capture, treating modeling or preserving that informal network as
+    necessary, not optional decoration.
+
+- from: definition-of-ready
+  verb: parallels
+  to: opportunity-assessment
+  why: >-
+    Both are lightweight gate criteria applied before work starts — a shared
+    checklist ensuring goals, risks, or scope are already clear — existing
+    specifically to stop a team from beginning work whose core assumptions
+    are unexamined.
+
+- from: context-driven-agile-tailoring
+  verb: parallels
+  to: adaptive-leadership
+  why: >-
+    Both reject one fixed universal approach in favor of contingency: agile
+    scaling factors and leadership behavior are each matched to situational
+    variables like complexity and distribution rather than applied
+    uniformly regardless of context.
+
+- from: hybrid-process-framework
+  verb: parallels
+  to: latticework-of-models
+  why: >-
+    Both reject dogmatic reliance on a single framework in favor of
+    deliberately drawing from several — Scrum, XP, Unified Process, Kanban;
+    economics, physics, biology — on the premise that no one lens is
+    sufficient and specialization in only one produces blind spots a
+    combination avoids.
+
+- from: potentially-consumable-solution
+  verb: extends
+  to: technical-debt-operability
+  why: >-
+    Technical-Debt-and-Operability warns that skipping operational design
+    accrues invisible debt; potentially-consumable-solution operationalizes
+    the fix by requiring every iteration's output, not just the final
+    release, to already be operationally prepared rather than retrofitted.
+
+- from: six-performance-circles
+  verb: parallels
+  to: distributed-leadership
+  why: >-
+    Both decompose one complex capability into a fixed set of interdependent
+    domains that jointly must be present but need not be mastered by any
+    one person — six circles for agile adoption, four capabilities for
+    leadership.

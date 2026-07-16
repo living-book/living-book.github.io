@@ -1,0 +1,245 @@
+# Orphan pass 4 — Systems Thinking & Philosophy (all 12) + Agile & Software Delivery L-Z slice
+# Hunted against CATALOG.md; checked for duplicates against EDGES-EXISTING.md.
+
+# --- Systems Thinking & Philosophy ---
+
+- from: truth-over-prescription
+  verb: parallels
+  to: the-righting-reflex
+  why: >-
+    Both explain why an externally-supplied answer fails to transform its recipient: a
+    prescription followed because you "should," or advice built from the advisor's own
+    experience, solves the giver's problem, not the receiver's, so neither is internalized.
+
+- from: behavior-based-decomposition
+  verb: parallels
+  to: knowledge-in-the-world
+  why: >-
+    Both replace an internal, centralized model with direct reliance on structure already
+    present in the world — parallel sensing-to-action layers, or information placed in the
+    environment — so cognition or design work is offloaded onto the world itself.
+
+- from: cyclic-collective-preference
+  verb: parallels
+  to: preference-reversals
+  why: >-
+    Both show that individually coherent preferences produce an incoherent ranking once
+    measured a different way — aggregated across voters into a cycle, or elicited by pricing
+    instead of choosing — revealing preference is built by the method, not read off intact.
+
+- from: rollercoaster-of-change
+  verb: parallels
+  to: change-curve
+  why: >-
+    Both apply the same predictable emotional-stage sequence (shock/denial through
+    acceptance) to change, one in general strategic leadership and one in Kanban team
+    change, showing the arc is a property of the change process, not the domain.
+
+- from: quantum-multiverse
+  verb: tempers
+  to: sphere-of-many-radii-counterfactual
+  why: >-
+    Deutsch's rigorous multiverse, constrained by interference and physical law, tempers
+    Wolf's device: it stretches the same real Aharonov-Vaidman branching into an unconstrained
+    subjective "possibility-wave" technology with no experimental grounding.
+
+# --- Agile & Software Delivery (L-Z) ---
+
+- from: everybody-all-together
+  verb: parallels
+  to: whole-system-in-the-room
+  why: >-
+    Both dissolve the sequential handoff between roles or stages by putting every needed
+    perspective in the same room simultaneously, so context and intent never degrade
+    crossing a stakeholder boundary.
+
+- from: evolutionary-process-improvement
+  verb: parallels
+  to: safe-to-fail-experiments
+  why: >-
+    Both replace big-bang redesign with small, reversible, real-problem-driven probes whose
+    purpose is learning what the system actually does, throttled to a pace people can absorb.
+
+- from: face-to-face-bug-fixing
+  verb: parallels
+  to: closed-loop-feedback
+  why: >-
+    Both reject a delayed, indirect channel — a bug ticket, a report nobody reads — for an
+    immediate direct conversation between whoever found the signal and whoever can act on
+    it, because delay strips the signal of its power to drive a fix.
+
+- from: value-stream-mapping
+  verb: instantiates
+  to: seeing-systems
+  why: >-
+    Mapping the full value stream reveals that waste and delay trace to structural handoffs
+    and queues in the system, not to any single step's failure — the concrete case of
+    treating bad outcomes as system design, not individual blame.
+
+- from: agile-chartering
+  verb: parallels
+  to: contracting-wants-and-offers
+  why: >-
+    Both replace implicit assumptions about roles and expectations with an explicit,
+    conversational up-front agreement, because skipped wants or unstated purpose resurface
+    destructively once work is underway.
+
+- from: liftoff
+  verb: parallels
+  to: ignition
+  why: >-
+    Both identify a single, deliberately engineered initial event whose brief occurrence
+    supplies disproportionate, lasting energy that overcomes inertia and sets a long arc of
+    behavior in motion.
+
+- from: living-charter
+  verb: tempers
+  to: the-map-mistaken-for-the-world
+  why: >-
+    A charter kept perpetually live and amended is a deliberate defense against becoming a
+    fixed map mistaken for the territory — the exact failure mode this general principle
+    warns about.
+
+- from: be-quick-dont-hurry
+  verb: parallels
+  to: pressure-kills-cognition
+  why: >-
+    Both distinguish genuine speed from mere induced urgency, showing that pressuring people
+    to go faster narrows attention and degrades the very capability that speed depends on.
+
+- from: control-agility-balance
+  verb: contradicts
+  to: barbell-strategy
+  why: >-
+    Control-agility-balance seeks equilibrium between predictability and flexibility; the
+    barbell strategy explicitly rejects any middle position as the most exposed place to be,
+    combining only extremes instead — opposed strategies for the same tradeoff.
+
+- from: lean-customer-value-primary
+  verb: instantiates
+  to: create-a-customer
+  why: >-
+    Both argue a business's true output is customer value, with financial results as a
+    downstream effect rather than the primary target — profit follows from getting the
+    value question right, not from pursuing it directly.
+
+- from: methodology-as-tool-not-dogma
+  verb: parallels
+  to: latticework-of-models
+  why: >-
+    Both warn against the "man with a hammer" failure — treating one framework as a
+    universal template to force onto every situation instead of one tool selected by fit.
+
+- from: commitment-over-loyalty
+  verb: parallels
+  to: knowledge-worker-as-volunteer
+  why: >-
+    Both reject an obligation-based employment bond (loyalty, subordinate labor) for one
+    built on freely renewed commitment to current purpose, because the traditional bond
+    actively conflicts with the openness to change the organization needs.
+
+- from: four-types-of-work
+  verb: parallels
+  to: flow-items
+  why: >-
+    Both build a MECE taxonomy of qualitatively different work types competing for the same
+    finite capacity — business/internal/changes/unplanned, or features/defects/risks/debts —
+    because one undifferentiated stream hides which type is starving the others.
+
+- from: work-in-progress-control
+  verb: instantiates
+  to: queueing-theory
+  why: >-
+    Capping work in flight is the visual, operational embodiment of queueing theory's core
+    lever: reducing arrivals-in-system directly reduces wait time and exposes the true
+    bottleneck instead of a mysterious "flow problem."
+
+- from: scrum-pillars
+  verb: parallels
+  to: radical-transparency
+  why: >-
+    Both independently converge on transparency as a working foundation rather than a
+    courtesy — Scrum names it the first of three empirical pillars, Dalio calls concealment
+    costlier than hard truths — though Scrum pairs it with inspection and adaptation to
+    convert visibility into course-correction, while Dalio's version stops at openness itself.
+
+- from: scrum-values
+  verb: parallels
+  to: mutual-learning-core-values
+  why: >-
+    Both name a small set of cultural values, not techniques, as the substrate that must be
+    genuinely present for the methodology to work — Scrum's empiricism, or a facilitator's
+    mutual learning — or it collapses into empty ritual.
+
+- from: cadence-decoupling
+  verb: tempers
+  to: sprint-container
+  why: >-
+    Cadence-decoupling names exactly where Scrum's single unified timebox breaks down:
+    delivery, prioritization, and development each have a different natural rhythm, and
+    forcing them into one cadence creates friction letting each run separately would avoid.
+
+- from: power-of-silence
+  verb: parallels
+  to: holding-space
+  why: >-
+    Both treat a facilitator's deliberate withholding — silence, or near-total inaction — as
+    the active intervention itself, because stepping back is what creates room for the group
+    to develop its own capability instead of depending on the leader's answers.
+
+- from: shared-definition-of-done
+  verb: parallels
+  to: peer-based-accountability
+  why: >-
+    Both relocate responsibility for a standard from a separate authority — a stage-gate
+    role, a policing leader — to the peer group itself, because a standard enforced by the
+    people doing the work holds better than one imposed from outside it.
+
+- from: kata-as-disciplined-improvement
+  verb: parallels
+  to: deep-practice
+  why: >-
+    Both replace occasional, heroic effort with small, repeated, deliberately-structured
+    practice embedded into routine, arguing that disciplined repetition — not talent or big
+    pushes — is what actually builds durable capability.
+
+- from: pragmatic-cadence-choice
+  verb: parallels
+  to: adaptive-leadership
+  why: >-
+    Both reject a single universally-correct mode in favor of matching the approach to
+    situational variables — team maturity and context, or task and subordinate maturity —
+    because forcing one mode everywhere ignores real variation in what's needed.
+
+- from: psychological-barriers-to-agile-adoption
+  verb: parallels
+  to: resistance-blows-itself-out
+  why: >-
+    Both diagnose resistance to change as an emotional process — fear, status threat,
+    identity disruption — rather than rational disagreement, and dissolve it through
+    non-confrontational means rather than argument.
+
+- from: commitment-to-agility
+  verb: parallels
+  to: negative-capability
+  why: >-
+    Both treat uncertainty as something to be deliberately held and managed rather than
+    eliminated through premature resolution — accepting unresolved ambiguity produces better
+    outcomes than forcing false certainty early.
+
+- from: interaction-room
+  verb: instantiates
+  to: meaningful-space
+  why: >-
+    The Interaction Room's wall-based joint modeling is a concrete application of meaningful
+    space: where stakeholders place process and data elements on the wall carries real
+    shared meaning, replacing pages of documentation with position and proximity.
+
+- from: systems-of-engagement
+  verb: parallels
+  to: four-zones-model
+  why: >-
+    Both argue that forcing structurally different parts of an organization under one
+    uniform paradigm causes harm, splitting them instead into distinct zones — stable
+    records vs fast-changing engagement systems, or performance vs incubation zones.
+

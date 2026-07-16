@@ -122,3 +122,9 @@ COST RESULT: 28/28 extractions on Haiku (~90-120k tok/book vs Sonnet) — qualit
 Tranche 7 result: waves A+B all 30 done (leadership 113 + psych 118 = 231 concepts; QA fails: 9 yaml colons/descriptions, 3 collisions renamed [powerful-questions→powerful-questions-in-coaching, thematic-goal→thematic-goal-workshop, skilled-incompetence→organizational-defensive-routines], 0 CATALOG edits by agents — new prompt rules worked).
 4 Sonnet weavers: 103 edges (coaching 24, leadership 29, behavior 27, emotion 23), honest unlink 45-62%. Verify: session-limit killed both verifiers mid-run (10:30am PT reset); relaunched → coaching 19, leadership 23, behavior 22, emotion 18 = 82 kept, 7 fixed, 21 dropped.
 Rebuild: 193 books, 1341 concepts, 996 edges (79% cross-domain; tempers 154, contradicts 41), 277 orphans (two-tranche residue — orphan pass overdue); corpus 1533 chunks; strict clean; smoke 1341 nodes/0 real errors → PR #9.
+
+## Orphan pass 4 (user: "merged, now do orphan pass" 2026-07-15). PR #9 merged; branch atlas-orphan-weave-4 off main.
+277 orphans → pipeline/atlas/orphans4/ORPHANS.md (Agile 101, Psych 76, Lead 75, Sys 12, Tech 10, Biz 3).
+- [x] 4 Sonnet weavers: 185 edges (agile-A+tech 35, agile-B+sys 46, lead+biz 52, psych 52); honest link 60-72%; agile-B weaver self-audited from forced ~100% down to 71%.
+- [x] 2 Sonnet verifiers (extra-harsh orphan mandate): kept 140 (29/35, 47/52, 30/46, 34/52); 45 dropped (incl. laundering kills: three-principles∥autopoiesis, elevated-emotion∥edso), 19 fixed.
+- [x] rebuild: 193 books, 1341 concepts, 1136 edges (79% cross-domain; tempers 163, contradicts 45), orphans 277→129 (honest residue: Dzogchen core, Yukl taxonomies, coaching-process frameworks); corpus 1533 chunks; strict clean; smoke 1341 nodes / 0 bad responses → PR #10
