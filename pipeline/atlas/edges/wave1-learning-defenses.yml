@@ -1,0 +1,179 @@
+- from: actionable-advice
+  verb: tempers
+  to: lifes-task
+  why: >-
+    Argyris's bar for advice — concrete behavior, causal design, testability — shows
+    Life's Task offers narrative heuristics (primal inclination, rebellion, adaptation)
+    for recognizing a calling but no way to test whether the "discovery" is correct,
+    leaving verification impossible rather than merely difficult.
+
+- from: eqstrategy-library
+  verb: instantiates
+  to: actionable-advice
+  why: >-
+    Each of the 66 strategies names a specific behavior, a stated mechanism for why it
+    works, and a way to tell if it's being done, meeting Argyris's four-part test for
+    advice that practitioners can actually implement and test.
+
+- from: internal-vs-external-commitment
+  verb: parallels
+  to: truth-over-prescription
+  why: >-
+    Both find that compliance obtained through external authority or instruction — a
+    value championed by a leader, a technique followed because told to — cannot itself
+    produce change; only what a person tests and arrives at for themselves converts into commitment.
+
+- from: untested-attributions
+  verb: parallels
+  to: directions-not-descriptions
+  why: >-
+    Both distrust an inference about a person's underlying disposition as grounds for
+    action; untested-attributions demands verifying the inference before acting on it,
+    while directions-not-descriptions replaces the inference with a concrete instruction
+    for the moment, sidestepping the need to diagnose the person at all.
+
+- from: organizational-double-binds
+  verb: tempers
+  to: polarity-mapping
+  why: >-
+    Polarity mapping presumes a tension can be named and openly discussed once
+    surfaced, but a double bind is sustained precisely by making the contradiction —
+    and the fact that it's off-limits — undiscussable, blocking the surfacing step mapping needs.
+
+- from: designed-ignorance
+  verb: extends
+  to: skilled-unawareness
+  why: >-
+    Designed Ignorance supplies the developmental mechanism behind Skilled
+    Unawareness: the automaticity that produces effortless mastery necessarily erases
+    memory of how the skill was built, which is why counterproductive behavior stays invisible to its performer.
+
+- from: competence-trap
+  verb: parallels
+  to: goalodicy
+  why: >-
+    Both show a self-reinforcing lock-in where past success fuses with identity, so
+    contradicting evidence about a strategy's or goal's current validity gets
+    reinterpreted as reason to invest harder rather than a signal to reconsider it.
+
+- from: scholarly-defensive-routines
+  verb: parallels
+  to: protective-belt
+  why: >-
+    Both describe a self-protective ring of auxiliary norms that absorbs challenges to
+    a core commitment — a discipline's describe-only self-image, a theory's hard core —
+    converting a potential refutation into routine adjustment that leaves the core unexamined.
+
+- from: defensive-reasoning-mindset
+  verb: parallels
+  to: confident-confabulation
+  why: >-
+    Both produce a confident, internally consistent explanation because the reasoning
+    used to generate the claim is the same reasoning used to test it, so the system has
+    no internal signal registering its own gap in valid information.
+
+- from: model-i-virtues-vs-model-ii-virtues
+  verb: parallels
+  to: false-trust-vs-fake-trust
+  why: >-
+    Both show the same espoused virtue — caring, trust — implemented through two
+    opposite behavior sets, one performing the virtue's appearance while protecting the
+    actor's control, the other genuinely enacting it, with only the second producing the intended effect.
+
+- from: deficit-based-to-strengths-change
+  verb: contradicts
+  to: five-step-process
+  why: >-
+    Dalio's process makes accurately diagnosing a problem's root cause mandatory
+    before designing a fix, but Appreciative Inquiry's ProCare case found that
+    diagnosing what's wrong demoralized staff and degraded outcomes while studying what worked improved them.
+
+- from: inquiry-as-intervention
+  verb: contradicts
+  to: diagnosis-intervention-cycle
+  why: >-
+    The Simultaneity Principle holds that asking a question is itself the
+    intervention, changing direction the instant it's asked, while the
+    Diagnosis-Intervention Cycle treats observation and inference as private work that must finish before any public intervention begins.
+
+- from: zone-of-proximal-development
+  verb: tempers
+  to: gospel-of-10x
+  why: >-
+    ZPD locates growth in a band just above current ability with calibrated support
+    from a more capable other; a target expected to fail ~40% of the time pushes past
+    that ceiling on ambition alone, which risks producing anxiety instead of the
+    guided stretch ZPD requires.
+
+- from: preconceptions-must-be-engaged
+  verb: tempers
+  to: eight-step-change-process
+  why: >-
+    The eight-step sequence treats communicating the vision as one completed stage,
+    but if employees' existing beliefs about why the old way worked are never
+    surfaced and addressed, the new message gets reinterpreted to fit them rather than replacing them.
+
+- from: conditionalized-knowledge
+  verb: parallels
+  to: task-driven-knowledge-transfer
+  why: >-
+    Both find knowledge becomes usable only when acquired attached to the conditions
+    of its application; front-loaded classroom instruction produces inert facts, while
+    learning embedded in a real task binds knowledge to the cues that will later retrieve it.
+
+- from: anticipatory-images-drive-action
+  verb: parallels
+  to: worthwhile-vs-instrumental-goal
+  why: >-
+    Both find a goal's emotional and narrative content, not its rational
+    justification, is what mobilizes sustained action — an image or purpose valued in
+    itself recruits real motivation, while instrumental or fear-based framing produces only compliance or panic.
+
+- from: whole-system-participation
+  verb: parallels
+  to: whole-system-in-the-room
+  why: >-
+    Both find that assembling every stakeholder and every person with authority to act
+    in one place collapses the normal plan-then-implement sequence, because
+    sense-making and approval that would otherwise happen later and adversarially occur together on the spot.
+
+- from: formative-assessment-understanding
+  verb: extends
+  to: deliberate-practice-for-leadership
+  why: >-
+    Deliberate practice specifies that feedback on results must be continuous for
+    skill to compound; Formative Assessment adds the mechanism for what that feedback
+    must target — a learner's actual reasoning, not just correctness — or the loop measures the wrong thing.
+
+- from: model-i-theory-in-use
+  verb: parallels
+  to: runaway-narrowing
+  why: >-
+    Both describe a corrective loop that fails to trigger: instead of swinging back
+    toward inquiry or context once its narrow, controlling mode produces bad
+    outcomes, the system reinterprets the failure as proof the narrow mode must be applied harder.
+
+- from: competence-trap
+  verb: tempers
+  to: positive-core
+  why: >-
+    Positive Core mapping treats an organization's historically successful
+    capabilities as an unqualified asset to amplify, but Competence Trap shows that
+    capability can become an entrenched liability once its competitive basis shifts, so mapping needs a way to tell which strengths still hold.
+
+- from: words-create-worlds
+  verb: parallels
+  to: language-as-operating-system
+  why: >-
+    Both claim habitual language doesn't merely describe reality but actively
+    constructs what a person or organization can perceive and become, so changing the
+    vocabulary used is a direct, high-leverage intervention, not a downstream description of a change already made.
+
+- from: pedagogical-content-knowledge
+  verb: parallels
+  to: coach-mentor-duality
+  why: >-
+    Both distinguish possessing expertise in a domain from possessing the separate,
+    learnable craft of transferring or developing that expertise in another person —
+    mastering content doesn't confer skill at teaching it, so an expert can fail
+    exactly where transfer, not knowledge, is missing.
