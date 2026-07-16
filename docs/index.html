@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Living Books — a library that connects its own ideas</title>
+<meta name="description" content="Book companions that improve with your feedback, plus a concept atlas weaving 221 books together with verified cross-domain connections.">
+<style>
+:root {
+  /* Anthropic / Claude design system — warm parchment palette */
+  --bg: #f5f4ed;
+  --bg2: #faf9f5;
+  --bg3: #e8e6dc;
+  --border: #f0eee6;
+  --border-warm: #e8e6dc;
+  --accent: #c96442;
+  --accent2: #d97757;
+  --green: #2a6b42;
+  --yellow: #9a6520;
+  --red: #b53333;
+  --text: #141413;
+  --muted: #5e5d59;
+  --text3: #87867f;
+  --text-light: #b0aea5;
+  --dark: #141413;
+  --dark2: #30302e;
+
+  /* domain inks — must match the 2D atlas */
+  --d-systems: #2a6b42;
+  --d-tech: #b53333;
+  --d-business: #9a6520;
+  --d-agile: #c96442;
+  --d-leadership: #7a5230;
+  --d-psych: #8a4a62;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font: 15px/1.6 system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); }
+h1, h2, h3 { font-family: Georgia, 'Anthropic Serif', serif; font-weight: 500; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* ---------- header (same chrome as the 2D atlas) ---------- */
+header {
+  display: flex; align-items: baseline; gap: 14px;
+  padding: 14px 22px 12px;
+  border-bottom: 1px solid var(--border-warm);
+  background: var(--bg2);
+  position: sticky; top: 0; z-index: 30;
+}
+header h1 { font-size: 21px; line-height: 1.1; }
+header .sub { color: var(--text3); font-size: 13px; }
+header nav { margin-left: auto; display: flex; gap: 16px; font-size: 13px; }
+
+main { max-width: 1060px; margin: 0 auto; padding: 0 22px 70px; }
+section { margin-top: 54px; }
+.reveal { opacity: 0; transform: translateY(14px); transition: opacity .6s ease, transform .6s ease; }
+.reveal.in { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; transform: none; transition: none; } }
+
+/* ---------- hero ---------- */
+#hero { padding-top: 58px; text-align: left; max-width: 760px; }
+#hero h2 { font-size: clamp(30px, 4.6vw, 44px); line-height: 1.12; text-wrap: balance; }
+#hero h2 em { font-style: italic; color: var(--accent); }
+#hero p { margin-top: 14px; font-size: 16.5px; color: var(--muted); max-width: 56ch; }
+#statband { display: flex; flex-wrap: wrap; gap: 12px 34px; margin-top: 26px; }
+.stat { min-width: 90px; }
+.stat b { display: block; font: 500 30px/1 Georgia, serif; color: var(--text); font-variant-numeric: tabular-nums; }
+.stat span { font-size: 12px; letter-spacing: .07em; text-transform: uppercase; color: var(--text3); }
+.stat.tension b { color: var(--accent); }
+#heroctas { margin-top: 26px; display: flex; flex-wrap: wrap; gap: 10px; }
+.btn {
+  display: inline-block; padding: 9px 18px; border-radius: 8px; font-size: 14px;
+  border: 1px solid var(--border-warm); background: var(--bg2); color: var(--text);
+}
+.btn:hover { text-decoration: none; box-shadow: 0 0 0 1px var(--border-warm); }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+.btn.primary:hover { background: var(--accent2); box-shadow: none; }
+.btn.dark { background: var(--dark); border-color: var(--dark); color: var(--bg2); }
+.btn.dark:hover { background: var(--dark2); }
+
+/* ---------- section headings ---------- */
+.sechead { display: flex; align-items: baseline; gap: 12px; margin-bottom: 18px; }
+.sechead h2 { font-size: 24px; color: var(--accent); }
+.sechead .n { color: var(--text3); font-size: 13px; }
+
+/* ---------- companions shelf ---------- */
+#shelf { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; }
+.bookcard {
+  background: var(--bg2); border: 1px solid var(--border); border-radius: 12px;
+  overflow: hidden; display: flex; flex-direction: column;
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+.bookcard:hover { transform: translateY(-4px); box-shadow: rgba(0,0,0,0.05) 0px 4px 24px, 0 0 0 1px var(--border-warm); }
+@media (prefers-reduced-motion: reduce) { .bookcard, .bookcard:hover { transform: none; transition: none; } }
+.bookcard a.coverlink { display: block; background: var(--bg3); }
+.bookcard img { width: 100%; aspect-ratio: 2/3; object-fit: cover; display: block; }
+.spine {
+  width: 100%; aspect-ratio: 2/3; display: flex; align-items: center; justify-content: center;
+  padding: 18px; text-align: center; font: 500 17px/1.3 Georgia, serif; color: var(--bg2);
+}
+.bookcard .meta { padding: 10px 12px 12px; }
+.bookcard .meta .t { font: 600 13.5px/1.3 system-ui, sans-serif; }
+.bookcard .meta .a { font-size: 12px; color: var(--muted); margin-top: 1px; }
+.bookcard .meta .c { font-size: 11.5px; color: var(--text3); margin-top: 4px; }
+
+/* ---------- library browser ---------- */
+#libtools { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 6px; }
+#libsearch {
+  flex: 1 1 240px; max-width: 380px; padding: 9px 13px;
+  font: 14px system-ui, sans-serif; color: var(--text);
+  border: 1px solid var(--border-warm); border-radius: 8px; background: var(--bg2);
+}
+#libsearch:focus { outline: 2px solid var(--accent); outline-offset: 1px; border-color: transparent; }
+#libchips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip {
+  font-size: 11.5px; padding: 3px 10px; border-radius: 99px;
+  border: 1px solid var(--border-warm); background: var(--bg2);
+  color: var(--muted); cursor: pointer; user-select: none;
+}
+.chip .dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; margin-right: 5px; }
+.chip.on { background: var(--dark); color: var(--bg2); border-color: var(--dark); }
+#libcount { font-size: 12px; color: var(--text3); margin: 4px 2px 10px; }
+.domgroup { margin-top: 22px; }
+.domgroup > h3 { font-size: 17px; margin-bottom: 8px; }
+.domgroup > h3 .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 8px; }
+.domgroup > h3 .n { font: 12px system-ui, sans-serif; color: var(--text3); margin-left: 6px; }
+.bookrow {
+  background: var(--bg2); border: 1px solid var(--border); border-radius: 10px;
+  margin: 6px 0; overflow: hidden;
+}
+.bookrow > button {
+  display: flex; align-items: baseline; gap: 10px; width: 100%; text-align: left;
+  padding: 10px 14px; border: none; background: none; font: inherit; color: inherit; cursor: pointer;
+}
+.bookrow > button:hover { background: var(--bg3); }
+.bookrow .t { font-weight: 600; font-size: 14px; }
+.bookrow .a { color: var(--muted); font-size: 12.5px; }
+.bookrow .k { margin-left: auto; color: var(--text3); font-size: 12px; white-space: nowrap; }
+.bookrow .badge {
+  font-size: 10.5px; letter-spacing: .05em; text-transform: uppercase;
+  background: var(--green); color: #fff; border-radius: 99px; padding: 1px 8px;
+}
+.bookrow .chev { color: var(--text3); transition: transform .2s; }
+.bookrow.open .chev { transform: rotate(90deg); }
+.concepts { display: none; padding: 4px 14px 12px; border-top: 1px solid var(--border); }
+.bookrow.open .concepts { display: flex; flex-wrap: wrap; gap: 6px; }
+.cpt {
+  font-size: 12px; padding: 3px 10px; border-radius: 99px;
+  background: var(--bg); border: 1px solid var(--border-warm); color: var(--text);
+}
+.cpt:hover { border-color: var(--accent); color: var(--accent); text-decoration: none; }
+.concepts .more { font-size: 12px; color: var(--text3); align-self: center; }
+.concepts .links { width: 100%; margin-top: 6px; font-size: 12px; }
+
+/* ---------- reading path / CTA cards ---------- */
+#pathcard {
+  background: var(--bg3); border-radius: 12px; padding: 20px 24px; font-size: 14.5px;
+  border: 1px solid var(--border-warm); max-width: 76ch;
+}
+#pathcard b { font-family: Georgia, serif; font-weight: 500; font-size: 16px; }
+.ctagrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+.cta {
+  border-radius: 14px; padding: 24px; border: 1px solid var(--border-warm);
+  background: var(--bg2); display: flex; flex-direction: column; gap: 8px;
+}
+.cta.dark { background: var(--dark); border-color: var(--dark); color: var(--text-light); }
+.cta.dark h3 { color: var(--bg2); }
+.cta h3 { font-size: 19px; }
+.cta p { font-size: 13.5px; flex: 1; }
+.cta .btn { align-self: flex-start; margin-top: 6px; }
+.cta.dark .btn { background: var(--accent); border-color: var(--accent); color: #fff; }
+.cta.dark .btn:hover { background: var(--accent2); }
+
+/* ---------- loop ---------- */
+#loop { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; max-width: 900px; }
+.step { background: var(--bg2); border: 1px solid var(--border); border-radius: 12px; padding: 16px 18px; }
+.step b { display: block; font: 500 17px Georgia, serif; margin-bottom: 4px; }
+.step b .num { color: var(--accent); margin-right: 6px; }
+.step span { font-size: 13.5px; color: var(--muted); }
+
+footer {
+  margin-top: 70px; border-top: 1px solid var(--border-warm); background: var(--bg2);
+  padding: 22px; text-align: center; font-size: 12.5px; color: var(--text3);
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Living Books</h1>
+  <span class="sub">book companions that improve with your feedback</span>
+  <nav>
+    <a href="ask/">Ask the Books</a>
+    <a href="atlas/">Atlas</a>
+    <a href="atlas/3d/">◈ 3D</a>
+  </nav>
+</header>
+
+<main>
+  <section id="hero">
+    <h2>A library that <em>connects</em> its own ideas.</h2>
+    <p>Every book here is read, distilled into its load-bearing concepts, and woven into a
+    cross-domain atlas — every connection typed, sourced, and adversarially verified.
+    Ask one question; get answers from every shelf at once.</p>
+    <div id="statband">
+      <div class="stat"><b data-n="0" id="s-books">—</b><span>books</span></div>
+      <div class="stat"><b data-n="0" id="s-concepts">—</b><span>concepts</span></div>
+      <div class="stat"><b data-n="0" id="s-edges">—</b><span>verified edges</span></div>
+      <div class="stat tension"><b data-n="0" id="s-tensions">—</b><span>tensions</span></div>
+    </div>
+    <div id="heroctas">
+      <a class="btn dark" href="atlas/3d/">◈ Enter the 3D Atlas</a>
+      <a class="btn primary" href="atlas/">Explore the 2D Atlas</a>
+      <a class="btn" href="ask/">Ask the Books</a>
+    </div>
+  </section>
+
+  <section class="reveal" id="companions">
+    <div class="sechead"><h2>Full companions</h2><span class="n">chapter summaries · study guides · infographics · audio</span></div>
+    <div id="shelf"><!-- built from atlas.json --></div>
+  </section>
+
+  <section class="reveal">
+    <div id="pathcard">
+      <b>Reading path — the Philosophy of Science trilogy.</b><br>
+      Kuhn poses the puzzle (science advances by revolutions, not accumulation),
+      Lakatos answers it (rationality lives in research programmes over time), and
+      Deutsch reframes it entirely (knowledge growth is unbounded). Read in that order
+      for the full argument.
+    </div>
+  </section>
+
+  <section class="reveal" id="library">
+    <div class="sechead"><h2>The whole library</h2><span class="n" id="libtotal"></span></div>
+    <div id="libtools">
+      <input id="libsearch" type="search" placeholder="Filter books &amp; authors…" autocomplete="off">
+      <div id="libchips"></div>
+    </div>
+    <div id="libcount"></div>
+    <div id="libgroups"><!-- built from atlas.json --></div>
+  </section>
+
+  <section class="reveal">
+    <div class="ctagrid">
+      <div class="cta dark">
+        <h3>◈ The 3D Atlas</h3>
+        <p>The library as a galaxy: hover an edge to read <em>why</em> two ideas connect,
+        click a concept and the graph spins it to face you, flip the tension lens to see
+        every verified disagreement in the collection.</p>
+        <a class="btn" href="atlas/3d/">Enter the galaxy</a>
+      </div>
+      <div class="cta">
+        <h3>Ask the Books</h3>
+        <p>Chat with the companions — answers cite the exact chapter they came from.</p>
+        <a class="btn primary" href="ask/">Start asking</a>
+      </div>
+      <div class="cta">
+        <h3>The 2D Atlas</h3>
+        <p>Intent-driven map on parchment: type what you're trying to understand and the
+        relevant concepts light up, with typed edges between them.</p>
+        <a class="btn primary" href="atlas/">Open the map</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="reveal">
+    <div class="sechead"><h2>How the loop works</h2></div>
+    <div id="loop">
+      <div class="step"><b><span class="num">1</span>Read</b><span>a companion alongside (or instead of skimming) the book.</span></div>
+      <div class="step"><b><span class="num">2</span>Tell us</b><span>what's weak, missing, or wrong — every page takes feedback.</span></div>
+      <div class="step"><b><span class="num">3</span>It improves</b><span>feedback drives the next revision. The books stay alive.</span></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  Living Books · companions and atlas built by an AI pipeline, refined by readers ·
+  <a href="https://github.com/living-book/living-book.github.io">source</a>
+</footer>
+
+<script>
+const REDUCED = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const DOMAIN_INK = {
+  'Systems Thinking & Philosophy': 'var(--d-systems)',
+  'Technology & Data': 'var(--d-tech)',
+  'Business & Management': 'var(--d-business)',
+  'Agile & Software Delivery': 'var(--d-agile)',
+  'Leadership & Coaching': 'var(--d-leadership)',
+  'Psychology & Self-Development': 'var(--d-psych)',
+};
+const esc = s => String(s).replace(/[&<>"']/g,
+  c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+/* reveal on scroll */
+const io = new IntersectionObserver(es => es.forEach(e => {
+  if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+}), { threshold: .08 });
+document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+fetch('atlas/atlas.json').then(r => r.json()).then(atlas => {
+  const tensions = atlas.edges.filter(e => e.verb === 'contradicts' || e.verb === 'tempers').length;
+
+  /* ---- count-up stats ---- */
+  const stats = [
+    ['s-books', atlas.books.length], ['s-concepts', atlas.concepts.length],
+    ['s-edges', atlas.edges.length], ['s-tensions', tensions],
+  ];
+  stats.forEach(([id, n]) => countUp(document.getElementById(id), n));
+  function countUp(el, n) {
+    if (REDUCED) { el.textContent = n.toLocaleString(); return; }
+    const t0 = performance.now(), dur = 1100;
+    (function tick(t) {
+      const p = Math.min(1, (t - t0) / dur), e = 1 - Math.pow(1 - p, 3);
+      el.textContent = Math.round(n * e).toLocaleString();
+      if (p < 1) requestAnimationFrame(tick);
+    })(t0);
+  }
+
+  /* ---- concept counts per book ---- */
+  const cptByBook = {};
+  atlas.concepts.forEach(c => (cptByBook[c.book] = cptByBook[c.book] || []).push(c));
+
+  /* ---- companions shelf (published books) ---- */
+  const shelf = document.getElementById('shelf');
+  atlas.books.filter(b => b.status === 'published').forEach(b => {
+    const ink = DOMAIN_INK[b.domain] || 'var(--dark2)';
+    const cptN = (cptByBook[b.slug] || []).length;
+    const card = document.createElement('div');
+    card.className = 'bookcard';
+    card.innerHTML = `
+      <a class="coverlink" href="books/${b.slug}/">
+        <img src="books/${b.slug}/infographics/cover.jpg" alt="${esc(b.title)} cover" loading="lazy">
+      </a>
+      <div class="meta">
+        <div class="t"><a href="books/${b.slug}/">${esc(b.title)}</a></div>
+        <div class="a">${esc(b.author)}</div>
+        <div class="c">${cptN} concepts · <a href="atlas/3d/#${(cptByBook[b.slug] || [{id:''}])[0].id}">in 3D ◈</a></div>
+      </div>`;
+    const img = card.querySelector('img');
+    img.onerror = () => {
+      const a = card.querySelector('.coverlink');
+      a.innerHTML = `<div class="spine" style="background:${ink}">${esc(b.title)}</div>`;
+    };
+    shelf.appendChild(card);
+  });
+
+  /* ---- library browser ---- */
+  document.getElementById('libtotal').textContent =
+    `${atlas.books.length} books across ${Object.keys(DOMAIN_INK).length} domains`;
+  const chipsBox = document.getElementById('libchips');
+  const domOn = {}; Object.keys(DOMAIN_INK).forEach(d => domOn[d] = true);
+  Object.entries(DOMAIN_INK).forEach(([d, ink]) => {
+    const c = document.createElement('button');
+    c.className = 'chip on'; c.type = 'button';
+    c.innerHTML = `<span class="dot" style="background:${ink}"></span>${esc(d.split(' & ')[0])}`;
+    c.title = d;
+    c.onclick = () => { domOn[d] = !domOn[d]; c.classList.toggle('on', domOn[d]); renderLib(); };
+    chipsBox.appendChild(c);
+  });
+  const input = document.getElementById('libsearch');
+  input.addEventListener('input', renderLib);
+
+  const groupsBox = document.getElementById('libgroups');
+  function renderLib() {
+    const q = input.value.trim().toLowerCase();
+    const byDom = {};
+    atlas.books.forEach(b => {
+      if (!domOn[b.domain]) return;
+      if (q && !(b.title.toLowerCase().includes(q) || (b.author || '').toLowerCase().includes(q))) return;
+      (byDom[b.domain] = byDom[b.domain] || []).push(b);
+    });
+    let shown = 0;
+    groupsBox.innerHTML = '';
+    Object.keys(DOMAIN_INK).forEach(d => {
+      const list = byDom[d]; if (!list) return;
+      shown += list.length;
+      list.sort((a, b) => a.title.localeCompare(b.title));
+      const g = document.createElement('div');
+      g.className = 'domgroup';
+      g.innerHTML = `<h3><span class="dot" style="background:${DOMAIN_INK[d]}"></span>${esc(d)}<span class="n">${list.length}</span></h3>`;
+      list.forEach(b => g.appendChild(bookRow(b)));
+      groupsBox.appendChild(g);
+    });
+    document.getElementById('libcount').textContent =
+      q || Object.values(domOn).some(v => !v) ? `${shown} of ${atlas.books.length} books` : '';
+  }
+
+  function bookRow(b) {
+    const cpts = cptByBook[b.slug] || [];
+    const row = document.createElement('div');
+    row.className = 'bookrow';
+    row.innerHTML = `
+      <button type="button" aria-expanded="false">
+        <span class="chev">▸</span>
+        <span class="t">${esc(b.title)}</span>
+        <span class="a">${esc(b.author)}</span>
+        <span class="k">${b.status === 'published' ? '<span class="badge">companion</span> ' : ''}${cpts.length} concepts</span>
+      </button>
+      <div class="concepts"></div>`;
+    const btn = row.querySelector('button');
+    btn.onclick = () => {
+      const open = row.classList.toggle('open');
+      btn.setAttribute('aria-expanded', open);
+      const box = row.querySelector('.concepts');
+      if (open && !box.dataset.built) {
+        box.dataset.built = 1;
+        const MAX = 24;
+        box.innerHTML = cpts.slice(0, MAX).map(c =>
+          `<a class="cpt" href="atlas/#${c.id}" title="${esc(c.description)}">${esc(c.title)}</a>`).join('') +
+          (cpts.length > MAX ? `<span class="more">+ ${cpts.length - MAX} more in the atlas</span>` : '') +
+          `<div class="links">
+             ${b.status === 'published' ? `<a href="books/${b.slug}/">Read the companion →</a> · ` : ''}
+             ${cpts.length ? `<a href="atlas/3d/#${cpts[0].id}">view in 3D ◈</a>` : ''}
+           </div>`;
+      }
+    };
+    return row;
+  }
+  renderLib();
+}).catch(() => {
+  document.getElementById('statband').innerHTML =
+    '<span style="color:var(--muted)">Atlas data unavailable — <a href="atlas/">open the atlas directly</a>.</span>';
+});
+</script>
+</body>
+</html>
