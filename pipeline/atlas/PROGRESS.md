@@ -166,3 +166,7 @@ docs/index.md (Material-themed) replaced by docs/index.html — standalone parch
 - 3D page gained #slug deep links (select-on-load after warmup + hashchange + history.replaceState on select/deselect).
 - Scroll-reveal via IntersectionObserver; prefers-reduced-motion honored everywhere.
 - Smoke (playwright): stats 221/1,551/1,283/254, search "drucker"→3, expand→8 concept chips, chip toggle→198/221, 3D #feedback-loops deep link opens card; 0 errors. mkdocs --strict exit 0 (index.md removal safe — raw index.html copied verbatim).
+
+## Cross-nav audit + fix (user 2026-07-16). Branch crossnav off main (post PR #14).
+Audit found gaps: 2D atlas lacked Ask; 3D lacked Ask; Ask lacked both atlases; Material book pages lacked all three apps.
+Fixes: Ask link in 2D header + 3D titlebar; Atlas + 3D links in Ask nav; docs/js/applinks.js (extra_javascript) injects Ask/Atlas/◈3D into .md-header__inner on every Material page + .app-links styles in extra.css (hidden <600px). Smoke verified all 5 surfaces' hrefs headlessly; strict build clean.
