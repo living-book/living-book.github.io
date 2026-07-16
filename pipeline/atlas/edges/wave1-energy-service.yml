@@ -1,0 +1,170 @@
+- from: energy-not-time
+  verb: contradicts
+  to: sprint-timebox
+  why: >-
+    Full engagement treats energy quality, not calendar time, as the real
+    performance constraint; sprint-timebox measures work in fixed 30-day
+    units without asking whether the people executing it have the capacity
+    to sustain that pace — a dimension the time-box mechanism never tracks.
+
+- from: energy-not-time
+  verb: parallels
+  to: hero-culture-magical-thinking
+  why: >-
+    Both reject counting hours as evidence of sustainable capacity: hero
+    culture treats any workload as costlessly absorbed because effort was
+    visible, while energy-not-time shows a given time investment produces
+    collapsing returns once the energy behind it is already depleted.
+
+- from: moral-licensing
+  verb: tempers
+  to: gospel-of-10x
+  why: >-
+    Hitting a "committed" goal earns unconscious moral credit that licenses
+    coasting on the paired "aspirational" stretch target, eroding the
+    deliberate tension between safe and stretch baskets the dual-goal
+    structure depends on to extract extra effort.
+
+- from: stress-stimulus-capacity
+  verb: instantiates
+  to: antifragility
+  why: >-
+    Supercompensation — exposing a capacity to demand beyond its current
+    level, then recovering, so it rebuilds stronger — is a physiological
+    concrete case of a system gaining from the disorder that would merely
+    damage a robust one.
+
+- from: promise-of-reward
+  verb: parallels
+  to: incentive-driven-addiction
+  why: >-
+    Both trace compulsive pursuit to the same dopamine "wanting" circuit — a
+    felt promise of reward that drives continued craving and short-term
+    behavior regardless of whether the reward, once obtained, ever delivers
+    the satisfaction it promised.
+
+- from: system-performance-vs-output-measurement
+  verb: parallels
+  to: feature-based-program-metrics
+  why: >-
+    Both reject counting completed units of local activity — service
+    transactions or team velocity — in favor of end-to-end capability
+    measures, because an averaged output number hides the variation that
+    actually predicts whether the system delivers.
+
+- from: recidivism-rate
+  verb: parallels
+  to: system-performance-vs-output-measurement
+  why: >-
+    Both reject counting simple throughput in favor of a system-diagnostic
+    signal — backward workflow movement, or end-to-end variation — that
+    exposes process health invisible to raw output totals, and points at
+    design flaws rather than individual underperformance.
+
+- from: preventable-organizational-waste
+  verb: parallels
+  to: muda-eight-wastes
+  why: >-
+    Both taxonomize invisible non-value work baked into normal operating
+    design — failure demand and mutated process steps, or overproduction and
+    excess processing — that consumes resources without ever reaching the
+    customer, hidden inside routine rather than obvious error.
+
+- from: frontline-intelligence
+  verb: parallels
+  to: go-and-see
+  why: >-
+    Both locate the highest-fidelity signal about system reality at the
+    point of direct contact — frontline staff or the actual workplace —
+    arguing every layer of hierarchical reporting between that point and
+    decision-makers degrades the signal.
+
+- from: customer-pull-vs-push
+  verb: parallels
+  to: kanban-pull-system
+  why: >-
+    Both replace a forecast-driven push model, which predetermines volume
+    and manufactures demand to match it, with a pull mechanism that releases
+    new work only in response to a real, present signal of downstream
+    demand.
+
+- from: core-demand-classification
+  verb: parallels
+  to: classes-of-service
+  why: >-
+    Both reject a single generic queue for all incoming work, arguing that
+    demand of different types — creation versus restorative, or expedite
+    versus standard — carries a different cost-of-delay profile and needs
+    its own handling policy.
+
+- from: continuous-value-creation
+  verb: tempers
+  to: value-stream-mapping
+  why: >-
+    Value stream mapping only re-optimizes flow through an offering that
+    already exists; continuous value creation argues sustained advantage
+    requires designing genuinely new offerings and experiences, a move
+    mapping's own incremental methodology has no mechanism to prompt.
+
+- from: customer-purpose
+  verb: parallels
+  to: kano-model
+  why: >-
+    Kano's delighters are unstated needs beyond the basic request; customer
+    purpose is the underlying accomplishment beneath the stated ask — both
+    argue that satisfying the literal request while missing this deeper
+    layer leaves real value uncaptured and a competitor an opening.
+
+- from: ironic-rebound
+  verb: parallels
+  to: ironic-process-theory
+  why: >-
+    Both trace thought-suppression failure to the same mechanism: the
+    monitoring process needed to keep watch for a forbidden thought must
+    repeatedly check for its presence, guaranteeing its return, worse under
+    stress or fatigue.
+
+- from: ego-depletion
+  verb: tempers
+  to: burn-the-place-down
+  why: >-
+    Self-control draws on one shared, finite resource that depletes with
+    each exertion; a mandate to keep escalating action without designed
+    recovery predicts the exact collapse in self-regulation ego-depletion
+    research documents under sustained effort.
+
+- from: positive-rituals
+  verb: tempers
+  to: ego-depletion
+  why: >-
+    A ritual converts a values-aligned action into an automated routine that
+    bypasses conscious exertion entirely, so it can sustain disciplined
+    behavior under conditions where the depletable willpower resource
+    ego-depletion describes would already be exhausted.
+
+- from: what-the-hell-effect
+  verb: tempers
+  to: marginal-gains-compounding
+  why: >-
+    Compounding assumes small gains accumulate steadily, but a single missed
+    rep triggers guilt that flips into an abandon-the-whole-streak relapse,
+    breaking the monotonic accumulation the 1%-improvement math silently
+    assumes.
+
+- from: save-more-tomorrow
+  verb: tempers
+  to: future-self-discounting
+  why: >-
+    A precommitment device that schedules the change to coincide with a
+    future pay raise never asks the present self to feel a loss at all,
+    sidestepping the treat-future-self-as-a-stranger bias instead of trying
+    to overcome it through willpower.
+
+- from: planner-doer-model
+  verb: tempers
+  to: three-powers-self-control
+  why: >-
+    Thaler locates lasting self-control in externally engineered constraints
+    on the myopic Doer, not in exercising an internal "I will / I won't / I
+    want" capacity — implying willpower training alone fails wherever that
+    external constraint is absent.

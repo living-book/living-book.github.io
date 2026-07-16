@@ -1,0 +1,160 @@
+# Lens: JUDGMENT & DECISION-MAKING
+# Anchor books: preference-belief-similarity (Tversky), amazon-shareholder-letters,
+# applied-critical-thinking (red teaming)
+
+# --- Tensions (contradicts / tempers) ---
+
+- from: type-1-type-2-decisions
+  verb: tempers
+  to: decision-quality-chain
+  why: >-
+    The six-requirement DQ chain assumes every decision deserves full
+    frame-to-commitment rigor, but two-way-door decisions are cheap to
+    reverse, so applying that chain to them spends cycle time that fast
+    course-correction already recovers for free.
+
+- from: red-teaming
+  verb: tempers
+  to: institutional-imperative
+  why: >-
+    The institutional imperative describes organizations defaulting to
+    peer-imitation and resistance to change as an almost physical force; red
+    teaming names the condition that defeats it — an independent function
+    with explicit permission to challenge that the imperative cannot silence.
+
+- from: law-small-numbers
+  verb: tempers
+  to: data-driven-definition-of-good
+  why: >-
+    Baselines drawn from a handful of historical sprints look statistically
+    solid the same way a 20-subject study looks conclusive to psychologists,
+    but small samples resemble their population far less than intuition
+    credits.
+
+- from: law-small-numbers
+  verb: tempers
+  to: sustaining-vs-disruptive-innovation
+  why: >-
+    A categorical theory built from a small number of case studies in one
+    industry carries the same false confidence the law of small numbers
+    describes — the pattern feels universal because the sample felt
+    representative, not because it was large.
+
+- from: high-velocity-decision-making
+  verb: tempers
+  to: dialogue-decision-process
+  why: >-
+    Staged project-team-then-decision-board dialogue meetings suit rare,
+    irreversible strategic bets, but applying that multi-meeting cadence to
+    the reversible decisions dominating daily operations trades away speed
+    the organization could recover through fast correction instead.
+
+- from: support-theory
+  verb: tempers
+  to: calibrated-estimation
+  why: >-
+    Calibrated ranges assume a probability judgment reflects stable
+    uncertainty about an event, but support theory shows the same event
+    yields a different judged probability depending only on whether its
+    description is packed or unpacked.
+
+- from: alternative-explanations
+  verb: tempers
+  to: conjunction-fallacy
+  why: >-
+    The conjunction fallacy shows a vivid, detailed narrative crowds out its
+    own logically broader alternative; deliberately generating competing
+    explanations before accepting one is the disciplined check that keeps
+    vividness from winning by default.
+
+- from: parallel-thinking
+  verb: contradicts
+  to: devils-advocacy
+  why: >-
+    Devil's advocacy stages one side to attack another to expose weak
+    reasoning; parallel thinking argues adversarial staging wastes energy in
+    win/lose combat and gets fuller coverage of the same ground by having
+    everyone examine one direction together instead.
+
+# --- Formalizes / instantiates ---
+
+- from: contrast-model-similarity
+  verb: formalizes
+  to: representativeness-heuristic
+  why: >-
+    Representativeness names that people judge likelihood by resemblance to
+    a stereotype; the contrast model gives the underlying mechanism —
+    asymmetric weighting of shared versus distinctive features — that
+    explains why that resemblance judgment shifts with context.
+
+- from: counter-cyclical-capital-deployment
+  verb: instantiates
+  to: prospect-theory
+  why: >-
+    Buffett's discipline of buying when others panic instantiates prospect
+    theory's loss aversion: after a shock, participants demand an outsized
+    discount to hold risk, temporarily mispricing assets below value — the
+    exact gap counter-cyclical buying exploits.
+
+- from: key-assumptions-check
+  verb: formalizes
+  to: seeking-disconfirmation
+  why: >-
+    Seeking disconfirmation names the instinct leaders need — actively hunt
+    evidence the strategy is wrong; the key assumptions check gives that
+    instinct a repeatable four-step procedure for finding which unstated
+    premise, if false, would undo the plan.
+
+- from: disagree-and-commit
+  verb: instantiates
+  to: fair-process
+  why: >-
+    Disagree-and-commit delivers fair process's mechanism directly — a
+    dissenter who was genuinely heard commits fully to a decision they lost,
+    because the process, not the outcome, earned their buy-in.
+
+- from: red-teaming
+  verb: extends
+  to: mining-for-conflict
+  why: >-
+    Mining for conflict asks a team to surface its own buried disagreement;
+    red teaming adds an externally chartered, top-covered function so the
+    challenge survives even when the team's internal courage or incentive to
+    speak up fails.
+
+# --- Parallels ---
+
+- from: type-1-type-2-decisions
+  verb: parallels
+  to: decentralized-control
+  why: >-
+    Both classify decisions along a single risk axis — reversibility, or
+    economy-of-scale versus front-line-aging — then route decision rights
+    accordingly, pushing the reversible or local case down and reserving
+    heavyweight process for the rare, hard-to-undo one.
+
+- from: disagree-and-commit
+  verb: parallels
+  to: clarity-over-consensus
+  why: >-
+    Both replace agreement with a faster substitute — genuine airing of
+    dissent followed by full alignment — on the premise that consensus is
+    not what produces committed execution; being heard is.
+
+- from: elimination-by-aspects
+  verb: parallels
+  to: de-risking-in-priority-order
+  why: >-
+    Both replace one combined weighted score with sequential elimination on
+    a single ranked attribute at a time — safety-rating then price, or
+    customer-pain then feasibility — because bounded attention can't hold
+    every dimension simultaneously.
+
+- from: cultural-empathy
+  verb: parallels
+  to: customer-purpose
+  why: >-
+    Both insist that understanding another party requires seeing from
+    inside their own logic and unstated needs, not projecting your framework
+    onto their stated behavior — mirror-imaging an adversary fails the same
+    way assuming stated requests equal true purpose does.

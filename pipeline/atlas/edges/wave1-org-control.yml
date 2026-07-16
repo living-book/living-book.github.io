@@ -1,0 +1,159 @@
+- from: mess-vs-problem
+  verb: tempers
+  to: five-whys
+  why: >-
+    Five Whys assumes a single causal chain leads back to one root cause,
+    but a mess is a system of interacting problems whose behavior comes from
+    the interactions themselves — tracing one chain misses the structure
+    that regenerates the symptom elsewhere.
+
+- from: problem-dissolution
+  verb: tempers
+  to: y-equals-f-of-x
+  why: >-
+    Y=f(x) treats output as a function of controllable inputs worth
+    isolating and tuning; problem dissolution argues some situations are
+    messes whose interdependent parts make single-input tuning insufficient,
+    since only redesigning the system removes the problem rather than
+    optimizing within it.
+
+- from: internal-market-economy
+  verb: extends
+  to: multidimensional-organization
+  why: >-
+    Both let units buy and sell freely instead of being coordinated by
+    hierarchy; internal-market-economy adds that any higher-level override
+    of a unit's market choice must compensate that unit for lost income or
+    added cost, so top-down intervention carries a real price rather than
+    being free.
+
+- from: internal-market-economy
+  verb: extends
+  to: federal-decentralization
+  why: >-
+    Federal decentralization distributes decision authority to units while
+    keeping strategy and capital allocation centralized; Ackoff's internal
+    market pushes this further, letting units trade externally too and
+    requiring any central override of their choices to compensate the unit
+    for lost income or cost.
+
+- from: separating-budget-purposes
+  verb: contradicts
+  to: fixed-performance-contract
+  why: >-
+    The fixed performance contract bundles target, incentive, plan, and
+    resource allocation into one negotiated number; separating budget
+    purposes argues exactly this bundling is what causes gaming, because
+    prediction, aspiration, and spending authority need independent,
+    unconflated answers.
+
+- from: relative-kpis-benchmarking
+  verb: tempers
+  to: objectives-and-key-results
+  why: >-
+    OKRs still measure key results against a fixed, self-set number for the
+    quarter; relative KPIs remove any fixed reference point entirely,
+    scoring performance against peers and prior periods so the standard
+    itself moves with conditions rather than staying pinned to a target.
+
+- from: transparency-as-control
+  verb: parallels
+  to: coveillance
+  why: >-
+    Both dispense with a centralized controller by making watching mutual
+    and symmetric: people self-regulate because their actions are visible to
+    peers who can hold them accountable, not because a monitor above them
+    enforces compliance.
+
+- from: values-based-governance
+  verb: parallels
+  to: management-by-objectives
+  why: >-
+    Both replace externally imposed rules with an internalized reference —
+    shared values and boundaries, or objectives a manager derives from the
+    whole enterprise's goals — that the individual then uses to self-regulate
+    instead of being checked against detailed policy from above.
+
+- from: management-model-coherence
+  verb: tempers
+  to: values-based-governance
+  why: >-
+    Management practices form one interlocking set; swapping rules-based
+    control for values-based governance while budgets, fixed targets, and
+    incentive contracts stay untouched reintroduces the rigidity and gaming
+    that values-based governance was meant to remove.
+
+- from: leadership-vs-management-theory-xy
+  verb: parallels
+  to: intrinsic-motivation-framework
+  why: >-
+    Both reject the Taylorist assumption that tight external control is what
+    makes people perform, locating real performance instead in
+    self-generated commitment — autonomy, mastery, and purpose rather than
+    carrot-and-stick incentive.
+
+- from: dynamic-resource-allocation
+  verb: parallels
+  to: decentralized-control
+  why: >-
+    Both push authority to the frontline for decisions that age poorly if
+    delayed — reallocating spend as opportunities emerge, or resolving
+    problems on the spot — while reserving central control only for rare,
+    large-scale, economy-of-scale calls.
+
+- from: prospective-sensemaking
+  verb: contradicts
+  to: idealized-design
+  why: >-
+    Idealized design treats the desired future as a state stakeholders can
+    specify now and engineer backward from; prospective sensemaking argues
+    future meaning is continuously and interpretively constructed through
+    ongoing planning talk, so the "ideal" is itself unstable, not a fixed
+    target to reverse-engineer.
+
+- from: temporal-sensemaking
+  verb: contradicts
+  to: outcome-first-planning
+  why: >-
+    Outcome-first planning insists effective planning starts from a fixed
+    vision worked backward to the present; temporal sensemaking shows people
+    continuously reconfigure the relationship between past, present, and
+    future as situations unfold, so the vision itself is a moving
+    interpretation, not a stable starting anchor.
+
+- from: discourse-shaping-sensemaking
+  verb: parallels
+  to: generational-formation
+  why: >-
+    Both describe a taken-for-granted frame — institutionalized organizational
+    language, or a generation's historical conditions — that shapes what
+    people can perceive as sensible or normal without being recognized as a
+    lens at all, rather than a premise anyone consciously chose.
+
+- from: enactment
+  verb: parallels
+  to: behavior-based-decomposition
+  why: >-
+    Both dispense with a central represented model of the whole task —
+    organizing emerges from assembling interdependent actions into sensible
+    sequences, intelligence emerges from parallel sensor-action loops — so
+    coherent higher-order order comes from coupling perception directly to
+    action, not from consulting a plan first.
+
+- from: effectiveness-over-efficiency
+  verb: parallels
+  to: local-vs-system-optimization
+  why: >-
+    Both separate doing a part well from doing the right whole: a highly
+    efficient specialty, or a highly efficient wrong choice, can still
+    produce delay, waste, or failure at the level that actually matters,
+    because local optimization is not the same axis as system optimization.
+
+- from: what-is-our-business
+  verb: parallels
+  to: true-north-purpose
+  why: >-
+    Both argue that answering one foundational identity question — what
+    business is this, what is this leader for — is the strategic act that
+    then filters and shapes every subsequent objective, decision, and
+    structure, not one item on a planning checklist.
