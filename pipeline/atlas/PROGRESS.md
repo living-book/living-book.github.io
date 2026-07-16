@@ -138,3 +138,12 @@ Wave 1 = 14 root sources & tension engines: Drucker Management, Ackoff Re-Creati
 - [x] 2 Sonnet verifiers: 17+22+17+19 = 75 kept (11 killed incl. weaver "deepest find" untested-attributions-tempers-five-whys; 9 fixed). Survival 87%.
 - [x] rebuild: 207 books, 1446 concepts, 1211 edges (tempers 186, contradicts 52, formalizes 27), orphans 164 (129 carried + 35 new residue — orphan pass 5 queued); corpus 1638 chunks; mkdocs strict clean; smoke 200s on atlas page + atlas.json + corpus.json → PR pending.
 Remaining after Wave 1: Wave 2 (14 decision-science & money bridges), Wave 3 (16 craft/resilience/strategy anthologies), Waves 4-5 defer/skip.
+
+## Wave 2 (user: "PR 11 merged, start wave 2" 2026-07-15). Branch atlas-wave-2 off main.
+14 decision-science & money-bridge books: McKinsey Mind, Valuation (Koller), Lean CFO, Digital Transformation Playbook, Theory of Incentives, How We Decide, How We Learn (Carey), Smarter Than You Think, Simplicity (de Bono), Remote, Traction (Wickman EOS) + Traction (Weinberg channels), Design Thinking (Cross), HBR Smart Decisions (curly-apostrophe path passed explicitly — resolved fine).
+- [x] 14 Haiku extractors → 105 concepts, GATE PASS first try (0 collisions — matured prompts). Remote extractor killed by spurious content-filter API error after writing all 6 files; files verified complete, no relaunch.
+- [x] +14 BOOKS, CATALOG appended, EDGES-EXISTING regen (1204).
+- [x] 4 Sonnet weavers: money-value 22, problem-solving 23, learning-cognition 19, operating-growth 20 = 84 (70-90% xdom). Core tension landed: hypothesis-driven-analysis contradicts co-evolution-of-problem-and-solution.
+- [x] 2 Sonnet verifiers: 19+18+15+18 = 70 kept (14 killed, 11 fixed; 83% survival). Both pre-flagged suspects killed: revelation-principle⇒disagree-and-commit (analogy dressed as formalization), instrumental-convergence⇒centaur-collaboration (invented capability-gap condition).
+- [x] rebuild: 221 books, 1551 concepts, 1283 edges (= 1211+70+2 previously-unresolvable now satisfied; drops 22→20); corpus 1743 chunks; strict clean; smoke 200s → PR #12.
+Remaining: Wave 3 (16 craft/resilience/strategy anthologies), then orphan pass 5 (accumulating residue), Waves 4-5 defer/skip.
