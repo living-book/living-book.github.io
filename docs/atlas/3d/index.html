@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Concept Atlas — 3D</title>
+<style>
+  /* Warm-dark futurism: the dark section of the Anthropic parchment design
+     system. No cool blue-grays anywhere — every neutral has a warm undertone. */
+  :root {
+    --bg: #141413;          /* Near Black */
+    --bg2: #1c1b18;         /* warm deep surface */
+    --panel: #faf9f5;       /* Ivory card on dark */
+    --panel-edge: #e8e6dc;
+    --text-dark: #141413;
+    --text-light: #f5f4ed;  /* parchment text on dark */
+    --muted-light: #b0aea5; /* warm silver */
+    --accent: #c96442;      /* terracotta */
+    --accent2: #d97757;     /* coral */
+    --amber: #9a6520;
+    --crimson: #b53333;
+  }
+  html, body { margin: 0; height: 100%; background: var(--bg); overflow: hidden;
+    font: 15px/1.6 system-ui, -apple-system, sans-serif; color: var(--text-light); }
+  #graph { position: absolute; inset: 0; }
+  .scene-glow { position: absolute; inset: 0; pointer-events: none;
+    background: radial-gradient(ellipse 80% 60% at 50% 45%, rgba(217,119,87,.06), transparent 70%); }
+
+  /* ---- floating chrome ---- */
+  .hud { position: absolute; z-index: 10; }
+  #titlebar { top: 18px; left: 22px; max-width: 340px; }
+  #titlebar h1 { font: 500 24px/1.15 Georgia, 'Anthropic Serif', serif; margin: 0; color: var(--text-light); }
+  #titlebar h1 .dim { color: var(--accent2); }
+  #titlebar .sub { color: var(--muted-light); font-size: 12.5px; margin-top: 3px; }
+  #titlebar a { color: var(--muted-light); text-decoration: none; font-size: 12.5px; }
+  #titlebar a:hover { color: var(--accent2); }
+
+  #searchwrap { top: 18px; right: 22px; width: min(320px, 40vw); }
+  #search { width: 100%; box-sizing: border-box; padding: 9px 13px; border-radius: 8px;
+    border: 1px solid rgba(232,230,220,.18); background: rgba(28,27,24,.85); color: var(--text-light);
+    font: 14px system-ui, sans-serif; outline: none; backdrop-filter: none; }
+  #search:focus { border-color: var(--accent2); box-shadow: 0 0 0 1px var(--accent2); }
+  #search::placeholder { color: #87867f; }
+  #hits { margin-top: 6px; border-radius: 8px; overflow: hidden; max-height: 46vh; overflow-y: auto;
+    background: rgba(28,27,24,.96); border: 1px solid rgba(232,230,220,.14); display: none; }
+  .hit { padding: 8px 12px; cursor: pointer; border-bottom: 1px solid rgba(232,230,220,.07); }
+  .hit:last-child { border-bottom: none; }
+  .hit:hover, .hit.sel { background: rgba(217,119,87,.16); }
+  .hit b { display: block; font-weight: 600; font-size: 13.5px; }
+  .hit span { color: var(--muted-light); font-size: 12px; display: block;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+  #legend { left: 22px; bottom: 20px; display: flex; flex-direction: column; gap: 10px; }
+  #domains { display: flex; flex-wrap: wrap; gap: 6px; max-width: 460px; }
+  .chip { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 999px;
+    background: rgba(28,27,24,.85); border: 1px solid rgba(232,230,220,.15); cursor: pointer;
+    font-size: 12px; color: var(--muted-light); user-select: none; }
+  .chip .dot { width: 9px; height: 9px; border-radius: 50%; box-shadow: 0 0 6px currentColor; }
+  .chip.off { opacity: .35; }
+  .chip:hover { border-color: var(--accent2); }
+  #lensrow { display: flex; gap: 8px; align-items: center; }
+  #tension { padding: 6px 14px; border-radius: 999px; border: 1px solid var(--accent2);
+    background: transparent; color: var(--accent2); font: 600 12.5px system-ui, sans-serif;
+    cursor: pointer; letter-spacing: .3px; }
+  #tension.on { background: var(--accent); border-color: var(--accent); color: #fff;
+    box-shadow: 0 0 18px rgba(201,100,66,.55); }
+  #counts { color: #87867f; font-size: 11.5px; }
+
+  #hint { right: 22px; bottom: 20px; color: #87867f; font-size: 12px; text-align: right; }
+  #hint b { color: var(--muted-light); font-weight: 600; }
+
+  /* ---- hover tooltip (nodes + edges) ---- */
+  #tip { position: absolute; z-index: 20; pointer-events: none; display: none;
+    max-width: 340px; padding: 10px 13px; border-radius: 10px;
+    background: var(--panel); color: var(--text-dark); border: 1px solid var(--panel-edge);
+    box-shadow: rgba(0,0,0,.5) 0 6px 28px; font-size: 12.5px; line-height: 1.5; }
+  #tip .t { font: 600 14px/1.25 Georgia, serif; margin-bottom: 2px; }
+  #tip .m { color: #5e5d59; font-size: 11.5px; }
+  #tip .why { margin-top: 6px; font-style: italic; color: #141413; }
+  #tip .verb { display: inline-block; padding: 1px 8px; border-radius: 999px; color: #fff;
+    font: 600 10.5px system-ui, sans-serif; letter-spacing: .4px; }
+
+  /* ---- concept card ---- */
+  #card { position: absolute; z-index: 15; top: 74px; right: 22px; width: min(390px, 92vw);
+    max-height: calc(100vh - 120px); overflow-y: auto; display: none;
+    background: var(--panel); color: var(--text-dark); border-radius: 14px;
+    box-shadow: rgba(0,0,0,.55) 0 10px 40px; padding: 18px 20px 16px; }
+  #card h2 { font: 500 21px/1.2 Georgia, serif; margin: 0 30px 4px 0; color: var(--text-dark); }
+  #card .meta { color: #5e5d59; font-size: 12.5px; margin-bottom: 10px; }
+  #card .meta .dom { font-weight: 600; }
+  #card .desc { font-size: 13.5px; margin-bottom: 12px; }
+  #card .close { position: absolute; top: 12px; right: 12px; width: 26px; height: 26px; border: none;
+    border-radius: 50%; background: #f0eee6; color: #5e5d59; font-size: 15px; cursor: pointer; }
+  #card .close:hover { background: #e8e6dc; color: #141413; }
+  #card h3 { font: 600 11.5px system-ui, sans-serif; letter-spacing: .8px; text-transform: uppercase;
+    color: #87867f; margin: 14px 0 6px; }
+  .conn { padding: 7px 0; border-top: 1px solid #f0eee6; font-size: 12.5px; }
+  .conn .to { font-weight: 600; cursor: pointer; }
+  .conn .to:hover { color: var(--accent); text-decoration: underline; }
+  .conn .why { color: #5e5d59; font-style: italic; margin-top: 2px; }
+  .vb { display: inline-block; padding: 1px 8px; border-radius: 999px; color: #fff;
+    font: 600 10px system-ui, sans-serif; letter-spacing: .4px; margin-right: 6px; }
+  #depthrow { display: flex; align-items: center; gap: 8px; font-size: 12px; color: #5e5d59;
+    margin-top: 4px; }
+  #depth { accent-color: var(--accent); }
+
+  @media (max-width: 700px) {
+    #titlebar { max-width: 200px; } #titlebar .sub { display: none; }
+    #legend { max-width: 90vw; } #hint { display: none; }
+  }
+  @media (prefers-reduced-motion: reduce) { .scene-glow { display: none; } }
+</style>
+</head>
+<body>
+<div id="graph"></div>
+<div class="scene-glow"></div>
+
+<div class="hud" id="titlebar">
+  <h1>Concept <span class="dim">Atlas</span></h1>
+  <div class="sub" id="statline">loading…</div>
+  <a href="../">← 2D atlas</a> · <a href="../../">library</a>
+</div>
+
+<div class="hud" id="searchwrap">
+  <input id="search" type="search" placeholder="Search 1,551 concepts…" autocomplete="off">
+  <div id="hits"></div>
+</div>
+
+<div class="hud" id="legend">
+  <div id="lensrow">
+    <button id="tension" title="Show only contradicts + tempers edges">⚡ Tension lens</button>
+    <span id="counts"></span>
+  </div>
+  <div id="domains"></div>
+</div>
+
+<div class="hud" id="hint"><b>drag</b> orbit · <b>scroll</b> zoom · <b>hover</b> why · <b>click</b> focus · <b>esc</b> reset</div>
+
+<div id="tip"></div>
+<div id="card"></div>
+
+<script src="vendor/atlas3d.bundle.min.js"></script>
+<script>
+const REDUCED = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+const DOMAIN_COLOR = {
+  'Systems Thinking & Philosophy': '#d97757',
+  'Psychology & Self-Development': '#c96442',
+  'Business & Management':         '#c9a227',
+  'Leadership & Coaching':         '#4e9e6a',
+  'Agile & Software Delivery':     '#9aa85c',
+  'Technology & Data':             '#b0aea5',
+};
+const VERB_COLOR = {
+  parallels:    '#8a8578',
+  extends:      '#9a6520',
+  instantiates: '#7a8450',
+  formalizes:   '#d9c7a0',
+  tempers:      '#d97757',
+  contradicts:  '#b53333',
+};
+const TENSION = new Set(['tempers', 'contradicts']);
+
+fetch('../atlas.json').then(r => r.json()).then(init);
+
+function init(atlas) {
+  /* ---------- data prep ---------- */
+  const bookBy = {}; atlas.books.forEach(b => bookBy[b.slug] = b);
+  const nodes = atlas.concepts.map(c => ({
+    id: c.id, title: c.title, desc: c.description, book: c.book,
+    bookTitle: (bookBy[c.book] || {}).title || c.book,
+    domain: (bookBy[c.book] || {}).domain || 'Technology & Data',
+    deg: 0,
+  }));
+  const byId = {}; nodes.forEach(n => byId[n.id] = n);
+  const links = atlas.edges.filter(e => byId[e.from] && byId[e.to]).map(e => ({
+    source: e.from, target: e.to, verb: e.verb, why: e.why,
+  }));
+  links.forEach(l => { byId[l.source].deg++; byId[l.target].deg++; });
+
+  // adjacency for hover/ego
+  const adj = {}; nodes.forEach(n => adj[n.id] = new Set());
+  links.forEach(l => { adj[l.source].add(l.target); adj[l.target].add(l.source); });
+
+  document.getElementById('statline').textContent =
+    `${atlas.books.length} books · ${nodes.length} concepts · ${links.length} verified edges`;
+  document.getElementById('counts').textContent =
+    `${links.filter(l => TENSION.has(l.verb)).length} tensions`;
+
+  /* ---------- shared sprite textures (one per domain, not per node) ---------- */
+  function haloTexture(color) {
+    const S = 128, cv = document.createElement('canvas'); cv.width = cv.height = S;
+    const x = cv.getContext('2d');
+    let g = x.createRadialGradient(S/2, S/2, 0, S/2, S/2, S/2);
+    g.addColorStop(0, '#fffdf7'); g.addColorStop(.18, color);
+    g.addColorStop(.42, color + '55'); g.addColorStop(1, color + '00');
+    x.fillStyle = g; x.fillRect(0, 0, S, S);
+    return new THREE.CanvasTexture(cv);
+  }
+  const TEX = {}; Object.entries(DOMAIN_COLOR).forEach(([d, c]) => TEX[d] = haloTexture(c));
+
+  /* ---------- state ---------- */
+  let hoverNode = null, hoverLink = null, selected = null, egoDepth = 2;
+  let lens = false;
+  const domainOn = {}; Object.keys(DOMAIN_COLOR).forEach(d => domainOn[d] = true);
+  let egoSet = null;   // Set of visible node ids when selected
+
+  function computeEgo(rootId, depth) {
+    const seen = new Set([rootId]); let frontier = [rootId];
+    for (let i = 0; i < depth; i++) {
+      const next = [];
+      frontier.forEach(id => adj[id].forEach(nb => { if (!seen.has(nb)) { seen.add(nb); next.push(nb); } }));
+      frontier = next;
+    }
+    return seen;
+  }
+
+  const nodeVisible = n =>
+    domainOn[n.domain] &&
+    (!egoSet || egoSet.has(n.id)) &&
+    (!lens || lensNodes.has(n.id));
+  const linkVisible = l => {
+    const s = l.source.id || l.source, t = l.target.id || l.target;
+    return nodeVisible(byId[s]) && nodeVisible(byId[t]) && (!lens || TENSION.has(l.verb));
+  };
+  let lensNodes = new Set();
+  function rebuildLensNodes() {
+    lensNodes = new Set();
+    links.forEach(l => { if (TENSION.has(l.verb)) {
+      lensNodes.add(l.source.id || l.source); lensNodes.add(l.target.id || l.target); } });
+  }
+  rebuildLensNodes();
+
+  /* ---------- graph ---------- */
+  const el = document.getElementById('graph');
+  const Graph = ForceGraph3D()(el)
+    .graphData({ nodes, links })
+    .backgroundColor('#141413')
+    .showNavInfo(false)
+    .nodeLabel(null)
+    .nodeThreeObject(n => {
+      const m = new THREE.SpriteMaterial({
+        map: TEX[n.domain], color: 0xffffff, transparent: true,
+        opacity: .92, blending: THREE.AdditiveBlending, depthWrite: false,
+      });
+      const s = new THREE.Sprite(m);
+      const sc = 4 + Math.sqrt(n.deg || 1) * 2.2;
+      s.scale.set(sc, sc, 1); n.__baseScale = sc;
+      return s;
+    })
+    .nodeVisibility(nodeVisible)
+    .linkVisibility(linkVisible)
+    .linkColor(l => {
+      const active = isLinkActive(l);
+      const c = VERB_COLOR[l.verb] || '#8a8578';
+      if (active) return c;
+      if (hoverNode || selected) return 'rgba(138,133,120,0.06)';
+      return TENSION.has(l.verb) ? c + 'aa' : 'rgba(138,133,120,0.28)';
+    })
+    .linkWidth(l => isLinkActive(l) ? 1.6 : (TENSION.has(l.verb) ? .7 : .3))
+    .linkDirectionalParticles(l => (!REDUCED && isLinkActive(l)) ? 3 : 0)
+    .linkDirectionalParticleWidth(1.8)
+    .linkDirectionalParticleSpeed(.008)
+    .linkOpacity(.9)
+    .warmupTicks(80)
+    .cooldownTime(8000)
+    .onNodeHover(onNodeHover)
+    .onLinkHover(onLinkHover)
+    .onNodeClick(n => select(n.id))
+    .onBackgroundClick(deselect);
+
+  Graph.d3Force('charge').strength(-42);
+
+  // cap pixel ratio for perf on hidpi
+  Graph.renderer().setPixelRatio(Math.min(devicePixelRatio, 2));
+
+  // gentle intro rotation until first interaction
+  const controls = Graph.controls();
+  if (!REDUCED) { controls.autoRotate = true; controls.autoRotateSpeed = .45; }
+  ['pointerdown', 'wheel', 'keydown'].forEach(ev =>
+    addEventListener(ev, () => controls.autoRotate = false, { once: true, capture: true }));
+
+  function isLinkActive(l) {
+    const s = l.source.id || l.source, t = l.target.id || l.target;
+    if (hoverLink === l) return true;
+    if (hoverNode && (s === hoverNode.id || t === hoverNode.id)) return true;
+    if (selected && (s === selected || t === selected)) return true;
+    return false;
+  }
+
+  /* ---------- hover: swell + neighbors lit, rest dimmed ---------- */
+  function restyleNodes() {
+    const focusId = hoverNode ? hoverNode.id : null;
+    const nbs = focusId ? adj[focusId] : null;
+    const selNbs = selected ? adj[selected] : null;
+    nodes.forEach(n => {
+      const o = n.__threeObj; if (!o) return;
+      let op = .92, sc = n.__baseScale;
+      if (focusId) {
+        if (n.id === focusId) { op = 1; sc = n.__baseScale * 1.65; }
+        else if (nbs.has(n.id)) { op = .95; }
+        else op = .10;
+      } else if (selected) {
+        if (n.id === selected) { op = 1; sc = n.__baseScale * 1.5; }
+        else if (selNbs.has(n.id)) op = .9;
+        else op = .18;
+      }
+      o.material.opacity = op;
+      o.scale.set(sc, sc, 1);
+    });
+    // re-evaluate link accessors
+    Graph.linkColor(Graph.linkColor());
+    Graph.linkWidth(Graph.linkWidth());
+    Graph.linkDirectionalParticles(Graph.linkDirectionalParticles());
+  }
+
+  const tip = document.getElementById('tip');
+  let mouse = { x: 0, y: 0 };
+  addEventListener('pointermove', e => {
+    mouse = { x: e.clientX, y: e.clientY };
+    if (tip.style.display === 'block') placeTip();
+  });
+  function placeTip() {
+    const pad = 14, w = tip.offsetWidth, h = tip.offsetHeight;
+    let x = mouse.x + pad, y = mouse.y + pad;
+    if (x + w > innerWidth - 8) x = mouse.x - w - pad;
+    if (y + h > innerHeight - 8) y = mouse.y - h - pad;
+    tip.style.left = x + 'px'; tip.style.top = y + 'px';
+  }
+
+  function onNodeHover(n) {
+    hoverNode = n || null;
+    el.style.cursor = n ? 'pointer' : null;
+    if (n) {
+      tip.innerHTML = `<div class="t">${esc(n.title)}</div>
+        <div class="m">${esc(n.bookTitle)} · ${esc(n.domain)} · ${n.deg} connection${n.deg === 1 ? '' : 's'}</div>
+        <div>${esc(n.desc)}</div>`;
+      tip.style.display = 'block'; placeTip();
+    } else if (!hoverLink) tip.style.display = 'none';
+    restyleNodes();
+  }
+
+  function onLinkHover(l) {
+    hoverLink = l || null;
+    if (l) {
+      const s = byId[l.source.id || l.source], t = byId[l.target.id || l.target];
+      tip.innerHTML = `<div class="t">${esc(s.title)}
+          <span class="verb" style="background:${VERB_COLOR[l.verb]}">${l.verb}</span>
+          ${esc(t.title)}</div>
+        <div class="why">${esc(l.why || '')}</div>`;
+      tip.style.display = 'block'; placeTip();
+    } else if (!hoverNode) tip.style.display = 'none';
+    restyleNodes();
+  }
+
+  /* ---------- select: ego focus + spin-to-front ---------- */
+  function select(id, fromCard) {
+    const n = byId[id]; if (!n) return;
+    selected = id;
+    egoSet = computeEgo(id, egoDepth);
+    if (lens) toggleLens(false);
+    Graph.nodeVisibility(Graph.nodeVisibility());
+    Graph.linkVisibility(Graph.linkVisibility());
+    restyleNodes();
+    renderCard(n);
+    flyTo(n);
+  }
+
+  function flyTo(n) {
+    const o = n.__threeObj; if (!o) return;
+    const p = { x: n.x, y: n.y, z: n.z };
+    const r = Math.hypot(p.x, p.y, p.z) || 1;
+    const dist = 130;
+    // camera on the ray from origin through the node — graph appears to spin
+    // until the chosen node faces you, then eases to a stop
+    const cam = { x: p.x / r * (r + dist), y: p.y / r * (r + dist), z: p.z / r * (r + dist) };
+    Graph.cameraPosition(cam, p, REDUCED ? 300 : 1400);
+  }
+
+  function deselect() {
+    if (!selected) return;
+    selected = null; egoSet = null;
+    document.getElementById('card').style.display = 'none';
+    Graph.nodeVisibility(Graph.nodeVisibility());
+    Graph.linkVisibility(Graph.linkVisibility());
+    restyleNodes();
+  }
+  addEventListener('keydown', e => { if (e.key === 'Escape') { deselect(); hideHits(); } });
+
+  /* ---------- concept card ---------- */
+  const card = document.getElementById('card');
+  function renderCard(n) {
+    const conns = links.filter(l => (l.source.id || l.source) === n.id || (l.target.id || l.target) === n.id);
+    const groups = {};
+    conns.forEach(l => {
+      const sid = l.source.id || l.source, out = sid === n.id;
+      const other = byId[out ? (l.target.id || l.target) : sid];
+      (groups[l.verb] = groups[l.verb] || []).push({ other, why: l.why, out });
+    });
+    const order = ['contradicts', 'tempers', 'formalizes', 'extends', 'instantiates', 'parallels'];
+    let html = `<button class="close" title="close">✕</button>
+      <h2>${esc(n.title)}</h2>
+      <div class="meta"><span class="dom" style="color:${DOMAIN_COLOR[n.domain]}">${esc(n.domain)}</span>
+        · ${esc(n.bookTitle)}</div>
+      <div class="desc">${esc(n.desc)}</div>
+      <div id="depthrow">focus depth
+        <input id="depth" type="range" min="1" max="3" step="1" value="${egoDepth}">
+        <span id="depthval">${egoDepth}</span> hop${egoDepth > 1 ? 's' : ''} · ${egoSet.size} concepts</div>`;
+    order.forEach(v => {
+      if (!groups[v]) return;
+      html += `<h3><span class="vb" style="background:${VERB_COLOR[v]}">${v}</span> ${groups[v].length}</h3>`;
+      groups[v].forEach(c => {
+        html += `<div class="conn"><span class="to" data-go="${c.other.id}">${c.out ? '→' : '←'} ${esc(c.other.title)}</span>
+          <div class="why">${esc(c.why || '')}</div></div>`;
+      });
+    });
+    card.innerHTML = html;
+    card.style.display = 'block'; card.scrollTop = 0;
+    card.querySelector('.close').onclick = deselect;
+    card.querySelectorAll('[data-go]').forEach(h => h.onclick = () => select(h.dataset.go, true));
+    card.querySelector('#depth').oninput = e => {
+      egoDepth = +e.target.value;
+      egoSet = computeEgo(selected, egoDepth);
+      document.getElementById('depthval').textContent = egoDepth;
+      Graph.nodeVisibility(Graph.nodeVisibility());
+      Graph.linkVisibility(Graph.linkVisibility());
+      restyleNodes();
+    };
+  }
+
+  /* ---------- tension lens ---------- */
+  const tBtn = document.getElementById('tension');
+  function toggleLens(on) {
+    lens = on === undefined ? !lens : on;
+    tBtn.classList.toggle('on', lens);
+    if (lens && selected) { selected = null; egoSet = null; card.style.display = 'none'; }
+    Graph.nodeVisibility(Graph.nodeVisibility());
+    Graph.linkVisibility(Graph.linkVisibility());
+    restyleNodes();
+  }
+  tBtn.onclick = () => toggleLens();
+
+  /* ---------- domain chips ---------- */
+  const domBox = document.getElementById('domains');
+  Object.entries(DOMAIN_COLOR).forEach(([d, c]) => {
+    const chip = document.createElement('div');
+    chip.className = 'chip';
+    chip.innerHTML = `<span class="dot" style="background:${c};color:${c}"></span>${d.split(' & ')[0]}`;
+    chip.title = d;
+    chip.onclick = () => { domainOn[d] = !domainOn[d]; chip.classList.toggle('off', !domainOn[d]);
+      Graph.nodeVisibility(Graph.nodeVisibility()); Graph.linkVisibility(Graph.linkVisibility()); };
+    domBox.appendChild(chip);
+  });
+
+  /* ---------- search ---------- */
+  const input = document.getElementById('search'), hits = document.getElementById('hits');
+  let selIdx = -1, curHits = [];
+  input.placeholder = `Search ${nodes.length.toLocaleString()} concepts…`;
+  input.addEventListener('input', () => showHits(input.value.trim().toLowerCase()));
+  input.addEventListener('keydown', e => {
+    if (e.key === 'ArrowDown') { selIdx = Math.min(selIdx + 1, curHits.length - 1); paintSel(); e.preventDefault(); }
+    else if (e.key === 'ArrowUp') { selIdx = Math.max(selIdx - 1, 0); paintSel(); e.preventDefault(); }
+    else if (e.key === 'Enter' && curHits[selIdx >= 0 ? selIdx : 0]) {
+      pick(curHits[selIdx >= 0 ? selIdx : 0].id); }
+  });
+  function showHits(q) {
+    if (!q) { hideHits(); return; }
+    const scored = [];
+    for (const n of nodes) {
+      const t = n.title.toLowerCase(), d = n.desc.toLowerCase();
+      let s = -1;
+      if (t.startsWith(q)) s = 0; else if (t.includes(q)) s = 1; else if (d.includes(q)) s = 2;
+      if (s >= 0) scored.push([s, n]);
+    }
+    scored.sort((a, b) => a[0] - b[0] || b[1].deg - a[1].deg);
+    curHits = scored.slice(0, 12).map(x => x[1]); selIdx = -1;
+    hits.innerHTML = curHits.map(n =>
+      `<div class="hit" data-id="${n.id}"><b>${esc(n.title)}</b><span>${esc(n.bookTitle)} · ${esc(n.desc)}</span></div>`).join('');
+    hits.style.display = curHits.length ? 'block' : 'none';
+    hits.querySelectorAll('.hit').forEach(h => h.onclick = () => pick(h.dataset.id));
+  }
+  function paintSel() {
+    hits.querySelectorAll('.hit').forEach((h, i) => h.classList.toggle('sel', i === selIdx));
+  }
+  function pick(id) { hideHits(); input.blur(); select(id); }
+  function hideHits() { hits.style.display = 'none'; curHits = []; selIdx = -1; }
+  addEventListener('click', e => { if (!e.target.closest('#searchwrap')) hideHits(); });
+
+  function esc(s) { return String(s).replace(/[&<>"']/g,
+    c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
+}
+</script>
+</body>
+</html>
