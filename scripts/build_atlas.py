@@ -217,6 +217,20 @@ BOOKS = {
     "fearless-simplicity": ("Fearless Simplicity", "Tsoknyi Rinpoche", "Psychology & Self-Development", "atlas"),
     "finding-your-element": ("Finding Your Element", "Ken Robinson", "Psychology & Self-Development", "atlas"),
     "hbr-effective-communication": ("HBR on Effective Communication", "Harvard Business Review (anthology)", "Psychology & Self-Development", "atlas"),
+    "drucker-management": ("Management: Tasks, Responsibilities, Practices", "Peter Drucker", "Business & Management", "atlas"),
+    "re-creating-the-corporation": ("Re-Creating the Corporation", "Russell Ackoff", "Business & Management", "atlas"),
+    "process-sensemaking-organizing": ("Process, Sensemaking, and Organizing", "Hernes & Maitlis (eds.)", "Business & Management", "atlas"),
+    "flawed-advice": ("Flawed Advice and the Management Trap", "Chris Argyris", "Business & Management", "atlas"),
+    "reasons-and-rationalizations": ("Reasons and Rationalizations", "Chris Argyris", "Business & Management", "atlas"),
+    "implementing-beyond-budgeting": ("Implementing Beyond Budgeting", "Bjarte Bogsnes", "Business & Management", "atlas"),
+    "amazon-shareholder-letters": ("All Amazon Shareholder Letters", "Jeff Bezos", "Business & Management", "atlas"),
+    "appreciative-inquiry": ("The Power of Appreciative Inquiry", "Whitney & Trosten-Bloom", "Business & Management", "atlas"),
+    "sense-and-respond-barlow-parry-faulkner": ("Sense and Respond: The Journey to Customer Purpose", "Barlow, Parry & Faulkner", "Business & Management", "atlas"),
+    "preference-belief-similarity": ("Preference, Belief, and Similarity", "Amos Tversky (ed. Shafir)", "Psychology & Self-Development", "atlas"),
+    "how-people-learn": ("How People Learn", "National Research Council", "Psychology & Self-Development", "atlas"),
+    "willpower-instinct": ("The Willpower Instinct", "Kelly McGonigal", "Psychology & Self-Development", "atlas"),
+    "applied-critical-thinking": ("The Applied Critical Thinking Handbook", "UFMCS (US Army)", "Psychology & Self-Development", "atlas"),
+    "power-of-full-engagement": ("The Power of Full Engagement", "Loehr & Schwartz", "Psychology & Self-Development", "atlas"),
 }
 
 EDGE_VERBS = {"extends", "contradicts", "instantiates", "formalizes", "parallels", "tempers"}

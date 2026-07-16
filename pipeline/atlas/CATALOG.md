@@ -1726,3 +1726,150 @@
 - `systems-of-intelligence` — Systems of Intelligence: A software architecture layered on top of traditional systems of record that learns from data at massive scale to drive real-time decisions and actions.
 - `tenx-abundance-pricing` — 10x Abundance Pricing: Using automation to cut a product or service's price by 90%+ rather than a few percent can open a market 100 times larger than the original one.
 - `three-ms-framework` — The Three M's (Materials, Machines, Models): Every major industrial and technological revolution has required aligning new raw materials, new machines, and new business models together; none succeeds alone.
+
+## Management: Tasks, Responsibilities, Practices (drucker-management) — Business & Management
+
+- `administration-entrepreneurship` — Administration and Entrepreneurship: Balancing Present and Future: Every manager must simultaneously administer what exists (optimize current performance) and be entrepreneurial (create tomorrow's business). Neglecting either destroys value.
+- `customer-creation` — Customer Creation: The Purpose of Business: The purpose of business is not to make profit but to create customers; profit is the test of validity, not the goal.
+- `effectiveness-over-efficiency` — Effectiveness is Doing the Right Things; Efficiency is Doing Things Right: Effectiveness—choosing what to do—is foundational; efficiency—doing it well—matters only after effectiveness is established. A highly efficient wrong choice still fails.
+- `federal-decentralization` — Federal Decentralization: Organizing Autonomy and Coordination: Distribute decision-making authority to operating units while maintaining central control of strategy, capital allocation, and accountability—enabling both autonomy and coordination.
+- `marketing-innovation` — Marketing and Innovation: The Two Entrepreneurial Functions: Business has only two basic functions that produce results: marketing (creating and serving customers) and innovation (creating the future). Everything else is cost.
+- `profitability-limiting-factor` — Profitability as a Limiting Factor, Not a Purpose: Profit is not the purpose of business but a constraint and test of validity. It measures whether the business has succeeded in its real task: creating customers and producing results.
+- `three-management-tasks` — The Three Tasks of Management: Management has three equally important tasks: ensuring institutional purpose/performance, making work productive and workers achieving, and managing social impacts and responsibilities.
+- `what-is-our-business` — "What is Our Business?" The Fundamental Strategic Question: Asking 'What is our business and what should it be?' is the foundational strategic decision that shapes all objectives, structures, and behaviors. Most companies never ask it seriously.
+
+## Re-Creating the Corporation (re-creating-the-corporation) — Business & Management
+
+- `data-information-knowledge-understanding-wisdom` — Data-Information-Knowledge-Understanding-Wisdom Hierarchy: Five distinct levels of content in the human mind: data are raw facts, information resolves uncertainty, knowledge enables action, understanding explains behavior, wisdom evaluates long-run consequences.
+- `development-vs-growth` — Development vs. Growth: Development is improvement over time in capacity and capability; growth is mere quantitative increase. Development can occur without growth, and growth can occur without development.
+- `interactive-planning` — Interactive Planning: A planning methodology combining idealized design with backward-working implementation, formulation of the mess, specification of means, resource planning, and embedded learning systems.
+- `internal-market-economy` — Internal Market Economy: Every organizational unit can buy resources from any internal or external source and sell its output to any buyer, with conflicts escalated rather than imposed from above.
+- `mess-vs-problem` — Mess vs. Problem: Systems of interacting problems whose behavior depends more on interactions than individual parts, requiring dissolution rather than solution.
+- `problem-dissolution` — Problem Dissolution: Redesigning a system or its environment to eliminate a problem entirely, rather than solving or resolving it—the only approach that improves beyond current capability.
+- `stakeholder-view-of-firm` — Stakeholder View of the Firm: A firm creates and distributes wealth by serving the interests of all stakeholders—employees, suppliers, customers, investors, lenders, and government—not just shareholders.
+
+## Process, Sensemaking, and Organizing (process-sensemaking-organizing) — Business & Management
+
+- `discourse-shaping-sensemaking` — Discourse and Collective Symbols Shaping Sensemaking: How institutionalized language, metaphors, and collective symbols shape and constrain the meanings organizational members construct during change.
+- `enactment` — Enactment: Assembling Actions Into Sensible Sequences: Organizing as the process of assembling ongoing, interdependent actions into sensible sequences that generate comprehensible outcomes.
+- `organizational-sensemaking` — Organizational Sensemaking: Creating Intersubjective Meaning in Organizations: The ongoing social process through which organizational members construct, interpret, and recognize meaningful features of their collective world.
+- `organizing-as-process` — Organizing as Process: From Entity to Verb: The fundamental ontological shift from viewing 'organization' as a static entity with properties to 'organizing' as an ongoing dynamic process of constituting shared meaning.
+- `problem-absorption` — Problem Absorption: Rules Extending to New Cases and Enabling Semantic Learning: How organizations absorb novel problems into existing rules through reflexive extension, potentially generating semantic learning and transformation of rule systems.
+- `prospective-sensemaking` — Prospective Sensemaking: Constructing Meaning About Futures: The social process of creating intersubjective meanings about future phenomena through practices of planning, expertise, and imaginative projection.
+- `temporal-sensemaking` — Temporal Sensemaking: Configuring Past, Present, and Future: The act of configuring and reconfiguring the relationships between past, present, and future to construct meaning from organizational change.
+
+## Flawed Advice and the Management Trap (flawed-advice) — Business & Management
+
+- `actionable-advice` — Actionable Advice: Management advice that specifies concrete behaviors and testable causal claims, enabling practitioners to implement it reliably in real-world settings.
+- `internal-vs-external-commitment` — Internal vs External Commitment: The distinction between genuine internal commitment to a value or goal versus mere external compliance or agreement under pressure.
+- `model-i-theory-in-use` — Model I Theory-in-Use: The default theory of action in industrialized cultures, governed by imperatives to achieve unilateral control, win, suppress negative feelings, and appear rational—producing defensive routines and counterproductive outcomes.
+- `model-ii-theory-in-use` — Model II Theory-in-Use: An alternative theory of action centered on generating valid information, enabling free and informed choice, and fostering internal commitment, in contrast to Model I's focus on unilateral control.
+- `organizational-double-binds` — Organizational Double Binds: Contradictory directives or mixed messages that trap people between acting authentically and protecting relationships, with neither choice leading to good outcomes.
+- `skilled-unawareness` — Skilled Unawareness: The paradoxical state of being highly skilled at a behavior while remaining blind to its consequences, because skillfulness requires such internalized mastery that conscious attention to the behavior itself would destroy the skill.
+- `untested-attributions` — Untested Attributions and Causal Claims: Making inferences about others' intentions, competence, or motivations and taking action based on those inferences without testing their validity—a core mechanism that drives organizational dysfunction.
+
+## Reasons and Rationalizations (reasons-and-rationalizations) — Business & Management
+
+- `competence-trap` — Competence Trap: When a firm's distinctive competence becomes entrenched through past success, it persists even when the basis of competitive advantage shifts, locking organizations into obsolete patterns.
+- `defensive-reasoning-mindset` — Defensive Reasoning Mindset: A cognitive pattern that protects self and others from threat by making premises explicit then testing them through self-referential logic, creating self-sealing cycles that prevent error detection.
+- `designed-ignorance` — Designed Ignorance: The unintended consequence of skill development where people forget the learning process and lose awareness of how their automatic actions work and their effects.
+- `implementable-validity` — Implementable Validity: Knowledge is only truly valid when actors can implement it in real contexts to produce intended consequences; distinct from internal and external validity.
+- `model-i-virtues-vs-model-ii-virtues` — Model I Virtues vs. Model II Virtues: Social virtues like caring, honesty, and integrity have two fundamentally different implementations depending on the governing reasoning theory, producing opposite actual effects.
+- `prescriptive-normative-knowledge` — Prescriptive-Normative Knowledge: Knowledge must specify not only how the universe 'as is' functions but how to move from present state to desired future state through concrete, implementable actions.
+- `scholarly-defensive-routines` — Scholarly Defensive Routines: Academic communities enforce norms and reward structures that discourage research on how to overcome organizational problems, perpetuating a describe-only culture that mirrors practitioner defensiveness.
+
+## Implementing Beyond Budgeting (implementing-beyond-budgeting) — Business & Management
+
+- `activity-accounting-cost-purpose` — Activity Accounting: Understanding Cost Purpose: Classifying costs by their purpose (quality control, maintenance, training) rather than just type or department, enabling better decisions about cost trade-offs.
+- `dynamic-resource-allocation` — Dynamic Resource Allocation and Mandate Authorities: Distributing spending authority to frontline teams based on clear decision mandates, allowing continuous reallocation of resources as opportunities emerge.
+- `leadership-vs-management-theory-xy` — Leadership vs Management: From Theory X to Theory Y: Challenging the assumption that people need tight control and moving toward creating conditions for intrinsic motivation—direction, capability, and commitment.
+- `relative-kpis-benchmarking` — Relative KPIs and Peer Benchmarking: Using comparative performance metrics (cost per unit vs competitors, branch rankings) to drive performance improvement and learning without gaming absolute targets.
+- `rolling-forecast-trend-reporting` — Rolling Forecasts and Trend Reporting: Replacing fixed annual budgets with continuously updated forecasts and measuring progress against trend lines rather than arbitrary static targets.
+- `separating-budget-purposes` — Separating the Three Purposes of Budgets: Distinguishing target-setting, forecasting, and resource allocation as separate decisions to avoid conflicts between prediction, aspiration, and spending authority.
+- `transparency-as-control` — Transparency as a Self-Regulating Control Mechanism: Open information access replaces hierarchical need-to-know restrictions; people self-regulate behavior when all actions are visible to peers.
+- `values-based-governance` — Values-Based Governance vs Rules-Based Control: Replacing detailed policies, tight budgets, and job descriptions with clear values and principles that empower individuals to make decisions within boundaries.
+
+## All Amazon Shareholder Letters (amazon-shareholder-letters) — Business & Management
+
+- `customer-obsession-over-competitors` — Customer Obsession Over Competitor Focus: Prioritizing customer delight and satisfaction as the primary driver of strategy, over reacting to or competing directly with rivals.
+- `day-one-mindset` — Day 1 Mindset: The belief that a company is always at its beginning, perpetually hungry and vulnerable, which drives continuous innovation and prevents complacency.
+- `disagree-and-commit` — Disagree and Commit: A decision protocol where individuals can voice genuine disagreement with a direction, but once leadership commits, all parties align fully and work toward success.
+- `free-cash-flow-over-earnings` — Free Cash Flow Over Earnings as Primary Financial Measure: Prioritizing free cash flow (operating cash minus capital expenditure) over reported earnings, because shares are worth present value of future cash, not future earnings.
+- `high-velocity-decision-making` — High-Velocity Decision-Making With Imperfect Information: Making quality decisions with approximately 70% of the information you wish you had, trading off marginal information for speed, as long as you can recognize and correct bad decisions quickly.
+- `market-leadership-over-short-term-profit` — Market Leadership Over Short-Term Profit Maximization: Prioritizing market leadership and long-term competitive moat over maximizing near-term earnings, because leadership position scales into durable profitability and shareholder value.
+- `self-service-platforms-remove-gatekeepers` — Self-Service Platforms Remove Gatekeepers and Multiply Invention: Creating self-service platforms that allow third parties to build and innovate without permission, multiplying the rate of experimentation and catching improbable ideas that gatekeepers would have rejected.
+- `type-1-type-2-decisions` — Type 1 vs Type 2 Decisions: Reversibility as Decision-Making Framework: Categorizing decisions by reversibility—Type 1 (one-way doors, made carefully) vs Type 2 (two-way doors, made quickly)—to avoid using slow processes on fast decisions.
+
+## The Power of Appreciative Inquiry (appreciative-inquiry) — Business & Management
+
+- `affirmative-topic-choice` — Affirmative Topic Choice: Strategically framing the focus of inquiry as life-giving, strength-oriented questions rather than deficit-focused problems shapes organizational direction and discovery.
+- `anticipatory-images-drive-action` — Anticipatory Images Drive Action: Vivid, shared images of a desired future guide and inspire present-day decisions and achievements more powerfully than fear-based or problem-focused narratives.
+- `appreciative-4d-cycle` — The Appreciative 4-D Cycle: Four sequential phases—Discovery, Dream, Design, Destiny—that guide positive organizational change by building on strengths and envisioning futures.
+- `deficit-based-to-strengths-change` — Deficit-Based vs. Strengths-Based Change: A fundamental philosophical shift from diagnosing problems and fixing gaps to discovering strengths and amplifying what works best.
+- `inquiry-as-intervention` — Inquiry as Intervention: The Simultaneity Principle: Change occurs the moment a question is asked; inquiry and transformation are simultaneous, not sequential—questions literally reshape direction and identity.
+- `positive-core` — The Positive Core: An organization's positive core comprises all its strengths, resources, knowledge, and capabilities that give it life and create value—the wellspring of sustainable change.
+- `whole-system-participation` — Whole-System Participation: Bringing together the entire organization—or a representative microcosm—into dialogue generates trust, unleashes collective power, and enables transformations impossible for small groups.
+- `words-create-worlds` — Words Create Worlds: The Constructionist Principle: Organizational reality is socially constructed through language and dialogue; the words, metaphors, and narratives people use literally bring the organization into being.
+
+## Sense and Respond: The Journey to Customer Purpose (sense-and-respond-barlow-parry-faulkner) — Business & Management
+
+- `continuous-value-creation` — Continuous Value Creation: Moving beyond incremental process improvement to actively designing new offerings and experiences that create customer value rather than just optimizing existing ones.
+- `core-demand-classification` — CORE Demand Classification: Categorizing customer demand into four types—Creation, Opportunity, Restorative, External—to guide how each should be handled operationally.
+- `customer-pull-vs-push` — Customer Pull vs. Customer Push: Make-and-sell (push) predetermines products and induces demand; sense-and-respond (pull) designs offerings based on actual customer demand intelligence.
+- `customer-purpose` — Customer Purpose: Understanding what customers truly need to accomplish, not just what they request or their satisfaction level.
+- `customer-value-principles-framework` — Customer Value Principles Framework: A comprehensive alternative to mass-production management theory that puts customer purpose at the center of organizational design, measurement, and operation.
+- `frontline-intelligence` — Frontline Intelligence: Customer intelligence data resides with frontline staff who interact directly with customers; this intelligence should drive organizational strategy and design.
+- `preventable-organizational-waste` — Preventable Organizational Waste: Work locked into organizational design or mutated processes that do not create customer value—typically 40–90% of service demand in ineffective organizations.
+- `system-performance-vs-output-measurement` — System Performance vs. Output Measurement: End-to-end capability measurements predict system behavior better than output metrics; measuring averages masks variation and causes mismanagement of performance.
+
+## Preference, Belief, and Similarity (preference-belief-similarity) — Psychology & Self-Development
+
+- `conjunction-fallacy` — Conjunction Fallacy: Extensional vs. Intuitive Reasoning: Intuitive reasoning violates probability logic by judging a conjunctive event more likely than its components when the conjunction is more representative or easily imagined.
+- `contrast-model-similarity` — Contrast Model of Similarity: Similarity is judged by comparing common and distinctive features, not by geometric distance; it is inherently asymmetric.
+- `elimination-by-aspects` — Elimination by Aspects: People choose among alternatives by sequentially eliminating options that fail to meet thresholds on salient attributes, rather than trading off all attributes simultaneously.
+- `law-small-numbers` — Law of Small Numbers: People intuitively believe that the law of large numbers applies to small samples, leading to overconfidence in conclusions from limited data.
+- `prospect-theory` — Prospect Theory: A descriptive theory of decision-making under risk with a value function defined on gains and losses relative to a reference point, exhibiting loss aversion and framing effects.
+- `support-theory` — Support Theory: Probability judgments are assigned not to events but to explicit descriptions of events; unpacking implicit descriptions increases perceived likelihood due to increased salience of components.
+
+## How People Learn (how-people-learn) — Psychology & Self-Development
+
+- `adaptive-expertise` — Adaptive Expertise: Flexible expertise that continually evolves vs. routine expertise that efficiently repeats known procedures.
+- `conditionalized-knowledge` — Conditionalized Knowledge: Usable knowledge specifies the contexts where it applies; knowledge without conditions remains inert.
+- `formative-assessment-understanding` — Formative Assessment for Understanding: Continuous feedback during learning, focused on understanding not memorization, enables revision and improvement.
+- `knowledge-organization-big-ideas` — Knowledge Organization Around Big Ideas: Experts organize knowledge around fundamental principles and concepts; novices collect isolated facts.
+- `pedagogical-content-knowledge` — Pedagogical Content Knowledge: Knowledge of how to teach a subject is distinct from knowledge of the subject itself.
+- `preconceptions-must-be-engaged` — Preconceptions Must Be Engaged: Learners construct new knowledge from existing beliefs; ignoring prior misconceptions prevents meaningful learning.
+- `transfer-of-learning` — Transfer of Learning: Ability to apply what has been learned in one context to new, different contexts.
+- `zone-of-proximal-development` — Zone of Proximal Development: Distance between independent performance and potential with support; guides what and when to teach.
+
+## The Willpower Instinct (willpower-instinct) — Psychology & Self-Development
+
+- `ego-depletion` — Ego Depletion: Self-Control as a Limited Resource: Each act of self-control depletes a shared pool of willpower energy, leaving you temporarily weaker at resisting subsequent temptations or pursuing goals.
+- `future-self-discounting` — Future-Self Discounting: Treating Your Future Self as a Stranger: You devalue future rewards and overestimate your future self's willpower, treating that future self as a different person rather than a continuation of your present self.
+- `ironic-rebound` — Ironic Rebound: When Thought Suppression Backfires: Trying to suppress a thought or desire makes it more likely to return and become more compelling, especially under stress, fatigue, or distraction.
+- `moral-licensing` — Moral Licensing: When Good Behavior Licenses Bad Behavior: After acting in ways consistent with your goals, you unconsciously give yourself permission to behave contrary to those goals, because you've already earned moral credit.
+- `promise-of-reward` — The Brain's Big Lie: Mistaking the Promise of Reward for Happiness: Dopamine creates a powerful sense of wanting that feels like it will bring happiness, but actually produces stress and continued craving, rarely delivering the satisfaction promised.
+- `three-powers-self-control` — The Three Powers of Self-Control: Willpower consists of three distinct capacities: I will (doing difficult tasks), I won't (resisting temptation), and I want (remembering your core goals).
+- `what-the-hell-effect` — The What-the-Hell Effect: Guilt-Driven Relapse: A single lapse in self-control triggers guilt and shame, which then activate the brain's stress-relief system, causing greater indulgence and deepening the collapse.
+- `willpower-contagion` — Willpower Contagion: Self-Control as Socially Transmitted: Observing or thinking about others' self-control success or failure automatically influences your own willpower, making both temptation and restraint contagious through social proof.
+
+## The Applied Critical Thinking Handbook (applied-critical-thinking) — Psychology & Self-Development
+
+- `critical-thinking` — Critical Thinking: Disciplined process of awareness, questioning, and intellectual standards applied to overcome bias and improve the quality of judgment
+- `cultural-empathy` — Cultural Empathy: Disciplined practice of understanding a culture's own logic and values without imposing your framework, especially to avoid ethnocentrism in planning
+- `devils-advocacy` — Devil's Advocacy: Technique of deliberately building the strongest case for an alternative or opposite position to expose faulty reasoning and disregarded evidence
+- `groupthink-mitigation` — Groupthink Mitigation: Organizational and methodological practices that preserve critical thinking in cohesive groups by creating space for dissent
+- `key-assumptions-check` — Key Assumptions Check: Systematic process for surfacing, articulating, and challenging the hidden premises on which analysis and plans rest
+- `liberating-structures` — Liberating Structures: Group facilitation techniques that bypass rank, fear, and dominance dynamics to surface diverse thinking and collective intelligence
+- `premortem-analysis` — Premortem Analysis: Technique that imagines a plan has failed, then works backward to identify vulnerabilities before execution
+- `red-teaming` — Red Teaming: Institutionalized Dissent: Formal organizational practice of structured challenge to plans, decisions, and assumptions from diverse perspectives
+
+## The Power of Full Engagement (power-of-full-engagement) — Psychology & Self-Development
+
+- `energy-not-time` — Energy, Not Time: The Currency of Performance: Energy is the fundamental resource that drives performance, health, and happiness—not the hours in a day, which are fixed.
+- `energy-quadrants` — The Energy Quadrants: Performance Implications of Quantity and Quality: Energy exists on two axes—quantity (low to high) and quality (negative to positive)—creating four quadrants where only high-positive energy enables peak performance.
+- `four-energy-dimensions` — The Four Energy Dimensions: A Pyramid Model: Human energy operates across four interconnected dimensions—physical, emotional, mental, and spiritual—where each profoundly influences the others and all must be developed for full engagement.
+- `full-engagement` — Full Engagement: Integrated High Performance Across All Dimensions: Full engagement is the integrated state of being physically energized, emotionally connected, mentally focused, and spiritually aligned with purpose—characterized by the capacity to immerse in challenges and set clear life boundaries.
+- `positive-rituals` — Positive Rituals: Automating Values Through Behavior: Positive rituals are carefully structured behaviors that become automatic over time and are fueled by deeply held values, conserving willpower and ensuring value-aligned action even under stress.
+- `rhythmic-engagement-recovery` — Rhythmic Engagement and Recovery: The Ultradian Pulse: Life follows a rhythmic oscillation between engagement and recovery, driven by 90-120 minute ultradian cycles, where performance depends on honoring these natural rhythms rather than overriding them.
+- `stress-stimulus-capacity` — Stress as a Stimulus for Capacity Growth: Stress is not the enemy—it is essential for building capacity. Exposing any dimension of energy to demand beyond its current level, followed by recovery, triggers growth through supercompensation.
