@@ -147,3 +147,13 @@ Remaining after Wave 1: Wave 2 (14 decision-science & money bridges), Wave 3 (16
 - [x] 2 Sonnet verifiers: 19+18+15+18 = 70 kept (14 killed, 11 fixed; 83% survival). Both pre-flagged suspects killed: revelation-principle⇒disagree-and-commit (analogy dressed as formalization), instrumental-convergence⇒centaur-collaboration (invented capability-gap condition).
 - [x] rebuild: 221 books, 1551 concepts, 1283 edges (= 1211+70+2 previously-unresolvable now satisfied; drops 22→20); corpus 1743 chunks; strict clean; smoke 200s → PR #12.
 Remaining: Wave 3 (16 craft/resilience/strategy anthologies), then orphan pass 5 (accumulating residue), Waves 4-5 defer/skip.
+
+## 3D Atlas explorer (user approved warm-dark 3D recommendation 2026-07-16). Branch atlas-3d off main (post PR #12).
+docs/atlas/3d/index.html — WebGL galaxy view of the full atlas (1551 nodes / 1283 edges, 60fps):
+- Warm-dark futurism: design-system Near Black bg, 6 warm domain hues, additive halo sprites (6 shared canvas textures, not per-node), NO cool blues — parchment ivory cards on dark.
+- Spin-to-front on select: camera tweens along origin ray (1400ms), node faces viewer; ego-focus mode (1-3 hop depth slider via nodeVisibility — layout stable, no data swap).
+- Hover: node swell + neighbors lit + rest dimmed to 10%, directional particles on active edges; EDGE hover shows the why-sentence (parchment tooltip) — why-sentences now first-class UI.
+- Tension lens toggle: 254 contradicts/tempers edges only (debate map). Domain chips filter. Search with fly-to. Esc reset. prefers-reduced-motion honored (no autorotate/particles, 300ms cams). Pixel ratio capped 2.
+- Vendor: single esbuild IIFE bundle (3d-force-graph 1.80.0 + three, ONE instance) — first attempt with separate three.min.js r160 UMD + graph UMD failed (THREE.Timer missing + dual-instance clash). Bloom = additive halo sprites, not UnrealBloomPass (dep-chain not worth it).
+- 2D atlas untouched, linked both ways (header "◈ 3D Atlas").
+- Smoke: playwright-core + cached chromium + swiftshader — canvas renders, search→select→card→depth→lens all pass, 0 real console errors; screenshots verified. mkdocs --strict clean.
