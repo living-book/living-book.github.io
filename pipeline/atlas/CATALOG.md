@@ -1873,3 +1873,150 @@
 - `positive-rituals` — Positive Rituals: Automating Values Through Behavior: Positive rituals are carefully structured behaviors that become automatic over time and are fueled by deeply held values, conserving willpower and ensuring value-aligned action even under stress.
 - `rhythmic-engagement-recovery` — Rhythmic Engagement and Recovery: The Ultradian Pulse: Life follows a rhythmic oscillation between engagement and recovery, driven by 90-120 minute ultradian cycles, where performance depends on honoring these natural rhythms rather than overriding them.
 - `stress-stimulus-capacity` — Stress as a Stimulus for Capacity Growth: Stress is not the enemy—it is essential for building capacity. Exposing any dimension of energy to demand beyond its current level, followed by recovery, triggers growth through supercompensation.
+
+## The McKinsey Mind (mckinsey-mind) — Business & Management
+
+- `elevator-test` — The Elevator Test: Explain your solution clearly and concisely in 30 seconds—the length of an elevator ride—to test whether you truly understand it.
+- `hypothesis-driven-analysis` — Hypothesis-Driven Problem Solving: Form an initial hypothesis early—your best guess at the answer—then design analysis to prove or disprove it, not to explore aimlessly.
+- `intuition-data-balance` — Balancing Intuition and Data: Sound decisions require both: intuition to leap to hypotheses quickly, data to validate or refute them; neither alone is sufficient.
+- `issue-trees` — Issue Trees: A visual hierarchy of questions and subquestions that must be answered to prove or disprove a hypothesis, mapping the logical structure of an analysis.
+- `mece-structuring` — MECE Structuring: Divide problems into mutually exclusive, collectively exhaustive categories to enable rigorous analysis and prevent blind spots.
+- `one-message-per-chart` — One Message Per Chart: Each visual should communicate a single, immediately obvious insight; redraw the same data if you need to make multiple points.
+- `pareto-80-20-rule` — The Pareto 80/20 Rule in Analysis: In data-driven decisions, roughly 80% of effects typically come from 20% of causes—identify and focus on the vital few drivers.
+- `prewiring` — Prewiring: No-Surprises Stakeholder Management: Walk key decision makers through your findings privately before the formal presentation to avoid blindsiding, build consensus, and surface objections early.
+
+## Valuation: Measuring and Managing the Value of Companies (valuation-mckinsey) — Business & Management
+
+- `conservation-of-value-principle` — Conservation of Value: Only Cash Flow Creates Value: Any action that doesn't increase cash flows doesn't create value, regardless of how it affects accounting earnings or financial structure.
+- `cost-of-capital-opportunity-cost` — Cost of Capital as Opportunity Cost: The Price of Risk: A company's cost of capital is the opportunity cost of capital—the return investors could earn elsewhere with the same risk—and it is the discount rate that reflects what value-creating returns must exceed.
+- `expectations-treadmill` — The Expectations Treadmill: Beating Expectations Gets Harder as Performance Improves: As companies perform well and exceed expectations, markets embed those improvements into higher expectations, making it progressively harder to outperform on total return to shareholders.
+- `market-fundamentals-vs-sentiment` — Market Fundamentals vs. Sentiment: Bubbles Are Temporary, Fundamentals Prevail: While stock prices can deviate from fundamental value in the short term due to sentiment and noise trading, long-term prices reflect underlying economics: ROIC, growth, and cost of capital.
+- `roic-and-growth-primacy` — ROIC and Growth as Primary Value Drivers, Not Earnings: Return on invested capital and revenue growth—not accounting earnings—are the primary drivers of shareholder value; and they must be analyzed separately to understand company performance.
+- `value-creation-vs-earnings-growth` — Managing for Value vs. Managing for Earnings: The Critical Trade-off: Pursuing short-term earnings per share growth often requires sacrificing long-term value creation; the two are not synonymous and frequently conflict.
+- `value-driver-formula` — The Value Driver Formula: ROIC and Growth Drive Cash Flow: Company value is driven by return on invested capital and growth, which together determine cash flow generation; the core mathematical principle of value creation.
+
+## The Lean CFO (lean-cfo) — Business & Management
+
+- `capacity-as-financial-metric` — Capacity as a Financial Metric: Productive, Nonproductive, and Available Time: Measuring value stream capacity by decomposing total time into productive work, waste, and available buffer—enabling capacity-based decision-making.
+- `lean-performance-measurements` — Lean Performance Measurements: Flow-Based Metrics Over Profit Variance: Replacing profit-focused and efficiency-based metrics with flow, quality, delivery, and productivity measures that reinforce lean operating principles.
+- `macro-level-inventory-valuation` — Macro-Level Inventory Valuation: Journal Entry Method for Lean Companies: Valuing inventory capitalization at the aggregate level using a simple monthly journal entry, replacing product-by-product standard costing.
+- `spending-versus-cost-thinking` — Spending vs. Cost Thinking: From Allocation to Root Cause: Shifting management focus from calculating allocated product costs to understanding and controlling the operational decisions that drive spending.
+- `standard-costing-antipattern` — Standard Costing as an Anti-Lean Measurement System: Standard costing's fixed assumptions conflict with lean's continuous change, creating variances that mislead rather than guide improvement.
+- `value-stream-accounting` — Value Stream Accounting: Direct Cost Assignment Without Allocation: Assigning actual direct costs to value streams where spending occurs, eliminating allocations to enable root-cause analysis.
+- `value-stream-box-score` — Value Stream Box Score: Integrated Decision-Making Framework: A three-part tool combining operational performance measures, capacity metrics, and profitability for all business decisions in lean companies.
+- `value-stream-costing` — Value Stream Costing: Categorizing Spending by Operational Root Cause: Organizing all costs by spending category (material, labor, machine, quality, maintenance) to reveal root causes and enable improvement.
+
+## The Digital Transformation Playbook (digital-transformation-playbook) — Business & Management
+
+- `asymmetric-competitors` — Asymmetric Competitors: Threats from Outside Your Industry: Competitors from different industries can disrupt your business by offering similar value through completely different business models.
+- `coopetition` — Coopetition: Competing and Cooperating Simultaneously: Digital businesses often compete fiercely in some areas while cooperating in others, rejecting the zero-sum view of competition.
+- `customer-networks` — Customer Networks: From Mass Markets to Dynamic Connection: Customers shape brands and purchase decisions through their connections with each other, not just through corporate messaging.
+- `data-strategic-asset` — Data as a Strategic Asset: From Operational Tool to Competitive Moat: Data has shifted from an operational cost to manage to an intangible asset that generates long-term competitive value and informs strategy.
+- `network-effects` — Network Effects: Direct and Indirect Value Multiplication: Network effects make platforms stronger as more users join, creating winner-takes-most dynamics where value grows exponentially rather than linearly.
+- `platform-business-models` — Platform Business Models: Facilitating Value Exchange Between Distinct Parties: Platforms create value by enabling direct interactions between two or more distinct types of customers, not by owning assets.
+- `rapid-experimentation` — Rapid Experimentation: Testing Over Intuition, Iteration Over Polish: Digital technologies enable cheap, fast testing of ideas before launch, making continuous experimentation the engine of innovation.
+- `value-proposition-evolution` — Value Proposition Evolution: Proactive Adaptation Before Disruption: Businesses must proactively evolve what they offer customers as needs change, rather than waiting until disruption forces change.
+
+## Remote: Office Not Required (remote-office-not-required) — Business & Management
+
+- `asynchronous-work-as-default` — Asynchronous Work as Default: Structuring work around asynchronous communication enables coordination without real-time presence, opening both flexibility and deep work time.
+- `isolation-and-human-moments` — Isolation and Human Moments: Remote work's core human challenge is isolation and lack of spontaneous social interaction, mitigated not by office presence but by intentional social structures and offline human time.
+- `managing-by-output-not-presence` — Managing by Output, Not Presence: Evaluating work by deliverables and outcomes rather than visibility, seat time, or appearance becomes both necessary and superior in remote settings.
+- `minimal-overlap-coordination` — Minimal Overlap Coordination: Effective distributed teams need only 4 hours of overlapping work time per day to coordinate, not full-time synchronization, freeing schedules and enabling asynchronous work.
+- `office-as-interruption-factory` — Office as Interruption Factory: Offices fragment work into tiny time segments through constant meetings and interruptions, destroying the focused time deep work requires.
+- `work-visibility-as-trust-engine` — Work Visibility as Trust Engine: Forcing work output into shared visibility—written progress, completed deliverables, visible effort—enables peer accountability and undermines excuses better than management oversight ever could.
+
+## Traction: Get a Grip on Your Business (traction-eos) — Business & Management
+
+- `accountability-chart` — The Accountability Chart: Clear Roles and Organizational Structure: A tool that maps the three major functions (Sales/Marketing, Operations, Finance/Admin) plus an Integrator role, clarifying who is accountable for what.
+- `gwc-get-it-want-it-capacity` — GWC: Three Absolutes for Hiring and Role Fit: A binary filter for evaluating whether someone is right for a role: they must Get it, Want it, and have Capacity to do it.
+- `ids-issues-solving-track` — IDS: The Issues Solving Track (Identify, Discuss, Solve): A three-step structured process for raising and resolving organizational obstacles in a fast, decisive manner.
+- `integrator-visionary-split` — Integrator and Visionary Roles: Leadership Divide: The Integrator manages day-to-day operations and integrates the three major functions; the Visionary innovates and sets long-term direction. Both roles are rare in one person.
+- `level-10-meeting` — The Level 10 Meeting: Weekly Cadence for Alignment and Execution: A 90-minute weekly meeting with a fixed agenda (Segue, Scorecard, Rocks, Headlines, To-Do List, IDS, Conclude) that keeps teams focused and accountable.
+- `rocks-90-day-priorities` — Rocks: 90-Day Priorities as Organizational Focus: Breaking long-term vision into 3–7 specific, measurable 90-day goals to create focus and maintain momentum.
+- `scorecard-leading-indicators` — The Scorecard: Weekly Metrics for Business Pulse: A weekly report of 5–15 high-level numbers that reveal whether the business is on track toward its goals.
+- `six-key-components` — Six Key Components of the Entrepreneurial Operating System: The six foundational pillars (Vision, People, Data, Issues, Process, Traction) that strengthen any organization's ability to execute.
+- `vision-traction-organizer` — The Vision/Traction Organizer (V/TO): Strategic Clarity Tool: An eight-section document capturing core values, core focus, 10-year target, 3-year picture, 1-year plan, marketing strategy, and quarterly issues.
+
+## Traction: How Any Startup Can Achieve Explosive Customer Growth (traction-channels) — Business & Management
+
+- `bullseye-framework` — The Bullseye Framework: Three Rings of Traction Discovery: A systematic three-step process: brainstorm all 19 channels (outer ring), run cheap tests on the most promising (middle ring), then focus entirely on the one that works (inner ring).
+- `channel-saturation` — Channel Saturation and the Law of Shitty Click-Throughs: All marketing channels eventually become crowded and less effective as competitors discover the same tactics — effectiveness decays unless new strategies are discovered.
+- `cheap-traction-tests` — Cheap Traction Tests: Early Validation Before Scaling: Run inexpensive, time-bound experiments ($250–$1,000 per test) to validate channel assumptions before committing budget to scaling.
+- `fifty-percent-rule` — The 50% Rule: Equal Investment in Product and Traction: Allocate half your time to building product, half to testing traction channels from day one — traction and product development are equally critical.
+- `moving-the-needle` — Moving the Needle: Meaningful Impact on Traction Goals: Focus only on marketing activities that create measurable, significant progress toward your defined traction goal — avoid vanity metrics and small blips.
+- `nineteen-traction-channels` — The 19 Traction Channels: Customer Acquisition Methods: A taxonomy of 19 distinct distribution and marketing channels through which startups acquire customers — from SEO and content to sales, partnerships, and community building.
+- `traction` — Traction: Quantitative Evidence of Customer Demand: Measurable customer growth that indicates a startup is taking off — the real metric of progress.
+
+## Design Thinking: Understanding How Designers Think and Work (design-thinking-cross) — Business & Management
+
+- `co-evolution-of-problem-and-solution` — Co-Evolution of Problem and Solution: In design, the problem definition and solution concept emerge together, not sequentially; the goal is created by the designer during the solving process, not pre-defined.
+- `design-expertise-deliberate-practice` — Design Expertise Through Deliberate Practice: Design expertise is not innate talent but develops over a minimum of 10 years of sustained, deliberate, guided practice; education in design aims to cultivate ways of thinking, not just knowledge transfer.
+- `designerly-ways-of-knowing` — Designerly Ways of Knowing: Design is a distinctive form of intelligence involving particular cognitive abilities—problem framing, pattern creation, multi-level abstract-to-concrete thinking—that constitute a natural human intelligence separate from linguistic and logical-mathematical reasoning.
+- `first-principles-design` — First Principles Design: Designing from fundamental physical and functional principles rather than convention or precedent; approaching each problem as if designing for the first time, not the nth repetition.
+- `innovation-through-conflict` — Innovation Through Conflict: Creative breakthrough solutions often emerge when there is a conflict to resolve between the designer's high-level goals and the client's stated criteria; designers recognize and sometimes seek this stimulus of constraint.
+- `problem-framing-in-design` — Problem Framing in Design: Designers reframe problems from distinctive personal perspectives, pre-structuring the emergence of solutions rather than passively accepting the problem as given.
+- `sketching-as-design-cognition` — Sketching as Design Cognition: Sketching and drawing are not documentation of pre-formed ideas but active cognitive tools; they enable parallel multi-level thinking, provide "talk-back" feedback, and make ideas shareable in team work.
+- `systems-approach-in-design` — Systems Approach in Design: Expert designers take a holistic, systems-level view of problems, seeing how parts relate in producing an integrated result, rather than accepting narrow problem criteria or designing isolated components.
+
+## The Theory of Incentives (theory-of-incentives) — Psychology & Self-Development
+
+- `adverse-selection` — Adverse Selection: An agent knows their own ability, cost, or preferences before contracting and may misrepresent this hidden information to their advantage.
+- `incentive-compatibility` — Incentive Compatibility: A contract is incentive-compatible when agents prefer to truthfully reveal their information and take the actions the principal wants, rather than lying or deviating.
+- `information-rent` — Information Rent: The surplus paid to a privately informed agent that arises from their ability to misrepresent their information and exploit the principal's uncertainty.
+- `moral-hazard` — Moral Hazard: After a contract is signed, an agent can take hidden actions (like reducing effort) that harm the principal but benefit the agent.
+- `performance-informativeness` — Performance Informativeness: The more an observable signal (like output or profit) reveals the agent's true type or effort, the less the principal needs to distort contracts or pay information rents.
+- `principal-agent-problem` — Principal-Agent Problem: When one party delegates a task to another who has private information and conflicting incentives, the principal cannot ensure the agent acts in the principal's interest.
+- `rent-extraction-efficiency-tradeoff` — Rent Extraction-Efficiency Trade-Off: The principal faces a fundamental choice between reducing the agent's information rents and maintaining the efficiency of production or allocation decisions.
+- `revelation-principle` — Revelation Principle: Any mechanism or allocation rule achievable through complex message spaces and indirect communication can be implemented using a simple direct mechanism where agents truthfully report their private information.
+- `screening-and-menu-contracts` — Screening and Menu Contracts: The principal offers a menu of different contract options, each designed to appeal to agents with different private types, allowing the principal to infer and screen agent types through their choices.
+
+## How We Decide (how-we-decide) — Psychology & Self-Development
+
+- `certainty-as-dangerous-emotion` — Certainty as a Dangerous Emotion: Confidence and certainty, while emotionally compelling, are feelings that can be detached from actual predictive accuracy or understanding.
+- `choking-on-thought` — Choking on Thought: Excessive self-monitoring and conscious deliberation degrade skilled performance by interfering with automatized, expert decision-making.
+- `decision-complexity-rule` — The Decision Complexity Rule: Simple decisions benefit from conscious analysis; complex decisions with many variables are best delegated to unconscious pattern-matching.
+- `dopamine-prediction-error` — Dopamine Prediction-Error as a Learning Signal: The brain learns by comparing predictions to outcomes; mismatches trigger dopamine signals that encode mistakes as lessons.
+- `emotional-brain-pattern-recognition` — The Emotional Brain as Sophisticated Pattern-Recognition Engine: Unconscious emotional processing recognizes patterns in complex, time-constrained situations faster and more accurately than conscious deliberation.
+- `emotions-as-decision-shortcuts` — Emotions as Decision Shortcuts: Emotions solve the problem of choice overload by filtering alternatives through somatic markers—feelings that represent compressed evaluations.
+
+## How We Learn (how-we-learn-carey) — Psychology & Self-Development
+
+- `context-variation-learning` — Context Variation in Learning: Varying study location and environment improves retention more than using a dedicated study space, because context change forces deeper encoding.
+- `fluency-illusion` — Fluency Illusion: False confidence that information is well-learned because it feels easy to recall, masking the gap between ease and actual retention.
+- `functional-fixedness` — Functional Fixedness: Mental block that prevents seeing objects, people, or concepts in new ways because of fixed assumptions about their typical function or role.
+- `incubation-selective-forgetting` — Incubation Through Selective Forgetting: Breaking from an insight problem allows misleading mental representations to fade, enabling the brain to see solutions previously blocked by fixation.
+- `perceptual-learning` — Perceptual Learning: Automatic learning through exposure that builds visual and sensory discrimination without conscious effort or deliberate practice.
+- `pre-testing-effect` — Pre-Testing Effect: Taking a test on material before learning it improves subsequent learning, even when you fail the pretest, by priming the brain for what matters.
+- `sleep-consolidation` — Sleep Consolidation: Sleep sorts and consolidates learning by flagging important memories and making subtle connections invisible during waking, deepening understanding.
+- `storage-vs-retrieval-strength` — Storage vs. Retrieval Strength: Two independent memory measures that drive learning: storage strength (how well learned) vs. retrieval strength (how accessible), where forgetting increases learning through effort.
+
+## Smarter Than You Think (smarter-than-you-think) — Psychology & Self-Development
+
+- `ambient-awareness` — Ambient Awareness: Lightweight, asynchronous status updates create a subtle, intuitive sense of others' inner lives and moods without direct communication.
+- `audience-effect-on-cognition` — Audience Effect on Cognition: Writing for a visible, responsive audience changes how we think—we become more rhetorical, iterative, and adaptive in real time.
+- `centaur-collaboration` — Centaur Collaboration: Humans and machines working together in tandem excel beyond either alone through complementary strengths.
+- `extended-mind` — Extended Mind: Thinking happens partly outside the skull—through tools, writing, and external scaffolding that augment human cognitive capacity.
+- `public-thinking` — Public Thinking: Externalizing thought to visible audiences triggers connection-making and simultaneous discovery by peers.
+- `transactive-memory` — Transactive Memory: Offloading memory to external tools frees cognitive capacity and paradoxically improves recall through passive, always-on recording.
+- `video-literacy` — Video Literacy: The emerging ability to read, analyze, and compose arguments in video—selecting frames, revealing patterns, and remixing meaning from moving images.
+
+## Simplicity (simplicity-de-bono) — Psychology & Self-Development
+
+- `complexity-accumulation` — Complexity Accumulation: Systems naturally drift toward greater complexity over time as features, regulations, and elements accumulate; simplicity requires active resistance to entropy.
+- `deliberate-design-of-simplicity` — Deliberate Design of Simplicity: Simplicity does not happen naturally; it requires motivated effort, clear intention, and systematic design to achieve.
+- `expertise-through-simplification` — Expertise Through Simplification: An expert is someone who has learned to filter out the irrelevant and focus on what truly matters; expertise is fundamentally about simplification through discrimination.
+- `modular-decomposition` — Modular Decomposition: Breaking systems into smaller, independent modules simplifies each unit but requires careful design of interfaces to avoid new coordination complexity.
+- `provocative-disruption` — Provocative Disruption: Using deliberate provocation—amputating taken-for-granted elements or imagining ideal states—to escape local equilibrium and discover simpler designs.
+- `shedding-obsolete-elements` — Shedding Obsolete Elements: Systematically challenge every existing element to justify its continued existence; discard what is no longer necessary rather than perpetually modifying outdated systems.
+- `shifted-burden-of-complexity` — Shifted Burden of Complexity: Simplifying a system for one party often increases complexity for another; design choices embed values about who bears the burden of complexity.
+- `simplicity-requires-trade-offs` — Simplicity Requires Trade-offs: Achieving simplicity often means sacrificing other values—comprehensiveness, perfection, options—forcing explicit priority choices.
+
+## HBR's 10 Must Reads on Making Smart Decisions (hbr-smart-decisions) — Psychology & Self-Development
+
+- `continuous-issues-strategy` — Continuous Issues-Focused Strategic Decision-Making: Moving from annual, unit-focused strategic planning to continuous, cross-unit issue resolution increases decision velocity and quality by aligning planning with how executives actually make important choices.
+- `decision-process-review` — Reviewing Decision Processes to Uncover Bias: A systematic 12-question framework for identifying cognitive biases in how recommendations were developed, moving beyond awareness to structured organizational safeguards.
+- `decisive-dialogue` — Decisive Dialogue: Dialogue characterized by openness, candor, informality, and closure creates organizational decisiveness by enabling intellectual honesty and follow-through.
+- `near-miss-learning` — Near Misses as Learning Signals: Near misses signal latent errors before disasters occur; organizations that learn from them can prevent catastrophes, while those that normalize repeated near misses drift toward failure.
+- `rapid-decision-roles` — RAPID Decision Roles: A framework assigning five distinct roles (Recommend, Agree, Perform, Input, Decide) to accelerate organizational decision-making and eliminate ambiguity about who is accountable.
+- `red-flag-conditions` — Red Flag Conditions in Decision-Making: Three hardwired biases—conflicts of interest, distorting attachments, and misleading memories—corrupt judgment through pattern recognition and emotional tagging, requiring structural safeguards.
