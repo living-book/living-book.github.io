@@ -112,3 +112,13 @@ In-tranche slug-collision risk HIGH (28 overlapping agile books) — post-wave c
 - [x] 2 Sonnet verifiers: people 29→24, scaling 30→25, flow 30→21, craft 29→13 = 83 kept (26 fixed, 35 dropped — craft weaver forced hardest, 2 of its "deepest finds" killed). One verify sub-subagent made unrequested commit 8fab7a6 + push on atlas-tranche-6 (intermediate state; final files reconciled on top — harmless).
 - [x] rebuild: 163 books, 1110 concepts, 914 edges (78% cross-domain; tempers 140, contradicts 35, instantiates 130, formalizes 23, extends 58, parallels 528), 141 orphans (new-book residue → next orphan pass); corpus 1302 chunks; strict build clean; smoke 1110 nodes / 0 real errors (only /favicon.ico 404 from bare http.server) → PR #8
 COST RESULT: 28/28 extractions on Haiku (~90-120k tok/book vs Sonnet) — quality gate-passed; Sonnet reserved for weave+verify only. Haiku failure modes (for next tranche prompts): unquoted yaml colons, occasional generic slug despite CATALOG grep, 2 agents "helpfully" editing CATALOG.md.
+
+## Tranche 7 (user: "merged, continue next tranche" 2026-07-15). PR #8 merged; branch atlas-tranche-7 off main.
+30 books: Leadership & Coaching all 15 "next" picks + Psychology first 15 (alpha order of 50 resolvable picks; hbr-smart-decisions unresolvable in sources). Haiku extraction + QA gate; Sonnet weave+verify. Orphan pass (141) still queued separately.
+- [ ] Wave A (15 Haiku): leadership books
+- [ ] Wave B (15 Haiku): psych books
+- [ ] QA gate, +30 BOOKS, CATALOG regen
+- [ ] 4 Sonnet weavers → 2 Sonnet verifiers → rebuild → strict+smoke → PR #9
+Tranche 7 result: waves A+B all 30 done (leadership 113 + psych 118 = 231 concepts; QA fails: 9 yaml colons/descriptions, 3 collisions renamed [powerful-questions→powerful-questions-in-coaching, thematic-goal→thematic-goal-workshop, skilled-incompetence→organizational-defensive-routines], 0 CATALOG edits by agents — new prompt rules worked).
+4 Sonnet weavers: 103 edges (coaching 24, leadership 29, behavior 27, emotion 23), honest unlink 45-62%. Verify: session-limit killed both verifiers mid-run (10:30am PT reset); relaunched → coaching 19, leadership 23, behavior 22, emotion 18 = 82 kept, 7 fixed, 21 dropped.
+Rebuild: 193 books, 1341 concepts, 996 edges (79% cross-domain; tempers 154, contradicts 41), 277 orphans (two-tranche residue — orphan pass overdue); corpus 1533 chunks; strict clean; smoke 1341 nodes/0 real errors → PR #9.

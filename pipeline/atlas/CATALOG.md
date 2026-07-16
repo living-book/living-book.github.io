@@ -681,6 +681,27 @@
 - `possible-selves` — Possible Selves: Identity is built as much from the future self you're experimenting toward as from your formative past — so trying on unfamiliar roles is itself identity work.
 - `stepping-up-process` — The Stepping-Up Process: Leadership transitions unfold as five predictable stages — disconfirmation, addition, complication, course correction, internalization — not a straight line or a single conversion moment.
 
+## Optimizing the Power of Action Learning (action-learning) — Leadership & Coaching
+- `action-learning-coach` — The Action Learning Coach: Catalyzing Learning Over Solutions: A specialized role that focuses exclusively on facilitating reflection and capability development, never on problem-solving, with designated power to pause work for learning.
+- `action-learning-ground-rules` — Action Learning Ground Rules: The two critical norms that enable reflective inquiry and learning: statements only in response to questions, and coach authority to intervene for learning.
+- `breakthrough-learning` — Breakthrough Learning: Transformative Development: Deep learning that changes fundamental beliefs and assumptions, moving beyond skill acquisition to personal and professional transformation.
+- `edge-of-chaos` — Edge of Chaos: Balancing Structure and Flexibility: The optimal operating point where action learning teams maintain just enough structure for coherence while preserving freedom for creativity and adaptation.
+- `l-equals-p-plus-q-plus-r` — L=P+Q+R: The Action Learning Knowledge Formula: Marquardt's explicit model that learning equals the sum of programmed knowledge, quality questions, and reflection.
+- `problem-reframing` — Problem Reframing: The process of using reflective inquiry to move from the presenting problem to the actual root problem requiring solution.
+- `six-components-action-learning` — Six Components of Action Learning: The foundational framework of problem, group, reflective inquiry, action, learning commitment, and coach that enables simultaneous problem-solving and development.
+- `systems-thinking-adaptive` — Systems Thinking and Adaptive Problem-Solving: Action learning's approach to complex, modern problems by seeing wholes and relationships instead of linear cause-effect, informed by quantum physics rather than Newtonian mechanics.
+- `tacit-explicit-knowledge` — Tacit-to-Explicit Knowledge Conversion: The mechanism by which action learning converts hidden, personal expertise into organizational assets through reflective inquiry and dialogue.
+
+## Clean Coaching (clean-coaching) — Leadership & Coaching
+- `clean-coach-capacities` — Clean Coach Capacities: Internal qualities and capabilities needed to coach cleanly—acceptance, silence, listening, reflection, parking your own thoughts—that cannot be reduced to behavioral competencies alone.
+- `clean-coaching-session-design` — Clean Coaching Session Design: A structured approach to a complete coaching session with clear phases—establishing outcome, exploring the current reality, extracting specific actions—while maintaining clean language throughout.
+- `directive-bias` — The Directive Bias: Coaches unconsciously drift toward telling solutions despite professing non-directive methods, pulled by habit, assumptions, and a rescuer drive to solve problems.
+- `insider-perspective` — The Insider Perspective: Solutions for self-directed change originate from within the person, not from an external expert; coaching works only by starting from where the coachee is now.
+- `listening-to-structure` — Listening to Structure: Beyond listening for content, a Clean Coach listens for the narrative structure and pattern of how a coachee organizes their thoughts—the logic and story that holds their beliefs in place.
+- `suggestion-contamination` — Suggestion Contamination: How Language Shapes Perception: Subtle hints, tentative suggestions, and even paraphrasing plant ideas in a coachee's mind without conscious awareness, altering their perception and beliefs.
+- `systems-modeling-coaching` — Systems Modeling in Coaching: Using systems thinking and mental models to understand how coachees organize their experience and how different elements of their world relate and influence each other.
+- `wise-ignorance` — Wise Ignorance: The coach deliberately maintains a state of "not knowing" what the coachee will say next, holding no expectations or predictions, which creates space for genuine discovery.
+
 ## Clean Language (clean-language) — Leadership & Coaching
 - `attending-exquisitely` — Attending Exquisitely: Listening for a speaker's exact words and repeating them back verbatim, rather than paraphrasing, so your own assumptions never quietly replace theirs.
 - `clean-language-questions` — Clean Language Questions: A small fixed set of syntax questions built almost entirely from the speaker's own words, minimizing the questioner's assumptions and metaphors.
@@ -689,6 +710,16 @@
 - `self-modelling` — Self-Modelling: Being asked minimally-contaminated questions about your own words drives you to build and discover your own mental model of your experience, often producing insight the questioner never intended.
 - `symbolic-space` — Symbolic Space: Where a person places their metaphors in physical or imagined space carries real meaning, so a facilitator must never move, interpret, or occupy that space with their own frame.
 - `the-righting-reflex` — The Righting Reflex: The near-automatic urge to fix another person's problem with advice, which usually solves the wrong problem because it is built from your own experience, not theirs.
+
+## A Coach's Guide to Developing Exemplary Leaders (coaches-guide-exemplary-leaders) — Leadership & Coaching
+- `6cs-of-coaching` — 6Cs of Coaching: A Process Framework: A six-stage coaching process model that guides coaches through structured engagement from agreement through celebration of outcomes.
+- `active-listening-in-coaching` — Active Listening in Coaching: A multilayered listening skill that captures both content and intent of a leader's message, identifies emotional undertones, and guides coaches to respond with appropriate support or challenge.
+- `coach-roles` — The COACH Model: Five Coaching Roles: A framework identifying five distinct roles coaches assume—Consultant, Orchestrater, Advisor, Challenger, Helper—each with specific functions and behaviors.
+- `coachability` — Coachability: Readiness for Coaching: A set of measurable characteristics that predict whether a leader will benefit from and engage with coaching, assessed early and revisited throughout.
+- `coaching-agreement` — Coaching Agreement Framework: A structured agreement between coach and leader that establishes expectations, logistics, confidentiality, and conflict resolution protocols before coaching begins.
+- `coaching-partnership` — Coaching Partnership Model: A relationship structure where coach and leader share responsibility, accountability, and decision-making to create mutual investment in outcomes.
+- `powerful-questions-in-coaching` — Powerful Questions in Coaching: Open-ended inquiries framed to stimulate reflection and discovery rather than direct toward predetermined answers; a core coaching tool.
+- `support-and-challenge` — Support and Challenge Balance in Coaching: A core coaching dynamic where coaches calibrate supportive behaviors (encouragement, resources, celebration) with challenging behaviors (confrontation, higher standards, stretch goals) to maintain forward motion.
 
 ## Coaching Questions (coaching-questions) — Leadership & Coaching
 - `coaching-funnel` — The Coaching Funnel: A narrow-broad-narrow conversation shape — a sharp goal, wide open exploration, then narrowing back to specific action — for issues that need discovery before a solution.
@@ -734,6 +765,34 @@
 - `opening-exploring-closing` — Opening, Exploring, Closing: Every productive group session moves through three distinct modes — divergent opening, emergent exploring, convergent closing — that must not run simultaneously.
 - `randomness-reversal-reframing` — Randomness, Reversal, and Reframing: Deliberately scrambling a familiar order, inverting a convention, or forcing a new lens onto a problem breaks the mind's tendency to lock onto the first pattern it finds.
 
+## Good Leaders Ask Great Questions (good-leaders-ask-great-questions) — Leadership & Coaching
+- `active-listening-for-leaders` — Active Listening for Leaders: A disciplined practice where leaders listen first before leading, maintain an open ear despite agenda anxiety, and actively seek to hear what they need to hear rather than what they want to hear.
+- `experience-evaluation` — Experience Evaluation: The discipline of asking "What did you learn?" after experiences to convert raw experience into actionable insight and ensure continuous growth.
+- `grounded-leadership` — Grounded Leadership: The practice of maintaining leadership equilibrium through three pillars—humility, authenticity, and connection to calling—reinforced through regular self-questioning and honest assessment.
+- `perspective-expansion-through-questions` — Perspective Expansion Through Questions: Using strategic questions to surface assumptions, challenge mental models, and escape the cognitive ruts that prevent leaders from seeing problems freshly.
+- `self-directed-questioning` — Self-Directed Questioning: A leader's practice of asking themselves hard, introspective questions to maintain integrity, growth, and effectiveness.
+- `servant-leadership-inquiry` — Servant Leadership Inquiry: The practice of asking team members "How can I serve you?" to shift the leader's posture from directing to enabling and removing obstacles.
+- `shared-thinking` — Shared Thinking: The deliberate practice of inviting others to think together on problems, using questions to build and refine ideas collectively rather than individually.
+- `value-addition-as-practice` — Value-Addition as Practice: The continuous discipline of asking "Did we add value?" and "Did we exceed expectations?" to maintain a standard of excellence and customer/stakeholder impact.
+
+## HBR's 10 Must Reads on Leadership (hbr-leadership) — Leadership & Coaching
+- `adaptive-challenges` — Adaptive Challenges: Systemic organizational problems where successful resolution requires behavioral change and value shifts from people throughout the organization, not technical expertise applied from the executive suite.
+- `authentic-leadership-presence` — Authentic Leadership Presence: Four unexpected qualities—selective vulnerability, intuitive sensing, tough empathy, and distinctive self-expression—that inspire followership by revealing a leader's humanity and separateness.
+- `crucibles-of-leadership` — Crucibles of Leadership: Intense, often traumatic, unplanned experiences that force leaders through deep self-reflection and emerge stronger—the most reliable indicator of true leadership capacity.
+- `distributed-leadership` — Distributed Leadership: Leadership is a set of four capabilities—sensemaking, relating, visioning, inventing—that no single person masters equally; effective leaders are "incomplete" and recruit complementary capabilities throughout their organization.
+- `emotional-intelligence` — Emotional Intelligence: Five interconnected skills—self-awareness, self-regulation, motivation, empathy, social skill—that distinguish exceptional leaders from competent but limited ones.
+- `level-5-leadership` — Level 5 Leadership: The paradoxical combination of intense personal humility with fierce professional will—a rare leadership profile that catalyzes sustained transformation from good to great.
+- `management-vs-leadership` — Management vs. Leadership: Two Complementary Functions: Management copes with organizational complexity through planning and control; leadership copes with change through direction-setting and motivation. Both are necessary; most organizations have too much of one and too little of the other.
+
+## How Great Leaders Think: The Art of Reframing (how-great-leaders-think) — Leadership & Coaching
+- `advocacy-and-inquiry` — Advocacy and Inquiry: The dual leadership skill of communicating one's position clearly while also asking questions and soliciting feedback to understand others' perspectives.
+- `carriers-vs-catalysts-of-change` — Carriers Versus Catalysts of Change: Leaders can either impose innovations imported from elsewhere, or catalyze organic change rooted in an organization's own history, culture, and readiness.
+- `leadership-cluelessness` — Leadership Cluelessness: Leaders failing to perceive reality and understand their own impact when mental models misalign with actual circumstances.
+- `leadership-configurations` — Leadership Configurations: Individual leaders have distinct profiles of strengths across the four frames, creating unique "kite" shapes that either enable or constrain their effectiveness.
+- `leadership-soul-and-ethics` — Leadership Soul and Ethics: Each leadership frame carries an ethical obligation and a corresponding gift leaders can offer—and organizations require soul, a resolute sense of character and purpose, to sustain ethical action.
+- `leadership-worldviews-and-stories` — Leadership Worldviews and Stories: Leaders bring a worldview shaped by concepts, beliefs, values, and self-image that meets the organization's narrative. The interplay produces a shared story guiding collective action.
+- `reframing-in-action` — Reframing in Action: Applying different frames to the same situation to generate alternative interpretations, responses, and outcomes—transforming leadership dilemmas into multiple viable options.
+
 ## Leaders Eat Last (leaders-eat-last) — Leadership & Coaching
 - `abstraction-erodes-empathy` — Abstraction Erodes Empathy: The more a person's suffering is converted into distance, screens, or numbers, the easier it becomes for otherwise decent people to cause them harm without feeling responsible.
 - `circle-of-safety` — Circle of Safety: When a leader protects people from danger inside the group, they stop competing with each other and turn their energy outward against real threats.
@@ -752,6 +811,44 @@
 - `power-sharing-paradox` — The Power-Sharing Paradox: A leader becomes more powerful by giving power away — transferring real discretion and ownership to others rather than hoarding control.
 - `pygmalion-leadership-expectations` — Leader Expectations as Self-Fulfilling Prophecy: A leader's genuine belief in someone's ability shapes how the leader behaves toward them, which in turn shapes what that person actually achieves.
 
+## Leadership in Organizations (leadership-in-organizations) — Leadership & Coaching
+- `adaptive-leadership` — Adaptive Leadership: Situational Moderators: Leadership effectiveness depends on matching behavior to situational variables—task characteristics, subordinate maturity, organizational context—rather than using fixed leadership styles across all situations.
+- `influence-outcomes-taxonomy` — Influence Outcomes: Commitment, Compliance, Resistance: Influence attempts produce three distinct outcomes—commitment (enthusiastic effort), compliance (minimal effort), resistance (opposition)—each appropriate for different task types and requiring different influence tactics.
+- `leader-member-exchange` — Leader-Member Exchange: Dyadic Relationships: Leaders develop differentiated relationships with individual subordinates, ranging from casual exchange to cooperative alliances with shared objectives and mutual trust, fundamentally shaping individual performance and motivation.
+- `organizational-culture-and-strategy` — Organizational Culture and Strategic Leadership: Leaders at the top influence organizational performance not through direct control but through shaping organizational culture—the shared values, beliefs, and norms that guide member behavior—and aligning strategy with environmental demands.
+- `participative-decision-procedures` — Participative Decision Procedures: Consultation and Delegation: Leaders can use four distinct decision procedures—autocratic, consultation, joint decision, delegation—that distribute decision influence and produce different outcomes in quality, acceptance, and skill development.
+- `position-and-personal-power` — Position and Personal Power: Power derives from two distinct sources—formal position in the organization and personal attributes—that interact in complex ways to determine a leader's actual influence.
+- `power-dynamics` — Power Gain and Loss: Social Exchange and Strategic Contingencies: Leadership power is not static; it fluctuates as leaders demonstrate competence, loyalty, and value by solving critical problems, with success enhancing power but failure severely diminishing it.
+- `task-relations-change-behaviors` — Task, Relations, and Change Behavior Taxonomy: Three meta-categories of leadership behavior—task-oriented, relations-oriented, change-oriented—each serving distinct organizational purposes and jointly necessary for effectiveness.
+
+## The Leadership Journey (leadership-journey) — Leadership & Coaching
+- `authenticity-over-charisma` — Authenticity Over Charisma in Leadership: Inspiration flows from authentic belief in purpose and genuine emotional connection, not from personal charisma or magnetic personality.
+- `leader-vulnerability` — Leader Vulnerability: Public Admission of Blind Spots: Leaders inspire trust by deliberately modeling the willingness to examine their own blind spots and soliciting honest feedback from those they lead.
+- `master-observer-culture` — Master Observer Culture: Building Organizations That Sense and Anticipate: Leaders create competitive advantage by building a culture where all members become world-class observers of external signals and internal patterns, enabling collective anticipation.
+- `perpetual-navigation` — Perpetual Navigation: Real-Time Strategy Over Annual Planning: Strategy is not a fixed plan revisited once per year but a continuous adaptive process of real-time decision-making grounded in present reality.
+- `shepherd-leader` — The Shepherd Leader: Leading from Multiple Positions: Leadership requires adaptively positioning yourself—sometimes in front to chart the course, sometimes beside as peer, mostly behind to enable others' achievement.
+- `true-north-purpose` — True North: Purpose as Fixed Navigational Point: Purpose serves as an unchanging navigational anchor that guides all strategic decisions, like the star Polaris guiding explorers across unknowable terrain.
+
+## Managing Virtual Teams (managing-virtual-teams) — Leadership & Coaching
+- `async-sync-communication-matching` — Async-Sync Communication Matching: Choosing synchronous tools for urgent, time-critical messages and asynchronous tools for reference information, based on message urgency and team availability.
+- `centralized-collaborative-repository` — Centralized Collaborative Repository: Establishing a single authoritative source for project information (wiki, intranet, shared workspace) accessible 24/7 so team members can work asynchronously without waiting for synchronous handoffs or creating duplicate file versions.
+- `distributed-autonomy-with-trust` — Distributed Autonomy with Trust: Managing virtual teams by empowering autonomous decision-making and trusting team members to act in the project's best interest, because real-time supervision and feedback across time zones is impractical.
+- `explicit-shared-objectives` — Explicit Shared Objectives: Making team goals, scope, and decision authority explicit in writing rather than relying on implicit cultural understanding, essential for virtual teams across locations and cultures.
+- `implicit-norms-made-explicit` — Implicit Norms Made Explicit: Writing down workplace and communication norms (email response times, format conventions, meeting etiquette, decision authority) because virtual teams cannot rely on cultural osmosis and differ by geography and profession.
+- `strategic-in-person-moments` — Strategic In-Person Moments: Investing in deliberately scheduled in-person meetings at project start and periodic intervals despite cost, because face-to-face interaction builds trust and shared understanding that enables more effective async work afterward.
+- `task-tool-genre-matching` — Task-Tool Genre Matching: Selecting tool categories based on the specific task structure (one-to-one, one-to-many, many-to-many) and output requirements, not by default or vendor recommendation.
+- `temporal-inconvenience-rotation` — Temporal Inconvenience Rotation: Scheduling regular meetings across time zones by rotating inconvenient times (early mornings, late nights) among team members rather than forcing the same people to always meet at painful hours.
+
+## Motivate Like a CEO (motivate-like-a-ceo) — Leadership & Coaching
+- `accountability-through-transparency` — Accountability Through Transparency: Clear Roles and Transparent Expectations Drive Results: When leaders clearly communicate who owns what, when, and why—and discuss these expectations transparently with the whole team—people know they're accountable and deliver more.
+- `chief-motivational-officer` — Chief Motivational Officer: Making Motivation Your Primary Leadership Responsibility: Leaders should think of their job as Chief Motivational Officer—where every day, one of the primary roles is inspiring people and connecting them with purpose.
+- `connecting-what-with-why` — Connecting What with Why: Linking Daily Work to Strategic Purpose: People need to see how their specific tasks and contributions connect to the larger mission and strategic goals of the organization.
+- `feedback-loop-engagement` — Feedback Loop for Engagement: Keeping People in the Loop through Measurement and Communication: Leaders create structured feedback mechanisms—surveys, metrics, performance reviews—to monitor message impact, keep people informed, and continuously adjust communication.
+- `motivational-communication-principles` — Eight Principles for Motivating Through Communication: A learnable set of eight communication practices that leaders use to inspire others and connect them with shared purpose.
+- `personal-connection-leadership` — Personal Connection Leadership: Making Genuine Human Connections with People: Leaders motivate people by knowing them as individuals, showing genuine interest, and making moments of authentic connection that demonstrate care and respect.
+- `purpose-driven-leadership` — Purpose-Driven Leadership: Discovering and Communicating Your Mission: Leaders must first discover their own sense of purpose and commit to it personally before they can inspire others to connect with it.
+- `story-driven-change` — Story-Driven Change: Using Stories to Shift Minds and Drive Organizational Transformation: Leaders craft and tell stories strategically to open minds, build emotional connection to change, and make messages memorable and actionable.
+
 ## Building Motivational Interviewing Skills (motivational-interviewing) — Leadership & Coaching
 - `ambivalence` — Ambivalence: The normal, simultaneous holding of reasons for and against change within one person — the terrain to work with, not a problem to eliminate.
 - `change-talk` — Change Talk (DARN-CAT): Client language that expresses desire, ability, reason, need, commitment, or steps toward a specific change — the strongest predictor of whether change actually occurs.
@@ -769,6 +866,26 @@
 - `law-of-two-feet` — The Law of Two Feet: If you are neither learning nor contributing in a situation, the only rule is that you must move yourself somewhere more useful — responsibility for engagement sits with the individual, not the convener.
 - `self-organizing-agenda` — The Self-Organizing Agenda: A group with a shared theme builds its own complete agenda in minutes by letting anyone with genuine passion post a session and others self-select in.
 - `whole-system-in-the-room` — The Whole System in the Room: When everyone with a stake and everyone with authority to act are physically present together, the normal sequence of plan-then-implement collapses, because approval and action can happen on the spot.
+
+## Overcoming the Five Dysfunctions of a Team: A Field Guide (overcoming-five-dysfunctions) — Leadership & Coaching
+- `behavioral-profiling` — Behavioral Profiling: Mapping Team Personality Architecture: Using standardized personality assessment (MBTI) to help teams understand individual differences and collective blindspots.
+- `commitment-clarification-cascading-communication` — Commitment Clarification and Cascading Communication: Decision Clarity Across Hierarchy: A two-part mechanism: write down agreements at meeting end, then each member communicates those decisions in-person to their staff within 24-48 hours.
+- `conflict-profiling` — Conflict Profiling: Understanding Team Conflict Tendencies: An exercise in which team members examine their behavioral profiles and personal history to identify their individual conflict style, then examine patterns and blind spots in the team's collective conflict approach.
+- `conflict-resolution-model` — Conflict Resolution Model: Mining Obstacles Beyond the Issue: A multi-layer framework identifying four classes of obstacles (informational, environmental, relationship, individual) that block teams from reaching and resolving the actual issue at hand.
+- `personal-histories-exercise` — Personal Histories Exercise: Building Vulnerability-Based Trust: A structured exercise where team members share origins, sibling order, and childhood challenges to build mutual understanding and reduce misattribution.
+- `team-effectiveness-exercise` — Team Effectiveness Exercise: Structured Peer Feedback: A facilitated exercise in which each team member receives focused feedback from peers on their single greatest contribution to team strength and single greatest behavioral detractor.
+- `team-scoreboard` — Team Scoreboard: Visualizing Collective Metrics: A single, easy-to-read display of critical quantitative and qualitative metrics that the team reviews regularly to assess progress toward its thematic goal and operational standards.
+- `thematic-goal-workshop` — Thematic Goal Workshop: Setting the Rallying Cry: A single, non-quantitative team objective for a defined period that serves as the rallying cry and tiebreaker when member priorities conflict.
+
+## Paid to Think (paid-to-think) — Leadership & Coaching
+- `50000-foot-perspective` — 50,000-Foot Perspective: A deliberate shift in viewing distance to observe organizational systems, structures, and processes as interconnected wholes rather than individual performance—the vantage point from which systemic solutions become visible.
+- `cyclonic-strategic-thinking` — Cyclonic Strategic Thinking: Five-Phase Strategic Model: A five-phase structured process (Desired Outcome, Strategy, Macro Tactics, Tactics, Execution) that replaces vague two-phase planning and enables organizations to speak a common strategic language.
+- `goldsmith-productivity-principle` — Goldsmith Productivity Principle: The framework that 80% of organizational results come from systems, structures, and processes while 20% come from individual capability and effort—shifting focus from personnel change to systemic improvement.
+- `order-winners-and-qualifiers` — Order Winners and Order Qualifiers: The distinction between baseline requirements (Order Qualifiers—table stakes) and true differentiators (Order Winners—what actually wins customer choice) that guides product development, positioning, and strategic focus.
+- `pentality-of-forecasting` — Pentality of Forecasting: A five-category framework — You/Organization, Customers, Competition, Suppliers, World — for systematically anticipating long-term challenges and opportunities.
+- `priority-management` — Priority Management: A structured daily planning discipline that links strategic Desired Outcomes to daily action through A/B ranking, time allocation, and protected execution time—not merely task management but achievement-focused planning.
+- `redefining` — Redefining: A three-step tool to translate vague challenges into sharply focused, solution-oriented questions via Challenge Statement → Should Statement → What Would It Take question.
+- `rethinking` — Rethinking: The deliberate practice of re-examining and challenging accepted beliefs and assumptions to expand the scope of mental options and awaken new possibilities for solving problems.
 
 ## Principles: Life and Work (principles) — Leadership & Coaching
 - `believability-weighting` — Believability-Weighted Decision Making: Weighting each person's vote or opinion by their track record and demonstrated ability to explain their reasoning, instead of by authority or headcount.
@@ -821,6 +938,24 @@
 - `smart-trust-matrix` — The Smart Trust Matrix: A third alternative to blind trust and distrust — combine a high propensity to trust with high analysis of opportunity, risk, and credibility.
 - `trust-dividend-and-tax` — The Trust Dividend and the Distrust Tax: High trust acts as an economic multiplier that speeds transactions and lowers cost; low trust imposes a hidden tax that slows everything and raises cost.
 
+## The Carpenter (the-carpenter) — Leadership & Coaching
+- `belief-shapes-reality` — Belief Shapes Reality: What you believe becomes true; your optimism today determines your success tomorrow. Beliefs are not passive reflections but active creators of possibility.
+- `care-as-differentiator` — Care as Differentiator: In a world where most don't care, showing genuine care for your work and your people is a magnetic force that attracts trust, loyalty, and success.
+- `craftsman-mindset` — Craftsman Mindset: A craftsman creates art, not just output; they pour heart and soul into work, knowing each creation reflects who they are becoming.
+- `failure-as-gift` — Failure as Gift: Failure is not final; it is a test, teacher, and refiner that builds character and gives perspective. When you reframe failure as gift, it becomes a stepping stone.
+- `love-as-antidote` — Love as the Antidote: Love displaces fear; it is the most powerful force for sustainable success, flowing where fear drains.
+- `servant-leadership` — Servant Leadership: True leadership power comes from serving others first; sacrifice and service earn respect and trust in ways accumulation never can.
+
+## Think Like an Entrepreneur, Act Like a CEO (think-entrepreneur-act-ceo) — Leadership & Coaching
+- `active-listening` — Active Listening as Career Foundation: Deep, mindful listening—shutting down your internal voice to genuinely hear others—is the single most powerful career competency.
+- `calendar-commitment` — Calendar as Commitment Tool: Use your calendar as the primary system for aligning time allocation to priorities, treating scheduled commitments with the same respect as promises to others.
+- `executive-presence` — Executive Presence: Building the "It" Factor: Observable qualities—posture, organization, confidence, gravitas—that signal leadership capability, distinct from competence alone.
+- `leading-upward` — Leading Upward: Influencing Your Boss: Skillfully influence and guide your manager toward better decisions and effectiveness, with humility and focus on organizational benefit.
+- `me-inc` — Me Inc.: Career as Personal Business: Manage your career as a one-person enterprise, taking ownership and strategic responsibility regardless of employment structure.
+- `resilience-reframing` — Resilience Through Reframing: Build career resilience by reinterpreting setbacks, stress, and difficulty as puzzles to solve rather than personal failures or threats.
+- `sugar-grain-principle` — The Sugar Grain Principle: Incremental Change: Create large life and career changes through tiny, consistent steps so gradual the person never feels deprived or overwhelmed.
+- `vital-few-80-20` — The Vital Few: 80/20 Principle in Careers: Recognize that roughly 80% of your achievements and results come from about 20% of your activities; find and protect that vital 20%.
+
 ## Why Great Leaders Don't Take Yes for an Answer (why-great-leaders-dont-take-yes) — Leadership & Coaching
 - `cognitive-vs-affective-conflict` — Cognitive Versus Affective Conflict: Task-focused disagreement over ideas (cognitive conflict) and personal, emotional friction (affective conflict) are separate dimensions a leader must diagnose and manage independently.
 - `culture-of-no-yes-maybe` — The Culture of No, Yes, and Maybe: Three distinct dysfunctional decision-making cultures — where lone dissenters can veto, where everyone superficially agrees, and where nothing is ever quite decided — each producing chronic organizational indecision.
@@ -830,6 +965,25 @@
 - `incremental-closure` — Incremental Closure: Break a large, contentious decision into a sequence of smaller sub-decisions, closing each one on common ground before moving to the next, rather than seeking one comprehensive agreement.
 - `leading-with-restraint` — Leading with Restraint: A leader can take charge of how a decision gets made — process-oriented leadership — without immediately taking charge of what the answer should be, and this is not weakness or indecision.
 - `systemic-silence` — Systemic Silence: When people fail to speak up, the cause is usually structural — hierarchy, protocol, incentives — not a personal deficit of courage or skill.
+
+## A Year with Peter Drucker (year-with-peter-drucker) — Leadership & Coaching
+- `continuity-change-continuum` — Continuity and Change: A Continuum, Not Opposites: Organizations must balance rapid change and continuity as complementary forces, with strong values and mission providing the foundation that enables rather than inhibits transformation.
+- `developing-leaders-functionaries` — Developing Leaders, Not Functionaries: Leadership emerges from responsibility and trust, not obedience to rules; organizations develop either capable decision-makers or passive rule-followers.
+- `importance-not-urgent` — Importance vs. Urgency: The discipline of distinguishing truly important work from what merely feels urgent, and prioritizing accordingly despite constant demands.
+- `mirror-test-values` — The Mirror Test: Values as Non-Negotiable: A personal ethics checkpoint—whether you can respect the person you see in the mirror—and the principle that working in value misalignment destroys both performance and self-esteem.
+- `success-to-significance` — From Success to Significance: The transition in the second half of life where knowledge workers shift from achieving personal success to creating lasting significance for society.
+- `succession-organizational-spirit` — Succession: Maintaining Organizational Spirit: The challenge of leadership transition is not replacing a person but preserving the spirit and values that animate an organization.
+- `unique-contribution` — Lead from Your Unique Contribution: Exceptional impact comes from working in the narrow domain where you are uniquely positioned rather than in areas where you are competent but undifferentiated.
+
+## The 10X Rule (10x-rule) — Psychology & Self-Development
+- `10x-targets` — 10X Targets: Set Goals 10 Times Higher Than Realistic: Unrealistic, 10x-multiplied goals energize action better than attainable ones; the mind requires sufficient payoff to fuel sustained effort.
+- `average-is-failure` — Average Is a Failing Formula: Operating at normal, socially acceptable levels guarantees mediocrity and vulnerability; average provides no buffer against adversity.
+- `burn-the-place-down` — Burn the Place Down: Never stop adding wood to your fire; continuous escalation and relentless action prevent competitors from catching you and maintain momentum.
+- `four-degrees-of-action` — Four Degrees of Action: Four levels of action determine outcomes; only massive action creates extraordinary success.
+- `massive-action` — Massive Action: Success requires taking 10 times more action than you estimate as necessary; underestimation of effort is the universal failure pattern.
+- `obsession-as-requirement` — Obsession as a Requirement, Not a Disease: Single-minded fixation on goals is necessary for extraordinary outcomes; society mislabels this gift as a defect.
+- `omnipresence-strategy` — Omnipresence Strategy: Break through obscurity by being everywhere—make your name, brand, and idea visible constantly until people can't avoid it.
+- `success-as-duty` — Success as Duty: Reframe success from aspiration to obligation; approach it as an ethical duty to yourself, your family, and society.
 
 ## The Art of Learning (art-of-learning) — Psychology & Self-Development
 - `downward-spiral` — The Downward Spiral: The first mistake rarely causes disaster; the compounding chain of a second, third, and fourth error triggered by refusing to accept the first one does.
@@ -850,6 +1004,37 @@
 - `marginal-gains-compounding` — Aggregation of Marginal Gains: Small, consistent 1% improvements compound geometrically over time into outsized results, while small negative choices compound into decline.
 - `two-minute-rule` — The Two-Minute Rule: Downscale any new habit until it takes less than two minutes to do, so the goal becomes mastering the ritual of showing up rather than the full behavior.
 
+## Awaken the Giant Within (awaken-the-giant-within) — Psychology & Self-Development
+- `decision-as-destiny` — Decision as Destiny: Every decision—made consciously or by default through inaction—sets a cause in motion that shapes your direction and ultimate destination; your destiny is determined by decisions, not by conditions.
+- `emotions-as-action-signals` — Emotions as Action Signals: All emotions—including those labeled 'negative'—are messages from your nervous system signaling that something in your perception, communication, or actions needs to change.
+- `global-metaphors` — Global Metaphors: Overarching metaphors through which a person interprets their entire life (e.g., life is a war, a game, a dance, a mystery) that instantly shape perception, decisions, and emotional response across all domains.
+- `life-values-hierarchy` — Life Values Hierarchy: Ends and Means: Distinguishing between the emotional states you truly desire (ends values) and the circumstances you pursue to achieve them (means values); organizing them into a conscious, ranked priority system.
+- `neuro-associative-conditioning` — Neuro-Associative Conditioning: A systematic six-step process for changing behavior by linking unbearable pain to old patterns and intense pleasure to new desired behaviors.
+- `pain-pleasure-dynamic` — Pain-Pleasure Dynamic: The fundamental human lever: all decisions and actions are driven by the impulse to move away from pain and toward pleasure, but most people optimize for short-term relief over long-term fulfillment.
+- `quality-questions` — Quality Questions: The questions you habitually ask yourself determine what you focus on, which determines your emotional state and actions; changing your questions changes your destiny.
+- `rules-the-judge-and-jury` — Rules: The Judge and Jury: Specific, often-unconscious beliefs about what must happen in order for you to feel good or bad; the triggering mechanism that determines whether you experience pain or pleasure in any moment.
+- `transformational-vocabulary` — Transformational Vocabulary: Changing a single word in your habitual language instantly changes your emotional state and the meaning you extract from experience.
+
+## Boundaries (boundaries) — Psychology & Self-Development
+- `boulders-and-knapsacks` — Boulders and Knapsacks: Crisis Burdens vs. Daily Responsibilities: Crisis-level problems (boulders) require help to survive; daily responsibilities (knapsacks) must be carried by each person alone. Confusing these creates either perpetual dependence or denial of real need.
+- `boundaries-define-self` — Boundaries: Define What Is Me and What Is Not Me: Boundaries are property lines of the self that clarify ownership, define what you are responsible for, and distinguish personal identity from enmeshment with others.
+- `boundary-violators-taxonomy` — Three Types of Boundary Violators: Three boundary-violation patterns: compliants say yes to the bad, avoidants say no to the good, controllers don't respect limits — each heals differently.
+- `object-constancy` — Object Constancy: Internal Security That Enables Boundaries: The ability to feel secure and connected even when separated from attachment figures; the psychological foundation that makes it safe to set boundaries without fear of abandonment.
+- `proactive-vs-reactive` — Proactive vs. Reactive Boundaries: Reactive boundaries are defensive responses to violation; proactive boundaries express what you love and value. The progression from reaction to proaction marks emotional maturity.
+- `responsible-to-not-for` — Responsible TO Others, But FOR Yourself: You are responsible TO others by helping them with genuine crises and treating them with compassion, but responsible FOR your own feelings, growth, and daily choices. Confusing these creates guilt-driven martyrdom or selfish indifference.
+- `separation-individuation` — Separation and Individuation: Becoming Distinct: The developmental process from enmeshment with a parent (symbiosis) to distinctness and authentic identity, in phases: hatching, practicing, rapprochement.
+- `sowing-and-reaping` — Law of Sowing and Reaping: Consequences as Teacher: Behavior produces natural consequences. When others rescue people from consequences, they interrupt learning and enable continued dysfunction—the core mechanism of codependency.
+
+## Breaking the Habit of Being Yourself (breaking-the-habit-of-being-yourself) — Psychology & Self-Development
+- `breaking-habit-of-self` — Breaking the Habit of Being Yourself: The overarching practice of dismantling automatic identity and unconscious patterns through observation, releasing memorized emotional states, and cultivating new states of being.
+- `elevated-emotion` — Elevated Emotion: Higher-frequency emotional states (gratitude, love, compassion, joy) that correspond to creative and coherent nervous-system function, contrasted with survival-based emotions (anger, fear, shame).
+- `memorized-emotional-state` — Memorized Emotional State: A pattern of thinking-feeling so deeply rehearsed that the body automatically recreates it without conscious thought, becoming a habitual identity.
+- `mental-rehearsal` — Mental Rehearsal: The practice of generating internal sensory-emotional experiences through imagination and thought alone, creating neurological and chemical changes ahead of actual experience.
+- `metacognition` — Metacognition: The prefrontal cortex's capacity to observe one's own thoughts, emotions, and behaviors as an external observer, enabling conscious intervention into automatic patterns.
+- `state-of-being` — State of Being: A unified identity formed when mind (thinking pattern) and body (emotional pattern) merge into a coherent, self-sustaining way of existing that feels like "who you are."
+- `survival-vs-creation` — Survival vs. Creation: Two competing modes of consciousness—survival mode driven by threat and stress responses, creation mode driven by elevated emotions and imagination.
+- `thinking-feeling-loop` — The Thinking-Feeling Loop: The reciprocal neurochemical cycle where thoughts produce chemicals that make the body feel certain ways, and bodily feelings in turn drive thinking.
+
 ## The Checklist Manifesto (checklist-manifesto) — Psychology & Self-Development
 - `checklist-as-forcing-conversation` — The Checklist as a Forcing Function for Conversation: A checklist's biggest effect is often not memory but making people who wouldn't otherwise speak up pause and talk to each other before it's too late.
 - `complexity-beyond-memory` — Complexity Beyond Memory: Past a threshold of complexity, even the most expert individual mind can no longer reliably hold every necessary step, no matter how much training it has.
@@ -866,6 +1051,30 @@
 - `mental-accounting` — Mental Accounting: People track money not in one fungible pool but in separate psychological accounts tied to specific purposes, so identical dollars are treated differently depending on which account they're posted to.
 - `money-illusion` — Money Illusion: People evaluate economic transactions partly by their nominal dollar value even when they know the real, inflation-adjusted value is what actually matters.
 - `preference-reversals` — Preference Reversals: Asking people to price two options versus asking them to choose between the same two options can yield opposite rankings, suggesting preferences are built by the elicitation method, not just read off a stable inner scale.
+
+## Clarity: Clear Mind, Better Performance, Bigger Results (clarity) — Psychology & Self-Development
+- `innate-thinking` — Innate Thinking: The natural human capacity to generate fresh perception and experience moment to moment, creating clarity and the qualities of high performance without external effort.
+- `inside-out-understanding` — Inside-Out Understanding: Experience is created from within through thinking, not caused by circumstances—the fundamental reversal of conventional outside-in assumption.
+- `insight-understanding` — Insight Understanding: Direct, sudden understanding that emerges from within and generates motivation and behavior change naturally, distinct from intellectual understanding that requires effort to apply.
+- `intuition-wisdom-navigation` — Intuition: Wisdom as Internal Navigation: A built-in guidance system that provides context-sensitive, up-to-date information from before habitual thinking, distinct from intellect and past experience.
+- `psychological-immune-system` — Psychological Immune System: The mind's built-in self-correcting mechanism that sends distress signals (negative feelings) when cluttered with superstitious thinking, guiding awareness back toward clarity.
+- `superstitious-thinking` — Superstitious Thinking: Mistaken belief that external circumstances cause internal states—the persistent cultural conditioning that keeps people trapped in outside-in thinking.
+- `the-three-principles` — The Three Principles: THOUGHT, CONSCIOUSNESS, MIND: The three universal principles—THOUGHT (reality generator), CONSCIOUSNESS (experience mediator), MIND (power source)—that jointly create 100% of human experience and behavior.
+
+## Confidence: How to Overcome Your Limiting Beliefs (confidence-meadows) — Psychology & Self-Development
+- `locus-of-control` — Locus of Control: Believing your actions and decisions shape your life (internal locus) vs. believing external forces determine outcomes (external locus); internal locus builds self-efficacy and reduces stress.
+- `mastery-through-small-wins` — Mastery Through Small Wins: Building confidence by breaking big goals into achievable steps, ensuring early success that compounds into resilience and larger achievements.
+- `self-efficacy-meadows` — Self-Efficacy: Belief in your ability to complete tasks successfully; determines persistence, goal-setting, and whether difficulties become unbridgeable barriers.
+- `social-modeling-peer-influence` — Social Modeling and Peer Influence: Watching similar others succeed increases your belief you can do it; peer groups amplify effort through the Köhler effect where no one wants to be the weakest link.
+- `stretch-zone-learning` — The Stretch Zone: Learning happens in the zone between comfort and panic—challenging enough to build capability, safe enough to achieve consistent success.
+
+## Daily Self-Discipline (daily-self-discipline) — Psychology & Self-Development
+- `adversity-as-teacher` — Adversity as the Teacher of Self-Discipline: Self-discipline is tested and built only through adversity; voluntarily facing discomfort prepares you to handle unplanned obstacles with less psychological resistance.
+- `commitment-with-belief` — Commitment with Unwavering Belief: Sticking to a specific plan until you achieve your goal, combined with deep belief the plan works; the combination makes discipline possible even when motivation fades.
+- `discomfort-tolerance` — Discomfort Tolerance: Building mental toughness by voluntarily experiencing managed discomfort—cold, hunger, rejection, failure—until you stop viewing discomfort as unbearable and stay calm despite it.
+- `intentional-living-inner-focus` — Intentional Living: Inner Focus and Awareness: Self-discipline of the mind: becoming aware of your thoughts (rather than identified with them), filtering useful ones, and building calm clarity that makes outer discipline easier.
+- `internal-external-motivation` — Internal vs. External Motivation: Internal motivation (enjoying the activity, valuing growth) sustains discipline; external motivation (pursuit of medals, money, appearance) fades and leaves nothing when extrinsic rewards vanish.
+- `physical-mastery-foundation` — Physical Mastery as Foundation for Life Discipline: Building a strong body through consistent training teaches discipline that transfers to all domains; it is a visible, measurable discipline that compounds over months and years.
 
 ## Daring Greatly (daring-greatly) — Psychology & Self-Development
 - `disengagement-divide` — The Disengagement Divide: People disengage in proportion to the gap between an authority's practiced values and its aspirational ones — not from bad values, but from unlived ones.
@@ -901,6 +1110,88 @@
 - `high-quality-leisure` — High-Quality Leisure: Active, skill-demanding, often social pursuits chosen for the satisfaction they generate in themselves, deliberately cultivated before — not after — cutting low-value digital habits.
 - `minimalist-tech-philosophy` — Minimalist Technology Philosophy: Focus online time on a small number of carefully chosen tools that strongly support your deep values, then happily miss out on everything else.
 - `solitude-deprivation` — Solitude Deprivation: A state of spending close to zero time free from input from other minds — not physical isolation, but the absence of unmediated time alone with your own thoughts.
+
+## Do More Great Work (do-more-great-work) — Psychology & Self-Development
+- `adequate-work-strategy` — Adequate Work and Intelligent Laziness: Deliberately choosing to do some work at a "good enough" level, and adopting lazy efficiency patterns, to free time and energy for great work.
+- `good-bad-great-work` — The Good, Bad, and Great Work Taxonomy: A three-category framework that distinguishes work by meaningfulness and impact, positioning good work as necessary but great work as life-defining.
+- `idea-generation-beyond-first` — Idea Generation Beyond First-Idea-Itis: Creative limitations (belief that you're not creative, limited idea-generation methods, time scarcity) keep you from exploring possibilities; systematic approaches unlock better ideas.
+- `motivation-direction` — Motivation Direction - Toward vs. Away From: People are driven either toward goals and opportunities or away from problems and losses; understanding your pattern reveals what will actually pull you into great work.
+- `pain-and-calling` — Great Work at the Intersection of What's Calling and What's Broken: Great work emerges where personal meaning meets real problems that need solving, where what the world needs to change overlaps with what matters to you.
+- `peak-moments` — Peak Moments as Pattern Recognition: Past moments of engagement and meaning are clues to your future great work; examining them reveals recurring patterns about how you work at your best.
+- `saying-yes-slowly` — Saying Yes More Slowly - Questioning Requests: Instead of defaulting to quick yes answers, slow down with clarifying questions to evaluate whether a request aligns with priorities and great work.
+- `work-alignment-matrix` — Work-Alignment Matrix - Personal Meaning vs. Organizational Priorities: A 2x2 framework that maps work against two axes—what you care about and what your organization values—revealing where to double down, delegate, or redesign work.
+
+## Don't Shoot the Dog (dont-shoot-the-dog) — Psychology & Self-Development
+- `conditioned-reinforcer-marker-signal` — Conditioned Reinforcer and Marker Signal: An arbitrary signal (sound, word, gesture) paired with primary reinforcement that becomes powerfully reinforcing itself and enables precise identification of desired behavior.
+- `eight-methods-behavior-removal` — Eight Methods: A Taxonomy of Behavior Removal: A complete framework for eliminating unwanted behavior, including four aversive methods and four positive methods for every possible situation.
+- `operant-conditioning-applied` — Operant Conditioning: Applied Training Framework: The systematic application of behavioral science principles to teach and modify behavior in any subject through consequences, moving beyond theory into practical training methods.
+- `positive-reinforcement` — Positive Reinforcement and Its Distinction from Reward: Using desired consequences following behavior to increase that behavior, with the understanding that a true reinforcer is defined by its effect on future behavior, not by our assumptions about what someone likes.
+- `shaping-successive-approximation` — Shaping: Successive Approximation: Building complex behavior by reinforcing progressively closer steps toward a goal, rather than waiting for the complete behavior to occur.
+- `stimulus-control-putting-behavior-on-cue` — Stimulus Control: Putting Behavior on Cue: Training behavior to occur only in response to a specific signal, then eliminating unwanted behavior by withholding the signal.
+- `variable-reinforcement-schedules` — Variable Reinforcement Schedules: Intermittent, unpredictable reinforcement that maintains and strengthens behavior far more powerfully than continuous or predictable reinforcement.
+
+## Emotional Agility (emotional-agility) — Psychology & Self-Development
+- `emotional-agility` — Emotional Agility: Flexibility with thoughts and feelings so you respond to situations optimally instead of reacting rigidly from old patterns.
+- `getting-hooked` — Getting Hooked: Being caught by habitual thoughts, feelings, and behaviors through the automatic fusion of fact with opinion, emotion blending, and reflexive response.
+- `mindfulness-and-curiosity` — Mindfulness and Curiosity: Observing your inner world with balanced attention and openness creates the space to choose your response instead of reacting automatically.
+- `see-saw-principle` — The See-Saw Principle: Optimal development lives at the edge of your ability — balancing competence and comfort with challenge and growth, avoiding both complacency and overwhelm.
+- `showing-up` — Showing Up: Being fully present with difficult emotions and experiences instead of avoiding, suppressing, or trying to fix them — facing into pain rather than away from it.
+- `stepping-out` — Stepping Out: Creating distance between yourself and your thoughts so you can observe them as just thoughts, not directives you must follow.
+- `tiny-tweaks-principle` — The Tiny Tweaks Principle: Small, incremental changes to your environment and habits make values-aligned actions automatic, transforming deliberate intention into durable behavior.
+- `walking-your-why` — Walking Your Why: Values are not destinations; they are directions — qualities of action you bring to life, requiring continuous movement toward them, not achievement.
+
+## Emotional Intelligence 2.0 (emotional-intelligence-2-0) — Psychology & Self-Development
+- `emotional-contagion` — Emotional Contagion: The Ripple Effect of Your Emotions on Others: One person's emotional outburst sends ripples through everyone who witnesses or is affected by it, creating a contagion effect that shapes the emotional climate and behavior of the entire group.
+- `emotional-hijacking` — Emotional Hijacking—The Limbic Override of Rational Thought: Emotions are neurologically hard-wired to reach the brain before rational thought; under stress or high emotion intensity, the limbic system can "hijack" behavior, overriding the prefrontal cortex's ability to think clearly.
+- `eq-four-skill-model` — The Four-Skill EQ Model: Self/Social × Awareness/Management: Emotional intelligence decomposed into four trainable skills organized by two dimensions—personal vs. social competence, and awareness vs. management.
+- `eq-independent-from-iq` — EQ Independence from IQ and Personality: Three Distinct Dimensions of Human Capability: Emotional intelligence, IQ, and personality are three independent dimensions of human capability; you cannot predict one from another, and only EQ is trainable while IQ and personality are fixed.
+- `eq-measurement-and-feedback` — EQ Measurement and Feedback: Using Assessment Results to Target Development: Measuring EQ via a standardized assessment uncovers your strengths and weaknesses across the four skills, providing a data-driven foundation for selecting which skill to develop first and which strategies to practice.
+- `eq-neuroplasticity` — EQ Plasticity—Emotional Intelligence as Learnable Skill, Not Fixed Trait: Emotional intelligence is neurologically plastic—the brain forms new neural connections through repeated practice, making EQ trainable unlike IQ, with lasting changes documented years later.
+- `eqstrategy-library` — EQ Strategy Library: Concrete, Actionable Techniques for Each Skill: Sixty-six specific, tested strategies grouped by EQ skill—self-awareness, self-management, social awareness, relationship management—provide concrete tactics for building each skill through deliberate practice.
+- `trigger-events` — Trigger Events and Emotional Roots: Mapping the Origin of Reactions: Emotional reactions to people or situations (triggers) are shaped by personal history; mapping what triggers you and why—by tracing triggers to their sources—is essential to emotional self-management.
+
+## A Factory of One (factory-of-one) — Psychology & Self-Development
+- `customer-value-identification` — Customer Value Identification: Mapping your personal value streams: Clarifying who your actual customers are and what value they seek from your work, distinct from tasks and job titles.
+- `information-5s` — Information 5S: Organizing knowledge work by information hierarchy: Adapting the manufacturing 5S tool (Sort, Straighten, Shine, Standardize, Sustain) to information and files, categorized by frequency of use.
+- `pdca-personal-scientific-method` — PDCA as Personal Scientific Method: Testing improvements, not guessing: Using Plan-Do-Check-Act (the scientific method) to test hypotheses about personal work improvements, replacing gut feel with measured learning.
+- `root-cause-five-whys` — Five Whys: Root cause analysis for personal problem-solving: Using repeated "why" questions to dig past symptoms and find the underlying cause of a problem, enabling permanent solutions.
+- `standardized-work-habits` — Standardized Work as Habit: Automating routine so creativity is freed: Codifying the best way to do repeatable tasks as habits, so cognitive load shifts from routine to novel problem-solving.
+- `visible-calendar-kanban` — Visible Calendar Kanban: Calendar as a work signal system: Using your calendar as a kanban (pull signal) to trigger work at the right time, not as a meeting repository but as your primary work management system.
+- `work-processing-4ds` — Work Processing: The 4Ds for handling incoming work: A structured method to process each incoming task into one of four categories—Do (now), Defer (schedule), Delegate, or Delete—preventing inbox overload.
+- `worst-first-work-sequencing` — Worst First: Tackling difficult work before easy work to improve flow: Deliberately scheduling hard or unpleasant tasks at the beginning of the day before easy/enjoyable work, reducing procrastination and overall time.
+
+## Fearless Simplicity (fearless-simplicity) — Psychology & Self-Development
+- `bodhichitta-and-motivation` — Bodhichitta and Authentic Motivation: The enlightened attitude that arises from genuine intention—to free oneself and all beings from suffering—as the foundation that redirects spiritual practice from ego-advancement into authentic service.
+- `emotion-liberation` — Emotion Liberation: The recognition that negative emotions dissolve without remedy when met with the awareness of rigpa: they are freed upon arising, naturally freed, or freed beyond benefit and harm.
+- `fearlessness-through-emptiness` — Fearlessness Through Emptiness: The confidence that naturally arises when recognizing that all threatening appearances arise within empty awareness and therefore lack the power to harm, trap, or diminish what one essentially is.
+- `ground-path-fruition` — Ground, Path, Fruition: Ground is the already-present nature of mind, Path is recognition and stabilization, Fruition is full manifestation — aspects to understand, not stages to achieve.
+- `illusion-and-appearance` — Illusion and Appearance: The recognition that all phenomena—including self, world, and experience—appear vividly while remaining fundamentally unfindable, like a dream or movie that seems real only through lack of investigation.
+- `meditation-without-fabrication` — Meditation Without Fabrication: The paradoxical state of being undistracted while making no artificial effort—present without dwelling, maintaining without contriving, liberated from both dullness and rigid control.
+- `mind-essence-vs-discursive-mind` — Mind Essence vs. Discursive Mind: The distinction between unconfused awareness (rigpa) and the deluded aspect of mind that conceptualizes, projects, and mistakes appearances for solid reality.
+- `rigpa` — Rigpa: Self-Knowing Awareness: The fundamental nature of mind characterized by emptiness, cognizance, and unconfined capacity beyond arising or ceasing.
+- `shamatha-calm-abiding` — Shamatha: Calm Abiding: The foundational practice that settles a wild, anxious mind into relaxation and ease, creating the stable ground necessary for recognizing mind essence and developing genuine compassion.
+
+## Finding Your Element (finding-your-element) — Psychology & Self-Development
+- `aptitude-assessment-process` — Aptitude Assessment Process: Systematic discovery of natural abilities through reflection, feedback, and testing across diverse activities.
+- `circumstances-as-starting-point` — Circumstances as Starting Point, Not Destination: External constraints shape where you begin your Element search but do not determine where you end up or whether you find it.
+- `discovering-your-passions` — Discovering Your Passions: Identifying what you love through attention to emotional resonance, repeated interests, and intrinsic engagement.
+- `element-tribes` — Element Tribes: Communities bound by shared passion that provide affirmation, mentorship, collaboration, and inspiration for your Element.
+- `exposure-access-discovery` — Exposure and Access: You Cannot Discover What You Have Not Encountered: Aptitudes and passions remain latent without access to the domain where they can emerge and be recognized.
+- `mindset-and-self-imposed-barriers` — Mindset and Self-Imposed Barriers: The Angle from Which You See: Your belief about whether you can develop determines whether obstacles become barriers or starting points for growth.
+- `passion-aptitude-gap` — The Passion-Aptitude Gap and How It Resolves: What happens when you love something you're not good at, or excel at something you don't love—and how movement toward your Element requires addressing both.
+- `the-element` — The Element: Aptitude Meets Passion: The intersection of what you are naturally good at and what you love, where alignment transforms work into calling.
+
+## HBR on Effective Communication (hbr-effective-communication) — Psychology & Self-Development
+- `active-listening-spare-capacity` — Active Listening and Spare Thinking Capacity: Use your brain's excess thinking speed during speech to actively process meaning rather than letting attention wander to unrelated thoughts.
+- `building-on-ideas` — Building on Ideas Rather Than Rejecting Them: When offering feedback on others' ideas, lead with what you find valuable, then raise concerns as problems to solve together, not flaws to dismiss.
+- `constructive-conflict` — Constructive Conflict in Management Teams: Healthy substantive conflict over decisions improves decision quality and speed; interpersonal conflict slows decision-making. Separate the two.
+- `emotional-filters-listening` — Emotional Filters in Listening: Our emotions act as selective gatekeepers, blocking information that contradicts our beliefs and welcoming information that confirms them, unless we actively manage this tendency.
+- `facts-over-slogans` — Facts Over Slogans in Organizational Change Communication: Frontline employees are cynical of mission statements and slogans; authentic change communication requires simple facts delivered face-to-face, without flourish.
+- `listening-for-ideas` — Listening for Ideas, Not Just Facts: Reconstruct the speaker's underlying ideas from their words; facts are scaffolding, not the building itself.
+- `meeting-functions` — The Six Functions of Meetings: Meetings serve irreplaceable functions beyond information transfer: defining group identity, building shared knowledge, aligning understanding, creating commitment.
+- `organizational-defensive-routines` — Organizational Defensive Routines: People skillfully use social techniques to avoid upsetting others, producing the opposite effect: miscommunication, suspicion, and undiscussable issues.
+- `reading-nonverbal-messages` — Reading Nonverbal Messages and Hidden Communication: More than 90% of communication between two people comes from facial expression and tone of voice; nonverbal channels carry messages too risky to say aloud.
+- `trust-foundations` — The Four Foundations of Trust: Fairness, Competence, Predictability, Candor: Trust is built through fairness in judgment, demonstrated competence, consistent behavior, and honest communication; it is fragile and easily destroyed.
 
 ## How Learning Works (how-learning-works) — Psychology & Self-Development
 - `development-climate-interaction` — Student Development and Climate Interaction: A learner's stage of social-emotional development and the emotional climate of the room jointly determine whether intellectual engagement is even possible.

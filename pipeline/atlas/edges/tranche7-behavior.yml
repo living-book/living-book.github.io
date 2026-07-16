@@ -1,0 +1,198 @@
+# Lens: BEHAVIOR, CONDITIONING & DRIVE
+# Anchor books: dont-shoot-the-dog, awaken-the-giant-within,
+# breaking-the-habit-of-being-yourself, 10x-rule, daily-self-discipline,
+# confidence-meadows, factory-of-one
+
+# --- Tensions (contradicts / tempers) ---
+
+- from: gospel-of-10x
+  verb: tempers
+  to: 10x-targets
+  why: >-
+    Both inflate targets far beyond realistic to unlock extra effort, but OKR's
+    split into committed versus ~40%-expected-to-fail aspirational goals names
+    the condition 10x-targets omits: stretch goals only work when failure is
+    pre-sanctioned, not treated as unacceptable.
+
+- from: two-minute-rule
+  verb: contradicts
+  to: massive-action
+  why: >-
+    Massive action demands ten times the estimated effort up front; the
+    two-minute rule gets the same extraordinary outcome by shrinking the
+    entry action below the threshold that triggers resistance, scaling only
+    after the behavior is automatic — opposite entry points to one goal.
+
+- from: precision-targeting-not-broad-effort
+  verb: tempers
+  to: burn-the-place-down
+  why: >-
+    Burn-the-place-down prescribes continuous escalation on every front to
+    outpace competitors; Simplexity shows that where effort and results are
+    radically disproportionate, one exact leverage point beats spreading
+    effort evenly, so undirected escalation burns fuel without buying ground.
+
+- from: rewards-punish
+  verb: contradicts
+  to: positive-reinforcement
+  why: >-
+    Kohn argues any consequence used to control behavior — reward or
+    punishment — is the same coercive lever and a withheld reward feels like
+    punishment, directly rejecting Pryor's claim that reinforcement, defined
+    strictly by its effect on future behavior, is a distinct, benign tool.
+
+- from: meaningful-work
+  verb: tempers
+  to: variable-reinforcement-schedules
+  why: >-
+    Variable schedules claim intermittent reinforcement alone maximizes
+    response strength regardless of content; the Progress Principle shows
+    reward only fuels sustained performance when the underlying work feels
+    meaningful to the doer — the schedule can't manufacture that meaning.
+
+- from: alternative-explanations
+  verb: tempers
+  to: mental-rehearsal
+  why: >-
+    Mental rehearsal claims imagined experience alone produces measurable
+    neurological and chemical change ahead of real experience; ruling out
+    competing explanations — placebo, expectancy, selection — is required
+    before that causal claim can be accepted, and popular framings rarely do.
+
+# --- Parallels / instantiates / formalizes ---
+
+- from: root-cause-five-whys
+  verb: instantiates
+  to: five-whys
+  why: >-
+    Both repeatedly ask "why" past the first plausible cause to reach the
+    actual root cause before acting; A Factory of One applies TPS's shop-floor
+    technique verbatim to personal work problems instead of line defects.
+
+- from: pdca-personal-scientific-method
+  verb: parallels
+  to: countermeasures-as-hypotheses
+  why: >-
+    Both frame every improvement attempt as a testable hypothesis rather than
+    a permanent fix — PDCA's Check step and value-stream mapping's
+    "countermeasure" language each build in the expectation of revision from
+    measured results, not gut feel or ego investment.
+
+- from: visible-calendar-kanban
+  verb: parallels
+  to: rhythm-and-slack
+  why: >-
+    Both use a visual pull signal that must carry built-in slack, because a
+    calendar or board packed edge-to-edge with commitments transmits every
+    variation in real work straight into failure instead of absorbing it.
+
+- from: standardized-work-habits
+  verb: parallels
+  to: rule-taxonomy
+  why: >-
+    Both codify repeatable decisions into fixed how-to rules so conscious
+    attention is freed for genuinely novel judgment calls, rather than
+    re-deciding routine matters — a habit or a how-to rule — from scratch
+    every time.
+
+- from: customer-value-identification
+  verb: parallels
+  to: jobs-to-be-done
+  why: >-
+    Both insist the real unit of analysis is the underlying value or job
+    someone is trying to get done, distinct from the task or title in front
+    of them, and that clarifying it must precede deciding what to build or do.
+
+- from: locus-of-control
+  verb: parallels
+  to: managing-by-means
+  why: >-
+    Both redirect agency toward the controllable input — your actions, or the
+    process producing results — rather than the uncontrollable output, on the
+    premise that mastering the means is what actually determines the end.
+
+- from: mastery-through-small-wins
+  verb: parallels
+  to: progress-loop
+  why: >-
+    Both describe a self-reinforcing loop in which a small completed
+    increment produces a felt gain that fuels belief and effort toward the
+    next increment, compounding into resilience or momentum over time.
+
+- from: adversity-as-teacher
+  verb: parallels
+  to: antifragility
+  why: >-
+    Both claim exposure to stress is the mechanism of growth itself, not
+    merely something survived — voluntary discomfort builds discipline the
+    same way volatility strengthens a system that gains from disorder.
+
+- from: rules-the-judge-and-jury
+  verb: parallels
+  to: evaporating-cloud
+  why: >-
+    Both locate the real lever not in the presenting situation — a ruined
+    eclipse, an organizational stalemate — but in an unexamined, often
+    arbitrary assumption behind it, which dissolves the trouble once
+    surfaced rather than requiring negotiation with the situation itself.
+
+- from: global-metaphors
+  verb: parallels
+  to: multiframe-thinking
+  why: >-
+    Both claim the overarching lens applied to a situation — a life metaphor
+    or an organizational frame — is not neutral commentary but instantly
+    reshapes perception, decisions, and emotional response across a domain.
+
+- from: metacognition
+  verb: parallels
+  to: mental-models
+  why: >-
+    Both require making an otherwise-automatic, invisible cognitive structure
+    — a habitual pattern or a tacit mental model — visible to conscious
+    inspection before it can be tested, questioned, or revised.
+
+- from: survival-vs-creation
+  verb: parallels
+  to: inner-work-life-effect
+  why: >-
+    Both reject stress as the driver of peak performance: inner-work-life-effect's
+    diary-study data show creativity, productivity, and collegiality rise and fall
+    with positive inner state rather than pressure, and survival-vs-creation names
+    the same pattern in physiological terms — a threat-driven nervous-system mode
+    that, on Dispenza's account, closes off the prefrontal cortex's creative
+    capacity until the person shifts into a calmer, elevated state.
+
+- from: work-processing-4ds
+  verb: parallels
+  to: task-shape-patterns
+  why: >-
+    Both reject one uniform workflow for incoming work, instead sorting each
+    item into a differently handled track by its type — Do/Defer/Delegate/
+    Delete versus repetitive/project/emergency/backlog — before it enters flow.
+
+- from: thinking-feeling-loop
+  verb: instantiates
+  to: feedback-loops
+  why: >-
+    The reciprocal cycle where thought produces body chemistry that in turn
+    drives the next thought is a specific reinforcing loop — the same
+    delayed, self-sustaining circle of causality systems thinking treats as
+    its basic vocabulary.
+
+- from: emotions-as-action-signals
+  verb: parallels
+  to: andon
+  why: >-
+    Both treat a distress signal — an emotion, or a red andon light — as
+    required information rather than noise to suppress, and both call for
+    stopping to address the root cause immediately instead of pushing through.
+
+- from: shaping-successive-approximation
+  verb: parallels
+  to: batch-size-economics
+  why: >-
+    Both replace one all-or-nothing jump with a sequence of smaller,
+    closely-spaced increments — reinforcing each approximation, or shipping
+    each smaller batch — because small steps let you correct course before
+    a big commitment locks in the risk of a large one.
