@@ -1,0 +1,227 @@
+- from: stable-teams
+  verb: parallels
+  to: critical-chain
+  why: >-
+    Both treat splitting capacity across concurrent commitments as the real
+    throughput killer: critical chain pools slack to defeat "bad multitasking"
+    the same way stable teams avoid the hidden cost of context-switching
+    between projects.
+
+- from: unified-sdlc-data-collection
+  verb: parallels
+  to: systems-of-intelligence
+  why: >-
+    Both replace siloed, single-system views with one aggregated store
+    spanning previously separate systems, unlocking cross-system questions —
+    code quality vs. deployment frequency, or usage vs. infrastructure health —
+    no individual system could answer alone.
+
+- from: staged-release-audiences
+  verb: parallels
+  to: bullseye-framework
+  why: >-
+    Both move through concentric rings of increasing commitment — dog food to
+    early adopters to preview to public, or brainstorm to cheap test to
+    focused bet — validating cheaply at each ring before the next carries
+    real stakes.
+
+- from: empirical-process-control
+  verb: parallels
+  to: continuous-issues-strategy
+  why: >-
+    Both discard infrequent, big-batch planning cycles for continuous,
+    frequent inspection-and-adjustment: empirical process control adapts
+    sprint-by-sprint the same way continuous issues-focused strategy replaces
+    annual planning with rolling cross-unit resolution.
+
+- from: distributed-agility-dimensions
+  verb: parallels
+  to: strategic-in-person-moments
+  why: >-
+    Both rank the human dimension above the technological one:
+    distributed-agility-dimensions puts people-based agility first among
+    eight factors, and strategic in-person moments invests scarce
+    face-to-face time because trust, not tooling, makes remote coordination
+    work.
+
+- from: distributed-feature-teams
+  verb: parallels
+  to: distributed-autonomy-with-trust
+  why: >-
+    Both solve distribution by moving from central oversight to trust-based
+    local ownership: feature teams get end-to-end authority over their slice
+    because real-time supervision across locations is impractical, the same
+    reasoning behind distributed autonomy.
+
+- from: value-delivery-management
+  verb: extends
+  to: business-model-canvas
+  why: >-
+    VDM explicitly incorporates Osterwalder's Business Model Canvas as one of
+    its extended-enterprise-modeling tools, then adds capability-based
+    architecture and business collaboration modeling atop it to model value
+    creation, delivery, and capture across an entire enterprise, not one
+    business model.
+
+- from: scorecard-leading-indicators
+  verb: instantiates
+  to: leading-and-lagging-indicators
+  why: >-
+    EOS's weekly scorecard of 5-15 numbers is a concrete case of the general
+    principle: it deliberately tracks leading indicators so deviation is
+    caught while there's still time to act, not after the lagging outcome
+    arrives.
+
+- from: kanban-as-method
+  verb: parallels
+  to: values-based-governance
+  why: >-
+    Both govern through a few explicit principles applied with local judgment
+    rather than a prescribed procedure: Kanban's change-management and
+    service-delivery principles guide adaptation without dictating steps, the
+    same latitude values-based governance's boundaries give decision-makers
+    instead of rules and budgets.
+
+- from: commonality-variation
+  verb: parallels
+  to: architecturally-significant-requirements
+  why: >-
+    Both organize design around a small, stable, decision-worthy subset
+    versus a larger changeable remainder: commonality anchors what stays
+    fixed against what varies, the same split ASRs use to isolate what shapes
+    structure from absorbable detail.
+
+- from: dci-architecture
+  verb: parallels
+  to: conceptual-models
+  why: >-
+    Both insist a system only works when its structure mirrors the user's own
+    mental model: DCI encodes domain mental models directly into data,
+    context, and role objects, the same way correct behavior requires a
+    correct system image.
+
+- from: domain-driven-form
+  verb: parallels
+  to: tacit-explicit-knowledge-blend
+  why: >-
+    Both hold that structure is valid only when grounded in a community's
+    real, tacit domain expertise: domain-driven-form rejects speculative
+    frameworks the way codified knowledge only works when built by the
+    community that already understands it tacitly.
+
+- from: form-over-implementation
+  verb: parallels
+  to: effectiveness-over-efficiency
+  why: >-
+    Both impose the same strict priority order: deciding form, the essential
+    what, must precede implementation, the how, just as effectiveness —
+    choosing the right thing — is foundational and efficiency only matters
+    once that choice is settled.
+
+- from: embedded-specialist-teams
+  verb: parallels
+  to: informal-structure-complements-formal
+  why: >-
+    Both add a deliberate cross-cutting layer atop local structure to
+    preserve system-wide coherence: specialists stay embedded locally but
+    also join a virtual team, the same dual arrangement that lets an informal
+    network repair what reorganization severed.
+
+- from: jobs-centric-organization
+  verb: tempers
+  to: feature-teams
+  why: >-
+    Reorganizing around features only fixes local optimization if paired with
+    integrated processes and job-aligned metrics; jobs-centric-organization
+    shows most companies still lack a true job owner, so structure alone
+    won't achieve real customer-job ownership.
+
+- from: five-rules-learning
+  verb: parallels
+  to: goldilocks-rule
+  why: >-
+    Both name the same optimum: peak engagement occurs exactly at the edge
+    between comfort and difficulty, where challenge matches skill — "focus on
+    flow" and the Goldilocks Rule both fail toward boredom below that edge and
+    anxiety above it.
+
+- from: team-context-understanding
+  verb: parallels
+  to: political-frame
+  why: >-
+    Both insist a team must make its stakeholder and power landscape explicit
+    rather than treat the organization as neutral: naming boundaries, roles,
+    and constraints is the political-frame move of mapping competing
+    legitimate interests before acting.
+
+- from: team-purpose-craft
+  verb: parallels
+  to: worthwhile-vs-instrumental-goal
+  why: >-
+    Both distinguish a goal pursued for its own inspirational value from one
+    pursued only as a means: team purpose's vision must read as worthwhile in
+    itself, the same distinction separating lasting enthusiasm from fragile
+    compliance.
+
+- from: learning-organization-culture
+  verb: instantiates
+  to: learning-organization
+  why: >-
+    The claim that agile thrives only in a culture of continuous improvement
+    and learning-from-failure is a concrete case of Senge's general learning
+    organization: an entity that expands its capacity to create what it truly
+    wants.
+
+- from: flexible-deployment
+  verb: parallels
+  to: competency-trap
+  why: >-
+    Both name the same risk from opposite directions: flexible deployment
+    builds breadth beyond one's job spec precisely because overinvesting in
+    the narrow skills that made someone successful becomes a trap once real
+    demands expand past it.
+
+- from: alternative-progress-visualization
+  verb: parallels
+  to: artifacts-as-external-memory
+  why: >-
+    Both convert an otherwise-intangible, in-people's-heads state into a
+    shared external artifact — a burnup chart or a sticky note — so the group
+    can look at, discuss, and reason about it together rather than each
+    holding it privately in working memory.
+
+- from: t-shaped-shared-responsibility
+  verb: parallels
+  to: t-shaped-mathematical-scientist
+  why: >-
+    Both use the identical T-shape to describe what's valuable at a shifting
+    frontier: depth in one discipline paired with enough breadth to
+    collaborate and translate across boundaries, whether in a software team
+    or a mathematical science.
+
+- from: manifold-hypothesis
+  verb: parallels
+  to: expert-chunking
+  why: >-
+    Both exploit the same regularity: what actually occurs clusters on a far
+    lower-dimensional surface than the full combinatorial space allows,
+    whether it's real-world data near a manifold or an expert's chunked
+    patterns replacing raw, exhaustively-tracked detail.
+
+- from: solution-method-mistaken-for-problem
+  verb: tempers
+  to: graph-colouring-as-constraint-model
+  why: >-
+    Recasting a problem as a graph-colouring model is exactly the kind of
+    solution technique that risks being mistaken for the problem itself; the
+    reframe only helps if the client's actual question, not the elegant
+    structural model, stays the real target.
+
+- from: attribute-driven-design
+  verb: parallels
+  to: issue-trees
+  why: >-
+    Both recursively decompose a complex whole into parts, validating each
+    branch before moving to the next: ADD picks a system part and tests it
+    against requirements the same way an issue tree breaks a hypothesis into
+    sub-questions proved or disproved in turn.
