@@ -439,7 +439,7 @@ function renderMap() {
 
   // pan/zoom — capture only after real movement so node clicks still land
   let drag = null, panned = false;
-  svg.addEventListener('pointerdown', e => { drag = { x: e.clientX, y: e.clientY, id: e.pointerId }; panned = false; });
+  svg.addEventListener('pointerdown', e => { clearInterval(centerAnim); drag = { x: e.clientX, y: e.clientY, id: e.pointerId }; panned = false; });
   svg.addEventListener('pointermove', e => {
     if (!drag) return;
     if (!panned) {
@@ -454,6 +454,7 @@ function renderMap() {
   svg.addEventListener('pointercancel', endPan);
   svg.addEventListener('wheel', e => {
     e.preventDefault();
+    clearInterval(centerAnim);
     const r = svg.getBoundingClientRect();
     const mx = e.clientX - r.left, my = e.clientY - r.top;
     const k2 = Math.max(.25, Math.min(4, view.k * (e.deltaY < 0 ? 1.15 : .87)));
@@ -475,6 +476,33 @@ function fitView() {
 }
 function applyView() { gRoot.setAttribute('transform', `translate(${view.x},${view.y}) scale(${view.k})`); }
 
+/* glide the view so a node lands in the centre of the uncovered map area */
+let centerAnim = 0;
+function centerOn(id) {
+  const n = nodes.find(n => n.id === id);
+  if (!n) return;
+  // target recomputed each frame — opening the card/results shifts the svg box mid-glide
+  const target = () => {
+    const r = svg.getBoundingClientRect();
+    const card = document.getElementById('card');
+    let cw = card.classList.contains('open') ? card.offsetWidth : 0;
+    if (cw > r.width * .6) cw = 0; // card covers the map (mobile) — centre in full view
+    return [(r.width - cw) / 2 - n.x * view.k, r.height / 2 - n.y * view.k];
+  };
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    [view.x, view.y] = target(); applyView(); return;
+  }
+  const sx = view.x, sy = view.y, t0 = performance.now();
+  clearInterval(centerAnim);
+  centerAnim = setInterval(() => {
+    const p = Math.min(1, (performance.now() - t0) / 500), e = 1 - Math.pow(1 - p, 3);
+    const [tx, ty] = target();
+    view.x = sx + (tx - sx) * e; view.y = sy + (ty - sy) * e;
+    applyView();
+    if (p >= 1) clearInterval(centerAnim);
+  }, 16);
+}
+
 /* ---------- selection: light the routes ---------- */
 function select(id, scroll) {
   sel = id;
@@ -490,6 +518,7 @@ function select(id, scroll) {
     if (on) { void p.getBoundingClientRect(); p.classList.add('draw'); }
   });
   renderCard(c);
+  centerOn(id);
   renderResults();
   history.replaceState(null, '', '#' + id);
   if (scroll) document.getElementById('card').scrollTop = 0;
