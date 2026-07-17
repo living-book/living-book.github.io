@@ -1,0 +1,161 @@
+- from: channel-saturation
+  verb: tempers
+  to: omnipresence-strategy
+  why: >-
+    Every distribution channel decays in effectiveness as competitors crowd it, so
+    "being everywhere" is itself a saturating strategy whose returns erode exactly
+    as it succeeds, limiting how long omnipresence stays effective.
+
+- from: intrinsic-motivation-framework
+  verb: tempers
+  to: success-as-duty
+  why: >-
+    SDT distinguishes autonomous motivation from introjected, obligation-based
+    motivation; duty-framing, even when self-chosen, is introjected regulation that
+    research shows sustains effort less reliably than genuine autonomy-mastery-purpose
+    alignment, complicating the claim that duty outlasts desire.
+
+- from: critical-thinking
+  verb: instantiates
+  to: system-1-system-2
+  why: >-
+    Critical thinking's habits — checking assumptions, weighing evidence, deferring
+    judgment — are a concrete case of deliberately recruiting effortful System 2 to
+    catch System 1's fast, error-prone defaults, the same move behind checklists.
+
+- from: divergent-thinking-toolkit
+  verb: instantiates
+  to: groupthink-mitigation
+  why: >-
+    Role-play, simulation, conceptual models, and point-counterpoint are a concrete
+    leadership implementation of groupthink mitigation's general goal: manufacturing
+    genuine dissent a cohesive group would not otherwise generate.
+
+- from: promise-of-reward
+  verb: formalizes
+  to: pain-pleasure-dynamic
+  why: >-
+    Dopamine research shows wanting and liking are separate circuits — the promised
+    reward drives craving without delivering satisfaction — giving a precise
+    neurological mechanism for chasing short-term pleasure over fulfillment.
+
+- from: boulders-and-knapsacks
+  verb: parallels
+  to: whose-problem-is-it
+  why: >-
+    Both hinge on correctly assigning ownership before intervening — crisis burdens
+    versus routine ones, or a problem's true experiencer versus a convenient helper —
+    because misassigning it produces either dependence or an unsolved problem.
+
+- from: intentional-living-inner-focus
+  verb: parallels
+  to: witnessing-thought
+  why: >-
+    Both locate self-discipline in the same mechanism — observing your thought
+    stream as an object rather than being fused with it — stripping habitual
+    thoughts of their automatic grip and creating room for deliberate action.
+
+- from: transfer-of-learning
+  verb: tempers
+  to: physical-mastery-foundation
+  why: >-
+    Transfer research shows skill built in one context rarely migrates automatically
+    to unrelated domains without deliberate abstraction of underlying principles,
+    complicating the claim that physical discipline broadly compounds life-wide.
+
+- from: stimulus-control-putting-behavior-on-cue
+  verb: parallels
+  to: environment-design
+  why: >-
+    Both eliminate unwanted behavior by controlling the antecedent cue rather than
+    fighting the behavior itself — withholding a trained signal, or hiding a habit's
+    trigger — extinguishing the response without punishment or willpower.
+
+- from: entity-vs-incremental-theory
+  verb: contradicts
+  to: eq-independent-from-iq
+  why: >-
+    Dweck's research argues treating any ability as an immutable fixed trait is
+    often empirically wrong and self-limiting, directly challenging the claim that
+    IQ and personality are simply fixed while only EQ can be trained.
+
+- from: criterion-for-reality
+  verb: contradicts
+  to: illusion-and-appearance
+  why: >-
+    Deutsch's criterion holds that vivid, complex, autonomous phenomena that "kick
+    back" count as genuinely real, directly opposing the claim that such vivid
+    appearances remain fundamentally unfindable, like a dream.
+
+- from: circumstances-as-starting-point
+  verb: parallels
+  to: no-place-is-exile
+  why: >-
+    Both argue an external, contingent condition — where you begin, or where you are
+    located — does not touch the essential thing, because the given starting point
+    constrains only the route taken, not the destination reached.
+
+- from: passion-aptitude-gap
+  verb: parallels
+  to: capitalization-vs-compensation-learning
+  why: >-
+    Both distinguish an easy path built directly on existing strength or love from a
+    harder, mismatch-driven path that must forcibly bridge what's lacking, noting the
+    harder path, once resolved, often produces deeper mastery.
+
+- from: self-directed-learning-cycle
+  verb: parallels
+  to: pdca-personal-scientific-method
+  why: >-
+    Both are personal self-regulation loops — assess, plan, monitor, adjust, or
+    Plan-Do-Check-Act — that convert improvement from guesswork into a repeatable,
+    hypothesis-testing cycle applied by the individual to their own performance.
+
+- from: knowledge-organization-big-ideas
+  verb: parallels
+  to: expert-chunking
+  why: >-
+    Both locate expert superiority in structure, not raw capacity — organizing
+    knowledge around fundamental principles, or compressing recurring patterns into
+    chunks — freeing resources that novices waste holding isolated facts.
+
+- from: choking-on-thought
+  verb: parallels
+  to: inner-game-awareness
+  why: >-
+    Both explain skilled-performance breakdown the same way: the slow, verbal
+    conscious channel intrudes on and disrupts an already-automatized nonverbal
+    skill, so deliberate self-monitoring degrades the very performance it protects.
+
+- from: storage-vs-retrieval-strength
+  verb: formalizes
+  to: desirable-difficulties
+  why: >-
+    Bjork's dual-strength memory theory gives the precise mechanism behind desirable
+    difficulties: spacing and interleaving feel harder because they lower momentary
+    retrieval strength, but that added effort is what builds durable storage strength.
+
+- from: underdo-your-competition
+  verb: instantiates
+  to: simplicity-requires-trade-offs
+  why: >-
+    Deliberately shipping less than competitors is a concrete business case of the
+    general principle that simplicity is bought by sacrificing comprehensiveness,
+    turning the restraint that limits feature scope into the product's selling point.
+
+- from: control-problem
+  verb: extends
+  to: principal-agent-problem
+  why: >-
+    Bostrom calls this "the second principal-agent problem": standard contracts
+    solve ordinary delegation, but once the agent can out-plan its principal,
+    those tools fail, forcing new mechanisms — capability control and motivation
+    selection — beyond the original framework's scope.
+
+- from: willpower-contagion
+  verb: parallels
+  to: emotional-contagion
+  why: >-
+    Both show an internal state propagating automatically between people through
+    mere observation — willpower success or failure, or an emotional outburst —
+    shaping a whole group's behavior beneath conscious awareness.

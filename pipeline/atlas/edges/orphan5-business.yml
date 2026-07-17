@@ -1,0 +1,279 @@
+- from: customer-obsession-over-competitors
+  verb: tempers
+  to: institutional-imperative
+  why: >-
+    Institutional imperative names an organization's default drift toward mindlessly
+    imitating peers; customer obsession redirects strategic attention to customer
+    signal instead of competitor signal, breaking the mechanism that fuels that drift.
+
+- from: market-leadership-over-short-term-profit
+  verb: parallels
+  to: value-creation-vs-earnings-growth
+  why: >-
+    Both name the same trade-off from different vantage points: sacrificing near-term
+    earnings or profit-maximization for durable market position or cash-flow-based
+    value creation, because the two objectives systematically pull in opposite directions.
+
+- from: affirmative-topic-choice
+  verb: parallels
+  to: asking-different-questions
+  why: >-
+    Both claim the literal wording of a question predetermines what can even appear
+    as an answer, so deliberately reframing toward strengths or toward a different
+    premise reshapes the whole inquiry before any answer is given.
+
+- from: appreciative-4d-cycle
+  verb: contradicts
+  to: eight-step-change-process
+  why: >-
+    Both are fixed-sequence change methodologies, but they disagree on where change
+    must start: Kotter opens with manufactured urgency about what's failing, while
+    the 4-D cycle deliberately refuses problem-framing and opens with strengths-discovery.
+
+- from: innovation-through-conflict
+  verb: parallels
+  to: embrace-constraints
+  why: >-
+    Both argue a binding limitation is not an obstacle to route around but the actual
+    generator of the creative result: a conflict between goals and criteria, or scarcity
+    of time and resources, forces sharper solutions than an unconstrained brief would.
+
+- from: systems-approach-in-design
+  verb: parallels
+  to: local-vs-system-optimization
+  why: >-
+    Both show that optimizing or judging parts in isolation produces a worse
+    integrated result than viewing how parts interact within the whole, whether the
+    parts are design sub-problems or organizational specialties.
+
+- from: asymmetric-competitors
+  verb: instantiates
+  to: strategic-arenas
+  why: >-
+    Threats arriving from a completely different industry with a different business
+    model are exactly the case strategic-arenas warns about: competition mapped by
+    industry misses attackers who don't appear on that map at all.
+
+- from: coopetition
+  verb: parallels
+  to: polarity-mapping
+  why: >-
+    Competing and cooperating with the same party isn't a contradiction to resolve
+    but an ongoing polarity to manage on both sides at once, the same structure
+    polarity-mapping describes for any tension that can't be permanently settled.
+
+- from: administration-entrepreneurship
+  verb: parallels
+  to: four-zones-model
+  why: >-
+    Both split organizational effort into administering-the-present versus
+    creating-the-future so neither smothers the other: Drucker's dual manager task
+    maps onto Zone to Win's performance/productivity zones versus incubation/transformation zones.
+
+- from: customer-creation
+  verb: parallels
+  to: shareholder-value-trap
+  why: >-
+    Drucker names customer-creation as business's true purpose, with profit merely a
+    validity test; shareholder-value-trap independently diagnoses the identical error —
+    a single financial metric substituted for that true purpose — with the same damage.
+
+- from: profitability-limiting-factor
+  verb: parallels
+  to: throughput-accounting
+  why: >-
+    Both demote a profit-like number from goal to signal: Drucker treats profit as
+    a constraint testing validity, and throughput accounting treats per-unit cost
+    as a downstream measure, anchoring real decisions to the true driver instead.
+
+- from: three-management-tasks
+  verb: parallels
+  to: frame-ethics
+  why: >-
+    Both insist responsibility is irreducibly plural — Drucker's three management
+    tasks and Bolman & Deal's four frame-ethics — so excelling at only one dimension
+    still constitutes a real failure, not a mere imperfection, in the others.
+
+- from: activity-accounting-cost-purpose
+  verb: parallels
+  to: value-stream-accounting
+  why: >-
+    Both add a "why" dimension to cost tracking — purpose-based activity codes or
+    direct value-stream assignment — so managers can see what spending is actually
+    for and trade off accordingly, instead of only knowing type and department.
+
+- from: rolling-forecast-trend-reporting
+  verb: parallels
+  to: rolling-wave-planning
+  why: >-
+    Both replace one big upfront commitment with continuously updated short-cycle
+    revisions measured against a trend line, applying the identical mechanism to
+    financial forecasting and to product roadmapping respectively.
+
+- from: capacity-as-financial-metric
+  verb: formalizes
+  to: freed-capacity
+  why: >-
+    Freed-capacity claims eliminating waste frees time rather than headcount;
+    capacity-as-financial-metric gives that claim rigorous, measurable form by
+    decomposing total time into productive, non-productive, and available buffers.
+
+- from: spending-versus-cost-thinking
+  verb: instantiates
+  to: y-equals-f-of-x
+  why: >-
+    Shifting focus from allocated product cost to the operational spending
+    decisions that actually cause it is a direct application of treating cost (Y)
+    as a function of controllable inputs (x) rather than an unexplained output.
+
+- from: elevator-test
+  verb: instantiates
+  to: expertise-through-simplification
+  why: >-
+    Expertise is filtering out the irrelevant until only what matters remains;
+    the elevator test operationalizes exactly this as a diagnostic — if you can't
+    compress your solution to 30 seconds, you haven't actually finished filtering.
+
+- from: intuition-data-balance
+  verb: tempers
+  to: decision-complexity-rule
+  why: >-
+    Decision-complexity-rule cleanly assigns simple decisions to analysis and complex
+    ones to pattern-matching; McKinsey's balance complicates that split, insisting
+    even data-heavy analysis needs an intuitive leap first, and intuition needs data after.
+
+- from: pareto-80-20-rule
+  verb: instantiates
+  to: power-law-distributions
+  why: >-
+    The 80/20 heuristic is a named, practical case of the same heavy-tailed
+    distribution power-law-distributions describes formally: a small fraction of
+    causes accounting for a disproportionate share of effect.
+
+- from: prewiring
+  verb: contradicts
+  to: whole-system-in-the-room
+  why: >-
+    Prewiring builds consensus through private, sequential one-on-one briefings so
+    no one is surprised in the room; Open Space's whole-system approach deliberately
+    collapses that sequencing, betting live collective engagement beats pre-negotiation.
+
+- from: organizational-sensemaking
+  verb: parallels
+  to: words-create-worlds
+  why: >-
+    Both claim organizational reality isn't discovered but continuously produced
+    through the language and interpretive acts of members — meaning is enacted
+    through discourse and dialogue, not perceived from a pre-existing world.
+
+- from: problem-absorption
+  verb: parallels
+  to: preconceptions-must-be-engaged
+  why: >-
+    Both describe assimilation as double-edged: organizations absorb novel cases by
+    extending existing rule categories, and learners fit new facts into existing
+    beliefs — helpful for continuity but a trap unless reflected on and revised.
+
+- from: data-information-knowledge-understanding-wisdom
+  verb: parallels
+  to: noisy-channel-capacity
+  why: >-
+    Both define information identically as resolved uncertainty — DIKUW's second
+    rung and Shannon's channel-capacity theory converge on the same technical
+    definition, one framed as an organizational hierarchy, the other as a hard limit.
+
+- from: development-vs-growth
+  verb: parallels
+  to: productivity-vs-effectiveness
+  why: >-
+    Both insist on separating quantity-of-activity measures from quality-of-capability
+    measures and warn that conflating them means optimizing the wrong one: growth
+    versus development, and productivity versus effectiveness.
+
+- from: interactive-planning
+  verb: extends
+  to: idealized-design
+  why: >-
+    Interactive planning takes idealized design as one component and adds mess
+    formulation, means and resource planning, and embedded learning systems — turning
+    a single design technique into a complete planning methodology.
+
+- from: implementable-validity
+  verb: parallels
+  to: executable-specifications
+  why: >-
+    Both insist a claim of knowledge is only real once it can be executed to
+    produce the intended result in an actual context, not merely internally
+    coherent — implementable validity in organizations, executable specs in software.
+
+- from: five-step-process
+  verb: instantiates
+  to: prescriptive-normative-knowledge
+  why: >-
+    Dalio's five-step loop — set goals, diagnose problems, design a plan, execute —
+    is a concrete working case of prescriptive-normative knowledge's abstract
+    requirement: specify not just how things are but the path to a desired state.
+
+- from: managing-by-output-not-presence
+  verb: contradicts
+  to: managing-by-means
+  why: >-
+    Both reject managing by presence or activity, but prescribe opposite
+    replacements: remote-work orthodoxy says evaluate by output and deliverables,
+    while Toyota Kata insists managing the result directly is wrong — only the process counts.
+
+- from: customer-value-principles-framework
+  verb: contradicts
+  to: taylorism-and-modern-management
+  why: >-
+    This framework is explicitly built to replace mass-production, Taylorist
+    management theory with customer-purpose-centered design; taylorism-and-modern-management
+    documents exactly the entrenched paradigm it argues must be overturned.
+
+- from: cheap-traction-tests
+  verb: instantiates
+  to: mvp-test-matrix
+  why: >-
+    Cheap, time-bound channel experiments are a concrete case of the matrix's
+    marketing-axis MVP tests: small, bounded spend used to validate an assumption
+    before committing real budget, rather than a product-side prototype.
+
+- from: fifty-percent-rule
+  verb: parallels
+  to: flow-distribution
+  why: >-
+    Both reject letting the effort-split between competing work types happen as an
+    unconscious default, instead treating the ratio — product-vs-traction, or
+    feature-vs-defect-vs-risk-vs-debt — as a deliberate dial to set and revisit on purpose.
+
+- from: gwc-get-it-want-it-capacity
+  verb: instantiates
+  to: picking-people
+  why: >-
+    GWC is a concrete, operationalized version of Drucker's claim that hiring can
+    be made a reliable discipline rather than an intuitive gift — a fixed,
+    binary three-part test replacing a manager's unstructured judgment.
+
+- from: integrator-visionary-split
+  verb: tempers
+  to: administration-entrepreneurship
+  why: >-
+    Drucker says every manager must administer the present and act
+    entrepreneurially for the future; EOS observes these are different enough
+    temperaments that most organizations need two separate roles, not one person doing both.
+
+- from: rocks-90-day-priorities
+  verb: parallels
+  to: sprint-timebox
+  why: >-
+    Both convert a long-term vision into a short, fixed, non-negotiable time-boxed
+    commitment to create focus and rhythm — 90-day Rocks and the 30-day Sprint are
+    the same mechanism at different scales.
+
+- from: market-fundamentals-vs-sentiment
+  verb: formalizes
+  to: mr-market
+  why: >-
+    McKinsey's informed-trader/noise-trader model, empirically validated across two
+    centuries of returns and P/E ratios, gives rigorous quantitative form to Graham's
+    folksy Mr. Market parable: prices oscillate around fundamental value and revert to it.

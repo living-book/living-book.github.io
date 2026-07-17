@@ -179,3 +179,9 @@ docs/atlas/webmcp.js — the atlas as callable tools for in-browser AI agents (C
 - ?demo query param replays a scripted agent session through the same tool defs (tensions → lens on/off → connect feedback-loops→identity-based-habits → hop-by-hop focus walk w/ why-toasts → reset). Works with zero WebMCP support — actuation demo needs no Gemini.
 - Origin-trial token placeholder comment in both pages' head; local testing via chrome://flags/#enable-webmcp-testing.
 - Smoke: stubbed document.modelContext via addInitScript — 6 tools register on 2D, 7 on 3D; all executes verified incl. 7-hop path, domain-filtered tensions, miss handling; ?demo run error-free both pages. mkdocs --strict clean. Gotcha: stale http.server from old session held port 8931 serving old tree — always fresh port.
+
+## Orphan pass 5 (user: "orphan pass 5" 2026-07-16). Branch orphan-pass-5 off main (post PR #17).
+202 orphans → pipeline/atlas/orphans5/ORPHANS.md (Psych 64, Biz 51, Agile 49, Lead 26, Sys 7, Tech 5); EDGES-EXISTING regen (1274).
+- [x] 4 Sonnet weavers: 163 edges (psych 48, business 45, agile-tech 44, leadership-systems 26); 170/202 linked claim (84%); 32 honest residue (N-factor taxonomies, Dzogchen core, energy quadrants, generic listicles).
+- [x] 2 Sonnet verifiers (kill-default): kept 103/163 (63% survival — psych 48→20, biz 45→35, agile 44→25, lead-sys 26→23). edso-chemistry⇒elevated-emotion laundering killed AGAIN (pass-4 kill re-proposed with formalizes); queueing-theory⇒demand-capacity-balance killed (no math apparatus in target); control-problem re-verbed instantiates→extends principal-agent-problem. Verifier A note: its verification forks raced on file edits — it cross-checked all forks and hand-fixed 2 fork-introduced errors (one direction bug).
+- [x] rebuild: 221 books, 1551 concepts, 1386 edges (78% cross-domain; tempers 206, contradicts 63), orphans 202→93; corpus 1743 chunks; mkdocs strict clean; smoke: WebMCP tools both pages + 2D centering PASS.
