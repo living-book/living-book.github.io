@@ -7,6 +7,7 @@
   nav.className = 'app-links';
   nav.setAttribute('aria-label', 'Living Books apps');
   nav.innerHTML =
+    '<a href="/shelf/">Shelf</a>' +
     '<a href="/ask/">Ask</a>' +
     '<a href="/atlas/">Atlas</a>' +
     '<a href="/atlas/3d/">◈ 3D</a>';
