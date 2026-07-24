@@ -41,7 +41,8 @@ function leafAppearance(d) {
 
 const svg = d3.select("svg");
 const g = svg.append("g");
-svg.call(d3.zoom().scaleExtent([0.2, 4]).on("zoom", (e) => g.attr("transform", e.transform)));
+const zoom = d3.zoom().scaleExtent([0.2, 4]).clickDistance(10).on("zoom", (e) => g.attr("transform", e.transform));
+svg.call(zoom);
 
 const width = window.innerWidth, height = window.innerHeight;
 const radius = Math.min(width, height) / 2 - 90;
@@ -124,7 +125,11 @@ function update(source) {
   nodes.forEach(d => { d.x0 = d.x; d.y0 = d.y; });
 }
 
-g.attr("transform", `translate(${width / 2},${height / 2})`);
+// Center via the zoom itself so g's transform and d3-zoom's internal state start in
+// sync. Setting g.transform directly left the zoom thinking the view was at the origin,
+// so the first pointer gesture per page load snapped the diagram to the top-left and
+// swallowed the click that should have opened the linked page.
+svg.call(zoom.transform, d3.zoomIdentity.translate(width / 2, height / 2));
 update(root);
 
 </script>
